@@ -4,9 +4,11 @@
 
 [32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}[39m
 [32mINFO[39m [33m PlaywrightCrawler:[39m Starting the crawler.
+[33mWARN[39m [33m PlaywrightCrawler:[39m Reclaiming failed request back to the list or queue. Request blocked - received 403 status code.
+[90m {"id":"0Vvol42wjzypuuC","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=FeiNumber&inquiryDirectionType=ForwardList&searchNameOrder=475125953&SearchTerm=47-5125953","retryCount":1}[39m
 [32mINFO[39m  "47-5125953": 0 saved, 1 in flight (end of matches)
 [32mINFO[39m [33m PlaywrightCrawler:[39m All requests from the queue have been processed, the crawler will shut down.
-[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":2,"requestsFailed":0,"retryHistogram":[2],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":1864,"requestsFinishedPerMinute":28,"requestsFailedPerMinute":0,"requestTotalDurationMillis":3728,"requestsTotal":2,"crawlerRuntimeMillis":4342}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":2,"requestsFailed":0,"retryHistogram":[1,1],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":1573,"requestsFinishedPerMinute":19,"requestsFailedPerMinute":0,"requestTotalDurationMillis":3145,"requestsTotal":2,"crawlerRuntimeMillis":6461}[39m
 [32mINFO[39m [33m PlaywrightCrawler:[39m Finished! Total 2 requests: 2 succeeded, 0 failed.[90m {"terminal":true}[39m
 [32mINFO[39m  Done. 1 entities saved for 1 search term(s).
 items: 1

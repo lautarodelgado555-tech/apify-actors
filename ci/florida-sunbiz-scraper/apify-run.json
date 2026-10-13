@@ -1,10 +1,10 @@
 {
   "data": {
-    "id": "lvahAPGbm1wYcln3X",
+    "id": "Pp4y2BLYLroJU0ADj",
     "actId": "CMZgu5pK5biEMTPVc",
     "userId": "ejg6JY7N3cozjC5Ny",
-    "startedAt": "2026-10-13T21:54:01.516Z",
-    "finishedAt": "2026-10-13T21:55:22.483Z",
+    "startedAt": "2026-10-13T22:01:18.889Z",
+    "finishedAt": "2026-10-13T22:02:21.942Z",
     "status": "SUCCEEDED",
     "statusMessage": "Finished! Total 10 requests: 10 succeeded, 0 failed.",
     "isStatusMessageTerminal": true,
@@ -17,19 +17,19 @@
       "migrationCount": 0,
       "rebootCount": 0,
       "restartCount": 0,
-      "durationMillis": 80813,
+      "durationMillis": 62827,
       "resurrectCount": 0,
-      "runTimeSecs": 80.813,
+      "runTimeSecs": 62.827,
       "metamorph": 0,
-      "computeUnits": 0.04489611111111111,
-      "memAvgBytes": 678030148.2975479,
-      "memMaxBytes": 977346560,
+      "computeUnits": 0.03490388888888889,
+      "memAvgBytes": 569819419.5200789,
+      "memMaxBytes": 790548480,
       "memCurrentBytes": 0,
-      "cpuAvgUsage": 23.53148042987722,
-      "cpuMaxUsage": 230.74036919159772,
+      "cpuAvgUsage": 30.536756210209674,
+      "cpuMaxUsage": 230.4211661442006,
       "cpuCurrentUsage": 0,
-      "netRxBytes": 2412570,
-      "netTxBytes": 223565
+      "netRxBytes": 2358257,
+      "netTxBytes": 183986
     },
     "options": {
       "build": "latest",
@@ -38,58 +38,58 @@
       "isMaxTotalChargeUsdSetByUser": false,
       "diskMbytes": 4096
     },
-    "buildId": "1egq9iZk2N7O2DUbU",
+    "buildId": "hH3ctiOGiLePEv3Ss",
     "exitCode": 0,
-    "defaultKeyValueStoreId": "njwbFdxk0dMWJ7Uuh",
-    "defaultDatasetId": "IY5nTe7uiQxGMRLCo",
-    "defaultRequestQueueId": "ysZPAXE9f3zbJg23v",
+    "defaultKeyValueStoreId": "pHXaj4m906qP93ata",
+    "defaultDatasetId": "RlyV8CWsU4UWmnvxz",
+    "defaultRequestQueueId": "2d0dkQKlC98eORalg",
     "storageIds": {
       "keyValueStores": {
-        "default": "njwbFdxk0dMWJ7Uuh"
+        "default": "pHXaj4m906qP93ata"
       },
       "datasets": {
-        "default": "IY5nTe7uiQxGMRLCo"
+        "default": "RlyV8CWsU4UWmnvxz"
       },
       "requestQueues": {
-        "default": "ysZPAXE9f3zbJg23v"
+        "default": "2d0dkQKlC98eORalg"
       }
     },
     "platformUsageBillingModel": "USER",
     "standby": null,
     "generalAccess": "FOLLOW_USER_SETTING",
-    "buildNumber": "0.1.4",
-    "containerUrl": "https://mrtvkhttrwle.runs.apify.net",
+    "buildNumber": "0.1.5",
+    "containerUrl": "https://riotx76m2py8.runs.apify.net",
     "usage": {
-      "ACTOR_COMPUTE_UNITS": 0.04489611111111111,
+      "ACTOR_COMPUTE_UNITS": 0.03490388888888889,
       "DATASET_READS": 0,
       "DATASET_WRITES": 8,
       "KEY_VALUE_STORE_READS": 1,
-      "KEY_VALUE_STORE_WRITES": 8,
+      "KEY_VALUE_STORE_WRITES": 5,
       "KEY_VALUE_STORE_LISTS": 0,
       "REQUEST_QUEUE_READS": 10,
       "REQUEST_QUEUE_WRITES": 40,
-      "DATA_TRANSFER_INTERNAL_GBYTES": 0.002131837420165539,
-      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.00016159750521183014,
+      "DATA_TRANSFER_INTERNAL_GBYTES": 0.0006648395210504532,
+      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.00013301707804203033,
       "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
       "PROXY_SERPS": 0,
       "PROXY_UNBLOCKER_UNITS": 0
     },
-    "usageTotalUsd": 0.00709700186514689,
+    "usageTotalUsd": 0.00704553156992793,
     "usageUsd": {
-      "ACTOR_COMPUTE_UNITS": 0.008979222222222222,
+      "ACTOR_COMPUTE_UNITS": 0.006980777777777778,
       "DATASET_READS": 0,
       "DATASET_WRITES": 0.00004,
       "KEY_VALUE_STORE_READS": 0.000005,
-      "KEY_VALUE_STORE_WRITES": 0.0004,
+      "KEY_VALUE_STORE_WRITES": 0.00025,
       "KEY_VALUE_STORE_LISTS": 0,
       "REQUEST_QUEUE_READS": 0.000039999999999999996,
       "REQUEST_QUEUE_WRITES": 0.0004,
-      "DATA_TRANSFER_INTERNAL_GBYTES": 0.00010659187100827695,
-      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.00003231950104236603,
+      "DATA_TRANSFER_INTERNAL_GBYTES": 0.00003324197605252266,
+      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.000026603415608406068,
       "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
       "PROXY_SERPS": 0,
       "PROXY_UNBLOCKER_UNITS": 0
     },
-    "consoleUrl": "https://console.apify.com/view/runs/lvahAPGbm1wYcln3X"
+    "consoleUrl": "https://console.apify.com/view/runs/Pp4y2BLYLroJU0ADj"
   }
 }
