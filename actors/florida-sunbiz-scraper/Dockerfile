@@ -1,6 +1,6 @@
 FROM apify/actor-node-playwright-firefox:20
 
-COPY package*.json ./
+COPY --chown=myuser package*.json ./
 
 RUN npm --quiet set progress=false \
     && npm install --omit=dev --omit=optional \
@@ -11,6 +11,6 @@ RUN npm --quiet set progress=false \
     && echo "NPM version:" \
     && npm --version
 
-COPY . ./
+COPY --chown=myuser . ./
 
 CMD npm start --silent
