@@ -1,17 +1,5 @@
 [
-  {"name":"byname-form","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByName"},
-  {"name":"byofficer-form","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByOfficerOrRegisteredAgent"},
-  {"name":"byagent-form","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByRegisteredAgent"},
-  {"name":"bydocnum-form","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber"},
-  {"name":"byfei-form","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByFeiNumber"},
-  {"name":"results-name","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&inquiryDirectionType=ForwardList&searchNameOrder=ACME&SearchTerm=acme"},
-  {"name":"results-officer","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=OfficerRegisteredAgentName&inquiryDirectionType=ForwardList&searchNameOrder=SMITHJOHN&SearchTerm=smith%20john"},
-  {"name":"detail-llc","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME%20L150001603890&aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017"},
-  {"name":"detail-corp-inact","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME%201125450&aggregateId=domp-112545-918af59c-789e-4606-9371-b8ff8235acb2"},
-  {"name":"detail-foreign","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME%20M250000139120&aggregateId=forl-m25000013912-1bcdd082-af04-4639-b581-502cd02953ce"},
-  {"name":"results-docnum-get","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=DocumentNumber&inquiryDirectionType=ForwardList&searchNameOrder=L15000160389&SearchTerm=L15000160389"},
-  {"name":"results-fei-get","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=FeiNumber&inquiryDirectionType=ForwardList&searchNameOrder=475125953&SearchTerm=47-5125953"},
-  {"name":"results-docnum-post","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults","method":"POST","headers":{"content-type":"application/x-www-form-urlencoded"},"body":"InquiryType=DocumentNumber&SearchTerm=L15000160389"},
-  {"name":"results-fei-post","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults","method":"POST","headers":{"content-type":"application/x-www-form-urlencoded"},"body":"InquiryType=FeiNumber&SearchTerm=47-5125953"},
-  {"name":"results-agent-get","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=RegisteredAgentName&inquiryDirectionType=ForwardList&searchNameOrder=REGISTEREDAGENTSINC&SearchTerm=registered%20agents%20inc"}
+  {"name":"byname-form","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByName","strategies":["fetch","gotScraping","impit","chromium","firefox"]},
+  {"name":"results-name","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&inquiryDirectionType=ForwardList&searchNameOrder=ACME&SearchTerm=acme","strategies":["impit","chromium","firefox"]},
+  {"name":"detail-llc","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME%20L150001603890&aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017","strategies":["impit","chromium","firefox"]}
 ]

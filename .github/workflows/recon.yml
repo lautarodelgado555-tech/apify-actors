@@ -17,6 +17,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Install clients
+        run: |
+          cd recon && npm init -y >/dev/null && npm i got-scraping impit playwright >/dev/null 2>&1 && npx playwright install --with-deps chromium firefox >/dev/null 2>&1 || true
       - name: Fetch pages
         run: node recon/fetch.mjs > recon/out/summary.txt 2>&1 || true
       - name: Commit results
