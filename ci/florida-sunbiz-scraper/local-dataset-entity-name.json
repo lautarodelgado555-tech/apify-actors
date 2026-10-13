@@ -1,132 +1,5 @@
 [
   {
-    "entityName": "ACME CORPORATION",
-    "entityType": "Florida Profit Corporation",
-    "documentNumber": "112545",
-    "feiEin": "00-0000000",
-    "dateFiled": "12/20/1926",
-    "effectiveDate": null,
-    "state": "FL",
-    "status": "INACTIVE",
-    "lastEvent": "DISSOLVED BY PROCLAMATION",
-    "eventDateFiled": "11/23/1936",
-    "eventEffectiveDate": "NONE",
-    "principalAddress": null,
-    "principalAddressNotes": [],
-    "mailingAddress": null,
-    "mailingAddressNotes": [],
-    "registeredAgentName": "NONE",
-    "registeredAgentAddress": null,
-    "registeredAgentNotes": [],
-    "officerSectionTitle": "Officer/Director Detail",
-    "officers": [],
-    "annualReports": [],
-    "documents": [],
-    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-112545-918af59c-789e-4606-9371-b8ff8235acb2&entityId=112545&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%201125450&ListNameOrder=ACME%201125450",
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+1125450&aggregateId=domp-112545-918af59c-789e-4606-9371-b8ff8235acb2",
-    "lastAnnualReportYear": null,
-    "annualReportCurrent": null,
-    "annualReportStatus": "not_applicable_inactive",
-    "annualReportDueDate": null,
-    "lateFeeApplies": false,
-    "dissolutionDeadline": null,
-    "nextAnnualReportWindow": null,
-    "matchedName": null,
-    "searchType": "entityName",
-    "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T22:00:16.862Z"
-  },
-  {
-    "entityName": "ACME CORPORATION",
-    "entityType": "Florida Profit Corporation",
-    "documentNumber": "143138",
-    "feiEin": "00-0000000",
-    "dateFiled": "07/20/1944",
-    "effectiveDate": null,
-    "state": "FL",
-    "status": "INACTIVE",
-    "lastEvent": "EVENT CONVERTED TO NOTES",
-    "eventDateFiled": "05/16/1949",
-    "eventEffectiveDate": "NONE",
-    "principalAddress": "., JACKSONVILLE, FL",
-    "principalAddressNotes": [],
-    "mailingAddress": "., JACKSONVILLE, FL",
-    "mailingAddressNotes": [],
-    "registeredAgentName": "NONE",
-    "registeredAgentAddress": null,
-    "registeredAgentNotes": [],
-    "officerSectionTitle": "Officer/Director Detail",
-    "officers": [
-      {
-        "title": "D",
-        "name": "CRAVEN, E. FRANK",
-        "address": "., JACKSONVILLE, FL"
-      },
-      {
-        "title": "D",
-        "name": "HUGHES, FRANK R.",
-        "address": "., JACKSONVILLE, FL"
-      },
-      {
-        "title": "D",
-        "name": "HUGHES, CHARLES W.",
-        "address": "., JACKSONVILLE, FL"
-      }
-    ],
-    "annualReports": [],
-    "documents": [],
-    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-143138-d615c4e5-25e9-412a-b31c-1f3f2eaa5295&entityId=143138&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%201431380&ListNameOrder=ACME%201125450",
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+1431380&aggregateId=domp-143138-d615c4e5-25e9-412a-b31c-1f3f2eaa5295",
-    "lastAnnualReportYear": null,
-    "annualReportCurrent": null,
-    "annualReportStatus": "not_applicable_inactive",
-    "annualReportDueDate": null,
-    "lateFeeApplies": false,
-    "dissolutionDeadline": null,
-    "nextAnnualReportWindow": null,
-    "matchedName": null,
-    "searchType": "entityName",
-    "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T22:00:17.127Z"
-  },
-  {
-    "entityName": "THE ACME COMPANY",
-    "entityType": "Florida Profit Corporation",
-    "documentNumber": "188374",
-    "feiEin": "00-0000000",
-    "dateFiled": "10/13/1955",
-    "effectiveDate": null,
-    "state": "FL",
-    "status": "INACTIVE",
-    "lastEvent": "DISSOLVED BY PROCLAMATION",
-    "eventDateFiled": "05/01/1962",
-    "eventEffectiveDate": "NONE",
-    "principalAddress": "., .",
-    "principalAddressNotes": [],
-    "mailingAddress": "., .",
-    "mailingAddressNotes": [],
-    "registeredAgentName": "NONE",
-    "registeredAgentAddress": null,
-    "registeredAgentNotes": [],
-    "officerSectionTitle": "Officer/Director Detail",
-    "officers": [],
-    "annualReports": [],
-    "documents": [],
-    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-188374-366c153b-ce5d-4f93-97d0-03ce5d4bd312&entityId=188374&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%201883741&ListNameOrder=ACME%201125450",
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+1883741&aggregateId=domp-188374-366c153b-ce5d-4f93-97d0-03ce5d4bd312",
-    "lastAnnualReportYear": null,
-    "annualReportCurrent": null,
-    "annualReportStatus": "not_applicable_inactive",
-    "annualReportDueDate": null,
-    "lateFeeApplies": false,
-    "dissolutionDeadline": null,
-    "nextAnnualReportWindow": null,
-    "matchedName": null,
-    "searchType": "entityName",
-    "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T22:00:17.744Z"
-  },
-  {
     "entityName": "PUBLIX SUPER MARKETS, INC.",
     "entityType": "Florida Profit Corporation",
     "documentNumber": "112252",
@@ -603,58 +476,34 @@
     "matchedName": null,
     "searchType": "entityName",
     "searchTerm": "Publix Super Markets",
-    "scrapedAt": "2026-10-13T22:00:18.112Z"
+    "scrapedAt": "2026-10-13T23:55:22.357Z"
   },
   {
-    "entityName": "ACME, INC.",
+    "entityName": "ACME CORPORATION",
     "entityType": "Florida Profit Corporation",
-    "documentNumber": "454365",
+    "documentNumber": "112545",
     "feiEin": "00-0000000",
-    "dateFiled": "06/07/1974",
+    "dateFiled": "12/20/1926",
     "effectiveDate": null,
     "state": "FL",
     "status": "INACTIVE",
-    "lastEvent": "INVOLUNTARILY DISSOLVED",
-    "eventDateFiled": "12/16/1981",
+    "lastEvent": "DISSOLVED BY PROCLAMATION",
+    "eventDateFiled": "11/23/1936",
     "eventEffectiveDate": "NONE",
-    "principalAddress": "2330 S. HARBOUR CITY BLVD., MELBOURNE, FL 32901",
+    "principalAddress": null,
     "principalAddressNotes": [],
-    "mailingAddress": "2330 S. HARBOUR CITY BLVD., MELBOURNE, FL 32901",
+    "mailingAddress": null,
     "mailingAddressNotes": [],
-    "registeredAgentName": "LISS, REUBEN",
-    "registeredAgentAddress": "2114 BARRACUDA AVE., MELBOURNE BEACH, FL 32951",
+    "registeredAgentName": "NONE",
+    "registeredAgentAddress": null,
     "registeredAgentNotes": [],
     "officerSectionTitle": "Officer/Director Detail",
-    "officers": [
-      {
-        "title": "D",
-        "name": "LISS, REUBEN",
-        "address": "2114 BARRACUDA AVE., MELBOURNE BEACH, FL"
-      },
-      {
-        "title": "STD",
-        "name": "LISS, DOROTHY",
-        "address": "2114 BARRACUDA AVE., MELBOURNE BEACH, FL"
-      }
-    ],
-    "annualReports": [
-      {
-        "reportYear": 1978,
-        "filedDate": "07/21/1978"
-      },
-      {
-        "reportYear": 1979,
-        "filedDate": "08/01/1979"
-      },
-      {
-        "reportYear": 1980,
-        "filedDate": "10/31/1980"
-      }
-    ],
+    "officers": [],
+    "annualReports": [],
     "documents": [],
-    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-454365-f7d2850f-4e56-49e8-9f12-5d3ef3c5e0dd&entityId=454365&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%204543650&ListNameOrder=ACME%201125450",
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+4543650&aggregateId=domp-454365-f7d2850f-4e56-49e8-9f12-5d3ef3c5e0dd",
-    "lastAnnualReportYear": 1980,
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-112545-918af59c-789e-4606-9371-b8ff8235acb2&entityId=112545&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%201125450&ListNameOrder=ACME%201125450",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+1125450&aggregateId=domp-112545-918af59c-789e-4606-9371-b8ff8235acb2",
+    "lastAnnualReportYear": null,
     "annualReportCurrent": null,
     "annualReportStatus": "not_applicable_inactive",
     "annualReportDueDate": null,
@@ -664,7 +513,7 @@
     "matchedName": null,
     "searchType": "entityName",
     "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T22:00:18.687Z"
+    "scrapedAt": "2026-10-13T23:55:22.582Z"
   },
   {
     "entityName": "PUBLIX SUPER MARKETS CHARITIES, INC.",
@@ -913,7 +762,158 @@
     "matchedName": null,
     "searchType": "entityName",
     "searchTerm": "Publix Super Markets",
-    "scrapedAt": "2026-10-13T22:00:19.016Z"
+    "scrapedAt": "2026-10-13T23:55:23.053Z"
+  },
+  {
+    "entityName": "ACME CORPORATION",
+    "entityType": "Florida Profit Corporation",
+    "documentNumber": "143138",
+    "feiEin": "00-0000000",
+    "dateFiled": "07/20/1944",
+    "effectiveDate": null,
+    "state": "FL",
+    "status": "INACTIVE",
+    "lastEvent": "EVENT CONVERTED TO NOTES",
+    "eventDateFiled": "05/16/1949",
+    "eventEffectiveDate": "NONE",
+    "principalAddress": "., JACKSONVILLE, FL",
+    "principalAddressNotes": [],
+    "mailingAddress": "., JACKSONVILLE, FL",
+    "mailingAddressNotes": [],
+    "registeredAgentName": "NONE",
+    "registeredAgentAddress": null,
+    "registeredAgentNotes": [],
+    "officerSectionTitle": "Officer/Director Detail",
+    "officers": [
+      {
+        "title": "D",
+        "name": "CRAVEN, E. FRANK",
+        "address": "., JACKSONVILLE, FL"
+      },
+      {
+        "title": "D",
+        "name": "HUGHES, FRANK R.",
+        "address": "., JACKSONVILLE, FL"
+      },
+      {
+        "title": "D",
+        "name": "HUGHES, CHARLES W.",
+        "address": "., JACKSONVILLE, FL"
+      }
+    ],
+    "annualReports": [],
+    "documents": [],
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-143138-d615c4e5-25e9-412a-b31c-1f3f2eaa5295&entityId=143138&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%201431380&ListNameOrder=ACME%201125450",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+1431380&aggregateId=domp-143138-d615c4e5-25e9-412a-b31c-1f3f2eaa5295",
+    "lastAnnualReportYear": null,
+    "annualReportCurrent": null,
+    "annualReportStatus": "not_applicable_inactive",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "dissolutionDeadline": null,
+    "nextAnnualReportWindow": null,
+    "matchedName": null,
+    "searchType": "entityName",
+    "searchTerm": "Acme",
+    "scrapedAt": "2026-10-13T23:55:23.295Z"
+  },
+  {
+    "entityName": "THE ACME COMPANY",
+    "entityType": "Florida Profit Corporation",
+    "documentNumber": "188374",
+    "feiEin": "00-0000000",
+    "dateFiled": "10/13/1955",
+    "effectiveDate": null,
+    "state": "FL",
+    "status": "INACTIVE",
+    "lastEvent": "DISSOLVED BY PROCLAMATION",
+    "eventDateFiled": "05/01/1962",
+    "eventEffectiveDate": "NONE",
+    "principalAddress": "., .",
+    "principalAddressNotes": [],
+    "mailingAddress": "., .",
+    "mailingAddressNotes": [],
+    "registeredAgentName": "NONE",
+    "registeredAgentAddress": null,
+    "registeredAgentNotes": [],
+    "officerSectionTitle": "Officer/Director Detail",
+    "officers": [],
+    "annualReports": [],
+    "documents": [],
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-188374-366c153b-ce5d-4f93-97d0-03ce5d4bd312&entityId=188374&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%201883741&ListNameOrder=ACME%201125450",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+1883741&aggregateId=domp-188374-366c153b-ce5d-4f93-97d0-03ce5d4bd312",
+    "lastAnnualReportYear": null,
+    "annualReportCurrent": null,
+    "annualReportStatus": "not_applicable_inactive",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "dissolutionDeadline": null,
+    "nextAnnualReportWindow": null,
+    "matchedName": null,
+    "searchType": "entityName",
+    "searchTerm": "Acme",
+    "scrapedAt": "2026-10-13T23:55:23.786Z"
+  },
+  {
+    "entityName": "ACME, INC.",
+    "entityType": "Florida Profit Corporation",
+    "documentNumber": "454365",
+    "feiEin": "00-0000000",
+    "dateFiled": "06/07/1974",
+    "effectiveDate": null,
+    "state": "FL",
+    "status": "INACTIVE",
+    "lastEvent": "INVOLUNTARILY DISSOLVED",
+    "eventDateFiled": "12/16/1981",
+    "eventEffectiveDate": "NONE",
+    "principalAddress": "2330 S. HARBOUR CITY BLVD., MELBOURNE, FL 32901",
+    "principalAddressNotes": [],
+    "mailingAddress": "2330 S. HARBOUR CITY BLVD., MELBOURNE, FL 32901",
+    "mailingAddressNotes": [],
+    "registeredAgentName": "LISS, REUBEN",
+    "registeredAgentAddress": "2114 BARRACUDA AVE., MELBOURNE BEACH, FL 32951",
+    "registeredAgentNotes": [],
+    "officerSectionTitle": "Officer/Director Detail",
+    "officers": [
+      {
+        "title": "D",
+        "name": "LISS, REUBEN",
+        "address": "2114 BARRACUDA AVE., MELBOURNE BEACH, FL"
+      },
+      {
+        "title": "STD",
+        "name": "LISS, DOROTHY",
+        "address": "2114 BARRACUDA AVE., MELBOURNE BEACH, FL"
+      }
+    ],
+    "annualReports": [
+      {
+        "reportYear": 1978,
+        "filedDate": "07/21/1978"
+      },
+      {
+        "reportYear": 1979,
+        "filedDate": "08/01/1979"
+      },
+      {
+        "reportYear": 1980,
+        "filedDate": "10/31/1980"
+      }
+    ],
+    "documents": [],
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-454365-f7d2850f-4e56-49e8-9f12-5d3ef3c5e0dd&entityId=454365&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%204543650&ListNameOrder=ACME%201125450",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+4543650&aggregateId=domp-454365-f7d2850f-4e56-49e8-9f12-5d3ef3c5e0dd",
+    "lastAnnualReportYear": 1980,
+    "annualReportCurrent": null,
+    "annualReportStatus": "not_applicable_inactive",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "dissolutionDeadline": null,
+    "nextAnnualReportWindow": null,
+    "matchedName": null,
+    "searchType": "entityName",
+    "searchTerm": "Acme",
+    "scrapedAt": "2026-10-13T23:55:24.028Z"
   },
   {
     "entityName": "\"ACME\"",
@@ -950,7 +950,7 @@
     "matchedName": null,
     "searchType": "entityName",
     "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T22:00:19.658Z"
+    "scrapedAt": "2026-10-13T23:55:24.486Z"
   },
   {
     "entityName": "ACME COMPANY, L.C.",
@@ -1053,6 +1053,6 @@
     "matchedName": null,
     "searchType": "entityName",
     "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T22:00:19.775Z"
+    "scrapedAt": "2026-10-13T23:55:24.758Z"
   }
 ]
