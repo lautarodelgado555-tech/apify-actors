@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - name: Prepare output folder
         run: mkdir -p "$OUT" && rm -f "$OUT"/*.log "$OUT"/*.json && echo "run $(date -u +%FT%TZ) sha ${GITHUB_SHA}" > "$OUT/00-meta.log"
       - name: Install
@@ -50,7 +50,7 @@ jobs:
         if: env.APIFY_TOKEN != ''
         run: |
           cd "$ACTOR_DIR"
-          (npm install -g apify-cli && apify login -t "$APIFY_TOKEN" && apify push --no-prompt --force && bash ../../scripts/apify-configure.sh florida-sunbiz-scraper) 2>&1 | grep -v -i "token" > "../../$OUT/05-deploy.log" || echo "exit $?" >> "../../$OUT/05-deploy.log"
+          (npm install -g apify-cli && apify login -t "$APIFY_TOKEN" && apify push --force && bash ../../scripts/apify-configure.sh florida-sunbiz-scraper) 2>&1 | grep -v -i "token" > "../../$OUT/05-deploy.log" || echo "exit $?" >> "../../$OUT/05-deploy.log"
       - name: Run on Apify
         if: env.APIFY_TOKEN != ''
         run: |
