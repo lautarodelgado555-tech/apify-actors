@@ -1,0 +1,14 @@
+
+> florida-sunbiz-scraper@0.1.0 start
+> node src/main.js
+
+[32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v20.20.2"}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Starting the crawler.
+[32mINFO[39m  No results for "P21000072292"
+[32mINFO[39m  No results for "L15000160389"
+[32mINFO[39m  No results for "Z99999999999"
+[32mINFO[39m [33m PlaywrightCrawler:[39m All requests from the queue have been processed, the crawler will shut down.
+[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":3,"requestsFailed":0,"retryHistogram":[3],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":2464,"requestsFinishedPerMinute":40,"requestsFailedPerMinute":0,"requestTotalDurationMillis":7393,"requestsTotal":3,"crawlerRuntimeMillis":4496}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Finished! Total 3 requests: 3 succeeded, 0 failed.[90m {"terminal":true}[39m
+[32mINFO[39m  Done. 0 entities saved for 3 search term(s).
+items: 0

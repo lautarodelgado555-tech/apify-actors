@@ -1,0 +1,525 @@
+[
+  {
+    "entityName": "ACME LLC",
+    "entityType": "Florida Limited Liability Company",
+    "documentNumber": "L15000160389",
+    "feiEin": "47-5125953",
+    "dateFiled": "09/21/2015",
+    "effectiveDate": "09/23/2015",
+    "state": "FL",
+    "status": "ACTIVE",
+    "lastEvent": "REINSTATEMENT",
+    "eventDateFiled": "10/24/2016",
+    "eventEffectiveDate": null,
+    "principalAddress": "7705 MOWRY ST., JACKSONVILLE, FL 32256",
+    "principalAddressNotes": [],
+    "mailingAddress": "7705 MOWRY ST., JACKSONVILLE, FL 32256",
+    "mailingAddressNotes": [],
+    "registeredAgentName": "BALLARD, GLEN A",
+    "registeredAgentAddress": "7705 MOWRY ST., JACKSONVILLE, FL 32256",
+    "registeredAgentNotes": [
+      "Name Changed: 10/24/2016"
+    ],
+    "officerSectionTitle": "Authorized Person(s) Detail",
+    "officers": [
+      {
+        "title": "MGR",
+        "name": "BALLARD, GLEN A",
+        "address": "7705 MOWRY ST., JACKSONVILLE, FL 32256"
+      }
+    ],
+    "annualReports": [
+      {
+        "reportYear": 2024,
+        "filedDate": "01/17/2024"
+      },
+      {
+        "reportYear": 2025,
+        "filedDate": "01/03/2025"
+      },
+      {
+        "reportYear": 2026,
+        "filedDate": "01/26/2026"
+      }
+    ],
+    "documents": [
+      {
+        "date": "01/26/2026",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-56889d17-8346-43ae-89f1-fde96b7043a0&formatType=PDF"
+      },
+      {
+        "date": "01/03/2025",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-77c1153c-3498-40ee-a963-83b2e4f7bed3&formatType=PDF"
+      },
+      {
+        "date": "01/17/2024",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-8cd8b3bb-e7bb-4d55-abb1-d7082d363216&formatType=PDF"
+      },
+      {
+        "date": "01/04/2023",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-0177ad07-30d5-49b2-b4a6-9a32fc940469&formatType=PDF"
+      },
+      {
+        "date": "01/03/2022",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-e3605e72-42d2-43cd-8ad9-43474291bbd7&formatType=PDF"
+      },
+      {
+        "date": "01/05/2021",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-a05d6160-46f3-4a7e-81d5-dc159037a86f&formatType=PDF"
+      },
+      {
+        "date": "01/06/2020",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-23eaf444-d626-437e-af6c-4dab9e7a4ad5&formatType=PDF"
+      },
+      {
+        "date": "01/02/2019",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-4f18d5b9-6f4f-412f-8b34-e5f631d95fbd&formatType=PDF"
+      },
+      {
+        "date": "01/02/2018",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-79671567-ee3b-41c5-86dc-44021940a77a&formatType=PDF"
+      },
+      {
+        "date": "01/18/2017",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-8b86380c-2a2e-4b6f-ac2a-a8878261989e&formatType=PDF"
+      },
+      {
+        "date": "10/24/2016",
+        "documentType": "REINSTATEMENT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-re-be5f843a-5d65-4069-8f12-5ca8f2e819f9&formatType=PDF"
+      },
+      {
+        "date": "09/21/2015",
+        "documentType": "Florida Limited Liability",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2015%5C0923%5C10282931.tif&documentNumber=L15000160389"
+      }
+    ],
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&entityId=L15000160389&CurrentPage=0&SearchTerm=47-5125953&InquiryType=FeiNumber&inquiryDirectionType=CurrentList&SearchNameOrder=475125953L150001603890&ListNameOrder=475125953L150001603890",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=FeiNumber&directionType=Initial&searchNameOrder=475125953L150001603890&aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017",
+    "lastAnnualReportYear": 2026,
+    "annualReportCurrent": true,
+    "annualReportStatus": "filed",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "dissolutionDeadline": null,
+    "nextAnnualReportWindow": "2027-01-01",
+    "matchedName": "475125953",
+    "searchType": "feiEin",
+    "searchTerm": "47-5125953",
+    "scrapedAt": "2026-10-13T21:16:07.430Z"
+  },
+  {
+    "entityName": "REFAZER, LLC",
+    "entityType": "Florida Limited Liability Company",
+    "documentNumber": "L15000159625",
+    "feiEin": "47-5125954",
+    "dateFiled": "09/21/2015",
+    "effectiveDate": null,
+    "state": "FL",
+    "status": "ACTIVE",
+    "lastEvent": "LC STMNT OF RA/RO CHG",
+    "eventDateFiled": "06/15/2017",
+    "eventEffectiveDate": "NONE",
+    "principalAddress": "934 Lascala Drive, Windermere, FL 34786",
+    "principalAddressNotes": [
+      "Changed: 03/28/2020"
+    ],
+    "mailingAddress": "934 Lascala Drive, Windermere, FL 34786",
+    "mailingAddressNotes": [
+      "Changed: 03/28/2020"
+    ],
+    "registeredAgentName": "REGISTERED AGENT SOLUTIONS, INC.",
+    "registeredAgentAddress": "1200 SOUTH PINE ISLAND ROAD, PLANTATION, FL 33324",
+    "registeredAgentNotes": [
+      "Name Changed: 06/15/2017",
+      "Address Changed: 07/21/2025"
+    ],
+    "officerSectionTitle": "Authorized Person(s) Detail",
+    "officers": [
+      {
+        "title": "MGR",
+        "name": "ROBERTS, WALTER",
+        "address": "934 Lascala Drive, Windermere, FL 34786"
+      }
+    ],
+    "annualReports": [
+      {
+        "reportYear": 2024,
+        "filedDate": "03/29/2024"
+      },
+      {
+        "reportYear": 2025,
+        "filedDate": "03/19/2025"
+      },
+      {
+        "reportYear": 2026,
+        "filedDate": "03/06/2026"
+      }
+    ],
+    "documents": [
+      {
+        "date": "03/06/2026",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000159625-8918e1ab-aff6-4932-acf6-fd4f621aff91&transactionId=l15000159625-0aceeebe-29a1-4a7f-9345-60a26a570ebe&formatType=PDF"
+      },
+      {
+        "date": "03/19/2025",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000159625-8918e1ab-aff6-4932-acf6-fd4f621aff91&transactionId=l15000159625-b132633d-16f2-4d8e-a2aa-83789057d965&formatType=PDF"
+      },
+      {
+        "date": "03/29/2024",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000159625-8918e1ab-aff6-4932-acf6-fd4f621aff91&transactionId=l15000159625-a6762de2-08a3-4509-b2a5-4911870aee2b&formatType=PDF"
+      },
+      {
+        "date": "03/17/2023",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000159625-8918e1ab-aff6-4932-acf6-fd4f621aff91&transactionId=l15000159625-13ba3f92-89f2-4304-84cf-e5cab600c01a&formatType=PDF"
+      },
+      {
+        "date": "03/28/2022",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000159625-8918e1ab-aff6-4932-acf6-fd4f621aff91&transactionId=l15000159625-f1f60115-66cd-4457-b8ae-8a8d2ffe961e&formatType=PDF"
+      },
+      {
+        "date": "04/01/2021",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000159625-8918e1ab-aff6-4932-acf6-fd4f621aff91&transactionId=l15000159625-defe82fa-fc46-424f-8534-9ce03fc378dc&formatType=PDF"
+      },
+      {
+        "date": "03/28/2020",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000159625-8918e1ab-aff6-4932-acf6-fd4f621aff91&transactionId=l15000159625-ab66f079-442b-4744-aff8-866b07bf1c69&formatType=PDF"
+      },
+      {
+        "date": "03/21/2019",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000159625-8918e1ab-aff6-4932-acf6-fd4f621aff91&transactionId=l15000159625-d4cdfb69-576f-4f72-b434-35335a89bc5b&formatType=PDF"
+      },
+      {
+        "date": "03/09/2018",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000159625-8918e1ab-aff6-4932-acf6-fd4f621aff91&transactionId=l15000159625-a1be1d33-1582-4bc0-bed6-e8ea8f064436&formatType=PDF"
+      },
+      {
+        "date": "06/15/2017",
+        "documentType": "CORLCRACHG",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2017%5C0619%5C00160789.Tif&documentNumber=L15000159625"
+      },
+      {
+        "date": "03/17/2017",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000159625-8918e1ab-aff6-4932-acf6-fd4f621aff91&transactionId=l15000159625-c4512722-35ec-42b3-9eac-e42bd72ee7bc&formatType=PDF"
+      },
+      {
+        "date": "03/08/2016",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000159625-8918e1ab-aff6-4932-acf6-fd4f621aff91&transactionId=l15000159625-185f908a-dee6-49eb-9de7-38f8f9eb117b&formatType=PDF"
+      },
+      {
+        "date": "09/21/2015",
+        "documentType": "Florida Limited Liability",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2015%5C0922%5C60249746.tif&documentNumber=L15000159625"
+      }
+    ],
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=flal-l15000159625-8918e1ab-aff6-4932-acf6-fd4f621aff91&entityId=L15000159625&CurrentPage=0&SearchTerm=47-5125953&InquiryType=FeiNumber&inquiryDirectionType=CurrentList&SearchNameOrder=475125954L150001596250&ListNameOrder=475125953L150001603890",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=FeiNumber&directionType=Initial&searchNameOrder=475125954L150001596250&aggregateId=flal-l15000159625-8918e1ab-aff6-4932-acf6-fd4f621aff91",
+    "lastAnnualReportYear": 2026,
+    "annualReportCurrent": true,
+    "annualReportStatus": "filed",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "dissolutionDeadline": null,
+    "nextAnnualReportWindow": "2027-01-01",
+    "matchedName": "475125954",
+    "searchType": "feiEin",
+    "searchTerm": "47-5125953",
+    "scrapedAt": "2026-10-13T21:16:07.699Z"
+  },
+  {
+    "entityName": "VQ 5613 SHADDELEE, LLC",
+    "entityType": "Florida Limited Liability Company",
+    "documentNumber": "L15000149783",
+    "feiEin": "47-5125971",
+    "dateFiled": "09/08/2015",
+    "effectiveDate": null,
+    "state": "FL",
+    "status": "ACTIVE",
+    "lastEvent": null,
+    "eventDateFiled": null,
+    "eventEffectiveDate": null,
+    "principalAddress": "1567 Hayley Lane, Suite 101, FT. MYERS, FL 33907",
+    "principalAddressNotes": [
+      "Changed: 01/24/2018"
+    ],
+    "mailingAddress": "PO BOX 61768, FT. MYERS, FL 33906",
+    "mailingAddressNotes": [
+      "Changed: 01/24/2018"
+    ],
+    "registeredAgentName": "Eaton, Alexander M",
+    "registeredAgentAddress": "1567 Hayley Lane, Suite 101, FT. MYERS, FL 33907",
+    "registeredAgentNotes": [
+      "Name Changed: 01/24/2018",
+      "Address Changed: 01/24/2018"
+    ],
+    "officerSectionTitle": "Authorized Person(s) Detail",
+    "officers": [
+      {
+        "title": "Manager",
+        "name": "Eaton, Alexander M",
+        "address": "P.O. Box 61768, Fort Myers, FL 33906"
+      }
+    ],
+    "annualReports": [
+      {
+        "reportYear": 2024,
+        "filedDate": "03/21/2024"
+      },
+      {
+        "reportYear": 2025,
+        "filedDate": "01/14/2025"
+      },
+      {
+        "reportYear": 2026,
+        "filedDate": "01/22/2026"
+      }
+    ],
+    "documents": [
+      {
+        "date": "01/22/2026",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000149783-23fd2681-00a9-4ca2-a1be-dc2b174ffac3&transactionId=l15000149783-db19bead-a158-44a5-b823-7fb658c8935d&formatType=PDF"
+      },
+      {
+        "date": "01/14/2025",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000149783-23fd2681-00a9-4ca2-a1be-dc2b174ffac3&transactionId=l15000149783-b419f291-3eed-4d68-8a31-0cc4db13caff&formatType=PDF"
+      },
+      {
+        "date": "03/21/2024",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000149783-23fd2681-00a9-4ca2-a1be-dc2b174ffac3&transactionId=l15000149783-6476d262-074c-4daa-b255-f9c56e3d86e2&formatType=PDF"
+      },
+      {
+        "date": "02/15/2023",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000149783-23fd2681-00a9-4ca2-a1be-dc2b174ffac3&transactionId=l15000149783-ff95b68f-2cb9-480e-b7bc-1a42cd9c978a&formatType=PDF"
+      },
+      {
+        "date": "01/17/2022",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000149783-23fd2681-00a9-4ca2-a1be-dc2b174ffac3&transactionId=l15000149783-f5b4749b-c1ef-4013-af0e-519d0b6ade37&formatType=PDF"
+      },
+      {
+        "date": "01/26/2021",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000149783-23fd2681-00a9-4ca2-a1be-dc2b174ffac3&transactionId=l15000149783-e14cdfdf-ed98-48a3-8d4d-ea2950db4449&formatType=PDF"
+      },
+      {
+        "date": "01/20/2020",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000149783-23fd2681-00a9-4ca2-a1be-dc2b174ffac3&transactionId=l15000149783-f9ecbd4a-4b7e-4c87-bd2d-e932eeaa0c32&formatType=PDF"
+      },
+      {
+        "date": "01/28/2019",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000149783-23fd2681-00a9-4ca2-a1be-dc2b174ffac3&transactionId=l15000149783-e9b8f2b8-dd5e-4917-9a3d-59cc1363bff0&formatType=PDF"
+      },
+      {
+        "date": "01/24/2018",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000149783-23fd2681-00a9-4ca2-a1be-dc2b174ffac3&transactionId=l15000149783-5f5f2cc3-d755-4e4e-bcba-2ce0bfe3aeab&formatType=PDF"
+      },
+      {
+        "date": "02/08/2017",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000149783-23fd2681-00a9-4ca2-a1be-dc2b174ffac3&transactionId=l15000149783-898a8db4-08c1-4648-8e39-d4f331873b4e&formatType=PDF"
+      },
+      {
+        "date": "03/08/2016",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000149783-23fd2681-00a9-4ca2-a1be-dc2b174ffac3&transactionId=l15000149783-5f150650-d8de-4237-80b1-9e23b78d3f7d&formatType=PDF"
+      },
+      {
+        "date": "09/08/2015",
+        "documentType": "Florida Limited Liability",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2015%5C0909%5C00214211.Tif&documentNumber=L15000149783"
+      }
+    ],
+    "eventHistoryUrl": null,
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=FeiNumber&directionType=Initial&searchNameOrder=475125971L150001497830&aggregateId=flal-l15000149783-23fd2681-00a9-4ca2-a1be-dc2b174ffac3",
+    "lastAnnualReportYear": 2026,
+    "annualReportCurrent": true,
+    "annualReportStatus": "filed",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "dissolutionDeadline": null,
+    "nextAnnualReportWindow": "2027-01-01",
+    "matchedName": "475125971",
+    "searchType": "feiEin",
+    "searchTerm": "47-5125953",
+    "scrapedAt": "2026-10-13T21:16:08.400Z"
+  },
+  {
+    "entityName": "BEACH SIDE CARE, LLC",
+    "entityType": "Florida Limited Liability Company",
+    "documentNumber": "L15000159728",
+    "feiEin": "47-5126003",
+    "dateFiled": "09/21/2015",
+    "effectiveDate": null,
+    "state": "FL",
+    "status": "INACTIVE",
+    "lastEvent": "ADMIN DISSOLUTION FOR ANNUAL REPORT",
+    "eventDateFiled": "09/27/2019",
+    "eventEffectiveDate": "NONE",
+    "principalAddress": "2203 HAMILTON STREET, BUILDING 1, JACKSONVILLE, FL 32210",
+    "principalAddressNotes": [
+      "Changed: 03/02/2018"
+    ],
+    "mailingAddress": "2203 HAMILTON STREET, BUILDING 1, JACKSONVILLE, FL 32210",
+    "mailingAddressNotes": [
+      "Changed: 11/30/2018"
+    ],
+    "registeredAgentName": "UNITED STATES CORPORATION AGENTS, INC.",
+    "registeredAgentAddress": "476 RIVERSIDE AVE., JACKSONVILLE, FL 32202",
+    "registeredAgentNotes": [
+      "Address Changed: 02/02/2023"
+    ],
+    "officerSectionTitle": "Authorized Person(s) Detail",
+    "officers": [
+      {
+        "title": "Owner",
+        "name": "Roesser, Lynn",
+        "address": "1020 1St Street South, Jacksonville Beach, FL 32250"
+      }
+    ],
+    "annualReports": [
+      {
+        "reportYear": 2016,
+        "filedDate": "09/09/2016"
+      },
+      {
+        "reportYear": 2017,
+        "filedDate": "08/22/2017"
+      },
+      {
+        "reportYear": 2018,
+        "filedDate": "03/19/2018"
+      }
+    ],
+    "documents": [
+      {
+        "date": "03/19/2018",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000159728-64289cac-b3b5-421e-9c1a-baec7fdd9f82&transactionId=l15000159728-e9c9a5cb-28e9-4a31-a116-fc37e1dd3118&formatType=PDF"
+      },
+      {
+        "date": "08/22/2017",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000159728-64289cac-b3b5-421e-9c1a-baec7fdd9f82&transactionId=l15000159728-eec7c2eb-0152-4318-925a-c70abe26a719&formatType=PDF"
+      },
+      {
+        "date": "09/09/2016",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000159728-64289cac-b3b5-421e-9c1a-baec7fdd9f82&transactionId=l15000159728-27c7d367-ccfa-494d-9d67-b1cbe1620979&formatType=PDF"
+      },
+      {
+        "date": "09/21/2015",
+        "documentType": "Florida Limited Liability",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2015%5C0922%5C30254383.tif&documentNumber=L15000159728"
+      }
+    ],
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=flal-l15000159728-64289cac-b3b5-421e-9c1a-baec7fdd9f82&entityId=L15000159728&CurrentPage=0&SearchTerm=47-5125953&InquiryType=FeiNumber&inquiryDirectionType=CurrentList&SearchNameOrder=475126003L150001597280&ListNameOrder=475125953L150001603890",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=FeiNumber&directionType=Initial&searchNameOrder=475126003L150001597280&aggregateId=flal-l15000159728-64289cac-b3b5-421e-9c1a-baec7fdd9f82",
+    "lastAnnualReportYear": 2018,
+    "annualReportCurrent": null,
+    "annualReportStatus": "not_applicable_inactive",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "dissolutionDeadline": null,
+    "nextAnnualReportWindow": null,
+    "matchedName": "475126003",
+    "searchType": "feiEin",
+    "searchTerm": "47-5125953",
+    "scrapedAt": "2026-10-13T21:16:08.732Z"
+  },
+  {
+    "entityName": "BLUE SKYLINE INVESTMENTS LLC",
+    "entityType": "Florida Limited Liability Company",
+    "documentNumber": "L15000160385",
+    "feiEin": "47-5126005",
+    "dateFiled": "09/21/2015",
+    "effectiveDate": "09/21/2015",
+    "state": "FL",
+    "status": "INACTIVE",
+    "lastEvent": "VOLUNTARY DISSOLUTION",
+    "eventDateFiled": "04/26/2018",
+    "eventEffectiveDate": "04/26/2018",
+    "principalAddress": "14870 SW. 38TH. ST., DAVIE, FL 33331",
+    "principalAddressNotes": [],
+    "mailingAddress": "14870 SW. 38TH. ST., DAVIE, FL 33331",
+    "mailingAddressNotes": [],
+    "registeredAgentName": "SANCHEZ, SERGIO H",
+    "registeredAgentAddress": "14870 SW. 38TH. ST., DAVIE, FL 33331",
+    "registeredAgentNotes": [],
+    "officerSectionTitle": "Authorized Person(s) Detail",
+    "officers": [
+      {
+        "title": "MGRM",
+        "name": "ALVARO SANCHEZ TRUST",
+        "address": "14870 SW. 38TH. ST., DAVIE, FL 33331"
+      }
+    ],
+    "annualReports": [
+      {
+        "reportYear": 2016,
+        "filedDate": "04/21/2016"
+      },
+      {
+        "reportYear": 2017,
+        "filedDate": "05/01/2017"
+      }
+    ],
+    "documents": [
+      {
+        "date": "05/01/2017",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160385-00f955e5-879c-4f1c-bcf9-a3826cae1e73&transactionId=l15000160385-87f5f67a-380c-4a79-915d-e203f7cbdb38&formatType=PDF"
+      },
+      {
+        "date": "04/21/2016",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160385-00f955e5-879c-4f1c-bcf9-a3826cae1e73&transactionId=l15000160385-feddb673-4302-465a-8e3f-fdf0968e384d&formatType=PDF"
+      },
+      {
+        "date": "09/21/2015",
+        "documentType": "Florida Limited Liability",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2015%5C0923%5C10282101.tif&documentNumber=L15000160385"
+      }
+    ],
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=flal-l15000160385-00f955e5-879c-4f1c-bcf9-a3826cae1e73&entityId=L15000160385&CurrentPage=0&SearchTerm=47-5125953&InquiryType=FeiNumber&inquiryDirectionType=CurrentList&SearchNameOrder=475126005L150001603850&ListNameOrder=475125953L150001603890",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=FeiNumber&directionType=Initial&searchNameOrder=475126005L150001603850&aggregateId=flal-l15000160385-00f955e5-879c-4f1c-bcf9-a3826cae1e73",
+    "lastAnnualReportYear": 2017,
+    "annualReportCurrent": null,
+    "annualReportStatus": "not_applicable_inactive",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "dissolutionDeadline": null,
+    "nextAnnualReportWindow": null,
+    "matchedName": "475126005",
+    "searchType": "feiEin",
+    "searchTerm": "47-5125953",
+    "scrapedAt": "2026-10-13T21:16:09.146Z"
+  }
+]

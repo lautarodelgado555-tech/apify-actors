@@ -1,0 +1,14 @@
+
+> florida-sunbiz-scraper@0.1.0 start
+> node src/main.js
+
+[32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v20.20.2"}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Starting the crawler.
+[33mWARN[39m [33m PlaywrightCrawler:[39m Reclaiming failed request back to the list or queue. Request blocked - received 403 status code.
+[90m {"id":"RhkrMSg7Fksl1tn","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=OfficerRegisteredAgentName&inquiryDirectionType=ForwardList&searchNameOrder=SMITHJOHN&SearchTerm=Smith+John","retryCount":1}[39m
+[32mINFO[39m  "Smith John": accepted 4 so far (done)
+[32mINFO[39m [33m PlaywrightCrawler:[39m All requests from the queue have been processed, the crawler will shut down.
+[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":4,"requestsFailed":0,"retryHistogram":[3,1],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":1388,"requestsFinishedPerMinute":31,"requestsFailedPerMinute":0,"requestTotalDurationMillis":5550,"requestsTotal":4,"crawlerRuntimeMillis":7801}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Finished! Total 4 requests: 4 succeeded, 0 failed.[90m {"terminal":true}[39m
+[32mINFO[39m  Done. 0 entities saved for 1 search term(s).
+items: 0
