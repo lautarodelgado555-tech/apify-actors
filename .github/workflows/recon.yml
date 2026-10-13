@@ -1,0 +1,29 @@
+name: recon
+on:
+  push:
+    paths:
+      - "recon/**"
+      - ".github/workflows/recon.yml"
+permissions:
+  contents: write
+concurrency:
+  group: recon
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Fetch pages
+        run: node recon/fetch.mjs > recon/out/summary.txt 2>&1 || true
+      - name: Commit results
+        run: |
+          git config user.name "ci-bot"
+          git config user.email "ci-bot@users.noreply.github.com"
+          git add -A recon/out
+          git commit -m "recon: results $(date -u +%FT%TZ)" || echo "nothing to commit"
+          git pull --rebase
+          git push
