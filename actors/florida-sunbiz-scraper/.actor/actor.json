@@ -1,0 +1,14 @@
+{
+  "actorSpecification": 1,
+  "name": "florida-sunbiz-scraper",
+  "title": "Florida Sunbiz Business Search & Annual Report Checker",
+  "description": "Search Florida's Sunbiz registry by entity name, officer, registered agent, document number or EIN. Returns status, addresses, officers, annual reports, PDF links and whether this year's annual report is filed.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "input": "./input_schema.json",
+  "dockerfile": "../Dockerfile",
+  "readme": "../README.md",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  }
+}

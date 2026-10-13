@@ -1,0 +1,21 @@
+{
+  "name": "florida-sunbiz-scraper",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Florida Sunbiz business search with annual report status",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "apify": "^3.4.0",
+    "cheerio": "^1.0.0",
+    "crawlee": "^3.13.0",
+    "playwright": "*"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node --test test/*.test.js"
+  },
+  "author": "Lautaro Delgado",
+  "license": "ISC"
+}

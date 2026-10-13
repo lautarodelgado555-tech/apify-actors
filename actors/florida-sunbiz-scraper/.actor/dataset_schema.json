@@ -1,0 +1,40 @@
+{
+  "actorSpecification": 1,
+  "fields": {},
+  "views": {
+    "overview": {
+      "title": "Entities",
+      "transformation": {
+        "fields": [
+          "entityName",
+          "documentNumber",
+          "status",
+          "entityType",
+          "feiEin",
+          "dateFiled",
+          "principalAddress",
+          "registeredAgentName",
+          "lastAnnualReportYear",
+          "annualReportCurrent",
+          "sunbizUrl"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "entityName": { "label": "Entity name", "format": "text" },
+          "documentNumber": { "label": "Document #", "format": "text" },
+          "status": { "label": "Status", "format": "text" },
+          "entityType": { "label": "Type", "format": "text" },
+          "feiEin": { "label": "FEI/EIN", "format": "text" },
+          "dateFiled": { "label": "Date filed", "format": "text" },
+          "principalAddress": { "label": "Principal address", "format": "text" },
+          "registeredAgentName": { "label": "Registered agent", "format": "text" },
+          "lastAnnualReportYear": { "label": "Last AR year", "format": "number" },
+          "annualReportCurrent": { "label": "AR current", "format": "boolean" },
+          "sunbizUrl": { "label": "Sunbiz", "format": "link" }
+        }
+      }
+    }
+  }
+}

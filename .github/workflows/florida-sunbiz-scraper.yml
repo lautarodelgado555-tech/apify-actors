@@ -1,0 +1,79 @@
+name: florida-sunbiz-scraper
+on:
+  push:
+    paths:
+      - "actors/florida-sunbiz-scraper/**"
+      - ".github/workflows/florida-sunbiz-scraper.yml"
+permissions:
+  contents: write
+concurrency:
+  group: florida-sunbiz-scraper
+  cancel-in-progress: false
+defaults:
+  run:
+    working-directory: actors/florida-sunbiz-scraper
+jobs:
+  test-and-run:
+    runs-on: ubuntu-latest
+    env:
+      APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install
+        run: npm install --no-audit --no-fund 2>&1 | tail -3
+      - name: Unit tests
+        run: npm test 2>&1 | grep -E "^(ok|not ok|# (pass|fail))" || true
+      - name: Install Firefox for Playwright
+        run: npx playwright install --with-deps firefox >/dev/null 2>&1 || npx playwright install firefox
+      - name: Local run against Sunbiz
+        run: |
+          mkdir -p storage/key_value_stores/default ../../ci/florida-sunbiz-scraper
+          node -e 'const i=require("./ci-input.json"); delete i.proxyConfiguration; require("fs").writeFileSync("storage/key_value_stores/default/INPUT.json", JSON.stringify(i))'
+          (timeout 600 npm start 2>&1 | tee ../../ci/florida-sunbiz-scraper/local-run.log | tail -40) || true
+          node -e '
+            const fs=require("fs");const dir="storage/datasets/default";
+            const items=fs.existsSync(dir)?fs.readdirSync(dir).filter(f=>f.endsWith(".json")).map(f=>JSON.parse(fs.readFileSync(dir+"/"+f))):[];
+            fs.writeFileSync("../../ci/florida-sunbiz-scraper/local-dataset.json", JSON.stringify(items,null,2));
+            console.log("items:", items.length);
+          '
+      - name: Deploy to Apify
+        if: env.APIFY_TOKEN != ''
+        run: |
+          npm install -g apify-cli >/dev/null 2>&1
+          apify login -t "$APIFY_TOKEN" >/dev/null
+          apify push --no-prompt --force 2>&1 | grep -v -i token | tail -15 | tee ../../ci/florida-sunbiz-scraper/deploy.log
+      - name: Run on Apify
+        if: env.APIFY_TOKEN != ''
+        run: |
+          set -e
+          USERNAME=$(curl -sS -H "Authorization: Bearer $APIFY_TOKEN" https://api.apify.com/v2/users/me | node -pe 'JSON.parse(require("fs").readFileSync(0)).data.username')
+          echo "actor: $USERNAME~florida-sunbiz-scraper"
+          RUN=$(curl -sS -X POST -H "Authorization: Bearer $APIFY_TOKEN" -H "Content-Type: application/json" \
+            "https://api.apify.com/v2/acts/$USERNAME~florida-sunbiz-scraper/runs?memory=2048&timeout=900" \
+            --data @ci-input.json)
+          RUN_ID=$(echo "$RUN" | node -pe 'JSON.parse(require("fs").readFileSync(0)).data.id')
+          echo "run id: $RUN_ID"
+          for i in $(seq 1 90); do
+            STATUS=$(curl -sS -H "Authorization: Bearer $APIFY_TOKEN" "https://api.apify.com/v2/actor-runs/$RUN_ID" | node -pe 'JSON.parse(require("fs").readFileSync(0)).data.status')
+            echo "status: $STATUS"
+            case "$STATUS" in SUCCEEDED|FAILED|ABORTED|TIMED-OUT) break;; esac
+            sleep 10
+          done
+          curl -sS -H "Authorization: Bearer $APIFY_TOKEN" "https://api.apify.com/v2/actor-runs/$RUN_ID" > ../../ci/florida-sunbiz-scraper/apify-run.json
+          curl -sS -H "Authorization: Bearer $APIFY_TOKEN" "https://api.apify.com/v2/logs/$RUN_ID" > ../../ci/florida-sunbiz-scraper/apify-run.log
+          DATASET=$(node -pe 'JSON.parse(require("fs").readFileSync("../../ci/florida-sunbiz-scraper/apify-run.json")).data.defaultDatasetId')
+          curl -sS -H "Authorization: Bearer $APIFY_TOKEN" "https://api.apify.com/v2/datasets/$DATASET/items?clean=true" > ../../ci/florida-sunbiz-scraper/apify-dataset.json
+          node -e 'const r=require("../../ci/florida-sunbiz-scraper/apify-run.json").data; console.log("status", r.status, "cu", r.usage && r.usage.ACTOR_COMPUTE_UNITS, "usd", r.usageTotalUsd)'
+      - name: Commit results
+        if: always()
+        working-directory: .
+        run: |
+          git config user.name "ci-bot"
+          git config user.email "ci-bot@users.noreply.github.com"
+          git add -A ci
+          git commit -m "ci: florida-sunbiz-scraper results $(date -u +%FT%TZ)" || echo "nothing to commit"
+          git pull --rebase
+          git push

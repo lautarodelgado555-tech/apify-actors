@@ -1,0 +1,62 @@
+{
+  "title": "Florida Sunbiz Business Search",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "searchType": {
+      "title": "Search by",
+      "type": "string",
+      "description": "Which Sunbiz index to search. Entity name, officer or registered agent name, document number, or FEI/EIN number.",
+      "editor": "select",
+      "enum": ["entityName", "officerOrRegisteredAgent", "registeredAgent", "documentNumber", "feiEin"],
+      "enumTitles": ["Entity name", "Officer or registered agent name", "Registered agent name", "Document number", "FEI/EIN number"],
+      "default": "entityName",
+      "prefill": "entityName"
+    },
+    "searchTerms": {
+      "title": "Search terms",
+      "type": "array",
+      "description": "One or more names or numbers to look up. Names are matched the way Sunbiz does it: alphabetically from the term you enter. Officer names go LAST FIRST (e.g. \"Smith John\").",
+      "editor": "stringList",
+      "prefill": ["Acme"],
+      "minItems": 1
+    },
+    "nameMatch": {
+      "title": "Name matching",
+      "type": "string",
+      "description": "How to filter the alphabetical list Sunbiz returns for name searches. 'Starts with' keeps only entities whose name begins with your term. 'Exact' keeps only exact matches (ignoring punctuation and suffixes like LLC or INC). 'All' keeps everything Sunbiz lists, up to the maximum.",
+      "editor": "select",
+      "enum": ["startsWith", "exact", "all"],
+      "enumTitles": ["Starts with (recommended)", "Exact", "All results from the term onwards"],
+      "default": "startsWith"
+    },
+    "maxResultsPerSearch": {
+      "title": "Max results per search term",
+      "type": "integer",
+      "description": "Stop after this many entities for each search term.",
+      "default": 25,
+      "minimum": 1,
+      "maximum": 2000
+    },
+    "activeOnly": {
+      "title": "Active entities only",
+      "type": "boolean",
+      "description": "Skip inactive, dissolved and cross-referenced records.",
+      "default": false
+    },
+    "fetchDetails": {
+      "title": "Fetch full details",
+      "type": "boolean",
+      "description": "Open each entity's detail page to get addresses, registered agent, officers, annual reports and document links. Turn off to get only name, document number and status from the list (faster and cheaper).",
+      "default": true
+    },
+    "proxyConfiguration": {
+      "title": "Proxy",
+      "type": "object",
+      "description": "Sunbiz sits behind Cloudflare. Apify proxy is recommended; residential proxies only if datacenter ones get challenged.",
+      "editor": "proxy",
+      "prefill": { "useApifyProxy": true }
+    }
+  },
+  "required": ["searchTerms"]
+}

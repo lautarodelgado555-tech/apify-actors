@@ -1,0 +1,9 @@
+{
+  "searchType": "entityName",
+  "searchTerms": ["Acme", "Publix Super Markets"],
+  "nameMatch": "startsWith",
+  "maxResultsPerSearch": 6,
+  "activeOnly": false,
+  "fetchDetails": true,
+  "proxyConfiguration": { "useApifyProxy": true }
+}
