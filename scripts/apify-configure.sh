@@ -20,3 +20,11 @@ if [ -n "$BUILD_ID" ]; then
   curl -sS "${AUTH[@]}" "$API/actor-builds/$BUILD_ID/log" > "$OUTDIR/apify-build.log"
   echo "saved build log $BUILD_ID ($(wc -l < "$OUTDIR/apify-build.log") lines)"
 fi
+
+# Public stats of the Actor (users, runs) for the daily monitoring task.
+curl -sS "${AUTH[@]}" "$API/acts/$ID" | node -e '
+  const d=JSON.parse(require("fs").readFileSync(0)).data||{};
+  const out={checkedAt:new Date().toISOString(), name:d.name, isPublic:d.isPublic, pricing:(d.pricingInfos||[]).map(p=>p.pricingModel), stats:d.stats||{}};
+  require("fs").writeFileSync(process.argv[1]+"/actor-stats.json", JSON.stringify(out,null,2));
+  console.log("stats", JSON.stringify(out.stats));
+' "$OUTDIR"
