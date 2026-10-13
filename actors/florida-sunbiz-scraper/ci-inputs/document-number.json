@@ -1,0 +1,7 @@
+{
+  "searchType": "documentNumber",
+  "searchTerms": ["L15000160389", "P21000072292", "Z99999999999"],
+  "maxResultsPerSearch": 5,
+  "fetchDetails": true,
+  "proxyConfiguration": { "useApifyProxy": true }
+}

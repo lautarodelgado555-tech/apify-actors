@@ -30,18 +30,21 @@ jobs:
         run: (cd "$ACTOR_DIR" && npm test) > "$OUT/02-test.log" 2>&1 || echo "exit $?" >> "$OUT/02-test.log"
       - name: Install Firefox for Playwright
         run: (cd "$ACTOR_DIR" && npx playwright install --with-deps firefox) > "$OUT/03-firefox.log" 2>&1 || echo "exit $?" >> "$OUT/03-firefox.log"
-      - name: Local run against Sunbiz
+      - name: Local runs against Sunbiz
         run: |
           cd "$ACTOR_DIR"
-          mkdir -p storage/key_value_stores/default
-          node -e 'const i=require("./ci-input.json"); delete i.proxyConfiguration; require("fs").writeFileSync("storage/key_value_stores/default/INPUT.json", JSON.stringify(i))'
-          timeout 600 npm start > "../../$OUT/04-local-run.log" 2>&1 || echo "exit $?" >> "../../$OUT/04-local-run.log"
-          node -e '
-            const fs=require("fs");const dir="storage/datasets/default";
-            const items=fs.existsSync(dir)?fs.readdirSync(dir).filter(f=>f.endsWith(".json")).map(f=>JSON.parse(fs.readFileSync(dir+"/"+f))):[];
-            fs.writeFileSync("../../'"$OUT"'/local-dataset.json", JSON.stringify(items,null,2));
-            console.log("items:", items.length);
-          ' >> "../../$OUT/04-local-run.log" 2>&1 || true
+          for f in ci-inputs/*.json; do
+            name=$(basename "$f" .json)
+            rm -rf storage && mkdir -p storage/key_value_stores/default
+            node -e 'const i=require("./'"$f"'"); delete i.proxyConfiguration; require("fs").writeFileSync("storage/key_value_stores/default/INPUT.json", JSON.stringify(i))'
+            timeout 600 npm start > "../../$OUT/04-local-$name.log" 2>&1 || echo "exit $?" >> "../../$OUT/04-local-$name.log"
+            node -e '
+              const fs=require("fs");const dir="storage/datasets/default";
+              const items=fs.existsSync(dir)?fs.readdirSync(dir).filter(f=>f.endsWith(".json")).map(f=>JSON.parse(fs.readFileSync(dir+"/"+f))):[];
+              fs.writeFileSync("../../'"$OUT"'/local-dataset-'"$name"'.json", JSON.stringify(items,null,2));
+              console.log("items:", items.length);
+            ' >> "../../$OUT/04-local-$name.log" 2>&1 || true
+          done
       - name: Deploy to Apify
         if: env.APIFY_TOKEN != ''
         run: |
@@ -51,7 +54,7 @@ jobs:
         if: env.APIFY_TOKEN != ''
         run: |
           cd "$ACTOR_DIR"
-          bash ../../scripts/apify-run.sh florida-sunbiz-scraper ci-input.json "../../$OUT" > "../../$OUT/06-apify-run.log" 2>&1 || echo "exit $?" >> "../../$OUT/06-apify-run.log"
+          bash ../../scripts/apify-run.sh florida-sunbiz-scraper ci-inputs/entity-name.json "../../$OUT" > "../../$OUT/06-apify-run.log" 2>&1 || echo "exit $?" >> "../../$OUT/06-apify-run.log"
       - name: Commit results
         if: always()
         run: |
