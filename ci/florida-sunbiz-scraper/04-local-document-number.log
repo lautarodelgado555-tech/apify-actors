@@ -4,13 +4,9 @@
 
 [32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}[39m
 [32mINFO[39m [33m PlaywrightCrawler:[39m Starting the crawler.
-[33mWARN[39m [33m PlaywrightCrawler:[39m Reclaiming failed request back to the list or queue. Request blocked - received 403 status code.
-[90m {"id":"oEpmPu396ZMR3Pj","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber","retryCount":1}[39m
-[33mWARN[39m [33m PlaywrightCrawler:[39m Reclaiming failed request back to the list or queue. Request blocked - received 403 status code.
-[90m {"id":"aabkXCYFWFc3kz7","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber","retryCount":1}[39m
 [32mINFO[39m  No results for "Z99999999999"
 [32mINFO[39m [33m PlaywrightCrawler:[39m All requests from the queue have been processed, the crawler will shut down.
-[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":3,"requestsFailed":0,"retryHistogram":[1,2],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":3443,"requestsFinishedPerMinute":17,"requestsFailedPerMinute":0,"requestTotalDurationMillis":10328,"requestsTotal":3,"crawlerRuntimeMillis":10302}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":3,"requestsFailed":0,"retryHistogram":[3],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":3299,"requestsFinishedPerMinute":31,"requestsFailedPerMinute":0,"requestTotalDurationMillis":9897,"requestsTotal":3,"crawlerRuntimeMillis":5842}[39m
 [32mINFO[39m [33m PlaywrightCrawler:[39m Finished! Total 3 requests: 3 succeeded, 0 failed.[90m {"terminal":true}[39m
 [32mINFO[39m  Done. 2 entities saved for 3 search term(s).
 items: 2

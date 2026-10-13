@@ -1,1 +1,1056 @@
-[]
+[{
+  "entityName": "ACME CORPORATION",
+  "entityType": "Florida Profit Corporation",
+  "documentNumber": "112545",
+  "feiEin": "00-0000000",
+  "dateFiled": "12/20/1926",
+  "effectiveDate": null,
+  "state": "FL",
+  "status": "INACTIVE",
+  "lastEvent": "DISSOLVED BY PROCLAMATION",
+  "eventDateFiled": "11/23/1936",
+  "eventEffectiveDate": "NONE",
+  "principalAddress": null,
+  "principalAddressNotes": [],
+  "mailingAddress": null,
+  "mailingAddressNotes": [],
+  "registeredAgentName": "NONE",
+  "registeredAgentAddress": null,
+  "registeredAgentNotes": [],
+  "officerSectionTitle": "Officer/Director Detail",
+  "officers": [],
+  "annualReports": [],
+  "documents": [],
+  "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-112545-918af59c-789e-4606-9371-b8ff8235acb2&entityId=112545&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%201125450&ListNameOrder=ACME%201125450",
+  "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+1125450&aggregateId=domp-112545-918af59c-789e-4606-9371-b8ff8235acb2",
+  "lastAnnualReportYear": null,
+  "annualReportCurrent": null,
+  "annualReportStatus": "not_applicable_inactive",
+  "annualReportDueDate": null,
+  "lateFeeApplies": false,
+  "dissolutionDeadline": null,
+  "nextAnnualReportWindow": null,
+  "matchedName": null,
+  "searchType": "entityName",
+  "searchTerm": "Acme",
+  "scrapedAt": "2026-10-13T21:54:26.726Z"
+},
+{
+  "entityName": "ACME CORPORATION",
+  "entityType": "Florida Profit Corporation",
+  "documentNumber": "143138",
+  "feiEin": "00-0000000",
+  "dateFiled": "07/20/1944",
+  "effectiveDate": null,
+  "state": "FL",
+  "status": "INACTIVE",
+  "lastEvent": "EVENT CONVERTED TO NOTES",
+  "eventDateFiled": "05/16/1949",
+  "eventEffectiveDate": "NONE",
+  "principalAddress": "., JACKSONVILLE, FL",
+  "principalAddressNotes": [],
+  "mailingAddress": "., JACKSONVILLE, FL",
+  "mailingAddressNotes": [],
+  "registeredAgentName": "NONE",
+  "registeredAgentAddress": null,
+  "registeredAgentNotes": [],
+  "officerSectionTitle": "Officer/Director Detail",
+  "officers": [
+    {
+      "title": "D",
+      "name": "CRAVEN, E. FRANK",
+      "address": "., JACKSONVILLE, FL"
+    },
+    {
+      "title": "D",
+      "name": "HUGHES, FRANK R.",
+      "address": "., JACKSONVILLE, FL"
+    },
+    {
+      "title": "D",
+      "name": "HUGHES, CHARLES W.",
+      "address": "., JACKSONVILLE, FL"
+    }
+  ],
+  "annualReports": [],
+  "documents": [],
+  "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-143138-d615c4e5-25e9-412a-b31c-1f3f2eaa5295&entityId=143138&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%201431380&ListNameOrder=ACME%201125450",
+  "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+1431380&aggregateId=domp-143138-d615c4e5-25e9-412a-b31c-1f3f2eaa5295",
+  "lastAnnualReportYear": null,
+  "annualReportCurrent": null,
+  "annualReportStatus": "not_applicable_inactive",
+  "annualReportDueDate": null,
+  "lateFeeApplies": false,
+  "dissolutionDeadline": null,
+  "nextAnnualReportWindow": null,
+  "matchedName": null,
+  "searchType": "entityName",
+  "searchTerm": "Acme",
+  "scrapedAt": "2026-10-13T21:54:27.025Z"
+},
+{
+  "entityName": "THE ACME COMPANY",
+  "entityType": "Florida Profit Corporation",
+  "documentNumber": "188374",
+  "feiEin": "00-0000000",
+  "dateFiled": "10/13/1955",
+  "effectiveDate": null,
+  "state": "FL",
+  "status": "INACTIVE",
+  "lastEvent": "DISSOLVED BY PROCLAMATION",
+  "eventDateFiled": "05/01/1962",
+  "eventEffectiveDate": "NONE",
+  "principalAddress": "., .",
+  "principalAddressNotes": [],
+  "mailingAddress": "., .",
+  "mailingAddressNotes": [],
+  "registeredAgentName": "NONE",
+  "registeredAgentAddress": null,
+  "registeredAgentNotes": [],
+  "officerSectionTitle": "Officer/Director Detail",
+  "officers": [],
+  "annualReports": [],
+  "documents": [],
+  "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-188374-366c153b-ce5d-4f93-97d0-03ce5d4bd312&entityId=188374&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%201883741&ListNameOrder=ACME%201125450",
+  "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+1883741&aggregateId=domp-188374-366c153b-ce5d-4f93-97d0-03ce5d4bd312",
+  "lastAnnualReportYear": null,
+  "annualReportCurrent": null,
+  "annualReportStatus": "not_applicable_inactive",
+  "annualReportDueDate": null,
+  "lateFeeApplies": false,
+  "dissolutionDeadline": null,
+  "nextAnnualReportWindow": null,
+  "matchedName": null,
+  "searchType": "entityName",
+  "searchTerm": "Acme",
+  "scrapedAt": "2026-10-13T21:54:30.730Z"
+},
+{
+  "entityName": "ACME, INC.",
+  "entityType": "Florida Profit Corporation",
+  "documentNumber": "454365",
+  "feiEin": "00-0000000",
+  "dateFiled": "06/07/1974",
+  "effectiveDate": null,
+  "state": "FL",
+  "status": "INACTIVE",
+  "lastEvent": "INVOLUNTARILY DISSOLVED",
+  "eventDateFiled": "12/16/1981",
+  "eventEffectiveDate": "NONE",
+  "principalAddress": "2330 S. HARBOUR CITY BLVD., MELBOURNE, FL 32901",
+  "principalAddressNotes": [],
+  "mailingAddress": "2330 S. HARBOUR CITY BLVD., MELBOURNE, FL 32901",
+  "mailingAddressNotes": [],
+  "registeredAgentName": "LISS, REUBEN",
+  "registeredAgentAddress": "2114 BARRACUDA AVE., MELBOURNE BEACH, FL 32951",
+  "registeredAgentNotes": [],
+  "officerSectionTitle": "Officer/Director Detail",
+  "officers": [
+    {
+      "title": "D",
+      "name": "LISS, REUBEN",
+      "address": "2114 BARRACUDA AVE., MELBOURNE BEACH, FL"
+    },
+    {
+      "title": "STD",
+      "name": "LISS, DOROTHY",
+      "address": "2114 BARRACUDA AVE., MELBOURNE BEACH, FL"
+    }
+  ],
+  "annualReports": [
+    {
+      "reportYear": 1978,
+      "filedDate": "07/21/1978"
+    },
+    {
+      "reportYear": 1979,
+      "filedDate": "08/01/1979"
+    },
+    {
+      "reportYear": 1980,
+      "filedDate": "10/31/1980"
+    }
+  ],
+  "documents": [],
+  "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-454365-f7d2850f-4e56-49e8-9f12-5d3ef3c5e0dd&entityId=454365&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%204543650&ListNameOrder=ACME%201125450",
+  "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+4543650&aggregateId=domp-454365-f7d2850f-4e56-49e8-9f12-5d3ef3c5e0dd",
+  "lastAnnualReportYear": 1980,
+  "annualReportCurrent": null,
+  "annualReportStatus": "not_applicable_inactive",
+  "annualReportDueDate": null,
+  "lateFeeApplies": false,
+  "dissolutionDeadline": null,
+  "nextAnnualReportWindow": null,
+  "matchedName": null,
+  "searchType": "entityName",
+  "searchTerm": "Acme",
+  "scrapedAt": "2026-10-13T21:54:35.931Z"
+},
+{
+  "entityName": "\"ACME\"",
+  "entityType": "Trademark",
+  "documentNumber": "903173",
+  "feiEin": null,
+  "dateFiled": "07/20/1960",
+  "effectiveDate": null,
+  "state": null,
+  "status": "INACTIVE",
+  "lastEvent": "EXPIRATION",
+  "eventDateFiled": "03/18/1972",
+  "eventEffectiveDate": "NONE",
+  "principalAddress": null,
+  "principalAddressNotes": [],
+  "mailingAddress": null,
+  "mailingAddressNotes": [],
+  "registeredAgentName": null,
+  "registeredAgentAddress": null,
+  "registeredAgentNotes": [],
+  "officerSectionTitle": null,
+  "officers": [],
+  "annualReports": [],
+  "documents": [],
+  "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=trade-903173-68879238-671d-4758-83c9-ff67ffb29a50&entityId=903173&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%209031730&ListNameOrder=ACME%201125450",
+  "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+9031730&aggregateId=trade-903173-68879238-671d-4758-83c9-ff67ffb29a50",
+  "lastAnnualReportYear": null,
+  "annualReportCurrent": null,
+  "annualReportStatus": "not_applicable_inactive",
+  "annualReportDueDate": null,
+  "lateFeeApplies": false,
+  "dissolutionDeadline": null,
+  "nextAnnualReportWindow": null,
+  "matchedName": null,
+  "searchType": "entityName",
+  "searchTerm": "Acme",
+  "scrapedAt": "2026-10-13T21:54:47.937Z"
+},
+{
+  "entityName": "ACME COMPANY, L.C.",
+  "entityType": "Florida Limited Liability Company",
+  "documentNumber": "L01000007905",
+  "feiEin": "59-3719148",
+  "dateFiled": "05/16/2001",
+  "effectiveDate": null,
+  "state": "FL",
+  "status": "INACTIVE",
+  "lastEvent": "ADMIN DISSOLUTION FOR ANNUAL REPORT",
+  "eventDateFiled": "09/25/2009",
+  "eventEffectiveDate": "NONE",
+  "principalAddress": "2167 FIFTH AVE NO, SAINT PETERSBURG, FL 33713",
+  "principalAddressNotes": [
+    "Changed: 06/04/2003"
+  ],
+  "mailingAddress": "2167 FIFTH AVE NO, SAINT PETERSBURG, FL 33713",
+  "mailingAddressNotes": [
+    "Changed: 06/04/2003"
+  ],
+  "registeredAgentName": "KNAUST, WARREN JESQ.",
+  "registeredAgentAddress": "2167 FIFTH AVE NO, SAINT PETERSBURG, FL 33713",
+  "registeredAgentNotes": [
+    "Address Changed: 06/04/2003"
+  ],
+  "officerSectionTitle": "Authorized Person(s) Detail",
+  "officers": [
+    {
+      "title": "MGRM",
+      "name": "DOLGIN, BRADLEY E",
+      "address": "P.O. BOX 55811, ST. PETERSBURG, FL 33732-5811"
+    }
+  ],
+  "annualReports": [
+    {
+      "reportYear": 2006,
+      "filedDate": "04/05/2006"
+    },
+    {
+      "reportYear": 2007,
+      "filedDate": "04/07/2007"
+    },
+    {
+      "reportYear": 2008,
+      "filedDate": "05/16/2008"
+    }
+  ],
+  "documents": [
+    {
+      "date": "05/16/2008",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2008%5C0516%5C00706460.tif&documentNumber=L01000007905"
+    },
+    {
+      "date": "04/07/2007",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2007%5C0409%5C50119435.tif&documentNumber=L01000007905"
+    },
+    {
+      "date": "04/05/2006",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2006%5C0406%5C61311336.tif&documentNumber=L01000007905"
+    },
+    {
+      "date": "04/22/2005",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2005%5C0428%5C275901E8.tif&documentNumber=L01000007905"
+    },
+    {
+      "date": "04/07/2004",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2004%5C0409%5C12490D39.tif&documentNumber=L01000007905"
+    },
+    {
+      "date": "06/04/2003",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR1%5C2003%5C0605%5C1288091A.tif&documentNumber=L01000007905"
+    },
+    {
+      "date": "03/29/2002",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2002%5C0403%5C274408CD.tif&documentNumber=L01000007905"
+    },
+    {
+      "date": "05/16/2001",
+      "documentType": "Florida Limited Liabilites",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2001%5C0531%5C80140288.tif&documentNumber=L01000007905"
+    }
+  ],
+  "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=flal-l01000007905-dcb7e796-f4d4-455f-8d52-48906af36953&entityId=L01000007905&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%20L010000079050&ListNameOrder=ACME%201125450",
+  "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+L010000079050&aggregateId=flal-l01000007905-dcb7e796-f4d4-455f-8d52-48906af36953",
+  "lastAnnualReportYear": 2008,
+  "annualReportCurrent": null,
+  "annualReportStatus": "not_applicable_inactive",
+  "annualReportDueDate": null,
+  "lateFeeApplies": false,
+  "dissolutionDeadline": null,
+  "nextAnnualReportWindow": null,
+  "matchedName": null,
+  "searchType": "entityName",
+  "searchTerm": "Acme",
+  "scrapedAt": "2026-10-13T21:54:56.733Z"
+},
+{
+  "entityName": "PUBLIX SUPER MARKETS, INC.",
+  "entityType": "Florida Profit Corporation",
+  "documentNumber": "112252",
+  "feiEin": "59-0324412",
+  "dateFiled": "12/27/1921",
+  "effectiveDate": null,
+  "state": "FL",
+  "status": "ACTIVE",
+  "lastEvent": "CORPORATE MERGER",
+  "eventDateFiled": "03/24/2023",
+  "eventEffectiveDate": "03/24/2023",
+  "principalAddress": "3300 PUBLIX CORPORATE PKWY, LAKELAND, FL 33811-3311",
+  "principalAddressNotes": [
+    "Changed: 03/24/2010"
+  ],
+  "mailingAddress": "P.O. BOX 407, LAKELAND, FL 33802",
+  "mailingAddressNotes": [
+    "Changed: 03/20/2023"
+  ],
+  "registeredAgentName": "Corporate Creations Network Inc.",
+  "registeredAgentAddress": "801 US Highway 1, North Palm Beach, FL 33408",
+  "registeredAgentNotes": [
+    "Name Changed: 04/02/2026",
+    "Address Changed: 04/07/2020"
+  ],
+  "officerSectionTitle": "Officer/Director Detail",
+  "officers": [
+    {
+      "title": "SVP, Secretary",
+      "name": "METZ, MERRIANN M.",
+      "address": "3300 PUBLIX CORPORATE PKWY, LAKELAND, FL 33811-3311"
+    },
+    {
+      "title": "EXECUTIVE VP & CFO",
+      "name": "PHILLIPS, DAVID P.",
+      "address": "3300 PUBLIX CORPORATE PKWY, LAKELAND, FL 33811-3311"
+    },
+    {
+      "title": "SVP",
+      "name": "SMITH, MICHAEL R.",
+      "address": "3300 PUBLIX CORPORATE PKWY, LAKELAND, FL 33811-3311"
+    },
+    {
+      "title": "VP, Facilities",
+      "name": "TAULBEE, DAVID L.",
+      "address": "3300 PUBLIX CORPORATE PKWY, LAKELAND, FL 33811-3311"
+    },
+    {
+      "title": "VP, Real Estate Strategy & Operations",
+      "name": "O'CONNOR, BRIDGID A.",
+      "address": "3300 PUBLIX CORPORATE PKWY, LAKELAND, FL 33811-3311"
+    },
+    {
+      "title": "VP, Industrial Maintenance & Purchasing",
+      "name": "FISHER, JOHN C.",
+      "address": "3300 PUBLIX CORPORATE PKWY, LAKELAND, FL 33811-3311"
+    },
+    {
+      "title": "VP, Real Estate Assets",
+      "name": "RAYBURN, WILLIAM W., IV",
+      "address": "3300 PUBLIX CORPORATE PKWY, LAKELAND, FL 33811-3311"
+    },
+    {
+      "title": "CEO",
+      "name": "Murphy, Kevin S.",
+      "address": "3300 PUBLIX CORPORATE PKWY, LAKELAND, FL 33811-3311"
+    },
+    {
+      "title": "President",
+      "name": "Goff, John L., Jr.",
+      "address": "3300 PUBLIX CORPORATE PKWY, LAKELAND, FL 33811-3311"
+    },
+    {
+      "title": "VP, Facilities",
+      "name": "SER, MIKHAEL H.",
+      "address": "3300 PUBLIX CORPORATE PKWY, LAKELAND, FL 33811-3311"
+    }
+  ],
+  "annualReports": [
+    {
+      "reportYear": 2025,
+      "filedDate": "01/03/2025"
+    },
+    {
+      "reportYear": 2026,
+      "filedDate": "04/02/2026"
+    },
+    {
+      "reportYear": 2026,
+      "filedDate": "06/04/2026"
+    }
+  ],
+  "documents": [
+    {
+      "date": "06/04/2026",
+      "documentType": "AMENDED ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-2d0ef643-5f74-4f0d-9672-22bceb6c764d&formatType=PDF"
+    },
+    {
+      "date": "04/02/2026",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-726fd1db-a797-45bb-8ffd-88b7dd7b2f33&formatType=PDF"
+    },
+    {
+      "date": "01/03/2025",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-45211afb-1d38-4b08-a648-22e6c7b9693f&formatType=PDF"
+    },
+    {
+      "date": "04/01/2024",
+      "documentType": "AMENDED ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-c894e6a9-596a-4c78-8b60-5043ee2a5d49&formatType=PDF"
+    },
+    {
+      "date": "01/12/2024",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-13516de0-7bec-4480-b01a-9d51e907b28f&formatType=PDF"
+    },
+    {
+      "date": "03/24/2023",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2023%5C0328%5C00112891.Tif&documentNumber=112252"
+    },
+    {
+      "date": "03/20/2023",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-07a841e6-f324-47e8-8c19-84c1dc0c62ee&formatType=PDF"
+    },
+    {
+      "date": "04/27/2022",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-99a474a6-a591-439d-8374-a6482d787559&formatType=PDF"
+    },
+    {
+      "date": "04/01/2022",
+      "documentType": "Amendment",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2022%5C0406%5C84758761.Tif&documentNumber=112252"
+    },
+    {
+      "date": "04/16/2021",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-0ee4aa6a-f523-485b-916e-d3b47310b5d2&formatType=PDF"
+    },
+    {
+      "date": "04/07/2020",
+      "documentType": "AMENDED ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-87fefb2e-e7af-4d3e-90b3-a89c9536231b&formatType=PDF"
+    },
+    {
+      "date": "01/24/2020",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-1bb6769d-6a9a-4bbd-83e5-ba33df951251&formatType=PDF"
+    },
+    {
+      "date": "09/06/2019",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2019%5C0910%5C00267812.Tif&documentNumber=112252"
+    },
+    {
+      "date": "06/01/2019",
+      "documentType": "AMENDED ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-be7d31ff-5b52-4a43-a1fe-e71225ea633b&formatType=PDF"
+    },
+    {
+      "date": "05/20/2019",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2019%5C0612%5C29594381.Tif&documentNumber=112252"
+    },
+    {
+      "date": "05/20/2019",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2019%5C0610%5C29594899.Tif&documentNumber=112252"
+    },
+    {
+      "date": "03/06/2019",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-4d8af2ec-35ad-4eee-b781-faf3a9841463&formatType=PDF"
+    },
+    {
+      "date": "03/27/2018",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2018%5C0402%5C00097963.Tif&documentNumber=112252"
+    },
+    {
+      "date": "01/19/2018",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-706d69ac-f793-4e50-9323-29a4c98bb61f&formatType=PDF"
+    },
+    {
+      "date": "08/22/2017",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2017%5C0829%5C02714490.Tif&documentNumber=112252"
+    },
+    {
+      "date": "07/24/2017",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2017%5C0807%5C01366082.Tif&documentNumber=112252"
+    },
+    {
+      "date": "07/12/2017",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2017%5C0717%5C00267743.Tif&documentNumber=112252"
+    },
+    {
+      "date": "07/12/2017",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2017%5C0717%5C00324487.Tif&documentNumber=112252"
+    },
+    {
+      "date": "06/07/2017",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2017%5C0621%5C99820587.Tif&documentNumber=112252"
+    },
+    {
+      "date": "04/14/2017",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2017%5C0418%5C97826978.Tif&documentNumber=112252"
+    },
+    {
+      "date": "03/31/2017",
+      "documentType": "AMENDED ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-c93cce32-d634-452f-b5bb-dc05bd6e3da5&formatType=PDF"
+    },
+    {
+      "date": "02/13/2017",
+      "documentType": "AMENDED ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-7f87516a-eab9-4f95-a115-b59f8be62185&formatType=PDF"
+    },
+    {
+      "date": "01/25/2017",
+      "documentType": "AMENDED ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-2f7b6aba-03a7-4f00-8dc9-dedd771920ee&formatType=PDF"
+    },
+    {
+      "date": "01/24/2017",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-2a29f4d9-a593-4a54-a1be-a5b8fecb554e&formatType=PDF"
+    },
+    {
+      "date": "02/11/2016",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-091fc627-5523-4ff6-af90-df7c02197232&formatType=PDF"
+    },
+    {
+      "date": "04/29/2015",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2015%5C0505%5C00104615.Tif&documentNumber=112252"
+    },
+    {
+      "date": "04/29/2015",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2015%5C0505%5C00104652.Tif&documentNumber=112252"
+    },
+    {
+      "date": "04/29/2015",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2015%5C0505%5C00104963.Tif&documentNumber=112252"
+    },
+    {
+      "date": "02/23/2015",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-815620a1-88f1-4758-ac3f-528682a8235e&formatType=PDF"
+    },
+    {
+      "date": "07/29/2014",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2014%5C0811%5C62746041.Tif&documentNumber=112252"
+    },
+    {
+      "date": "04/22/2014",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-051983bd-11f2-45ae-845a-bc7d345136d1&formatType=PDF"
+    },
+    {
+      "date": "09/04/2013",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2013%5C0917%5C51272000.Tif&documentNumber=112252"
+    },
+    {
+      "date": "09/04/2013",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2013%5C0917%5C51271993.Tif&documentNumber=112252"
+    },
+    {
+      "date": "07/02/2013",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2013%5C0705%5C48491341.Tif&documentNumber=112252"
+    },
+    {
+      "date": "04/02/2013",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&transactionId=112252-5e24e7b5-02ca-4cd3-93ad-e2693da16c46&formatType=PDF"
+    },
+    {
+      "date": "02/22/2013",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2013%5C0227%5C44609688.Tif&documentNumber=112252"
+    },
+    {
+      "date": "08/08/2012",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2012%5C0813%5C37395289.Tif&documentNumber=112252"
+    },
+    {
+      "date": "03/06/2012",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2012%5C0402%5C23938005.tif&documentNumber=112252"
+    },
+    {
+      "date": "06/01/2011",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2011%5C0601%5C08325052.tif&documentNumber=112252"
+    },
+    {
+      "date": "04/13/2011",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2011%5C0427%5C01620166.tif&documentNumber=112252"
+    },
+    {
+      "date": "03/23/2011",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2011%5C0407%5C96742795.Tif&documentNumber=112252"
+    },
+    {
+      "date": "03/23/2011",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2011%5C0407%5C98938526.Tif&documentNumber=112252"
+    },
+    {
+      "date": "03/24/2010",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2010%5C0427%5C72977970.tif&documentNumber=112252"
+    },
+    {
+      "date": "06/16/2009",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2009%5C0619%5C56032066.Tif&documentNumber=112252"
+    },
+    {
+      "date": "02/26/2009",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2009%5C0507%5C44528991.tif&documentNumber=112252"
+    },
+    {
+      "date": "06/13/2008",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2008%5C0619%5C31192421.Tif&documentNumber=112252"
+    },
+    {
+      "date": "06/09/2008",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2008%5C0625%5C62360350.tif&documentNumber=112252"
+    },
+    {
+      "date": "04/07/2008",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2008%5C0416%5C663207B6.tif&documentNumber=112252"
+    },
+    {
+      "date": "09/27/2007",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2007%5C1012%5C09177676.Tif&documentNumber=112252"
+    },
+    {
+      "date": "06/22/2007",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2007%5C0628%5C00164445.Tif&documentNumber=112252"
+    },
+    {
+      "date": "04/16/2007",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2007%5C0427%5CU0712140.Tif&documentNumber=112252"
+    },
+    {
+      "date": "11/16/2006",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2006%5C1129%5C80761118.Tif&documentNumber=112252"
+    },
+    {
+      "date": "05/01/2006",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2006%5C0518%5C726002EA.tif&documentNumber=112252"
+    },
+    {
+      "date": "04/18/2006",
+      "documentType": "Amendment",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2006%5C0503%5CH0103737.Tif&documentNumber=112252"
+    },
+    {
+      "date": "04/27/2005",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2005%5C0510%5C46711762.tif&documentNumber=112252"
+    },
+    {
+      "date": "04/19/2004",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2004%5C0426%5C6718146A.tif&documentNumber=112252"
+    },
+    {
+      "date": "10/02/2003",
+      "documentType": "Merger",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR1%5C2003%5C1008%5CH0289509.Tif&documentNumber=112252"
+    },
+    {
+      "date": "03/07/2003",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR1%5C2003%5C0310%5C45201392.tif&documentNumber=112252"
+    },
+    {
+      "date": "02/21/2002",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2002%5C0227%5C24200809.tif&documentNumber=112252"
+    },
+    {
+      "date": "08/27/2001",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2001%5C0906%5C4396022C.tif&documentNumber=112252"
+    },
+    {
+      "date": "03/29/2001",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2001%5C0330%5C99401767.tif&documentNumber=112252"
+    },
+    {
+      "date": "08/21/2000",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2000%5C0912%5C59160052.TIF&documentNumber=112252"
+    },
+    {
+      "date": "07/14/2000",
+      "documentType": "Reg. Agent Change",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2000%5C0725%5C80323848.TIF&documentNumber=112252"
+    },
+    {
+      "date": "04/11/2000",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2000%5C0414%5C29420C65.TIF&documentNumber=112252"
+    },
+    {
+      "date": "04/02/1999",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C1999%5C0409%5C93000058.TIF&documentNumber=112252"
+    },
+    {
+      "date": "01/29/1998",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C1998%5C0130%5C910762E1.TIF&documentNumber=112252"
+    },
+    {
+      "date": "03/10/1997",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C1997%5C0311%5C9022112F.TIF&documentNumber=112252"
+    },
+    {
+      "date": "02/08/1996",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C1996%5C0209%5C90920036.TIF&documentNumber=112252"
+    },
+    {
+      "date": "02/14/1995",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C0407%5C0105%5CAR010511.tif&documentNumber=112252"
+    }
+  ],
+  "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d&entityId=112252&CurrentPage=0&SearchTerm=Publix%20Super%20Markets&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=PUBLIXSUPERMARKETS%201122521&ListNameOrder=PUBLIXSUPERMARKETS%201122521",
+  "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=PUBLIXSUPERMARKETS+1122521&aggregateId=domp-112252-9281a312-b924-4aa8-b259-e4e9dc29322d",
+  "lastAnnualReportYear": 2026,
+  "annualReportCurrent": true,
+  "annualReportStatus": "filed",
+  "annualReportDueDate": null,
+  "lateFeeApplies": false,
+  "dissolutionDeadline": null,
+  "nextAnnualReportWindow": "2027-01-01",
+  "matchedName": null,
+  "searchType": "entityName",
+  "searchTerm": "Publix Super Markets",
+  "scrapedAt": "2026-10-13T21:55:10.244Z"
+},
+{
+  "entityName": "PUBLIX SUPER MARKETS CHARITIES, INC.",
+  "entityType": "Florida Not For Profit Corporation",
+  "documentNumber": "712447",
+  "feiEin": "59-6194119",
+  "dateFiled": "03/20/1967",
+  "effectiveDate": null,
+  "state": "FL",
+  "status": "ACTIVE",
+  "lastEvent": "NAME CHANGE AMENDMENT",
+  "eventDateFiled": "12/27/1995",
+  "eventEffectiveDate": "01/01/1996",
+  "principalAddress": "3300 PUBLIX CORP PKWY, LAKELAND, FL 33811",
+  "principalAddressNotes": [
+    "Changed: 05/01/2008"
+  ],
+  "mailingAddress": "3300 PUBLIX CORP PKWY, LAKELAND, FL 33811",
+  "mailingAddressNotes": [
+    "Changed: 03/30/2010"
+  ],
+  "registeredAgentName": "JOHNSON, TINA P",
+  "registeredAgentAddress": "3300 PUBLIX CORP PKWY, LAKELAND, FL 33811",
+  "registeredAgentNotes": [
+    "Name Changed: 04/23/2009",
+    "Address Changed: 04/23/2009"
+  ],
+  "officerSectionTitle": "Officer/Director Detail",
+  "officers": [
+    {
+      "title": "TD",
+      "name": "JOHNSON, TINA P",
+      "address": "3300 PUBLIX CORP. PKWY, LAKELAND, FL 33811"
+    },
+    {
+      "title": "President, Chairman",
+      "name": "BARNETT, HOYT R",
+      "address": "3300 PUBLIX CORP. PKWY, LAKELAND, FL 33811"
+    },
+    {
+      "title": "SD",
+      "name": "ATTAWAY, JOHN",
+      "address": "3300 PUBLIX CORP. PKWY, LAKELAND, FL 33811"
+    },
+    {
+      "title": "Director",
+      "name": "Williams-Puccio, Kelly",
+      "address": "3300 PUBLIX CORP PKWY, LAKELAND, FL 33811"
+    },
+    {
+      "title": "Director",
+      "name": "Barnett, Nick",
+      "address": "3300 Publix Corporate Parkway, Lakeland, FL 33811"
+    },
+    {
+      "title": "Director",
+      "name": "Doran, John",
+      "address": "3300 PUBLIX CORP PKWY, LAKELAND, FL 33811"
+    }
+  ],
+  "annualReports": [
+    {
+      "reportYear": 2024,
+      "filedDate": "02/02/2024"
+    },
+    {
+      "reportYear": 2025,
+      "filedDate": "02/10/2025"
+    },
+    {
+      "reportYear": 2026,
+      "filedDate": "01/20/2026"
+    }
+  ],
+  "documents": [
+    {
+      "date": "01/20/2026",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domnp-712447-efb7b7f8-e483-49f8-98de-2563e90b4bcd&transactionId=712447-109c35ff-ff73-43c8-a329-e76a0389d4e6&formatType=PDF"
+    },
+    {
+      "date": "02/10/2025",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domnp-712447-efb7b7f8-e483-49f8-98de-2563e90b4bcd&transactionId=712447-a74ab601-b2bd-4fee-926b-933ceeb72cd3&formatType=PDF"
+    },
+    {
+      "date": "02/02/2024",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domnp-712447-efb7b7f8-e483-49f8-98de-2563e90b4bcd&transactionId=712447-8453e4eb-d567-4fd1-a95b-1b0c057c67e5&formatType=PDF"
+    },
+    {
+      "date": "01/24/2023",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domnp-712447-efb7b7f8-e483-49f8-98de-2563e90b4bcd&transactionId=712447-ad865fae-84cc-4fff-b049-88634f20f344&formatType=PDF"
+    },
+    {
+      "date": "01/26/2022",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domnp-712447-efb7b7f8-e483-49f8-98de-2563e90b4bcd&transactionId=712447-9aa8d094-5c48-4f24-a739-5761f233555f&formatType=PDF"
+    },
+    {
+      "date": "01/14/2021",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domnp-712447-efb7b7f8-e483-49f8-98de-2563e90b4bcd&transactionId=712447-c9e6b1e5-d4b2-449d-b95e-7cd3793922c2&formatType=PDF"
+    },
+    {
+      "date": "01/15/2020",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domnp-712447-efb7b7f8-e483-49f8-98de-2563e90b4bcd&transactionId=712447-d4af7282-f20d-4dda-ad9e-baa1b943f3f9&formatType=PDF"
+    },
+    {
+      "date": "03/27/2019",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domnp-712447-efb7b7f8-e483-49f8-98de-2563e90b4bcd&transactionId=712447-e03eb9a6-e3fa-48cb-b3b1-ecebe006b036&formatType=PDF"
+    },
+    {
+      "date": "03/26/2018",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domnp-712447-efb7b7f8-e483-49f8-98de-2563e90b4bcd&transactionId=712447-ba03afaa-5f99-4dd6-bba5-e5147409e6f2&formatType=PDF"
+    },
+    {
+      "date": "02/22/2017",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domnp-712447-efb7b7f8-e483-49f8-98de-2563e90b4bcd&transactionId=712447-4183ec23-a5b4-4cbd-8515-f5bb21cc8584&formatType=PDF"
+    },
+    {
+      "date": "03/03/2016",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domnp-712447-efb7b7f8-e483-49f8-98de-2563e90b4bcd&transactionId=712447-f2bfbc49-a825-4f9f-9b70-17e19bb28928&formatType=PDF"
+    },
+    {
+      "date": "01/21/2015",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domnp-712447-efb7b7f8-e483-49f8-98de-2563e90b4bcd&transactionId=712447-1deb3451-aebf-4e3d-93f0-e884111aa03c&formatType=PDF"
+    },
+    {
+      "date": "01/28/2014",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domnp-712447-efb7b7f8-e483-49f8-98de-2563e90b4bcd&transactionId=712447-05fdb7d6-1965-4e57-95fe-9e3a598a0b29&formatType=PDF"
+    },
+    {
+      "date": "01/31/2013",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=domnp-712447-efb7b7f8-e483-49f8-98de-2563e90b4bcd&transactionId=712447-123e0017-ce2a-47ea-9f06-0085c614b39a&formatType=PDF"
+    },
+    {
+      "date": "01/10/2012",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2012%5C0125%5C17836894.tif&documentNumber=712447"
+    },
+    {
+      "date": "02/15/2011",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2011%5C0315%5C94229168.tif&documentNumber=712447"
+    },
+    {
+      "date": "03/30/2010",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2010%5C0402%5C73716974.tif&documentNumber=712447"
+    },
+    {
+      "date": "04/23/2009",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2009%5C0604%5C52199108.tif&documentNumber=712447"
+    },
+    {
+      "date": "05/01/2008",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2008%5C0517%5C67060BAB.tif&documentNumber=712447"
+    },
+    {
+      "date": "02/05/2007",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2007%5C0213%5C39600200.tif&documentNumber=712447"
+    },
+    {
+      "date": "02/24/2006",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2006%5C0228%5C384602CF.tif&documentNumber=712447"
+    },
+    {
+      "date": "03/04/2005",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2005%5C0316%5C586404CF.tif&documentNumber=712447"
+    },
+    {
+      "date": "05/06/2004",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2004%5C0519%5C93092A72.tif&documentNumber=712447"
+    },
+    {
+      "date": "02/17/2003",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR1%5C2003%5C0218%5C6483151F.tif&documentNumber=712447"
+    },
+    {
+      "date": "02/05/2002",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2002%5C0209%5C30100A32.tif&documentNumber=712447"
+    },
+    {
+      "date": "02/20/2001",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2001%5C0222%5C73500AD1.tif&documentNumber=712447"
+    },
+    {
+      "date": "04/12/2000",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2000%5C0414%5C29100706.TIF&documentNumber=712447"
+    },
+    {
+      "date": "02/15/1999",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C1999%5C0216%5C28000FB6.TIF&documentNumber=712447"
+    },
+    {
+      "date": "01/28/1998",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C1998%5C0129%5C910630D8.TIF&documentNumber=712447"
+    },
+    {
+      "date": "01/27/1997",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C1997%5C0128%5C900350DA.TIF&documentNumber=712447"
+    },
+    {
+      "date": "01/24/1996",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C1996%5C0125%5C90212006.TIF&documentNumber=712447"
+    },
+    {
+      "date": "03/15/1995",
+      "documentType": "ANNUAL REPORT",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C0707%5C0105%5CAR010023.tif&documentNumber=712447"
+    }
+  ],
+  "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domnp-712447-efb7b7f8-e483-49f8-98de-2563e90b4bcd&entityId=712447&CurrentPage=0&SearchTerm=Publix%20Super%20Markets&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=PUBLIXSUPERMARKETSCHARITIES%207124471&ListNameOrder=PUBLIXSUPERMARKETS%201122521",
+  "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=PUBLIXSUPERMARKETSCHARITIES+7124471&aggregateId=domnp-712447-efb7b7f8-e483-49f8-98de-2563e90b4bcd",
+  "lastAnnualReportYear": 2026,
+  "annualReportCurrent": true,
+  "annualReportStatus": "filed",
+  "annualReportDueDate": null,
+  "lateFeeApplies": false,
+  "dissolutionDeadline": null,
+  "nextAnnualReportWindow": "2027-01-01",
+  "matchedName": null,
+  "searchType": "entityName",
+  "searchTerm": "Publix Super Markets",
+  "scrapedAt": "2026-10-13T21:55:20.530Z"
+}]
