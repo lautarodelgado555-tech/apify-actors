@@ -1,1 +1,185 @@
-[]
+[
+  {
+    "entityName": "ACME LLC",
+    "entityType": "Florida Limited Liability Company",
+    "documentNumber": "L15000160389",
+    "feiEin": "47-5125953",
+    "dateFiled": "09/21/2015",
+    "effectiveDate": "09/23/2015",
+    "state": "FL",
+    "status": "ACTIVE",
+    "lastEvent": "REINSTATEMENT",
+    "eventDateFiled": "10/24/2016",
+    "eventEffectiveDate": null,
+    "principalAddress": "7705 MOWRY ST., JACKSONVILLE, FL 32256",
+    "principalAddressNotes": [],
+    "mailingAddress": "7705 MOWRY ST., JACKSONVILLE, FL 32256",
+    "mailingAddressNotes": [],
+    "registeredAgentName": "BALLARD, GLEN A",
+    "registeredAgentAddress": "7705 MOWRY ST., JACKSONVILLE, FL 32256",
+    "registeredAgentNotes": [
+      "Name Changed: 10/24/2016"
+    ],
+    "officerSectionTitle": "Authorized Person(s) Detail",
+    "officers": [
+      {
+        "title": "MGR",
+        "name": "BALLARD, GLEN A",
+        "address": "7705 MOWRY ST., JACKSONVILLE, FL 32256"
+      }
+    ],
+    "annualReports": [
+      {
+        "reportYear": 2024,
+        "filedDate": "01/17/2024"
+      },
+      {
+        "reportYear": 2025,
+        "filedDate": "01/03/2025"
+      },
+      {
+        "reportYear": 2026,
+        "filedDate": "01/26/2026"
+      }
+    ],
+    "documents": [
+      {
+        "date": "01/26/2026",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-56889d17-8346-43ae-89f1-fde96b7043a0&formatType=PDF"
+      },
+      {
+        "date": "01/03/2025",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-77c1153c-3498-40ee-a963-83b2e4f7bed3&formatType=PDF"
+      },
+      {
+        "date": "01/17/2024",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-8cd8b3bb-e7bb-4d55-abb1-d7082d363216&formatType=PDF"
+      },
+      {
+        "date": "01/04/2023",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-0177ad07-30d5-49b2-b4a6-9a32fc940469&formatType=PDF"
+      },
+      {
+        "date": "01/03/2022",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-e3605e72-42d2-43cd-8ad9-43474291bbd7&formatType=PDF"
+      },
+      {
+        "date": "01/05/2021",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-a05d6160-46f3-4a7e-81d5-dc159037a86f&formatType=PDF"
+      },
+      {
+        "date": "01/06/2020",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-23eaf444-d626-437e-af6c-4dab9e7a4ad5&formatType=PDF"
+      },
+      {
+        "date": "01/02/2019",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-4f18d5b9-6f4f-412f-8b34-e5f631d95fbd&formatType=PDF"
+      },
+      {
+        "date": "01/02/2018",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-79671567-ee3b-41c5-86dc-44021940a77a&formatType=PDF"
+      },
+      {
+        "date": "01/18/2017",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-8b86380c-2a2e-4b6f-ac2a-a8878261989e&formatType=PDF"
+      },
+      {
+        "date": "10/24/2016",
+        "documentType": "REINSTATEMENT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/GetDocument?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&transactionId=l15000160389-re-be5f843a-5d65-4069-8f12-5ca8f2e819f9&formatType=PDF"
+      },
+      {
+        "date": "09/21/2015",
+        "documentType": "Florida Limited Liability",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2015%5C0923%5C10282931.tif&documentNumber=L15000160389"
+      }
+    ],
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017&entityId=L15000160389&CurrentPage=0&SearchTerm=L15000160389&InquiryType=DocumentNumber&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%20L150001603890",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+L150001603890&aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017",
+    "lastAnnualReportYear": 2026,
+    "annualReportCurrent": true,
+    "annualReportStatus": "filed",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "dissolutionDeadline": null,
+    "nextAnnualReportWindow": "2027-01-01",
+    "matchedName": null,
+    "searchType": "documentNumber",
+    "searchTerm": "L15000160389",
+    "scrapedAt": "2026-10-13T21:26:28.235Z"
+  },
+  {
+    "entityName": "ACME CORPORATION",
+    "entityType": "Florida Profit Corporation",
+    "documentNumber": "P21000072292",
+    "feiEin": "NONE",
+    "dateFiled": "08/11/2021",
+    "effectiveDate": "08/11/2021",
+    "state": "FL",
+    "status": "INACTIVE",
+    "lastEvent": "ADMIN DISSOLUTION FOR ANNUAL REPORT",
+    "eventDateFiled": "09/23/2022",
+    "eventEffectiveDate": "NONE",
+    "principalAddress": "3825 HENDERSON BOULEVARD, SUITE 303, TAMPA, FL 33629",
+    "principalAddressNotes": [],
+    "mailingAddress": "3825 HENDERSON BOULEVARD, SUITE 303, TAMPA, FL 33629",
+    "mailingAddressNotes": [],
+    "registeredAgentName": "CHARLO INVESTIGATIONS LLC",
+    "registeredAgentAddress": "3825 HENDERSON BOULEVARD, SUITE 303, TAMPA, FL 33629",
+    "registeredAgentNotes": [],
+    "officerSectionTitle": "Officer/Director Detail",
+    "officers": [
+      {
+        "title": "PRES",
+        "name": "HOLMES, SANDRA G",
+        "address": "454 MEADOWLARK LANE, LAVERGNE, TN 37086"
+      },
+      {
+        "title": "VP",
+        "name": "ELKHACHANI, HMIDA",
+        "address": "577 STERLING ROAD, VIRGINIA BEACH, VA 23464"
+      },
+      {
+        "title": "SEC",
+        "name": "HOLMES, CINDY P",
+        "address": "107 COUNTRY COURT, LAVERGNE, TN 37086"
+      },
+      {
+        "title": "VP",
+        "name": "TAYLOR, BARRY",
+        "address": "3825 HENDERSON BLVD, SUITE 303, TAMPA, FL 33629"
+      }
+    ],
+    "annualReports": [],
+    "documents": [
+      {
+        "date": "08/11/2021",
+        "documentType": "Domestic Profit",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2021%5C0812%5C80585838.tif&documentNumber=P21000072292"
+      }
+    ],
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-p21000072292-dd69425b-8f53-44bb-89e7-6dd8a3cd1d27&entityId=P21000072292&CurrentPage=0&SearchTerm=P21000072292&InquiryType=DocumentNumber&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%20P210000722920",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+P210000722920&aggregateId=domp-p21000072292-dd69425b-8f53-44bb-89e7-6dd8a3cd1d27",
+    "lastAnnualReportYear": null,
+    "annualReportCurrent": null,
+    "annualReportStatus": "not_applicable_inactive",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "dissolutionDeadline": null,
+    "nextAnnualReportWindow": null,
+    "matchedName": null,
+    "searchType": "documentNumber",
+    "searchTerm": "P21000072292",
+    "scrapedAt": "2026-10-13T21:26:28.464Z"
+  }
+]
