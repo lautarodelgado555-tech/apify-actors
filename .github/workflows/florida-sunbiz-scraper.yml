@@ -50,7 +50,7 @@ jobs:
         if: env.APIFY_TOKEN != ''
         run: |
           cd "$ACTOR_DIR"
-          (npm install -g apify-cli && apify login -t "$APIFY_TOKEN" && apify push --force && bash ../../scripts/apify-configure.sh florida-sunbiz-scraper) 2>&1 | grep -v -i "token" > "../../$OUT/05-deploy.log" || echo "exit $?" >> "../../$OUT/05-deploy.log"
+          (npm install -g apify-cli && apify login -t "$APIFY_TOKEN" && apify push --force; bash ../../scripts/apify-configure.sh florida-sunbiz-scraper "../../$OUT") 2>&1 | grep -v -i "token" > "../../$OUT/05-deploy.log" || echo "exit $?" >> "../../$OUT/05-deploy.log"
       - name: Run on Apify
         if: env.APIFY_TOKEN != ''
         run: |

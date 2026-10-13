@@ -12,3 +12,11 @@ echo "configuring $ID"
 curl -sS -X PUT "${AUTH[@]}" -H "Content-Type: application/json" "$API/acts/$ID" \
   --data '{"defaultRunOptions":{"build":"latest","timeoutSecs":3600,"memoryMbytes":2048}}' \
   | json 'd.data ? ("ok defaultRunOptions=" + JSON.stringify(d.data.defaultRunOptions)) : JSON.stringify(d)'
+
+# Save the log of the most recent build next to the deploy log for debugging.
+OUTDIR="${2:-.}"
+BUILD_ID=$(curl -sS "${AUTH[@]}" "$API/acts/$ID/builds?desc=true&limit=1" | json 'd.data.items[0] ? d.data.items[0].id : ""')
+if [ -n "$BUILD_ID" ]; then
+  curl -sS "${AUTH[@]}" "$API/actor-builds/$BUILD_ID/log" > "$OUTDIR/apify-build.log"
+  echo "saved build log $BUILD_ID ($(wc -l < "$OUTDIR/apify-build.log") lines)"
+fi
