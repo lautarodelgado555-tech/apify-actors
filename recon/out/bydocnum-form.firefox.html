@@ -27,7 +27,7 @@
     </script>
 
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-    <title>Search for Corporations, Limited Liability Companies, Limited Partnerships, and Trademarks by Name</title>
+    <title>Search Corporations, Limited Liability Companies, Limited Partnerships, and Trademarks by Document Number</title>
 
 
     <link href="/Content/cms?v=ItlM_lgsld8d5y2DZN8udILUOGATgDIMrXnf_hMtBKk1" rel="stylesheet">
@@ -83,13 +83,13 @@
 
 
 
-<h3 style="padding-top: 10px"><b>Search for Corporations, Limited Liability Companies, Limited Partnerships, and Trademarks by Name</b></h3>
+<h3 style="padding-top: 10px"><b>Search Corporations, Limited Liability Companies, Limited Partnerships, and Trademarks by Document Number</b></h3>
 
 <div id="search-input">
-<form action="/Inquiry/CorporationSearch/ByName" method="post"><div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+<form action="/Inquiry/CorporationSearch/ByDocumentNumber" method="post"><div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
 </ul></div>        <div style="text-align: center">
 			<div class="editor-field" style="margin-top: 30px">
-				<label for="SearchTerm">Entity Name: </label>
+				<label for="SearchTerm">Document Number: </label>
 				<input data-val="true" data-val-required="Please enter search criteria." id="SearchTerm" maxlength="45" name="SearchTerm" size="45" type="text" value="">
 			</div>
             <p style="text-align: center">
@@ -99,7 +99,7 @@
                 <input type="submit" value="Search Now">
             </div>
             <div>
-                
+                <p style="text-align: left"><b>Please Note: </b></p><br>The error message <b><i>Record Not Found</i></b> means the document number does not exist in our records.If your search results in this message:<ul style="text-align: left"><li>Try again or search by the name.</li><li>Be sure to use the number zero (“0”) for all document numbers. The letter “o” is not acceptable.</li></ul>
             </div>
             <br>
             <div style="text-align: justify" class="searchOptionsFooter">
@@ -113,13 +113,13 @@
 
 
             <ul>
-                <li>Entity Name</li>
+                <li><a href="/Inquiry/CorporationSearch/ByName">Entity Name</a></li>
                 <li><a href="/Inquiry/CorporationSearch/ByOfficerOrRegisteredAgent">Officer/Registered Agent</a></li>
                 <li><a href="/Inquiry/CorporationSearch/ByRegisteredAgent">Registered Agent Name</a></li>
                 <li><a href="/Inquiry/CorporationSearch/ByTrademark">Trademark Name</a></li>
                 <li><a href="/Inquiry/CorporationSearch/ByTrademarkOwner">Trademark Owner Name</a></li>
                 <li><a href="/Inquiry/CorporationSearch/ByFeiNumber">FEI/EIN</a></li>
-                <li><a href="/Inquiry/CorporationSearch/ByDocumentNumber">Detail by Document Number</a></li>
+                <li>Detail By Document Number</li>
                 <li><a href="/Inquiry/CorporationSearch/ByZip">Zip Code</a></li>
                 <li><a href="/Inquiry/CorporationSearch/ByAddress">Street Address</a></li>
             </ul>
@@ -132,7 +132,7 @@
                     <a href="http://dos.myflorida.com/sunbiz/search/guides/corporation-records/">Corporation Records Search Guide</a></p>
             </div>
 
-            <input data-val="true" data-val-required="'Inquiry Type' must not be empty." id="InquiryType" name="InquiryType" type="hidden" value="EntityName">
+            <input data-val="true" data-val-required="'Inquiry Type' must not be empty." id="InquiryType" name="InquiryType" type="hidden" value="DocumentNumber">
             <input id="SearchNameOrder" name="SearchNameOrder" type="hidden" value="">
         </div>
 </form></div>
