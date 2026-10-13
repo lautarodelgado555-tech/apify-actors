@@ -9,9 +9,9 @@ permissions:
 concurrency:
   group: florida-sunbiz-scraper
   cancel-in-progress: false
-defaults:
-  run:
-    working-directory: actors/florida-sunbiz-scraper
+env:
+  ACTOR_DIR: actors/florida-sunbiz-scraper
+  OUT: ci/florida-sunbiz-scraper
 jobs:
   test-and-run:
     runs-on: ubuntu-latest
@@ -22,58 +22,42 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Prepare output folder
+        run: mkdir -p "$OUT" && rm -f "$OUT"/*.log "$OUT"/*.json && echo "run $(date -u +%FT%TZ) sha ${GITHUB_SHA}" > "$OUT/00-meta.log"
       - name: Install
-        run: npm install --no-audit --no-fund 2>&1 | tail -3
+        run: (cd "$ACTOR_DIR" && npm install --no-audit --no-fund) > "$OUT/01-install.log" 2>&1 || echo "exit $?" >> "$OUT/01-install.log"
       - name: Unit tests
-        run: npm test 2>&1 | grep -E "^(ok|not ok|# (pass|fail))" || true
+        run: (cd "$ACTOR_DIR" && npm test) > "$OUT/02-test.log" 2>&1 || echo "exit $?" >> "$OUT/02-test.log"
       - name: Install Firefox for Playwright
-        run: npx playwright install --with-deps firefox >/dev/null 2>&1 || npx playwright install firefox
+        run: (cd "$ACTOR_DIR" && npx playwright install --with-deps firefox) > "$OUT/03-firefox.log" 2>&1 || echo "exit $?" >> "$OUT/03-firefox.log"
       - name: Local run against Sunbiz
         run: |
-          mkdir -p storage/key_value_stores/default ../../ci/florida-sunbiz-scraper
+          cd "$ACTOR_DIR"
+          mkdir -p storage/key_value_stores/default
           node -e 'const i=require("./ci-input.json"); delete i.proxyConfiguration; require("fs").writeFileSync("storage/key_value_stores/default/INPUT.json", JSON.stringify(i))'
-          (timeout 600 npm start 2>&1 | tee ../../ci/florida-sunbiz-scraper/local-run.log | tail -40) || true
+          timeout 600 npm start > "../../$OUT/04-local-run.log" 2>&1 || echo "exit $?" >> "../../$OUT/04-local-run.log"
           node -e '
             const fs=require("fs");const dir="storage/datasets/default";
             const items=fs.existsSync(dir)?fs.readdirSync(dir).filter(f=>f.endsWith(".json")).map(f=>JSON.parse(fs.readFileSync(dir+"/"+f))):[];
-            fs.writeFileSync("../../ci/florida-sunbiz-scraper/local-dataset.json", JSON.stringify(items,null,2));
+            fs.writeFileSync("../../'"$OUT"'/local-dataset.json", JSON.stringify(items,null,2));
             console.log("items:", items.length);
-          '
+          ' >> "../../$OUT/04-local-run.log" 2>&1 || true
       - name: Deploy to Apify
         if: env.APIFY_TOKEN != ''
         run: |
-          npm install -g apify-cli >/dev/null 2>&1
-          apify login -t "$APIFY_TOKEN" >/dev/null
-          apify push --no-prompt --force 2>&1 | grep -v -i token | tail -15 | tee ../../ci/florida-sunbiz-scraper/deploy.log
+          cd "$ACTOR_DIR"
+          (npm install -g apify-cli && apify login -t "$APIFY_TOKEN" && apify push --no-prompt --force) 2>&1 | grep -v -i "token" > "../../$OUT/05-deploy.log" || echo "exit $?" >> "../../$OUT/05-deploy.log"
       - name: Run on Apify
         if: env.APIFY_TOKEN != ''
         run: |
-          set -e
-          USERNAME=$(curl -sS -H "Authorization: Bearer $APIFY_TOKEN" https://api.apify.com/v2/users/me | node -pe 'JSON.parse(require("fs").readFileSync(0)).data.username')
-          echo "actor: $USERNAME~florida-sunbiz-scraper"
-          RUN=$(curl -sS -X POST -H "Authorization: Bearer $APIFY_TOKEN" -H "Content-Type: application/json" \
-            "https://api.apify.com/v2/acts/$USERNAME~florida-sunbiz-scraper/runs?memory=2048&timeout=900" \
-            --data @ci-input.json)
-          RUN_ID=$(echo "$RUN" | node -pe 'JSON.parse(require("fs").readFileSync(0)).data.id')
-          echo "run id: $RUN_ID"
-          for i in $(seq 1 90); do
-            STATUS=$(curl -sS -H "Authorization: Bearer $APIFY_TOKEN" "https://api.apify.com/v2/actor-runs/$RUN_ID" | node -pe 'JSON.parse(require("fs").readFileSync(0)).data.status')
-            echo "status: $STATUS"
-            case "$STATUS" in SUCCEEDED|FAILED|ABORTED|TIMED-OUT) break;; esac
-            sleep 10
-          done
-          curl -sS -H "Authorization: Bearer $APIFY_TOKEN" "https://api.apify.com/v2/actor-runs/$RUN_ID" > ../../ci/florida-sunbiz-scraper/apify-run.json
-          curl -sS -H "Authorization: Bearer $APIFY_TOKEN" "https://api.apify.com/v2/logs/$RUN_ID" > ../../ci/florida-sunbiz-scraper/apify-run.log
-          DATASET=$(node -pe 'JSON.parse(require("fs").readFileSync("../../ci/florida-sunbiz-scraper/apify-run.json")).data.defaultDatasetId')
-          curl -sS -H "Authorization: Bearer $APIFY_TOKEN" "https://api.apify.com/v2/datasets/$DATASET/items?clean=true" > ../../ci/florida-sunbiz-scraper/apify-dataset.json
-          node -e 'const r=require("../../ci/florida-sunbiz-scraper/apify-run.json").data; console.log("status", r.status, "cu", r.usage && r.usage.ACTOR_COMPUTE_UNITS, "usd", r.usageTotalUsd)'
+          cd "$ACTOR_DIR"
+          bash ../../scripts/apify-run.sh florida-sunbiz-scraper ci-input.json "../../$OUT" > "../../$OUT/06-apify-run.log" 2>&1 || echo "exit $?" >> "../../$OUT/06-apify-run.log"
       - name: Commit results
         if: always()
-        working-directory: .
         run: |
           git config user.name "ci-bot"
           git config user.email "ci-bot@users.noreply.github.com"
-          git add -A ci
+          git add -A "$OUT" || true
           git commit -m "ci: florida-sunbiz-scraper results $(date -u +%FT%TZ)" || echo "nothing to commit"
-          git pull --rebase
-          git push
+          git pull --rebase --autostash || true
+          git push || true
