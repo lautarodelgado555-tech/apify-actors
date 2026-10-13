@@ -10,7 +10,7 @@
     "apify": "^3.4.0",
     "cheerio": "^1.0.0",
     "crawlee": "^3.13.0",
-    "playwright": "*"
+    "playwright": "1.64.0"
   },
   "scripts": {
     "start": "node src/main.js",
