@@ -1,5 +1,16 @@
 [
-  {"name":"byname-form","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByName","strategies":["fetch","gotScraping","impit","chromium","firefox"]},
-  {"name":"results-name","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&inquiryDirectionType=ForwardList&searchNameOrder=ACME&SearchTerm=acme","strategies":["impit","chromium","firefox"]},
-  {"name":"detail-llc","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME%20L150001603890&aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017","strategies":["impit","chromium","firefox"]}
+ {
+  "name": "bydocnum-form",
+  "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber",
+  "strategies": [
+   "firefox"
+  ]
+ },
+ {
+  "name": "byfei-form",
+  "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ByFeiNumber",
+  "strategies": [
+   "firefox"
+  ]
+ }
 ]

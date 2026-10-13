@@ -193,7 +193,7 @@ crawler = new PlaywrightCrawler({
             await page.fill('#SearchTerm', term);
             await Promise.all([
                 page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 60000 }),
-                page.click('input[type="submit"][name="Search"]'),
+                page.press('#SearchTerm', 'Enter'),
             ]);
             await waitForCloudflare(page, session);
         }
