@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Apply store listing, pricing and visibility from <actor-dir>/.actor/store.json.
+# Apply store listing, pricing and visibility from <actor-dir>/.actor/store.json (re-run after billing info is set).
 # Usage: apify-publish.sh <actor-name> <actor-dir>   (needs APIFY_TOKEN)
 set -u
 ACTOR_NAME="$1"; ACTOR_DIR="$2"
