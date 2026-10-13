@@ -1,0 +1,13 @@
+
+> florida-sunbiz-scraper@0.1.0 start
+> node src/main.js
+
+[32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v20.20.2"}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Starting the crawler.
+[32mINFO[39m  "Acme": accepted 6 so far (done)
+[32mINFO[39m  "Publix Super Markets": accepted 2 so far (done)
+[32mINFO[39m [33m PlaywrightCrawler:[39m All requests from the queue have been processed, the crawler will shut down.
+[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":10,"requestsFailed":0,"retryHistogram":[10],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":1208,"requestsFinishedPerMinute":91,"requestsFailedPerMinute":0,"requestTotalDurationMillis":12084,"requestsTotal":10,"crawlerRuntimeMillis":6592}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Finished! Total 10 requests: 10 succeeded, 0 failed.[90m {"terminal":true}[39m
+[32mINFO[39m  Done. 8 entities saved for 2 search term(s).
+items: 8
