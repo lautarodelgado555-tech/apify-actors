@@ -4,6 +4,8 @@ on:
     paths:
       - "actors/florida-sunbiz-scraper/**"
       - ".github/workflows/florida-sunbiz-scraper.yml"
+  schedule:
+    - cron: "17 11 * * *" # daily smoke test, 08:17 Buenos Aires
 permissions:
   contents: write
 concurrency:
