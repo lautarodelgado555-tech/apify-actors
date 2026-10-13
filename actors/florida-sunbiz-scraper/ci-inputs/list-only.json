@@ -1,8 +1,13 @@
 {
   "searchType": "entityName",
-  "searchTerms": ["Acme"],
-  "nameMatch": "exact",
-  "maxResultsPerSearch": 50,
+  "searchTerms": [
+    "Acme"
+  ],
+  "nameMatch": "startsWith",
+  "maxResultsPerSearch": 5,
   "fetchDetails": false,
-  "proxyConfiguration": { "useApifyProxy": true }
+  "proxyConfiguration": {
+    "useApifyProxy": true
+  },
+  "activeOnly": true
 }

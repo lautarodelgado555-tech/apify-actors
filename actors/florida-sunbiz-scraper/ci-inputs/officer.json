@@ -1,9 +1,13 @@
 {
   "searchType": "officerOrRegisteredAgent",
-  "searchTerms": ["Smith John"],
+  "searchTerms": [
+    "Smith John"
+  ],
   "nameMatch": "startsWith",
   "maxResultsPerSearch": 4,
-  "activeOnly": true,
+  "activeOnly": false,
   "fetchDetails": true,
-  "proxyConfiguration": { "useApifyProxy": true }
+  "proxyConfiguration": {
+    "useApifyProxy": true
+  }
 }

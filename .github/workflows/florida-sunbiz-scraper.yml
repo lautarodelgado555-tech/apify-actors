@@ -37,7 +37,8 @@ jobs:
             name=$(basename "$f" .json)
             rm -rf storage && mkdir -p storage/key_value_stores/default
             node -e 'const i=require("./'"$f"'"); delete i.proxyConfiguration; require("fs").writeFileSync("storage/key_value_stores/default/INPUT.json", JSON.stringify(i))'
-            timeout 600 npm start > "../../$OUT/04-local-$name.log" 2>&1 || echo "exit $?" >> "../../$OUT/04-local-$name.log"
+            SUNBIZ_DEBUG=1 timeout 600 npm start > "../../$OUT/04-local-$name.log" 2>&1 || echo "exit $?" >> "../../$OUT/04-local-$name.log"
+            for d in storage/key_value_stores/default/DEBUG-*; do [ -e "$d" ] && cp "$d" "../../$OUT/debug-$name-$(basename "$d")"; done; true
             node -e '
               const fs=require("fs");const dir="storage/datasets/default";
               const items=fs.existsSync(dir)?fs.readdirSync(dir).filter(f=>f.endsWith(".json")).map(f=>JSON.parse(fs.readFileSync(dir+"/"+f))):[];

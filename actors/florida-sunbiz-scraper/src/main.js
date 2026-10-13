@@ -25,6 +25,7 @@ const {
     fetchDetails = true,
     proxyConfiguration,
 } = input;
+const DEBUG = process.env.SUNBIZ_DEBUG === '1';
 
 const terms = [...new Set(searchTerms.map((t) => String(t ?? '').trim()).filter(Boolean))];
 if (!terms.length) {
@@ -32,33 +33,49 @@ if (!terms.length) {
 }
 
 const proxyConf = proxyConfiguration ? await Actor.createProxyConfiguration(proxyConfiguration) : undefined;
-const chargingManager = Actor.getChargingManager();
-const isPayPerEvent = chargingManager.getPricingInfo().isPayPerEvent;
+const isPayPerEvent = Actor.getChargingManager().getPricingInfo().isPayPerEvent;
 
-// Accepted-result counters per search term survive migrations and restarts.
-const state = await Actor.useState('STATE', { counts: {}, pushed: 0, chargeLimitReached: false });
+// Per-term bookkeeping survives migrations: emitted counts, details in flight,
+// the next list page to open once in-flight details settle, and seen entities.
+const state = await Actor.useState('STATE', {
+    counts: {},
+    pending: {},
+    next: {},
+    seen: {},
+    pushed: 0,
+    chargeLimitReached: false,
+});
 
 const canonicalDetailUrl = (url) => {
     const u = new URL(url);
     const aggregateId = u.searchParams.get('aggregateId');
-    const searchNameOrder = u.searchParams.get('searchNameOrder') ?? '';
-    const inquiryType = u.searchParams.get('inquirytype') ?? 'EntityName';
     if (!aggregateId) return url;
-    const p = new URLSearchParams({ inquirytype: inquiryType, directionType: 'Initial', searchNameOrder, aggregateId });
+    const p = new URLSearchParams({
+        inquirytype: u.searchParams.get('inquirytype') ?? 'EntityName',
+        directionType: 'Initial',
+        searchNameOrder: u.searchParams.get('searchNameOrder') ?? '',
+        aggregateId,
+    });
     return `${BASE}/Inquiry/CorporationSearch/SearchResultDetail?${p}`;
 };
 
 const aggregateIdOf = (url) => new URL(url).searchParams.get('aggregateId') ?? url;
+const digits = (s) => String(s ?? '').replace(/\D/g, '');
 
-const matchesTerm = (name, term) => {
+/** Decide whether a list row matches the term, and whether the list has moved past all possible matches. */
+function matchesTerm(row, term) {
+    if (searchType === 'feiEin') {
+        const same = digits(row.matchedName) === digits(term);
+        return { accept: same, pastBlock: !same };
+    }
     if (!isNameSearch(searchType) || nameMatch === 'all') return { accept: true, pastBlock: false };
+    const name = searchType === 'entityName' ? row.entityName : row.matchedName;
     const a = comparableName(name);
     const b = comparableName(term);
-    const startsWith = a.startsWith(b);
-    if (!startsWith) return { accept: false, pastBlock: true };
+    if (!a.startsWith(b)) return { accept: false, pastBlock: true };
     if (nameMatch === 'exact') return { accept: a === b, pastBlock: false };
     return { accept: true, pastBlock: false };
-};
+}
 
 let crawler;
 
@@ -66,13 +83,13 @@ async function emit(item) {
     if (state.chargeLimitReached) return false;
     if (isPayPerEvent) {
         const { eventChargeLimitReached, chargedCount } = await Actor.charge({ eventName: 'result' });
-        if (chargedCount === 0 || eventChargeLimitReached) {
-            if (chargedCount === 0) {
-                state.chargeLimitReached = true;
-                log.warning('Reached the maximum charge for this run. Stopping; raise the limit to get more results.');
-                await crawler?.autoscaledPool?.abort();
-                return false;
-            }
+        if (chargedCount === 0) {
+            state.chargeLimitReached = true;
+            log.warning('Reached the maximum charge for this run. Stopping; raise the limit to get more results.');
+            await crawler?.autoscaledPool?.abort();
+            return false;
+        }
+        if (eventChargeLimitReached) {
             state.chargeLimitReached = true;
             log.warning('Next result would exceed the charge limit; this is the last one.');
         }
@@ -92,6 +109,8 @@ async function waitForCloudflare(page, session) {
     throw new Error('Cloudflare challenge was not solved; retrying with a new session');
 }
 
+const scrapedAt = () => new Date().toISOString();
+
 function basicItem(row, term) {
     return {
         entityName: row.entityName,
@@ -101,26 +120,40 @@ function basicItem(row, term) {
         sunbizUrl: canonicalDetailUrl(row.detailUrl),
         searchType,
         searchTerm: term,
-        scrapedAt: new Date().toISOString(),
+        scrapedAt: scrapedAt(),
     };
+}
+
+/** Open the next list page for a term once nothing is in flight and more results are wanted. */
+async function maybeContinue(term, c) {
+    const wanted = (state.counts[term] ?? 0) < maxResultsPerSearch;
+    if (wanted && !state.chargeLimitReached && (state.pending[term] ?? 0) === 0 && state.next[term]) {
+        const url = state.next[term];
+        delete state.next[term];
+        await c.addRequests([{ url, label: 'LIST', userData: { term } }]);
+    }
 }
 
 async function handleDetail({ html, url, term, row }) {
     const detail = parseDetail(html, canonicalDetailUrl(url));
     if (!detail.documentNumber && !detail.entityName) throw new Error('Detail page did not contain an entity');
     if (activeOnly && !/^active/i.test(detail.status ?? '')) {
-        log.debug(`Skipping inactive entity ${detail.entityName}`);
-        return;
+        log.debug(`Skipping inactive entity ${detail.entityName} (${detail.documentNumber})`);
+        return false;
     }
-    const compliance = annualReportStatus(detail);
-    await emit({
+    return emit({
         ...detail,
-        ...compliance,
+        ...annualReportStatus(detail),
         matchedName: row?.matchedName ?? null,
         searchType,
         searchTerm: term,
-        scrapedAt: new Date().toISOString(),
+        scrapedAt: scrapedAt(),
     });
+}
+
+async function saveDebug(name, html) {
+    if (!DEBUG) return;
+    await Actor.setValue(`DEBUG-${name.replace(/[^a-z0-9]/gi, '_')}`, html, { contentType: 'text/html' });
 }
 
 crawler = new PlaywrightCrawler({
@@ -154,69 +187,109 @@ crawler = new PlaywrightCrawler({
     async requestHandler({ request, page, session, crawler: c }) {
         const { term, row } = request.userData;
         await waitForCloudflare(page, session);
+
+        if (request.label === 'FORM') {
+            // Document-number lookups only work through Sunbiz's own form (POST + redirect).
+            await page.fill('#SearchTerm', term);
+            await Promise.all([
+                page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 60000 }),
+                page.click('input[type="submit"][name="Search"]'),
+            ]);
+            await waitForCloudflare(page, session);
+        }
+
         const html = await page.content();
         if (isChallengePage(html)) throw new Error('Still on the Cloudflare page');
 
-        if (request.label === 'DETAIL' || isDetailPage(html)) {
-            if (request.label !== 'DETAIL') {
-                // Document number and EIN searches open the entity directly.
-                state.counts[term] = (state.counts[term] ?? 0) + 1;
+        if (request.label === 'DETAIL') {
+            let emitted = false;
+            try {
+                emitted = await handleDetail({ html, url: request.url, term, row });
+            } finally {
+                state.pending[term] = Math.max(0, (state.pending[term] ?? 0) - 1);
+                if (emitted) state.counts[term] = (state.counts[term] ?? 0) + 1;
             }
-            await handleDetail({ html, url: request.url, term, row });
+            await maybeContinue(term, c);
+            return;
+        }
+
+        if (isDetailPage(html)) {
+            // Document number and EIN lookups can open the entity directly.
+            const emitted = await handleDetail({ html, url: page.url(), term });
+            if (emitted) state.counts[term] = (state.counts[term] ?? 0) + 1;
             return;
         }
 
         const { rows, nextUrl } = parseSearchResults(html, searchType);
         if (!rows.length) {
             log.info(`No results for "${term}"`);
+            await saveDebug(`noresults-${term}`, html);
             return;
         }
-        let stop = false;
+        let pastBlock = false;
+        let full = false;
         const detailRequests = [];
         for (const r of rows) {
-            if ((state.counts[term] ?? 0) >= maxResultsPerSearch) {
-                stop = true;
+            const capacity = maxResultsPerSearch - (state.counts[term] ?? 0) - (state.pending[term] ?? 0);
+            if (capacity <= 0) {
+                full = true;
                 break;
             }
-            const name = searchType === 'entityName' ? r.entityName : r.matchedName;
-            const { accept, pastBlock } = matchesTerm(name, term);
-            if (pastBlock) {
-                stop = true;
+            const match = matchesTerm(r, term);
+            if (match.pastBlock) {
+                pastBlock = true;
                 break;
             }
-            if (!accept) continue;
+            if (!match.accept) continue;
             if (activeOnly && r.status && !/^active/i.test(r.status)) continue;
-            state.counts[term] = (state.counts[term] ?? 0) + 1;
+            const id = aggregateIdOf(r.detailUrl);
+            if (state.seen[id]) continue;
+            state.seen[id] = 1;
             if (fetchDetails) {
+                state.pending[term] = (state.pending[term] ?? 0) + 1;
                 detailRequests.push({
                     url: r.detailUrl,
                     label: 'DETAIL',
-                    uniqueKey: `detail:${aggregateIdOf(r.detailUrl)}`,
+                    uniqueKey: `detail:${id}`,
                     userData: { term, row: r },
                 });
-            } else {
-                await emit(basicItem(r, term));
+            } else if (await emit(basicItem(r, term))) {
+                state.counts[term] = (state.counts[term] ?? 0) + 1;
             }
         }
         if (detailRequests.length) await c.addRequests(detailRequests);
-        if (!stop && nextUrl && (state.counts[term] ?? 0) < maxResultsPerSearch && !state.chargeLimitReached) {
-            await c.addRequests([{ url: nextUrl, label: 'LIST', userData: { term } }]);
-        }
-        log.info(`"${term}": accepted ${state.counts[term] ?? 0} so far${stop ? ' (done)' : ''}`);
+        if (!pastBlock && nextUrl && !full) state.next[term] = nextUrl;
+        if (full && nextUrl) state.next[term] = nextUrl; // more rows exist in case in-flight details get skipped
+        log.info(`"${term}": ${state.counts[term] ?? 0} saved, ${state.pending[term] ?? 0} in flight${pastBlock ? ' (end of matches)' : ''}`);
+        await maybeContinue(term, c);
     },
-    failedRequestHandler({ request }, error) {
+    async failedRequestHandler({ request, crawler: c }, error) {
         log.error(`Giving up on ${request.url}: ${error.message}`);
+        const { term } = request.userData;
+        if (request.label === 'DETAIL' && term) {
+            state.pending[term] = Math.max(0, (state.pending[term] ?? 0) - 1);
+            await maybeContinue(term, c);
+        }
     },
 });
 
-await crawler.run(
-    terms.map((term) => ({
-        url: buildSearchUrl(searchType, term),
-        label: 'LIST',
-        uniqueKey: `list:${searchType}:${term.toLowerCase()}`,
-        userData: { term },
-    })),
+const startRequests = terms.map((term) =>
+    searchType === 'documentNumber'
+        ? {
+              url: `${BASE}/Inquiry/CorporationSearch/ByDocumentNumber`,
+              label: 'FORM',
+              uniqueKey: `form:${searchType}:${term.toLowerCase()}`,
+              userData: { term },
+          }
+        : {
+              url: buildSearchUrl(searchType, term),
+              label: 'LIST',
+              uniqueKey: `list:${searchType}:${term.toLowerCase()}`,
+              userData: { term },
+          },
 );
+
+await crawler.run(startRequests);
 
 log.info(`Done. ${state.pushed} entities saved for ${terms.length} search term(s).`);
 await Actor.exit();
