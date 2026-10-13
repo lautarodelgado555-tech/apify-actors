@@ -1,5 +1,69 @@
 [
   {
+    "entityName": "ACME CORPORATION",
+    "entityType": "Florida Profit Corporation",
+    "documentNumber": "P21000072292",
+    "feiEin": "NONE",
+    "dateFiled": "08/11/2021",
+    "effectiveDate": "08/11/2021",
+    "state": "FL",
+    "status": "INACTIVE",
+    "lastEvent": "ADMIN DISSOLUTION FOR ANNUAL REPORT",
+    "eventDateFiled": "09/23/2022",
+    "eventEffectiveDate": "NONE",
+    "principalAddress": "3825 HENDERSON BOULEVARD, SUITE 303, TAMPA, FL 33629",
+    "principalAddressNotes": [],
+    "mailingAddress": "3825 HENDERSON BOULEVARD, SUITE 303, TAMPA, FL 33629",
+    "mailingAddressNotes": [],
+    "registeredAgentName": "CHARLO INVESTIGATIONS LLC",
+    "registeredAgentAddress": "3825 HENDERSON BOULEVARD, SUITE 303, TAMPA, FL 33629",
+    "registeredAgentNotes": [],
+    "officerSectionTitle": "Officer/Director Detail",
+    "officers": [
+      {
+        "title": "PRES",
+        "name": "HOLMES, SANDRA G",
+        "address": "454 MEADOWLARK LANE, LAVERGNE, TN 37086"
+      },
+      {
+        "title": "VP",
+        "name": "ELKHACHANI, HMIDA",
+        "address": "577 STERLING ROAD, VIRGINIA BEACH, VA 23464"
+      },
+      {
+        "title": "SEC",
+        "name": "HOLMES, CINDY P",
+        "address": "107 COUNTRY COURT, LAVERGNE, TN 37086"
+      },
+      {
+        "title": "VP",
+        "name": "TAYLOR, BARRY",
+        "address": "3825 HENDERSON BLVD, SUITE 303, TAMPA, FL 33629"
+      }
+    ],
+    "annualReports": [],
+    "documents": [
+      {
+        "date": "08/11/2021",
+        "documentType": "Domestic Profit",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2021%5C0812%5C80585838.tif&documentNumber=P21000072292"
+      }
+    ],
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-p21000072292-dd69425b-8f53-44bb-89e7-6dd8a3cd1d27&entityId=P21000072292&CurrentPage=0&SearchTerm=P21000072292&InquiryType=DocumentNumber&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%20P210000722920",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+P210000722920&aggregateId=domp-p21000072292-dd69425b-8f53-44bb-89e7-6dd8a3cd1d27",
+    "lastAnnualReportYear": null,
+    "annualReportCurrent": null,
+    "annualReportStatus": "not_applicable_inactive",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "dissolutionDeadline": null,
+    "nextAnnualReportWindow": null,
+    "matchedName": null,
+    "searchType": "documentNumber",
+    "searchTerm": "P21000072292",
+    "scrapedAt": "2026-10-13T21:45:37.258Z"
+  },
+  {
     "entityName": "ACME LLC",
     "entityType": "Florida Limited Liability Company",
     "documentNumber": "L15000160389",
@@ -116,70 +180,6 @@
     "matchedName": null,
     "searchType": "documentNumber",
     "searchTerm": "L15000160389",
-    "scrapedAt": "2026-10-13T21:40:52.589Z"
-  },
-  {
-    "entityName": "ACME CORPORATION",
-    "entityType": "Florida Profit Corporation",
-    "documentNumber": "P21000072292",
-    "feiEin": "NONE",
-    "dateFiled": "08/11/2021",
-    "effectiveDate": "08/11/2021",
-    "state": "FL",
-    "status": "INACTIVE",
-    "lastEvent": "ADMIN DISSOLUTION FOR ANNUAL REPORT",
-    "eventDateFiled": "09/23/2022",
-    "eventEffectiveDate": "NONE",
-    "principalAddress": "3825 HENDERSON BOULEVARD, SUITE 303, TAMPA, FL 33629",
-    "principalAddressNotes": [],
-    "mailingAddress": "3825 HENDERSON BOULEVARD, SUITE 303, TAMPA, FL 33629",
-    "mailingAddressNotes": [],
-    "registeredAgentName": "CHARLO INVESTIGATIONS LLC",
-    "registeredAgentAddress": "3825 HENDERSON BOULEVARD, SUITE 303, TAMPA, FL 33629",
-    "registeredAgentNotes": [],
-    "officerSectionTitle": "Officer/Director Detail",
-    "officers": [
-      {
-        "title": "PRES",
-        "name": "HOLMES, SANDRA G",
-        "address": "454 MEADOWLARK LANE, LAVERGNE, TN 37086"
-      },
-      {
-        "title": "VP",
-        "name": "ELKHACHANI, HMIDA",
-        "address": "577 STERLING ROAD, VIRGINIA BEACH, VA 23464"
-      },
-      {
-        "title": "SEC",
-        "name": "HOLMES, CINDY P",
-        "address": "107 COUNTRY COURT, LAVERGNE, TN 37086"
-      },
-      {
-        "title": "VP",
-        "name": "TAYLOR, BARRY",
-        "address": "3825 HENDERSON BLVD, SUITE 303, TAMPA, FL 33629"
-      }
-    ],
-    "annualReports": [],
-    "documents": [
-      {
-        "date": "08/11/2021",
-        "documentType": "Domestic Profit",
-        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2021%5C0812%5C80585838.tif&documentNumber=P21000072292"
-      }
-    ],
-    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-p21000072292-dd69425b-8f53-44bb-89e7-6dd8a3cd1d27&entityId=P21000072292&CurrentPage=0&SearchTerm=P21000072292&InquiryType=DocumentNumber&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%20P210000722920",
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+P210000722920&aggregateId=domp-p21000072292-dd69425b-8f53-44bb-89e7-6dd8a3cd1d27",
-    "lastAnnualReportYear": null,
-    "annualReportCurrent": null,
-    "annualReportStatus": "not_applicable_inactive",
-    "annualReportDueDate": null,
-    "lateFeeApplies": false,
-    "dissolutionDeadline": null,
-    "nextAnnualReportWindow": null,
-    "matchedName": null,
-    "searchType": "documentNumber",
-    "searchTerm": "P21000072292",
-    "scrapedAt": "2026-10-13T21:40:52.661Z"
+    "scrapedAt": "2026-10-13T21:45:40.234Z"
   }
 ]

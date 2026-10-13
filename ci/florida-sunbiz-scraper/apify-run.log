@@ -1,0 +1,176 @@
+2026-10-13T21:47:01.263Z ACTOR: Pulling container image of build aJqTilPXRmxQid0iv from registry.
+2026-10-13T21:47:13.246Z ACTOR: Creating container.
+2026-10-13T21:47:13.331Z ACTOR: Starting container.
+2026-10-13T21:47:13.332Z ACTOR: Running under "LIMITED_PERMISSIONS".
+2026-10-13T21:47:13.595Z Running on architecture: x86_64
+2026-10-13T21:47:13.596Z Will run command: xvfb-run -a -s "-ac -screen 0 1920x1080x24+32 -nolisten tcp" /bin/bash -o pipefail -c npm start --silent
+2026-10-13T21:47:17.217Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v20.20.2"}
+2026-10-13T21:47:18.459Z INFO  PlaywrightCrawler: Starting the crawler.
+2026-10-13T21:47:25.592Z INFO  PlaywrightCrawler: Final request statistics: {"requestsFinished":0,"requestsFailed":0,"retryHistogram":[],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":7636}
+2026-10-13T21:47:25.593Z INFO  PlaywrightCrawler: Finished! Total 0 requests: 0 succeeded, 0 failed. {"terminal":true}
+2026-10-13T21:47:25.603Z node:internal/modules/run_main:123
+2026-10-13T21:47:25.605Z     triggerUncaughtException(
+2026-10-13T21:47:25.607Z     ^
+2026-10-13T21:47:25.608Z 
+2026-10-13T21:47:25.609Z Failed to launch browser. Please check the following:
+2026-10-13T21:47:25.610Z - Check whether the provided executable path "/pw-browsers/firefox" is correct.
+2026-10-13T21:47:25.611Z - Make sure your Dockerfile extends `apify/actor-node-playwright-*` (with a correct browser name).
+2026-10-13T21:47:25.612Z - Try installing the required dependencies by running `npx playwright install --with-deps` (https://playwright.dev/docs/browsers).
+2026-10-13T21:47:25.615Z 
+2026-10-13T21:47:25.616Z The original error is available in the `cause` property. Below is the error received when trying to launch a browser:
+2026-10-13T21:47:25.617Z ​
+2026-10-13T21:47:25.618Z browserType.launchPersistentContext: Protocol error (Browser.setDefaultViewport): ERROR: failed to call method 'Browser.setDefaultViewport' with parameters {
+2026-10-13T21:47:25.619Z   "viewport": {
+2026-10-13T21:47:25.619Z     "viewportSize": {
+2026-10-13T21:47:25.620Z       "width": 1440,
+2026-10-13T21:47:25.621Z       "height": 900
+2026-10-13T21:47:25.622Z     },
+2026-10-13T21:47:25.623Z     "deviceScaleFactor": 1,
+2026-10-13T21:47:25.623Z     "isMobile": false
+2026-10-13T21:47:25.624Z   }
+2026-10-13T21:47:25.625Z }
+2026-10-13T21:47:25.626Z Found property "<root>.viewport.isMobile" - false which is not described in this scheme
+2026-10-13T21:47:25.627Z Call log:
+2026-10-13T21:47:25.628Z   - <launching> /pw-browsers/firefox -no-remote -headless -profile /tmp/playwright_firefoxdev_profile-V4USyI -juggler-pipe --no-sandbox about:blank
+2026-10-13T21:47:25.628Z   - <launched> pid=44
+2026-10-13T21:47:25.629Z   - [pid=44][err] [44] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
+2026-10-13T21:47:25.630Z   - [pid=44][err] *** You are running in headless mode.
+2026-10-13T21:47:25.631Z   - [pid=44][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 119: unreachable code after return statement
+2026-10-13T21:47:25.632Z   - [pid=44][out]
+2026-10-13T21:47:25.632Z   - [pid=44][out] Juggler listening to the pipe
+2026-10-13T21:47:25.633Z   - [pid=44][out] console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+2026-10-13T21:47:25.634Z   - [pid=44][out]
+2026-10-13T21:47:25.635Z   - [pid=44][out]         ERROR: ERROR: failed to call method 'Browser.setDefaultViewport' with parameters {
+2026-10-13T21:47:25.636Z   - [pid=44][out]   "viewport": {
+2026-10-13T21:47:25.636Z   - [pid=44][out]     "viewportSize": {
+2026-10-13T21:47:25.637Z   - [pid=44][out]       "width": 1440,
+2026-10-13T21:47:25.638Z   - [pid=44][out]       "height": 900
+2026-10-13T21:47:25.639Z   - [pid=44][out]     },
+2026-10-13T21:47:25.640Z   - [pid=44][out]     "deviceScaleFactor": 1,
+2026-10-13T21:47:25.641Z   - [pid=44][out]     "isMobile": false
+2026-10-13T21:47:25.641Z   - [pid=44][out]   }
+2026-10-13T21:47:25.642Z   - [pid=44][out] }
+2026-10-13T21:47:25.643Z   - [pid=44][out] Found property "<root>.viewport.isMobile" - false which is not described in this scheme _dispatch@chrome://juggler/content/protocol/Dispatcher.js:68:15
+2026-10-13T21:47:25.644Z   - [pid=44][out] receiveMessage@chrome://juggler/content/components/Juggler.js:121:20
+2026-10-13T21:47:25.645Z   - [pid=44][out]
+2026-10-13T21:47:25.646Z   - [pid=44] <gracefully close start>
+2026-10-13T21:47:25.646Z   - [pid=44][out]       console.error: "Error fetching remote settings base url from CDN. Falling back to https://firefox-settings-attachments.cdn.mozilla.net/" (new SyntaxError("XMLHttpRequest.open: '/' is not a valid URL.", (void 0), 126))
+2026-10-13T21:47:25.647Z   - [pid=44][out] console.error: services.settings:
+2026-10-13T21:47:25.648Z   - [pid=44][out]   Message: EmptyDatabaseError: "main/nimbus-desktop-experiments" has not been synced yet
+2026-10-13T21:47:25.650Z   - [pid=44][out]   Stack:
+2026-10-13T21:47:25.653Z   - [pid=44][out]     EmptyDatabaseError@resource://services-settings/Database.sys.mjs:19:5
+2026-10-13T21:47:25.654Z   - [pid=44][out] list@resource://services-settings/Database.sys.mjs:96:13
+2026-10-13T21:47:25.655Z   - [pid=44][out]
+2026-10-13T21:47:25.656Z   - [pid=44][out] console.warn: BackupService: "There was an error while trying to get the Document's directory" [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIProperties.get]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource:///modules/backup/BackupService.sys.mjs :: get docsDirFolderPath :: line 1229"  data: no]
+2026-10-13T21:47:25.657Z   - [pid=44][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+2026-10-13T21:47:25.658Z   - [pid=44] <process did exit: exitCode=0, signal=null>
+2026-10-13T21:47:25.659Z   - [pid=44] starting temporary directories cleanup
+2026-10-13T21:47:25.660Z   - [pid=44] finished temporary directories cleanup
+2026-10-13T21:47:25.660Z   - [pid=44] <gracefully close end>
+2026-10-13T21:47:25.661Z 
+2026-10-13T21:47:25.662Z     at async PlaywrightPlugin._launch (/home/myuser/node_modules/@crawlee/browser-pool/playwright/playwright-plugin.js:108:40)
+2026-10-13T21:47:25.663Z     at async BrowserPool._launchBrowser (/home/myuser/node_modules/@crawlee/browser-pool/browser-pool.js:505:29)
+2026-10-13T21:47:25.664Z     at async /home/myuser/node_modules/@crawlee/browser-pool/browser-pool.js:302:37
+2026-10-13T21:47:25.665Z Error thrown at:
+2026-10-13T21:47:25.665Z 
+2026-10-13T21:47:25.666Z     at PlaywrightPlugin._throwAugmentedLaunchError (/home/myuser/node_modules/@crawlee/browser-pool/abstract-classes/browser-plugin.js:161:15)
+2026-10-13T21:47:25.667Z     at PlaywrightPlugin._throwOnFailedLaunch (/home/myuser/node_modules/@crawlee/browser-pool/playwright/playwright-plugin.js:169:14)
+2026-10-13T21:47:25.668Z     at /home/myuser/node_modules/@crawlee/browser-pool/playwright/playwright-plugin.js:111:33
+2026-10-13T21:47:25.669Z     at async PlaywrightPlugin._launch (/home/myuser/node_modules/@crawlee/browser-pool/playwright/playwright-plugin.js:108:40)
+2026-10-13T21:47:25.670Z     at async BrowserPool._launchBrowser (/home/myuser/node_modules/@crawlee/browser-pool/browser-pool.js:505:29)
+2026-10-13T21:47:25.671Z     at async /home/myuser/node_modules/@crawlee/browser-pool/browser-pool.js:302:37 {
+2026-10-13T21:47:25.672Z   name: 'BrowserLaunchError',
+2026-10-13T21:47:25.672Z   [cause]: browserType.launchPersistentContext: Protocol error (Browser.setDefaultViewport): ERROR: failed to call method 'Browser.setDefaultViewport' with parameters {
+2026-10-13T21:47:25.673Z     "viewport": {
+2026-10-13T21:47:25.674Z       "viewportSize": {
+2026-10-13T21:47:25.675Z         "width": 1440,
+2026-10-13T21:47:25.676Z         "height": 900
+2026-10-13T21:47:25.677Z       },
+2026-10-13T21:47:25.678Z       "deviceScaleFactor": 1,
+2026-10-13T21:47:25.679Z       "isMobile": false
+2026-10-13T21:47:25.680Z     }
+2026-10-13T21:47:25.681Z   }
+2026-10-13T21:47:25.682Z   Found property "<root>.viewport.isMobile" - false which is not described in this scheme
+2026-10-13T21:47:25.683Z   Call log:
+2026-10-13T21:47:25.684Z     - <launching> /pw-browsers/firefox -no-remote -headless -profile /tmp/playwright_firefoxdev_profile-V4USyI -juggler-pipe --no-sandbox about:blank
+2026-10-13T21:47:25.685Z     - <launched> pid=44
+2026-10-13T21:47:25.685Z     - [pid=44][err] [44] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
+2026-10-13T21:47:25.686Z     - [pid=44][err] *** You are running in headless mode.
+2026-10-13T21:47:25.687Z     - [pid=44][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 119: unreachable code after return statement
+2026-10-13T21:47:25.688Z     - [pid=44][out]
+2026-10-13T21:47:25.689Z     - [pid=44][out] Juggler listening to the pipe
+2026-10-13T21:47:25.690Z     - [pid=44][out] console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+2026-10-13T21:47:25.690Z     - [pid=44][out]
+2026-10-13T21:47:25.691Z     - [pid=44][out]         ERROR: ERROR: failed to call method 'Browser.setDefaultViewport' with parameters {
+2026-10-13T21:47:25.692Z     - [pid=44][out]   "viewport": {
+2026-10-13T21:47:25.693Z     - [pid=44][out]     "viewportSize": {
+2026-10-13T21:47:25.694Z     - [pid=44][out]       "width": 1440,
+2026-10-13T21:47:25.695Z     - [pid=44][out]       "height": 900
+2026-10-13T21:47:25.696Z     - [pid=44][out]     },
+2026-10-13T21:47:25.697Z     - [pid=44][out]     "deviceScaleFactor": 1,
+2026-10-13T21:47:25.698Z     - [pid=44][out]     "isMobile": false
+2026-10-13T21:47:25.699Z     - [pid=44][out]   }
+2026-10-13T21:47:25.700Z     - [pid=44][out] }
+2026-10-13T21:47:25.701Z     - [pid=44][out] Found property "<root>.viewport.isMobile" - false which is not described in this scheme _dispatch@chrome://juggler/content/protocol/Dispatcher.js:68:15
+2026-10-13T21:47:25.702Z     - [pid=44][out] receiveMessage@chrome://juggler/content/components/Juggler.js:121:20
+2026-10-13T21:47:25.703Z     - [pid=44][out]
+2026-10-13T21:47:25.704Z     - [pid=44] <gracefully close start>
+2026-10-13T21:47:25.705Z     - [pid=44][out]       console.error: "Error fetching remote settings base url from CDN. Falling back to https://firefox-settings-attachments.cdn.mozilla.net/" (new SyntaxError("XMLHttpRequest.open: '/' is not a valid URL.", (void 0), 126))
+2026-10-13T21:47:25.706Z     - [pid=44][out] console.error: services.settings:
+2026-10-13T21:47:25.707Z     - [pid=44][out]   Message: EmptyDatabaseError: "main/nimbus-desktop-experiments" has not been synced yet
+2026-10-13T21:47:25.709Z     - [pid=44][out]   Stack:
+2026-10-13T21:47:25.711Z     - [pid=44][out]     EmptyDatabaseError@resource://services-settings/Database.sys.mjs:19:5
+2026-10-13T21:47:25.712Z     - [pid=44][out] list@resource://services-settings/Database.sys.mjs:96:13
+2026-10-13T21:47:25.713Z     - [pid=44][out]
+2026-10-13T21:47:25.716Z     - [pid=44][out] console.warn: BackupService: "There was an error while trying to get the Document's directory" [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIProperties.get]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource:///modules/backup/BackupService.sys.mjs :: get docsDirFolderPath :: line 1229"  data: no]
+2026-10-13T21:47:25.722Z     - [pid=44][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+2026-10-13T21:47:25.723Z     - [pid=44] <process did exit: exitCode=0, signal=null>
+2026-10-13T21:47:25.724Z     - [pid=44] starting temporary directories cleanup
+2026-10-13T21:47:25.725Z     - [pid=44] finished temporary directories cleanup
+2026-10-13T21:47:25.726Z     - [pid=44] <gracefully close end>
+2026-10-13T21:47:25.727Z   
+2026-10-13T21:47:25.728Z       at async PlaywrightPlugin._launch (/home/myuser/node_modules/@crawlee/browser-pool/playwright/playwright-plugin.js:108:40)
+2026-10-13T21:47:25.728Z       at async BrowserPool._launchBrowser (/home/myuser/node_modules/@crawlee/browser-pool/browser-pool.js:505:29)
+2026-10-13T21:47:25.729Z       at async /home/myuser/node_modules/@crawlee/browser-pool/browser-pool.js:302:37 {
+2026-10-13T21:47:25.730Z     log: [
+2026-10-13T21:47:25.731Z       '  - <launching> /pw-browsers/firefox -no-remote -headless -profile /tmp/playwright_firefoxdev_profile-V4USyI -juggler-pipe --no-sandbox about:blank',
+2026-10-13T21:47:25.732Z       '  - <launched> pid=44',
+2026-10-13T21:47:25.733Z       '  - [pid=44][err] [44] Sandbox: CanCreateUserNamespace() clone() failure: EPERM',
+2026-10-13T21:47:25.733Z       '  - [pid=44][err] *** You are running in headless mode.',
+2026-10-13T21:47:25.734Z       '  - [pid=44][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 119: unreachable code after return statement',
+2026-10-13T21:47:25.735Z       '  - [pid=44][out]',
+2026-10-13T21:47:25.736Z       '  - [pid=44][out] Juggler listening to the pipe',
+2026-10-13T21:47:25.737Z       '  - [pid=44][out] console.error: "Warning: unrecognized command line flag" "-no-sandbox"',
+2026-10-13T21:47:25.738Z       '  - [pid=44][out]',
+2026-10-13T21:47:25.739Z       "  - [pid=44][out]         ERROR: ERROR: failed to call method 'Browser.setDefaultViewport' with parameters {",
+2026-10-13T21:47:25.740Z       '  - [pid=44][out]   "viewport": {',
+2026-10-13T21:47:25.740Z       '  - [pid=44][out]     "viewportSize": {',
+2026-10-13T21:47:25.741Z       '  - [pid=44][out]       "width": 1440,',
+2026-10-13T21:47:25.742Z       '  - [pid=44][out]       "height": 900',
+2026-10-13T21:47:25.743Z       '  - [pid=44][out]     },',
+2026-10-13T21:47:25.744Z       '  - [pid=44][out]     "deviceScaleFactor": 1,',
+2026-10-13T21:47:25.745Z       '  - [pid=44][out]     "isMobile": false',
+2026-10-13T21:47:25.746Z       '  - [pid=44][out]   }',
+2026-10-13T21:47:25.747Z       '  - [pid=44][out] }',
+2026-10-13T21:47:25.747Z       '  - [pid=44][out] Found property "<root>.viewport.isMobile" - false which is not described in this scheme _dispatch@chrome://juggler/content/protocol/Dispatcher.js:68:15',
+2026-10-13T21:47:25.748Z       '  - [pid=44][out] receiveMessage@chrome://juggler/content/components/Juggler.js:121:20',
+2026-10-13T21:47:25.749Z       '  - [pid=44][out]',
+2026-10-13T21:47:25.752Z       '  - [pid=44] <gracefully close start>',
+2026-10-13T21:47:25.753Z       `  - [pid=44][out]       console.error: "Error fetching remote settings base url from CDN. Falling back to https://firefox-settings-attachments.cdn.mozilla.net/" (new SyntaxError("XMLHttpRequest.open: '/' is not a valid URL.", (void 0), 126))`,
+2026-10-13T21:47:25.755Z       '  - [pid=44][out] console.error: services.settings:',
+2026-10-13T21:47:25.756Z       '  - [pid=44][out]   Message: EmptyDatabaseError: "main/nimbus-desktop-experiments" has not been synced yet',
+2026-10-13T21:47:25.757Z       '  - [pid=44][out]   Stack:',
+2026-10-13T21:47:25.758Z       '  - [pid=44][out]     EmptyDatabaseError@resource://services-settings/Database.sys.mjs:19:5',
+2026-10-13T21:47:25.759Z       '  - [pid=44][out] list@resource://services-settings/Database.sys.mjs:96:13',
+2026-10-13T21:47:25.760Z       '  - [pid=44][out]',
+2026-10-13T21:47:25.761Z       `  - [pid=44][out] console.warn: BackupService: "There was an error while trying to get the Document's directory" [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIProperties.get]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource:///modules/backup/BackupService.sys.mjs :: get docsDirFolderPath :: line 1229"  data: no]`,
+2026-10-13T21:47:25.762Z       '  - [pid=44][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]',
+2026-10-13T21:47:25.763Z       '  - [pid=44] <process did exit: exitCode=0, signal=null>',
+2026-10-13T21:47:25.764Z       '  - [pid=44] starting temporary directories cleanup',
+2026-10-13T21:47:25.765Z       '  - [pid=44] finished temporary directories cleanup',
+2026-10-13T21:47:25.765Z       '  - [pid=44] <gracefully close end>'
+2026-10-13T21:47:25.766Z     ]
+2026-10-13T21:47:25.767Z   }
+2026-10-13T21:47:25.768Z }
+2026-10-13T21:47:25.769Z 
+2026-10-13T21:47:25.770Z Node.js v20.20.2
