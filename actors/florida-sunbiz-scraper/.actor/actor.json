@@ -12,5 +12,6 @@
     "dataset": "./dataset_schema.json"
   },
   "minMemoryMbytes": 1024,
-  "maxMemoryMbytes": 4096
+  "maxMemoryMbytes": 4096,
+  "output": "./output_schema.json"
 }

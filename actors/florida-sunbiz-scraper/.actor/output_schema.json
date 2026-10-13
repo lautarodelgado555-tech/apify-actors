@@ -1,0 +1,19 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Output of Florida Sunbiz Business Search & Annual Report Checker",
+  "description": "One record per Florida business entity found, with status, addresses, registered agent, officers, annual reports, document links and the annual report status for the current year.",
+  "properties": {
+    "entities": {
+      "type": "string",
+      "title": "Entities",
+      "description": "All entity records as JSON. Append ?format=csv or ?format=xlsx to the URL for other formats.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items"
+    },
+    "entitiesCsv": {
+      "type": "string",
+      "title": "Entities (CSV)",
+      "description": "The same records as a CSV file, one entity per row.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items?format=csv"
+    }
+  }
+}
