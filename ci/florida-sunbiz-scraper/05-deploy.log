@@ -1,0 +1,59 @@
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: 'chalk@6.0.1',
+npm warn EBADENGINE   required: { node: '>=22' },
+npm warn EBADENGINE   current: { node: 'v20.20.2', npm: '10.8.2' }
+npm warn EBADENGINE }
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: 'which@7.0.0',
+npm warn EBADENGINE   required: { node: '^22.22.2 || ^24.15.0 || >=26.0.0' },
+npm warn EBADENGINE   current: { node: 'v20.20.2', npm: '10.8.2' }
+npm warn EBADENGINE }
+npm warn deprecated lodash.isequal@4.5.0: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
+
+added 266 packages in 9s
+
+74 packages are looking for funding
+  run `npm fund` for details
+Info: Apify collects telemetry data about general usage of Apify CLI to help us improve the product.
+This feature is enabled by default, and you can disable it by setting the "APIFY_CLI_DISABLE_TELEMETRY" environment variable to "1", or by running "apify telemetry disable".
+You can find more information about our telemetry in https://docs.apify.com/cli/docs/telemetry.
+Error: Unknown flag provided: --no-prompt
+  To specify a positional argument starting with a '-', place it at the end of the command after '--', as in '-- "--no-prompt"
+
+USAGE
+  $ apify push [actorId] [--allow-missing-secrets] [-b <value>]
+               [--dir <value>] [-f] [--json] [--open] [-v <value>] [-w <value>]
+
+ARGUMENTS
+  actorId  Name or ID of the Actor to push (e.g. "apify/hello-world" or
+           "E2jjCZBezvAZnX8Rb"). If not provided, the command will create or
+           modify the Actor with the name specified in '.actor/actor.json' file.
+
+FLAGS
+      --allow-missing-secrets    Allow the command to
+                                 continue even when secret values are not found in
+                                 the local secrets storage.
+  -b, --build-tag=<value>        Build tag to be
+                                 applied to the successful Actor build. By default,
+                                 it is taken from the '.actor/actor.json' file.
+      --dir=<value>              Directory where the
+                                 Actor is located.
+  -f, --force                    Push an Actor even
+                                 when the local files are older than the Actor on
+                                 the platform, or when the Actor builds from a Git
+                                 repository.
+      --json                     Format the command
+                                 output as JSON.
+      --open                     Whether to open the
+                                 browser automatically to the Actor details page.
+  -v, --version=<value>          Actor version number
+                                 to which the files should be pushed. By default, it
+                                 is taken from the '.actor/actor.json' file.
+  -w, --wait-for-finish=<value>  In seconds, how long
+                                 to wait for the build to finish. If no value
+                                 passed, it waits forever. To return as soon as the
+                                 build is queued (fire-and-forget), pass 0. The exit
+                                 code reflects the build outcome only — if the wait
+                                 elapses with the build still running, the command
+                                 exits 0; check status via the printed link or
+                                 --json output.
