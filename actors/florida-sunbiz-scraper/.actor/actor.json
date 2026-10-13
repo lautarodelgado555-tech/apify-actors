@@ -10,5 +10,7 @@
   "readme": "../README.md",
   "storages": {
     "dataset": "./dataset_schema.json"
-  }
+  },
+  "minMemoryMbytes": 1024,
+  "maxMemoryMbytes": 4096
 }
