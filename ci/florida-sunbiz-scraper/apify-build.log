@@ -1,0 +1,138 @@
+2026-10-13T21:41:36.627Z ACTOR: Selected directory: .
+2026-10-13T21:41:36.633Z ACTOR: Found input schema referenced from .actor/actor.json
+2026-10-13T21:41:37.256Z ACTOR: Found dataset schema referenced from .actor/actor.json
+2026-10-13T21:41:37.270Z ACTOR: Using minMemoryMbytes: 1024
+2026-10-13T21:41:37.270Z ACTOR: Using maxMemoryMbytes: 4096
+2026-10-13T21:41:37.271Z ACTOR: Extracting Actor documentation from README.md
+2026-10-13T21:41:37.273Z ACTOR: Building container image (cache enabled).
+2026-10-13T21:41:37.557Z #1 [internal] load build definition from Dockerfile
+2026-10-13T21:41:37.557Z #1 transferring dockerfile: 419B done
+2026-10-13T21:41:37.558Z #1 DONE 0.0s
+2026-10-13T21:41:37.559Z #2 [auth] docker/dockerfile:pull token for registry-1.docker.io
+2026-10-13T21:41:37.559Z #2 DONE 0.0s
+2026-10-13T21:41:37.560Z #3 resolve image config for docker-image://docker.io/docker/dockerfile:1
+2026-10-13T21:41:37.561Z #3 DONE 0.2s
+2026-10-13T21:41:37.801Z #4 docker-image://docker.io/docker/dockerfile:1@sha256:4edf897a3ffa55b89f906fc8cc78afdb3f1834cc9c7083565e611a8a7d5fe99e
+2026-10-13T21:41:37.802Z #4 resolve docker.io/docker/dockerfile:1@sha256:4edf897a3ffa55b89f906fc8cc78afdb3f1834cc9c7083565e611a8a7d5fe99e 0.0s done
+2026-10-13T21:41:37.803Z #4 CACHED
+2026-10-13T21:41:37.804Z #5 [auth] apify/actor-node-playwright-firefox:pull token for registry-1.docker.io
+2026-10-13T21:41:37.804Z #5 DONE 0.0s
+2026-10-13T21:41:37.804Z #6 [internal] load metadata for docker.io/apify/actor-node-playwright-firefox:20
+2026-10-13T21:41:38.035Z #6 DONE 0.4s
+2026-10-13T21:41:38.144Z #7 [internal] load .dockerignore
+2026-10-13T21:41:38.144Z #7 transferring context: 82B done
+2026-10-13T21:41:38.145Z #7 DONE 0.0s
+2026-10-13T21:41:38.145Z #8 importing cache manifest from s3:10095303638321793003
+2026-10-13T21:41:38.146Z #8 DONE 0.0s
+2026-10-13T21:41:38.146Z #9 [1/4] FROM docker.io/apify/actor-node-playwright-firefox:20@sha256:3e943cc2886bb1b749e1bdd7edde30f028c0cb35f92a0485fe4be21ff6781a26
+2026-10-13T21:41:38.146Z #9 resolve docker.io/apify/actor-node-playwright-firefox:20@sha256:3e943cc2886bb1b749e1bdd7edde30f028c0cb35f92a0485fe4be21ff6781a26 0.0s done
+2026-10-13T21:41:38.282Z #9 DONE 0.2s
+2026-10-13T21:41:38.282Z #10 [internal] load build context
+2026-10-13T21:41:38.282Z #10 transferring context: 206.21kB done
+2026-10-13T21:41:38.283Z #10 DONE 0.0s
+2026-10-13T21:41:38.453Z #9 [1/4] FROM docker.io/apify/actor-node-playwright-firefox:20@sha256:3e943cc2886bb1b749e1bdd7edde30f028c0cb35f92a0485fe4be21ff6781a26
+2026-10-13T21:41:38.456Z #9 sha256:be5f8c78a17dc4a360a848efeca7d335cbddfb7538d9cf64e7131ce5ddf69316 2.04kB / 2.04kB 0.1s done
+2026-10-13T21:41:38.457Z #9 sha256:a2958463fa4b331b171a25cbffb1625597c719dfa4629feb370884a1a8a301c8 900B / 900B 0.0s done
+2026-10-13T21:41:38.573Z #9 sha256:cdd0b3b833f7fb1ed9f2176cc7b774c7f55050e28e3d1f4cc32bad6a3645f9a8 0B / 95.89MB 0.2s
+2026-10-13T21:41:38.574Z #9 sha256:80ace4a92106b5ba904314e16e81d503fff319d8f48a9b37d39f0d1aee95d0e6 1.96MB / 1.96MB 0.1s done
+2026-10-13T21:41:38.575Z #9 sha256:ba6bcd89d03e166293a6d2c741cc329db1fe367eb545100a8bc5780b9b2b8af2 6.29MB / 306.04MB 0.2s
+2026-10-13T21:41:38.580Z #9 sha256:e7810b5009d5ec279ac120670aac4620e9424f1c9071053983abb14777f30292 445B / 445B 0.0s done
+2026-10-13T21:41:38.582Z #9 sha256:ffc08f6a6ccb059d94d5f49d42b7fbbe6f0719eefe7535e7c96936f8e31ad489 1.72MB / 1.72MB 0.1s done
+2026-10-13T21:41:38.745Z #9 sha256:cdd0b3b833f7fb1ed9f2176cc7b774c7f55050e28e3d1f4cc32bad6a3645f9a8 30.41MB / 95.89MB 0.5s
+2026-10-13T21:41:38.746Z #9 sha256:ba6bcd89d03e166293a6d2c741cc329db1fe367eb545100a8bc5780b9b2b8af2 27.26MB / 306.04MB 0.3s
+2026-10-13T21:41:38.746Z #9 sha256:15790b8fda3e5c51238107a5b80d0e0c41e6d837cc1a0b1572c9b80fbffed761 3.31kB / 3.31kB 0.0s done
+2026-10-13T21:41:38.746Z #9 sha256:3232c8884b61b8c3ad88bb9d8e67e71f56b1fd5d0efea7f0dc146918c730559c 1.05MB / 41.47MB 0.2s
+2026-10-13T21:41:38.895Z #9 sha256:3232c8884b61b8c3ad88bb9d8e67e71f56b1fd5d0efea7f0dc146918c730559c 25.17MB / 41.47MB 0.3s
+2026-10-13T21:41:38.895Z #9 sha256:3531af2bc2a9c8883754652783cf96207d53189db279c9637b7157d034de7ecd 11.53MB / 29.78MB 0.2s
+2026-10-13T21:41:39.000Z #9 sha256:ba6bcd89d03e166293a6d2c741cc329db1fe367eb545100a8bc5780b9b2b8af2 57.67MB / 306.04MB 0.6s
+2026-10-13T21:41:39.000Z #9 sha256:3232c8884b61b8c3ad88bb9d8e67e71f56b1fd5d0efea7f0dc146918c730559c 41.47MB / 41.47MB 0.5s done
+2026-10-13T21:41:39.001Z #9 sha256:3531af2bc2a9c8883754652783cf96207d53189db279c9637b7157d034de7ecd 29.78MB / 29.78MB 0.3s done
+2026-10-13T21:41:39.002Z #9 extracting sha256:3531af2bc2a9c8883754652783cf96207d53189db279c9637b7157d034de7ecd
+2026-10-13T21:41:39.194Z #9 sha256:cdd0b3b833f7fb1ed9f2176cc7b774c7f55050e28e3d1f4cc32bad6a3645f9a8 61.87MB / 95.89MB 0.9s
+2026-10-13T21:41:39.355Z #9 sha256:ba6bcd89d03e166293a6d2c741cc329db1fe367eb545100a8bc5780b9b2b8af2 85.98MB / 306.04MB 0.9s
+2026-10-13T21:41:39.644Z #9 sha256:cdd0b3b833f7fb1ed9f2176cc7b774c7f55050e28e3d1f4cc32bad6a3645f9a8 90.18MB / 95.89MB 1.4s
+2026-10-13T21:41:39.645Z #9 extracting sha256:3531af2bc2a9c8883754652783cf96207d53189db279c9637b7157d034de7ecd 0.5s done
+2026-10-13T21:41:39.646Z #9 extracting sha256:15790b8fda3e5c51238107a5b80d0e0c41e6d837cc1a0b1572c9b80fbffed761 0.0s done
+2026-10-13T21:41:39.646Z #9 extracting sha256:3232c8884b61b8c3ad88bb9d8e67e71f56b1fd5d0efea7f0dc146918c730559c
+2026-10-13T21:41:39.748Z #9 sha256:cdd0b3b833f7fb1ed9f2176cc7b774c7f55050e28e3d1f4cc32bad6a3645f9a8 95.89MB / 95.89MB 1.5s done
+2026-10-13T21:41:39.749Z #9 sha256:ba6bcd89d03e166293a6d2c741cc329db1fe367eb545100a8bc5780b9b2b8af2 101.71MB / 306.04MB 1.4s
+2026-10-13T21:41:39.958Z #9 sha256:ba6bcd89d03e166293a6d2c741cc329db1fe367eb545100a8bc5780b9b2b8af2 136.31MB / 306.04MB 1.7s
+2026-10-13T21:41:40.108Z #9 sha256:ba6bcd89d03e166293a6d2c741cc329db1fe367eb545100a8bc5780b9b2b8af2 161.48MB / 306.04MB 1.8s
+2026-10-13T21:41:40.219Z #9 extracting sha256:3232c8884b61b8c3ad88bb9d8e67e71f56b1fd5d0efea7f0dc146918c730559c 0.7s done
+2026-10-13T21:41:40.408Z #9 sha256:ba6bcd89d03e166293a6d2c741cc329db1fe367eb545100a8bc5780b9b2b8af2 195.04MB / 306.04MB 2.1s
+2026-10-13T21:41:40.409Z #9 extracting sha256:ffc08f6a6ccb059d94d5f49d42b7fbbe6f0719eefe7535e7c96936f8e31ad489 0.0s done
+2026-10-13T21:41:40.409Z #9 extracting sha256:e7810b5009d5ec279ac120670aac4620e9424f1c9071053983abb14777f30292 0.0s done
+2026-10-13T21:41:40.409Z #9 extracting sha256:a2958463fa4b331b171a25cbffb1625597c719dfa4629feb370884a1a8a301c8 0.0s done
+2026-10-13T21:41:40.409Z #9 extracting sha256:80ace4a92106b5ba904314e16e81d503fff319d8f48a9b37d39f0d1aee95d0e6
+2026-10-13T21:41:40.558Z #9 extracting sha256:80ace4a92106b5ba904314e16e81d503fff319d8f48a9b37d39f0d1aee95d0e6 0.1s done
+2026-10-13T21:41:40.710Z #9 sha256:ba6bcd89d03e166293a6d2c741cc329db1fe367eb545100a8bc5780b9b2b8af2 231.74MB / 306.04MB 2.4s
+2026-10-13T21:41:41.008Z #9 sha256:ba6bcd89d03e166293a6d2c741cc329db1fe367eb545100a8bc5780b9b2b8af2 255.85MB / 306.04MB 2.7s
+2026-10-13T21:41:41.458Z #9 sha256:ba6bcd89d03e166293a6d2c741cc329db1fe367eb545100a8bc5780b9b2b8af2 271.58MB / 306.04MB 3.2s
+2026-10-13T21:41:41.609Z #9 sha256:ba6bcd89d03e166293a6d2c741cc329db1fe367eb545100a8bc5780b9b2b8af2 290.46MB / 306.04MB 3.3s
+2026-10-13T21:41:42.445Z #9 sha256:ba6bcd89d03e166293a6d2c741cc329db1fe367eb545100a8bc5780b9b2b8af2 306.04MB / 306.04MB 4.0s done
+2026-10-13T21:41:42.446Z #9 extracting sha256:ba6bcd89d03e166293a6d2c741cc329db1fe367eb545100a8bc5780b9b2b8af2
+2026-10-13T21:41:46.643Z #9 extracting sha256:ba6bcd89d03e166293a6d2c741cc329db1fe367eb545100a8bc5780b9b2b8af2 4.3s done
+2026-10-13T21:41:46.644Z #9 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+2026-10-13T21:41:46.829Z #9 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0.0s done
+2026-10-13T21:41:46.831Z #9 extracting sha256:be5f8c78a17dc4a360a848efeca7d335cbddfb7538d9cf64e7131ce5ddf69316 0.0s done
+2026-10-13T21:41:46.832Z #9 extracting sha256:cdd0b3b833f7fb1ed9f2176cc7b774c7f55050e28e3d1f4cc32bad6a3645f9a8
+2026-10-13T21:41:48.692Z #9 extracting sha256:cdd0b3b833f7fb1ed9f2176cc7b774c7f55050e28e3d1f4cc32bad6a3645f9a8 2.0s done
+2026-10-13T21:41:48.692Z #9 DONE 10.6s
+2026-10-13T21:41:48.844Z #11 [2/4] COPY package*.json ./
+2026-10-13T21:41:48.932Z #11 DONE 0.2s
+2026-10-13T21:41:49.093Z #12 [3/4] RUN npm --quiet set progress=false     && npm install --omit=dev --omit=optional     && echo "Installed NPM packages:"     && (npm list --omit=dev --all || true)     && echo "Node.js version:"     && node --version     && echo "NPM version:"     && npm --version
+2026-10-13T21:42:00.071Z #12 11.13 npm error code EACCES
+2026-10-13T21:42:00.072Z #12 11.13 npm error syscall open
+2026-10-13T21:42:00.073Z #12 11.13 npm error path /home/myuser/package-lock.json
+2026-10-13T21:42:00.073Z #12 11.13 npm error errno -13
+2026-10-13T21:42:00.074Z #12 11.13 npm error Error: EACCES: permission denied, open '/home/myuser/package-lock.json'
+2026-10-13T21:42:00.075Z #12 11.13 npm error     at async open (node:internal/fs/promises:637:25)
+2026-10-13T21:42:00.075Z #12 11.13 npm error     at async writeFile (node:internal/fs/promises:1219:14)
+2026-10-13T21:42:00.076Z #12 11.13 npm error     at async Promise.all (index 0)
+2026-10-13T21:42:00.076Z #12 11.13 npm error     at async [saveIdealTree] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:1526:7)
+2026-10-13T21:42:00.077Z #12 11.13 npm error     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:148:5)
+2026-10-13T21:42:00.078Z #12 11.13 npm error     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:150:5)
+2026-10-13T21:42:00.079Z #12 11.13 npm error     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+2026-10-13T21:42:00.080Z #12 11.13 npm error     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5) {
+2026-10-13T21:42:00.081Z #12 11.13 npm error   errno: -13,
+2026-10-13T21:42:00.082Z #12 11.13 npm error   code: 'EACCES',
+2026-10-13T21:42:00.082Z #12 11.13 npm error   syscall: 'open',
+2026-10-13T21:42:00.083Z #12 11.13 npm error   path: '/home/myuser/package-lock.json'
+2026-10-13T21:42:00.084Z #12 11.13 npm error }
+2026-10-13T21:42:00.085Z #12 11.13 npm error
+2026-10-13T21:42:00.086Z #12 11.13 npm error The operation was rejected by your operating system.
+2026-10-13T21:42:00.086Z #12 11.13 npm error It is likely you do not have the permissions to access this file as the current user
+2026-10-13T21:42:00.087Z #12 11.13 npm error
+2026-10-13T21:42:00.087Z #12 11.13 npm error If you believe this might be a permissions issue, please double-check the
+2026-10-13T21:42:00.088Z #12 11.13 npm error permissions of the file and its containing directories, or try running
+2026-10-13T21:42:00.088Z #12 11.13 npm error the command again as root/Administrator.
+2026-10-13T21:42:00.203Z #12 11.13 npm error A complete log of this run can be found in: /home/myuser/.npm/_logs/2026-10-13T21_41_49_823Z-debug-0.log
+2026-10-13T21:42:00.203Z #12 ERROR: process "/bin/bash -o pipefail -c npm --quiet set progress=false     && npm install --omit=dev --omit=optional     && echo \"Installed NPM packages:\"     && (npm list --omit=dev --all || true)     && echo \"Node.js version:\"     && node --version     && echo \"NPM version:\"     && npm --version" did not complete successfully: exit code: 243
+2026-10-13T21:42:00.204Z ------
+2026-10-13T21:42:00.205Z  > [3/4] RUN npm --quiet set progress=false     && npm install --omit=dev --omit=optional     && echo "Installed NPM packages:"     && (npm list --omit=dev --all || true)     && echo "Node.js version:"     && node --version     && echo "NPM version:"     && npm --version:
+2026-10-13T21:42:00.206Z 11.13 npm error   path: '/home/myuser/package-lock.json'
+2026-10-13T21:42:00.207Z 11.13 npm error }
+2026-10-13T21:42:00.209Z 11.13 npm error
+2026-10-13T21:42:00.209Z 11.13 npm error The operation was rejected by your operating system.
+2026-10-13T21:42:00.210Z 11.13 npm error It is likely you do not have the permissions to access this file as the current user
+2026-10-13T21:42:00.211Z 11.13 npm error
+2026-10-13T21:42:00.212Z 11.13 npm error If you believe this might be a permissions issue, please double-check the
+2026-10-13T21:42:00.212Z 11.13 npm error permissions of the file and its containing directories, or try running
+2026-10-13T21:42:00.213Z 11.13 npm error the command again as root/Administrator.
+2026-10-13T21:42:00.215Z 11.13 npm error A complete log of this run can be found in: /home/myuser/.npm/_logs/2026-10-13T21_41_49_823Z-debug-0.log
+2026-10-13T21:42:00.215Z ------
+2026-10-13T21:42:00.216Z Dockerfile:5
+2026-10-13T21:42:00.217Z --------------------
+2026-10-13T21:42:00.218Z    4 |
+2026-10-13T21:42:00.219Z    5 | >>> RUN npm --quiet set progress=false \
+2026-10-13T21:42:00.219Z    6 | >>>     && npm install --omit=dev --omit=optional \
+2026-10-13T21:42:00.220Z    7 | >>>     && echo "Installed NPM packages:" \
+2026-10-13T21:42:00.222Z    8 | >>>     && (npm list --omit=dev --all || true) \
+2026-10-13T21:42:00.223Z    9 | >>>     && echo "Node.js version:" \
+2026-10-13T21:42:00.223Z   10 | >>>     && node --version \
+2026-10-13T21:42:00.224Z   11 | >>>     && echo "NPM version:" \
+2026-10-13T21:42:00.225Z   12 | >>>     && npm --version
+2026-10-13T21:42:00.225Z   13 |
+2026-10-13T21:42:00.226Z --------------------
+2026-10-13T21:42:00.226Z error: failed to solve: process "/bin/bash -o pipefail -c npm --quiet set progress=false     && npm install --omit=dev --omit=optional     && echo \"Installed NPM packages:\"     && (npm list --omit=dev --all || true)     && echo \"Node.js version:\"     && node --version     && echo \"NPM version:\"     && npm --version" did not complete successfully: exit code: 243
+2026-10-13T21:42:00.227Z ACTOR: ERROR: Container image build failed: error: failed to solve: process "/bin/bash -o pipefail -c npm --quiet set progress=false     && npm install --omit=dev --omit=optional     && echo \"Installed NPM packages:\"     && (npm list --omit=dev --all || true)     && echo \"Node.js version:\"     && node --version     && echo \"NPM version:\"     && npm --version" did not complete successfully: exit code: 243

@@ -4,11 +4,9 @@
 
 [32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}[39m
 [32mINFO[39m [33m PlaywrightCrawler:[39m Starting the crawler.
-[33mWARN[39m [33m PlaywrightCrawler:[39m Reclaiming failed request back to the list or queue. Request blocked - received 403 status code.
-[90m {"id":"WodyHs6hoAaceir","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&inquiryDirectionType=ForwardList&searchNameOrder=ACME&SearchTerm=Acme","retryCount":1}[39m
 [32mINFO[39m  "Acme": 5 saved, 0 in flight
 [32mINFO[39m [33m PlaywrightCrawler:[39m All requests from the queue have been processed, the crawler will shut down.
-[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":1,"requestsFailed":0,"retryHistogram":[null,1],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":3538,"requestsFinishedPerMinute":8,"requestsFailedPerMinute":0,"requestTotalDurationMillis":3538,"requestsTotal":1,"crawlerRuntimeMillis":7206}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":1,"requestsFailed":0,"retryHistogram":[1],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":2981,"requestsFinishedPerMinute":17,"requestsFailedPerMinute":0,"requestTotalDurationMillis":2981,"requestsTotal":1,"crawlerRuntimeMillis":3542}[39m
 [32mINFO[39m [33m PlaywrightCrawler:[39m Finished! Total 1 requests: 1 succeeded, 0 failed.[90m {"terminal":true}[39m
 [32mINFO[39m  Done. 5 entities saved for 1 search term(s).
 items: 5

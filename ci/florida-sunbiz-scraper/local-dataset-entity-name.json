@@ -34,7 +34,7 @@
     "matchedName": null,
     "searchType": "entityName",
     "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T21:37:08.475Z"
+    "scrapedAt": "2026-10-13T21:40:59.784Z"
   },
   {
     "entityName": "PUBLIX SUPER MARKETS, INC.",
@@ -513,7 +513,60 @@
     "matchedName": null,
     "searchType": "entityName",
     "searchTerm": "Publix Super Markets",
-    "scrapedAt": "2026-10-13T21:37:08.771Z"
+    "scrapedAt": "2026-10-13T21:41:00.149Z"
+  },
+  {
+    "entityName": "ACME CORPORATION",
+    "entityType": "Florida Profit Corporation",
+    "documentNumber": "143138",
+    "feiEin": "00-0000000",
+    "dateFiled": "07/20/1944",
+    "effectiveDate": null,
+    "state": "FL",
+    "status": "INACTIVE",
+    "lastEvent": "EVENT CONVERTED TO NOTES",
+    "eventDateFiled": "05/16/1949",
+    "eventEffectiveDate": "NONE",
+    "principalAddress": "., JACKSONVILLE, FL",
+    "principalAddressNotes": [],
+    "mailingAddress": "., JACKSONVILLE, FL",
+    "mailingAddressNotes": [],
+    "registeredAgentName": "NONE",
+    "registeredAgentAddress": null,
+    "registeredAgentNotes": [],
+    "officerSectionTitle": "Officer/Director Detail",
+    "officers": [
+      {
+        "title": "D",
+        "name": "CRAVEN, E. FRANK",
+        "address": "., JACKSONVILLE, FL"
+      },
+      {
+        "title": "D",
+        "name": "HUGHES, FRANK R.",
+        "address": "., JACKSONVILLE, FL"
+      },
+      {
+        "title": "D",
+        "name": "HUGHES, CHARLES W.",
+        "address": "., JACKSONVILLE, FL"
+      }
+    ],
+    "annualReports": [],
+    "documents": [],
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-143138-d615c4e5-25e9-412a-b31c-1f3f2eaa5295&entityId=143138&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%201431380&ListNameOrder=ACME%201125450",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+1431380&aggregateId=domp-143138-d615c4e5-25e9-412a-b31c-1f3f2eaa5295",
+    "lastAnnualReportYear": null,
+    "annualReportCurrent": null,
+    "annualReportStatus": "not_applicable_inactive",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "dissolutionDeadline": null,
+    "nextAnnualReportWindow": null,
+    "matchedName": null,
+    "searchType": "entityName",
+    "searchTerm": "Acme",
+    "scrapedAt": "2026-10-13T21:41:00.574Z"
   },
   {
     "entityName": "PUBLIX SUPER MARKETS CHARITIES, INC.",
@@ -762,60 +815,7 @@
     "matchedName": null,
     "searchType": "entityName",
     "searchTerm": "Publix Super Markets",
-    "scrapedAt": "2026-10-13T21:37:09.563Z"
-  },
-  {
-    "entityName": "ACME CORPORATION",
-    "entityType": "Florida Profit Corporation",
-    "documentNumber": "143138",
-    "feiEin": "00-0000000",
-    "dateFiled": "07/20/1944",
-    "effectiveDate": null,
-    "state": "FL",
-    "status": "INACTIVE",
-    "lastEvent": "EVENT CONVERTED TO NOTES",
-    "eventDateFiled": "05/16/1949",
-    "eventEffectiveDate": "NONE",
-    "principalAddress": "., JACKSONVILLE, FL",
-    "principalAddressNotes": [],
-    "mailingAddress": "., JACKSONVILLE, FL",
-    "mailingAddressNotes": [],
-    "registeredAgentName": "NONE",
-    "registeredAgentAddress": null,
-    "registeredAgentNotes": [],
-    "officerSectionTitle": "Officer/Director Detail",
-    "officers": [
-      {
-        "title": "D",
-        "name": "CRAVEN, E. FRANK",
-        "address": "., JACKSONVILLE, FL"
-      },
-      {
-        "title": "D",
-        "name": "HUGHES, FRANK R.",
-        "address": "., JACKSONVILLE, FL"
-      },
-      {
-        "title": "D",
-        "name": "HUGHES, CHARLES W.",
-        "address": "., JACKSONVILLE, FL"
-      }
-    ],
-    "annualReports": [],
-    "documents": [],
-    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-143138-d615c4e5-25e9-412a-b31c-1f3f2eaa5295&entityId=143138&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%201431380&ListNameOrder=ACME%201125450",
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+1431380&aggregateId=domp-143138-d615c4e5-25e9-412a-b31c-1f3f2eaa5295",
-    "lastAnnualReportYear": null,
-    "annualReportCurrent": null,
-    "annualReportStatus": "not_applicable_inactive",
-    "annualReportDueDate": null,
-    "lateFeeApplies": false,
-    "dissolutionDeadline": null,
-    "nextAnnualReportWindow": null,
-    "matchedName": null,
-    "searchType": "entityName",
-    "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T21:37:09.937Z"
+    "scrapedAt": "2026-10-13T21:41:01.032Z"
   },
   {
     "entityName": "THE ACME COMPANY",
@@ -852,7 +852,7 @@
     "matchedName": null,
     "searchType": "entityName",
     "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T21:37:10.750Z"
+    "scrapedAt": "2026-10-13T21:41:01.461Z"
   },
   {
     "entityName": "ACME, INC.",
@@ -913,7 +913,7 @@
     "matchedName": null,
     "searchType": "entityName",
     "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T21:37:11.184Z"
+    "scrapedAt": "2026-10-13T21:41:01.896Z"
   },
   {
     "entityName": "\"ACME\"",
@@ -950,7 +950,7 @@
     "matchedName": null,
     "searchType": "entityName",
     "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T21:37:12.050Z"
+    "scrapedAt": "2026-10-13T21:41:02.331Z"
   },
   {
     "entityName": "ACME COMPANY, L.C.",
@@ -1053,6 +1053,6 @@
     "matchedName": null,
     "searchType": "entityName",
     "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T21:37:12.369Z"
+    "scrapedAt": "2026-10-13T21:41:02.644Z"
   }
 ]
