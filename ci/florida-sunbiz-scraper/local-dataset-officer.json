@@ -1,1 +1,259 @@
-[]
+[
+  {
+    "entityName": "HI-VOLT BATTERY SALES & SERVICE, INC.",
+    "entityType": "Florida Profit Corporation",
+    "documentNumber": "187189",
+    "feiEin": "59-0752079",
+    "dateFiled": "08/15/1955",
+    "effectiveDate": null,
+    "state": "FL",
+    "status": "INACTIVE",
+    "lastEvent": "INVOLUNTARILY DISSOLVED",
+    "eventDateFiled": "11/04/1988",
+    "eventEffectiveDate": "NONE",
+    "principalAddress": "1880 N W 7TH AVE, P. O. BOX 016067, MIAMI FLA 33101",
+    "principalAddressNotes": [],
+    "mailingAddress": "1880 N W 7TH AVE, P. O. BOX 016067, MIAMI FLA 33101",
+    "mailingAddressNotes": [],
+    "registeredAgentName": "SMITH,CHARLES",
+    "registeredAgentAddress": "6401 SW 112TH ST., MIAMI, FL",
+    "registeredAgentNotes": [],
+    "officerSectionTitle": "Officer/Director Detail",
+    "officers": [
+      {
+        "title": "V",
+        "name": "SCHILB, SHARON",
+        "address": "9974 SW 165TH TERR, MIAMI, FL 00000"
+      },
+      {
+        "title": "P",
+        "name": "SMITH, JOHN",
+        "address": "14822 SW 74TH PLACE, MIAMI, FL 00000"
+      },
+      {
+        "title": "STD",
+        "name": "SMITH, EILEEN",
+        "address": "6401 SW 112TH ST, MIAMI, FL 00000"
+      },
+      {
+        "title": "D",
+        "name": "SMITH, CAHRLES",
+        "address": "6401 SW 112TH ST, MIAMI, FL 00000"
+      }
+    ],
+    "annualReports": [
+      {
+        "reportYear": 1985,
+        "filedDate": "05/16/1985"
+      },
+      {
+        "reportYear": 1986,
+        "filedDate": "03/11/1986"
+      },
+      {
+        "reportYear": 1987,
+        "filedDate": "10/22/1987"
+      }
+    ],
+    "documents": [],
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-187189-6ca1ae78-b691-4aec-95aa-5a9f421e4e5e&entityId=187189&CurrentPage=0&SearchTerm=Smith%20John&InquiryType=OfficerRegisteredAgentName&inquiryDirectionType=CurrentList&SearchNameOrder=SMITHJOHN%201871892&ListNameOrder=SMITHJOHN%201871892",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=OfficerRegisteredAgentName&directionType=Initial&searchNameOrder=SMITHJOHN+1871892&aggregateId=domp-187189-6ca1ae78-b691-4aec-95aa-5a9f421e4e5e",
+    "lastAnnualReportYear": 1987,
+    "annualReportCurrent": null,
+    "annualReportStatus": "not_applicable_inactive",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "dissolutionDeadline": null,
+    "nextAnnualReportWindow": null,
+    "matchedName": "SMITH, JOHN",
+    "searchType": "officerOrRegisteredAgent",
+    "searchTerm": "Smith John",
+    "scrapedAt": "2026-10-13T21:24:45.968Z"
+  },
+  {
+    "entityName": "FIRM-A-FORM INC",
+    "entityType": "Florida Profit Corporation",
+    "documentNumber": "334966",
+    "feiEin": "00-0000000",
+    "dateFiled": "09/12/1968",
+    "effectiveDate": null,
+    "state": "FL",
+    "status": "INACTIVE",
+    "lastEvent": "DISSOLVED BY PROCLAMATION",
+    "eventDateFiled": "06/28/1971",
+    "eventEffectiveDate": "NONE",
+    "principalAddress": "564 N.E. 40TH CT., FT. LAUDERDALE, FL",
+    "principalAddressNotes": [],
+    "mailingAddress": "564 N.E. 40TH CT., FT. LAUDERDALE, FL",
+    "mailingAddressNotes": [],
+    "registeredAgentName": "WATKINS, EDWARD",
+    "registeredAgentAddress": "564 N.E. 40TH CT., FT. LAUDERDALE, FL",
+    "registeredAgentNotes": [],
+    "officerSectionTitle": "Officer/Director Detail",
+    "officers": [
+      {
+        "title": "PD",
+        "name": "SMITH, JOHN",
+        "address": "564 N.E. 40TH CT., FT. LAUDERDALE, FL"
+      },
+      {
+        "title": "VPD",
+        "name": "BANOME, ANTHONY",
+        "address": "564 N.E. 40TH CT., FT. LAUDERDALE, FL"
+      },
+      {
+        "title": "STD",
+        "name": "SATRIANO, VINCENT",
+        "address": "564 N.E. 40TH CT., FT. LAUDERDALE, FL"
+      }
+    ],
+    "annualReports": [],
+    "documents": [],
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-334966-6f9a25b8-ef9f-49b0-ac0a-94b6b3fa1185&entityId=334966&CurrentPage=0&SearchTerm=Smith%20John&InquiryType=OfficerRegisteredAgentName&inquiryDirectionType=CurrentList&SearchNameOrder=SMITHJOHN%203349661&ListNameOrder=SMITHJOHN%201871892",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=OfficerRegisteredAgentName&directionType=Initial&searchNameOrder=SMITHJOHN+3349661&aggregateId=domp-334966-6f9a25b8-ef9f-49b0-ac0a-94b6b3fa1185",
+    "lastAnnualReportYear": null,
+    "annualReportCurrent": null,
+    "annualReportStatus": "not_applicable_inactive",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "dissolutionDeadline": null,
+    "nextAnnualReportWindow": null,
+    "matchedName": "SMITH, JOHN",
+    "searchType": "officerOrRegisteredAgent",
+    "searchTerm": "Smith John",
+    "scrapedAt": "2026-10-13T21:24:46.198Z"
+  },
+  {
+    "entityName": "F M E CONSTRUCTION, INC.",
+    "entityType": "Florida Profit Corporation",
+    "documentNumber": "341228",
+    "feiEin": "59-1288090",
+    "dateFiled": "02/06/1969",
+    "effectiveDate": null,
+    "state": "FL",
+    "status": "INACTIVE",
+    "lastEvent": "CANCEL FOR NON-PAYMENT",
+    "eventDateFiled": "09/03/1976",
+    "eventEffectiveDate": "NONE",
+    "principalAddress": "24 WEST ENID DRIVE, KEY BISCAYNE, FL 33149",
+    "principalAddressNotes": [
+      "Changed: 06/25/1974"
+    ],
+    "mailingAddress": "24 WEST ENID DRIVE, KEY BISCAYNE, FL 33149",
+    "mailingAddressNotes": [
+      "Changed: 06/25/1974"
+    ],
+    "registeredAgentName": "SMITH, JOHN",
+    "registeredAgentAddress": "24 WEST ENID DRIVE, KEY BISCAYNE, FL 33149",
+    "registeredAgentNotes": [],
+    "officerSectionTitle": "Officer/Director Detail",
+    "officers": [
+      {
+        "title": "PD",
+        "name": "MURRAY, KENNETH",
+        "address": "ATLANTA, GA"
+      },
+      {
+        "title": "VD",
+        "name": "MURRAY, LYLE",
+        "address": "KEY BISCAYNE, FL"
+      },
+      {
+        "title": "SD",
+        "name": "SMITH, JOHN",
+        "address": "NORTH MIAMI, FL"
+      }
+    ],
+    "annualReports": [
+      {
+        "reportYear": 1974,
+        "filedDate": "07/19/1974"
+      }
+    ],
+    "documents": [],
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-341228-ba3036f6-930c-4505-9c42-21e4edef1263&entityId=341228&CurrentPage=0&SearchTerm=Smith%20John&InquiryType=OfficerRegisteredAgentName&inquiryDirectionType=CurrentList&SearchNameOrder=SMITHJOHN%203412280&ListNameOrder=SMITHJOHN%201871892",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=OfficerRegisteredAgentName&directionType=Initial&searchNameOrder=SMITHJOHN+3412280&aggregateId=domp-341228-ba3036f6-930c-4505-9c42-21e4edef1263",
+    "lastAnnualReportYear": 1974,
+    "annualReportCurrent": null,
+    "annualReportStatus": "not_applicable_inactive",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "dissolutionDeadline": null,
+    "nextAnnualReportWindow": null,
+    "matchedName": "SMITH, JOHN",
+    "searchType": "officerOrRegisteredAgent",
+    "searchTerm": "Smith John",
+    "scrapedAt": "2026-10-13T21:24:46.885Z"
+  },
+  {
+    "entityName": "PERFORMANCE CHEMICAL, INC.",
+    "entityType": "Florida Profit Corporation",
+    "documentNumber": "380519",
+    "feiEin": "59-1323163",
+    "dateFiled": "04/16/1971",
+    "effectiveDate": null,
+    "state": "FL",
+    "status": "INACTIVE",
+    "lastEvent": "INVOLUNTARILY DISSOLVED",
+    "eventDateFiled": "12/05/1978",
+    "eventEffectiveDate": "NONE",
+    "principalAddress": "4530 N FEDERAL HIGHWAY, FT LAUDERDALE FLA 33308",
+    "principalAddressNotes": [],
+    "mailingAddress": "4530 N FEDERAL HIGHWAY, FT LAUDERDALE FLA 33308",
+    "mailingAddressNotes": [],
+    "registeredAgentName": "PETERSON PALMER",
+    "registeredAgentAddress": "2742 N. E. 4TH ST, POMPANO BEACH FL 33062",
+    "registeredAgentNotes": [],
+    "officerSectionTitle": "Officer/Director Detail",
+    "officers": [
+      {
+        "title": "PD",
+        "name": "PETERSON PALMER",
+        "address": "4530 N FEDERAL HWY, FT LAUDERDALE FL"
+      },
+      {
+        "title": "D",
+        "name": "SMITH JOHN",
+        "address": "4530 N FEDERAL HWY, FT LAUDERDALE FL"
+      },
+      {
+        "title": "D",
+        "name": "COBB ROBERT",
+        "address": "4530 N FEDERAL HWY, FT LAUDERDALE FL"
+      },
+      {
+        "title": "T",
+        "name": "COBB, ROBERT",
+        "address": "4530 N FEDERAL HWY"
+      }
+    ],
+    "annualReports": [
+      {
+        "reportYear": 1975,
+        "filedDate": "05/13/1975"
+      },
+      {
+        "reportYear": 1976,
+        "filedDate": "11/15/1976"
+      },
+      {
+        "reportYear": 1977,
+        "filedDate": "10/14/1977"
+      }
+    ],
+    "documents": [],
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-380519-94628af5-60ad-48e3-983a-38be079cca6f&entityId=380519&CurrentPage=0&SearchTerm=Smith%20John&InquiryType=OfficerRegisteredAgentName&inquiryDirectionType=CurrentList&SearchNameOrder=SMITHJOHN%203805192&ListNameOrder=SMITHJOHN%201871892",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=OfficerRegisteredAgentName&directionType=Initial&searchNameOrder=SMITHJOHN+3805192&aggregateId=domp-380519-94628af5-60ad-48e3-983a-38be079cca6f",
+    "lastAnnualReportYear": 1977,
+    "annualReportCurrent": null,
+    "annualReportStatus": "not_applicable_inactive",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "dissolutionDeadline": null,
+    "nextAnnualReportWindow": null,
+    "matchedName": "SMITH JOHN",
+    "searchType": "officerOrRegisteredAgent",
+    "searchTerm": "Smith John",
+    "scrapedAt": "2026-10-13T21:24:46.946Z"
+  }
+]

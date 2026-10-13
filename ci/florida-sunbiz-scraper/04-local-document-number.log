@@ -4,11 +4,88 @@
 
 [32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v20.20.2"}[39m
 [32mINFO[39m [33m PlaywrightCrawler:[39m Starting the crawler.
-[32mINFO[39m  No results for "P21000072292"
-[32mINFO[39m  No results for "L15000160389"
-[32mINFO[39m  No results for "Z99999999999"
+[33mWARN[39m [33m PlaywrightCrawler:[39m Reclaiming failed request back to the list or queue. page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[type="submit"][name="Search"]')
+
+    at PlaywrightCrawler.requestHandler (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/src/main.js:196:22)[90m {"id":"oEpmPu396ZMR3Pj","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber","retryCount":1}[39m
+[33mWARN[39m [33m PlaywrightCrawler:[39m Reclaiming failed request back to the list or queue. page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[type="submit"][name="Search"]')
+
+    at PlaywrightCrawler.requestHandler (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/src/main.js:196:22)[90m {"id":"7Njo54nOUssPthz","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber","retryCount":1}[39m
+[32mINFO[39m [33m PlaywrightCrawler:Statistics:[39m PlaywrightCrawler request statistics:[90m {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":60160,"retryHistogram":[]}[39m
+[32mINFO[39m [33m PlaywrightCrawler:AutoscaledPool:[39m state[90m {"currentConcurrency":3,"desiredConcurrency":4,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}[39m
+[33mWARN[39m [33m PlaywrightCrawler:[39m Reclaiming failed request back to the list or queue. page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[type="submit"][name="Search"]')
+
+    at PlaywrightCrawler.requestHandler (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/src/main.js:196:22)[90m {"id":"aabkXCYFWFc3kz7","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber","retryCount":1}[39m
+[33mWARN[39m [33m PlaywrightCrawler:[39m Reclaiming failed request back to the list or queue. page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[type="submit"][name="Search"]')
+
+    at PlaywrightCrawler.requestHandler (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/src/main.js:196:22)[90m {"id":"oEpmPu396ZMR3Pj","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber","retryCount":2}[39m
+[33mWARN[39m [33m PlaywrightCrawler:[39m Reclaiming failed request back to the list or queue. page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[type="submit"][name="Search"]')
+
+    at PlaywrightCrawler.requestHandler (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/src/main.js:196:22)[90m {"id":"7Njo54nOUssPthz","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber","retryCount":2}[39m
+[33mWARN[39m [33m PlaywrightCrawler:[39m Reclaiming failed request back to the list or queue. page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[type="submit"][name="Search"]')
+
+    at PlaywrightCrawler.requestHandler (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/src/main.js:196:22)[90m {"id":"oEpmPu396ZMR3Pj","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber","retryCount":3}[39m
+[33mWARN[39m [33m PlaywrightCrawler:[39m Reclaiming failed request back to the list or queue. page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[type="submit"][name="Search"]')
+
+    at PlaywrightCrawler.requestHandler (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/src/main.js:196:22)[90m {"id":"aabkXCYFWFc3kz7","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber","retryCount":2}[39m
+[33mWARN[39m [33m PlaywrightCrawler:[39m Reclaiming failed request back to the list or queue. page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[type="submit"][name="Search"]')
+
+    at PlaywrightCrawler.requestHandler (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/src/main.js:196:22)[90m {"id":"7Njo54nOUssPthz","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber","retryCount":3}[39m
+[32mINFO[39m [33m PlaywrightCrawler:Statistics:[39m PlaywrightCrawler request statistics:[90m {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":120161,"retryHistogram":[]}[39m
+[32mINFO[39m [33m PlaywrightCrawler:AutoscaledPool:[39m state[90m {"currentConcurrency":3,"desiredConcurrency":4,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}[39m
+[31mERROR[39m[33m PlaywrightCrawler:[39m Request failed and reached maximum retries. page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[type="submit"][name="Search"]')
+
+    at PlaywrightCrawler.requestHandler (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/src/main.js:196:22)
+    at async wrap (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/node_modules/@crawlee/browser/node_modules/@apify/timeout/cjs/index.cjs:56:21)[90m {"id":"oEpmPu396ZMR3Pj","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber","method":"GET","uniqueKey":"form:documentNumber:l15000160389"}[39m
+[31mERROR[39m Giving up on https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber: page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[type="submit"][name="Search"]')
+
+[33mWARN[39m [33m PlaywrightCrawler:[39m Reclaiming failed request back to the list or queue. page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[type="submit"][name="Search"]')
+
+    at PlaywrightCrawler.requestHandler (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/src/main.js:196:22)[90m {"id":"aabkXCYFWFc3kz7","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber","retryCount":3}[39m
+[31mERROR[39m[33m PlaywrightCrawler:[39m Request failed and reached maximum retries. page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[type="submit"][name="Search"]')
+
+    at PlaywrightCrawler.requestHandler (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/src/main.js:196:22)
+    at async wrap (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/node_modules/@crawlee/browser/node_modules/@apify/timeout/cjs/index.cjs:56:21)[90m {"id":"7Njo54nOUssPthz","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber","method":"GET","uniqueKey":"form:documentNumber:p21000072292"}[39m
+[31mERROR[39m Giving up on https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber: page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[type="submit"][name="Search"]')
+
+[31mERROR[39m[33m PlaywrightCrawler:[39m Request failed and reached maximum retries. page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[type="submit"][name="Search"]')
+
+    at PlaywrightCrawler.requestHandler (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/src/main.js:196:22)
+    at async wrap (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/node_modules/@crawlee/browser/node_modules/@apify/timeout/cjs/index.cjs:56:21)[90m {"id":"aabkXCYFWFc3kz7","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber","method":"GET","uniqueKey":"form:documentNumber:z99999999999"}[39m
+[31mERROR[39m Giving up on https://search.sunbiz.org/Inquiry/CorporationSearch/ByDocumentNumber: page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[type="submit"][name="Search"]')
+
 [32mINFO[39m [33m PlaywrightCrawler:[39m All requests from the queue have been processed, the crawler will shut down.
-[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":3,"requestsFailed":0,"retryHistogram":[3],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":2464,"requestsFinishedPerMinute":40,"requestsFailedPerMinute":0,"requestTotalDurationMillis":7393,"requestsTotal":3,"crawlerRuntimeMillis":4496}[39m
-[32mINFO[39m [33m PlaywrightCrawler:[39m Finished! Total 3 requests: 3 succeeded, 0 failed.[90m {"terminal":true}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":0,"requestsFailed":3,"retryHistogram":[null,null,null,3],"requestAvgFailedDurationMillis":31405,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":1,"requestTotalDurationMillis":94216,"requestsTotal":3,"crawlerRuntimeMillis":161784}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Error analysis:[90m {"totalErrors":3,"uniqueErrors":1,"mostCommonErrors":["3x: page.click: Timeout 30000ms exceeded. (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/src/main.js:196:22)"]}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Finished! Total 3 requests: 0 succeeded, 3 failed.[90m {"terminal":true}[39m
 [32mINFO[39m  Done. 0 entities saved for 3 search term(s).
 items: 0

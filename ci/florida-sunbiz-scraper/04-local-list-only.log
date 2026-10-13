@@ -4,62 +4,9 @@
 
 [32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v20.20.2"}[39m
 [32mINFO[39m [33m PlaywrightCrawler:[39m Starting the crawler.
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far
-[32mINFO[39m  "Acme": accepted 12 so far (done)
+[32mINFO[39m  "Acme": 5 saved, 0 in flight
 [32mINFO[39m [33m PlaywrightCrawler:[39m All requests from the queue have been processed, the crawler will shut down.
-[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":54,"requestsFailed":0,"retryHistogram":[54],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":799,"requestsFinishedPerMinute":73,"requestsFailedPerMinute":0,"requestTotalDurationMillis":43135,"requestsTotal":54,"crawlerRuntimeMillis":44431}[39m
-[32mINFO[39m [33m PlaywrightCrawler:[39m Finished! Total 54 requests: 54 succeeded, 0 failed.[90m {"terminal":true}[39m
-[32mINFO[39m  Done. 12 entities saved for 1 search term(s).
-items: 12
+[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":1,"requestsFailed":0,"retryHistogram":[1],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":3375,"requestsFinishedPerMinute":15,"requestsFailedPerMinute":0,"requestTotalDurationMillis":3375,"requestsTotal":1,"crawlerRuntimeMillis":3966}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Finished! Total 1 requests: 1 succeeded, 0 failed.[90m {"terminal":true}[39m
+[32mINFO[39m  Done. 5 entities saved for 1 search term(s).
+items: 5

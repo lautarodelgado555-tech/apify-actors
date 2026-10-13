@@ -1,75 +1,5 @@
 [
   {
-    "entityName": "ACME CORPORATION",
-    "documentNumber": "112545",
-    "status": "INACT",
-    "matchedName": null,
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+1125450&aggregateId=domp-112545-918af59c-789e-4606-9371-b8ff8235acb2",
-    "searchType": "entityName",
-    "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T21:16:14.173Z"
-  },
-  {
-    "entityName": "ACME CORPORATION",
-    "documentNumber": "143138",
-    "status": "INACT",
-    "matchedName": null,
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+1431380&aggregateId=domp-143138-d615c4e5-25e9-412a-b31c-1f3f2eaa5295",
-    "searchType": "entityName",
-    "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T21:16:14.177Z"
-  },
-  {
-    "entityName": "THE ACME COMPANY",
-    "documentNumber": "188374",
-    "status": "INACT",
-    "matchedName": null,
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+1883741&aggregateId=domp-188374-366c153b-ce5d-4f93-97d0-03ce5d4bd312",
-    "searchType": "entityName",
-    "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T21:16:14.178Z"
-  },
-  {
-    "entityName": "ACME, INC.",
-    "documentNumber": "454365",
-    "status": "INACT",
-    "matchedName": null,
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+4543650&aggregateId=domp-454365-f7d2850f-4e56-49e8-9f12-5d3ef3c5e0dd",
-    "searchType": "entityName",
-    "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T21:16:14.179Z"
-  },
-  {
-    "entityName": "\"ACME\"",
-    "documentNumber": "903173",
-    "status": "INACT",
-    "matchedName": null,
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+9031730&aggregateId=trade-903173-68879238-671d-4758-83c9-ff67ffb29a50",
-    "searchType": "entityName",
-    "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T21:16:14.180Z"
-  },
-  {
-    "entityName": "THE ACME COMPANY, LLC",
-    "documentNumber": "L01000018428",
-    "status": "INACT",
-    "matchedName": null,
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+L010000184280&aggregateId=flal-l01000018428-f2261bcc-75f2-4c2a-8a9a-70b5a3e31303",
-    "searchType": "entityName",
-    "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T21:16:14.181Z"
-  },
-  {
-    "entityName": "ACME, LLC",
-    "documentNumber": "L05000034131",
-    "status": "INACT",
-    "matchedName": null,
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+L050000341310&aggregateId=flal-l05000034131-26e5d397-98d7-4714-8e52-38f0975f719a",
-    "searchType": "entityName",
-    "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T21:16:14.182Z"
-  },
-  {
     "entityName": "ACME LLC",
     "documentNumber": "L15000160389",
     "status": "Active",
@@ -77,46 +7,46 @@
     "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+L150001603890&aggregateId=flal-l15000160389-49cf3f35-cde9-42e2-8bf2-837fe4d81017",
     "searchType": "entityName",
     "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T21:16:14.187Z"
+    "scrapedAt": "2026-10-13T21:24:39.894Z"
   },
   {
-    "entityName": "ACME, LLC",
-    "documentNumber": "M25000013912",
-    "status": "CROSS RF",
+    "entityName": "ACME113 HOLDINGS LLC",
+    "documentNumber": "L25000427379",
+    "status": "Active",
     "matchedName": null,
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+M250000139120&aggregateId=forl-m25000013912-1bcdd082-af04-4639-b581-502cd02953ce",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME113HOLDINGS+L250004273790&aggregateId=flal-l25000427379-bcb0c291-2f40-4861-8097-b9019f89669e",
     "searchType": "entityName",
     "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T21:16:14.188Z"
+    "scrapedAt": "2026-10-13T21:24:39.899Z"
   },
   {
-    "entityName": "ACME CORPORATION",
-    "documentNumber": "P21000072292",
-    "status": "INACT",
+    "entityName": "ACME157 LLC",
+    "documentNumber": "L24000508356",
+    "status": "Active",
     "matchedName": null,
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+P210000722920&aggregateId=domp-p21000072292-dd69425b-8f53-44bb-89e7-6dd8a3cd1d27",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME157+L240005083560&aggregateId=flal-l24000508356-85992e11-3972-4886-affa-d52b2350ed63",
     "searchType": "entityName",
     "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T21:16:14.189Z"
+    "scrapedAt": "2026-10-13T21:24:39.900Z"
   },
   {
-    "entityName": "ACME, INC.",
-    "documentNumber": "P22677",
-    "status": "INACT",
+    "entityName": "ACME 1999, LLC",
+    "documentNumber": "L25000084531",
+    "status": "Active",
     "matchedName": null,
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+P226770&aggregateId=forp-p22677-2446febe-9d67-4f9f-91a8-f6557d8b8697",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME1999+L250000845310&aggregateId=flal-l25000084531-2de91fa6-bce5-4e2f-8590-24aa253390d0",
     "searchType": "entityName",
     "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T21:16:14.191Z"
+    "scrapedAt": "2026-10-13T21:24:39.901Z"
   },
   {
-    "entityName": "A.C.M.E., INC.",
-    "documentNumber": "P95000042204",
-    "status": "INACT",
+    "entityName": "ACME230 LLC",
+    "documentNumber": "L25000058725",
+    "status": "Active",
     "matchedName": null,
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+P950000422040&aggregateId=domp-p95000042204-1c978592-4b74-435c-9218-47abf805911e",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME230+L250000587250&aggregateId=flal-l25000058725-2a1e63e9-1e84-4c4a-9d5e-6a0345b5ac74",
     "searchType": "entityName",
     "searchTerm": "Acme",
-    "scrapedAt": "2026-10-13T21:16:14.192Z"
+    "scrapedAt": "2026-10-13T21:24:39.902Z"
   }
 ]
