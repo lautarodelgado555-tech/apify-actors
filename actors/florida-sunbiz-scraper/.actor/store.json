@@ -1,7 +1,10 @@
 {
   "title": "Florida Sunbiz Business Search & Annual Report Checker",
   "description": "Search Florida's Sunbiz registry by entity name, officer, registered agent, document number or EIN. Get status, addresses, officers, annual reports, PDF links and whether this year's annual report is filed, due or late.",
-  "categories": ["BUSINESS", "LEAD_GENERATION"],
+  "categories": [
+    "BUSINESS",
+    "LEAD_GENERATION"
+  ],
   "seoTitle": "Florida Sunbiz Business Search Scraper + AR Status",
   "seoDescription": "Scrape Florida's Sunbiz business registry: search by name, officer, agent, document number or EIN. Get status, officers, annual reports, PDFs and deadlines.",
   "isPublic": false,
@@ -11,6 +14,19 @@
       "eventDescription": "One Florida business entity returned, with details when enabled.",
       "eventPriceUsd": 0.005,
       "isPrimaryEvent": true
+    }
+  },
+  "permissionLevel": "LIMITED_PERMISSIONS",
+  "exampleInput": {
+    "searchType": "entityName",
+    "searchTerms": [
+      "Publix Super Markets"
+    ],
+    "nameMatch": "startsWith",
+    "maxResultsPerSearch": 5,
+    "fetchDetails": true,
+    "proxyConfiguration": {
+      "useApifyProxy": true
     }
   }
 }
