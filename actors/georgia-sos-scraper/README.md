@@ -72,7 +72,7 @@ The portal publishes the **last annual registration year** but not a next-due da
   "sourceUrl": "https://ecorp.sos.ga.gov/BusinessSearch",
   "searchType": "businessName",
   "searchTerm": "Delta Air Lines",
-  "scrapedAt": "2026-10-14T02:00:00.000Z"
+  "scrapedAt": "2026-10-14T03:25:59.000Z"
 }
 ```
 
@@ -107,6 +107,7 @@ You pay per entity record returned (pay per event, **Entity record**). Searches 
 ## Tips
 
 - Search by **control number** for an exact lookup, or by **name** with *starts with* for the cleanest list.
+- Officer names are stored first name first (`Edward H. Bastian`), and *contains* also matches inside longer names (`Bastian` finds `Sebastian`).
 - Searching a large registered agent (for example a commercial agent with tens of thousands of entities) is slow on the portal side; set a sensible `maxResultsPerSearch`.
 - Name reservations have no control number and no detail page; they are listed without details.
 - eCorp has no stable per-entity web address, so `sourceUrl` points to the search page; search the `controlNumber` there to see the same record.
