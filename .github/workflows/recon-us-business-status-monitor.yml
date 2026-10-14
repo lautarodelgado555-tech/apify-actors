@@ -1,0 +1,42 @@
+# Copy to .github/workflows/recon-us-business-status-monitor.yml and replace us-business-status-monitor (sed -i 's/us-business-status-monitor/my-actor/g').
+# Edit recon/us-business-status-monitor/targets.json and push: this runs scripts/recon.mjs on a GitHub runner and commits recon/us-business-status-monitor/out/.
+name: recon-us-business-status-monitor
+on:
+  push:
+    paths:
+      - "recon/us-business-status-monitor/targets.json"
+      - ".github/workflows/recon-us-business-status-monitor.yml"
+permissions:
+  contents: write
+concurrency:
+  group: recon-us-business-status-monitor
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install clients
+        run: |
+          mkdir -p /tmp/rc && cd /tmp/rc && npm init -y >/dev/null && npm i got-scraping impit playwright >/dev/null 2>&1 && npx playwright install --with-deps chromium firefox >/dev/null 2>&1 || true
+          ln -sfn /tmp/rc/node_modules "$GITHUB_WORKSPACE/node_modules"
+      - name: Fetch
+        run: node scripts/recon.mjs recon/us-business-status-monitor/targets.json > /tmp/recon-run.log 2>&1 || true; mkdir -p recon/us-business-status-monitor/out; cp /tmp/recon-run.log recon/us-business-status-monitor/out/run.log
+      - name: Texas record layout (docx attachment of the Socrata dataset) as text
+        run: |
+          mkdir -p /tmp/docx recon/us-business-status-monitor/out
+          curl -sSL -o /tmp/docx/layout.docx "https://data.texas.gov/api/views/9cir-efmm/files/297f2282-33fe-4e7b-86de-10f6ae5f07e3?download=true&filename=Franchise%20Layout.docx" || true
+          ls -la /tmp/docx > recon/us-business-status-monitor/out/tx-layout.info.txt
+          (unzip -p /tmp/docx/layout.docx word/document.xml | sed -e 's/<\/w:p>/\n/g' -e 's/<[^>]*>//g' > recon/us-business-status-monitor/out/tx-layout.txt) || echo "unzip failed" > recon/us-business-status-monitor/out/tx-layout.txt
+      - name: Commit results
+        if: always()
+        run: |
+          unlink node_modules || true
+          git config user.name "ci-bot"
+          git config user.email "ci-bot@users.noreply.github.com"
+          git add -A recon/us-business-status-monitor/out
+          git commit -m "recon(us-business-status-monitor): results $(date -u +%FT%TZ)" || echo "nothing to commit"
+          for i in 1 2 3 4 5; do git pull --rebase --autostash && git push && break; sleep $((RANDOM % 8 + 2)); done

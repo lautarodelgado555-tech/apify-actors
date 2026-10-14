@@ -1,0 +1,362 @@
+[
+ {
+  "name": "co-meta",
+  "url": "https://data.colorado.gov/api/views/4ykn-tg5h.json",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "co-name",
+  "url": "https://data.colorado.gov/resource/4ykn-tg5h.json?$where=upper(entityname)%20like%20'ZAYO%25'&$limit=5",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "co-status-dist",
+  "url": "https://data.colorado.gov/resource/4ykn-tg5h.json?$select=entitystatus%2Ccount(*)%20as%20n&$group=entitystatus&$order=n%20desc",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "co-type-dist",
+  "url": "https://data.colorado.gov/resource/4ykn-tg5h.json?$select=entitytype%2Ccount(*)%20as%20n&$group=entitytype&$order=n%20desc&$limit=40",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "co-delinquent",
+  "url": "https://data.colorado.gov/resource/4ykn-tg5h.json?$where=entitystatus%3D'Delinquent'%20and%20entityformdate%3E'2020-01-01'&$limit=3",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "co-hist-dist",
+  "url": "https://data.colorado.gov/resource/casm-dbbj.json?$select=historydes%2Ccount(*)%20as%20n&$group=historydes&$order=n%20desc&$limit=60",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "co-hist-periodic",
+  "url": "https://data.colorado.gov/resource/casm-dbbj.json?$where=historydes%20like%20'Periodic%25'&$order=effectivedate%20desc&$limit=3",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "co-hist-meta",
+  "url": "https://data.colorado.gov/api/views/casm-dbbj.json",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "tx-meta",
+  "url": "https://data.texas.gov/api/views/9cir-efmm.json",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "tx-name",
+  "url": "https://data.texas.gov/resource/9cir-efmm.json?$where=upper(taxpayer_name)%20like%20'TESLA%25'&$limit=5",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "tx-status-dist",
+  "url": "https://data.texas.gov/resource/9cir-efmm.json?$select=right_to_transact_business_code%2Csos_status_code%2Ccount(*)%20as%20n&$group=right_to_transact_business_code%2Csos_status_code&$order=n%20desc&$limit=60",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "tx-org-dist",
+  "url": "https://data.texas.gov/resource/9cir-efmm.json?$select=taxpayer_organizational_type%2Crecord_type_code%2Ccount(*)%20as%20n&$group=taxpayer_organizational_type%2Crecord_type_code&$order=n%20desc&$limit=60",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "tx-exempt-dist",
+  "url": "https://data.texas.gov/resource/9cir-efmm.json?$select=current_exempt_reason_code%2Ccount(*)%20as%20n&$group=current_exempt_reason_code&$order=n%20desc&$limit=40",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "tx-forfeited",
+  "url": "https://data.texas.gov/resource/9cir-efmm.json?$where=right_to_transact_business_code%3D'N'%20and%20sos_status_code%3D'F'&$limit=3",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "tx-notactive-other",
+  "url": "https://data.texas.gov/resource/9cir-efmm.json?$where=right_to_transact_business_code%3D'D'&$limit=3",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "tx-id",
+  "url": "https://data.texas.gov/resource/9cir-efmm.json?taxpayer_number=32107728928",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "tx-fte-info",
+  "url": "https://comptroller.texas.gov/taxes/franchise/",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "tx-fte-due",
+  "url": "https://comptroller.texas.gov/taxes/franchise/due-dates.php",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "ny-meta",
+  "url": "https://data.ny.gov/api/views/n9v6-gdp6.json",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "ny-name",
+  "url": "https://data.ny.gov/resource/n9v6-gdp6.json?$where=upper(current_entity_name)%20like%20'GOOGLE%25'&$limit=5",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "ny-entity-type-dist",
+  "url": "https://data.ny.gov/resource/n9v6-gdp6.json?$select=entity_type%2Ccount(*)%20as%20n&$group=entity_type&$order=n%20desc&$limit=40",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "ny-status-hist-dist",
+  "url": "https://data.ny.gov/resource/3gg2-jgnp.json?$select=status%2Ccount(*)%20as%20n&$group=status&$order=n%20desc&$limit=60",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "ny-status-hist-meta",
+  "url": "https://data.ny.gov/api/views/3gg2-jgnp.json",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "ny-status-hist-sample",
+  "url": "https://data.ny.gov/resource/3gg2-jgnp.json?$limit=5&$order=date_filed%20desc",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "ny-allfilings-meta",
+  "url": "https://data.ny.gov/api/views/63wc-4exh.json",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "ny-allfilings-sample",
+  "url": "https://data.ny.gov/resource/63wc-4exh.json?$limit=3",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "ct-meta",
+  "url": "https://data.ct.gov/api/views/n7gp-d28j.json",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "ct-sample",
+  "url": "https://data.ct.gov/resource/n7gp-d28j.json?$limit=2",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "ct-name",
+  "url": "https://data.ct.gov/resource/n7gp-d28j.json?$where=upper(name)%20like%20'STANLEY%20BLACK%25'&$limit=5",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "ct-status-dist",
+  "url": "https://data.ct.gov/resource/n7gp-d28j.json?$select=status%2Csub_status%2Ccount(*)%20as%20n&$group=status%2Csub_status&$order=n%20desc&$limit=80",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "ct-type-dist",
+  "url": "https://data.ct.gov/resource/n7gp-d28j.json?$select=business_type%2Ccount(*)%20as%20n&$group=business_type&$order=n%20desc&$limit=40",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "ct-hist-meta",
+  "url": "https://data.ct.gov/api/views/ah3s-bes7.json",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "ct-hist-type-dist",
+  "url": "https://data.ct.gov/resource/ah3s-bes7.json?$select=filing_type%2Ccount(*)%20as%20n&$group=filing_type&$order=n%20desc&$limit=60",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "ct-hist-annual",
+  "url": "https://data.ct.gov/resource/ah3s-bes7.json?$where=upper(filing_type)%20like%20'%25ANNUAL%20REPORT%25'&$order=filing_date%20desc&$limit=3",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "ct-not-good",
+  "url": "https://data.ct.gov/resource/n7gp-d28j.json?$where=status%3D'Active'%20and%20sub_status!%3D'Good%20Standing'&$limit=3",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "or-meta",
+  "url": "https://data.oregon.gov/api/views/tckn-sxa6.json",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "or-name",
+  "url": "https://data.oregon.gov/resource/tckn-sxa6.json?$where=upper(business_name)%20like%20'NIKE%25'&$limit=8",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "or-assoc-dist",
+  "url": "https://data.oregon.gov/resource/tckn-sxa6.json?$select=associated_name_type%2Ccount(*)%20as%20n&$group=associated_name_type&$order=n%20desc&$limit=40",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "or-type-dist",
+  "url": "https://data.oregon.gov/resource/tckn-sxa6.json?$select=entity_type%2Ccount(*)%20as%20n&$group=entity_type&$order=n%20desc&$limit=40",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "or-county-meta",
+  "url": "https://data.oregon.gov/api/views/6g49-bcrm.json",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "or-county-name",
+  "url": "https://data.oregon.gov/resource/6g49-bcrm.json?$where=upper(business_name)%20like%20'NIKE%25'&$limit=5",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "dc-layer",
+  "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Business_Licensing_and_Grants_WebMercator/FeatureServer/0?f=json",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "dc-name",
+  "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Business_Licensing_and_Grants_WebMercator/FeatureServer/0/query?where=UPPER(BUSINESS_NAME)%20LIKE%20'MARRIOTT%25'&outFields=*&resultRecordCount=5&returnGeometry=false&f=json",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "dc-status-dist",
+  "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Business_Licensing_and_Grants_WebMercator/FeatureServer/0/query?where=1%3D1&groupByFieldsForStatistics=ENTITY_STATUS&outStatistics=%5B%7B%22statisticType%22%3A%22count%22%2C%22onStatisticField%22%3A%22OBJECTID%22%2C%22outStatisticFieldName%22%3A%22n%22%7D%5D&f=json",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "dc-maxmod",
+  "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Business_Licensing_and_Grants_WebMercator/FeatureServer/0/query?where=1%3D1&outStatistics=%5B%7B%22statisticType%22%3A%22max%22%2C%22onStatisticField%22%3A%22DCS_LAST_MOD_DTTM%22%2C%22outStatisticFieldName%22%3A%22maxmod%22%7D%5D&f=json",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "dc-active-sample",
+  "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Business_Licensing_and_Grants_WebMercator/FeatureServer/0/query?where=ENTITY_STATUS%20LIKE%20'Active%25'%20AND%20NEXT_REPORTYEAR_DUE%20IS%20NOT%20NULL%20AND%20UPPER(BUSINESS_NAME)%20LIKE%20'A%25'&outFields=*&resultRecordCount=3&returnGeometry=false&f=json",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "pa-live",
+  "url": "https://file.dos.pa.gov/api/Records/businesssearch",
+  "strategies": [
+   "fetch"
+  ],
+  "method": "POST",
+  "headers": {
+   "authorization": "undefined",
+   "accept": "application/json"
+  },
+  "json": {
+   "SEARCH_VALUE": "Hershey",
+   "STARTS_WITH_YN": true,
+   "ACTIVE_ONLY_YN": false
+  }
+ },
+ {
+  "name": "pa-page",
+  "url": "https://file.dos.pa.gov/search/business",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "wy-search",
+  "url": "https://wyobiz.wyo.gov/Business/FilingSearch.aspx",
+  "strategies": [
+   "fetch"
+  ]
+ },
+ {
+  "name": "wy-root",
+  "url": "https://wyobiz.wyo.gov/",
+  "strategies": [
+   "fetch"
+  ]
+ }
+]
