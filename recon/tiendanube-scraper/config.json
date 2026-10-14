@@ -1,35 +1,36 @@
 {
- "outDir": "out5",
+ "outDir": "out6",
  "stores": [],
  "pages": [],
  "urls": [],
  "cdx": [],
  "rate": [],
- "crawl": [
-  {
-   "sitemap": "https://www.vegpet.com.br/sitemap.xml.gz",
-   "n": 120,
-   "concurrency": 4
-  },
-  {
-   "sitemap": "https://www.vegpet.com.br/sitemap.xml.gz",
-   "n": 120,
-   "concurrency": 8
-  },
+ "crawl": [],
+ "checkUrl": "https://tallertextildoscoyotes.mitiendanube.com/productos/?page=3",
+ "paced": [
   {
    "sitemap": "https://dailyskincaremx.com/sitemap.xml",
-   "n": 150,
-   "concurrency": 4
+   "rps": 2,
+   "seconds": 40,
+   "offset": 0
   },
   {
    "sitemap": "https://littleprincessbypaulinado.mitiendanube.com/sitemap.xml",
-   "n": 150,
-   "concurrency": 8
+   "rps": 4,
+   "seconds": 40,
+   "offset": 0
+  },
+  {
+   "sitemap": "https://dailyskincaremx.com/sitemap.xml",
+   "rps": 8,
+   "seconds": 20,
+   "offset": 100
   },
   {
    "sitemap": "https://peek-store.com/sitemap.xml",
-   "n": 49,
-   "concurrency": 6
+   "rps": 3,
+   "seconds": 16,
+   "offset": 0
   }
  ]
 }

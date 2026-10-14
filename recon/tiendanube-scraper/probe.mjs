@@ -193,4 +193,57 @@ for (const c of cfg.crawl || []) {
   if (first) say(`  first non-200: ${JSON.stringify(first)}`);
 }
 
+
+// 7) paced crawl experiments: constant request rate on uncached product pages, measure when Cloudflare starts challenging
+const sleepMs = (ms) => new Promise((r) => setTimeout(r, ms));
+async function waitClear(checkUrl, label) {
+  const t0 = Date.now();
+  let ok = 0;
+  while (Date.now() - t0 < 300000) {
+    try {
+      const res = await fetch(checkUrl, { headers: { 'user-agent': UA }, redirect: 'follow', signal: AbortSignal.timeout(20000) });
+      await res.arrayBuffer();
+      ok = res.status === 200 ? ok + 1 : 0;
+    } catch { ok = 0; }
+    if (ok >= 3) break;
+    await sleepMs(3000);
+  }
+  say(`  [${label}] clear after ${Math.round((Date.now() - t0) / 1000)}s (ok streak ${ok})`);
+}
+for (const c of cfg.paced || []) {
+  say(`== PACED ${c.sitemap} rps=${c.rps} seconds=${c.seconds} offset=${c.offset || 0}`);
+  await waitClear(cfg.checkUrl, 'before');
+  const sm = await get(c.sitemap, { max: 10 });
+  const urls = locsOf(sm.text).filter(isProduct).slice(c.offset || 0, (c.offset || 0) + c.rps * c.seconds);
+  const results = [];
+  let streak = 0;
+  let stop = false;
+  const t0 = Date.now();
+  const inflight = [];
+  for (let i = 0; i < urls.length && !stop; i++) {
+    const due = t0 + (i * 1000) / c.rps;
+    const wait = due - Date.now();
+    if (wait > 0) await sleepMs(wait);
+    const u = urls[i];
+    inflight.push((async () => {
+      const t1 = Date.now();
+      try {
+        const res = await fetch(u, { headers: { 'user-agent': UA, 'accept-language': 'es' }, redirect: 'follow', signal: AbortSignal.timeout(30000) });
+        await res.arrayBuffer();
+        results.push({ i, t: t1 - t0, status: res.status, ms: Date.now() - t1, cache: res.headers.get('cf-cache-status') || '' });
+        streak = res.status === 429 ? streak + 1 : 0;
+        if (streak >= 8) stop = true;
+      } catch (e) { results.push({ i, t: t1 - t0, status: 0, ms: 0 }); }
+    })());
+  }
+  await Promise.all(inflight);
+  results.sort((a, b) => a.i - b.i);
+  const first429 = results.find((r) => r.status === 429);
+  const counts = {};
+  const caches = {};
+  for (const r of results) { counts[r.status] = (counts[r.status] || 0) + 1; caches[r.cache] = (caches[r.cache] || 0) + 1; }
+  say(`  sent=${results.length}/${urls.length} counts=${JSON.stringify(counts)} cache=${JSON.stringify(caches)} first429=${first429 ? `request#${first429.i} at ${Math.round(first429.t / 1000)}s` : 'none'} stoppedEarly=${stop}`);
+}
+if (cfg.paced && cfg.paced.length) await waitClear(cfg.checkUrl, 'final');
+
 fs.writeFileSync(path.join(out, 'summary.txt'), log.join('\n') + '\n');
