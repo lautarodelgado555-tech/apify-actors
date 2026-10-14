@@ -9,40 +9,36 @@ const log = (...a) => console.log(...a);
 const save = (name, text) => fs.writeFileSync(`${OUT}/${name}`, String(text).slice(0, 4_000_000));
 const HOME = 'https://ecorp.sos.ga.gov/BusinessSearch';
 
-async function openHome() {
-  const plan = [['firefox', true], ['firefox', false], ['chromium', false], ['firefox', true], ['firefox', false], ['chromium', false]];
-  for (let attempt = 1; attempt <= plan.length; attempt++) {
-    const [kind, headless] = plan[attempt - 1];
-    log('attempt', attempt, kind, headless ? 'headless' : 'headed');
-    const browser = await pw[kind].launch({ headless });
-    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-    const page = await ctx.newPage();
+let page; let ctx; let browser; let curMode = '';
+async function openHome(mode) {
+  curMode = mode;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    browser = await pw.firefox.launch({ headless: true });
+    ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    page = await ctx.newPage();
+    if (mode === 'block') await page.route('**/cdn-cgi/**', (r) => r.abort());
     try {
       await page.goto(HOME, { waitUntil: 'domcontentloaded', timeout: 60000 });
-      for (let i = 0; i < 30; i++) {
-        if (!/just a moment/i.test(await page.title())) return { browser, ctx, page, attempt };
+      for (let i = 0; i < 20; i++) {
+        if (!/just a moment/i.test(await page.title())) return true;
         await page.waitForTimeout(2500);
       }
-      log('attempt', attempt, 'stuck on challenge');
-    } catch (e) { log('attempt', attempt, 'error', e.message.split('\n')[0]); }
+      log(mode, 'attempt', attempt, 'stuck on challenge');
+    } catch (e) { log(mode, 'attempt', attempt, 'error', e.message.split('\n')[0]); }
     await browser.close();
   }
-  return null;
+  return false;
 }
 
-const s = await openHome();
-if (!s) { log('NO-GO: could not pass home'); process.exit(0); }
-const { browser, page } = s;
-log('home passed on attempt', s.attempt);
-log('cookies', JSON.stringify((await s.ctx.cookies()).map((c) => c.name)));
-
-const post = (path, params, extraHeaders = {}) =>
-  page.evaluate(async ({ path, params, extraHeaders }) => {
+const post = async (path, params, extraHeaders = {}) => {
+  if (curMode === 'clear') await ctx.clearCookies({ name: 'cf_clearance' });
+  return page.evaluate(async ({ path, params, extraHeaders }) => {
     const t0 = Date.now();
     const r = await fetch(path, { method: 'POST', headers: { 'content-type': 'application/x-www-form-urlencoded', ...extraHeaders }, body: new URLSearchParams(params).toString(), credentials: 'include' });
     const text = await r.text();
     return { status: r.status, mitigated: r.headers.get('cf-mitigated'), ct: r.headers.get('content-type'), ms: Date.now() - t0, text };
   }, { path, params, extraHeaders });
+};
 
 const get = (path) =>
   page.evaluate(async (path) => {
@@ -61,14 +57,26 @@ async function run(name, path, params, headers) {
 const search = (name, type, value, criteria = 'StartsWith') =>
   run(name, '/BusinessSearch', { 'search.SearchType': type, 'search.SearchValue': value, 'search.SearchCriteria': criteria });
 
-// warm-up: probe with a trivial POST until Cloudflare lets it through (log timing)
-let passed = false;
-for (let k = 1; k <= 5 && !passed; k++) {
-  const r = await post('/BusinessSearch', { 'search.SearchType': 'BusinessName', 'search.SearchValue': 'Delta Air Lines', 'search.SearchCriteria': 'StartsWith' });
-  log('probe', k, r.status, r.mitigated, r.text.length, 'cookies', JSON.stringify((await s.ctx.cookies()).map((c) => c.name)));
-  if (r.status === 200) passed = true; else await page.waitForTimeout(k * 3000);
+const probeBody = { 'search.SearchType': 'BusinessName', 'search.SearchValue': 'Delta Air Lines', 'search.SearchCriteria': 'StartsWith' };
+async function probe(mode) {
+  const res = [];
+  for (let k = 1; k <= 5; k++) {
+    const r = await post('/BusinessSearch', probeBody);
+    res.push(r.status);
+    if (mode !== 'burst') await page.waitForTimeout(1500);
+  }
+  log('MODE', mode, 'statuses', res.join(','), 'cookies', JSON.stringify((await ctx.cookies()).map((c) => c.name)));
+  return res.every((x) => x === 200);
 }
-if (!passed) { log('BLOCKED: POST challenged on this runner'); await browser.close(); process.exit(0); }
+let winner = null;
+for (const mode of ['block', 'clear', 'burst', 'plain']) {
+  const ok = await openHome(mode === 'plain' ? 'plain' : mode);
+  if (!ok) { log('MODE', mode, 'home not passed'); continue; }
+  if (await probe(mode)) { winner = mode; break; }
+  await browser.close();
+}
+if (!winner) { log('BLOCKED: no mode got repeated POSTs through on this runner'); process.exit(0); }
+log('WINNER', winner);
 
 await search('s01-delta-starts', 'BusinessName', 'Delta Air Lines');
 const contains = await search('s02-delta-contains', 'BusinessName', 'Delta', 'Contains');
