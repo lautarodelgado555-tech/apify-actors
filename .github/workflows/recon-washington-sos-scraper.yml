@@ -22,8 +22,16 @@ jobs:
         run: |
           mkdir -p /tmp/rc && cd /tmp/rc && npm init -y >/dev/null && npm i got-scraping playwright >/dev/null 2>&1 && npx playwright install --with-deps chromium firefox >/dev/null 2>&1 || true
           ln -sfn /tmp/rc/node_modules "$GITHUB_WORKSPACE/node_modules"
-      - name: Recon
-        run: node recon/washington-sos-scraper/recon.mjs > /tmp/recon-run.log 2>&1 || true; mkdir -p recon/washington-sos-scraper/out; cp /tmp/recon-run.log recon/washington-sos-scraper/out/stdout.log
+      - name: Recon variants
+        run: |
+          mkdir -p recon/washington-sos-scraper/out
+          VARIANT=probe node recon/washington-sos-scraper/recon.mjs > /tmp/probe.log 2>&1 || true
+          VARIANT=chromium node recon/washington-sos-scraper/recon.mjs > /tmp/chromium.log 2>&1 || true
+          VARIANT=firefox node recon/washington-sos-scraper/recon.mjs > /tmp/firefox.log 2>&1 || true
+          sudo apt-get install -y xvfb >/dev/null 2>&1 || true
+          VARIANT=chromium-headed xvfb-run -a node recon/washington-sos-scraper/recon.mjs > /tmp/headed.log 2>&1 || true
+          VARIANT=firefox-headed xvfb-run -a node recon/washington-sos-scraper/recon.mjs > /tmp/ffheaded.log 2>&1 || true
+          cat /tmp/probe.log /tmp/chromium.log /tmp/firefox.log /tmp/headed.log /tmp/ffheaded.log > recon/washington-sos-scraper/out/stdout.log
       - name: Commit results
         if: always()
         run: |
