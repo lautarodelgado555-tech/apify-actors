@@ -1,0 +1,5 @@
+browser error page.goto: NS_ERROR_PROXY_FORBIDDEN
+Call log:
+  - navigating to "https://ccfs.sos.wa.gov/#/", waiting until "domcontentloaded"
+
+calls 0 
