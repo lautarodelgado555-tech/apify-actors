@@ -1,32 +1,5 @@
 [
   {
-    "channel": "contest",
-    "channelTitle": "Telegram Contests",
-    "channelSubscribers": 299000,
-    "messageId": 462,
-    "url": "https://t.me/contest/462",
-    "date": "2026-09-06T13:41:41.000Z",
-    "text": null,
-    "views": 139000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [],
-    "mediaTypes": [],
-    "poll": null,
-    "html": null,
-    "links": [],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-10-14T02:17:36.439Z"
-  },
-  {
     "channel": "durov",
     "channelTitle": "Pavel Durov",
     "channelSubscribers": 10400000,
@@ -34,7 +7,7 @@
     "url": "https://t.me/durov/552",
     "date": "2026-10-11T14:52:40.000Z",
     "text": "✨ Designers × AI\n\n🆕 The mockup era is over. Today’s AI tools give every designer a superpower: you can now craft your ideas, not just draw them.\n\nThe gap between “what if…?” and “look, it works!” has never been smaller, and that changed how we build features in Telegram.\n\nMessage @designers to submit your concepts.\n\n✔️ We accept\n– Working, ready-to-implement code\n complemented by\n– A demo video of your feature in action\n\n🗑 We no longer accept\n– Static mockups\n– Demo videos with no code behind them\n– Text-only concepts\n\nNo coding background? Curiosity, attention to detail and a good prompt will take you far.\n\nThe future of design isn’t drawn – it’s built.\n\n🚀 Let's build it together!\n\n(An example of what is possible by our iOS designer – this is a ready to use implementation not a motion video.) 👇",
-    "views": 793000,
+    "views": 794000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -88,7 +61,34 @@
       "@designers"
     ],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T02:17:36.536Z"
+    "scrapedAt": "2026-10-14T02:21:00.895Z"
+  },
+  {
+    "channel": "contest",
+    "channelTitle": "Telegram Contests",
+    "channelSubscribers": 299000,
+    "messageId": 462,
+    "url": "https://t.me/contest/462",
+    "date": "2026-09-06T13:41:41.000Z",
+    "text": null,
+    "views": 139000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [],
+    "mediaTypes": [],
+    "poll": null,
+    "html": null,
+    "links": [],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-10-14T02:21:00.975Z"
   },
   {
     "channel": "durov",
@@ -146,7 +146,7 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T02:17:36.539Z"
+    "scrapedAt": "2026-10-14T02:21:00.976Z"
   },
   {
     "channel": "contest",
@@ -175,7 +175,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T02:17:36.539Z"
+    "scrapedAt": "2026-10-14T02:21:00.977Z"
   },
   {
     "channel": "durov",
@@ -231,7 +231,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T02:17:36.540Z"
+    "scrapedAt": "2026-10-14T02:21:00.978Z"
   },
   {
     "channel": "contest",
@@ -297,7 +297,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T02:17:36.541Z"
+    "scrapedAt": "2026-10-14T02:21:00.978Z"
   },
   {
     "channel": "durov",
@@ -357,7 +357,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T02:17:36.542Z"
+    "scrapedAt": "2026-10-14T02:21:00.979Z"
   },
   {
     "channel": "contest",
@@ -389,7 +389,7 @@
       "@username"
     ],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T02:17:36.543Z"
+    "scrapedAt": "2026-10-14T02:21:00.979Z"
   },
   {
     "channel": "durov",
@@ -447,7 +447,7 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T02:17:36.544Z"
+    "scrapedAt": "2026-10-14T02:21:00.980Z"
   },
   {
     "channel": "contest",
@@ -480,6 +480,6 @@
       "@username"
     ],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T02:17:36.544Z"
+    "scrapedAt": "2026-10-14T02:21:00.981Z"
   }
 ]
