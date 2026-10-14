@@ -118,6 +118,8 @@ The Actor respects the maximum cost per run you set: it stops cleanly when the n
 
 **Does incremental mode lose messages if a run fails?** No. The pointer is saved only after a channel was read successfully, and when a run is cut short by `maxMessages` or by your maximum cost, it continues from the last message it actually returned.
 
+**Where is the incremental state stored, and how do I reset it?** In the named key-value store `telegram-channel-scraper-state` (or the name you set in `stateStoreName`), one record per channel (`last_<username>`). Delete a record, or use a new store name, to start over from the latest messages.
+
 **What about deleted or edited messages?** Deleted messages are not shown by Telegram. Edited messages carry `edited: true` and show their current text.
 
 **Why is a reaction emoji `null`?** Custom emoji reactions are rendered by Telegram as animated stickers without a character; we return their `customEmojiId` and count.
