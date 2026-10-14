@@ -1,0 +1,724 @@
+{
+  "id" : "casm-dbbj",
+  "name" : "Business Entity Transaction History",
+  "assetType" : "dataset",
+  "attribution" : "CDOS",
+  "attributionLink" : "https://www.sos.state.co.us/",
+  "averageRating" : 0,
+  "category" : "Business",
+  "createdAt" : 1421096742,
+  "description" : "Recent modifications in the data transformation process may result in data changes.  Additional details about the changes can be found here:</span> https://data.colorado.gov/stories/s/pbek-aaa3\n\nHistory of all business entity transactions with the Colorado Department of State (CDOS). The dataset goes back to the 1800’s and contains millions of records. This data set is provided by the Colorado Department of State (CDOS) business division.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 13258,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1544537468,
+  "licenseId" : "PUBLIC_DOMAIN",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 21549747,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1465511112,
+  "publicationGroup" : 2096979,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1791902533,
+  "rowsUpdatedBy" : "azfj-qb4j",
+  "tableId" : 11233512,
+  "totalTimesRated" : 0,
+  "viewCount" : 18926,
+  "viewLastModified" : 1791889276,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1465834716,
+    "reviewedAutomatically" : false,
+    "state" : "approved",
+    "submissionId" : 520707,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1465834716,
+    "targetAudience" : "public",
+    "workflowId" : 1726,
+    "reviewer" : {
+      "id" : "xksg-xhsw",
+      "displayName" : "April Broome"
+    },
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "xksg-xhsw",
+      "displayName" : "April Broome"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 258397272,
+    "name" : "entityid",
+    "dataTypeName" : "text",
+    "description" : "The state assigned identification number (unique) for the business entity.",
+    "fieldName" : "entityid",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 23937177,
+    "width" : 196,
+    "cachedContents" : {
+      "largest" : "You entered",
+      "non_null" : "21727042",
+      "null" : "0",
+      "top" : [ {
+        "item" : "19871243152",
+        "count" : "410"
+      }, {
+        "item" : "19951129214",
+        "count" : "282"
+      }, {
+        "item" : "19871686816",
+        "count" : "273"
+      }, {
+        "item" : "19901060281",
+        "count" : "269"
+      }, {
+        "item" : "19971076832",
+        "count" : "194"
+      }, {
+        "item" : "20031150396",
+        "count" : "177"
+      }, {
+        "item" : "19941049568",
+        "count" : "165"
+      }, {
+        "item" : "19871186662",
+        "count" : "162"
+      }, {
+        "item" : "19871041746",
+        "count" : "161"
+      }, {
+        "item" : "20061253252",
+        "count" : "158"
+      }, {
+        "item" : "19901019250",
+        "count" : "156"
+      }, {
+        "item" : "19871080074",
+        "count" : "153"
+      }, {
+        "item" : "19871247241",
+        "count" : "148"
+      }, {
+        "item" : "19871197911",
+        "count" : "140"
+      }, {
+        "item" : "19871047147",
+        "count" : "131"
+      }, {
+        "item" : "19871234276",
+        "count" : "126"
+      }, {
+        "item" : "19991115639",
+        "count" : "125"
+      }, {
+        "item" : "20151294242",
+        "count" : "119"
+      }, {
+        "item" : "20171179508",
+        "count" : "116"
+      }, {
+        "item" : "19871218588",
+        "count" : "115"
+      } ],
+      "smallest" : "14481000001",
+      "not_null" : "13498040",
+      "count" : "21727042",
+      "cardinality" : "21727042"
+    },
+    "format" : { }
+  }, {
+    "id" : 258397273,
+    "name" : "transactionid",
+    "dataTypeName" : "text",
+    "description" : "The state assigned identification number (unique) for the business entity's transaction.",
+    "fieldName" : "transactionid",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 23937178,
+    "width" : 256,
+    "cachedContents" : {
+      "largest" : "Not Indexed",
+      "non_null" : "21680186",
+      "null" : "46856",
+      "top" : [ {
+        "item" : "20251261502",
+        "count" : "44850"
+      }, {
+        "item" : "20161624475",
+        "count" : "36166"
+      }, {
+        "item" : "Not Indexed",
+        "count" : "29127"
+      }, {
+        "item" : "20261658291",
+        "count" : "25750"
+      }, {
+        "item" : "20241848414",
+        "count" : "23493"
+      }, {
+        "item" : "20221934595",
+        "count" : "22208"
+      }, {
+        "item" : "20251261560",
+        "count" : "21223"
+      }, {
+        "item" : "20191914234",
+        "count" : "20399"
+      }, {
+        "item" : "20171797657",
+        "count" : "17594"
+      }, {
+        "item" : "20248086648",
+        "count" : "15661"
+      }, {
+        "item" : "20161624493",
+        "count" : "12928"
+      }, {
+        "item" : "20151584573",
+        "count" : "8463"
+      }, {
+        "item" : "20261672720",
+        "count" : "6212"
+      }, {
+        "item" : "20131032176",
+        "count" : "6143"
+      }, {
+        "item" : "20251261597",
+        "count" : "5747"
+      }, {
+        "item" : "20251773726",
+        "count" : "5287"
+      }, {
+        "item" : "20251870348",
+        "count" : "4905"
+      }, {
+        "item" : "20231719990",
+        "count" : "4585"
+      }, {
+        "item" : "20261122190",
+        "count" : "3728"
+      }, {
+        "item" : "20258370370",
+        "count" : "3413"
+      } ],
+      "smallest" : "00000421007",
+      "not_null" : "13451439",
+      "count" : "21727042",
+      "cardinality" : "21727042"
+    },
+    "format" : { }
+  }, {
+    "id" : 258397274,
+    "name" : "historydes",
+    "dataTypeName" : "text",
+    "description" : "Description of the type of trasaction the business entity had with the Secretary of State.",
+    "fieldName" : "historydes",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 23937179,
+    "width" : 220,
+    "cachedContents" : {
+      "largest" : "Withdraw Trade Name",
+      "non_null" : "21727042",
+      "null" : "0",
+      "top" : [ {
+        "item" : "File Report",
+        "count" : "11045145"
+      }, {
+        "item" : "Form a Limited Liability Company (LLC)",
+        "count" : "2123175"
+      }, {
+        "item" : "Statement of Older Periodic Report",
+        "count" : "1341561"
+      }, {
+        "item" : "Statement of Trade Name of an Individual",
+        "count" : "612514"
+      }, {
+        "item" : "Statement of Change Changing the Registered Agent Information",
+        "count" : "593107"
+      }, {
+        "item" : "Statement Curing Delinquency",
+        "count" : "588377"
+      }, {
+        "item" : "Statement of Trade Name Renewal of a Person other than a Reporting Entity, A Domestic Limited Partnership, a Dissolved or Delinquent Reporting Entity, or a Converted Entity",
+        "count" : "584013"
+      }, {
+        "item" : "Dissolve a Limited Liability Company",
+        "count" : "450047"
+      }, {
+        "item" : "Amendment",
+        "count" : "410232"
+      }, {
+        "item" : "Statement of Trade Name of a Reporting Entity",
+        "count" : "357241"
+      }, {
+        "item" : "Form a Profit Corporation",
+        "count" : "320366"
+      }, {
+        "item" : "Statement of Trade Name Renewal of a Person other than a Reporting Entity, A Domestic Limited Partne",
+        "count" : "310291"
+      }, {
+        "item" : "Articles of Incorporation",
+        "count" : "292911"
+      }, {
+        "item" : "Statement of Change Changing the Principal Office Address",
+        "count" : "284797"
+      }, {
+        "item" : "Filing Officer Correction",
+        "count" : "249512"
+      }, {
+        "item" : "Apply for Foreign Entity Authority To transact business in Colorado",
+        "count" : "223503"
+      }, {
+        "item" : "Amend Articles of Organization for an LLC",
+        "count" : "140334"
+      }, {
+        "item" : "Reserve a Name for use as a Trade Name or Entity Name",
+        "count" : "113115"
+      }, {
+        "item" : "Dissolve a Profit Corporation",
+        "count" : "112658"
+      }, {
+        "item" : "Trade Name",
+        "count" : "102563"
+      } ],
+      "smallest" : "Affidavit for PII",
+      "not_null" : "13498040",
+      "count" : "21727042",
+      "cardinality" : "21727042"
+    },
+    "format" : { }
+  }, {
+    "id" : 258397275,
+    "name" : "comment",
+    "dataTypeName" : "text",
+    "description" : "Comments on the transaction, often including the name of the entity.",
+    "fieldName" : "comment",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 23937180,
+    "width" : 184,
+    "cachedContents" : {
+      "largest" : "ZZZZZ, INC.",
+      "non_null" : "10747193",
+      "null" : "10979849",
+      "top" : [ {
+        "item" : "Principal address changed, Change in registered agent information",
+        "count" : "1848023"
+      }, {
+        "item" : "CORP REPORT",
+        "count" : "633588"
+      }, {
+        "item" : "Change in registered agent information",
+        "count" : "605823"
+      }, {
+        "item" : "PERIODIC REPORT",
+        "count" : "432747"
+      }, {
+        "item" : "Change of Registered Agent Address / Change of Entity Address",
+        "count" : "383626"
+      }, {
+        "item" : "Change of Entity Address",
+        "count" : "327770"
+      }, {
+        "item" : "CHANGE RORA",
+        "count" : "315664"
+      }, {
+        "item" : "Principal address changed",
+        "count" : "303840"
+      }, {
+        "item" : "Registered agent information changed;",
+        "count" : "235189"
+      }, {
+        "item" : "Principal address changed;",
+        "count" : "234277"
+      }, {
+        "item" : "Registered agent name and/or address changed; Document lists all affected entities.",
+        "count" : "201662"
+      }, {
+        "item" : "Change of Registered Agent / Change of Registered Agent Address / Change of Entity Address",
+        "count" : "174679"
+      }, {
+        "item" : "Change of Registered Agent",
+        "count" : "171890"
+      }, {
+        "item" : "Correction of document title from Articles of Incorporation per statute",
+        "count" : "167543"
+      }, {
+        "item" : "Change of Registered Agent Address",
+        "count" : "166090"
+      }, {
+        "item" : "Change of Registered Agent / Change of Registered Agent Address",
+        "count" : "136110"
+      }, {
+        "item" : "Registered agent address changed; Document lists all affected entities.",
+        "count" : "93365"
+      }, {
+        "item" : "Change of Entity Name",
+        "count" : "76301"
+      }, {
+        "item" : "Removed agent mailing address;",
+        "count" : "75697"
+      }, {
+        "item" : "Change of entity name",
+        "count" : "50537"
+      } ],
+      "smallest" : "-",
+      "not_null" : "6120186",
+      "count" : "21727042",
+      "cardinality" : "21727042"
+    },
+    "format" : { }
+  }, {
+    "id" : 258397276,
+    "name" : "receiveddate",
+    "dataTypeName" : "calendar_date",
+    "description" : "Date received.",
+    "fieldName" : "receiveddate",
+    "position" : 6,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 23937181,
+    "width" : 244,
+    "cachedContents" : {
+      "largest" : "2026-10-12T23:45:18.000",
+      "non_null" : "21727042",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2015-11-20T08:47:02.000",
+        "count" : "167544"
+      }, {
+        "item" : "2016-09-16T11:56:00.000",
+        "count" : "52011"
+      }, {
+        "item" : "2025-03-06T19:32:56.000",
+        "count" : "44848"
+      }, {
+        "item" : "1997-12-14T00:00:00.000",
+        "count" : "36547"
+      }, {
+        "item" : "1996-12-14T00:00:00.000",
+        "count" : "32350"
+      }, {
+        "item" : "1995-12-13T00:00:00.000",
+        "count" : "30502"
+      }, {
+        "item" : "1994-12-16T00:00:00.000",
+        "count" : "26782"
+      }, {
+        "item" : "2026-05-29T00:00:00.000",
+        "count" : "25750"
+      }, {
+        "item" : "1993-12-13T00:00:00.000",
+        "count" : "24939"
+      }, {
+        "item" : "2024-08-12T15:38:18.000",
+        "count" : "23493"
+      }, {
+        "item" : "2022-09-29T14:51:09.000",
+        "count" : "22207"
+      }, {
+        "item" : "1992-12-19T00:00:00.000",
+        "count" : "21638"
+      }, {
+        "item" : "2025-03-05T15:14:18.000",
+        "count" : "20586"
+      }, {
+        "item" : "2019-11-20T12:00:00.000",
+        "count" : "20399"
+      }, {
+        "item" : "1991-12-14T00:00:00.000",
+        "count" : "19686"
+      }, {
+        "item" : "2017-10-24T00:00:01.000",
+        "count" : "17885"
+      }, {
+        "item" : "1990-12-13T00:00:00.000",
+        "count" : "17749"
+      }, {
+        "item" : "2024-10-09T12:41:43.000",
+        "count" : "15660"
+      }, {
+        "item" : "2026-08-24T14:30:28.000",
+        "count" : "8616"
+      }, {
+        "item" : "2015-09-09T11:56:00.000",
+        "count" : "8463"
+      } ],
+      "smallest" : "0001-02-08T00:00:00.000",
+      "not_null" : "13498040",
+      "count" : "21727042",
+      "cardinality" : "21727042"
+    },
+    "format" : {
+      "view" : "date_time"
+    }
+  }, {
+    "id" : 258397277,
+    "name" : "effectivedate",
+    "dataTypeName" : "calendar_date",
+    "description" : "Date transaction went into effect.",
+    "fieldName" : "effectivedate",
+    "position" : 7,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 23937182,
+    "width" : 256,
+    "cachedContents" : {
+      "largest" : "2026-10-31T23:59:00.000",
+      "non_null" : "21727042",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2015-11-20T08:47:02.000",
+        "count" : "167544"
+      }, {
+        "item" : "2025-03-03T00:00:00.000",
+        "count" : "71817"
+      }, {
+        "item" : "2016-09-16T11:56:00.000",
+        "count" : "52011"
+      }, {
+        "item" : "1997-12-14T00:00:00.000",
+        "count" : "36547"
+      }, {
+        "item" : "1996-12-14T00:00:00.000",
+        "count" : "32350"
+      }, {
+        "item" : "1995-12-13T00:00:00.000",
+        "count" : "30502"
+      }, {
+        "item" : "1994-12-16T00:00:00.000",
+        "count" : "26782"
+      }, {
+        "item" : "2026-05-29T00:00:00.000",
+        "count" : "25750"
+      }, {
+        "item" : "1993-12-13T00:00:00.000",
+        "count" : "24939"
+      }, {
+        "item" : "2024-08-12T00:00:00.000",
+        "count" : "23494"
+      }, {
+        "item" : "2022-09-29T14:51:09.000",
+        "count" : "22207"
+      }, {
+        "item" : "1992-12-19T00:00:00.000",
+        "count" : "21638"
+      }, {
+        "item" : "2019-11-30T23:59:59.000",
+        "count" : "20399"
+      }, {
+        "item" : "1991-12-14T00:00:00.000",
+        "count" : "19686"
+      }, {
+        "item" : "2017-11-01T00:00:01.000",
+        "count" : "17885"
+      }, {
+        "item" : "1990-12-13T00:00:00.000",
+        "count" : "17749"
+      }, {
+        "item" : "2024-09-05T11:00:25.000",
+        "count" : "15661"
+      }, {
+        "item" : "2026-08-24T14:30:28.000",
+        "count" : "8616"
+      }, {
+        "item" : "2015-09-09T11:56:00.000",
+        "count" : "8463"
+      }, {
+        "item" : "1985-07-01T00:00:00.000",
+        "count" : "6570"
+      } ],
+      "smallest" : "0001-02-08T00:00:00.000",
+      "not_null" : "13498040",
+      "count" : "21727042",
+      "cardinality" : "21727042"
+    },
+    "format" : {
+      "view" : "date_time"
+    }
+  }, {
+    "id" : 258397278,
+    "name" : "name",
+    "dataTypeName" : "text",
+    "description" : "The name of the business entity as selected by the business owner.",
+    "fieldName" : "name",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 23937183,
+    "width" : 148,
+    "cachedContents" : {
+      "largest" : "ZZZZZ, INC.",
+      "non_null" : "5867806",
+      "null" : "15859236",
+      "top" : [ {
+        "item" : "College Pro Painters",
+        "count" : "95"
+      }, {
+        "item" : "Shea Commercial Property",
+        "count" : "72"
+      }, {
+        "item" : "Shea Commercial",
+        "count" : "71"
+      }, {
+        "item" : "Shea Communities",
+        "count" : "70"
+      }, {
+        "item" : "Cruise Planners",
+        "count" : "66"
+      }, {
+        "item" : "Cornwell Tools",
+        "count" : "59"
+      }, {
+        "item" : "Citigroup Inc.",
+        "count" : "57"
+      }, {
+        "item" : "Patterson and Associates",
+        "count" : "55"
+      }, {
+        "item" : "Professional Physical Medicine",
+        "count" : "54"
+      }, {
+        "item" : "QUALITY RESOURCE",
+        "count" : "54"
+      }, {
+        "item" : "Anytime Fitness",
+        "count" : "53"
+      }, {
+        "item" : "The Patterson Group, Realtors",
+        "count" : "51"
+      }, {
+        "item" : "KFP, Inc.",
+        "count" : "51"
+      }, {
+        "item" : "Physical Medicine Professionals",
+        "count" : "50"
+      }, {
+        "item" : "Rocky Mountain Bank",
+        "count" : "49"
+      }, {
+        "item" : "Helping Hands",
+        "count" : "49"
+      }, {
+        "item" : "Kissing Camels Properties",
+        "count" : "49"
+      }, {
+        "item" : "Kissing Camels Real Estate",
+        "count" : "48"
+      }, {
+        "item" : "Logo",
+        "count" : "47"
+      }, {
+        "item" : "Wilder Colorado",
+        "count" : "44"
+      } ],
+      "smallest" : "----",
+      "not_null" : "3711836",
+      "count" : "21727042",
+      "cardinality" : "21727042"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "Public Domain"
+  },
+  "metadata" : {
+    "rdfSubject" : "transactionid",
+    "rdfClass" : "",
+    "custom_fields" : {
+      "Data Quality" : {
+        "Expected Update Frequency" : "Never"
+      },
+      "Point of Contact" : {
+        "Contact Email" : "bic-help@xentity.com",
+        "Contact Name" : "Business Intelligence Center of CO"
+      },
+      "Data Updates" : {
+        "Source Update Schedule" : "",
+        "Update Type" : "Automated",
+        "Update Schedule" : "Every day after midnight",
+        "Update Method" : "Staging Server",
+        "Expected Update Frequency" : "daily",
+        "Total Records At Initial Publish" : ""
+      },
+      "Dataset Coverage" : {
+        "Geographic Coverage" : "State",
+        "Unit of Analysis" : "Tabular"
+      },
+      "Additional Dataset Documentation" : {
+        "Technical Documentation" : "",
+        "Data Dictionary" : "",
+        "Additional Metadata" : "https://www.sos.state.co.us/pubs/info_center/eLearningCourses/BIC-BusinessFilingData/index.html"
+      },
+      "Geospatial" : {
+        "Horizontal Coordinate System" : "",
+        "Collection Method" : "",
+        "Coordinate System Disclaimer" : "",
+        "Horizontal Accuracy" : "",
+        "Web Display Coordinate System" : ""
+      },
+      "Publisher" : {
+        "Publisher Name" : "Business Intelligence Center of CO"
+      },
+      "Data Description" : {
+        "Long Description" : "History of all business transactions with the Secretary of State. The dataset goes back to the 1800’s and contains millions of records. Popular types of transactions include Origination Articles, Amendments, Periodic Reports, Mergers, Dissolutions, Statement of Change and/or Corrections.",
+        "Oldest Record in Dataset" : "03/05/1864",
+        "Row Label" : "Business entity name, id, transaction id, and dates transaction was received and effective",
+        "Newest Record in Dataset" : "10/15/2017",
+        "Collection Method" : "",
+        "Data Collection Instrument" : "",
+        "Collection Mode" : ""
+      },
+      "Contributing Agency Information" : {
+        "Data Source" : "",
+        "Agency Data Series Page" : "https://www.sos.state.co.us/pubs/info_center/fees/business.html",
+        "Citation" : "CDOS - Colorado Department of State",
+        "Agency Program Page" : "https://www.sos.state.co.us/"
+      }
+    },
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "azfj-qb4j",
+    "displayName" : "Business Intelligence Center of CO",
+    "screenName" : "Business Intelligence Center of CO",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "azfj-qb4j",
+    "displayName" : "Business Intelligence Center of CO",
+    "screenName" : "Business Intelligence Center of CO",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "bic", "colorado", "sos", "secretary of state", "business entities", "corporate", "corporate transactions", "bizent" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

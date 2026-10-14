@@ -1,0 +1,476 @@
+{
+  "id" : "3gg2-jgnp",
+  "name" : "Corporations and Other Entities: All Filings – Entity Status History",
+  "assetType" : "dataset",
+  "attribution" : "New York State Department of State",
+  "attributionLink" : "https://www.dos.ny.gov",
+  "averageRating" : 0,
+  "category" : "Economic Development",
+  "createdAt" : 1623968033,
+  "description" : "This data contains Corporations and Other Entity Status information for each entity in the NYS DOS Corporation and Other Entities electronic database.  Each line contains the Department of State ID number, Date Filed, and Status of the entity after the filing of the document indicated.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 11405,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 37324848,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1623969133,
+  "publicationGroup" : 18350222,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1791915252,
+  "rowsUpdatedBy" : "xzik-pf59",
+  "tableId" : 18350222,
+  "totalTimesRated" : 0,
+  "viewCount" : 21387,
+  "viewLastModified" : 1791914195,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1648762708,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 4565066,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1648762708,
+    "targetAudience" : "public",
+    "workflowId" : 2254,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1648762708,
+      "failureCount" : 0,
+      "startedAt" : 1648762708,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "28jg-4c4u",
+      "displayName" : "Open Data Administrator 1"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 542709703,
+    "name" : "DOS ID Number",
+    "dataTypeName" : "number",
+    "description" : "DOS Unique ID number for each entity assigned by the Department of State",
+    "fieldName" : "corpid_num",
+    "position" : 1,
+    "renderTypeName" : "number",
+    "tableColumnId" : 138340994,
+    "cachedContents" : {
+      "non_null" : "20297158",
+      "largest" : "7804887",
+      "null" : "128",
+      "top" : [ {
+        "item" : "10358",
+        "count" : "170"
+      }, {
+        "item" : "48313",
+        "count" : "167"
+      }, {
+        "item" : "175777",
+        "count" : "165"
+      }, {
+        "item" : "28783",
+        "count" : "143"
+      }, {
+        "item" : "28986",
+        "count" : "129"
+      }, {
+        "item" : "18225",
+        "count" : "127"
+      }, {
+        "item" : "27553",
+        "count" : "114"
+      }, {
+        "item" : "30599",
+        "count" : "109"
+      }, {
+        "item" : "112",
+        "count" : "108"
+      }, {
+        "item" : "29592",
+        "count" : "107"
+      }, {
+        "item" : "30059",
+        "count" : "103"
+      }, {
+        "item" : "21007",
+        "count" : "102"
+      }, {
+        "item" : "12100",
+        "count" : "95"
+      }, {
+        "item" : "11398",
+        "count" : "94"
+      }, {
+        "item" : "14404",
+        "count" : "93"
+      }, {
+        "item" : "57726",
+        "count" : "91"
+      }, {
+        "item" : "50089",
+        "count" : "91"
+      }, {
+        "item" : "27247",
+        "count" : "91"
+      }, {
+        "item" : "49779",
+        "count" : "91"
+      }, {
+        "item" : "26530",
+        "count" : "89"
+      } ],
+      "smallest" : "2",
+      "count" : "20297286",
+      "cardinality" : "20297286"
+    },
+    "format" : {
+      "noCommas" : "true",
+      "align" : "center"
+    }
+  }, {
+    "id" : 542709705,
+    "name" : "Filing Num",
+    "dataTypeName" : "text",
+    "description" : "Unique ID Number for each document filed ",
+    "fieldName" : "film_num",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 138340996,
+    "cachedContents" : {
+      "non_null" : "20297286",
+      "largest" : "ZZ024120-2",
+      "null" : "0",
+      "top" : [ {
+        "item" : "031216000804",
+        "count" : "414"
+      }, {
+        "item" : "930430000292",
+        "count" : "144"
+      }, {
+        "item" : "051229000233",
+        "count" : "123"
+      }, {
+        "item" : "990423000594",
+        "count" : "97"
+      }, {
+        "item" : "200402000332",
+        "count" : "92"
+      }, {
+        "item" : "A541034-38",
+        "count" : "77"
+      }, {
+        "item" : "981002000478",
+        "count" : "74"
+      }, {
+        "item" : "051223000898",
+        "count" : "65"
+      }, {
+        "item" : "130724000774",
+        "count" : "64"
+      }, {
+        "item" : "A605164-18",
+        "count" : "62"
+      }, {
+        "item" : "971224000470",
+        "count" : "58"
+      }, {
+        "item" : "051230000479",
+        "count" : "57"
+      }, {
+        "item" : "C150057-37",
+        "count" : "57"
+      }, {
+        "item" : "061215000884",
+        "count" : "51"
+      }, {
+        "item" : "961231000801",
+        "count" : "51"
+      }, {
+        "item" : "061215000908",
+        "count" : "50"
+      }, {
+        "item" : "061215000836",
+        "count" : "50"
+      }, {
+        "item" : "061215000876",
+        "count" : "50"
+      }, {
+        "item" : "061218000580",
+        "count" : "50"
+      }, {
+        "item" : "B441326-8",
+        "count" : "47"
+      } ],
+      "smallest" : "000037001275",
+      "count" : "20297286",
+      "cardinality" : "20297286"
+    },
+    "format" : { }
+  }, {
+    "id" : 542709704,
+    "name" : "Date Filed",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date the document was filed by Department of State ",
+    "fieldName" : "date_filed",
+    "position" : 3,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 138340995,
+    "cachedContents" : {
+      "non_null" : "20297286",
+      "largest" : "2026-01-12T00:00:00.000",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2019-01-28T00:00:00.000",
+        "count" : "110686"
+      }, {
+        "item" : "1995-09-27T00:00:00.000",
+        "count" : "62303"
+      }, {
+        "item" : "1993-09-29T00:00:00.000",
+        "count" : "61319"
+      }, {
+        "item" : "1993-06-23T00:00:00.000",
+        "count" : "58563"
+      }, {
+        "item" : "1993-03-24T00:00:00.000",
+        "count" : "58108"
+      }, {
+        "item" : "2004-06-30T00:00:00.000",
+        "count" : "49595"
+      }, {
+        "item" : "2000-12-27T00:00:00.000",
+        "count" : "49099"
+      }, {
+        "item" : "2001-06-27T00:00:00.000",
+        "count" : "48403"
+      }, {
+        "item" : "2003-06-25T00:00:00.000",
+        "count" : "47931"
+      }, {
+        "item" : "1992-06-24T00:00:00.000",
+        "count" : "47762"
+      }, {
+        "item" : "1999-12-29T00:00:00.000",
+        "count" : "47057"
+      }, {
+        "item" : "1992-09-23T00:00:00.000",
+        "count" : "46826"
+      }, {
+        "item" : "1996-06-26T00:00:00.000",
+        "count" : "46693"
+      }, {
+        "item" : "2002-06-26T00:00:00.000",
+        "count" : "46678"
+      }, {
+        "item" : "1991-09-25T00:00:00.000",
+        "count" : "46513"
+      }, {
+        "item" : "1991-12-24T00:00:00.000",
+        "count" : "46491"
+      }, {
+        "item" : "1997-09-24T00:00:00.000",
+        "count" : "46351"
+      }, {
+        "item" : "1998-09-23T00:00:00.000",
+        "count" : "46192"
+      }, {
+        "item" : "1994-09-28T00:00:00.000",
+        "count" : "45398"
+      }, {
+        "item" : "1992-12-23T00:00:00.000",
+        "count" : "43635"
+      } ],
+      "smallest" : "1770-03-13T00:00:00.000",
+      "count" : "20297286",
+      "cardinality" : "20297286"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "center"
+    }
+  }, {
+    "id" : 542709706,
+    "name" : "Mod Cert Code",
+    "dataTypeName" : "text",
+    "description" : "The Mod Cert Code is a provides a description of the type of document filed",
+    "fieldName" : "mod_cert_code",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 138340997,
+    "cachedContents" : {
+      "non_null" : "20297081",
+      "largest" : "98",
+      "null" : "205",
+      "top" : [ {
+        "item" : "01DB A",
+        "count" : "3719743"
+      }, {
+        "item" : "32DB A",
+        "count" : "3681395"
+      }, {
+        "item" : "32DA A",
+        "count" : "2185632"
+      }, {
+        "item" : "01DA A",
+        "count" : "2164747"
+      }, {
+        "item" : "04DB",
+        "count" : "1614529"
+      }, {
+        "item" : "49DA A",
+        "count" : "873975"
+      }, {
+        "item" : "10DB",
+        "count" : "574607"
+      }, {
+        "item" : "93",
+        "count" : "532897"
+      }, {
+        "item" : "32FB",
+        "count" : "500541"
+      }, {
+        "item" : "02DB A",
+        "count" : "395979"
+      }, {
+        "item" : "32FA",
+        "count" : "361277"
+      }, {
+        "item" : "01DN A",
+        "count" : "297607"
+      }, {
+        "item" : "31DA A",
+        "count" : "273398"
+      }, {
+        "item" : "27DA A",
+        "count" : "264112"
+      }, {
+        "item" : "90",
+        "count" : "250659"
+      }, {
+        "item" : "01FB",
+        "count" : "249330"
+      }, {
+        "item" : "10DA A",
+        "count" : "217600"
+      }, {
+        "item" : "01FA",
+        "count" : "203387"
+      }, {
+        "item" : "27DB A",
+        "count" : "166741"
+      }, {
+        "item" : "02DA A",
+        "count" : "101659"
+      } ],
+      "smallest" : "01DA A",
+      "count" : "20297286",
+      "cardinality" : "20297286"
+    },
+    "format" : { }
+  }, {
+    "id" : 542709707,
+    "name" : "Status",
+    "dataTypeName" : "text",
+    "description" : "Indicates whether the entity is active, inactive, or suspended according to the records of the Department of State",
+    "fieldName" : "status",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 138340998,
+    "cachedContents" : {
+      "non_null" : "19670454",
+      "largest" : "Suspended",
+      "null" : "626832",
+      "top" : [ {
+        "item" : "Active",
+        "count" : "16830795"
+      }, {
+        "item" : "Inactive",
+        "count" : "2825008"
+      }, {
+        "item" : "Suspended",
+        "count" : "11304"
+      }, {
+        "item" : "Discontinued",
+        "count" : "3347"
+      } ],
+      "smallest" : "Active",
+      "count" : "20297286",
+      "cardinality" : "20297286"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "attachments" : [ {
+      "filename" : "DOS_CorpsEntities_Overview.pdf",
+      "assetId" : "c1a50163-6193-4223-896e-6c3fa169ea81",
+      "name" : "DOS_CorpsEntities_Overview.pdf"
+    }, {
+      "filename" : "DOS_AllFilingsEntityStatusHistory_DataDictionary.pdf",
+      "assetId" : "53600deb-c80f-4362-a80c-2058bf858ed8",
+      "name" : "DOS_AllFilingsEntityStatusHistory_DataDictionary.pdf"
+    } ],
+    "custom_fields" : {
+      "Dataset Summary" : {
+        "Posting Frequency" : "Weekly",
+        "Organization" : "NYS DOS Division of Corporations",
+        "Contact Information" : "Corporations@dos.ny.gov",
+        "Time Period" : "Current",
+        "Coverage" : "Statewide",
+        "Granularity" : "Status of entities after the filing of a document",
+        "Dataset Owner" : "New York State Department of State"
+      },
+      "Disclaimers" : {
+        "Limitations" : "The New York State Department of State recognizes the possibility of human and/or mechanical error in producing this dataset.  New York State Department of State, its employees, officers and agents make no representation, warranty or guarantee as to the accuracy, completeness, currency or suitability of the data for any purpose, real or implied.   The Department relies upon information provided to it.  Therefore, the information's completeness or accuracy cannot be guaranteed. This dataset contains all relevant filing records in the electronic database."
+      },
+      "Dataset Information" : {
+        "Agency" : "State, Department of"
+      }
+    },
+    "rowLabel" : "",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "xzik-pf59",
+    "displayName" : "NY Open Data",
+    "profileImageUrlLarge" : "/api/users/xzik-pf59/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/xzik-pf59/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/xzik-pf59/profile_images/TINY",
+    "screenName" : "NY Open Data",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "xzik-pf59",
+    "displayName" : "NY Open Data",
+    "profileImageUrlLarge" : "/api/users/xzik-pf59/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/xzik-pf59/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/xzik-pf59/profile_images/TINY",
+    "screenName" : "NY Open Data",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "corporations", "business entity", "limited liability company (llc)", "not-for-profit corporation", "limited partnership", "limited liability partnership" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

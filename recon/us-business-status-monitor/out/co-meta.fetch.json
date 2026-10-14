@@ -1,0 +1,621 @@
+{
+  "id" : "4ykn-tg5h",
+  "name" : "Business Entities in Colorado",
+  "assetType" : "dataset",
+  "attribution" : "CDOS",
+  "attributionLink" : "https://www.sos.state.co.us/",
+  "averageRating" : 0,
+  "category" : "Business",
+  "createdAt" : 1395268437,
+  "description" : "Recent modifications in the data transformation process may result in data changes.  Additional details about the changes can be found here:</span> https://data.colorado.gov/stories/s/pbek-aaa3\n\nColorado Business Entities (corporations, LLCs, etc.) registered with the Colorado Department of State (CDOS) since 1864.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 111098,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "licenseId" : "PUBLIC_DOMAIN",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 4,
+  "oid" : 41447141,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1752518922,
+  "publicationGroup" : 1516246,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowIdentifierColumnId" : 613809896,
+  "rowsUpdatedAt" : 1791890651,
+  "rowsUpdatedBy" : "azfj-qb4j",
+  "tableId" : 19963773,
+  "totalTimesRated" : 0,
+  "viewCount" : 307379,
+  "viewLastModified" : 1791889255,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1520443270,
+    "reviewedAutomatically" : false,
+    "state" : "approved",
+    "submissionId" : 6971120,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1520443270,
+    "targetAudience" : "public",
+    "workflowId" : 1726,
+    "reviewer" : {
+      "id" : "8cet-tw9x",
+      "displayName" : "Colorado Information Marketplace"
+    },
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "8cet-tw9x",
+      "displayName" : "Colorado Information Marketplace"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 613809896,
+    "name" : "entityid",
+    "dataTypeName" : "number",
+    "description" : "The state assigned identification number (unique) for the business entity.",
+    "fieldName" : "entityid",
+    "position" : 1,
+    "renderTypeName" : "number",
+    "tableColumnId" : 18726140,
+    "width" : 196,
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 613809897,
+    "name" : "entityname",
+    "dataTypeName" : "text",
+    "description" : "The name of the business entity as selected by the business owner.",
+    "fieldName" : "entityname",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726141,
+    "width" : 220,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809899,
+    "name" : "principaladdress1",
+    "dataTypeName" : "text",
+    "description" : "Principal address for the business entity.",
+    "fieldName" : "principaladdress1",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726142,
+    "width" : 304,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809900,
+    "name" : "principaladdress2",
+    "dataTypeName" : "text",
+    "description" : "Principal address for the business entity.",
+    "fieldName" : "principaladdress2",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726143,
+    "width" : 304,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809901,
+    "name" : "principalcity",
+    "dataTypeName" : "text",
+    "description" : "Principal city for the business entity.",
+    "fieldName" : "principalcity",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726144,
+    "width" : 256,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809902,
+    "name" : "principalstate",
+    "dataTypeName" : "text",
+    "description" : "Principal state for the business entity.",
+    "fieldName" : "principalstate",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726145,
+    "width" : 268,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809903,
+    "name" : "principalzipcode",
+    "dataTypeName" : "text",
+    "description" : "Principal zip code for the business entity.",
+    "fieldName" : "principalzipcode",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726146,
+    "width" : 292,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809904,
+    "name" : "principalcountry",
+    "dataTypeName" : "text",
+    "description" : "Principal country for the business entity.",
+    "fieldName" : "principalcountry",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726147,
+    "width" : 292,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809905,
+    "name" : "mailingaddress1",
+    "dataTypeName" : "text",
+    "description" : "Mailing address for the business entity.",
+    "fieldName" : "mailingaddress1",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726148,
+    "width" : 280,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809906,
+    "name" : "mailingaddress2",
+    "dataTypeName" : "text",
+    "description" : "Mailing address for the business entity.",
+    "fieldName" : "mailingaddress2",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726149,
+    "width" : 280,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809907,
+    "name" : "mailingcity",
+    "dataTypeName" : "text",
+    "description" : "Mailing city for the business entity.",
+    "fieldName" : "mailingcity",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726150,
+    "width" : 232,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809908,
+    "name" : "mailingstate",
+    "dataTypeName" : "text",
+    "description" : "Mailing state for the business entity.",
+    "fieldName" : "mailingstate",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726151,
+    "width" : 244,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809909,
+    "name" : "mailingzipcode",
+    "dataTypeName" : "text",
+    "description" : "Mailing zip code for the business entity.",
+    "fieldName" : "mailingzipcode",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726152,
+    "width" : 268,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809910,
+    "name" : "mailingcountry",
+    "dataTypeName" : "text",
+    "description" : "Mailing country for the business entity.",
+    "fieldName" : "mailingcountry",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726153,
+    "width" : 268,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809911,
+    "name" : "entitystatus",
+    "dataTypeName" : "text",
+    "description" : "Entity status for the business entity.",
+    "fieldName" : "entitystatus",
+    "position" : 16,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726154,
+    "width" : 244,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809912,
+    "name" : "jurisdictonofformation",
+    "dataTypeName" : "text",
+    "description" : "Jurisdiction of formation",
+    "fieldName" : "jurisdictonofformation",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726155,
+    "width" : 364,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809913,
+    "name" : "entitytype",
+    "dataTypeName" : "text",
+    "description" : "Entity type abbreviation used by the Secretary of State.",
+    "fieldName" : "entitytype",
+    "position" : 18,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726157,
+    "width" : 220,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809914,
+    "name" : "agentfirstname",
+    "dataTypeName" : "text",
+    "description" : "First name of agent. A registered agent for a business needs to have a Colorado address and serves as the contact for the entity. In the event of litigation, the service of process goes to the registered agent.",
+    "fieldName" : "agentfirstname",
+    "position" : 19,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726158,
+    "width" : 268,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809915,
+    "name" : "agentmiddlename",
+    "dataTypeName" : "text",
+    "description" : "Middle name of agent. A registered agent for a business needs to have a Colorado address and serves as the contact for the entity. In the event of litigation, the service of process goes to the registered agent.",
+    "fieldName" : "agentmiddlename",
+    "position" : 20,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726159,
+    "width" : 280,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809916,
+    "name" : "agentlastname",
+    "dataTypeName" : "text",
+    "description" : "Last name of agent. A registered agent for a business needs to have a Colorado address and serves as the contact for the entity. In the event of litigation, the service of process goes to the registered agent.",
+    "fieldName" : "agentlastname",
+    "position" : 21,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726160,
+    "width" : 256,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809917,
+    "name" : "agentsuffix",
+    "dataTypeName" : "text",
+    "description" : "Agent Suffix",
+    "fieldName" : "agentsuffix",
+    "position" : 22,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726161,
+    "width" : 232,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809918,
+    "name" : "agentorganizationname",
+    "dataTypeName" : "text",
+    "description" : "Agent Organization Name",
+    "fieldName" : "agentorganizationname",
+    "position" : 23,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726162,
+    "width" : 352,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809919,
+    "name" : "agentprincipaladdress1",
+    "dataTypeName" : "text",
+    "description" : "Agent principal address1",
+    "fieldName" : "agentprincipaladdress1",
+    "position" : 24,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726163,
+    "width" : 364,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809920,
+    "name" : "agentprincipaladdress2",
+    "dataTypeName" : "text",
+    "description" : "Agent principal address2",
+    "fieldName" : "agentprincipaladdress2",
+    "position" : 25,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726164,
+    "width" : 364,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809921,
+    "name" : "agentprincipalcity",
+    "dataTypeName" : "text",
+    "description" : "Agent principal city",
+    "fieldName" : "agentprincipalcity",
+    "position" : 26,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726165,
+    "width" : 316,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809922,
+    "name" : "agentprincipalstate",
+    "dataTypeName" : "text",
+    "description" : "Agent principal state",
+    "fieldName" : "agentprincipalstate",
+    "position" : 27,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726166,
+    "width" : 328,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809923,
+    "name" : "agentprincipalzipcode",
+    "dataTypeName" : "text",
+    "description" : "Agent principal zip code",
+    "fieldName" : "agentprincipalzipcode",
+    "position" : 28,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726167,
+    "width" : 352,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809924,
+    "name" : "agentprincipalcountry",
+    "dataTypeName" : "text",
+    "description" : "Agent principal country",
+    "fieldName" : "agentprincipalcountry",
+    "position" : 29,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726168,
+    "width" : 352,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809925,
+    "name" : "agentmailingaddress1",
+    "dataTypeName" : "text",
+    "description" : "Agent mailing address1",
+    "fieldName" : "agentmailingaddress1",
+    "position" : 30,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726169,
+    "width" : 340,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809926,
+    "name" : "agentmailingaddress2",
+    "dataTypeName" : "text",
+    "description" : "Agent mailing address2",
+    "fieldName" : "agentmailingaddress2",
+    "position" : 31,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726170,
+    "width" : 340,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809927,
+    "name" : "agentmailingcity",
+    "dataTypeName" : "text",
+    "description" : "Agent mailing city",
+    "fieldName" : "agentmailingcity",
+    "position" : 32,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726171,
+    "width" : 292,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809928,
+    "name" : "agentmailingstate",
+    "dataTypeName" : "text",
+    "description" : "Agent mailing state",
+    "fieldName" : "agentmailingstate",
+    "position" : 33,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726172,
+    "width" : 304,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809929,
+    "name" : "agentmailingzipcode",
+    "dataTypeName" : "text",
+    "description" : "Agent mailing zip code",
+    "fieldName" : "agentmailingzipcode",
+    "position" : 34,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726173,
+    "width" : 328,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809930,
+    "name" : "agentmailingcountry",
+    "dataTypeName" : "text",
+    "description" : "Agent mailing country",
+    "fieldName" : "agentmailingcountry",
+    "position" : 35,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18726174,
+    "width" : 328,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 613809931,
+    "name" : "entityformdate",
+    "dataTypeName" : "calendar_date",
+    "description" : "Entity form date",
+    "fieldName" : "entityformdate",
+    "position" : 36,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 18726175,
+    "width" : 268,
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "Public Domain"
+  },
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "custom_fields" : {
+      "Data Quality" : {
+        "Expected Update Frequency" : "Never"
+      },
+      "Point of Contact" : {
+        "Contact Email" : "bic-help@xentity.com",
+        "Contact Name" : "Business Intelligence Center of CO"
+      },
+      "Data Updates" : {
+        "Source Update Schedule" : "",
+        "Update Type" : "Automated",
+        "Update Schedule" : "Every day after midnight",
+        "Update Method" : "Staging Server",
+        "Expected Update Frequency" : "daily",
+        "Total Records At Initial Publish" : 1327227
+      },
+      "Dataset Coverage" : {
+        "Geographic Coverage" : "State",
+        "Unit of Analysis" : "Tabular"
+      },
+      "Additional Dataset Documentation" : {
+        "Technical Documentation" : "",
+        "Data Dictionary" : "",
+        "Additional Metadata" : "https://www.sos.state.co.us/pubs/info_center/eLearningCourses/BIC-BusinessFilingData/index.html"
+      },
+      "Geospatial" : {
+        "Horizontal Coordinate System" : "",
+        "Collection Method" : "",
+        "Coordinate System Disclaimer" : "",
+        "Horizontal Accuracy" : "",
+        "Web Display Coordinate System" : ""
+      },
+      "Publisher" : {
+        "Publisher Name" : "Business Intelligence Center of CO"
+      },
+      "Data Description" : {
+        "Long Description" : "Colorado Department of State (CDOS) Colorado Business Entities (corporations, LLCs, etc.) registered with the Colorado Secretary of State. The business registration goes back to the 1800's, with over 1 million records available. It contains business name, principal address, mailing address, owner name, owner address, entity status, type and creation date. As of March 2018 there are over 1.7 million unique business id's registered with the state of co, and there is a (very rough) average of 2,000 new businesses added each week. Entity and Entity Id are the business number from CDOS (also the unique identifier) and registered business name. Principal Address, however, is not always guaranteed to be the physical location of the business entity’s main operation. Some businesses can be registered in CO but have an address outside of the state or may list a PO box and there are businesses with locations that don’t have a public access entry point. Mailing Address is the mailing address of the business owne, and the Agent address may be the address of the agent or in some cases has the same address as the business owner.",
+        "Oldest Record in Dataset" : "",
+        "Row Label" : "Business entity name, id, type, status, and contact",
+        "Newest Record in Dataset" : "",
+        "Collection Method" : "",
+        "Data Collection Instrument" : "",
+        "Collection Mode" : ""
+      },
+      "Contributing Agency Information" : {
+        "Data Source" : "",
+        "Agency Data Series Page" : "https://www.sos.state.co.us/biz/BusinessEntityCriteriaExt.do",
+        "Citation" : "CDOS - Colorado Department of State",
+        "Agency Program Page" : "https://www.sos.state.co.us/"
+      }
+    },
+    "filterCondition" : {
+      "metadata" : {
+        "advanced" : true,
+        "unifiedVersion" : 2
+      },
+      "type" : "operator",
+      "value" : "AND"
+    },
+    "rowIdentifier" : 613809896,
+    "rowLabel" : "Business entity name, id, type, status, and contact",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "azfj-qb4j",
+    "displayName" : "Business Intelligence Center of CO",
+    "screenName" : "Business Intelligence Center of CO",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "azfj-qb4j",
+    "displayName" : "Business Intelligence Center of CO",
+    "screenName" : "Business Intelligence Center of CO",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "bic", "covid19", "colorado", "business", "businesses organization", "registration", "registered business", "address", "location", "name", "entity", "business entity", "bizent" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

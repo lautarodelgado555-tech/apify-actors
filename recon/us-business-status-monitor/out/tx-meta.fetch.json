@@ -1,0 +1,1540 @@
+{
+  "id" : "9cir-efmm",
+  "name" : "Active Franchise Taxpayers",
+  "assetType" : "dataset",
+  "attribution" : "Texas Comptroller of Public Accounts",
+  "averageRating" : 0,
+  "createdAt" : 1497024373,
+  "description" : "This file contains a list of active taxpayers set up for franchise tax under Tax Code Chapter 171. The file includes taxpayer name, address, and other public business information.\r\n\r\nSee https://comptroller.texas.gov/about/policies/privacy.php for more information on our agency’s privacy and security policies",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 341462,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1544659615,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 26850962,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1506093498,
+  "publicationGroup" : 14259453,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1791620325,
+  "rowsUpdatedBy" : "rpyr-842j",
+  "tableId" : 14480280,
+  "totalTimesRated" : 0,
+  "viewCount" : 81740,
+  "viewLastModified" : 1782759849,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1506344706,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 552238,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1506344706,
+    "targetAudience" : "public",
+    "workflowId" : 1858,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "fpiq-yg3w",
+      "displayName" : "CIS Team"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 321325724,
+    "name" : "Taxpayer Number",
+    "dataTypeName" : "text",
+    "description" : "A unique number used to identify the taxpayer.",
+    "fieldName" : "taxpayer_number",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 48780245,
+    "width" : 280,
+    "cachedContents" : {
+      "largest" : "39000242634",
+      "non_null" : "3486216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "15217489614",
+        "count" : "2"
+      }, {
+        "item" : "17515884124",
+        "count" : "2"
+      }, {
+        "item" : "13627724274",
+        "count" : "2"
+      }, {
+        "item" : "14206410301",
+        "count" : "2"
+      }, {
+        "item" : "17417689613",
+        "count" : "2"
+      }, {
+        "item" : "17428931632",
+        "count" : "2"
+      }, {
+        "item" : "11612924768",
+        "count" : "2"
+      }, {
+        "item" : "12106380368",
+        "count" : "2"
+      }, {
+        "item" : "13821710087",
+        "count" : "2"
+      }, {
+        "item" : "14119538040",
+        "count" : "2"
+      }, {
+        "item" : "15821734033",
+        "count" : "2"
+      }, {
+        "item" : "17315213706",
+        "count" : "2"
+      }, {
+        "item" : "17419780063",
+        "count" : "2"
+      }, {
+        "item" : "17427612134",
+        "count" : "2"
+      }, {
+        "item" : "10612796416",
+        "count" : "2"
+      }, {
+        "item" : "11408653704",
+        "count" : "2"
+      }, {
+        "item" : "12000577101",
+        "count" : "2"
+      }, {
+        "item" : "12024371887",
+        "count" : "2"
+      }, {
+        "item" : "13816124443",
+        "count" : "2"
+      }, {
+        "item" : "17516636580",
+        "count" : "2"
+      } ],
+      "smallest" : "10082832105",
+      "not_null" : "2157910",
+      "count" : "3486216",
+      "cardinality" : "3486216"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 321325725,
+    "name" : "Taxpayer Name",
+    "dataTypeName" : "text",
+    "description" : "Name of taxpayer.",
+    "fieldName" : "taxpayer_name",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 48780246,
+    "width" : 256,
+    "cachedContents" : {
+      "largest" : "ZZZZZZZ INC",
+      "non_null" : "3486216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "TRINITY LUTHERAN CHURCH",
+        "count" : "70"
+      }, {
+        "item" : "IMMANUEL LUTHERAN CHURCH",
+        "count" : "45"
+      }, {
+        "item" : "APOSTOLIC ASSEMBLY OF THE FAITH IN CHRIST JESUS",
+        "count" : "39"
+      }, {
+        "item" : "GRACE LUTHERAN CHURCH",
+        "count" : "36"
+      }, {
+        "item" : "IGLESIA DEL DIOS VIVO COLUMNA Y APOYO DE LA VERDAD",
+        "count" : "35"
+      }, {
+        "item" : "GOOD SHEPHERD LUTHERAN CHURCH",
+        "count" : "34"
+      }, {
+        "item" : "ST. JOHN'S LUTHERAN CHURCH",
+        "count" : "29"
+      }, {
+        "item" : "FAITH LUTHERAN CHURCH",
+        "count" : "28"
+      }, {
+        "item" : "ZION LUTHERAN CHURCH",
+        "count" : "28"
+      }, {
+        "item" : "TRINITY EVANGELICAL LUTHERAN CHURCH",
+        "count" : "28"
+      }, {
+        "item" : "CHRIST LUTHERAN CHURCH",
+        "count" : "25"
+      }, {
+        "item" : "FIRST LUTHERAN CHURCH",
+        "count" : "24"
+      }, {
+        "item" : "ZION EVANGELICAL LUTHERAN CHURCH",
+        "count" : "24"
+      }, {
+        "item" : "FIRST BAPTIST CHURCH",
+        "count" : "22"
+      }, {
+        "item" : "PEACE LUTHERAN CHURCH",
+        "count" : "21"
+      }, {
+        "item" : "BETHLEHEM LUTHERAN CHURCH",
+        "count" : "20"
+      }, {
+        "item" : "SACRED HEART CATHOLIC CHURCH",
+        "count" : "20"
+      }, {
+        "item" : "ST PAUL LUTHERAN CHURCH",
+        "count" : "18"
+      }, {
+        "item" : "REDEEMER LUTHERAN CHURCH",
+        "count" : "18"
+      }, {
+        "item" : "ST. JOSEPH CATHOLIC CHURCH",
+        "count" : "18"
+      } ],
+      "smallest" : "000088880000, LLC",
+      "not_null" : "2157909",
+      "count" : "3486216",
+      "cardinality" : "3486216"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 321325726,
+    "name" : "Taxpayer Address",
+    "dataTypeName" : "text",
+    "description" : "Address of taxpayer.",
+    "fieldName" : "taxpayer_address",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 48780247,
+    "width" : 292,
+    "cachedContents" : {
+      "largest" : "ZWAANSTRAAT 1, 5651 CA EINDHOVEN",
+      "non_null" : "3486216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "5900 BALCONES DR STE 100",
+        "count" : "105570"
+      }, {
+        "item" : "17350 STATE HIGHWAY 249 STE 220",
+        "count" : "43589"
+      }, {
+        "item" : "1999 BRYAN ST STE 900",
+        "count" : "15205"
+      }, {
+        "item" : "211 E 7TH ST STE 620",
+        "count" : "13281"
+      }, {
+        "item" : "10601 CLARENCE DR STE 250",
+        "count" : "5824"
+      }, {
+        "item" : "3225 MCLEOD DR STE 100",
+        "count" : "5179"
+      }, {
+        "item" : "1501 S MOPAC EXPY STE 220",
+        "count" : "5029"
+      }, {
+        "item" : "301 COMMERCE ST STE 3300",
+        "count" : "4143"
+      }, {
+        "item" : "1601 ELM ST STE 4360",
+        "count" : "3155"
+      }, {
+        "item" : "815 BRAZOS ST STE 500",
+        "count" : "2476"
+      }, {
+        "item" : "9900 SPECTRUM DR",
+        "count" : "2031"
+      }, {
+        "item" : "2595 DALLAS PKWY STE 350",
+        "count" : "1640"
+      }, {
+        "item" : "14001 W STATE HIGHWAY 29 STE 102",
+        "count" : "1363"
+      }, {
+        "item" : "5301 SOUTHWEST PKWY BLDG 1-400",
+        "count" : "1337"
+      }, {
+        "item" : "PO BOX 203310",
+        "count" : "1319"
+      }, {
+        "item" : "539 W COMMERCE ST",
+        "count" : "1252"
+      }, {
+        "item" : "3000 TURTLE CREEK BLVD",
+        "count" : "1204"
+      }, {
+        "item" : "5900 BALCONES DR",
+        "count" : "1088"
+      }, {
+        "item" : "845 TEXAS ST STE 3300",
+        "count" : "816"
+      }, {
+        "item" : "350 N SAINT PAUL ST",
+        "count" : "803"
+      } ],
+      "smallest" : "000 FOREST SERVICE ROAD 213 E",
+      "not_null" : "2157909",
+      "count" : "3486216",
+      "cardinality" : "3486216"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 321325727,
+    "name" : "Taxpayer City",
+    "dataTypeName" : "text",
+    "description" : "City of taxpayer.",
+    "fieldName" : "taxpayer_city",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 48780248,
+    "width" : 256,
+    "cachedContents" : {
+      "largest" : "ZWOLLE",
+      "non_null" : "3486216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "HOUSTON",
+        "count" : "402590"
+      }, {
+        "item" : "AUSTIN",
+        "count" : "319194"
+      }, {
+        "item" : "DALLAS",
+        "count" : "244297"
+      }, {
+        "item" : "SAN ANTONIO",
+        "count" : "139071"
+      }, {
+        "item" : "FORT WORTH",
+        "count" : "82727"
+      }, {
+        "item" : "FRISCO",
+        "count" : "51290"
+      }, {
+        "item" : "PLANO",
+        "count" : "48107"
+      }, {
+        "item" : "KATY",
+        "count" : "46192"
+      }, {
+        "item" : "EL PASO",
+        "count" : "43931"
+      }, {
+        "item" : "SPRING",
+        "count" : "38152"
+      }, {
+        "item" : "SUGAR LAND",
+        "count" : "34427"
+      }, {
+        "item" : "ARLINGTON",
+        "count" : "30119"
+      }, {
+        "item" : "IRVING",
+        "count" : "28699"
+      }, {
+        "item" : "MCKINNEY",
+        "count" : "27205"
+      }, {
+        "item" : "RICHMOND",
+        "count" : "25727"
+      }, {
+        "item" : "MIDLAND",
+        "count" : "24970"
+      }, {
+        "item" : "CYPRESS",
+        "count" : "24384"
+      }, {
+        "item" : "LUBBOCK",
+        "count" : "23713"
+      }, {
+        "item" : "LAREDO",
+        "count" : "22136"
+      }, {
+        "item" : "CORPUS CHRISTI",
+        "count" : "20849"
+      } ],
+      "smallest" : "0LGOD",
+      "not_null" : "2157909",
+      "count" : "3486216",
+      "cardinality" : "3486216"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 321325728,
+    "name" : "Taxpayer State",
+    "dataTypeName" : "text",
+    "description" : "State of taxpayer.",
+    "fieldName" : "taxpayer_state",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 48780249,
+    "width" : 268,
+    "cachedContents" : {
+      "largest" : "XX",
+      "non_null" : "3477025",
+      "null" : "9191",
+      "top" : [ {
+        "item" : "TX",
+        "count" : "3089023"
+      }, {
+        "item" : "CA",
+        "count" : "57574"
+      }, {
+        "item" : "FL",
+        "count" : "31839"
+      }, {
+        "item" : "NY",
+        "count" : "29656"
+      }, {
+        "item" : "IL",
+        "count" : "18208"
+      }, {
+        "item" : "GA",
+        "count" : "14359"
+      }, {
+        "item" : "CO",
+        "count" : "13657"
+      }, {
+        "item" : "NJ",
+        "count" : "12428"
+      }, {
+        "item" : "OK",
+        "count" : "10946"
+      }, {
+        "item" : "PA",
+        "count" : "10706"
+      }, {
+        "item" : "AZ",
+        "count" : "10021"
+      }, {
+        "item" : "NV",
+        "count" : "9933"
+      }, {
+        "item" : "NC",
+        "count" : "9899"
+      }, {
+        "item" : "LA",
+        "count" : "9859"
+      }, {
+        "item" : "OH",
+        "count" : "9608"
+      }, {
+        "item" : "TN",
+        "count" : "9392"
+      }, {
+        "item" : "VA",
+        "count" : "9355"
+      }, {
+        "item" : "MA",
+        "count" : "9283"
+      }, {
+        "item" : "MO",
+        "count" : "8077"
+      }, {
+        "item" : "MI",
+        "count" : "7896"
+      } ],
+      "smallest" : "  ",
+      "not_null" : "2153161",
+      "count" : "3486216",
+      "cardinality" : "3486216"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 321325729,
+    "name" : "Taxpayer Zip",
+    "dataTypeName" : "text",
+    "description" : "Zip of taxpayer.",
+    "fieldName" : "taxpayer_zip",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 48780250,
+    "width" : 244,
+    "cachedContents" : {
+      "largest" : "ZIP",
+      "non_null" : "3477026",
+      "null" : "9190",
+      "top" : [ {
+        "item" : "78731",
+        "count" : "125970"
+      }, {
+        "item" : "77064",
+        "count" : "47593"
+      }, {
+        "item" : "75201",
+        "count" : "37107"
+      }, {
+        "item" : "78701",
+        "count" : "31636"
+      }, {
+        "item" : "78746",
+        "count" : "22921"
+      }, {
+        "item" : "77494",
+        "count" : "19322"
+      }, {
+        "item" : "77479",
+        "count" : "18511"
+      }, {
+        "item" : "77024",
+        "count" : "17721"
+      }, {
+        "item" : "75034",
+        "count" : "16644"
+      }, {
+        "item" : "75219",
+        "count" : "15836"
+      }, {
+        "item" : "77056",
+        "count" : "15629"
+      }, {
+        "item" : "75035",
+        "count" : "15559"
+      }, {
+        "item" : "75225",
+        "count" : "14686"
+      }, {
+        "item" : "77433",
+        "count" : "14302"
+      }, {
+        "item" : "76092",
+        "count" : "13843"
+      }, {
+        "item" : "75033",
+        "count" : "13802"
+      }, {
+        "item" : "77002",
+        "count" : "13326"
+      }, {
+        "item" : "77057",
+        "count" : "12683"
+      }, {
+        "item" : "75024",
+        "count" : "12587"
+      }, {
+        "item" : "75093",
+        "count" : "12251"
+      } ],
+      "smallest" : "  ",
+      "not_null" : "2153159",
+      "count" : "3486216",
+      "cardinality" : "3486216"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 321325730,
+    "name" : "Taxpayer County Code",
+    "dataTypeName" : "number",
+    "description" : "Identification code of taxpayer's county.",
+    "fieldName" : "taxpayer_county_code",
+    "position" : 8,
+    "renderTypeName" : "number",
+    "tableColumnId" : 48780251,
+    "width" : 340,
+    "cachedContents" : {
+      "largest" : "255",
+      "non_null" : "3486216",
+      "average" : "104.9641570614949",
+      "null" : "0",
+      "top" : [ {
+        "item" : "101",
+        "count" : "543561"
+      }, {
+        "item" : "0",
+        "count" : "387937"
+      }, {
+        "item" : "57",
+        "count" : "364572"
+      }, {
+        "item" : "227",
+        "count" : "342338"
+      }, {
+        "item" : "220",
+        "count" : "203380"
+      }, {
+        "item" : "43",
+        "count" : "176461"
+      }, {
+        "item" : "15",
+        "count" : "155762"
+      }, {
+        "item" : "79",
+        "count" : "116161"
+      }, {
+        "item" : "61",
+        "count" : "105628"
+      }, {
+        "item" : "170",
+        "count" : "78577"
+      }, {
+        "item" : "246",
+        "count" : "72778"
+      }, {
+        "item" : "108",
+        "count" : "54640"
+      }, {
+        "item" : "71",
+        "count" : "47360"
+      }, {
+        "item" : "20",
+        "count" : "28530"
+      }, {
+        "item" : "84",
+        "count" : "27757"
+      }, {
+        "item" : "152",
+        "count" : "26397"
+      }, {
+        "item" : "165",
+        "count" : "25968"
+      }, {
+        "item" : "105",
+        "count" : "25128"
+      }, {
+        "item" : "46",
+        "count" : "23349"
+      }, {
+        "item" : "178",
+        "count" : "23124"
+      } ],
+      "smallest" : "0",
+      "not_null" : "2157910",
+      "count" : "3486216",
+      "sum" : "213029900",
+      "cardinality" : "3486216"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 321325731,
+    "name" : "Taxpayer Organizational Type",
+    "dataTypeName" : "text",
+    "description" : "See record layout for various code definitions.",
+    "fieldName" : "taxpayer_organizational_type",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 48780252,
+    "width" : 436,
+    "cachedContents" : {
+      "largest" : "TR",
+      "non_null" : "3486216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "CL",
+        "count" : "2280673"
+      }, {
+        "item" : "CT",
+        "count" : "333060"
+      }, {
+        "item" : "CI",
+        "count" : "246528"
+      }, {
+        "item" : "CN",
+        "count" : "206860"
+      }, {
+        "item" : "CF",
+        "count" : "182677"
+      }, {
+        "item" : "PL",
+        "count" : "119074"
+      }, {
+        "item" : "PF",
+        "count" : "22804"
+      }, {
+        "item" : "AR",
+        "count" : "20247"
+      }, {
+        "item" : "CM",
+        "count" : "17286"
+      }, {
+        "item" : "CP",
+        "count" : "15693"
+      }, {
+        "item" : "AP",
+        "count" : "15076"
+      }, {
+        "item" : "PB",
+        "count" : "9668"
+      }, {
+        "item" : "AF",
+        "count" : "4854"
+      }, {
+        "item" : "TR",
+        "count" : "3813"
+      }, {
+        "item" : "CU",
+        "count" : "3469"
+      }, {
+        "item" : "PI",
+        "count" : "1307"
+      }, {
+        "item" : "PV",
+        "count" : "1149"
+      }, {
+        "item" : "TF",
+        "count" : "718"
+      }, {
+        "item" : "PW",
+        "count" : "318"
+      }, {
+        "item" : "AB",
+        "count" : "315"
+      } ],
+      "smallest" : "AB",
+      "not_null" : "2157910",
+      "count" : "3486216",
+      "cardinality" : "3486216"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 321325732,
+    "name" : "Record Type Code",
+    "dataTypeName" : "text",
+    "description" : "Type of SOS or COA number (see record layout for various code definitions).",
+    "fieldName" : "record_type_code",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 48780253,
+    "width" : 292,
+    "cachedContents" : {
+      "largest" : "X ",
+      "non_null" : "3486216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "U",
+        "count" : "2968879"
+      }, {
+        "item" : "V",
+        "count" : "275331"
+      }, {
+        "item" : "X",
+        "count" : "241716"
+      }, {
+        "item" : "U ",
+        "count" : "226"
+      }, {
+        "item" : "X ",
+        "count" : "33"
+      }, {
+        "item" : "V ",
+        "count" : "31"
+      } ],
+      "smallest" : "U",
+      "not_null" : "2157910",
+      "count" : "3486216",
+      "cardinality" : "3486216"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 321325733,
+    "name" : "Responsibility Beginning Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "Date taxpayer became liable for franchise tax.",
+    "fieldName" : "responsibility_beginning_date",
+    "position" : 11,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 48780254,
+    "width" : 448,
+    "cachedContents" : {
+      "largest" : "2026-12-21T00:00:00.000",
+      "non_null" : "3486216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2008-01-01T00:00:00.000",
+        "count" : "96771"
+      }, {
+        "item" : "2023-01-01T00:00:00.000",
+        "count" : "11386"
+      }, {
+        "item" : "2025-01-01T00:00:00.000",
+        "count" : "10830"
+      }, {
+        "item" : "2022-01-01T00:00:00.000",
+        "count" : "10426"
+      }, {
+        "item" : "2024-01-01T00:00:00.000",
+        "count" : "10042"
+      }, {
+        "item" : "2021-01-01T00:00:00.000",
+        "count" : "9112"
+      }, {
+        "item" : "2026-01-01T00:00:00.000",
+        "count" : "8677"
+      }, {
+        "item" : "2020-01-01T00:00:00.000",
+        "count" : "7857"
+      }, {
+        "item" : "2019-01-01T00:00:00.000",
+        "count" : "7234"
+      }, {
+        "item" : "2018-01-01T00:00:00.000",
+        "count" : "5131"
+      }, {
+        "item" : "2017-01-01T00:00:00.000",
+        "count" : "4426"
+      }, {
+        "item" : "2009-01-01T00:00:00.000",
+        "count" : "4209"
+      }, {
+        "item" : "2016-01-01T00:00:00.000",
+        "count" : "4012"
+      }, {
+        "item" : "2015-01-01T00:00:00.000",
+        "count" : "4007"
+      }, {
+        "item" : "2014-01-01T00:00:00.000",
+        "count" : "3662"
+      }, {
+        "item" : "2013-01-01T00:00:00.000",
+        "count" : "3645"
+      }, {
+        "item" : "2010-01-01T00:00:00.000",
+        "count" : "3356"
+      }, {
+        "item" : "2012-01-01T00:00:00.000",
+        "count" : "3244"
+      }, {
+        "item" : "2011-01-01T00:00:00.000",
+        "count" : "2965"
+      }, {
+        "item" : "2026-04-01T00:00:00.000",
+        "count" : "2753"
+      } ],
+      "smallest" : "1843-03-17T00:00:00.000",
+      "not_null" : "2157910",
+      "count" : "3486216",
+      "cardinality" : "3486216"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 321325740,
+    "name" : "  Secretary of State (SOS) or COA File Number",
+    "dataTypeName" : "text",
+    "description" : "Unique number used to identify a business entity.",
+    "fieldName" : "secretary_of_state_sos_or_coa_file_number",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 48780255,
+    "width" : 640,
+    "cachedContents" : {
+      "largest" : "9998889898",
+      "non_null" : "3244501",
+      "null" : "241715",
+      "top" : [ {
+        "item" : "  ",
+        "count" : "33"
+      }, {
+        "item" : "0800190563",
+        "count" : "2"
+      }, {
+        "item" : "0078550701",
+        "count" : "2"
+      }, {
+        "item" : "0800245363",
+        "count" : "2"
+      }, {
+        "item" : "0800324086",
+        "count" : "2"
+      }, {
+        "item" : "0800610161",
+        "count" : "2"
+      }, {
+        "item" : "0800079143",
+        "count" : "2"
+      }, {
+        "item" : "0708663322",
+        "count" : "2"
+      }, {
+        "item" : "0800198341",
+        "count" : "2"
+      }, {
+        "item" : "0800200135",
+        "count" : "2"
+      }, {
+        "item" : "0800269488",
+        "count" : "2"
+      }, {
+        "item" : "0800285115",
+        "count" : "2"
+      }, {
+        "item" : "0800338040",
+        "count" : "2"
+      }, {
+        "item" : "0800408158",
+        "count" : "2"
+      }, {
+        "item" : "0800261931",
+        "count" : "2"
+      }, {
+        "item" : "0000884780",
+        "count" : "2"
+      }, {
+        "item" : "0121806401",
+        "count" : "2"
+      }, {
+        "item" : "0702949223",
+        "count" : "2"
+      }, {
+        "item" : "0000077822",
+        "count" : "1"
+      }, {
+        "item" : "0000075601",
+        "count" : "1"
+      } ],
+      "smallest" : "  ",
+      "not_null" : "2010155",
+      "count" : "3486216",
+      "cardinality" : "3486216"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 321325754,
+    "name" : "SOS Charter Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "Date business was chartered by SOS in Texas.",
+    "fieldName" : "sos_charter_date",
+    "position" : 13,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 48780256,
+    "width" : 292,
+    "cachedContents" : {
+      "largest" : "2026-12-21T00:00:00.000",
+      "non_null" : "3244468",
+      "null" : "241748",
+      "top" : [ {
+        "item" : "2026-01-01T00:00:00.000",
+        "count" : "2693"
+      }, {
+        "item" : "2025-01-01T00:00:00.000",
+        "count" : "2361"
+      }, {
+        "item" : "2026-04-01T00:00:00.000",
+        "count" : "2329"
+      }, {
+        "item" : "2026-04-21T00:00:00.000",
+        "count" : "2126"
+      }, {
+        "item" : "2026-04-28T00:00:00.000",
+        "count" : "2102"
+      }, {
+        "item" : "2026-09-01T00:00:00.000",
+        "count" : "2087"
+      }, {
+        "item" : "2026-02-24T00:00:00.000",
+        "count" : "2084"
+      }, {
+        "item" : "2026-06-01T00:00:00.000",
+        "count" : "2067"
+      }, {
+        "item" : "2026-03-31T00:00:00.000",
+        "count" : "2065"
+      }, {
+        "item" : "2026-05-01T00:00:00.000",
+        "count" : "2063"
+      }, {
+        "item" : "2026-04-29T00:00:00.000",
+        "count" : "2058"
+      }, {
+        "item" : "2026-03-02T00:00:00.000",
+        "count" : "2041"
+      }, {
+        "item" : "2026-04-23T00:00:00.000",
+        "count" : "2040"
+      }, {
+        "item" : "2026-05-12T00:00:00.000",
+        "count" : "2028"
+      }, {
+        "item" : "2026-03-24T00:00:00.000",
+        "count" : "2026"
+      }, {
+        "item" : "2026-01-20T00:00:00.000",
+        "count" : "2015"
+      }, {
+        "item" : "2026-09-23T00:00:00.000",
+        "count" : "2010"
+      }, {
+        "item" : "2026-04-20T00:00:00.000",
+        "count" : "2005"
+      }, {
+        "item" : "2026-03-17T00:00:00.000",
+        "count" : "1991"
+      }, {
+        "item" : "2026-07-20T00:00:00.000",
+        "count" : "1989"
+      } ],
+      "smallest" : "1843-03-17T00:00:00.000",
+      "not_null" : "2010070",
+      "count" : "3486216",
+      "cardinality" : "3486216"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 321325755,
+    "name" : "SOS Status Date ",
+    "dataTypeName" : "calendar_date",
+    "description" : "See record layout for various code definitions.",
+    "fieldName" : "sos_status_date",
+    "position" : 14,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 48780257,
+    "width" : 292,
+    "cachedContents" : {
+      "largest" : "2026-12-21T00:00:00.000",
+      "non_null" : "3244468",
+      "null" : "241748",
+      "top" : [ {
+        "item" : "2026-02-27T00:00:00.000",
+        "count" : "9846"
+      }, {
+        "item" : "2025-02-21T00:00:00.000",
+        "count" : "9215"
+      }, {
+        "item" : "2024-02-23T00:00:00.000",
+        "count" : "5405"
+      }, {
+        "item" : "2023-03-10T00:00:00.000",
+        "count" : "4430"
+      }, {
+        "item" : "2022-06-24T00:00:00.000",
+        "count" : "3681"
+      }, {
+        "item" : "2021-08-20T00:00:00.000",
+        "count" : "3414"
+      }, {
+        "item" : "2020-02-28T00:00:00.000",
+        "count" : "3200"
+      }, {
+        "item" : "2026-04-01T00:00:00.000",
+        "count" : "2749"
+      }, {
+        "item" : "2026-01-01T00:00:00.000",
+        "count" : "2719"
+      }, {
+        "item" : "2019-01-25T00:00:00.000",
+        "count" : "2657"
+      }, {
+        "item" : "2026-07-31T00:00:00.000",
+        "count" : "2572"
+      }, {
+        "item" : "2026-05-12T00:00:00.000",
+        "count" : "2542"
+      }, {
+        "item" : "2025-09-05T00:00:00.000",
+        "count" : "2530"
+      }, {
+        "item" : "2017-01-27T00:00:00.000",
+        "count" : "2530"
+      }, {
+        "item" : "2026-04-28T00:00:00.000",
+        "count" : "2526"
+      }, {
+        "item" : "2026-05-15T00:00:00.000",
+        "count" : "2515"
+      }, {
+        "item" : "2026-06-01T00:00:00.000",
+        "count" : "2482"
+      }, {
+        "item" : "2026-05-13T00:00:00.000",
+        "count" : "2481"
+      }, {
+        "item" : "2026-04-29T00:00:00.000",
+        "count" : "2477"
+      }, {
+        "item" : "2026-05-11T00:00:00.000",
+        "count" : "2471"
+      } ],
+      "smallest" : "1860-02-11T00:00:00.000",
+      "not_null" : "2010070",
+      "count" : "3486216",
+      "cardinality" : "3486216"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 321325756,
+    "name" : "SOS Status Code",
+    "dataTypeName" : "text",
+    "description" : "See record layout for various code definitions.",
+    "fieldName" : "sos_status_code",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 48780258,
+    "width" : 280,
+    "cachedContents" : {
+      "largest" : "Y ",
+      "non_null" : "3244501",
+      "null" : "241715",
+      "top" : [ {
+        "item" : "A",
+        "count" : "2830591"
+      }, {
+        "item" : "R",
+        "count" : "348325"
+      }, {
+        "item" : "F",
+        "count" : "57511"
+      }, {
+        "item" : "Y",
+        "count" : "4884"
+      }, {
+        "item" : "C",
+        "count" : "2114"
+      }, {
+        "item" : "W",
+        "count" : "685"
+      }, {
+        "item" : "A ",
+        "count" : "205"
+      }, {
+        "item" : "R ",
+        "count" : "44"
+      }, {
+        "item" : "V",
+        "count" : "38"
+      }, {
+        "item" : "  ",
+        "count" : "33"
+      }, {
+        "item" : "X",
+        "count" : "23"
+      }, {
+        "item" : "T",
+        "count" : "18"
+      }, {
+        "item" : "E",
+        "count" : "10"
+      }, {
+        "item" : "D",
+        "count" : "8"
+      }, {
+        "item" : "F ",
+        "count" : "5"
+      }, {
+        "item" : "M",
+        "count" : "3"
+      }, {
+        "item" : "A\n",
+        "count" : "2"
+      }, {
+        "item" : "B",
+        "count" : "1"
+      }, {
+        "item" : "Y ",
+        "count" : "1"
+      } ],
+      "smallest" : "  ",
+      "not_null" : "2010155",
+      "count" : "3486216",
+      "cardinality" : "3486216"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 321325757,
+    "name" : "Right to Transact Business Code",
+    "dataTypeName" : "text",
+    "description" : "Identifies if the taxpayer's right to do business is active (see record layout for various code definitions).",
+    "fieldName" : "right_to_transact_business_code",
+    "position" : 16,
+    "renderTypeName" : "text",
+    "tableColumnId" : 48780259,
+    "width" : 472,
+    "cachedContents" : {
+      "largest" : "U ",
+      "non_null" : "3486216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "A",
+        "count" : "2898637"
+      }, {
+        "item" : "N",
+        "count" : "519121"
+      }, {
+        "item" : "U",
+        "count" : "45524"
+      }, {
+        "item" : "D",
+        "count" : "22644"
+      }, {
+        "item" : "A ",
+        "count" : "273"
+      }, {
+        "item" : "N ",
+        "count" : "10"
+      }, {
+        "item" : "U ",
+        "count" : "5"
+      }, {
+        "item" : "A\n",
+        "count" : "2"
+      } ],
+      "smallest" : "A",
+      "not_null" : "2157910",
+      "count" : "3486216",
+      "cardinality" : "3486216"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 321325758,
+    "name" : "Current Exempt Reason Code",
+    "dataTypeName" : "text",
+    "description" : "See record layout for various code definitions.",
+    "fieldName" : "current_exempt_reason_code",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 48780260,
+    "width" : 412,
+    "cachedContents" : {
+      "largest" : "99",
+      "non_null" : "178211",
+      "null" : "3308005",
+      "top" : [ {
+        "item" : "19",
+        "count" : "84807"
+      }, {
+        "item" : "04",
+        "count" : "18243"
+      }, {
+        "item" : "74",
+        "count" : "17040"
+      }, {
+        "item" : "103",
+        "count" : "13424"
+      }, {
+        "item" : "24",
+        "count" : "8251"
+      }, {
+        "item" : "66",
+        "count" : "7346"
+      }, {
+        "item" : "07",
+        "count" : "4922"
+      }, {
+        "item" : "20",
+        "count" : "3242"
+      }, {
+        "item" : "22",
+        "count" : "2606"
+      }, {
+        "item" : "03",
+        "count" : "2605"
+      }, {
+        "item" : "49",
+        "count" : "2097"
+      }, {
+        "item" : "23",
+        "count" : "1232"
+      }, {
+        "item" : "05",
+        "count" : "1159"
+      }, {
+        "item" : "57",
+        "count" : "1047"
+      }, {
+        "item" : "68",
+        "count" : "794"
+      }, {
+        "item" : "29",
+        "count" : "794"
+      }, {
+        "item" : "67",
+        "count" : "696"
+      }, {
+        "item" : "12",
+        "count" : "573"
+      }, {
+        "item" : "01",
+        "count" : "570"
+      }, {
+        "item" : "70",
+        "count" : "543"
+      } ],
+      "smallest" : "  ",
+      "not_null" : "148405",
+      "count" : "3486216",
+      "cardinality" : "3486216"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 321325759,
+    "name" : "Exempt Begin Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "Date taxpayer became exempt from franchise tax liablities.",
+    "fieldName" : "exempt_begin_date",
+    "position" : 18,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 48780261,
+    "width" : 304,
+    "cachedContents" : {
+      "largest" : "6025-09-29T00:00:00.000",
+      "non_null" : "177981",
+      "null" : "3308235",
+      "top" : [ {
+        "item" : "2008-01-01T00:00:00.000",
+        "count" : "11100"
+      }, {
+        "item" : "2009-01-01T00:00:00.000",
+        "count" : "8240"
+      }, {
+        "item" : "2010-01-01T00:00:00.000",
+        "count" : "5242"
+      }, {
+        "item" : "1975-09-01T00:00:00.000",
+        "count" : "1566"
+      }, {
+        "item" : "1982-05-01T00:00:00.000",
+        "count" : "1022"
+      }, {
+        "item" : "1969-01-01T00:00:00.000",
+        "count" : "888"
+      }, {
+        "item" : "1986-05-15T00:00:00.000",
+        "count" : "791"
+      }, {
+        "item" : "1988-05-01T00:00:00.000",
+        "count" : "521"
+      }, {
+        "item" : "1976-05-01T00:00:00.000",
+        "count" : "370"
+      }, {
+        "item" : "1987-05-01T00:00:00.000",
+        "count" : "270"
+      }, {
+        "item" : "1986-05-01T00:00:00.000",
+        "count" : "258"
+      }, {
+        "item" : "1983-05-01T00:00:00.000",
+        "count" : "244"
+      }, {
+        "item" : "1985-05-01T00:00:00.000",
+        "count" : "232"
+      }, {
+        "item" : "2024-11-05T00:00:00.000",
+        "count" : "215"
+      }, {
+        "item" : "2010-05-15T00:00:00.000",
+        "count" : "209"
+      }, {
+        "item" : "1977-08-29T00:00:00.000",
+        "count" : "208"
+      }, {
+        "item" : "1984-05-01T00:00:00.000",
+        "count" : "196"
+      }, {
+        "item" : "2002-01-01T00:00:00.000",
+        "count" : "185"
+      }, {
+        "item" : "2005-01-01T00:00:00.000",
+        "count" : "182"
+      }, {
+        "item" : "2006-01-01T00:00:00.000",
+        "count" : "181"
+      } ],
+      "smallest" : "1654-03-29T00:00:00.000",
+      "not_null" : "147844",
+      "count" : "3486216",
+      "cardinality" : "3486216"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 321325760,
+    "name" : "NAICS Code",
+    "dataTypeName" : "text",
+    "description" : "North American Industry Classification Code (see federal website for definitions).",
+    "fieldName" : "_621111",
+    "position" : 19,
+    "renderTypeName" : "text",
+    "tableColumnId" : 48780262,
+    "width" : 172,
+    "cachedContents" : {
+      "largest" : "999999",
+      "non_null" : "629532",
+      "null" : "2856684",
+      "top" : [ {
+        "item" : "531110",
+        "count" : "30178"
+      }, {
+        "item" : "531390",
+        "count" : "29556"
+      }, {
+        "item" : "531120",
+        "count" : "21475"
+      }, {
+        "item" : "541990",
+        "count" : "14379"
+      }, {
+        "item" : "551112",
+        "count" : "14078"
+      }, {
+        "item" : "531210",
+        "count" : "9686"
+      }, {
+        "item" : "541511",
+        "count" : "9434"
+      }, {
+        "item" : "541611",
+        "count" : "9232"
+      }, {
+        "item" : "813110",
+        "count" : "9057"
+      }, {
+        "item" : "541110",
+        "count" : "8175"
+      }, {
+        "item" : "211120",
+        "count" : "8150"
+      }, {
+        "item" : "531190",
+        "count" : "7239"
+      }, {
+        "item" : "621111",
+        "count" : "6989"
+      }, {
+        "item" : "541330",
+        "count" : "6861"
+      }, {
+        "item" : "541512",
+        "count" : "5756"
+      }, {
+        "item" : "524210",
+        "count" : "5663"
+      }, {
+        "item" : "541000",
+        "count" : "5645"
+      }, {
+        "item" : "454110",
+        "count" : "5643"
+      }, {
+        "item" : "813000",
+        "count" : "5615"
+      }, {
+        "item" : "541519",
+        "count" : "5406"
+      } ],
+      "smallest" : "  ",
+      "not_null" : "541948",
+      "count" : "3486216",
+      "cardinality" : "3486216"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "attachments" : [ {
+      "filename" : "Franchise Layout.docx",
+      "assetId" : "297f2282-33fe-4e7b-86de-10f6ae5f07e3",
+      "name" : "Franchise Layout.docx"
+    } ],
+    "custom_fields" : {
+      "Dataset Category" : {
+        "Agency" : "Texas Comptroller of Public Accounts",
+        "Category Tile" : "Government and Taxes"
+      },
+      "Microsite" : {
+        "Tags" : "Government and Taxes",
+        "Microsite" : "Texas Comptroller of Public Accounts"
+      }
+    },
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "rpyr-842j",
+    "displayName" : "CPA",
+    "screenName" : "CPA",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "rpyr-842j",
+    "displayName" : "CPA",
+    "screenName" : "CPA",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

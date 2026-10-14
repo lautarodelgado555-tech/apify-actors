@@ -1,0 +1,1479 @@
+{
+  "id" : "tckn-sxa6",
+  "name" : "Active Businesses - ALL",
+  "assetType" : "dataset",
+  "averageRating" : 0,
+  "category" : "business",
+  "createdAt" : 1595863217,
+  "description" : "All Active businesses - Principal Place of Business address, Mailing address, Registered Agent, Authorized Representative.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 50072,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 34781589,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1595869129,
+  "publicationGroup" : 17379056,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1791927094,
+  "rowsUpdatedBy" : "b32v-qdx2",
+  "tableId" : 17379156,
+  "totalTimesRated" : 0,
+  "viewCount" : 520946,
+  "viewLastModified" : 1791926505,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1595865948,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 2484027,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1595865948,
+    "targetAudience" : "public",
+    "workflowId" : 1508,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1595865948,
+      "failureCount" : 0,
+      "startedAt" : 1595865948,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "ngr9-eh9y",
+      "displayName" : "Judy Weems"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 483875350,
+    "name" : "Registry Number",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "registry_number",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 109977946,
+    "cachedContents" : {
+      "non_null" : "1582772",
+      "largest" : "9999996",
+      "null" : "0",
+      "top" : [ {
+        "item" : "263673494",
+        "count" : "7"
+      }, {
+        "item" : "226205391",
+        "count" : "7"
+      }, {
+        "item" : "262743892",
+        "count" : "7"
+      }, {
+        "item" : "263934094",
+        "count" : "7"
+      }, {
+        "item" : "258392795",
+        "count" : "6"
+      }, {
+        "item" : "227114295",
+        "count" : "6"
+      }, {
+        "item" : "167318592",
+        "count" : "6"
+      }, {
+        "item" : "263071194",
+        "count" : "6"
+      }, {
+        "item" : "216783191",
+        "count" : "5"
+      }, {
+        "item" : "260108098",
+        "count" : "5"
+      }, {
+        "item" : "226530194",
+        "count" : "5"
+      }, {
+        "item" : "140482092",
+        "count" : "5"
+      }, {
+        "item" : "148654494",
+        "count" : "5"
+      }, {
+        "item" : "261118690",
+        "count" : "5"
+      }, {
+        "item" : "213385792",
+        "count" : "5"
+      }, {
+        "item" : "250115293",
+        "count" : "5"
+      }, {
+        "item" : "230688897",
+        "count" : "5"
+      }, {
+        "item" : "231925991",
+        "count" : "5"
+      }, {
+        "item" : "262696991",
+        "count" : "5"
+      }, {
+        "item" : "227892890",
+        "count" : "5"
+      } ],
+      "smallest" : "100000199",
+      "count" : "1582772",
+      "cardinality" : "1582772"
+    },
+    "format" : { }
+  }, {
+    "id" : 483875332,
+    "name" : "Business Name",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "business_name",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 109976606,
+    "cachedContents" : {
+      "non_null" : "1582772",
+      "largest" : "ZZZ PRECISION LLC",
+      "null" : "0",
+      "top" : [ {
+        "item" : "CAL'S MOVING & STORAGE",
+        "count" : "10"
+      }, {
+        "item" : "LA QUINTA INN & SUITES",
+        "count" : "8"
+      }, {
+        "item" : "ANYTIME FITNESS",
+        "count" : "8"
+      }, {
+        "item" : "HOLIDAY MOTEL",
+        "count" : "8"
+      }, {
+        "item" : "ADVENTIST HEALTH NORTHWEST HEART CENTER",
+        "count" : "8"
+      }, {
+        "item" : "BUDGET INN",
+        "count" : "8"
+      }, {
+        "item" : "NEWBERG BICYCLE REPAIR",
+        "count" : "7"
+      }, {
+        "item" : "PRIZEPICKS PACKS",
+        "count" : "7"
+      }, {
+        "item" : "THE SPOT TAVERN",
+        "count" : "7"
+      }, {
+        "item" : "PEAHENPACKAGESPDX, LLC",
+        "count" : "7"
+      }, {
+        "item" : "MR. ROOTER PLUMBING",
+        "count" : "6"
+      }, {
+        "item" : "MINDFUL REFLECTIONS, LLC",
+        "count" : "6"
+      }, {
+        "item" : "ALL SEASONS LANDSCAPE MAINTENANCE",
+        "count" : "6"
+      }, {
+        "item" : "CASCADE CAR WASH",
+        "count" : "6"
+      }, {
+        "item" : "ENTEGRIS, INC.",
+        "count" : "6"
+      }, {
+        "item" : "BANDON COAST LIVING LLC",
+        "count" : "6"
+      }, {
+        "item" : "DRY CREEK RANCH",
+        "count" : "6"
+      }, {
+        "item" : "SPARKLE HOUSE CLEANING LLC",
+        "count" : "6"
+      }, {
+        "item" : "DENALI Y CONSTRUCTION LLC",
+        "count" : "6"
+      }, {
+        "item" : "ALYNN LUCAS WRITING LLC DBA FALLEN ANGEL ENTERPRISES",
+        "count" : "6"
+      } ],
+      "smallest" : "000004 DESIGN LAB LLC",
+      "count" : "1582772",
+      "cardinality" : "1582772"
+    },
+    "format" : { }
+  }, {
+    "id" : 483875333,
+    "name" : "Entity Type",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "entity_type",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 109976607,
+    "cachedContents" : {
+      "non_null" : "1582772",
+      "largest" : "RESERVED NAME",
+      "null" : "0",
+      "top" : [ {
+        "item" : "DOMESTIC LIMITED LIABILITY COMPANY",
+        "count" : "898245"
+      }, {
+        "item" : "ASSUMED BUSINESS NAME",
+        "count" : "234195"
+      }, {
+        "item" : "DOMESTIC BUSINESS CORPORATION",
+        "count" : "137986"
+      }, {
+        "item" : "FOREIGN LIMITED LIABILITY COMPANY",
+        "count" : "101465"
+      }, {
+        "item" : "DOMESTIC NONPROFIT CORPORATION",
+        "count" : "101347"
+      }, {
+        "item" : "FOREIGN BUSINESS CORPORATION",
+        "count" : "81862"
+      }, {
+        "item" : "DOMESTIC PROFESSIONAL CORPORATION",
+        "count" : "12585"
+      }, {
+        "item" : "FOREIGN NONPROFIT CORPORATION",
+        "count" : "5810"
+      }, {
+        "item" : "DOMESTIC LIMITED PARTNERSHIP",
+        "count" : "2523"
+      }, {
+        "item" : "FOREIGN PROFESSIONAL CORPORATION",
+        "count" : "2311"
+      }, {
+        "item" : "FOREIGN LIMITED PARTNERSHIP",
+        "count" : "1702"
+      }, {
+        "item" : "COOPERATIVE",
+        "count" : "829"
+      }, {
+        "item" : "DOMESTIC REGISTERED LIMITED LIABILITY PARTNERSHIP",
+        "count" : "698"
+      }, {
+        "item" : "FOREIGN REGISTERED LIMITED LIABILITY PARTNERSHIP",
+        "count" : "461"
+      }, {
+        "item" : "DISTRICT IMPROVEMENT NONPROFIT",
+        "count" : "392"
+      }, {
+        "item" : "FOREIGN BUSINESS TRUST",
+        "count" : "219"
+      }, {
+        "item" : "DOMESTIC BUSINESS TRUST",
+        "count" : "85"
+      }, {
+        "item" : "RESERVED NAME",
+        "count" : "29"
+      }, {
+        "item" : "ACT OF GOVERNMENT",
+        "count" : "15"
+      }, {
+        "item" : "REGISTERED NAME",
+        "count" : "7"
+      } ],
+      "smallest" : "ACT OF GOVERNMENT",
+      "count" : "1582772",
+      "cardinality" : "1582772"
+    },
+    "format" : { }
+  }, {
+    "id" : 483875334,
+    "name" : "Registry Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "",
+    "fieldName" : "registry_date",
+    "position" : 4,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 109976608,
+    "cachedContents" : {
+      "non_null" : "1582772",
+      "largest" : "2026-10-13T13:43:54.000",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2008-04-29T00:00:00.000",
+        "count" : "530"
+      }, {
+        "item" : "2006-02-17T00:00:00.000",
+        "count" : "378"
+      }, {
+        "item" : "2015-07-30T00:00:00.000",
+        "count" : "339"
+      }, {
+        "item" : "2002-10-08T00:00:00.000",
+        "count" : "245"
+      }, {
+        "item" : "2026-01-02T00:00:00.000",
+        "count" : "191"
+      }, {
+        "item" : "2002-11-08T00:00:00.000",
+        "count" : "190"
+      }, {
+        "item" : "2007-12-31T00:00:00.000",
+        "count" : "189"
+      }, {
+        "item" : "2006-12-29T00:00:00.000",
+        "count" : "181"
+      }, {
+        "item" : "2025-08-18T00:00:00.000",
+        "count" : "180"
+      }, {
+        "item" : "2024-09-27T00:00:00.000",
+        "count" : "176"
+      }, {
+        "item" : "2023-02-09T00:00:00.000",
+        "count" : "175"
+      }, {
+        "item" : "2024-05-24T00:00:00.000",
+        "count" : "173"
+      }, {
+        "item" : "2004-12-29T00:00:00.000",
+        "count" : "173"
+      }, {
+        "item" : "2005-12-21T00:00:00.000",
+        "count" : "173"
+      }, {
+        "item" : "2023-01-25T00:00:00.000",
+        "count" : "171"
+      }, {
+        "item" : "2022-09-08T00:00:00.000",
+        "count" : "169"
+      }, {
+        "item" : "2007-03-23T00:00:00.000",
+        "count" : "167"
+      }, {
+        "item" : "2023-02-13T00:00:00.000",
+        "count" : "163"
+      }, {
+        "item" : "2004-12-28T00:00:00.000",
+        "count" : "159"
+      }, {
+        "item" : "2007-04-13T00:00:00.000",
+        "count" : "157"
+      } ],
+      "smallest" : "1850-05-17T00:00:00.000",
+      "count" : "1582772",
+      "cardinality" : "1582772"
+    },
+    "format" : { }
+  }, {
+    "id" : 483875335,
+    "name" : "Associated Name Type",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "associated_name_type",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 109976609,
+    "cachedContents" : {
+      "non_null" : "1582772",
+      "largest" : "REGISTERED AGENT",
+      "null" : "0",
+      "top" : [ {
+        "item" : "PRINCIPAL PLACE OF BUSINESS",
+        "count" : "562514"
+      }, {
+        "item" : "REGISTERED AGENT",
+        "count" : "452140"
+      }, {
+        "item" : "MAILING ADDRESS",
+        "count" : "450499"
+      }, {
+        "item" : "AUTHORIZED REPRESENTATIVE",
+        "count" : "117619"
+      } ],
+      "smallest" : "AUTHORIZED REPRESENTATIVE",
+      "count" : "1582772",
+      "cardinality" : "1582772"
+    },
+    "format" : { }
+  }, {
+    "id" : 483875336,
+    "name" : "First Name",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "first_name",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 109976610,
+    "cachedContents" : {
+      "non_null" : "413354",
+      "largest" : "ZYRIAH",
+      "null" : "1169418",
+      "top" : [ {
+        "item" : "MICHAEL",
+        "count" : "7368"
+      }, {
+        "item" : "DAVID",
+        "count" : "6828"
+      }, {
+        "item" : "JOHN",
+        "count" : "6105"
+      }, {
+        "item" : "JAMES",
+        "count" : "4808"
+      }, {
+        "item" : "ROBERT",
+        "count" : "4776"
+      }, {
+        "item" : "MARK",
+        "count" : "3393"
+      }, {
+        "item" : "DANIEL",
+        "count" : "3349"
+      }, {
+        "item" : "BRIAN",
+        "count" : "3039"
+      }, {
+        "item" : "WILLIAM",
+        "count" : "3010"
+      }, {
+        "item" : "RICHARD",
+        "count" : "2911"
+      }, {
+        "item" : "MATTHEW",
+        "count" : "2878"
+      }, {
+        "item" : "JENNIFER",
+        "count" : "2801"
+      }, {
+        "item" : "THOMAS",
+        "count" : "2663"
+      }, {
+        "item" : "SCOTT",
+        "count" : "2610"
+      }, {
+        "item" : "CHRISTOPHER",
+        "count" : "2600"
+      }, {
+        "item" : "ANDREW",
+        "count" : "2394"
+      }, {
+        "item" : "STEVEN",
+        "count" : "2388"
+      }, {
+        "item" : "JASON",
+        "count" : "2383"
+      }, {
+        "item" : "JOSEPH",
+        "count" : "2306"
+      }, {
+        "item" : "KEVIN",
+        "count" : "2292"
+      } ],
+      "smallest" : "``",
+      "count" : "1582772",
+      "cardinality" : "1582772"
+    },
+    "format" : { }
+  }, {
+    "id" : 483875337,
+    "name" : "Middle Name",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "middle_name",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 109976611,
+    "cachedContents" : {
+      "non_null" : "207807",
+      "largest" : "ZYLON",
+      "null" : "1374965",
+      "top" : [ {
+        "item" : "A",
+        "count" : "13287"
+      }, {
+        "item" : "L",
+        "count" : "12352"
+      }, {
+        "item" : "J",
+        "count" : "11986"
+      }, {
+        "item" : "M",
+        "count" : "11984"
+      }, {
+        "item" : "R",
+        "count" : "8441"
+      }, {
+        "item" : "D",
+        "count" : "8192"
+      }, {
+        "item" : "E",
+        "count" : "7376"
+      }, {
+        "item" : "C",
+        "count" : "6205"
+      }, {
+        "item" : "S",
+        "count" : "5418"
+      }, {
+        "item" : "W",
+        "count" : "4626"
+      }, {
+        "item" : "K",
+        "count" : "3812"
+      }, {
+        "item" : "T",
+        "count" : "3514"
+      }, {
+        "item" : "G",
+        "count" : "3336"
+      }, {
+        "item" : "P",
+        "count" : "3292"
+      }, {
+        "item" : "B",
+        "count" : "3199"
+      }, {
+        "item" : "MARIE",
+        "count" : "2770"
+      }, {
+        "item" : "H",
+        "count" : "2562"
+      }, {
+        "item" : "F",
+        "count" : "2296"
+      }, {
+        "item" : "ANN",
+        "count" : "2272"
+      }, {
+        "item" : "LEE",
+        "count" : "2246"
+      } ],
+      "smallest" : "-",
+      "count" : "1582772",
+      "cardinality" : "1582772"
+    },
+    "format" : { }
+  }, {
+    "id" : 483875338,
+    "name" : "Last Name",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "last_name",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 109976612,
+    "cachedContents" : {
+      "non_null" : "413340",
+      "largest" : "ZZZINAE",
+      "null" : "1169432",
+      "top" : [ {
+        "item" : "SMITH",
+        "count" : "2818"
+      }, {
+        "item" : "JOHNSON",
+        "count" : "2355"
+      }, {
+        "item" : "MILLER",
+        "count" : "1752"
+      }, {
+        "item" : "BROWN",
+        "count" : "1518"
+      }, {
+        "item" : "ANDERSON",
+        "count" : "1370"
+      }, {
+        "item" : "WILLIAMS",
+        "count" : "1350"
+      }, {
+        "item" : "JONES",
+        "count" : "1298"
+      }, {
+        "item" : "DAVIS",
+        "count" : "1294"
+      }, {
+        "item" : "WILSON",
+        "count" : "1060"
+      }, {
+        "item" : "LEE",
+        "count" : "944"
+      }, {
+        "item" : "NELSON",
+        "count" : "903"
+      }, {
+        "item" : "NGUYEN",
+        "count" : "893"
+      }, {
+        "item" : "MOORE",
+        "count" : "893"
+      }, {
+        "item" : "MARTIN",
+        "count" : "886"
+      }, {
+        "item" : "TAYLOR",
+        "count" : "873"
+      }, {
+        "item" : "PETERSON",
+        "count" : "830"
+      }, {
+        "item" : "THOMPSON",
+        "count" : "828"
+      }, {
+        "item" : "CLARK",
+        "count" : "779"
+      }, {
+        "item" : "ALLEN",
+        "count" : "769"
+      }, {
+        "item" : "GARCIA",
+        "count" : "754"
+      } ],
+      "smallest" : "0'CONNOR",
+      "count" : "1582772",
+      "cardinality" : "1582772"
+    },
+    "format" : { }
+  }, {
+    "id" : 483875339,
+    "name" : "Suffix",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "suffix",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 109976613,
+    "cachedContents" : {
+      "non_null" : "8111",
+      "largest" : "VIII",
+      "null" : "1574661",
+      "top" : [ {
+        "item" : "JR",
+        "count" : "4051"
+      }, {
+        "item" : "III",
+        "count" : "1213"
+      }, {
+        "item" : "SR",
+        "count" : "1119"
+      }, {
+        "item" : "II",
+        "count" : "800"
+      }, {
+        "item" : "I",
+        "count" : "535"
+      }, {
+        "item" : "IV",
+        "count" : "277"
+      }, {
+        "item" : "V",
+        "count" : "34"
+      }, {
+        "item" : "DMD",
+        "count" : "16"
+      }, {
+        "item" : "VI",
+        "count" : "10"
+      }, {
+        "item" : "MD",
+        "count" : "9"
+      }, {
+        "item" : "JR.",
+        "count" : "7"
+      }, {
+        "item" : "DDS",
+        "count" : "5"
+      }, {
+        "item" : "ESQ.",
+        "count" : "3"
+      }, {
+        "item" : "DVM",
+        "count" : "3"
+      }, {
+        "item" : "M.D.",
+        "count" : "2"
+      }, {
+        "item" : "O.D.",
+        "count" : "2"
+      }, {
+        "item" : "ESQUIRE",
+        "count" : "1"
+      }, {
+        "item" : "ESQ",
+        "count" : "1"
+      }, {
+        "item" : "EDD",
+        "count" : "1"
+      }, {
+        "item" : "BR",
+        "count" : "1"
+      } ],
+      "smallest" : "`",
+      "count" : "1582772",
+      "cardinality" : "1582772"
+    },
+    "format" : { }
+  }, {
+    "id" : 483875340,
+    "name" : "Not of Record Entity",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "not_of_record_entity",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 109976614,
+    "cachedContents" : {
+      "non_null" : "158",
+      "largest" : "WESTSIDE FOREIGN AUTO L.L.C.",
+      "null" : "1582614",
+      "top" : [ {
+        "item" : "SIMMONS LAW, PC",
+        "count" : "11"
+      }, {
+        "item" : "CMI",
+        "count" : "5"
+      }, {
+        "item" : "BRIDGE CITY COMMUNITY MANAGEMENT",
+        "count" : "3"
+      }, {
+        "item" : "C/O BUCHALTER",
+        "count" : "2"
+      }, {
+        "item" : "CA PARTNERS LLC",
+        "count" : "2"
+      }, {
+        "item" : "TT ADMINISTRATIVE SERVICES, LLC",
+        "count" : "2"
+      }, {
+        "item" : "COMMUNITY MANAGEMENT, INC.",
+        "count" : "2"
+      }, {
+        "item" : "BRIDGE CITY COMMUNITY MANAGEMENT, INC.",
+        "count" : "2"
+      }, {
+        "item" : "ROYAL FLUSH SERVICES HOLDINGS, LLC",
+        "count" : "2"
+      }, {
+        "item" : "MOORE & WELLIVER",
+        "count" : "2"
+      }, {
+        "item" : "OREGON DAIRY PRODUCTS COMMISSION",
+        "count" : "2"
+      }, {
+        "item" : "BEONE MEDICINES USA, INC.",
+        "count" : "1"
+      }, {
+        "item" : "ATTN: LAURA LETHE",
+        "count" : "1"
+      }, {
+        "item" : "BRENNTAG NORTH AMERICA LLC",
+        "count" : "1"
+      }, {
+        "item" : "BB&G GROUP",
+        "count" : "1"
+      }, {
+        "item" : "AUO GEORGE H WILLIAMS CONDO C/O BRIDGETOWN COMMUNITY MANAGEMENT LLC",
+        "count" : "1"
+      }, {
+        "item" : "ATTN HENRY WONG VERSANT TAX DEPT",
+        "count" : "1"
+      }, {
+        "item" : "AMS (ASSOCIATION MANAGEMENT SERVICES NW)",
+        "count" : "1"
+      }, {
+        "item" : "ATTN TALENT CAFE",
+        "count" : "1"
+      }, {
+        "item" : "CARDINAL GROUP INVESTMENT MANAGEMENT LLC",
+        "count" : "1"
+      } ],
+      "smallest" : "AFRICAN ROOTS INC",
+      "count" : "1582772",
+      "cardinality" : "1582772"
+    },
+    "format" : { }
+  }, {
+    "id" : 483875341,
+    "name" : "Entity of Record Reg Number",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "entity_of_record_reg_number",
+    "position" : 11,
+    "renderTypeName" : "number",
+    "tableColumnId" : 109976615,
+    "cachedContents" : {
+      "non_null" : "156814",
+      "largest" : "263805096",
+      "null" : "1425958",
+      "top" : [ {
+        "item" : "75788399",
+        "count" : "18555"
+      }, {
+        "item" : "15872088",
+        "count" : "17715"
+      }, {
+        "item" : "51329093",
+        "count" : "15067"
+      }, {
+        "item" : "329227",
+        "count" : "14146"
+      }, {
+        "item" : "66022790",
+        "count" : "4216"
+      }, {
+        "item" : "56822381",
+        "count" : "4064"
+      }, {
+        "item" : "13492293",
+        "count" : "3011"
+      }, {
+        "item" : "14235790",
+        "count" : "2648"
+      }, {
+        "item" : "46258083",
+        "count" : "2034"
+      }, {
+        "item" : "74556284",
+        "count" : "2022"
+      }, {
+        "item" : "117078493",
+        "count" : "2019"
+      }, {
+        "item" : "8601296",
+        "count" : "1727"
+      }, {
+        "item" : "203529193",
+        "count" : "1533"
+      }, {
+        "item" : "37158888",
+        "count" : "1517"
+      }, {
+        "item" : "5183496",
+        "count" : "1447"
+      }, {
+        "item" : "168054592",
+        "count" : "1301"
+      }, {
+        "item" : "106256597",
+        "count" : "1215"
+      }, {
+        "item" : "105857791",
+        "count" : "1182"
+      }, {
+        "item" : "63141486",
+        "count" : "1161"
+      }, {
+        "item" : "76621987",
+        "count" : "983"
+      } ],
+      "smallest" : "2741",
+      "count" : "1582772",
+      "cardinality" : "1582772"
+    },
+    "format" : { }
+  }, {
+    "id" : 483875342,
+    "name" : "Entity of Record Name",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "entity_of_record_name",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 109976616,
+    "cachedContents" : {
+      "non_null" : "156814",
+      "largest" : "ZZ TALENT, LLC",
+      "null" : "1425958",
+      "top" : [ {
+        "item" : "REGISTERED AGENTS INC",
+        "count" : "18555"
+      }, {
+        "item" : "CORPORATION SERVICE COMPANY",
+        "count" : "17715"
+      }, {
+        "item" : "NORTHWEST REGISTERED AGENT LLC",
+        "count" : "15067"
+      }, {
+        "item" : "C T CORPORATION SYSTEM",
+        "count" : "14146"
+      }, {
+        "item" : "UNITED STATES CORPORATION AGENTS, INC.",
+        "count" : "4216"
+      }, {
+        "item" : "COGENCY GLOBAL INC.",
+        "count" : "4064"
+      }, {
+        "item" : "REGISTERED AGENT SOLUTIONS, INC.",
+        "count" : "3011"
+      }, {
+        "item" : "INCORP SERVICES, INC.",
+        "count" : "2648"
+      }, {
+        "item" : "NATIONAL REGISTERED AGENTS, INC.",
+        "count" : "2034"
+      }, {
+        "item" : "STEVENS & LEGAL, LLC",
+        "count" : "2019"
+      }, {
+        "item" : "TT ADMINISTRATIVE SERVICES, LLC",
+        "count" : "1727"
+      }, {
+        "item" : "REPUBLIC REGISTERED AGENT LLC",
+        "count" : "1533"
+      }, {
+        "item" : "WATKINSON LAIRD RUBENSTEIN, P.C.",
+        "count" : "1517"
+      }, {
+        "item" : "CORPORATE CREATIONS NETWORK INC.",
+        "count" : "1447"
+      }, {
+        "item" : "SIMMONS LAW, P.C.",
+        "count" : "1301"
+      }, {
+        "item" : "OREGON REGISTERED AGENT LLC",
+        "count" : "1215"
+      }, {
+        "item" : "KAR AGENT AND SERVICE CO., LLC",
+        "count" : "1182"
+      }, {
+        "item" : "PARACORP INCORPORATED",
+        "count" : "1161"
+      }, {
+        "item" : "SW & W REGISTERED AGENTS, INC.",
+        "count" : "1011"
+      }, {
+        "item" : "SW&W REGISTERED AGENTS, INC.",
+        "count" : "1011"
+      } ],
+      "smallest" : "0XOTICS LLC",
+      "count" : "1582772",
+      "cardinality" : "1582772"
+    },
+    "format" : { }
+  }, {
+    "id" : 483875343,
+    "name" : "Address",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "address",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 109976617,
+    "cachedContents" : {
+      "non_null" : "1582772",
+      "largest" : "ZUPANCIC ALBIN LAW PC",
+      "null" : "0",
+      "top" : [ {
+        "item" : "5441 S MACADAM AVE",
+        "count" : "33643"
+      }, {
+        "item" : "5441 S MACADAM AVE STE N",
+        "count" : "16101"
+      }, {
+        "item" : "5441 S MACADAM AVE STE R",
+        "count" : "13139"
+      }, {
+        "item" : "780 COMMERCIAL ST SE STE 100",
+        "count" : "12295"
+      }, {
+        "item" : "1127 BROADWAY ST NE STE 310",
+        "count" : "6890"
+      }, {
+        "item" : "698 12TH ST SE STE 200",
+        "count" : "5127"
+      }, {
+        "item" : "7185 SW SANDBURG ST STE 110",
+        "count" : "4018"
+      }, {
+        "item" : "1127 BROADWAY STREET NE STE 310",
+        "count" : "3887"
+      }, {
+        "item" : "5020 NE M L KING JR BLVD",
+        "count" : "3783"
+      }, {
+        "item" : "7185 SW SANDBURG STREET",
+        "count" : "3139"
+      }, {
+        "item" : "1211 SW FIFTH AVE STE 1800",
+        "count" : "2891"
+      }, {
+        "item" : "5020 NE MARTIN LUTHER KING JR BLVD",
+        "count" : "2827"
+      }, {
+        "item" : "1127 BROADWAY STREET NE",
+        "count" : "2496"
+      }, {
+        "item" : "942 WINDEMERE DR NW",
+        "count" : "2320"
+      }, {
+        "item" : "3400 NE JOHN OLSEN AVE",
+        "count" : "2222"
+      }, {
+        "item" : "2270 NW AVIATION DR STE 4",
+        "count" : "2203"
+      }, {
+        "item" : "1127 BROADWAY ST NE",
+        "count" : "1871"
+      }, {
+        "item" : "3400 NE JOHN OLSEN AVE STE 200",
+        "count" : "1859"
+      }, {
+        "item" : "1127 BROADWAY STREET NE SUITE 310",
+        "count" : "1614"
+      }, {
+        "item" : "780 COMMERCIAL STREET SE STE 100",
+        "count" : "1559"
+      } ],
+      "smallest" : "000 S HWY 395 STE",
+      "count" : "1582772",
+      "cardinality" : "1582772"
+    },
+    "format" : { }
+  }, {
+    "id" : 483875344,
+    "name" : "Address Continued",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "address_continued",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 109976618,
+    "cachedContents" : {
+      "non_null" : "160309",
+      "largest" : "ZIP 97439",
+      "null" : "1422463",
+      "top" : [ {
+        "item" : "STE N",
+        "count" : "9851"
+      }, {
+        "item" : "STE R",
+        "count" : "9269"
+      }, {
+        "item" : "SUITE R",
+        "count" : "7732"
+      }, {
+        "item" : "SUITE 110",
+        "count" : "3697"
+      }, {
+        "item" : "SUITE 200",
+        "count" : "3665"
+      }, {
+        "item" : "SUITE N",
+        "count" : "3466"
+      }, {
+        "item" : "SUITE 310",
+        "count" : "3431"
+      }, {
+        "item" : "SUITE 100",
+        "count" : "3204"
+      }, {
+        "item" : "STE 200",
+        "count" : "3171"
+      }, {
+        "item" : "STE 100",
+        "count" : "2215"
+      }, {
+        "item" : "STE C",
+        "count" : "2181"
+      }, {
+        "item" : "SUITE 300",
+        "count" : "1781"
+      }, {
+        "item" : "SUITE A",
+        "count" : "1738"
+      }, {
+        "item" : "SUITE 2400",
+        "count" : "1595"
+      }, {
+        "item" : "1000 SW BROADWAY STE 1400",
+        "count" : "1177"
+      }, {
+        "item" : "SUITE 400",
+        "count" : "1148"
+      }, {
+        "item" : "520 SW YAMHILL ST STE 600",
+        "count" : "921"
+      }, {
+        "item" : "SUITE B",
+        "count" : "778"
+      }, {
+        "item" : "15 SW COLORADO AVE STE 3",
+        "count" : "753"
+      }, {
+        "item" : "SUITE 201",
+        "count" : "739"
+      } ],
+      "smallest" : "`",
+      "count" : "1582772",
+      "cardinality" : "1582772"
+    },
+    "format" : { }
+  }, {
+    "id" : 483875345,
+    "name" : "City",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "city",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 109976619,
+    "cachedContents" : {
+      "non_null" : "1582772",
+      "largest" : "ZIONSVILLE",
+      "null" : "0",
+      "top" : [ {
+        "item" : "PORTLAND",
+        "count" : "378134"
+      }, {
+        "item" : "SALEM",
+        "count" : "110560"
+      }, {
+        "item" : "BEND",
+        "count" : "69879"
+      }, {
+        "item" : "EUGENE",
+        "count" : "64714"
+      }, {
+        "item" : "BEAVERTON",
+        "count" : "45320"
+      }, {
+        "item" : "LAKE OSWEGO",
+        "count" : "30831"
+      }, {
+        "item" : "HILLSBORO",
+        "count" : "29654"
+      }, {
+        "item" : "MEDFORD",
+        "count" : "28867"
+      }, {
+        "item" : "GRANTS PASS",
+        "count" : "18576"
+      }, {
+        "item" : "GRESHAM",
+        "count" : "18092"
+      }, {
+        "item" : "ALBANY",
+        "count" : "17786"
+      }, {
+        "item" : "OREGON CITY",
+        "count" : "16819"
+      }, {
+        "item" : "CORVALLIS",
+        "count" : "16310"
+      }, {
+        "item" : "TIGARD",
+        "count" : "16121"
+      }, {
+        "item" : "SPRINGFIELD",
+        "count" : "15841"
+      }, {
+        "item" : "ROSEBURG",
+        "count" : "15739"
+      }, {
+        "item" : "REDMOND",
+        "count" : "15727"
+      }, {
+        "item" : "MILWAUKIE",
+        "count" : "13171"
+      }, {
+        "item" : "KLAMATH FALLS",
+        "count" : "11980"
+      }, {
+        "item" : "ASHLAND",
+        "count" : "11697"
+      } ],
+      "smallest" : "ABBOTSFORD",
+      "count" : "1582772",
+      "cardinality" : "1582772"
+    },
+    "format" : { }
+  }, {
+    "id" : 483875346,
+    "name" : "State",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "state",
+    "position" : 16,
+    "renderTypeName" : "text",
+    "tableColumnId" : 109976620,
+    "cachedContents" : {
+      "non_null" : "1582772",
+      "largest" : "YUKON",
+      "null" : "0",
+      "top" : [ {
+        "item" : "OR",
+        "count" : "1419468"
+      }, {
+        "item" : "WA",
+        "count" : "28385"
+      }, {
+        "item" : "CA",
+        "count" : "27832"
+      }, {
+        "item" : "TX",
+        "count" : "11484"
+      }, {
+        "item" : "FL",
+        "count" : "8524"
+      }, {
+        "item" : "NY",
+        "count" : "7148"
+      }, {
+        "item" : "IL",
+        "count" : "5326"
+      }, {
+        "item" : "ID",
+        "count" : "5176"
+      }, {
+        "item" : "AZ",
+        "count" : "5099"
+      }, {
+        "item" : "CO",
+        "count" : "3806"
+      }, {
+        "item" : "NV",
+        "count" : "3731"
+      }, {
+        "item" : "GA",
+        "count" : "3699"
+      }, {
+        "item" : "NJ",
+        "count" : "3581"
+      }, {
+        "item" : "UT",
+        "count" : "3358"
+      }, {
+        "item" : "PA",
+        "count" : "3349"
+      }, {
+        "item" : "MA",
+        "count" : "3261"
+      }, {
+        "item" : "OH",
+        "count" : "3115"
+      }, {
+        "item" : "MI",
+        "count" : "2798"
+      }, {
+        "item" : "NC",
+        "count" : "2632"
+      }, {
+        "item" : "VA",
+        "count" : "2496"
+      } ],
+      "smallest" : "AK",
+      "count" : "1582772",
+      "cardinality" : "1582772"
+    },
+    "format" : { }
+  }, {
+    "id" : 483875347,
+    "name" : "Zip",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "zip",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 109976604,
+    "cachedContents" : {
+      "non_null" : "1582760",
+      "largest" : "Y1A 6C4",
+      "null" : "12",
+      "top" : [ {
+        "item" : "97239",
+        "count" : "74310"
+      }, {
+        "item" : "97301",
+        "count" : "61615"
+      }, {
+        "item" : "97223",
+        "count" : "28364"
+      }, {
+        "item" : "97702",
+        "count" : "27278"
+      }, {
+        "item" : "97401",
+        "count" : "21336"
+      }, {
+        "item" : "97703",
+        "count" : "21070"
+      }, {
+        "item" : "97035",
+        "count" : "20564"
+      }, {
+        "item" : "97211",
+        "count" : "18062"
+      }, {
+        "item" : "97701",
+        "count" : "17316"
+      }, {
+        "item" : "97204",
+        "count" : "16913"
+      }, {
+        "item" : "97045",
+        "count" : "16820"
+      }, {
+        "item" : "97229",
+        "count" : "16708"
+      }, {
+        "item" : "97124",
+        "count" : "15787"
+      }, {
+        "item" : "97756",
+        "count" : "15540"
+      }, {
+        "item" : "97302",
+        "count" : "15241"
+      }, {
+        "item" : "97214",
+        "count" : "15170"
+      }, {
+        "item" : "97504",
+        "count" : "14986"
+      }, {
+        "item" : "97202",
+        "count" : "14176"
+      }, {
+        "item" : "97402",
+        "count" : "14111"
+      }, {
+        "item" : "97501",
+        "count" : "13664"
+      } ],
+      "smallest" : "00610",
+      "count" : "1582772",
+      "cardinality" : "1582772"
+    },
+    "format" : { }
+  }, {
+    "id" : 483875348,
+    "name" : "Jurisdiction",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "jurisdiction",
+    "position" : 18,
+    "renderTypeName" : "text",
+    "tableColumnId" : 109976621,
+    "cachedContents" : {
+      "non_null" : "1490351",
+      "largest" : "YIN",
+      "null" : "92421",
+      "top" : [ {
+        "item" : "OR",
+        "count" : "1296616"
+      }, {
+        "item" : "DE",
+        "count" : "73018"
+      }, {
+        "item" : "WA",
+        "count" : "23527"
+      }, {
+        "item" : "CA",
+        "count" : "17741"
+      }, {
+        "item" : "TX",
+        "count" : "6639"
+      }, {
+        "item" : "FL",
+        "count" : "6162"
+      }, {
+        "item" : "NV",
+        "count" : "4843"
+      }, {
+        "item" : "ID",
+        "count" : "4548"
+      }, {
+        "item" : "NY",
+        "count" : "3767"
+      }, {
+        "item" : "IL",
+        "count" : "3047"
+      }, {
+        "item" : "AZ",
+        "count" : "3023"
+      }, {
+        "item" : "CO",
+        "count" : "3003"
+      }, {
+        "item" : "WY",
+        "count" : "2821"
+      }, {
+        "item" : "OH",
+        "count" : "2642"
+      }, {
+        "item" : "UT",
+        "count" : "2520"
+      }, {
+        "item" : "GA",
+        "count" : "2378"
+      }, {
+        "item" : "MI",
+        "count" : "2281"
+      }, {
+        "item" : "MN",
+        "count" : "2226"
+      }, {
+        "item" : "MO",
+        "count" : "2105"
+      }, {
+        "item" : "PA",
+        "count" : "2092"
+      } ],
+      "smallest" : "AB",
+      "count" : "1582772",
+      "cardinality" : "1582772"
+    },
+    "format" : { }
+  }, {
+    "id" : 483875349,
+    "name" : "Business Details",
+    "dataTypeName" : "url",
+    "description" : "Link to the business details",
+    "fieldName" : "business_details",
+    "position" : 19,
+    "renderTypeName" : "url",
+    "tableColumnId" : 109976622,
+    "format" : { },
+    "subColumnTypes" : [ "url", "description" ]
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "custom_fields" : {
+      "Dataset Information" : {
+        "Data Dictionary" : "No",
+        "Data Publishing Frequency" : "Weekly",
+        "Data Change Frequency" : "Weekly",
+        "Agency Name" : "Secretary of State - Corporation Division"
+      }
+    },
+    "rowLabel" : "row",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "ngr9-eh9y",
+    "displayName" : "Judy Weems",
+    "screenName" : "Judy Weems",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "ngr9-eh9y",
+    "displayName" : "Judy Weems",
+    "screenName" : "Judy Weems",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula" ]
+  },
+  "tags" : [ "business registry" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}
