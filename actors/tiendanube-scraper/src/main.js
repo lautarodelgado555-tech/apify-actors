@@ -363,7 +363,7 @@ async function processCatalogStore(target) {
     await mapPool(entries, maxConcurrencyPerStore, async (entry) => {
         const url = entry.loc;
         const slug = productSlug(url);
-        if (state.emitted[url]) return;
+        if (state.emitted[short(url)]) return;
         const r = await fetchPage(url);
         if (r.blocked) {
             summary.failed += 1;
@@ -412,7 +412,7 @@ async function processCatalogStore(target) {
             if (await emit('product', item)) {
                 snapshot[slug] = decision.fp;
                 summary.products += 1;
-                state.emitted[url] = 1;
+                state.emitted[short(url)] = 1;
                 dirty += 1;
                 if (dirty % 100 === 0) await snapshotStore.setValue(snapKey, snapshot);
             }
@@ -420,7 +420,7 @@ async function processCatalogStore(target) {
         }
         if (await emit('product', item)) {
             summary.products += 1;
-            state.emitted[url] = 1;
+            state.emitted[short(url)] = 1;
         }
     });
     if (snapshot) await snapshotStore.setValue(snapKey, snapshot);

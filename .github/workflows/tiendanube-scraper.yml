@@ -75,6 +75,14 @@ jobs:
         run: |
           cd "$ACTOR_DIR"
           bash ../../scripts/apify-run.sh tiendanube-scraper ci-inputs/platform.json "../../$OUT" > "../../$OUT/06-apify-run.log" 2>&1 || echo "exit $?" >> "../../$OUT/06-apify-run.log"
+      - name: Record the Actor's pricing and listing as stored on Apify (no secrets)
+        if: env.APIFY_TOKEN != '' && steps.gate.outputs.platform == 'yes'
+        run: |
+          USERNAME=$(curl -sS -H "Authorization: Bearer $APIFY_TOKEN" https://api.apify.com/v2/users/me | node -pe 'JSON.parse(require("fs").readFileSync(0)).data.username')
+          curl -sS -H "Authorization: Bearer $APIFY_TOKEN" "https://api.apify.com/v2/acts/$USERNAME~tiendanube-scraper" | node -e '
+            const d=(JSON.parse(require("fs").readFileSync(0)).data)||{};
+            console.log(JSON.stringify({isPublic:d.isPublic,title:d.title,categories:d.categories,permission:d.actorPermissionLevel,pricingInfos:d.pricingInfos,defaultRunOptions:d.defaultRunOptions},null,2));
+          ' > "$OUT/apify-listing.json" 2>&1 || true
       - name: Commit results
         if: always()
         run: |
