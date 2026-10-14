@@ -1,0 +1,18 @@
+== UNION distinct store hosts: 0
+== PACED https://dailyskincaremx.com/sitemap.xml rps=2 seconds=40 offset=0
+  [before] clear after 7s (ok streak 3)
+GET https://dailyskincaremx.com/sitemap.xml -> 200 final=https://dailyskincaremx.com/sitemap.xml len=219332 gz=false 407ms server=cloudflare content-type=application/xml content-encoding=gzip cf-ray=a4a2f1f9e8afa22d-MSP cache-control=no-cache, must-revalidate
+  sent=80/80 counts={"200":80} cache={"HIT":53,"MISS":27} first429=none stoppedEarly=false
+== PACED https://littleprincessbypaulinado.mitiendanube.com/sitemap.xml rps=4 seconds=40 offset=0
+  [before] clear after 6s (ok streak 3)
+GET https://littleprincessbypaulinado.mitiendanube.com/sitemap.xml -> 200 final=https://littleprincessbypaulinado.mitiendanube.com/sitemap.xml len=782442 gz=false 339ms server=cloudflare content-type=application/xml content-encoding=gzip cf-ray=a4a2f31d4e55a1d3-MSP cache-control=no-cache, must-revalidate
+  sent=160/160 counts={"200":142,"429":18} cache={"DYNAMIC":96,"EXPIRED":6,"MISS":31,"HIT":9,"":18} first429=request#45 at 11s stoppedEarly=false
+== PACED https://dailyskincaremx.com/sitemap.xml rps=8 seconds=20 offset=100
+  [before] clear after 6s (ok streak 3)
+GET https://dailyskincaremx.com/sitemap.xml -> 200 final=https://dailyskincaremx.com/sitemap.xml len=219332 gz=false 359ms server=cloudflare content-type=application/xml content-encoding=gzip cf-ray=a4a2f445c88b4c9d-MSP cache-control=no-cache, must-revalidate
+  sent=68/160 counts={"200":55,"429":13} cache={"MISS":42,"HIT":13,"":13} first429=request#50 at 6s stoppedEarly=true
+== PACED https://peek-store.com/sitemap.xml rps=3 seconds=16 offset=0
+  [before] clear after 6s (ok streak 3)
+GET https://peek-store.com/sitemap.xml -> 200 final=https://peek-store.com/sitemap.xml len=39153 gz=false 360ms server=cloudflare content-type=application/xml content-encoding=gzip cf-ray=a4a2f4a3cc044c9d-MSP cache-control=no-cache, must-revalidate
+  sent=48/48 counts={"200":21,"429":27} cache={"DYNAMIC":21,"":27} first429=request#9 at 3s stoppedEarly=false
+  [final] clear after 9s (ok streak 3)
