@@ -1,0 +1,22 @@
+[
+ {
+  "name": "ASP.NET_SessionId",
+  "value": "xjcuvwxqe1...",
+  "domain": "ecorp.sos.ga.gov",
+  "path": "/",
+  "expires": -1,
+  "httpOnly": true,
+  "secure": true,
+  "sameSite": "Lax"
+ },
+ {
+  "name": "__cflb",
+  "value": "02DiuGUe6E...",
+  "domain": "ecorp.sos.ga.gov",
+  "path": "/",
+  "expires": 1792024795.246,
+  "httpOnly": true,
+  "secure": true,
+  "sameSite": "None"
+ }
+]

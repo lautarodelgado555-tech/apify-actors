@@ -1,4 +1,6 @@
+=== variant ff-headless
 cf passed: true title: GEORGIA
+XHR POST status 200 mitigated null len 10477 title? 
 results still on Cloudflare challenge
 results url: https://ecorp.sos.ga.gov/BusinessSearch title: Just a moment...
 no DELTA AIR LINES link on results
@@ -6,3 +8,31 @@ ERROR page.goto: Timeout 60000ms exceeded.
 Call log:
   - navigating to "https://ecorp.sos.ga.gov/BusinessSearch", waiting until "domcontentloaded"
 
+=== variant ff-headed
+cf passed: true title: GEORGIA
+XHR POST status 200 mitigated null len 10477 title? 
+results still on Cloudflare challenge
+results url: https://ecorp.sos.ga.gov/BusinessSearch title: Just a moment...
+no DELTA AIR LINES link on results
+ERROR page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://ecorp.sos.ga.gov/BusinessSearch", waiting until "domcontentloaded"
+
+=== variant cr-headed
+cf passed: true title: GEORGIA
+XHR POST status 200 mitigated null len 10477 title? 
+nav err page.waitForNavigation: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "domcontentloaded"
+============================================================
+results url: https://ecorp.sos.ga.gov/BusinessSearch title: GEORGIA
+no DELTA AIR LINES link on results
+home2 still on Cloudflare challenge
+ERROR page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('#rdBusinessName')
+
+=== variant cr-headless
+home still on Cloudflare challenge
+cf passed: false title: Just a moment...
+ERROR blocked at home
