@@ -1,0 +1,37 @@
+# Spike for the Mercado Libre Actor: runs recon/mercadolibre-monitor/spike.mjs on a GitHub runner (datacenter IP) and commits recon/mercadolibre-monitor/out/.
+name: recon-mercadolibre-monitor
+on:
+  push:
+    paths:
+      - "recon/mercadolibre-monitor/spike.mjs"
+      - "recon/mercadolibre-monitor/targets.json"
+      - ".github/workflows/recon-mercadolibre-monitor.yml"
+permissions:
+  contents: write
+concurrency:
+  group: recon-mercadolibre-monitor
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install clients
+        run: |
+          mkdir -p /tmp/rc && cd /tmp/rc && npm init -y >/dev/null && npm i got-scraping impit playwright >/dev/null 2>&1 && npx playwright install --with-deps firefox >/dev/null 2>&1 || true
+          ln -sfn /tmp/rc/node_modules "$GITHUB_WORKSPACE/node_modules"
+      - name: Fetch
+        run: node recon/mercadolibre-monitor/spike.mjs > /tmp/recon-run.log 2>&1 || true; mkdir -p recon/mercadolibre-monitor/out; cp /tmp/recon-run.log recon/mercadolibre-monitor/out/run.log
+      - name: Commit results
+        if: always()
+        run: |
+          unlink node_modules || true
+          git config user.name "ci-bot"
+          git config user.email "ci-bot@users.noreply.github.com"
+          git add -A recon/mercadolibre-monitor/out
+          git commit -m "recon(mercadolibre-monitor): results $(date -u +%FT%TZ)" || echo "nothing to commit"
+          for i in 1 2 3 4 5; do git pull --rebase --autostash && git push && break; sleep $((RANDOM % 8 + 2)); done
