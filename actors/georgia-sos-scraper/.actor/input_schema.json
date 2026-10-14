@@ -65,9 +65,8 @@
     "proxyConfiguration": {
       "title": "Proxy",
       "type": "object",
-      "description": "Georgia's portal sits behind Cloudflare and challenges some datacenter IP ranges. Apify proxy is recommended; the Actor retries with a fresh IP when it is challenged.",
-      "editor": "proxy",
-      "prefill": { "useApifyProxy": true }
+      "description": "Optional. Georgia's portal sits behind Cloudflare, which blocks the shared Apify datacenter proxies. Leave this empty: the Actor connects directly and switches to Apify residential IPs by itself if it gets challenged. Set a residential proxy here only if you want to force it.",
+      "editor": "proxy"
     }
   },
   "required": ["searchTerms"]

@@ -87,7 +87,12 @@ The portal publishes the **last annual registration year** but not a next-due da
 | `activeOnly` | Skip dissolved, administratively dissolved, revoked, withdrawn and merged entities. |
 | `fetchDetails` | Open each entity for formation date, agent address, officers and last annual registration year. Off = list data only. |
 | `includeFilings` | Also read the filing history (annual registrations with dates and other filings). |
-| `proxyConfiguration` | Apify proxy is recommended. |
+| `proxyFallback` | On by default: when Cloudflare challenges a connection, retry on another IP and, if needed, on Apify residential IPs. |
+| `proxyConfiguration` | Optional. Leave empty (see "Connection and proxies"). |
+
+### Connection and proxies
+
+Georgia's portal sits behind Cloudflare. In our tests the shared Apify **datacenter** proxy pool was blocked in 4 of 4 runs, while a **direct** connection from Apify (4 of 4) and **residential** IPs (4 of 4) got through. So the Actor connects directly by default, and if a connection is challenged it retries on a fresh session and then switches to Apify residential IPs when your account has them (a typical run uses about 20 KB of residential traffic). You do not need to configure a proxy.
 
 ## Pricing
 

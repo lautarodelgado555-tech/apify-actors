@@ -1,9 +1,0 @@
-{
-  "searchType": "businessName",
-  "searchTerms": ["Delta Air Lines"],
-  "nameMatch": "startsWith",
-  "maxResultsPerSearch": 2,
-  "fetchDetails": true,
-  "proxyFallback": false,
-  "proxyConfiguration": { "useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "US" }
-}

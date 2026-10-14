@@ -75,13 +75,15 @@ async function closeSession() {
 /**
  * The portal's Cloudflare rules treat IP ranges very differently: some datacenter IPs pass everything, others get
  * challenged on every request. A session that works is kept for the whole run; a session that gets challenged moves
- * the run one step down this ladder (your proxy, then a direct connection, then Apify residential IPs if available).
+ * the run one step down this ladder. Measured on Apify: the platform's own IPs (direct) and residential IPs pass,
+ * the shared datacenter proxy pool is blocked, so the order is direct, residential (if the account has it), your proxy.
+ * If you configure a residential proxy yourself, that goes first.
  */
-const ladder = proxyFallback
-    ? proxyConf
-        ? ['user', 'user', 'direct', 'residential', 'user', 'direct', 'residential', 'residential']
-        : ['direct', 'direct', 'residential', 'direct', 'residential', 'residential']
-    : [proxyConf ? 'user' : 'direct'];
+const userRouteIsResidential = JSON.stringify(proxyConfiguration ?? {}).toUpperCase().includes('RESIDENTIAL');
+let ladder;
+if (!proxyFallback) ladder = [proxyConf ? 'user' : 'direct'];
+else if (userRouteIsResidential) ladder = ['user', 'user', 'direct', 'user', 'direct', 'residential'];
+else ladder = ['direct', 'direct', 'residential', 'residential', 'user', 'direct', 'residential', 'direct'];
 let ladderPos = 0;
 let residentialConf;
 const currentRoute = () => ladder[ladderPos % ladder.length];

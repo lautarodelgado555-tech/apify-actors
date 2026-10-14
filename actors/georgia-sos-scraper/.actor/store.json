@@ -31,9 +31,6 @@
     ],
     "nameMatch": "startsWith",
     "maxResultsPerSearch": 5,
-    "fetchDetails": true,
-    "proxyConfiguration": {
-      "useApifyProxy": true
-    }
+    "fetchDetails": true
   }
 }

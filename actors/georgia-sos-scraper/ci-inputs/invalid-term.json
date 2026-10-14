@@ -2,6 +2,5 @@
   "searchType": "businessName",
   "searchTerms": ["zzzqqxx nonexistent"],
   "nameMatch": "startsWith",
-  "maxResultsPerSearch": 5,
-  "proxyConfiguration": { "useApifyProxy": true }
+  "maxResultsPerSearch": 5
 }

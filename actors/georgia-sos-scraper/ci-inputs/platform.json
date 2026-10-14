@@ -5,6 +5,5 @@
   "maxResultsPerSearch": 3,
   "activeOnly": false,
   "fetchDetails": true,
-  "includeFilings": false,
-  "proxyConfiguration": { "useApifyProxy": true }
+  "includeFilings": false
 }
