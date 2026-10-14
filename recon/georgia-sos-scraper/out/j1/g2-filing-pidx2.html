@@ -1,0 +1,46 @@
+<table   style='width:100%' border='0' cellpadding='4' cellspacing='5' class='gridstyle grid_layout' id='xhtml_grid' ><thead ><tr align='left' class='grid_headerbg' id='Listrow_xhtml_grid'  ><th   onclick="$xhtml.sorting(0, 'Filing Number') ">Filing Number</th><th   onclick="$xhtml.sorting(1, 'Filing Date Time') ">Filing Date Time</th><th   onclick="$xhtml.sorting(2, 'Effective Date') ">Effective Date</th><th  >Filing Type</th></tr></thead><tbody ><tr align='left' class='bgwhite' ><td >20551149</td><td >3/20/2021 7:07:17 AM</td><td >3/20/2021</td><td ><a  filingno='20551149' name='lnkdownload' href='javascript:void(0)'>Annual Registration (2021)</a></td></tr><tr align='left' class='bgrowalt' ><td >20690208</td><td >3/30/2021 4:09:04 PM</td><td >3/30/2021</td><td ><a  filingno='20690208' name='lnkdownload' href='javascript:void(0)'>Registered Office Address Change</a></td></tr><tr align='left' class='bgwhite' ><td >21004556</td><td >6/15/2021 11:50:09 AM</td><td >6/15/2021</td><td ><a  filingno='21004556' name='lnkdownload' href='javascript:void(0)'>Amended Annual Registration</a></td></tr><tr align='left' class='bgrowalt' ><td >23073026</td><td >4/3/2022 7:44:05 PM</td><td >4/3/2022</td><td ><a  filingno='23073026' name='lnkdownload' href='javascript:void(0)'>Annual Registration (2022)</a></td></tr><tr align='left' class='bgwhite' ><td >24497781</td><td >2/8/2023 5:16:23 PM</td><td >2/8/2023</td><td ><a  filingno='24497781' name='lnkdownload' href='javascript:void(0)'>Annual Registration (2023)</a></td></tr><tr align='left' class='bgrowalt' ><td >26965946</td><td >3/19/2024 3:38:23 PM</td><td >3/19/2024</td><td ><a  filingno='26965946' name='lnkdownload' href='javascript:void(0)'>Annual Registration (2024)</a></td></tr><tr align='left' class='bgwhite' ><td >28488800</td><td >1/23/2025 5:31:07 PM</td><td >1/23/2025</td><td ><a  filingno='28488800' name='lnkdownload' href='javascript:void(0)'>Annual Registration (2025)</a></td></tr><tr align='left' class='bgrowalt' ><td >30705963</td><td >2/6/2026 9:31:54 AM</td><td >2/6/2026</td><td ><a  filingno='30705963' name='lnkdownload' href='javascript:void(0)'>Annual Registration (2026)</a></td></tr></tbody></table><table border=0 style='width:100%' align='center'  class='borderFooter' cellspacing=0 cellpadding=0><tr><td class='bgfooter' align='right'><div id='pagination-digg-outer' border='2px' style='width:auto;' align='right'><ul style='width:auto' id='pagination-digg' ><li class='previous'><a href="javascript:$xhtml.paging(1)">&lt; Previous</a></li><li class='previous-off'>&nbsp;...&nbsp;</li><li ><a href="javascript:$xhtml.paging(1)">1</a></li><li class="activeGrid">2</li><li class='next-off'>&nbsp;...&nbsp;</li><li class='next-off'>Next &gt;</li><li class='pageinfo'>Page 2 of 2, records 26 to 33 of 33&nbsp;&nbsp;<li><input type='text' id='txtCommonPageNo' name='txtCommonPageNo' size='2' onkeypress='return onEnterGoPage(event,"javascript:$xhtml.paging({1})");' style='background-color:#E6E6E6 ;border: 1px inset #E6E6E6;-moz-border-radius:3px;border-radius:3px;-webkit-border-radius:3px;width:40px;height:22px;' maxlength='1' />&nbsp;&nbsp;<li class='next'><a id='lkGoPage' name='lkGoPage' onclick='return GotoPageNo(this,"javascript:$xhtml.paging({1})");' href='#'>&nbsp;&nbsp;Go to Page</a></li></ul><input type=hidden name=hdnTotalPgCount id=hdnTotalPgCount value='2' /></div></td></tr></table>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("[name='lnkdownload']").click(function (e) {
+            var filingNo = $(this).attr("filingno");
+            $.ajax({
+                type: "POST",
+                url: "/BusinessSearch/FilingDocuments",
+                data: { "filingNo": filingNo },
+                success: function (result) {
+                    if (result == "0")
+                        errorDialog("There are no documents associated with this filing.");
+                    else if (!isNaN(parseInt(result,10))) {
+                        $("#hdnFilingNo").val(filingNo);
+                        $("#hdnDocumentID").val(result);
+                        $("#frmDownload").submit();
+                    }
+                    else {
+                        var popupDiv = $("<div></div>").html(result);
+                        popupDiv.dialog({
+                            title: "Documents",
+                            modal: true,
+                            width: 500,
+                            open: function () {
+                                $(".ui-dialog-titlebar-close").hide();
+                            },
+                            buttons: {
+                                "Close": function () {
+                                    $(this).dialog("destroy").remove();
+                                }
+                            }
+                        });
+                    }
+                        
+                },
+                error: function (xhr, err, status) {
+
+                }
+            });
+            return false;
+            e.preventDefault();
+        });
+    });
+    
+</script>
