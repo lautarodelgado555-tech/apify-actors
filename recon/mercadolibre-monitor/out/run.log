@@ -1,0 +1,149 @@
+01:32:05 listing MLA zapatillas 200 39112 suspicious
+01:32:06 listing MLA celular-samsung 200 39137 suspicious
+01:32:07 listing MLA heladera 200 39102 suspicious
+01:32:07 listing MLA auriculares-bluetooth 200 39167 suspicious
+01:32:08 listing MLA notebook 200 39102 suspicious
+01:32:09 listing MLA yerba-mate 200 39112 suspicious
+01:32:09 listing MLA perfume 200 39097 suspicious
+01:32:10 listing MLA lavarropas 200 39112 suspicious
+01:32:10 listing MLA smart-tv 200 39102 suspicious
+01:32:11 listing MLA mochila 200 39097 suspicious
+01:32:12 found MLA 0
+01:32:12 listing MLM audifonos 200 23411 suspicious
+01:32:13 listing MLM tenis 200 23391 suspicious
+01:32:13 found MLM 0
+01:32:14 listing MLB fone-de-ouvido 200 39470 suspicious
+01:32:15 listing MLB tenis 200 39425 suspicious
+01:32:15 found MLB 0
+01:32:16 listing MLC zapatillas 200 23286 suspicious
+01:32:16 found MLC 0
+01:32:16 listing MCO audifonos 200 23261 suspicious
+01:32:17 found MCO 0
+01:32:17 api browser-ua 403 /sites/MLA
+01:32:17 api browser-ua 403 /sites/MLA/search?q=zapatillas&limit=5
+01:32:18 api curl-ua 403 /sites/MLA/search?q=zapatillas&limit=5
+01:32:18 api browser-ua 403 /sites/MLA/categories
+01:32:19 api browser-ua 200 /categories/MLA1055
+01:32:19 api browser-ua 401 /highlights/MLA/category/MLA1055
+01:32:19 api browser-ua 403 /trends/MLA
+01:32:20 api browser-ua 200 /sites/MLA/domain_discovery/search?q=zapatillas
+01:32:20 api browser-ua 404 /items/
+01:32:21 api browser-ua 404 /items?ids=
+01:32:21 api browser-ua 404 /items//description
+01:32:21 api browser-ua 403 /users/1
+01:32:22 api browser-ua 403 /sites/MLA/search?seller_id=1&limit=3
+01:32:22 api curl-ua 403 /sites/MLA/search?seller_id=1&limit=3
+01:32:23 api browser-ua 403 /currencies/ARS
+01:32:23 item targets 0
+01:32:23 items ok 0 / 0
+01:32:23 impit done
+01:32:23 site MLM 
+01:32:23 site MLB 
+01:32:23 site MLC 
+01:32:23 site MCO 
+01:32:23 bestseller categories 0
+01:32:25 seller 200 https://www.mercadolibre.com.ar/tiendas-oficiales
+{
+ "items": {
+  "n": 0,
+  "byStatus": {},
+  "okClean": 0,
+  "markers": 0,
+  "avgBytes": 0,
+  "avgMs": 0,
+  "withLdJson": 0,
+  "withPreloaded": 0
+ },
+ "itemsImpit": {
+  "n": 0,
+  "byStatus": {},
+  "okClean": 0,
+  "markers": 0,
+  "avgBytes": 0,
+  "avgMs": 0,
+  "withLdJson": 0,
+  "withPreloaded": 0
+ },
+ "listings": {
+  "n": 16,
+  "byStatus": {
+   "200": 16
+  },
+  "okClean": 0,
+  "markers": 16,
+  "avgBytes": 0,
+  "avgMs": 0,
+  "withLdJson": 0,
+  "withPreloaded": 0
+ },
+ "bestsellers": {
+  "n": 4,
+  "byStatus": {
+   "200": 4
+  },
+  "okClean": 0,
+  "markers": 4,
+  "avgBytes": 0,
+  "avgMs": 0,
+  "withLdJson": 0,
+  "withPreloaded": 0
+ },
+ "sellers": {
+  "n": 1,
+  "byStatus": {
+   "200": 1
+  },
+  "okClean": 0,
+  "markers": 1,
+  "avgBytes": 0,
+  "avgMs": 0,
+  "withLdJson": 0,
+  "withPreloaded": 0
+ },
+ "sites": [
+  {
+   "site": "MLM",
+   "n": 0,
+   "byStatus": {},
+   "okClean": 0,
+   "markers": 0,
+   "avgBytes": 0,
+   "avgMs": 0,
+   "withLdJson": 0,
+   "withPreloaded": 0
+  },
+  {
+   "site": "MLB",
+   "n": 0,
+   "byStatus": {},
+   "okClean": 0,
+   "markers": 0,
+   "avgBytes": 0,
+   "avgMs": 0,
+   "withLdJson": 0,
+   "withPreloaded": 0
+  },
+  {
+   "site": "MLC",
+   "n": 0,
+   "byStatus": {},
+   "okClean": 0,
+   "markers": 0,
+   "avgBytes": 0,
+   "avgMs": 0,
+   "withLdJson": 0,
+   "withPreloaded": 0
+  },
+  {
+   "site": "MCO",
+   "n": 0,
+   "byStatus": {},
+   "okClean": 0,
+   "markers": 0,
+   "avgBytes": 0,
+   "avgMs": 0,
+   "withLdJson": 0,
+   "withPreloaded": 0
+  }
+ ]
+}
