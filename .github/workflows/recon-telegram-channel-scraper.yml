@@ -1,10 +1,8 @@
-# Copy to .github/workflows/recon-telegram-channel-scraper.yml and replace telegram-channel-scraper (sed -i 's/telegram-channel-scraper/my-actor/g').
-# Edit recon/telegram-channel-scraper/targets.json and push: this runs scripts/recon.mjs on a GitHub runner and commits recon/telegram-channel-scraper/out/.
 name: recon-telegram-channel-scraper
 on:
   push:
     paths:
-      - "recon/telegram-channel-scraper/spike.mjs"
+      - "recon/telegram-channel-scraper/spike2.mjs"
       - "recon/telegram-channel-scraper/targets.json"
       - ".github/workflows/recon-telegram-channel-scraper.yml"
 permissions:
@@ -20,13 +18,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Install cheerio
+        run: cd recon/telegram-channel-scraper && npm init -y >/dev/null && npm i cheerio@1.0.0 >/dev/null 2>&1
       - name: Fetch
-        run: node recon/telegram-channel-scraper/spike.mjs > /tmp/recon-run.log 2>&1 || true; mkdir -p recon/telegram-channel-scraper/out; cp /tmp/recon-run.log recon/telegram-channel-scraper/out/run.log
+        run: node recon/telegram-channel-scraper/spike2.mjs > /tmp/recon-run.log 2>&1 || true; mkdir -p recon/telegram-channel-scraper/out2; cp /tmp/recon-run.log recon/telegram-channel-scraper/out2/run.log
       - name: Commit results
         if: always()
         run: |
           git config user.name "ci-bot"
           git config user.email "ci-bot@users.noreply.github.com"
-          git add -A recon/telegram-channel-scraper/out
+          git add -A recon/telegram-channel-scraper/out2
           git commit -m "recon(telegram-channel-scraper): results $(date -u +%FT%TZ)" || echo "nothing to commit"
           for i in 1 2 3 4 5; do git pull --rebase --autostash && git push && break; sleep $((RANDOM % 8 + 2)); done
