@@ -25,6 +25,8 @@ jobs:
           mkdir -p /tmp/rc && cd /tmp/rc && npm init -y >/dev/null && npm i got-scraping impit playwright >/dev/null 2>&1 && npx playwright install --with-deps firefox >/dev/null 2>&1 || true
           ln -sfn /tmp/rc/node_modules "$GITHUB_WORKSPACE/node_modules"
       - name: Fetch
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: node recon/mercadolibre-monitor/spike.mjs > /tmp/recon-run.log 2>&1 || true; mkdir -p recon/mercadolibre-monitor/out; cp /tmp/recon-run.log recon/mercadolibre-monitor/out/run.log
       - name: Commit results
         if: always()
