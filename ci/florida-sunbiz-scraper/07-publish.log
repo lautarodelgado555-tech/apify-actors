@@ -1,0 +1,6 @@
+publishing lautarodelgado~florida-sunbiz-scraper from actors/florida-sunbiz-scraper/.actor/store.json
+current: isPublic=true pricing=["PAY_PER_EVENT"]
+listing ok: Florida Sunbiz Business Search & Annual Report Checker | ["BUSINESS","LEAD_GENERATION"]
+pricing already set, leaving it alone
+permissions ok: LIMITED_PERMISSIONS exampleInput=set
+visibility FAILED: {"error":{"type":"cannot-unpublish-paid-actor","message":"Unpublishing paid Actors is not possible. You need to cancel the monetization first. If you really need to unpublish, please contact support@apify.com"}}
