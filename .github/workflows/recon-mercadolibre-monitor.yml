@@ -22,7 +22,7 @@ jobs:
           node-version: 22
       - name: Install clients
         run: |
-          mkdir -p /tmp/rc && cd /tmp/rc && npm init -y >/dev/null && npm i got-scraping impit playwright >/dev/null 2>&1 && npx playwright install --with-deps firefox >/dev/null 2>&1 || true
+          mkdir -p /tmp/rc && cd /tmp/rc && npm init -y >/dev/null && npm i got-scraping impit playwright >/dev/null 2>&1 && npx playwright install --with-deps chromium firefox >/dev/null 2>&1 || true
           ln -sfn /tmp/rc/node_modules "$GITHUB_WORKSPACE/node_modules"
       - name: Fetch
         env:
