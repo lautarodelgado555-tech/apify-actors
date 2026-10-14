@@ -1,0 +1,12 @@
+
+> tiendanube-scraper@0.1.0 start
+> node src/main.js
+
+[32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}[39m
+[32mINFO[39m  Free plan: this run returns at most 10 results. Upgrade to a paid Apify plan to remove the cap.
+[32mINFO[39m  https://cocora.mitiendanube.com: 19 products found, examining 5.
+[32mINFO[39m  https://cocora.mitiendanube.com: 3 saved, 0 unchanged, 2 skipped, 0 failed.
+[32mINFO[39m  [Status message]: 3 results so far
+[32mINFO[39m  Done. 3 results from 1 input(s). Requests: 7 (0 throttled, 0 blocked).
+[32mINFO[39m  [Status message]: 3 results
+items: 3

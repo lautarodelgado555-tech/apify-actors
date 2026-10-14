@@ -1,0 +1,11 @@
+
+> tiendanube-scraper@0.1.0 start
+> node src/main.js
+
+[32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}[39m
+[32mINFO[39m  Free plan: this run returns at most 10 results. Upgrade to a paid Apify plan to remove the cap.
+[33mWARN[39m  Skipping "no es un dominio": not a valid URL or domain.
+[33mWARN[39m  esta-tienda-no-existe-zzqx.mitiendanube.com: not usable (store_not_found).
+[32mINFO[39m  Done. 0 results from 1 input(s). Requests: 2 (0 throttled, 0 blocked).
+[32mINFO[39m  [Status message]: 0 results. 2 input(s) not usable: no es un dominio (invalid_input), esta-tienda-no-existe-zzqx.mitiendanube.com (store_not_found)
+items: 0

@@ -1,0 +1,179 @@
+[
+  {
+    "url": "https://cocora.mitiendanube.com/productos/pulsera-cleo/",
+    "productId": 150743673,
+    "name": "Pulsera Cleo",
+    "brand": null,
+    "description": "Pulsera de eslabones dorado y dijes Color: Dorado, acabado vintage Material: Aleación con baño en oro 23k",
+    "categories": [
+      "Pulseras"
+    ],
+    "tags": [],
+    "price": 800,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 800,
+    "priceMax": 800,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": null,
+    "stockUnlimited": true,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1061703446,
+        "sku": null,
+        "price": 800,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": null,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024-31-522db73099740d2adf16728732943134-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024-31-522db73099740d2adf16728732943134-1024-1024.webp",
+      "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024-211-d148e6644db888292a16728732947133-1024-1024.webp",
+      "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/102421-76a44a1c3aa168521f16728732942465-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024-31-522db73099740d2adf16728732943134-1024-1024.webp",
+    "weightKg": 0.015,
+    "storeName": "Cocora",
+    "storeDomain": "cocora.mitiendanube.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2024-11-11T22:13:55.000Z",
+    "scrapedAt": "2026-10-14T01:48:45.923Z",
+    "changeType": "new"
+  },
+  {
+    "url": "https://cocora.mitiendanube.com/productos/aretes-paulina-gold-medium/",
+    "productId": 150797108,
+    "name": "Aretes Paulina Gold medium",
+    "brand": null,
+    "description": "Aretes dorados tejidos con balines Material: Goldfielf Color: Dorado Medida: 3cm de diámetro aprox Nota: El precio incluye los Aretes Paulina Gold medium. Los otros son usados como referentes",
+    "categories": [
+      "Aretes"
+    ],
+    "tags": [],
+    "price": 560,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 560,
+    "priceMax": 560,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 4,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 574353542,
+        "sku": null,
+        "price": 560,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 4,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024121-bfee75ddd4d45893ed16728902443059-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024121-bfee75ddd4d45893ed16728902443059-1024-1024.webp",
+      "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024-1111-e218aab42af37f6ef316728902446575-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024121-bfee75ddd4d45893ed16728902443059-1024-1024.webp",
+    "weightKg": 0.015,
+    "storeName": "Cocora",
+    "storeDomain": "cocora.mitiendanube.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2024-11-13T21:19:44.000Z",
+    "scrapedAt": "2026-10-14T01:48:45.982Z",
+    "changeType": "new"
+  },
+  {
+    "url": "https://cocora.mitiendanube.com/productos/aretes-carmen-gold/",
+    "productId": 150798159,
+    "name": "Aretes Carmen Gold",
+    "brand": null,
+    "description": "Aretes dorados gruesos Material: Goldfield Color: Dorado",
+    "categories": [
+      "Aretes"
+    ],
+    "tags": [],
+    "price": 340,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 340,
+    "priceMax": 340,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 5,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 808102092,
+        "sku": null,
+        "price": 340,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 5,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024131-3d0a08faa4e9b9526716728905433047-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024131-3d0a08faa4e9b9526716728905433047-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024131-3d0a08faa4e9b9526716728905433047-1024-1024.webp",
+    "weightKg": null,
+    "storeName": "Cocora",
+    "storeDomain": "cocora.mitiendanube.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2024-06-04T15:51:38.000Z",
+    "scrapedAt": "2026-10-14T01:48:46.247Z",
+    "changeType": "new"
+  }
+]

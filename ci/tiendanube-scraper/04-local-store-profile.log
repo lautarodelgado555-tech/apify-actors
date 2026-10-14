@@ -1,0 +1,10 @@
+
+> tiendanube-scraper@0.1.0 start
+> node src/main.js
+
+[32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}[39m
+[32mINFO[39m  Free plan: this run returns at most 10 results. Upgrade to a paid Apify plan to remove the cap.
+[33mWARN[39m  example.com: this does not look like a Tiendanube / Nuvemshop store.
+[32mINFO[39m  Done. 4 results from 5 input(s). Requests: 19 (0 throttled, 0 blocked).
+[32mINFO[39m  [Status message]: 4 results. 1 input(s) not usable: example.com (not_tiendanube)
+items: 4
