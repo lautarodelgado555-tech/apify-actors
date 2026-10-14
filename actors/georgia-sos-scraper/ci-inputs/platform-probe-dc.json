@@ -4,5 +4,6 @@
   "nameMatch": "startsWith",
   "maxResultsPerSearch": 2,
   "fetchDetails": true,
-  "proxyConfiguration": { "useApifyProxy": true, "apifyProxyCountry": "US" }
+  "proxyFallback": false,
+  "proxyConfiguration": { "useApifyProxy": true }
 }

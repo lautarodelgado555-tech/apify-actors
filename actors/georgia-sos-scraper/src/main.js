@@ -26,6 +26,7 @@ const {
     activeOnly = false,
     fetchDetails = true,
     includeFilings = false,
+    proxyFallback = true,
     proxyConfiguration,
 } = input;
 
@@ -71,21 +72,46 @@ async function closeSession() {
     page = null;
 }
 
-/** Open Firefox on the portal home page, on a fresh proxy IP. Cloudflare's JS detection is blocked: with it, the POSTs get challenged. */
+/**
+ * The portal's Cloudflare rules treat IP ranges very differently: some datacenter IPs pass everything, others get
+ * challenged on every request. A session that works is kept for the whole run; a session that gets challenged moves
+ * the run one step down this ladder (your proxy, then a direct connection, then Apify residential IPs if available).
+ */
+const ladder = proxyFallback
+    ? proxyConf
+        ? ['user', 'user', 'direct', 'residential', 'user', 'direct', 'residential', 'residential']
+        : ['direct', 'direct', 'residential', 'direct', 'residential', 'residential']
+    : [proxyConf ? 'user' : 'direct'];
+let ladderPos = 0;
+let residentialConf;
+const currentRoute = () => ladder[ladderPos % ladder.length];
+const markBadRoute = () => {
+    ladderPos += 1;
+};
+
+async function proxyOptionsFor(route) {
+    let conf = null;
+    if (route === 'user') conf = proxyConf;
+    if (route === 'residential') {
+        residentialConf ??= await Actor.createProxyConfiguration({ useApifyProxy: true, apifyProxyGroups: ['RESIDENTIAL'], apifyProxyCountry: 'US' }).catch(() => null);
+        conf = residentialConf;
+        if (!conf) throw new Error('Residential proxy is not available for this account');
+    }
+    if (!conf) return undefined;
+    const url = new URL(await conf.newUrl(`ga${Date.now().toString(36)}${sessionCount}`));
+    return { server: `${url.protocol}//${url.host}`, username: decodeURIComponent(url.username), password: decodeURIComponent(url.password) };
+}
+
+/** Open Firefox on the portal home page, on a fresh IP. Cloudflare's JS detection is blocked: with it, the POSTs get challenged. */
 async function openSession() {
     await closeSession();
     for (let attempt = 1; attempt <= MAX_SESSIONS; attempt += 1) {
         sessionCount += 1;
+        const route = currentRoute();
         const launchOptions = { headless: true };
-        if (proxyConf) {
-            const url = new URL(await proxyConf.newUrl(`ga${Date.now().toString(36)}${sessionCount}`));
-            launchOptions.proxy = {
-                server: `${url.protocol}//${url.host}`,
-                username: decodeURIComponent(url.username),
-                password: decodeURIComponent(url.password),
-            };
-        }
         try {
+            const proxy = await proxyOptionsFor(route);
+            if (proxy) launchOptions.proxy = proxy;
             browser = await firefox.launch(launchOptions);
             const context = await browser.newContext({ viewport: { width: 1280, height: 900 } });
             page = await context.newPage();
@@ -98,10 +124,11 @@ async function openSession() {
             await page.goto(HOME_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
             const title = await page.title();
             if (/just a moment/i.test(title)) throw new Error('Cloudflare challenge on the home page');
-            log.info(`Session ready (attempt ${attempt}).`);
+            log.info(`Session ready (attempt ${attempt}, route: ${route}).`);
             return;
         } catch (e) {
-            log.warning(`Could not open the portal (attempt ${attempt}/${MAX_SESSIONS}): ${String(e.message).split('\n')[0]}`);
+            log.warning(`Could not open the portal (attempt ${attempt}/${MAX_SESSIONS}, route: ${route}): ${String(e.message).split('\n')[0]}`);
+            markBadRoute();
             await closeSession();
             await new Promise((r) => setTimeout(r, 1500 * attempt));
         }
@@ -276,6 +303,7 @@ for (const term of terms) {
                 break;
             }
             log.warning(`${e.message}; opening a new session (${attempt}/4).`);
+            markBadRoute();
             try {
                 await openSession();
             } catch (err) {

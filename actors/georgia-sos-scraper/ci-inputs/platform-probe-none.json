@@ -3,5 +3,6 @@
   "searchTerms": ["Delta Air Lines"],
   "nameMatch": "startsWith",
   "maxResultsPerSearch": 2,
-  "fetchDetails": true
+  "fetchDetails": true,
+  "proxyFallback": false
 }

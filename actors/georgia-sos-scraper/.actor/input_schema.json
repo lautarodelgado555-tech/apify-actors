@@ -56,6 +56,12 @@
       "description": "Also read each entity's filing history: every annual registration with its filing date, plus all other filings (formation, amendments, address changes). Adds one to three requests per entity and needs 'Fetch full details'.",
       "default": false
     },
+    "proxyFallback": {
+      "title": "Retry blocked connections another way",
+      "type": "boolean",
+      "description": "When Cloudflare challenges the connection, the Actor retries on a new IP and, if needed, switches to a direct connection or Apify residential IPs (only if your account has them). Turn off to stay on exactly the proxy you configured.",
+      "default": true
+    },
     "proxyConfiguration": {
       "title": "Proxy",
       "type": "object",

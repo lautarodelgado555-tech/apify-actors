@@ -76,9 +76,14 @@ jobs:
           cd "$ACTOR_DIR"
           for f in ci-inputs/platform-probe-*.json; do
             n=$(basename "$f" .json)
-            mkdir -p "../../$OUT/$n"
-            bash ../../scripts/apify-run.sh georgia-sos-scraper "$f" "../../$OUT/$n" > "../../$OUT/$n/run.log" 2>&1 || echo "exit $?" >> "../../$OUT/$n/run.log"
+            (
+              for i in 1 2 3 4; do
+                mkdir -p "../../$OUT/$n-$i"
+                bash ../../scripts/apify-run.sh georgia-sos-scraper "$f" "../../$OUT/$n-$i" > "../../$OUT/$n-$i/run.log" 2>&1 || echo "exit $?" >> "../../$OUT/$n-$i/run.log"
+              done
+            ) &
           done
+          wait
       - name: Commit results
         if: always()
         run: |
