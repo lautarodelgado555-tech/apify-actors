@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BotNews – Telegram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible"
+     content="IE=edge" />
+    <meta name="MobileOptimized" content="176" />
+    <meta name="HandheldFriendly" content="True" />
+    
+<meta property="og:title" content="BotNews">
+<meta property="og:image" content="https://cdn1.telesco.pe/file/ZkYAt6PSqHL2f9W5vgpIKFrK2TdwEIuwxdMfgjG9bMVrrys3SBCpnobpDNitFWSGvCQ_879FPNFTyeXu-_rSrdW040_cOXq5RogY3yteeNCdFTtkKfnmlIIT-qtAEFMY9LEGXVmQ1kuq2ezJwShrnFNtuRB6_IhGuanWnFEnSEYJFnMNgAkyLEkWmbyBwp-p5KU5fIKiwC3IPv7pdx3_I9Y_ozXnyv_Ytrpv0OrRTmTVyGYrIen-A1MJLhvRPjb6koTKJKB6Ax6enYNvlGV49hY370Bn-B1LEr6wOMoQvnOsg4u92SGdlAmI7Rx0bGwyJ7nXDXxXHV_D4iTGKpWmYQ.jpg">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="The official source for news about the Telegram Bot API. https://core.telegram.org/bots">
+
+<meta property="twitter:title" content="BotNews">
+<meta property="twitter:image" content="https://cdn1.telesco.pe/file/ZkYAt6PSqHL2f9W5vgpIKFrK2TdwEIuwxdMfgjG9bMVrrys3SBCpnobpDNitFWSGvCQ_879FPNFTyeXu-_rSrdW040_cOXq5RogY3yteeNCdFTtkKfnmlIIT-qtAEFMY9LEGXVmQ1kuq2ezJwShrnFNtuRB6_IhGuanWnFEnSEYJFnMNgAkyLEkWmbyBwp-p5KU5fIKiwC3IPv7pdx3_I9Y_ozXnyv_Ytrpv0OrRTmTVyGYrIen-A1MJLhvRPjb6koTKJKB6Ax6enYNvlGV49hY370Bn-B1LEr6wOMoQvnOsg4u92SGdlAmI7Rx0bGwyJ7nXDXxXHV_D4iTGKpWmYQ.jpg">
+<meta property="twitter:site" content="@Telegram">
+
+<meta property="al:ios:app_store_id" content="686449807">
+<meta property="al:ios:app_name" content="Telegram Messenger">
+<meta property="al:ios:url" content="tg://resolve?domain=BotNews">
+
+<meta property="al:android:url" content="tg://resolve?domain=BotNews">
+<meta property="al:android:app_name" content="Telegram">
+<meta property="al:android:package" content="org.telegram.messenger">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@Telegram">
+<meta name="twitter:description" content="The official source for news about the Telegram Bot API. https://core.telegram.org/bots
+">
+
+    <link rel="prev" href="/s/BotNews?before=102">
+<link rel="canonical" href="/s/BotNews?before=122">
+
+    <script>window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches&&document.documentElement&&document.documentElement.classList&&document.documentElement.classList.add('theme_dark');</script>
+    <link rel="icon" type="image/svg+xml" href="//telegram.org/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="//telegram.org/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//telegram.org/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="//telegram.org/img/favicon-16x16.png">
+<link rel="alternate icon" href="//telegram.org/img/favicon.ico" type="image/x-icon" />
+    <link href="//telegram.org/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+    <link href="//telegram.org/css/widget-frame.css?75" rel="stylesheet" media="screen">
+    <link href="//telegram.org/css/telegram-web.css?39" rel="stylesheet" media="screen">
+    <script>TBaseUrl='/';</script>
+    <style>        .user-color-12 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #3391d4 0px, #3391d4 5px, #7dd3f0 5px, #7dd3f0 10px);
+          --user-accent-color: #3391d4;
+          --user-background: #3391d41f;
+        }        .user-color-10 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #27a910 0px, #27a910 5px, #a7dc57 5px, #a7dc57 10px);
+          --user-accent-color: #27a910;
+          --user-background: #27a9101f;
+        }        .user-color-8 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #e0802b 0px, #e0802b 5px, #fac534 5px, #fac534 10px);
+          --user-accent-color: #e0802b;
+          --user-background: #e0802b1f;
+        }        .user-color-7 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #e15052 0px, #e15052 5px, #f9ae63 5px, #f9ae63 10px);
+          --user-accent-color: #e15052;
+          --user-background: #e150521f;
+        }        .user-color-9 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #a05ff3 0px, #a05ff3 5px, #f48fff 5px, #f48fff 10px);
+          --user-accent-color: #a05ff3;
+          --user-background: #a05ff31f;
+        }        .user-color-11 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #27acce 0px, #27acce 5px, #82e8d6 5px, #82e8d6 10px);
+          --user-accent-color: #27acce;
+          --user-background: #27acce1f;
+        }        .user-color-13 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #dd4371 0px, #dd4371 5px, #ffbe9f 5px, #ffbe9f 10px);
+          --user-accent-color: #dd4371;
+          --user-background: #dd43711f;
+        }        .user-color-14 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #247bed 0px, #247bed 5px, #f04856 5px, #f04856 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #247bed;
+          --user-background: #247bed1f;
+        }        .user-color-15 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #d67722 0px, #d67722 5px, #1ea011 5px, #1ea011 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #d67722;
+          --user-background: #d677221f;
+        }        .user-color-16 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #179e42 0px, #179e42 5px, #e84a3f 5px, #e84a3f 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #179e42;
+          --user-background: #179e421f;
+        }        .user-color-17 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #2894af 0px, #2894af 5px, #6fc456 5px, #6fc456 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #2894af;
+          --user-background: #2894af1f;
+        }        .user-color-18 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #0c9ab3 0px, #0c9ab3 5px, #ffad95 5px, #ffad95 10px, #ffe6b5 10px, #ffe6b5 15px);
+          --user-accent-color: #0c9ab3;
+          --user-background: #0c9ab31f;
+        }        .user-color-19 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #7757d6 0px, #7757d6 5px, #f79610 5px, #f79610 10px, #ffde8e 10px, #ffde8e 15px);
+          --user-accent-color: #7757d6;
+          --user-background: #7757d61f;
+        }        .user-color-20 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #1585cf 0px, #1585cf 5px, #f2ab1d 5px, #f2ab1d 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #1585cf;
+          --user-background: #1585cf1f;
+        }        body.dark .user-color-12, html.theme_dark .user-color-12 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #52bfff 0px, #52bfff 5px, #0b5494 5px, #0b5494 10px);
+          --user-accent-color: #52bfff;
+          --user-background: #52bfff1f;
+        }        body.dark .user-color-10, html.theme_dark .user-color-10 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #a7eb6e 0px, #a7eb6e 5px, #167e2d 5px, #167e2d 10px);
+          --user-accent-color: #a7eb6e;
+          --user-background: #a7eb6e1f;
+        }        body.dark .user-color-8, html.theme_dark .user-color-8 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ecb04e 0px, #ecb04e 5px, #c35714 5px, #c35714 10px);
+          --user-accent-color: #ecb04e;
+          --user-background: #ecb04e1f;
+        }        body.dark .user-color-7, html.theme_dark .user-color-7 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ff9380 0px, #ff9380 5px, #992f37 5px, #992f37 10px);
+          --user-accent-color: #ff9380;
+          --user-background: #ff93801f;
+        }        body.dark .user-color-9, html.theme_dark .user-color-9 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #c697ff 0px, #c697ff 5px, #5e31c8 5px, #5e31c8 10px);
+          --user-accent-color: #c697ff;
+          --user-background: #c697ff1f;
+        }        body.dark .user-color-11, html.theme_dark .user-color-11 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #40d8d0 0px, #40d8d0 5px, #045c7f 5px, #045c7f 10px);
+          --user-accent-color: #40d8d0;
+          --user-background: #40d8d01f;
+        }        body.dark .user-color-13, html.theme_dark .user-color-13 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ff86a6 0px, #ff86a6 5px, #8e366e 5px, #8e366e 10px);
+          --user-accent-color: #ff86a6;
+          --user-background: #ff86a61f;
+        }        body.dark .user-color-14, html.theme_dark .user-color-14 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #3fa2fe 0px, #3fa2fe 5px, #e5424f 5px, #e5424f 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #3fa2fe;
+          --user-background: #3fa2fe1f;
+        }        body.dark .user-color-15, html.theme_dark .user-color-15 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ff905e 0px, #ff905e 5px, #32a527 5px, #32a527 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #ff905e;
+          --user-background: #ff905e1f;
+        }        body.dark .user-color-16, html.theme_dark .user-color-16 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #66d364 0px, #66d364 5px, #d5444f 5px, #d5444f 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #66d364;
+          --user-background: #66d3641f;
+        }        body.dark .user-color-17, html.theme_dark .user-color-17 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #22bce2 0px, #22bce2 5px, #3da240 5px, #3da240 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #22bce2;
+          --user-background: #22bce21f;
+        }        body.dark .user-color-18, html.theme_dark .user-color-18 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #22bce2 0px, #22bce2 5px, #ff9778 5px, #ff9778 10px, #ffda6b 10px, #ffda6b 15px);
+          --user-accent-color: #22bce2;
+          --user-background: #22bce21f;
+        }        body.dark .user-color-19, html.theme_dark .user-color-19 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #9791ff 0px, #9791ff 5px, #f2731d 5px, #f2731d 10px, #ffdb59 10px, #ffdb59 15px);
+          --user-accent-color: #9791ff;
+          --user-background: #9791ff1f;
+        }        body.dark .user-color-20, html.theme_dark .user-color-20 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #3da6eb 0px, #3da6eb 5px, #eea51d 5px, #eea51d 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #3da6eb;
+          --user-background: #3da6eb1f;
+        }.user-color-6, .user-color-4, .user-color-2, .user-color-0, .user-color-1, .user-color-3, .user-color-5,   .user-color-default {
+    --user-accent-color: var(--accent-color);
+    --user-accent-background: var(--accent-background);
+    --user-line-gradient: linear-gradient(45deg, var(--accent-color), var(--accent-color));
+  }</style>
+  </head>
+  <body class="widget_frame_base tgme_webpreview emoji_image thin_box_shadow tme_mode no_transitions">
+    <div class="tgme_background_wrap">
+      <canvas id="tgme_background" class="tgme_background" width="50" height="50" data-colors="dbddbb,6ba587,d5d88d,88b884"></canvas>
+      <div class="tgme_background_pattern"></div>
+    </div>
+    <header class="tgme_header search_collapsed">
+  <div class="tgme_container">
+    <div class="tgme_header_search">
+      <form class="tgme_header_search_form" action="/s/BotNews">
+        <svg class="tgme_header_search_form_icon" width="20" height="20" viewBox="0 0 20 20"><g fill="none" stroke="#7D7F81" stroke-width="1.4"><circle cx="9" cy="9" r="6"></circle><path d="M13.5,13.5 L17,17" stroke-linecap="round"></path></g></svg>
+        <input class="tgme_header_search_form_input js-header_search" placeholder="Search" name="q" autocomplete="off" value="" />
+        <a href="/s/BotNews" class="tgme_header_search_form_clear"><svg class="tgme_action_button_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20"><g class="icon_body" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#000000" stroke-width="1.5"><path d="M6 14l8-8m0 8L6 6" stroke-dasharray="0,11.314" stroke-dashoffset="5.657"/><path d="M26 14l8-8m0 8l-8-8" stroke-dasharray="0.371,10.943" stroke-dashoffset="5.842"/><path d="M46 14l8-8m0 8l-8-8" stroke-dasharray="1.982,9.332" stroke-dashoffset="6.647756"/><path d="M66 14l8-8m0 8l-8-8" stroke-dasharray="5.173,6.14" stroke-dashoffset="8.243"/><path d="M86 14l8-8m0 8l-8-8" stroke-dasharray="7.866,3.448" stroke-dashoffset="9.59"/><path d="M106 14l8-8m0 8l-8-8" stroke-dasharray="9.471,1.843" stroke-dashoffset="10.392"/><path d="M126 14l8-8m0 8l-8-8" stroke-dasharray="10.417,0.896" stroke-dashoffset="10.866"/><path d="M146 14l8-8m0 8l-8-8" stroke-dasharray="10.961,0.353" stroke-dashoffset="11.137"/><path d="M166 14l8-8m0 8l-8-8" stroke-dasharray="11.234,0.08" stroke-dashoffset="11.274"/><path d="M186 14l8-8m0 8l-8-8"/></g></svg></a>
+      </form>
+    </div>
+    <div class="tgme_header_right_column">
+      <section class="tgme_right_column">
+        <div class="tgme_channel_info">
+          <div class="tgme_channel_info_header">
+            <i class="tgme_page_photo_image bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i>
+            <div class="tgme_channel_info_header_title_wrap">
+              <div class="tgme_channel_info_header_title"><span dir="auto">BotNews</span></div>
+              <div class="tgme_channel_info_header_labels"><i class="verified-icon"> ✔</i></div>
+            </div>
+            <div class="tgme_channel_info_header_username"><a href="https://t.me/BotNews">@BotNews</a></div>
+          </div>
+          <div class="tgme_channel_info_counters"><div class="tgme_channel_info_counter"><span class="counter_value">132K</span> <span class="counter_type">subscribers</span></div><div class="tgme_channel_info_counter"><span class="counter_value">1</span> <span class="counter_type">photo</span></div><div class="tgme_channel_info_counter"><span class="counter_value">3</span> <span class="counter_type">videos</span></div><div class="tgme_channel_info_counter"><span class="counter_value">101</span> <span class="counter_type">links</span></div></div>
+          <div class="tgme_channel_info_description">The official source for news about the Telegram Bot API. <a href="https://core.telegram.org/bots" target="_blank" rel="noopener">https://core.telegram.org/bots</a></div>
+          <a class="tgme_channel_download_telegram" href="//telegram.org/dl?tme=b4e2af2b6ffe1ff237_11823141967991245801">
+            <svg class="tgme_channel_download_telegram_icon" width="21px" height="18px" viewBox="0 0 21 18"><g fill="none"><path fill="#ffffff" d="M0.554,7.092 L19.117,0.078 C19.737,-0.156 20.429,0.156 20.663,0.776 C20.745,0.994 20.763,1.23 20.713,1.457 L17.513,16.059 C17.351,16.799 16.62,17.268 15.88,17.105 C15.696,17.065 15.523,16.987 15.37,16.877 L8.997,12.271 C8.614,11.994 8.527,11.458 8.805,11.074 C8.835,11.033 8.869,10.994 8.905,10.958 L15.458,4.661 C15.594,4.53 15.598,4.313 15.467,4.176 C15.354,4.059 15.174,4.037 15.036,4.125 L6.104,9.795 C5.575,10.131 4.922,10.207 4.329,10.002 L0.577,8.704 C0.13,8.55 -0.107,8.061 0.047,7.614 C0.131,7.374 0.316,7.182 0.554,7.092 Z"></path></g></svg>Download Telegram
+          </a>
+          <div class="tgme_footer">
+            <div class="tgme_footer_column">
+              <h5><a href="//telegram.org/faq">About</a></h5>
+            </div>
+            <div class="tgme_footer_column">
+              <h5><a href="//telegram.org/blog">Blog</a></h5>
+            </div>
+            <div class="tgme_footer_column">
+              <h5><a href="//telegram.org/apps">Apps</a></h5>
+            </div>
+            <div class="tgme_footer_column">
+              <h5><a href="//core.telegram.org/">Platform</a></h5>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="tgme_header_info">
+      <a class="tgme_channel_join_telegram" href="//telegram.org/dl?tme=b4e2af2b6ffe1ff237_11823141967991245801">
+        <svg class="tgme_channel_join_telegram_icon" width="19px" height="16px" viewBox="0 0 19 16"><g fill="none"><path fill="#ffffff" d="M0.465,6.638 L17.511,0.073 C18.078,-0.145 18.714,0.137 18.932,0.704 C19.009,0.903 19.026,1.121 18.981,1.33 L16.042,15.001 C15.896,15.679 15.228,16.111 14.549,15.965 C14.375,15.928 14.211,15.854 14.068,15.748 L8.223,11.443 C7.874,11.185 7.799,10.694 8.057,10.345 C8.082,10.311 8.109,10.279 8.139,10.249 L14.191,4.322 C14.315,4.201 14.317,4.002 14.195,3.878 C14.091,3.771 13.926,3.753 13.8,3.834 L5.602,9.138 C5.112,9.456 4.502,9.528 3.952,9.333 L0.486,8.112 C0.077,7.967 -0.138,7.519 0.007,7.11 C0.083,6.893 0.25,6.721 0.465,6.638 Z"></path></g></svg>Join
+      </a>
+      <a class="tgme_header_link" href="https://t.me/BotNews">
+        <i class="tgme_page_photo_image bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i>
+        <div class="tgme_header_title_wrap">
+          <div class="tgme_header_title"><span dir="auto">BotNews</span></div>
+          <div class="tgme_header_labels"><i class="verified-icon"> ✔</i></div>
+        </div>
+        <div class="tgme_header_counter">132K subscribers</div>
+      </a>
+    </div>
+  </div>
+</header>
+<main class="tgme_main" data-url="/BotNews">
+  <div class="tgme_container">
+    <section class="tgme_channel_history js-message_history">
+      <div class="tgme_widget_message_centered js-messages_more_wrap"><a href="/s/BotNews?before=102" class="tme_messages_more js-messages_more" data-before="102"></a></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/102" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTAyLCJ0IjoxNzkxOTQxNDc5LCJoIjoiMzc2ZjE1ZTUwZGU1MjM0NzhkIn0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><div class="tgme_widget_message_text js-message_text" dir="auto"><b>Bot API 7.10</b><br/><br/>• Introduced support for <a href="https://core.telegram.org/bots/api#giveaway" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Telegram Star Giveaways</a> <tg-emoji emoji-id="5952066863931331270"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E2AD90.png')"><b>⭐️</b></i></tg-emoji>.<br/>• Bots now receive updates when users <a href="https://core.telegram.org/bots/api#paidmediapurchased" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">purchase paid media</a>.<br/>• Mini Apps can now display and control a <a href="https://core.telegram.org/bots/webapps#bottombutton" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">secondary button</a> at the bottom of their interface.<br/>• The <a href="https://core.telegram.org/bots/webapps#initializing-mini-apps" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">bottom bar color</a> of Mini Apps can now be customized.<br/><br/>• And more, see the full changelog for details:<br/><br/><a href="https://core.telegram.org/bots/api-changelog#september-6-2024" target="_blank" rel="noopener">https://core.telegram.org/bots/api-changelog#september-6-2024</a></div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/102" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>16</span><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>14</span><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>2</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">199K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/BotNews/102"><time datetime="2024-09-06T13:30:49+00:00" class="time">13:30</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/103" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTAzLCJ0IjoxNzkxOTQxNDc5LCJoIjoiMDJiYWRiMTliN2JmNjQ4Y2NhIn0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><div class="tgme_widget_message_text js-message_text" dir="auto"><b>Bot API 7.11</b><br/><br/><b>• </b>Bots can now participate in <a href="https://telegram.org/blog/dynamic-video-quality-and-more#telegram-ads-in-bots" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">revenue sharing</a> from Telegram Ads <tg-emoji emoji-id="5951762148886582569"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E2AD90.png')"><b>⭐️</b></i></tg-emoji> – unlocking a new way to help support their development.<br/><b>• </b>Introduced <a href="https://core.telegram.org/bots/api#paid-broadcasts" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Paid Broadcasts</a> <tg-emoji emoji-id="5952066863931331270"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E2AD90.png')"><b>⭐️</b></i></tg-emoji> – allowing bots to broadcast up to <b>1000</b> messages per second.<br/><br/><b>• </b>Bots can now send and receive chat-specific <a href="https://core.telegram.org/bots/api#messageentity" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">hashtags</a> that only show posts and stories from a specific chat when tapped.<br/><b>• </b>Added a new <a href="https://core.telegram.org/bots/api#copytextbutton" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">inline button</a> to let users copy text in one tap.<br/><b>• </b>Bots can now <a href="https://core.telegram.org/bots/api#editmessagemedia" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">add media</a> to existing text messages.<br/><br/><b>• </b>And more, see the full changelog for details:<br/><br/><a href="https://core.telegram.org/bots/api-changelog#october-31-2024" target="_blank" rel="noopener">https://core.telegram.org/bots/api-changelog#october-31-2024</a><br/><br/><tg-emoji emoji-id="5447644880824181073"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29AA0.png')"><b>⚠️</b></i></tg-emoji> <b>Warning</b>: Starting December 1, 2024 messages with video posted in big communities can be delayed by the server until the respective video is reencoded. Read more <a href="https://core.telegram.org/bots/api-changelog#october-31-2024" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">here</a>.</div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/103" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>18</span><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>11</span><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>3</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">186K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/BotNews/103"><time datetime="2024-10-31T15:21:34+00:00" class="time">15:21</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/104" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTA0LCJ0IjoxNzkxOTQxNDc5LCJoIjoiMWVkMjFmYmRjZjY5ZTNjNjg4In0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><a class="tgme_widget_message_video_player js-message_video_player" href="https://t.me/BotNews/104"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/HkGC7hpMvBsjsRhCoQuJt4s6BZXsaoJbEno0tNFdsCp_6Vh-iTHjCbrEPNQl1qde_-ptTifgpWF4B9iFtLRkBSMLpS3oJ6FZbrCImKcvbWY8iQUhaBsZGgO7ctmctinUFTeuRDKWbD0RSlD3hNiezoSUm_L6m_vHLky-qjuL6jDmPfAI4B7ZiwYv7LMpMJe5oSpIZxiUzp3-Waffa2UoJyRKM9KeFp-C6OFqwZP4efnjyvkHmJGUZFO3g_C_1wvAjKNSLjqEt8i9AaiX5NUWqfmpEm5PyRBtOZVSqzA1WzJ-vTDu_3LV-hQVFwFs871FKOzYrvhl2SEaH5kXdBtLuQ')"></i>
+
+<div class="tgme_widget_message_video_wrap" style="width:1080px;padding-top:100%">
+  <video src="https://cdn4.telesco.pe/file/fda0ac971a.mp4?token=kP6CNEOqaTUK0IZuwMGbp1B_1sVc1tgYPNRrz2TFTIyqBrgQTVCNd1B7elDfIpfFXMl-OB8qqqMb2HAaVzPOragC50mu2dwanNnev1EyPTfnmogpZ_QXlFTb8skhfaVLVWl2E6WkmeAAwdmWM07gWTDp4AeTt37UmXvD3F60xvQS0XXNM9Q0e_TjvJDgnmMMc1kLF1qItNZDHCudEDRXXVpWGJ_dJ03KpjzU0bomzwUjt1nzLyjqpp4pxZY3Ko6T1d0tXzFVOOVx9x8w-v1WyZ7VItFr8GR1t3vZhRXvsE8uVLTVWf7V6GLx1jfN8_g4RSRIYqG7P3KXX18lrCDHDA" class="tgme_widget_message_video js-message_video" width="100%" height="100%" preload muted autoplay loop playsinline></video>
+</div>
+
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">This media is not supported in your browser</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><b>Bot API 8.0</b><br/><br/>Announcing the <b>largest update</b> in the history of <a href="https://core.telegram.org/bots/webapps" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Mini Apps</a> <tg-emoji emoji-id="5436040291507247633"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8E89.png')"><b>🎉</b></i></tg-emoji><br/><br/><b>Full-Screen Mode</b><br/><b>• </b>Mini Apps can now use the <a href="https://telegram.org/blog/fullscreen-miniapps-and-more#full-screen-mode" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">entire screen</a> – allowing them to host immersive games <tg-emoji emoji-id="5445284980978621387"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')"><b>🚀</b></i></tg-emoji> with <a href="https://core.telegram.org/bots/webapps#initializing-mini-apps" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">expanded interfaces</a>.<br/><br/><b>Geolocation and Motion Tracking<br/>• </b>Mini Apps can now prompt users for <a href="https://telegram.org/blog/fullscreen-miniapps-and-more#geolocation-access" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Geolocation Access</a>, allowing them to build virtually any <a href="https://core.telegram.org/bots/webapps#locationmanager" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">location-based</a> <tg-emoji emoji-id="5415803062738504079"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F97BA.png')"><b>🗺</b></i></tg-emoji> service.<br/><b>• </b>Likewise, Mini Apps can request <a href="https://core.telegram.org/bots/webapps#accelerometer" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">acceleration</a>, <a href="https://core.telegram.org/bots/webapps#deviceorientation" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">orientation</a> and <a href="https://core.telegram.org/bots/webapps#gyroscope" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">rotation</a> data from devices in <b>real time</b>.<br/><br/><b>Paid Subscriptions</b><br/><b>• </b><a href="https://telegram.org/blog/fullscreen-miniapps-and-more#subscription-plans" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Subscriptions Plans</a> powered by <tg-emoji emoji-id="5952066863931331270"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E2AD90.png')"><b>⭐️</b></i></tg-emoji> <a href="https://telegram.org/blog/telegram-stars" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Telegram Stars</a> are now available to all Bots and Mini Apps. <br/><b>•</b> Apps can <a href="https://core.telegram.org/bots/api#createinvoicelink" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">accept</a> recurring payments – or <a href="https://core.telegram.org/bots/api#edituserstarsubscription" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">cancel</a> them at any time.<br/><br/><b>Gifts for Stars</b><br/><b>•</b> Bots and Mini Apps can now use star <a href="https://core.telegram.org/bots/payments-stars#q-what-can-i-do-with-telegram-stars" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">proceeds</a> to send <a href="https://core.telegram.org/bots/api#sendgift" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Paid Gifts</a>  <tg-emoji emoji-id="5204076520963842994"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8E81.png')"><b>🎁</b></i></tg-emoji> to users with a <a href="https://core.telegram.org/bots/api#sendgift" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">custom caption</a>.<br/><br/><b>Home Screen Shortcuts</b><br/><b>• </b>Mini apps can now be accessed via <a href="https://telegram.org/blog/fullscreen-miniapps-and-more#home-screen-shortcuts" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">direct shortcuts</a> added to the <b>home screen</b> of <tg-emoji emoji-id="5407025283456835913"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F93B1.png')"><b>📱</b></i></tg-emoji> mobile devices.<br/><br/><b>Emoji Statuses</b><br/><b>• </b>Mini Apps can now let users pick a <a href="https://telegram.org/blog/fullscreen-miniapps-and-more#emoji-statuses-from-apps" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">new emoji status</a> <tg-emoji emoji-id="5445015510435502457"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9A95.png')"><b>🚕</b></i></tg-emoji> with a native dialog – or request <a href="https://core.telegram.org/bots/api#setuseremojistatus" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">access</a> to later sync it with in-game badges, third-party APIs and more.<br/><br/><b>Sharing</b> <b>and Downloading Media</b><br/><b>• </b>Mini Apps can now let users <a href="https://telegram.org/blog/fullscreen-miniapps-and-more#media-sharing" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">share media</a> directly to any chat – with granular <a href="https://core.telegram.org/bots/api#savepreparedinlinemessage" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">selection parameters</a>.<br/><b>• </b>Introduced a <b>native popup</b> to <tg-emoji emoji-id="5406745015365943482"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E2AC87.png')"><b>⬇️</b></i></tg-emoji><a href="https://core.telegram.org/bots/webapps#downloadfileparams" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">download files</a> from an App.<br/><br/><b>Customizable Loading Screen</b><br/><b>• </b>The loading screen of mini apps can now be <b>customized</b> <tg-emoji emoji-id="5472010685560921607"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F96A5.png')"><b>🖥</b></i></tg-emoji> in <a href="https://t.me/Botfather" target="_blank">@Botfather</a> – adding your own logo and brand colors.<br/><br/><b>Hardware-specific Optimizations</b><br/><b>• </b>Mini Apps on Android now receive basic <a href="https://core.telegram.org/bots/webapps#additional-data-in-user-agent" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">hardware info</a> – enabling <b>smoother</b> usage and gaming <tg-emoji emoji-id="5453918011272470772"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8F8E.png')"><b>🏎</b></i></tg-emoji> experiences for users.<br/><br/><b>• </b>And so much more, see our <a href="https://telegram.org/blog/fullscreen-miniapps-and-more" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">blog</a> for <b>high-quality demos</b> and the full changelog for details:<br/><br/><a href="https://core.telegram.org/bots/api-changelog#november-17-2024" target="_blank" rel="noopener">https://core.telegram.org/bots/api-changelog#november-17-2024</a><br/><br/><tg-emoji emoji-id="5447644880824181073"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29AA0.png')"><b>⚠️</b></i></tg-emoji> <b>Warning</b>: Starting December 1, 2024 messages with video posted in big communities can be delayed by the server until the respective video is reencoded. Read more <a href="https://core.telegram.org/bots/api-changelog#october-31-2024" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">here</a>.</div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/104" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>21</span><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>17</span><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>15</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">171K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/BotNews/104"><time datetime="2024-11-17T12:36:06+00:00" class="time">12:36</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/105" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTA1LCJ0IjoxNzkxOTQxNDc5LCJoIjoiOWM3MzkzNmI0YmIzZWQ3YWIxIn0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><a class="tgme_widget_message_video_player js-message_video_player" href="https://t.me/BotNews/105"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/pc5AD-ZzjMPfaQI0cb0ncCTwvcEQbwzzg86283v49H-afVFxdYxY1-35qqNbD7Qhmsf7cQex1yocZ5B2vsMlnn8KWZ9Cu5M5mGp33sdZeVwGuicfeRicnT0VoHTNNVhVpv6MH-JF8uhLEIsbtms3AiJiNefLoTGpOxgoW53TlCdRCJUo4-QQkM-6lIdZ3MF6Zq9c94Y8HHtvtzjg40_TNXojGtcogNY4JaNpnzkUzXEjlOEX8q8xxR7Hm1Utj2mheW0skxbACBh1BX09yom6ms0v3YWwbuGmyWQq5cNeVe9Ezt6R_-Odfhy5mS15JvMg3tiZ2XYDetBDf8AvL1n6Xg')"></i>
+
+<div class="tgme_widget_message_video_wrap" style="width:1080px;padding-top:100%">
+  <video src="https://cdn4.telesco.pe/file/12ec5a0a0d.mp4?token=ow5yzgEXKhD1DY3Vzqm4uOvFpUdsVKXYkOvmZcG4vdqWgbq84RPxZbibTUGkMydHlMAnKV7V7DTkkMfwYh8DlRyA4ne2MM5Lvym0bSlgDLrNC3GTCDocfLg64Nl2jaBBqpqz-2yIz7Yqo5q2PYd80ZlcWQUSePSbtTamOPzUoT4je_oDU0d_f3HUrBUJNxi8aQmAXJ0jNEkvdHfSjxho458QoIDaO3IDg5mrLDuGrMVgvrxfb1v7BZgyjMuT8MOwBgwr0LiNDcul8rP74yv9PkFhxGqD6hJAXiyXkGdgO_JfZKdBNlc6D4eyIvwb4nsdwZJ1khGWJhiq_Hj1EnQmhg" class="tgme_widget_message_video js-message_video" width="100%" height="100%"></video>
+</div>
+<div class="message_video_play js-message_video_play"></div>
+<time class="message_video_duration js-message_video_duration">0:21</time>
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">This media is not supported in your browser</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><b>Affiliate Programs and Bot API 8.1</b><br/><br/>Starting today, Bot and Mini App developers can launch their own <a href="https://telegram.org/blog/affiliate-programs-ai-sticker-search" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Affiliate Programs</a>, and specify how much of their future <tg-emoji emoji-id="5952066863931331270"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E2AD90.png')"><b>⭐️</b></i></tg-emoji> <a href="https://t.me/BotNews/90" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Star revenue</a> from <b>referred users</b> they are willing to share with those who <b>invited them</b>.<br/><br/>It only takes a <b>few taps</b> to set up an Affiliate Program — you can find out more in our <a href="https://telegram.org/tour/affiliate-programs" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">dedicated guide</a>.<br/><br/>With <b>Bot API 8.1</b>, all bots can also detect commissions and affiliate transactions out of the box, see the <a href="https://core.telegram.org/bots/api-changelog#december-4-2024" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">full changelog</a> for details.<br/><br/><tg-emoji emoji-id="5447644880824181073"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29AA0.png')"><b>⚠️</b></i></tg-emoji> <b>Warning</b>: As of December 1 2024, messages with video posted in big communities can be delayed by the server until the respective video is reencoded. Read more <a href="https://core.telegram.org/bots/api-changelog#october-31-2024" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">here</a>.</div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/105" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>23</span><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>20</span><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>17</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">186K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/BotNews/105"><time datetime="2024-12-04T09:56:59+00:00" class="time">09:56</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/106" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTA2LCJ0IjoxNzkxOTQxNDc5LCJoIjoiNzczYTg3ZmJhODk0ZGUzMWUzIn0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><a class="tgme_widget_message_video_player js-message_video_player" href="https://t.me/BotNews/106"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/H0LvjuxzPS1KmHTL9fKZTm95UAna3ZtRCI0xEqu8NMuZEQ2BZkM3aJzyBpZMYuuvmPU63bhhbZMsECR2xpQYgh11DDkzE-fenobv7M1EXUv_ebcPVhSuc4JnqkEwInOvn3oYFXe4CC1OXWt9Tbx8exs1TxFD9HrUlCSTR1nMm0TRBN3MIMHxTVKBCssTJHWE9fhYF39wdc04f9peCYBlDODl8BbzmRt7bpvLldfezx6WATv-WRaag7lMnMgW9_snoIZCpo6SVtQIPdMtDqXaGkuiLen0G-ydS-pWDMjT5imjE7VsuyjyroqcxCcfSiGHOMtWXJJ9l-lBWPk0Dvb2IA')"></i>
+
+<div class="tgme_widget_message_video_wrap" style="width:1080px;padding-top:100%">
+  <video src="https://cdn4.telesco.pe/file/e2b667869b.mp4?token=H4CDQUiVCeMRONbkbo7Ah25nj-E3IXw5T2E0CdCzNmXaVInbJqxujN29BxN1OSslb7v-SIvIugRXZkyr6x_-iMVtKDwW9wOYeG_CSyIf1ewXWT1VVv0nDTPdFWFBk6fNgCOJgYns7N_H-_xEmJ6xzuZzqsAF3SR1iYjt6vTyGLh74LPqbigeuPmPEpa0qtRmC2n8b2HJx94Cp_wkltgMB2tFf6kvHVjc9VjvDy4acD_toxkp9dSnP0TQaOYSfmKduAxMJbZBQ2Z_n04fkJoJtREaNfU0Mixf1TtWL5ZcxENXJf8pdNKtwW9KvK8W0Ca25rar-PTYgWVmi6agwUp9pg" class="tgme_widget_message_video js-message_video" width="100%" height="100%"></video>
+</div>
+<div class="message_video_play js-message_video_play"></div>
+<time class="message_video_duration js-message_video_duration">0:11</time>
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">This media is not supported in your browser</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><b>Verification from Third Parties and Bot API 8.2</b><br/><br/>With today&#39;s update, official Bots and Mini Apps can <a href="https://telegram.org/verify#third-party-verification" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">verify</a> <b><tg-emoji emoji-id="5219899949281453881"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C85.png')"><b>✅</b></i></tg-emoji></b> users and chats on behalf of other organizations, <a href="https://core.telegram.org/bots/api#verifyuser" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">assigning</a> them a <b>custom badge</b> and a brief <b>description</b>.<br/><br/>This <b>decentralized verification platform</b> proactively prevents spam and misinformation – setting a new safety standard for social platforms <tg-emoji emoji-id="5251203410396458957"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')"><b>🛡</b></i></tg-emoji><br/><br/>Additionally, <b>Bot API 8.2</b> comes with out-of-the-box support for <a href="https://telegram.org/blog/collectible-gifts-and-more#collectible-gifts" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Collectible Gifts</a> <tg-emoji emoji-id="5204076520963842994"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8E81.png')"><b>🎁</b></i></tg-emoji> – allowing Bots and Mini Apps to <a href="https://core.telegram.org/bots/api#sendgift" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">prepay</a> <tg-emoji emoji-id="5352903107774789522"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8E81.png')"><b>🎁</b></i></tg-emoji> for <b>Gift Upgrades</b>.<br/><br/>Check out the <a href="https://core.telegram.org/bots/api-changelog#january-1-2025" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">full Bot API 8.2 changelog</a> for more details.<br/><br/>Happy Holidays from the Telegram Team <tg-emoji emoji-id="5431783411981228752"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8E86.png')"><b>🎆</b></i></tg-emoji></div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/106" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>48</span><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>27</span><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>22</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">220K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/BotNews/106"><time datetime="2025-01-01T20:33:44+00:00" class="time">20:33</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/107" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTA3LCJ0IjoxNzkxOTQxNDc5LCJoIjoiMTI0ZDljNzU3ZDU1NDJjZTE2In0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><div class="tgme_widget_message_text js-message_text" dir="auto"><b>Bot API 8.3</b><br/><br/><b>Video Improvements</b><br/><b>• </b>Introduced support for <a href="https://telegram.org/blog/AI-sticker-search-video-improvements#video-covers-in-channels" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">custom covers</a> and <a href="https://telegram.org/blog/AI-sticker-search-video-improvements#copy-video-link-at-current-time" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">start timestamps</a> for videos.<br/><b>•</b> Out of the box, bots can <b>specify a cover </b>and<b> start timestamp</b> when sending, editing and forwarding <a href="https://core.telegram.org/bots/api#video" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">videos</a> — including in albums and <a href="https://core.telegram.org/bots/api#inputpaidmediavideo" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">paid media</a>.<br/><br/><b>Gifts and Reactions</b><br/><b>• </b>Bots can now <a href="https://core.telegram.org/bots/api#sendgift" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">send gifts</a> <tg-emoji emoji-id="5204076520963842994"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8E81.png')"><b>🎁</b></i></tg-emoji> to channels, in addition to regular users.<br/><b>• </b>Added support for <a href="https://core.telegram.org/bots/api#transactionpartnerchat" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">transactions</a> with chats.<br/><b>• </b>Bots can now <b>add reactions</b> to most service messages.<br/><br/><b>Similar Bots</b><br/><b>• </b>A list of <a href="https://telegram.org/blog/AI-sticker-search-video-improvements#similar-bots" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">similar bots</a> will now appear in bot profiles, helping users discover other bots they may find interesting.<br/><br/><b>• </b>And more, see the full changelog for details:<br/><br/><a href="https://core.telegram.org/bots/api-changelog#february-12-2025" target="_blank" rel="noopener">https://core.telegram.org/bots/api-changelog#february-12-2025</a></div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/107" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>54</span><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>38</span><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>28</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">195K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/BotNews/107"><time datetime="2025-02-12T13:34:41+00:00" class="time">13:34</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/108" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTA4LCJ0IjoxNzkxOTQxNDc5LCJoIjoiNmVlNGUxNDQwZWUyZWI2NmY0In0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><div class="tgme_widget_message_text js-message_text" dir="auto"><b>Bot API 9.0</b><br/><br/>Announcing the <b>largest Bot API update</b> of 2025 (<i>so far</i> <tg-emoji emoji-id="6321170787071952249"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9888.png')"><b>😈</b></i></tg-emoji>)<br/><br/><tg-emoji emoji-id="5938274774756103272"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8FAA.png')"><b>🏪</b></i></tg-emoji> <b>Telegram Business 2.0</b><br/> <b>• </b>Bots can now fully customize the <b>branding</b> of <a href="https://telegram.org/blog/telegram-business" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Business Accounts</a> – managing their <a href="https://core.telegram.org/bots/api#setbusinessaccountname" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">name</a>, <a href="https://core.telegram.org/bots/api#setbusinessaccountusername" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">username</a>, <a href="https://core.telegram.org/bots/api#setbusinessaccountbio" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">bio</a> and <a href="https://core.telegram.org/bots/api#setbusinessaccountprofilephoto" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">profile pictures</a>.<br/> <b>• </b>Introduced support for managing <a href="https://core.telegram.org/bots/api#sendgift" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Paid Gifts</a>  <tg-emoji emoji-id="5204076520963842994"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8E81.png')"><b>🎁</b></i></tg-emoji>, including <a href="https://core.telegram.org/bots/api#convertgifttostars" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">conversions</a>, <a href="https://core.telegram.org/bots/api#transfergift" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">transfers</a> and <a href="https://core.telegram.org/bots/api#upgradegift" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">upgrades</a>.<br/> • Bots can now check <tg-emoji emoji-id="5952066863931331270"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E2AD90.png')"><b>⭐️</b></i></tg-emoji> Telegram Star <a href="https://core.telegram.org/bots/api#getbusinessaccountstarbalance" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">balances</a> and <a href="https://core.telegram.org/bots/api#transferbusinessaccountstars" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">transfer Stars</a> from managed businesses.<br/> <b>• </b>Bots can now easily <a href="https://core.telegram.org/bots/api#readbusinessmessage" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">mark</a> Business messages as read or <a href="https://core.telegram.org/bots/api#deletebusinessmessages" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">delete</a> them.<br/> • Added extensive support for <a href="https://core.telegram.org/bots/api#poststory" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">managing stories</a> on Business accounts – featuring <a href="https://core.telegram.org/bots/api#inputstorycontentphoto" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">photos</a>, <a href="https://core.telegram.org/bots/api#inputstorycontentvideo" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">videos</a> and <b>interactive elements</b> like <a href="https://core.telegram.org/bots/api#storyareatypelink" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">links</a>, <a href="https://core.telegram.org/bots/api#storyareatypelocation" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">locations</a>, <a href="https://core.telegram.org/bots/api#storyareatypesuggestedreaction" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">reactions</a>, <a href="https://core.telegram.org/bots/api#storyareatypeweather" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">weather info</a> and even <a href="https://core.telegram.org/bots/api#storyareatypeuniquegift" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Gifts</a>.<br/> • All stories posted by bots can also be <a href="https://core.telegram.org/bots/api#editstory" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">edited</a> or <a href="https://core.telegram.org/bots/api#deletestory" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">deleted</a>.<br/> <b>• </b>Introduced granular <a href="https://core.telegram.org/bots/api#businessbotrights" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Business permissions</a>, giving users even <b>finer control</b> over connected bots.<br/><br/><tg-emoji emoji-id="5472170432574528133"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9783.png')"><b>🗃️</b></i></tg-emoji> <b>Mini App Storage</b><br/><b> • </b>Mini Apps can now store data <a href="https://core.telegram.org/bots/webapps#devicestorage" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">locally</a> on the user&#39;s device. <b> <br/> • </b>Sensitive tokens can be safely persisted in a specialized <a href="https://core.telegram.org/bots/webapps#securestorage" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">secure storage</a>.<br/><br/><tg-emoji emoji-id="5938540495792771769"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8E81.png')"><b>🎁</b></i></tg-emoji> <b>Telegram Gifts</b><br/><b> • </b>Introduced support for <a href="https://core.telegram.org/bots/api#uniquegift" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">unique Gifts</a> – with detailed <a href="https://core.telegram.org/bots/api#uniquegiftmodel" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">model</a>, <a href="https://core.telegram.org/bots/api#uniquegiftsymbol" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">symbol</a> and <a href="https://core.telegram.org/bots/api#uniquegiftbackdropcolors" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">backdrop</a> info.<br/> <b>• </b>Bots can also check which <a href="https://core.telegram.org/bots/api#acceptedgifttypes" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Gift types</a> are accepted by users and chats.<br/><br/><b><tg-emoji emoji-id="5897792062291449826"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E2AD90.png')"><b>⭐️</b></i></tg-emoji></b> <b>Paid Messages</b><br/><b> • </b>Bots can now track how many Stars users <a href="https://telegram.org/blog/star-messages-gateway-2-0-and-more#stay-in-control-of-your-inbox-with-star-messages" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">paid to send a message</a>.<br/> • This includes out-of-the-box support for paid messages in both <b>groups</b> and <b>business accounts</b>.<br/><br/><tg-emoji emoji-id="5951802070607597636"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E2AD90.png')"><b>⭐️</b></i></tg-emoji> <b>Telegram Premium</b><br/><b> • </b>Bots can now <a href="https://core.telegram.org/bots/api#giftpremiumsubscription" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">gift</a> a Telegram Premium subscription paid in <a href="https://telegram.org/blog/telegram-stars" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Stars</a>.<br/><br/><b>• </b>And more, see the full changelog for details:<br/><br/><a href="https://core.telegram.org/bots/api-changelog#april-11-2025" target="_blank" rel="noopener">https://core.telegram.org/bots/api-changelog#april-11-2025</a></div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/108" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>75</span><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>53</span><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>43</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">234K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/BotNews/108"><time datetime="2025-04-11T15:29:58+00:00" class="time">15:29</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/109" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTA5LCJ0IjoxNzkxOTQxNDc5LCJoIjoiYWE0OTU5NDc5YjgyY2IxMDkxIn0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><div class="tgme_widget_message_text js-message_text" dir="auto"><b>Bot API 9.1</b><br/><br/><tg-emoji emoji-id="5454096630372379732"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29891.png')"><b>☑️</b></i></tg-emoji> <b>Checklists</b><br/><b>• </b>Introduced support for native <a href="https://core.telegram.org/bots/api#checklist" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">checklists</a>.<br/><b>•</b> Out of the box, business bots can <a href="https://core.telegram.org/bots/api#sendchecklist" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">create</a> and <a href="https://core.telegram.org/bots/api#editmessagechecklist" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">edit</a> checklists.<br/><b>•</b> Bots can now <a href="https://core.telegram.org/bots/api#message" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">receive checklists</a> and detect progress via <a href="https://core.telegram.org/bots/api#checklisttasksdone" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">service messages</a>.<br/><br/><tg-emoji emoji-id="5204076520963842994"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8E81.png')"><b>🎁</b></i></tg-emoji> <b>Gifts, Stars and More</b><br/><b>• </b>Improved gifts with details on their <a href="https://core.telegram.org/bots/api#uniquegiftinfo" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">last sale</a> and <a href="https://core.telegram.org/bots/api#uniquegiftinfo" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">transfer cooldown</a>.<br/><b>• </b>Bots can now easily check their Telegram Star <a href="https://core.telegram.org/bots/api#getmystarbalance" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">balance</a>.<br/><b>• </b>Mini Apps can now <a href="https://core.telegram.org/bots/webapps#initializing-mini-apps" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">hide</a> the on-screen keyboard.<br/><b>• </b>Unlocked more poll options, allowing up to <b>12</b>.<br/><br/><b>• </b>And more, see the full changelog for details:<br/><br/><a href="https://core.telegram.org/bots/api-changelog#july-3-2025" target="_blank" rel="noopener">https://core.telegram.org/bots/api-changelog#july-3-2025</a></div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/109" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>98</span><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>81</span><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>49</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">210K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/BotNews/109"><time datetime="2025-07-03T15:26:16+00:00" class="time">15:26</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/110" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTEwLCJ0IjoxNzkxOTQxNDc5LCJoIjoiZTI1NDEyMzcyM2E5MTk5ODgwIn0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><div class="tgme_widget_message_text js-message_text" dir="auto"><tg-emoji emoji-id="5447644880824181073"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29AA0.png')"><b>⚠️</b></i></tg-emoji> <b>Notice to Developers</b><br/><br/>Due to a minor internal technical issue that occurred today from 18:10 to 19:35 UTC, certain bots may have been unable to reliably load the list of purchasable Telegram Gifts.<br/><br/>We have promptly resolved the issue and apologize for any inconvenience caused.</div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/110" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>128</span><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>112</span><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>104</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">244K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/BotNews/110"><time datetime="2025-07-04T23:02:27+00:00" class="time">23:02</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/111" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTExLCJ0IjoxNzkxOTQxNDc5LCJoIjoiYzE1ZDk4MzYwM2FjMTI5YzIzIn0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><div class="tgme_widget_message_text js-message_text" dir="auto"><tg-emoji emoji-id="5458571840265918623"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09FA6BE.png')"><b>🦾</b></i></tg-emoji> <b>Official </b><a href="https://t.me/BotFather" target="_blank"><b>@BotFather</b></a><b> Mini App</b><br/><br/><a href="https://t.me/BotFather" target="_blank">@BotFather</a> now hosts a native <a href="https://t.me/botfather?startapp" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);"><b>mini app</b></a> that developers can use to create new bots or manage existing ones in a <b>streamlined interface</b>.<br/><br/>The previous flow <b>remains unchanged</b> – the mini app simply offers an alternative way to seamlessly access the same functionality.<br/><br/>The mini app is especially useful on <b>mobile devices</b> –&nbsp;allowing you to easily access your bot token, toggle settings or edit your bot in a few taps.</div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/111" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>707</span><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>435</span><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>344</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">208K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/BotNews/111"><time datetime="2025-07-25T21:53:12+00:00" class="time">21:53</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/112" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTEyLCJ0IjoxNzkxOTQxNDc5LCJoIjoiNjNmOTFkZmMwYWZjN2I1NjZhIn0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><div class="tgme_widget_message_text js-message_text" dir="auto"><b>Bot API 9.2</b><br/><br/><tg-emoji emoji-id="5472107610087889157"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F93AD.png')"><b>📭</b></i></tg-emoji> <b>Direct Messages in Channels</b><br/><b>• </b>Introduced Channel Direct Messages Chats, allowing bots to send and detect <a href="https://telegram.org/blog/direct-to-channel-trim-voice-and-more#send-direct-messages-to-channels" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Direct Messages</a> in channels they manage.<br/><b>• </b>Bots can now identify <a href="https://core.telegram.org/bots/api#chat" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">direct messages chats</a> and their <a href="https://core.telegram.org/bots/api#chatfullinfo" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">parent channel</a>.<br/>• Bots now additionally receive <a href="https://core.telegram.org/bots/api#directmessagestopic" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">topic metadata </a>for direct messages.<br/><br/><tg-emoji emoji-id="5952066863931331270"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E2AD90.png')"><b>⭐️</b></i></tg-emoji> <b>Suggested Posts</b><br/><b>• </b>Introduced full support for <a href="https://telegram.org/blog/checklists-suggested-posts#suggest-posts-in-channels" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Suggested Posts</a> in channels, unlocking granular automations via bots with sufficient rights.<br/><b>• </b>Bots can now detect, <a href="https://core.telegram.org/bots/api#sendmessage" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">send</a>, <a href="https://core.telegram.org/bots/api#approvesuggestedpost" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">approve</a> and <a href="https://core.telegram.org/bots/api#declinesuggestedpost" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">decline</a> suggested posts, with detailed price and date <a href="https://core.telegram.org/bots/api#suggestedpostparameters" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">options</a>.<br/><b>• </b>All relevant service messages are supported – including <a href="https://core.telegram.org/bots/api#suggestedpostapproved" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">approvals</a>, <a href="https://core.telegram.org/bots/api#suggestedpostapprovalfailed" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">errors</a>, <a href="https://core.telegram.org/bots/api#suggestedpostdeclined" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">declines</a>, successful <a href="https://core.telegram.org/bots/api#suggestedpostpaid" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">payments</a> and <a href="https://core.telegram.org/bots/api#suggestedpostrefunded" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">refunds</a>.<br/><br/><tg-emoji emoji-id="5454096630372379732"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29891.png')"><b>☑️</b></i></tg-emoji> <b>Checklists</b><br/><b>• </b>Bots can now <a href="https://core.telegram.org/bots/api#replyparameters" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">reply directly</a> to individual checklist tasks.<br/><br/><tg-emoji emoji-id="5393258452984296201"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8E81.png')"><b>🎁</b></i></tg-emoji> <b>Gifts</b><br/><b>• </b>Gifts can now expose their <a href="https://core.telegram.org/bots/api#gift" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">publisher chat</a> for attribution.<br/><br/><b>• </b>And more, see the full changelog for details:<br/><br/><a href="https://core.telegram.org/bots/api-changelog#august-15-2025" target="_blank" rel="noopener">https://core.telegram.org/bots/api-changelog#august-15-2025</a></div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/112" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>885</span><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>750</span><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>519</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">223K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/BotNews/112"><time datetime="2025-08-15T21:13:41+00:00" class="time">21:13</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/113" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTEzLCJ0IjoxNzkxOTQxNDc5LCJoIjoiNTY0NTQzMzJjN2ZiMWY2Y2UwIn0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><a class="tgme_widget_message_video_player js-message_video_player" href="https://t.me/BotNews/113"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/gedl0pfj3ipF50PokpJmfT0UOY-t8591GgFgE39qde3qX42EM8_B91GYu1uDHsZAb4GN4X8qXVEd9f9StYeZJODZjxI-AGp1l3ZFrAmw3GdS7pB7oy74vrHTyuG9DPlWQ4uh47NEMV9VJrhNgRL_JX_bqPvWhMjxH9m9z9kYRH8c4n72f-x65mFhEuVE3CSc0U9oQ0YV3aQuMXyoAkrN2J16_rc56wbIw67mNxV5rDHtNCUYhTY5-PLQkhM8t4GOIs_XJ48ii5hQvdBWpHjbAoVFU-6Cs4GZJ5aJnNnHTGoClE7uSWpH0kTMPEOxb7Y-zNYnNL3z7oSwEtlyEBTmCw')"></i>
+
+<div class="tgme_widget_message_video_wrap" style="width:1920px;padding-top:100%">
+  <video src="https://cdn4.telesco.pe/file/236572b3d3.mp4?token=HxECErSdWbh51CwDF5003cNmPdZOTiGPb_xg-Ys-gKwGrfOYnsmspY5VUkfdRiDO5e2gjviMYOLHFk-yGCmfaaFUd_tOkUPIKvR2MIYEoU1eLAS5EIM2FtWZDIYSRsfPWM552EmE0WzdMwNVSQQHhJJUDK6vWwLdPtiw1ltDvNDmxn9OKQKC6zxf_bkoCnxmZ4eUkB9eL5aV7pJHWZAhf4pApZTBMZKpL6C-uSNcHZjuAU7RIvszStAfTKl_oS_xkn5Uqn_WdC53zKYNI-JPi20wwnxH6H8w4PlMCarkcTyPyajRHypdi0CV05H1_IaNf8-ftQ_jOwOhXivG26ewyg" class="tgme_widget_message_video js-message_video" width="100%" height="100%" preload muted autoplay loop playsinline></video>
+</div>
+
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">This media is not supported in your browser</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><b>Bot API 9.3</b><br/><br/><tg-emoji emoji-id="5425094988260188065"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F92AA.png')"><b>💪</b></i></tg-emoji> <b>AI Revolution</b><br/>This release comes with new <b>tools</b> and <b>native interfaces</b> to easily integrate modern LLMs and AI features.<br/><br/><b>• </b>Introduced <b>topics</b> in 1-on-1 chats, letting users organize bot chats into easily accessible threads.<br/><b>• </b>Topics in private chats support all <a href="https://core.telegram.org/bots/api#sendmessage" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">send</a> and <a href="https://core.telegram.org/bots/api#forwardmessage" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">forward</a> methods, including <a href="https://core.telegram.org/bots/api#sendchataction" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">chat actions</a>.<br/><b>•</b> Out of the box, bots can <a href="https://core.telegram.org/bots/api#editforumtopic" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">edit</a> or <a href="https://core.telegram.org/bots/api#deleteforumtopic" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">delete</a> private chat topics, manage <a href="https://core.telegram.org/bots/api#unpinallforumtopicmessages" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">pinned messages</a> and more.<br/><b>• </b>Allowed bots to <b>stream</b> <a href="https://core.telegram.org/bots/api#sendmessagedraft" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">live </a>responses as they&#39;re generated.<br/><br/><tg-emoji emoji-id="5204076520963842994"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8E81.png')"><b>🎁</b></i></tg-emoji> <b>Gifts</b><br/><b>• </b>Improved gifts — with support for <a href="https://core.telegram.org/bots/api#uniquegift" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">blockchain</a>, multiple currencies, backgrounds and more.<br/><b>• </b>Bots can now list all gifts owned by users and chats with detailed <a href="https://core.telegram.org/bots/api#getusergifts" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">filtering options</a>.<br/><b>• </b>Added detailed information about the <a href="https://core.telegram.org/bots/api#uniquegiftcolors" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">colors</a> tied to a gift or applied to a <a href="https://core.telegram.org/bots/api#chatfullinfo" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">chat</a>.<br/><br/><tg-emoji emoji-id="5373012449597335010"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F91A4.png')"><b>👤</b></i></tg-emoji> <b>Profiles and Private Chats</b><br/><b>•</b> Business bots can now <a href="https://core.telegram.org/bots/api#repoststory" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">repost stories</a> across accounts they manage.<br/><b>•</b> <a href="https://core.telegram.org/bots/api#copymessage" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Copied</a> and <a href="https://core.telegram.org/bots/api#forwardmessage" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">forwarded</a> messages can now show <a href="https://t.me/TelegramTips/451" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">effects</a> in private chats.<br/><b>•</b> Bots can now see the <a href="https://core.telegram.org/bots/api#userrating" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">rating</a> of users who contact them.<br/><br/><tg-emoji emoji-id="5417876320761696693"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C88.png')"><b>✈</b></i></tg-emoji> <b>General</b><br/><b>• </b>Allowed bots to hide their main <a href="https://t.me/username" target="_blank">@username</a> if they set an <a href="https://fragment.com/about#q-can-i-assign-my-collectible-username-to-a-bot" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">upgraded one</a> via <a href="https://fragment.com/" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Fragment</a>.<br/><b>•</b> Bots can now <a href="https://core.telegram.org/bots/api#promotechatmember" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">restrict</a> channel admins from removing members.<br/><br/><b>• </b>And more, see the full changelog for details:<br/><br/><a href="https://core.telegram.org/bots/api-changelog#december-31-2025" target="_blank" rel="noopener">https://core.telegram.org/bots/api-changelog#december-31-2025</a><br/><br/>Happy Holidays from the Telegram Team <tg-emoji emoji-id="5431783411981228752"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8E86.png')"><b>🎆</b></i></tg-emoji></div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/113" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>572</span><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>384</span><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>310</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">165K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/BotNews/113"><time datetime="2025-12-31T11:20:59+00:00" class="time">11:20</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/114" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTE0LCJ0IjoxNzkxOTQxNDc5LCJoIjoiZmVhNjI5MmMwNGUzMGUxZmIyIn0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><a class="tgme_widget_message_video_player js-message_video_player" href="https://t.me/BotNews/114"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/ftV_S-RQ1U9LpwtaxFgQqD8XQfeZIQSC1gtvlFuJXyFZPALnImOz7iDPDhbroKbj_2l9-TOUHWVQ132VdvgYTmp92iwfrXXg2iXKonYPU1zdDCj7CmYZCgroI7wiihyIj1xp70Ve1uVgvQ9JNq3TrD9uxh93ytoOWauca6XdJQi0E4FCCeCeon6-p-S2jEIdCVAt_zHSd7W70sCF29KJj1mGRJVnomXQgE70pj2PJEKHOWeqSvObeCfy9kX8LwsjEFsNke0XQvd3yz--_eSB2W84Bic9b8uXUegGWgmjQRBLmHLKkTKBtYxrd3OrDZ3LoU5cEq6G_dn0z-ItZFgUsQ')"></i>
+
+<div class="tgme_widget_message_video_wrap" style="width:1920px;padding-top:78.125%">
+  <video src="https://cdn4.telesco.pe/file/46d1dc7ce5.mp4?token=rZPSCKpEiM6zSmWC_8FKSsJsAGgB1s28tw40k-y3mzyJwSbihHCtDqdR29Un3lLy6SqbkNinQdvO-YhWjLA7xEQGDwcvQyWQhVfN5M4NA3YlIK44M55MchellBCfluCtKE_mC8eU0T_s4yIt3hvk9l-BLuy7_LpU4MGHexlO1SXEPFO6EpnSGERswBH-VvLKUlGPTv2km9P130C374KlOUMN4efqxTEeBhuN4s9h42VXGP5y7Ho2EVDYcMQkM8Nre03--le0SHNaliO_-wGFZDWkQZliBsE6MD5di94b2VojM-P6apyPXeYn6VuGkUTOT5P3RB0BFTsr3PQD-uiDyA" class="tgme_widget_message_video js-message_video" width="100%" height="100%" preload muted autoplay loop playsinline></video>
+</div>
+
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">This media is not supported in your browser</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><b>Bot API 9.4</b><br/><br/><tg-emoji emoji-id="5431456208487716895"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8EA8.png')"><b>🎨</b></i></tg-emoji> <b>Custom Emoji and Buttons</b><br/>• Bots can now use <a href="https://core.telegram.org/bots/api#html-style" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">custom emoji</a> in outgoing messages if their owner has <a href="tg://premium_offer?ref=botnews" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Telegram Premium</a>.<br/>• Keyboard and <a href="https://core.telegram.org/bots/api#inlinekeyboardmarkup" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">inline buttons</a> now support background <a href="https://core.telegram.org/bots/api#keyboardbutton" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">colors</a> and <a href="https://telegram.org/blog/custom-emoji#custom-animated-emoji" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">custom emoji</a>.<br/><br/><tg-emoji emoji-id="5465300082628763143"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')"><b>💬</b></i></tg-emoji> <b>Private Chat Topics</b><br/>• Bots can now create <a href="https://core.telegram.org/bots/api#createforumtopic" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">new topics</a> in 1-on-1 chats.<br/>• Via the BotFather <a href="http://t.me/botfather?startapp" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Mini App</a>, bot owners can also prevent users from creating or deleting topics.<br/><br/><tg-emoji emoji-id="5471981853445463256"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09FA496.png')"><b>🤖</b></i></tg-emoji><b> Profile Info</b><br/>• Bots can now <a href="https://core.telegram.org/bots/api#setmyprofilephoto" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">set</a> and <a href="https://core.telegram.org/bots/api#removemyprofilephoto" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">remove</a> their own profile pic.<br/>• User <a href="https://core.telegram.org/bots/api#getuserprofileaudios" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">profile audios</a> are now visible to bots.<br/><br/><tg-emoji emoji-id="5199749070830197566"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8E81.png')"><b>🎁</b></i></tg-emoji> <b>Gifts</b><br/>• Unique gifts now include <a href="https://core.telegram.org/bots/api#uniquegiftmodel" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">model rarity</a> information.<br/>• Out-of-the-box support for detecting gifts burned after <a href="https://telegram.org/blog/crafting-android-design-and-more#gift-crafting" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">crafting</a>.<br/><br/><tg-emoji emoji-id="5417876320761696693"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C88.png')"><b>✈️</b></i></tg-emoji> <b>General</b><br/>• Bots now handle service messages when a <a href="https://core.telegram.org/bots/api#chatownerleft" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">chat owner leaves</a> or ownership <a href="https://core.telegram.org/bots/api#chatownerchanged" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">changes</a>.<br/>• Video objects now include a list of <a href="https://core.telegram.org/bots/api#video" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">available qualities</a>.<br/><br/>• And more, see the full changelog for details:<br/><br/><a href="https://core.telegram.org/bots/api-changelog#february-9-2026" target="_blank" rel="noopener">https://core.telegram.org/bots/api-changelog#february-9-2026</a></div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/114" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>563</span><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>360</span><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>359</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">155K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/BotNews/114"><time datetime="2026-02-09T14:22:10+00:00" class="time">14:22</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/115" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTE1LCJ0IjoxNzkxOTQxNDc5LCJoIjoiYWFmMzE3MzQwNTcxNDhiNWRmIn0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><a class="tgme_widget_message_video_player js-message_video_player" href="https://t.me/BotNews/115"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/bXtbfJ88a8GCzSPXaZCVHkzTAwPhftEJi-tYIRBTgXbeUArSHA8DPnSQ_OxH2XhhOZgtpCg0FSo1mPH9X2kmBT-zA-F6GJYThNKVlURUMhWuLbA_YdF6nVnhEmnYs-cw05HiVRTInbJ4-RThsHP2nJzs-gM2Wua6nalalBGq-_FCIvJBwWTZY_VV19YV_tj4fziAukpgt4xYaTypPMQPY-ZM0uqo8JCavyjsSjBg2bauczAncTSUydlTRxxNXbnXEPmkkcJjisCAszVMxueJ9M6uDPCQhr_Rh7qd1oMf1qp_KAvzyLQSEmIkexNG6Bc3Wo3X9XbiVJsR4CYo1g3KtA')"></i>
+
+<div class="tgme_widget_message_video_wrap" style="width:1920px;padding-top:100%">
+  <video src="https://cdn4.telesco.pe/file/9a52a2e7fc.mp4?token=a0XU0B6ulTwYX8Hi7_OAgYSI1b0SMW61yLZz8aAjXN0V_RwWm0pGchuk2CABaNERS-dln5ST_MMYxwxSQY8tVfRo7th6oF3tgd4OvU_WrDQwRZhQ2CVT-f0o-Y546B3YPyOjoNQjcGR5gUZ6cP2q4YB5BCUCZFUBwSGk1lFXLqfU_z7KAnznO_5vT1MRLig3JKw2d-fxTN7HrVaNlGYAqkCkvySr049rT4jHkwv3TOOcO79SKqsjaWrx_YqglkoPA9qD3kOb3z2CG0eoJxU8wYUyobzrcyCwliCtMpRE7u5us0GIdEIV9_2bON1ZXplXOyouU1PxWNz0bxD4IHVcVQ" class="tgme_widget_message_video js-message_video" width="100%" height="100%" preload muted autoplay loop playsinline></video>
+</div>
+
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">This media is not supported in your browser</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><b>Bot API 9.5</b><br/><br/><tg-emoji emoji-id="5413879192267805083"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9793.png')"><b>🗓</b></i></tg-emoji> <b>Date and Time Formatting</b><br/>• Introduced <a href="https://core.telegram.org/bots/api#date-time-entity-formatting" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">date and time formatting</a>, allowing bots to show a formatted date and time to the user.<br/>• Out-of-the-box support for <b>relative times</b>, localized weekdays and <a href="https://core.telegram.org/bots/api#date-time-entity-formatting" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">more</a>.<br/><br/><tg-emoji emoji-id="4956420859771225351"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9191.png')"><b>👑</b></i></tg-emoji> <b>Custom Member Tags</b><br/>• Introduced support for custom group <a href="https://telegram.org/blog/member-tags-disable-sharing-and-more#member-tags" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">member tags</a>.<br/>• Bots can now detect member tags, <a href="https://core.telegram.org/bots/api#setchatmembertag" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">assign</a> them, or allow admins to <a href="https://core.telegram.org/bots/api#promotechatmember" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">manage </a>them. <br/><br/><tg-emoji emoji-id="5334882760735598374"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F939D.png')"><b>📝</b></i></tg-emoji> <b>Message Streaming</b><br/>• With today&#39;s update, every bot on Telegram can freely use the <a href="https://t.me/BotNews/113" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">message streaming</a> feature.<br/><br/>• And more, see the full changelog for details:<br/><br/><a href="https://core.telegram.org/bots/api-changelog#march-1-2026" target="_blank" rel="noopener">https://core.telegram.org/bots/api-changelog#march-1-2026</a></div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/115" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>370</span><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>288</span><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>214</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">148K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/BotNews/115"><time datetime="2026-03-01T10:43:17+00:00" class="time">10:43</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/116" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTE2LCJ0IjoxNzkxOTQxNDc5LCJoIjoiZjk1MGFiMGViY2YxZWMzYWYzIn0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><div class="tgme_widget_message_text js-message_text" dir="auto"><b>Bot API 9.6</b><br/><br/><tg-emoji emoji-id="5222474515887435551"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09FA680.png')"><b>🦀</b></i></tg-emoji> <b>Managed Bots</b><br/>• <a href="https://core.telegram.org/bots/features#managed-bots" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Manager bots</a> are used to bootstrap and control other bots on behalf of their owners – easily orchestrating any number of <b>AI agents</b>, <a href="https://t.me/BotNews/88" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Business Accounts </a>and custom tools.<br/>• Out of the box, manager bots can prompt users to <a href="https://core.telegram.org/bots/api#keyboardbuttonrequestmanagedbot" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">create a bot</a> in one tap and easily <a href="https://core.telegram.org/bots/api#getmanagedbottoken" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">fetch their token</a> to start piloting them.<br/><br/><tg-emoji emoji-id="5431577498364158238"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F938A.png')"><b>📊</b></i></tg-emoji> <b>Poll Revolution</b><br/>• Polls now support multiple <a href="https://core.telegram.org/bots/api#sendpoll" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">correct answers</a>, re-issuing votes, hidden results and richly formatted <a href="https://core.telegram.org/bots/api#poll" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">descriptions</a>.<br/>• Poll options now have <a href="https://core.telegram.org/bots/api#polloption" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">persistent ids</a> and can be shuffled or dynamically added by users.<br/>• Bots can now additionally <a href="https://core.telegram.org/bots/api#replyparameters" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">reply</a> to a specific poll option.<br/><br/><tg-emoji emoji-id="5417876320761696693"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C88.png')"><b>✈</b></i></tg-emoji> <b>General</b><br/>• Mini Apps can now natively request users, chats and managed bots in one tap via prepared <a href="https://core.telegram.org/bots/api#savepreparedkeyboardbutton" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">keyboard buttons</a>.<br/>• Expanded support for date and time entities in <a href="https://core.telegram.org/bots/api#inputchecklist" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">checklists</a>, <a href="https://core.telegram.org/bots/api#textquote" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">quotes</a> and <a href="https://core.telegram.org/bots/api#sendgift" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">gift texts</a>.<br/><br/>• And more, see the full changelog for details:<br/><br/><a href="https://core.telegram.org/bots/api-changelog#april-3-2026" target="_blank" rel="noopener">https://core.telegram.org/bots/api-changelog#april-3-2026</a></div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/116" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>260</span><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>173</span><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>143</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">132K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta">edited &nbsp;<a class="tgme_widget_message_date" href="https://t.me/BotNews/116"><time datetime="2026-04-03T15:40:12+00:00" class="time">15:40</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/117" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTE3LCJ0IjoxNzkxOTQxNDc5LCJoIjoiNWI2ZmMzM2NhODUzNTQ1ZmZmIn0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><div class="tgme_widget_message_text js-message_text" dir="auto"><tg-emoji emoji-id="5222474515887435551"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09FA680.png')"><b>🦀</b></i></tg-emoji> <b>AI</b> <b>Agents and Bot-to-Bot Communication</b><br/><br/>Historically, bot-to-bot interaction was restricted on Telegram to prevent infinite message loops.<br/><br/>Starting <b>today</b>, in specific contexts, Bot-to-Bot communication is <b>allowed</b> – unlocking complex agentic flows and AI-powered use cases. <br/><br/>Out of the box, this feature will work in <b>groups</b> and via <a href="https://t.me/BotNews/88" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">business mode</a>. To start using it, simply enable the <i>Bot-to-Bot Communication Mode</i> for your bot via <a href="https://t.me/Botfather?startapp" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">@BotFather</a>. <br/><br/>You can reference the full documentation <a href="https://core.telegram.org/bots/features#bot-to-bot-communication" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">here</a>.</div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/117" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>478</span><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>345</span><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>195</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">146K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/BotNews/117"><time datetime="2026-04-06T19:42:37+00:00" class="time">19:42</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/118" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTE4LCJ0IjoxNzkxOTQxNDc5LCJoIjoiYWNhNDNmNDMyZmM5MjNhNmRjIn0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><a class="tgme_widget_message_video_player js-message_video_player" href="https://t.me/BotNews/118"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/JfuZLg9eQKjvQGtYw6dWrSxw7kGmt6cUbu6Q04qBYTjVELqpDScF1CcnLVDpWnIMB_DScOJirX66IdXwSSEn0yaccmo973UO5Sgx-P6xDUTCiknZsucHU5KwmYTx5qo7fK6WCCc1PdzsrN3cyVlJ6RAU46ZaIpGnIqJ5QXufQuNlz1MBEm8kgcesXVeRL5KseLt3p3IL4lBULo7Q4c9sei4U9JEu__MsSymA1JTn3-GsmoAgOYiDFxFT9bf6njjdHVTMIO7oAf7gYhNcgJDR3SHbqqaZVkzJJrAgwF-X1_hgLcROb4Qr2W-EgigicnRQ7bWxUtU9RVtf27rioPfgpw')"></i>
+
+<div class="tgme_widget_message_video_wrap" style="width:1920px;padding-top:100%">
+  <video src="https://cdn4.telesco.pe/file/a18113a32c.mp4?token=NJeq-XHwboR88Dp2P2NknO4tQvtFd1fm6kOzTDtBGYAH-IDHdoAtY3XeOIibJNrmDYxhHXmzRV5yeqVrsT8xYb2go0SFYhGFP3PDsuYSA76m2n2SDNeKgqQSgmJ0uz3W5w27cYwAh7whBBlScE3FV3FjP3FCEOdUnG6Ww6xTxYMpkOO3R0XEZW6_EChMlTpmnHp7ilpY2nBMMTqM-4zpEY8KsoDBJHqUyIWuF4ZP0mU6HPNUdWIz9KUIplwVBQWn_E151WecHxfjiyhAaQBx0poUqEjdS9A4NkeAm3ITEtIMBg9_zyD_PF7HD4vYfqbztNqlYAptzxqe3qd32J89Dg" class="tgme_widget_message_video js-message_video" width="100%" height="100%" preload muted autoplay loop playsinline></video>
+</div>
+
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">This media is not supported in your browser</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><b>Bot API 10.0</b><br/><br/>Today&#39;s update reshapes how bots communicate on Telegram – unlocking cooperative multi-bot agentic flows, seamless integration in any chat, granular access controls and more.<br/><br/><tg-emoji emoji-id="5222474515887435551"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09FA680.png')"><b>🦀</b></i></tg-emoji> <b>Guest Mode and Agentic Flows</b><br/>• Introduced <a href="https://core.telegram.org/bots/features#guest-bots" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">guest mode</a>, allowing bots to easily participate in any chat without joining it.<br/>• Users can summon up to 3 guest bots per message – unlocking complex agentic flows in any chat. Guest bots receive only relevant <a href="https://core.telegram.org/bots/api#update" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">messages</a> and can inspect <a href="https://core.telegram.org/bots/api#message" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">caller context</a> or send <a href="https://core.telegram.org/bots/api#answerguestquery" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">replies</a>.<br/>• Bots can now message each other by username if they enable <a href="https://t.me/BotNews/117" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">bot-to-bot</a> communication.<br/>• Account automation via <a href="https://t.me/BotNews/108" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Business Bots</a> no longer requires a <a href="tg://premium_offer?ref=botnews" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Premium</a> subscription.<br/>• <a href="https://t.me/BotNews/108" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Business Bots</a> can now interact with <b>other bots</b> on behalf of the user.<br/><br/><tg-emoji emoji-id="4958900559139570572"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')"><b>🛡</b></i></tg-emoji> <b>Chat Management</b><br/>• Admin bots can now remove individual <a href="https://core.telegram.org/bots/api#deletemessagereaction" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">message reactions</a>, clear all <a href="https://core.telegram.org/bots/api#deleteallmessagereactions" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">recent reactions</a> from a user or restrict them from <a href="https://core.telegram.org/bots/api#chatpermissions" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">issuing more</a>.<br/>• The <a href="https://core.telegram.org/bots/api#getchatadministrators" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">list </a>of chat admins can now optionally return bot administrators.<br/><br/><b><tg-emoji emoji-id="5458669860009554206"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9AB6.png')"><b>🚶</b></i></tg-emoji></b> <b>Live Photos</b><br/>• Introduced support for <a href="https://core.telegram.org/bots/api#livephoto" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">live photos</a> – images enhanced with short built-in <b>motion</b> and <b>sound</b>.<br/>• Bots can now detect, download and <a href="https://core.telegram.org/bots/api#sendlivephoto" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">send</a> live photos to any chat, including as <a href="https://core.telegram.org/bots/api#paidmedialivephoto" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">paid media</a>.<br/><br/><tg-emoji emoji-id="4958506272551863292"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F938A.png')"><b>📊</b></i></tg-emoji><b> Polls</b><br/>• Bots can now detect and attach media in both <a href="https://core.telegram.org/bots/api#sendpoll" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">polls </a>and individual <a href="https://core.telegram.org/bots/api#polloption" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">poll options</a>.<br/>• Polls can now be <a href="https://core.telegram.org/bots/api#sendpoll" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">limited</a> to existing <i>chat members</i> or voters from <i>specific countries</i>.<br/><br/><tg-emoji emoji-id="5417876320761696693"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29C88.png')"><b>✈</b></i></tg-emoji> <b>General</b><br/>• Users can now set a granular <b>access whitelist</b> for their bot via <a href="https://t.me/BotFather" target="_blank">@BotFather</a>, while <a href="https://t.me/BotNews/116" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Manager Bots</a> can set one via the API.<br/>• Bots can now <a href="https://core.telegram.org/bots/api#getuserpersonalchatmessages" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">fetch recent messages</a> from the channel pinned to a user&#39;s profile.<br/><br/>• And more, see the full changelog for details:<br/><br/><a href="https://core.telegram.org/bots/api-changelog#may-8-2026" target="_blank" rel="noopener">https://core.telegram.org/bots/api-changelog#may-8-2026</a></div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/118" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>372</span><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>156</span><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>149</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">128K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/BotNews/118"><time datetime="2026-05-08T14:30:40+00:00" class="time">14:30</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/119" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTE5LCJ0IjoxNzkxOTQxNDc5LCJoIjoiNWExZDhmZjNkYjEwOTE3OGY3In0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><a class="tgme_widget_message_video_player js-message_video_player" href="https://t.me/BotNews/119"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/ME0JO-A2ko7emaGPd3w8ewGB6ggMWVlWbH63zc3M0SD6_1AON1_i7rHsyys0pzv48dLUvlc4iVSVqzDfXwAvXZ0nJw1-jXZAFM35e3rCgp0m4w6raOpO6lS-eOgKzsBhXMCyd1zGWwqY8_1HQe1oChi5iH5BBwA9Qr5fV62wvZn1ZwCHUWuHWsSiLqVXtqjBkOs5eXu4YfmeOotEVQ_19HmTqnt5J0VE0xhB6DoujswL1RvoNwwXEEhNiHbVo6BPRNBL9AJdJyhfJbCMTKCP1pEe5WgMwb3U4j81zGgu42pfPBZt8g73ZHAs1G__aZUz03-YpNz8L9ZqacZK44REug')"></i>
+
+<div class="tgme_widget_message_video_wrap" style="width:1920px;padding-top:100%">
+  <video src="https://cdn4.telesco.pe/file/bd95f61d16.mp4?token=eE-AkU3nxoQcYxzpP4oQMiQiGrrk4SigS6jLg-vGbtp_SJHnRvZdIMMhWksEDJMCgB2JHNe06eoWtx4t1AWIAmtTOH2xUR91cdnNDstBvzbCYZ0mIdt1JePp5N_AmTRY1uyCxwHt3B-If6ylpJUWWr_z5E0G7LLCLBwrQi3ou7Ed5vObYKR_k_qoPg8gqwTaQuSUGQ52VyWe3ccmvnprVZlc5o8SX41B7QqYEMEYFI7zjQOnCZGmzavYEGgWDnpF9-zVzshfSMJRCJDasqdK1QSr-qdLq84Hw6WX4T_aTSmAvVFVsO4ERbefKYfaTZZF3dPe0xjkVbgW3mlaLCl7ng" class="tgme_widget_message_video js-message_video" width="100%" height="100%" preload muted autoplay loop playsinline></video>
+</div>
+
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">This media is not supported in your browser</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><b>Bot API 10.1</b><br/><br/><b><tg-emoji emoji-id="5334882760735598374"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F939D.png')"><b>📝</b></i></tg-emoji></b><b> Markup Revolution</b><br/><br/>This update introduces native <b>text styling tools</b> to enable <a href="https://core.telegram.org/bots/features#rich-messages" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">richly formatted </a>messages in any chat. Bots can now <a href="https://core.telegram.org/bots/api#sendrichmessage" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">deliver</a> highly structured content like business reports or media slideshows, while AI agents can seamlessly <a href="https://core.telegram.org/bots/api#sendrichmessagedraft" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">stream</a> complex replies in real time.<br/><br/>Supported formats include:<br/><br/>• Multi-level <a href="https://core.telegram.org/bots/api#richblocksectionheading" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">headings</a>, <a href="https://core.telegram.org/bots/api#richblockparagraph" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">paragraphs</a> and <a href="https://core.telegram.org/bots/api#richblockdivider" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">dividers</a>.<br/>• <a href="https://core.telegram.org/bots/api#richblocklist" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Lists</a> and <a href="https://core.telegram.org/bots/api#richblocklistitem" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">task lists</a> – with support for custom numerals and ordering.<br/>• Deeply nested <a href="https://core.telegram.org/bots/api#richtext" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">inline</a> formatting, including all common styles plus <a href="https://core.telegram.org/bots/api#richtextspoiler" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);"><tg-spoiler>spoiler</tg-spoiler></a>, <a href="https://core.telegram.org/bots/api#richtextcode" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">code</a>, <a href="https://core.telegram.org/bots/api#richtextsubscript" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">subscript</a>, <a href="https://core.telegram.org/bots/api#richtextsuperscript" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">superscript</a> and more.<br/>• <a href="https://core.telegram.org/bots/api#richblocktable" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Tables</a> with <a href="https://core.telegram.org/bots/api#richblocktablecell" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">alignment</a>, captions, borders, striped <a href="https://core.telegram.org/bots/api#richblocktable" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">styling</a> and customizable <a href="https://core.telegram.org/bots/api#richblocktablecell" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">cells</a>.<br/>• Media blocks for <a href="https://core.telegram.org/bots/api#richblockphoto" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">photos</a>, <a href="https://core.telegram.org/bots/api#richblockvideo" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">videos</a> and <a href="https://core.telegram.org/bots/api#richblockaudio" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">audio</a> files, with <a href="https://core.telegram.org/bots/api#richblockcaption" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">captions</a> and <a href="https://core.telegram.org/bots/api#richblockcaption" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">credits</a>.<br/>• Block and pull <a href="https://core.telegram.org/bots/api#richblockblockquotation" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">quotes</a>, collapsible <a href="https://core.telegram.org/bots/api#richblockdetails" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">details</a> blocks, <a href="https://core.telegram.org/bots/api#richblockanchor" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">anchors</a> and in-document <a href="https://core.telegram.org/bots/api#richtextanchorlink" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">links</a>.<br/>• Full <a href="https://en.wikipedia.org/wiki/LaTeX" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">LaTeX</a> support – including both <a href="https://core.telegram.org/bots/api#richtextmathematicalexpression" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">inline</a> and <a href="https://core.telegram.org/bots/api#richblockmathematicalexpression" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">multi-line</a> expressions.<br/>• <a href="https://core.telegram.org/bots/api#richblockmap" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Maps</a> with custom <a href="https://core.telegram.org/bots/api#location" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">coordinates</a>.<br/>• Polished media <a href="https://core.telegram.org/bots/api#richblockcollage" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">collages</a>, smooth <a href="https://core.telegram.org/bots/api#richblockslideshow" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">slideshows</a>.<br/>• And more&#33; Check out the list <a href="https://core.telegram.org/bots/api#richblock" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">here</a> or play around with our <a href="https://t.me/richtextdemobot" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);"><b>interactive demo</b></a>.<br/><br/><tg-emoji emoji-id="4958900559139570572"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9BA1.png')"><b>🛡</b></i></tg-emoji><b> Guardian Bots</b><br/>• Bots can now process <a href="https://core.telegram.org/bots/api#chatjoinrequest" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">join request</a> queries as <b>guardian bots</b> and approve, decline or <a href="https://core.telegram.org/bots/api#answerchatjoinrequestquery" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">queue</a> them – or simply open a <a href="https://core.telegram.org/bots/api#sendchatjoinrequestwebapp" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Mini App</a> to show the user a captcha or ask for extra info before deciding.<br/><br/><b><tg-emoji emoji-id="5431577498364158238"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F938A.png')"><b>📊</b></i></tg-emoji></b><b> Polls</b><br/>• Poll option media now supports external <a href="https://core.telegram.org/bots/api#link" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">links</a> to any website.<br/><br/>• And more, see the full changelog for details:<br/><a href="https://core.telegram.org/bots/api-changelog#june-11-2026" target="_blank" rel="noopener">https://core.telegram.org/bots/api-changelog#june-11-2026</a></div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/119" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>487</span><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>271</span><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>203</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">140K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta">edited &nbsp;<a class="tgme_widget_message_date" href="https://t.me/BotNews/119"><time datetime="2026-06-11T18:09:36+00:00" class="time">18:09</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/120" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTIwLCJ0IjoxNzkxOTQxNDc5LCJoIjoiMGZlMGQ3ZTI1MjE0NjgzMGRmIn0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><div class="tgme_widget_message_text js-message_text" dir="auto"><b>Bot API 10.2</b><br/><br/><tg-emoji emoji-id="4956285860359177035"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F91BB.png')"><b>👻</b></i></tg-emoji><b> Ephemeral Messages</b><br/>• Bots can now send <a href="https://core.telegram.org/bots/features#ephemeral-messages" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">ephemeral group messages</a> that are visible only to a specific user – ideal for welcome messages, whispers, summaries and more.<br/>• Out of the box, ephemeral messages support most media types.<br/>• Bot <a href="https://core.telegram.org/bots/api#botcommand" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">commands</a> can now be marked as ephemeral, letting users discretely reach out to bots in groups.<br/>• Bots can easily <a href="https://core.telegram.org/bots/api#replyparameters" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">reply</a> to ephemeral messages or <a href="https://core.telegram.org/bots/api#deleteephemeralmessage" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">delete</a> them before they expire.<br/><br/><tg-emoji emoji-id="5334882760735598374"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F939D.png')"><b>📝</b></i></tg-emoji> <b>Rich Messages</b><br/>• Bots can now build outgoing <a href="https://t.me/BotNews/119" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">rich messages</a> directly from structured entity <a href="https://core.telegram.org/bots/api#inputrichblock" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">blocks</a>, as an alternative to <a href="https://core.telegram.org/bots/api#rich-markdown-style" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Markdown</a> or <a href="https://core.telegram.org/bots/api#rich-html-style" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">HTML</a>.<br/>• Rich messages using <a href="https://core.telegram.org/bots/api#rich-markdown-style" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Markdown</a> or <a href="https://core.telegram.org/bots/api#rich-html-style" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">HTML</a> can now explicitly attach <a href="https://core.telegram.org/bots/api#inputrichmessagemedia" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">embedded</a> media like <a href="https://core.telegram.org/bots/api#inputmediaphoto" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">photos</a>, <a href="https://core.telegram.org/bots/api#inputmediavideo" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">videos</a>, <a href="https://core.telegram.org/bots/api#inputmediaanimation" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">animations</a> and <a href="https://core.telegram.org/bots/api#inputmediavoicenote" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">more</a>.<br/><br/><tg-emoji emoji-id="5449509905947967949"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F92AC.png')"><b>💬</b></i></tg-emoji> <b>Communities</b><br/>• Introduced initial support for <a href="https://core.telegram.org/bots/api#community" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Communities</a> — several groups, channels, and bots linked together around a shared topic or audience.<br/>• Bots can already <a href="https://core.telegram.org/bots/api#chatfullinfo" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">check</a> which Community a chat belongs to and detect relevant <a href="https://core.telegram.org/bots/api#communitychatadded" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">service messages</a>.<br/><br/>• And more, see the full changelog for details:<br/><br/><a href="https://core.telegram.org/bots/api-changelog#july-14-2026" target="_blank" rel="noopener">https://core.telegram.org/bots/api-changelog#july-14-2026</a><br/><br/><tg-emoji emoji-id="5447644880824181073"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29AA0.png')"><b>⚠</b></i></tg-emoji> <b>Warning</b>: <br/>Starting July 20, 2026, external websites opened from links inside your Mini App will no longer be able to use Mini App methods by default. Developers can opt out through the <a href="https://t.me/BotFather" target="_blank">@BotFather</a> Mini App. Read more <a href="https://core.telegram.org/bots/api-changelog#july-14-2026" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">here</a>.</div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/120" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>367</span><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>239</span><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>171</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">115K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta">edited &nbsp;<a class="tgme_widget_message_date" href="https://t.me/BotNews/120"><time datetime="2026-07-14T12:21:59+00:00" class="time">12:21</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="BotNews/121" data-view="eyJjIjotMTAwNDI3NjM5OSwicCI6MTIxLCJ0IjoxNzkxOTQxNDc5LCJoIjoiNWZkZmViM2UyMGZiN2JlNTE0In0">
+  <div class="tgme_widget_message_user"><a href="https://t.me/BotNews"><i class="tgme_widget_message_user_photo bgcolor0" data-content="B"><img src="https://cdn1.telesco.pe/file/gO1z3wDl6z-f4g3LUiC77dt5a299SSKKwBXwjATemA6q7sBMeW9yLEgZDXkdqak6BYBYq040v4sjkXtUjnXgweP69pY_woywVrt7pCcvf_bI77-N8nt4GNpqt2eX3sKBDl6RgLvgeOiUgQJyomH1RpUyceWTRVUHerqB9_DvsPU6qVSnUUcBUZvGFjB_bsG5yf5LWHgFUaRtnY1zXqw46UNOrUG5CboDsjubfJZwt4k4R5KMA8dLKSUCe9eYAsynmIMgx1pQ3Sat53HWAV8VQ3__ZR1iWc5SfE3T5uBXC2ZxjtRrSBsUyzO8fBG-FA5YsP9CLVErHKupI75fDf7bqQ.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/BotNews"><span dir="auto">BotNews</span></a></div>
+
+
+<div class="media_supported_cont"><a class="tgme_widget_message_video_player js-message_video_player" href="https://t.me/BotNews/121"><i class="tgme_widget_message_video_thumb" style="background-image:url('https://cdn4.telesco.pe/file/VT1QL1TfodKNNxbfP1ebI3mRWE3Ae3DrcyFGjVJtf3aRMuiYdNHAWSu-R0d8Gax8nzwpTEew7E3D8HpIIg74Hzfi6CEoD010cUTRryN6O7fyL3pePblKIudJ6R1BNVGdFH_hiVA8qD97J_tLoZhqzPWWqfdwIK-7KcEiwkuM0X8Y3WwvxhVnI9VjjJ9lMgT2eqLFVU-UFZVrlPXOaV2bXcJpGEI3ZcIP5LeyVqrusN0Ut7AbdH4wzb8sjQxe2HCYcw55nQL3J8t7PCqZLxnOaJFpEQoJ12ROgLAJjI9OC6GxWz6RFd_P_bP2j043viefr1iGV9FqMrZMWD2Aa10jFw')"></i>
+
+<div class="tgme_widget_message_video_wrap" style="width:1920px;padding-top:100%">
+  <video src="https://cdn4.telesco.pe/file/9a49f2435a.mp4?token=IGgvR0zxw4SZNe0Ji-iQmWjiziXeraklTWYHb31cwAvv9BmP-jEd_vcms_0om1ocQK5GnaUExXW_ecUqlaEwP1mb9ZAwS3zyCIlQaNbILIVloy7xVAfhtAcSkjQ21AY4k0ZHIFrKZFj9Q9VOMHFF1JoCGBkbc893HDg9PX70DMu5S48879HryBnhnVxfQWM7QP_kH0O0it9O3kqBWgTacFrVqWvOE2yqNjjdJPDkaAEFC6q4d0bXzpbdLw_DJxFBu9Ry6efoR3-1T6y4xCGwYPBNqGWCqrksmTDS-u4YzNK6VITMqMnLmacV5yZg_aIKyf8153xRIyWUkNX-79rwRw" class="tgme_widget_message_video js-message_video" width="100%" height="100%"></video>
+</div>
+<div class="message_video_play js-message_video_play"></div>
+<time class="message_video_duration js-message_video_duration">0:10</time>
+<div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">This media is not supported in your browser</div>
+    <span class="message_media_view_in_telegram">VIEW IN TELEGRAM</span>
+  </div>
+</div></a><div class="tgme_widget_message_text js-message_text" dir="auto"><b>Bot API 10.3</b><br/><br/><tg-emoji emoji-id="5472012979073456920"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9481.png')"><b>🔁</b></i></tg-emoji> <b>Button Revolution</b><br/>• <a href="https://core.telegram.org/bots/api#richmessagebutton" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Buttons</a> can now be placed right <b>inside any rich message</b> – with multiple native styles and custom alignment.<br/>• Out of the box, these buttons support callbacks, Mini Apps, Login URLs, copying text and more.<br/>• Bots can now mark inline buttons as <a href="https://core.telegram.org/bots/api#disabledbutton" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">disabled</a>.<br/><br/><tg-emoji emoji-id="4956285860359177035"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F91BB.png')"><b>👻</b></i></tg-emoji> <b>Ephemeral Messages</b><br/>• Bots can now replace their messages with an <a href="https://core.telegram.org/bots/features#ephemeral-messages" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">ephemeral</a> overlay, then edit it with rich content or newly uploaded media. This unlocks rich, personalized flows and responses running in a <b>single message</b>.<br/><br/><tg-emoji emoji-id="5471927376080280073"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F92AA.png')"><b>💪</b></i></tg-emoji> <b>Rich Messages</b><br/>• Bots can now attach <a href="https://core.telegram.org/bots/api#richblockdocument" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">documents</a> to rich messages and more easily embed media – including previously uploaded files.<br/>• Rich Messages now support expandable <a href="https://core.telegram.org/bots/api#richblockexpandableblockquotation" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">quote blocks</a> and compact <a href="https://core.telegram.org/bots/api#richblocktable" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">tables</a>.<br/><br/><tg-emoji emoji-id="5222474515887435551"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09FA680.png')"><b>🦀</b></i></tg-emoji> <b>AI Agents</b><br/>• Bots now support a native <a href="https://core.telegram.org/bots/api#sendmessagedraft" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Stop button</a> for streamed drafts and can optionally preserve partial responses.<br/><br/>• And more, see the full changelog for details:<br/><br/><a href="https://core.telegram.org/bots/api-changelog#august-24-2026" target="_blank" rel="noopener">https://core.telegram.org/bots/api-changelog#august-24-2026</a></div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/BotNews/121" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_reactions js-message_reactions"><span class="tgme_reaction"><tg-emoji emoji-id="5312016608254762256"></tg-emoji>405</span><span class="tgme_reaction"><tg-emoji emoji-id="5309832892262654231"></tg-emoji>274</span><span class="tgme_reaction"><tg-emoji emoji-id="5471981853445463256"></tg-emoji>206</span></div><div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">75.2K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/BotNews/121"><time datetime="2026-08-24T16:04:08+00:00" class="time">16:04</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div>
+    </section>
+  </div>
+</main>
+    <script src="//telegram.org/js/jquery.min.js"></script>
+    <script src="//telegram.org/js/jquery-ui.min.js"></script>
+    <script src="//telegram.org/js/tgwallpaper.min.js?3"></script>
+<script src="//telegram.org/js/tgsticker.js?32"></script>
+
+    <script src="//telegram.org/js/widget-frame.js?68"></script>
+    <script src="//telegram.org/js/telegram-web.js?14"></script>
+    <script>TWeb.init();
+</script>
+    
+  </body>
+</html>
+<!-- page generated in 175.96ms -->

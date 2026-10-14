@@ -1,0 +1,934 @@
+{
+  "startedAt": "2026-10-14T01:31:14.295Z",
+  "channels": {
+    "telegram": {
+      "status": 200,
+      "ms": 793,
+      "bytes": 127694,
+      "location": null,
+      "messages": 20,
+      "minId": 441,
+      "maxId": 460,
+      "features": [
+        "tgme_widget_message_link_preview",
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_video",
+        "tgme_widget_message_author",
+        "message_media_not_supported"
+      ],
+      "title": "Telegram News – Telegram",
+      "isWidget": true
+    },
+    "durov": {
+      "status": 200,
+      "ms": 343,
+      "bytes": 148162,
+      "location": null,
+      "messages": 20,
+      "minId": 531,
+      "maxId": 552,
+      "features": [
+        "tgme_widget_message_forwarded_from",
+        "tgme_widget_message_link_preview",
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_video",
+        "tgme_widget_message_reactions",
+        "tgme_widget_message_author",
+        "message_media_not_supported"
+      ],
+      "title": "Pavel Durov – Telegram",
+      "isWidget": true
+    },
+    "tginfo": {
+      "status": 200,
+      "ms": 489,
+      "bytes": 225621,
+      "location": null,
+      "messages": 20,
+      "minId": 4418,
+      "maxId": 4440,
+      "features": [
+        "tgme_widget_message_reply",
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_video",
+        "tgme_widget_message_reactions",
+        "tgme_widget_message_author",
+        "message_media_not_supported"
+      ],
+      "title": "Telegram Info – Telegram",
+      "isWidget": true
+    },
+    "contest": {
+      "status": 200,
+      "ms": 354,
+      "bytes": 181343,
+      "location": null,
+      "messages": 20,
+      "minId": 443,
+      "maxId": 462,
+      "features": [
+        "tgme_widget_message_reply",
+        "tgme_widget_message_link_preview",
+        "tgme_widget_message_author",
+        "message_media_not_supported"
+      ],
+      "title": "Telegram Contests – Telegram",
+      "isWidget": true
+    },
+    "BotNews": {
+      "status": 200,
+      "ms": 384,
+      "bytes": 184931,
+      "location": null,
+      "messages": 20,
+      "minId": 102,
+      "maxId": 121,
+      "features": [
+        "tgme_widget_message_video",
+        "tgme_widget_message_reactions",
+        "tgme_widget_message_author",
+        "message_media_not_supported"
+      ],
+      "title": "BotNews – Telegram",
+      "isWidget": true
+    },
+    "rian_ru": {
+      "status": 200,
+      "ms": 321,
+      "bytes": 148442,
+      "location": null,
+      "messages": 19,
+      "minId": 347923,
+      "maxId": 347942,
+      "features": [
+        "tgme_widget_message_reply",
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_video",
+        "tgme_widget_message_reactions",
+        "tgme_widget_message_author",
+        "message_media_not_supported",
+        "tgme_widget_message_grouped"
+      ],
+      "title": "РИА Новости – Telegram",
+      "isWidget": true
+    },
+    "bbcrussian": {
+      "status": 200,
+      "ms": 345,
+      "bytes": 164771,
+      "location": null,
+      "messages": 20,
+      "minId": 100315,
+      "maxId": 100334,
+      "features": [
+        "tgme_widget_message_reply",
+        "tgme_widget_message_link_preview",
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_video",
+        "tgme_widget_message_author",
+        "tgme_widget_message_document",
+        "message_media_not_supported"
+      ],
+      "title": "BBC News | Русская служба – Telegram",
+      "isWidget": true
+    },
+    "meduzalive": {
+      "status": 200,
+      "ms": 336,
+      "bytes": 123113,
+      "location": null,
+      "messages": 16,
+      "minId": 149134,
+      "maxId": 149153,
+      "features": [
+        "tgme_widget_message_forwarded_from",
+        "tgme_widget_message_reply",
+        "tgme_widget_message_link_preview",
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_author",
+        "tgme_widget_message_grouped"
+      ],
+      "title": "Медуза — LIVE – Telegram",
+      "isWidget": true
+    },
+    "breakingmash": {
+      "status": 200,
+      "ms": 346,
+      "bytes": 134650,
+      "location": null,
+      "messages": 16,
+      "minId": 78533,
+      "maxId": 78552,
+      "features": [
+        "tgme_widget_message_forwarded_from",
+        "tgme_widget_message_link_preview",
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_video",
+        "tgme_widget_message_author",
+        "message_media_not_supported",
+        "tgme_widget_message_grouped"
+      ],
+      "title": "Mash – Telegram",
+      "isWidget": true
+    },
+    "nexta_live": {
+      "status": 200,
+      "ms": 391,
+      "bytes": 155792,
+      "location": null,
+      "messages": 16,
+      "minId": 124876,
+      "maxId": 124891,
+      "features": [
+        "tgme_widget_message_reply",
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_video",
+        "tgme_widget_message_reactions",
+        "tgme_widget_message_author",
+        "message_media_not_supported",
+        "tgme_widget_message_grouped"
+      ],
+      "title": "NEXTA Live – Telegram",
+      "isWidget": true
+    },
+    "whale_alert_io": {
+      "status": 200,
+      "ms": 228,
+      "bytes": 103673,
+      "location": null,
+      "messages": 20,
+      "minId": 103920,
+      "maxId": 103939,
+      "features": [
+        "tgme_widget_message_author"
+      ],
+      "title": "Whale Alert – Telegram",
+      "isWidget": true
+    },
+    "binance_announcements": {
+      "status": 200,
+      "ms": 291,
+      "bytes": 133204,
+      "location": null,
+      "messages": 20,
+      "minId": 9027,
+      "maxId": 9047,
+      "features": [
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_reactions",
+        "tgme_widget_message_author"
+      ],
+      "title": "Binance Announcements – Telegram",
+      "isWidget": true
+    },
+    "wublockchain12": {
+      "status": 200,
+      "ms": 196,
+      "bytes": 34019,
+      "location": null,
+      "messages": 4,
+      "minId": 1,
+      "maxId": 4,
+      "features": [
+        "tgme_widget_message_reactions",
+        "tgme_widget_message_author"
+      ],
+      "title": "占位频道 用户名出售 – Telegram",
+      "isWidget": true
+    },
+    "cointelegraph": {
+      "status": 200,
+      "ms": 357,
+      "bytes": 103636,
+      "location": null,
+      "messages": 13,
+      "minId": 72625,
+      "maxId": 72648,
+      "features": [
+        "tgme_widget_message_link_preview",
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_reactions",
+        "tgme_widget_message_author",
+        "tgme_widget_message_grouped"
+      ],
+      "title": "Cointelegraph – Telegram",
+      "isWidget": true
+    },
+    "coindesk": {
+      "status": 302,
+      "ms": 214,
+      "bytes": 0,
+      "location": "https://t.me/coindesk",
+      "messages": 0,
+      "minId": null,
+      "maxId": null,
+      "features": [],
+      "isWidget": false
+    },
+    "tass_agency": {
+      "status": 200,
+      "ms": 268,
+      "bytes": 119703,
+      "location": null,
+      "messages": 20,
+      "minId": 400164,
+      "maxId": 400183,
+      "features": [
+        "tgme_widget_message_reply",
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_video",
+        "tgme_widget_message_author",
+        "message_media_not_supported"
+      ],
+      "title": "ТАСС – Telegram",
+      "isWidget": true
+    },
+    "rt_russian": {
+      "status": 302,
+      "ms": 151,
+      "bytes": 0,
+      "location": "https://t.me/rt_russian",
+      "messages": 0,
+      "minId": null,
+      "maxId": null,
+      "features": [],
+      "isWidget": false
+    },
+    "ntvnews": {
+      "status": 200,
+      "ms": 314,
+      "bytes": 158622,
+      "location": null,
+      "messages": 20,
+      "minId": 179746,
+      "maxId": 179765,
+      "features": [
+        "tgme_widget_message_reply",
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_video",
+        "tgme_widget_message_reactions",
+        "tgme_widget_message_author",
+        "message_media_not_supported"
+      ],
+      "title": "НТВ – Telegram",
+      "isWidget": true
+    },
+    "lentachold": {
+      "status": 200,
+      "ms": 336,
+      "bytes": 80967,
+      "location": null,
+      "messages": 9,
+      "minId": 94374,
+      "maxId": 94393,
+      "features": [
+        "tgme_widget_message_reply",
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_video",
+        "tgme_widget_message_reactions",
+        "tgme_widget_message_author",
+        "message_media_not_supported",
+        "tgme_widget_message_grouped"
+      ],
+      "title": "Лентач – Telegram",
+      "isWidget": true
+    },
+    "mash": {
+      "status": 200,
+      "ms": 304,
+      "bytes": 134561,
+      "location": null,
+      "messages": 16,
+      "minId": 78533,
+      "maxId": 78552,
+      "features": [
+        "tgme_widget_message_forwarded_from",
+        "tgme_widget_message_link_preview",
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_video",
+        "tgme_widget_message_author",
+        "message_media_not_supported",
+        "tgme_widget_message_grouped"
+      ],
+      "title": "Mash – Telegram",
+      "isWidget": true
+    },
+    "bloomberg": {
+      "status": 200,
+      "ms": 291,
+      "bytes": 137680,
+      "location": null,
+      "messages": 20,
+      "minId": 3206,
+      "maxId": 3225,
+      "features": [
+        "tgme_widget_message_link_preview",
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_reactions",
+        "tgme_widget_message_author"
+      ],
+      "title": "Bloomberg – Telegram",
+      "isWidget": true
+    },
+    "reuters": {
+      "status": 302,
+      "ms": 150,
+      "bytes": 0,
+      "location": "https://t.me/reuters",
+      "messages": 0,
+      "minId": null,
+      "maxId": null,
+      "features": [],
+      "isWidget": false
+    },
+    "bbcnews": {
+      "status": 302,
+      "ms": 149,
+      "bytes": 0,
+      "location": "https://t.me/bbcnews",
+      "messages": 0,
+      "minId": null,
+      "maxId": null,
+      "features": [],
+      "isWidget": false
+    },
+    "cnn": {
+      "status": 302,
+      "ms": 148,
+      "bytes": 0,
+      "location": "https://t.me/cnn",
+      "messages": 0,
+      "minId": null,
+      "maxId": null,
+      "features": [],
+      "isWidget": false
+    },
+    "nytimes": {
+      "status": 200,
+      "ms": 461,
+      "bytes": 145676,
+      "location": null,
+      "messages": 20,
+      "minId": 3597,
+      "maxId": 3616,
+      "features": [
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_video",
+        "tgme_widget_message_reactions",
+        "tgme_widget_message_author",
+        "message_media_not_supported"
+      ],
+      "title": "The New York Times – Telegram",
+      "isWidget": true
+    },
+    "verge": {
+      "status": 200,
+      "ms": 265,
+      "bytes": 114808,
+      "location": null,
+      "messages": 20,
+      "minId": 176,
+      "maxId": 195,
+      "features": [
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_author"
+      ],
+      "title": "The Verge (unofficial) – Telegram",
+      "isWidget": true
+    },
+    "techcrunch": {
+      "status": 302,
+      "ms": 153,
+      "bytes": 0,
+      "location": "https://t.me/techcrunch",
+      "messages": 0,
+      "minId": null,
+      "maxId": null,
+      "features": [],
+      "isWidget": false
+    },
+    "hackernews": {
+      "status": 200,
+      "ms": 194,
+      "bytes": 27348,
+      "location": null,
+      "messages": 2,
+      "minId": 1,
+      "maxId": 2,
+      "features": [
+        "tgme_widget_message_reactions",
+        "tgme_widget_message_author"
+      ],
+      "title": "tech2 – Telegram",
+      "isWidget": true
+    },
+    "python": {
+      "status": 302,
+      "ms": 151,
+      "bytes": 0,
+      "location": "https://t.me/python",
+      "messages": 0,
+      "minId": null,
+      "maxId": null,
+      "features": [],
+      "isWidget": false
+    },
+    "ethereum": {
+      "status": 302,
+      "ms": 153,
+      "bytes": 0,
+      "location": "https://t.me/ethereum",
+      "messages": 0,
+      "minId": null,
+      "maxId": null,
+      "features": [],
+      "isWidget": false
+    },
+    "bitcoin": {
+      "status": 200,
+      "ms": 332,
+      "bytes": 131477,
+      "location": null,
+      "messages": 20,
+      "minId": 20531,
+      "maxId": 20551,
+      "features": [
+        "tgme_widget_message_link_preview",
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_video",
+        "tgme_widget_message_reactions",
+        "tgme_widget_message_author",
+        "message_media_not_supported"
+      ],
+      "title": "Bitcoin – Telegram",
+      "isWidget": true
+    },
+    "TheBlockCrypto": {
+      "status": 302,
+      "ms": 149,
+      "bytes": 0,
+      "location": "https://t.me/TheBlockCrypto",
+      "messages": 0,
+      "minId": null,
+      "maxId": null,
+      "features": [],
+      "isWidget": false
+    },
+    "trading_view": {
+      "status": 302,
+      "ms": 149,
+      "bytes": 0,
+      "location": "https://t.me/trading_view",
+      "messages": 0,
+      "minId": null,
+      "maxId": null,
+      "features": [],
+      "isWidget": false
+    },
+    "NASA": {
+      "status": 302,
+      "ms": 148,
+      "bytes": 0,
+      "location": "https://t.me/NASA",
+      "messages": 0,
+      "minId": null,
+      "maxId": null,
+      "features": [],
+      "isWidget": false
+    },
+    "spacex": {
+      "status": 200,
+      "ms": 437,
+      "bytes": 108099,
+      "location": null,
+      "messages": 13,
+      "minId": 10478,
+      "maxId": 10499,
+      "features": [
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_video",
+        "tgme_widget_message_reactions",
+        "tgme_widget_message_author",
+        "message_media_not_supported",
+        "tgme_widget_message_grouped"
+      ],
+      "title": "SpaceX – Telegram",
+      "isWidget": true
+    },
+    "elonmusk": {
+      "status": 200,
+      "ms": 275,
+      "bytes": 130068,
+      "location": null,
+      "messages": 20,
+      "minId": 22,
+      "maxId": 65,
+      "features": [
+        "tgme_widget_message_reply",
+        "tgme_widget_message_link_preview",
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_video",
+        "tgme_widget_message_reactions",
+        "tgme_widget_message_author",
+        "tgme_widget_message_sticker",
+        "message_media_not_supported"
+      ],
+      "title": "ElonMusk – Telegram",
+      "isWidget": true
+    },
+    "ukraine_now": {
+      "status": 302,
+      "ms": 151,
+      "bytes": 0,
+      "location": "https://t.me/ukraine_now",
+      "messages": 0,
+      "minId": null,
+      "maxId": null,
+      "features": [],
+      "isWidget": false
+    },
+    "dwnews": {
+      "status": 302,
+      "ms": 149,
+      "bytes": 0,
+      "location": "https://t.me/dwnews",
+      "messages": 0,
+      "minId": null,
+      "maxId": null,
+      "features": [],
+      "isWidget": false
+    },
+    "euronews": {
+      "status": 200,
+      "ms": 272,
+      "bytes": 110990,
+      "location": null,
+      "messages": 20,
+      "minId": 23035,
+      "maxId": 23056,
+      "features": [
+        "tgme_widget_message_photo_wrap",
+        "tgme_widget_message_video",
+        "tgme_widget_message_author",
+        "message_media_not_supported"
+      ],
+      "title": "Лента Дня - Новости – Telegram",
+      "isWidget": true
+    },
+    "AJENews": {
+      "status": 302,
+      "ms": 149,
+      "bytes": 0,
+      "location": "https://t.me/AJENews",
+      "messages": 0,
+      "minId": null,
+      "maxId": null,
+      "features": [],
+      "isWidget": false
+    },
+    "aljazeeraenglish": {
+      "status": 302,
+      "ms": 151,
+      "bytes": 0,
+      "location": "https://t.me/aljazeeraenglish",
+      "messages": 0,
+      "minId": null,
+      "maxId": null,
+      "features": [],
+      "isWidget": false
+    },
+    "dw_news": {
+      "status": 302,
+      "ms": 151,
+      "bytes": 0,
+      "location": "https://t.me/dw_news",
+      "messages": 0,
+      "minId": null,
+      "maxId": null,
+      "features": [],
+      "isWidget": false
+    },
+    "nonexistent_zzqq_channel_98765": {
+      "status": 302,
+      "bytes": 0,
+      "location": "https://t.me/nonexistent_zzqq_channel_98765",
+      "messages": 0
+    },
+    "ab": {
+      "status": 302,
+      "bytes": 0,
+      "location": "https://t.me/ab",
+      "messages": 0
+    },
+    "a_b_c_": {
+      "status": 302,
+      "bytes": 0,
+      "location": "https://t.me/a_b_c_",
+      "messages": 0
+    },
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx": {
+      "status": 302,
+      "bytes": 0,
+      "location": "https://t.me/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "messages": 0
+    },
+    "telegram.org": {
+      "status": 302,
+      "bytes": 0,
+      "location": "https://t.me/telegram.org",
+      "messages": 0
+    },
+    "BotFather": {
+      "status": 302,
+      "bytes": 0,
+      "location": "https://t.me/BotFather",
+      "messages": 0
+    },
+    "durov_russia": {
+      "status": 200,
+      "bytes": 131237,
+      "location": null,
+      "messages": 19,
+      "title": "Павел Дуров – Telegram"
+    },
+    "telegrambots": {
+      "status": 302,
+      "bytes": 0,
+      "location": "https://t.me/telegrambots",
+      "messages": 0
+    }
+  },
+  "pagination": {
+    "telegram": {
+      "pages": 22,
+      "totalMessages": 430,
+      "lastMin": 1,
+      "first": {
+        "p": 1,
+        "status": 200,
+        "ms": 286,
+        "bytes": 127691,
+        "n": 20,
+        "new": 20,
+        "min": 441,
+        "max": 460,
+        "retryAfter": null
+      },
+      "rows": [
+        {
+          "p": 1,
+          "status": 200,
+          "ms": 286,
+          "bytes": 127691,
+          "n": 20,
+          "new": 20,
+          "min": 441,
+          "max": 460,
+          "retryAfter": null
+        },
+        {
+          "p": 2,
+          "status": 200,
+          "ms": 310,
+          "bytes": 139821,
+          "n": 20,
+          "new": 20,
+          "min": 420,
+          "max": 440,
+          "retryAfter": null
+        },
+        {
+          "p": 3,
+          "status": 200,
+          "ms": 342,
+          "bytes": 129778,
+          "n": 20,
+          "new": 20,
+          "min": 400,
+          "max": 419,
+          "retryAfter": null
+        },
+        {
+          "p": 21,
+          "status": 200,
+          "ms": 287,
+          "bytes": 109089,
+          "n": 20,
+          "new": 20,
+          "min": 12,
+          "max": 34,
+          "retryAfter": null
+        },
+        {
+          "p": 22,
+          "status": 200,
+          "ms": 206,
+          "bytes": 55540,
+          "n": 10,
+          "new": 10,
+          "min": 1,
+          "max": 11,
+          "retryAfter": null
+        }
+      ]
+    },
+    "durov": {
+      "pages": 24,
+      "totalMessages": 430,
+      "lastMin": 1,
+      "first": {
+        "p": 1,
+        "status": 200,
+        "ms": 304,
+        "bytes": 148161,
+        "n": 20,
+        "new": 20,
+        "min": 531,
+        "max": 552,
+        "retryAfter": null
+      },
+      "rows": [
+        {
+          "p": 1,
+          "status": 200,
+          "ms": 304,
+          "bytes": 148161,
+          "n": 20,
+          "new": 20,
+          "min": 531,
+          "max": 552,
+          "retryAfter": null
+        },
+        {
+          "p": 2,
+          "status": 200,
+          "ms": 376,
+          "bytes": 133734,
+          "n": 19,
+          "new": 19,
+          "min": 510,
+          "max": 529,
+          "retryAfter": null
+        },
+        {
+          "p": 3,
+          "status": 200,
+          "ms": 338,
+          "bytes": 138003,
+          "n": 20,
+          "new": 20,
+          "min": 489,
+          "max": 509,
+          "retryAfter": null
+        },
+        {
+          "p": 21,
+          "status": 200,
+          "ms": 317,
+          "bytes": 125032,
+          "n": 20,
+          "new": 20,
+          "min": 83,
+          "max": 104,
+          "retryAfter": null
+        },
+        {
+          "p": 24,
+          "status": 200,
+          "ms": 305,
+          "bytes": 92958,
+          "n": 14,
+          "new": 14,
+          "min": 1,
+          "max": 41,
+          "retryAfter": null
+        }
+      ]
+    }
+  },
+  "rate": {
+    "seq": {
+      "requests": 150,
+      "seconds": 61.04,
+      "codes": {
+        "200": 150
+      },
+      "avgMs": 407
+    },
+    "conc": {
+      "requests": 200,
+      "seconds": 8.865,
+      "codes": {
+        "200": 200
+      },
+      "avgMs": 349
+    }
+  },
+  "misc": {
+    "after": {
+      "status": 200,
+      "n": 19,
+      "min": 442,
+      "max": 460
+    },
+    "q": {
+      "status": 200,
+      "n": 0
+    },
+    "embed": {
+      "status": 200,
+      "bytes": 16397
+    },
+    "beforeHuge": {
+      "status": 200,
+      "n": 20,
+      "bytes": 127693
+    },
+    "profilePage": {
+      "status": 200,
+      "bytes": 11139,
+      "hasWidgetLink": true
+    },
+    "headersSample": {
+      "cache-control": "no-store",
+      "connection": "keep-alive",
+      "content-encoding": "gzip",
+      "content-length": "20312",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 14 Oct 2026 01:33:12 GMT",
+      "pragma": "no-cache",
+      "server": "nginx/1.30.1",
+      "set-cookie": "stel_ssid=77e7e0f11887190b5f_7692815933266475706; expires=Thu, 15 Oct 2026 01:33:12 GMT; path=/; samesite=None; secure; HttpOnly",
+      "strict-transport-security": "max-age=35768000",
+      "x-frame-options": "SAMEORIGIN"
+    }
+  },
+  "goodChannels": [
+    "telegram",
+    "durov",
+    "tginfo",
+    "contest",
+    "BotNews",
+    "rian_ru",
+    "bbcrussian",
+    "meduzalive",
+    "breakingmash",
+    "nexta_live",
+    "whale_alert_io",
+    "binance_announcements",
+    "wublockchain12",
+    "cointelegraph",
+    "tass_agency",
+    "ntvnews",
+    "lentachold",
+    "mash",
+    "bloomberg",
+    "nytimes",
+    "verge",
+    "hackernews",
+    "bitcoin",
+    "spacex",
+    "elonmusk",
+    "euronews"
+  ]
+}
