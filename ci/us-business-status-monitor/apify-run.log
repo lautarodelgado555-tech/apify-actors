@@ -1,9 +1,0 @@
-2026-10-14T02:23:04.921Z ACTOR: Pulling container image of build QusSYetT6Xbnxbr8D from registry.
-2026-10-14T02:23:05.979Z ACTOR: Creating container.
-2026-10-14T02:23:06.068Z ACTOR: Starting container.
-2026-10-14T02:23:06.070Z ACTOR: Running under "LIMITED_PERMISSIONS".
-2026-10-14T02:23:08.211Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}
-2026-10-14T02:23:08.386Z INFO  Free-plan allowance: at most 10 entity checks per run. Paid plans have no per-run cap other than "maxChecks".
-2026-10-14T02:23:08.439Z INFO  Mode "monitor", 4 watchlist entries. Supported states: CO, CT, DC, NY, OR, TX.
-2026-10-14T02:23:09.814Z INFO  4 check(s), 0 entities changed, 0 new baseline(s), 0 not found, 0 error(s)
-2026-10-14T02:23:09.816Z INFO  [Status message]: 4 check(s), 0 entities changed, 0 new baseline(s), 0 not found, 0 error(s)
