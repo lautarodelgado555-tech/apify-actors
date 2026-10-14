@@ -1,0 +1,6 @@
+[
+  {"name":"robots","url":"https://arizonabusinesscenter.azcc.gov/robots.txt","strategies":["fetch"]},
+  {"name":"home","url":"https://arizonabusinesscenter.azcc.gov/","strategies":["fetch","gotScraping","firefox"]},
+  {"name":"search","url":"https://arizonabusinesscenter.azcc.gov/businesssearch","strategies":["fetch","firefox"]},
+  {"name":"azcc-robots","url":"https://azcc.gov/robots.txt","strategies":["fetch"]}
+]

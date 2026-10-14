@@ -1,0 +1,39 @@
+# Copy to .github/workflows/recon-arizona-acc-scraper.yml and replace arizona-acc-scraper (sed -i 's/arizona-acc-scraper/my-actor/g').
+# Edit recon/arizona-acc-scraper/targets.json and push: this runs scripts/recon.mjs on a GitHub runner and commits recon/arizona-acc-scraper/out/.
+name: recon-arizona-acc-scraper
+on:
+  push:
+    paths:
+      - "recon/arizona-acc-scraper/targets.json"
+      - "recon/arizona-acc-scraper/capture.mjs"
+      - ".github/workflows/recon-arizona-acc-scraper.yml"
+permissions:
+  contents: write
+concurrency:
+  group: recon-arizona-acc-scraper
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install clients
+        run: |
+          mkdir -p /tmp/rc && cd /tmp/rc && npm init -y >/dev/null && npm i got-scraping impit playwright >/dev/null 2>&1 && npx playwright install --with-deps chromium firefox >/dev/null 2>&1 || true
+          ln -sfn /tmp/rc/node_modules "$GITHUB_WORKSPACE/node_modules"
+      - name: Fetch
+        run: node scripts/recon.mjs recon/arizona-acc-scraper/targets.json > /tmp/recon-run.log 2>&1 || true; mkdir -p recon/arizona-acc-scraper/out; cp /tmp/recon-run.log recon/arizona-acc-scraper/out/run.log
+      - name: Network capture (own Playwright script)
+        run: node recon/arizona-acc-scraper/capture.mjs > recon/arizona-acc-scraper/out/capture.log 2>&1 || true
+      - name: Commit results
+        if: always()
+        run: |
+          unlink node_modules || true
+          git config user.name "ci-bot"
+          git config user.email "ci-bot@users.noreply.github.com"
+          git add -A recon/arizona-acc-scraper/out
+          git commit -m "recon(arizona-acc-scraper): results $(date -u +%FT%TZ)" || echo "nothing to commit"
+          for i in 1 2 3 4 5; do git pull --rebase --autostash && git push && break; sleep $((RANDOM % 8 + 2)); done
