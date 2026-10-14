@@ -40,11 +40,14 @@ if (VARIANT === 'probe') {
 const kind = VARIANT.startsWith('firefox') ? 'firefox' : 'chromium';
 const headed = VARIANT.endsWith('headed');
 const launchOpts = { headless: !headed };
+const GL = ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist', '--enable-webgl'];
+if (VARIANT.startsWith('chrome')) { launchOpts.channel = 'chrome'; launchOpts.ignoreDefaultArgs = ['--enable-automation']; }
+if (VARIANT.includes('gl')) launchOpts.args = GL;
 if (VARIANT.endsWith('resi') || VARIANT.endsWith('dc')) {
   const group = VARIANT.endsWith('resi') ? 'groups-RESIDENTIAL,country-US' : 'auto';
   launchOpts.proxy = { server: 'http://proxy.apify.com:8000', username: group, password: process.env.APIFY_PROXY_PASSWORD };
 }
-if (kind === 'chromium') launchOpts.args = ['--disable-blink-features=AutomationControlled'];
+if (kind === 'chromium') launchOpts.args = [...(launchOpts.args || []), '--disable-blink-features=AutomationControlled'];
 const browser = await require('playwright')[kind].launch(launchOpts);
 const ctx = await browser.newContext({ viewport: { width: 1400, height: 1000 }, ...(kind === 'chromium' ? { userAgent: UA } : {}) });
 const page = await ctx.newPage();

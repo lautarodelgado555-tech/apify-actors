@@ -23,19 +23,15 @@ jobs:
           mkdir -p /tmp/rc && cd /tmp/rc && npm init -y >/dev/null && npm i got-scraping playwright >/dev/null 2>&1 && npx playwright install --with-deps chromium firefox >/dev/null 2>&1 || true
           ln -sfn /tmp/rc/node_modules "$GITHUB_WORKSPACE/node_modules"
       - name: Recon variants
-        env:
-          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: |
           mkdir -p recon/washington-sos-scraper/out
-          PW=$(curl -sS -H "Authorization: Bearer $APIFY_TOKEN" https://api.apify.com/v2/users/me | node -pe 'const d=JSON.parse(require("fs").readFileSync(0)); (d.data.proxy||{}).password||""')
-          [ -n "$PW" ] && echo "::add-mask::$PW"
-          export APIFY_PROXY_PASSWORD="$PW"
-          echo "proxy password present: $([ -n "$PW" ] && echo yes || echo no)" > /tmp/proxy.log
-          VARIANT=probe node recon/washington-sos-scraper/recon.mjs > /tmp/probe.log 2>&1 || true
-          VARIANT=firefox node recon/washington-sos-scraper/recon.mjs > /tmp/firefox.log 2>&1 || true
-          VARIANT=firefox-resi node recon/washington-sos-scraper/recon.mjs > /tmp/ffresi.log 2>&1 || true
-          VARIANT=chromium-resi node recon/washington-sos-scraper/recon.mjs > /tmp/chresi.log 2>&1 || true
-          cat /tmp/proxy.log /tmp/probe.log /tmp/firefox.log /tmp/ffresi.log /tmp/chresi.log | grep -v -i "password" > recon/washington-sos-scraper/out/stdout.log
+          sudo apt-get install -y xvfb >/dev/null 2>&1 || true
+          (cd /tmp/rc && npx playwright install --with-deps chrome >/dev/null 2>&1) || true
+          VARIANT=chromium-gl node recon/washington-sos-scraper/recon.mjs > /tmp/v1.log 2>&1 || true
+          VARIANT=chromium-gl-headed xvfb-run -a node recon/washington-sos-scraper/recon.mjs > /tmp/v2.log 2>&1 || true
+          VARIANT=chrome-gl-headed xvfb-run -a node recon/washington-sos-scraper/recon.mjs > /tmp/v3.log 2>&1 || true
+          VARIANT=chrome-headless node recon/washington-sos-scraper/recon.mjs > /tmp/v4.log 2>&1 || true
+          cat /tmp/v1.log /tmp/v2.log /tmp/v3.log /tmp/v4.log | grep -v "Feature Policy\|Referrer\|downloadable font\|deprecated" > recon/washington-sos-scraper/out/stdout.log
       - name: Commit results
         if: always()
         run: |
