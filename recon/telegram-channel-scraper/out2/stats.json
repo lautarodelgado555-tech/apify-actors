@@ -1,0 +1,41 @@
+{
+ "pages": 348,
+ "messages": 6482,
+ "bytes": 45097840,
+ "status": {
+  "200": 348,
+  "302": 10
+ },
+ "featuresFound": [
+  "tgme_widget_message_link_preview",
+  "tgme_widget_message_photo_wrap",
+  "tgme_widget_message_forwarded_from",
+  "tgme_widget_message_poll",
+  "tgme_widget_message_sticker",
+  "tgme_widget_message_document",
+  "tgme_widget_message_from_author",
+  "tgme_widget_message_grouped",
+  "tgme_widget_message_reply",
+  "js-message_reply_text",
+  "tgme_widget_message_forwarded_from_author",
+  "tgme_widget_message_inline_button",
+  "tgme_widget_message_voice",
+  "tgme_widget_message_roundvideo"
+ ],
+ "featuresMissing": [
+  "tgme_widget_message_edited",
+  "tgme_widget_message_location",
+  "tgme_widget_message_contact",
+  "tgme_widget_message_reply_markup",
+  "tgme_widget_message_notext",
+  "tgme_widget_message_invoice",
+  "tgme_widget_message_game",
+  "tgme_widget_message_service",
+  "tgme_widget_message_tag",
+  "tgme_widget_message_via",
+  "tgme_widget_message_audio",
+  "tgme_widget_message_story",
+  "tgme_widget_message_giveaway",
+  "tgme_widget_message_channel_post"
+ ]
+}
