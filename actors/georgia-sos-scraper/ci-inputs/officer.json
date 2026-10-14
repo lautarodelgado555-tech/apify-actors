@@ -1,0 +1,9 @@
+{
+  "searchType": "officer",
+  "searchTerms": ["Bastian"],
+  "nameMatch": "contains",
+  "maxResultsPerSearch": 3,
+  "activeOnly": true,
+  "fetchDetails": true,
+  "proxyConfiguration": { "useApifyProxy": true }
+}

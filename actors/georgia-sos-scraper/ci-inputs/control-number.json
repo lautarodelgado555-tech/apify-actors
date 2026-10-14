@@ -1,0 +1,7 @@
+{
+  "searchType": "controlNumber",
+  "searchTerms": ["H853425"],
+  "maxResultsPerSearch": 1,
+  "fetchDetails": true,
+  "proxyConfiguration": { "useApifyProxy": true }
+}

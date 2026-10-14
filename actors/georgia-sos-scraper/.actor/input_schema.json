@@ -50,6 +50,12 @@
       "description": "Open each entity's detail page to get formation date, jurisdiction, registered agent address, officers and the last annual registration year. Turn off to get only what the list shows (name, control number, type, principal office address, agent name, status), which is faster.",
       "default": true
     },
+    "includeFilings": {
+      "title": "Include filing history",
+      "type": "boolean",
+      "description": "Also read each entity's filing history: every annual registration with its filing date, plus all other filings (formation, amendments, address changes). Adds one to three requests per entity and needs 'Fetch full details'.",
+      "default": false
+    },
     "proxyConfiguration": {
       "title": "Proxy",
       "type": "object",

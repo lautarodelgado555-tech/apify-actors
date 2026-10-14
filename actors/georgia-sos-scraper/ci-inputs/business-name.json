@@ -1,0 +1,10 @@
+{
+  "searchType": "businessName",
+  "searchTerms": ["Delta Air Lines", "Coca-Cola"],
+  "nameMatch": "startsWith",
+  "maxResultsPerSearch": 3,
+  "activeOnly": false,
+  "fetchDetails": true,
+  "includeFilings": true,
+  "proxyConfiguration": { "useApifyProxy": true }
+}

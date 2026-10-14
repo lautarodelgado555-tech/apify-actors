@@ -1,0 +1,37 @@
+{
+  "title": "Georgia Secretary of State Business Search Scraper",
+  "description": "Search Georgia's eCorp business registry by name, control number, registered agent or officer. Get status and good-standing flag, addresses, registered agent, officers and whether the annual registration is filed, due or late.",
+  "categories": [
+    "BUSINESS",
+    "LEAD_GENERATION"
+  ],
+  "seoTitle": "Georgia SOS Business Search Scraper + Annual Registration",
+  "seoDescription": "Scrape Georgia's Secretary of State eCorp registry: search by name, control number, agent or officer. Get status, good standing, officers and annual registration status.",
+  "isPublic": false,
+  "events": {
+    "result": {
+      "eventTitle": "Entity record",
+      "eventDescription": "One Georgia business entity returned, with details when enabled.",
+      "eventTieredPricingUsd": {
+        "FREE": { "tieredEventPriceUsd": 0.005 },
+        "BRONZE": { "tieredEventPriceUsd": 0.005 },
+        "SILVER": { "tieredEventPriceUsd": 0.0045 },
+        "GOLD": { "tieredEventPriceUsd": 0.004 }
+      },
+      "isPrimaryEvent": true
+    }
+  },
+  "permissionLevel": "LIMITED_PERMISSIONS",
+  "exampleInput": {
+    "searchType": "businessName",
+    "searchTerms": [
+      "Delta Air Lines"
+    ],
+    "nameMatch": "startsWith",
+    "maxResultsPerSearch": 5,
+    "fetchDetails": true,
+    "proxyConfiguration": {
+      "useApifyProxy": true
+    }
+  }
+}

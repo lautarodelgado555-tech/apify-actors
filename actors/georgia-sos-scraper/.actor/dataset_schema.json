@@ -1,0 +1,42 @@
+{
+  "actorSpecification": 1,
+  "fields": {},
+  "views": {
+    "overview": {
+      "title": "Entities",
+      "transformation": {
+        "fields": [
+          "name",
+          "controlNumber",
+          "status",
+          "goodStanding",
+          "entityType",
+          "formationDate",
+          "jurisdiction",
+          "principalAddress",
+          "registeredAgentName",
+          "lastAnnualReportYear",
+          "annualReportStatus",
+          "sourceUrl"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "name": { "label": "Business name", "format": "text" },
+          "controlNumber": { "label": "Control number", "format": "text" },
+          "status": { "label": "Status", "format": "text" },
+          "goodStanding": { "label": "Good standing", "format": "boolean" },
+          "entityType": { "label": "Type", "format": "text" },
+          "formationDate": { "label": "Formed / registered", "format": "text" },
+          "jurisdiction": { "label": "Jurisdiction", "format": "text" },
+          "principalAddress": { "label": "Principal office", "format": "text" },
+          "registeredAgentName": { "label": "Registered agent", "format": "text" },
+          "lastAnnualReportYear": { "label": "Last AR year", "format": "number" },
+          "annualReportStatus": { "label": "AR status", "format": "text" },
+          "sourceUrl": { "label": "Source", "format": "link" }
+        }
+      }
+    }
+  }
+}

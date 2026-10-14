@@ -1,0 +1,9 @@
+{
+  "searchType": "businessName",
+  "searchTerms": ["Delta"],
+  "nameMatch": "contains",
+  "maxResultsPerSearch": 30,
+  "activeOnly": true,
+  "fetchDetails": false,
+  "proxyConfiguration": { "useApifyProxy": true }
+}
