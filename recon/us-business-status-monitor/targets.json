@@ -1,182 +1,119 @@
 [
  {
-  "name": "co-hist-entity",
-  "url": "https://data.colorado.gov/resource/casm-dbbj.json?entityid=20191893002&$order=effectivedate%20desc&$limit=10",
+  "name": "co-hist-agg",
+  "url": "https://data.colorado.gov/resource/casm-dbbj.json?$select=entityid%2Cmax(effectivedate)%20as%20last&$group=entityid&$where=entityid%20in('20191893002'%2C'20201485761'%2C'20241007271')%20and%20historydes%20in('File%20Report'%2C'Statement%20of%20Older%20Periodic%20Report')",
   "strategies": [
    "fetch"
   ]
  },
  {
-  "name": "co-hist-filereport",
-  "url": "https://data.colorado.gov/resource/casm-dbbj.json?$where=entityid%3D'20191893002'%20and%20historydes%3D'File%20Report'&$order=effectivedate%20desc&$limit=3",
+  "name": "co-multi",
+  "url": "https://data.colorado.gov/resource/4ykn-tg5h.json?$where=entityid%20in('20191893002'%2C'20241007271')",
   "strategies": [
    "fetch"
   ]
  },
  {
-  "name": "co-id",
-  "url": "https://data.colorado.gov/resource/4ykn-tg5h.json?entityid=20191893002",
+  "name": "ct-hist-sbd",
+  "url": "https://data.ct.gov/resource/ah3s-bes7.json?$where=account%3D'001t000000WmVHCAA3'%20and%20filing_type%3D'Annual%20Report'%20and%20filing_date%20is%20not%20null&$order=filing_date%20desc&$limit=3",
   "strategies": [
    "fetch"
   ]
  },
  {
-  "name": "co-good",
-  "url": "https://data.colorado.gov/resource/4ykn-tg5h.json?$where=entitystatus%3D'Good%20Standing'%20and%20entitytype%3D'DLLC'%20and%20entityformdate%3E'2024-01-01'&$limit=2",
+  "name": "ct-hist-sbd-all",
+  "url": "https://data.ct.gov/resource/ah3s-bes7.json?$where=account%3D'001t000000WmVHCAA3'%20and%20filing_date%20is%20not%20null&$order=filing_date%20desc&$limit=8",
   "strategies": [
    "fetch"
   ]
  },
  {
-  "name": "co-exists",
-  "url": "https://data.colorado.gov/resource/4ykn-tg5h.json?entitystatus=Exists&$limit=3",
+  "name": "ct-hist-agg",
+  "url": "https://data.ct.gov/resource/ah3s-bes7.json?$select=account%2Cmax(filing_date)%20as%20last&$group=account&$where=account%20in('001t000000WmVHCAA3'%2C'0018y000008fuSVAAY')%20and%20filing_type%20in('Annual%20Report'%2C'Organization%20and%20First%20Report')%20and%20filing_date%20is%20not%20null",
   "strategies": [
    "fetch"
   ]
  },
  {
-  "name": "co-name-prefix-speed",
-  "url": "https://data.colorado.gov/resource/4ykn-tg5h.json?$where=upper(entityname)%20like%20'ACME%20%25'&$limit=25",
+  "name": "ct-agent-by-id",
+  "url": "https://data.ct.gov/resource/qh2m-n44y.json?$where=business_id%20in('0074441'%2C'2741016')",
   "strategies": [
    "fetch"
   ]
  },
  {
-  "name": "co-name-contains",
-  "url": "https://data.colorado.gov/resource/4ykn-tg5h.json?$where=upper(entityname)%20like%20'%25ACME%25'&$limit=5",
+  "name": "ct-agent-by-key",
+  "url": "https://data.ct.gov/resource/qh2m-n44y.json?$where=business_key%3D'001t000000WmVHCAA3'",
   "strategies": [
    "fetch"
   ]
  },
  {
-  "name": "ct-hist-sample",
-  "url": "https://data.ct.gov/resource/ah3s-bes7.json?$where=report_year%3D'2025'%20and%20filing_type%3D'Annual%20Report'&$limit=3",
+  "name": "ct-multi",
+  "url": "https://data.ct.gov/resource/n7gp-d28j.json?$where=accountnumber%20in('0074441'%2C'2741016')%20or%20id%20in%20('001t000000WmVHCAA3')",
   "strategies": [
    "fetch"
   ]
  },
  {
-  "name": "ct-sbd",
-  "url": "https://data.ct.gov/resource/n7gp-d28j.json?$where=upper(name)%20like%20'STANLEY%20BLACK%20%26%20DECKER%2C%20INC%25'&$limit=3",
+  "name": "ct-last-annual-recent",
+  "url": "https://data.ct.gov/resource/ah3s-bes7.json?$where=filing_type%3D'Annual%20Report'%20and%20filing_date%20%3E%20'2026-09-01'&$limit=3",
   "strategies": [
    "fetch"
   ]
  },
  {
-  "name": "ct-agents-sample",
-  "url": "https://data.ct.gov/resource/qh2m-n44y.json?$limit=2",
+  "name": "ny-namehist-prefix",
+  "url": "https://data.ny.gov/resource/ekwr-p59j.json?$where=upper(corp_name)%20like%20'GOOGLE%20C%25'&$limit=5",
   "strategies": [
    "fetch"
   ]
  },
  {
-  "name": "ct-id",
-  "url": "https://data.ct.gov/resource/n7gp-d28j.json?accountnumber=3358624",
+  "name": "ny-namehist-id",
+  "url": "https://data.ny.gov/resource/ekwr-p59j.json?corpid_num=4809335&$order=date_filed%20desc&$limit=3",
   "strategies": [
    "fetch"
   ]
  },
  {
-  "name": "ct-dissolved",
-  "url": "https://data.ct.gov/resource/n7gp-d28j.json?$where=status%3D'Dissolved'%20and%20dissolution_date%20is%20not%20null&$limit=2",
+  "name": "ny-hist-multi",
+  "url": "https://data.ny.gov/resource/3gg2-jgnp.json?$where=corpid_num%20in(4809335%2C4285%2C227)&$order=date_filed%20desc%2Cfilm_num%20desc&$limit=50",
   "strategies": [
    "fetch"
   ]
  },
  {
-  "name": "ct-forfeited",
-  "url": "https://data.ct.gov/resource/n7gp-d28j.json?$where=status%3D'Forfeited'&$limit=2",
+  "name": "ny-multi",
+  "url": "https://data.ny.gov/resource/n9v6-gdp6.json?$where=dos_id%20in('4809335'%2C'4667344')",
   "strategies": [
    "fetch"
   ]
  },
  {
-  "name": "ct-active-due",
-  "url": "https://data.ct.gov/resource/n7gp-d28j.json?$where=status%3D'Active'%20and%20sub_status%3D'Annual%20report%20due'&$limit=2",
+  "name": "dc-id",
+  "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Business_Licensing_and_Grants_WebMercator/FeatureServer/0/query?where=FILE_NUMBER%3D'620118'&outFields=*&returnGeometry=false&f=json",
   "strategies": [
    "fetch"
   ]
  },
  {
-  "name": "ny-hist-entity",
-  "url": "https://data.ny.gov/resource/3gg2-jgnp.json?corpid_num=4809335&$order=date_filed%20desc&$limit=5",
+  "name": "dc-ordered",
+  "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Business_Licensing_and_Grants_WebMercator/FeatureServer/0/query?where=UPPER(BUSINESS_NAME)%20LIKE%20'MARRIOTT%25'%20AND%20ENTITY_STATUS%20LIKE%20'Active%25'&outFields=FILE_NUMBER%2CBUSINESS_NAME%2CENTITY_STATUS&orderByFields=BUSINESS_NAME&resultRecordCount=5&returnGeometry=false&f=json",
   "strategies": [
    "fetch"
   ]
  },
  {
-  "name": "ny-hist-suspended",
-  "url": "https://data.ny.gov/resource/3gg2-jgnp.json?status=Suspended&$limit=3",
+  "name": "tx-in",
+  "url": "https://data.texas.gov/resource/9cir-efmm.json?$where=taxpayer_number%20in('32070357671'%2C'32098618872')",
   "strategies": [
    "fetch"
   ]
  },
  {
-  "name": "ny-hist-discontinued",
-  "url": "https://data.ny.gov/resource/3gg2-jgnp.json?status=Discontinued&$limit=3",
-  "strategies": [
-   "fetch"
-  ]
- },
- {
-  "name": "ny-id",
-  "url": "https://data.ny.gov/resource/n9v6-gdp6.json?dos_id=4809335",
-  "strategies": [
-   "fetch"
-  ]
- },
- {
-  "name": "ny-namehist-sample",
-  "url": "https://data.ny.gov/resource/ekwr-p59j.json?$where=upper(entity_name)%20like%20'GOOGLE%20C%25'&$limit=5",
-  "strategies": [
-   "fetch"
-  ]
- },
- {
-  "name": "ny-namehist-meta",
-  "url": "https://data.ny.gov/api/views/ekwr-p59j.json",
-  "strategies": [
-   "fetch"
-  ]
- },
- {
-  "name": "or-grouped",
-  "url": "https://data.oregon.gov/resource/tckn-sxa6.json?$select=registry_number%2Cbusiness_name%2Centity_type%2Cregistry_date%2Cjurisdiction&$group=registry_number%2Cbusiness_name%2Centity_type%2Cregistry_date%2Cjurisdiction&$where=upper(business_name)%20like%20'NIKE%20%25'&$order=business_name&$limit=10",
-  "strategies": [
-   "fetch"
-  ]
- },
- {
-  "name": "or-in",
-  "url": "https://data.oregon.gov/resource/6g49-bcrm.json?$where=registry_number%20in('149629495'%2C'197852891')",
-  "strategies": [
-   "fetch"
-  ]
- },
- {
-  "name": "or-agent-in",
-  "url": "https://data.oregon.gov/resource/tckn-sxa6.json?$where=registry_number%20in('149629495'%2C'197852891')%20and%20associated_name_type%3D'REGISTERED%20AGENT'",
-  "strategies": [
-   "fetch"
-  ]
- },
- {
-  "name": "tx-file",
-  "url": "https://data.texas.gov/resource/9cir-efmm.json?secretary_of_state_sos_or_coa_file_number=0803287393",
-  "strategies": [
-   "fetch"
-  ]
- },
- {
-  "name": "tx-name-trim",
-  "url": "https://data.texas.gov/resource/9cir-efmm.json?$where=upper(taxpayer_name)%20like%20'KROGER%25'&$limit=5",
-  "strategies": [
-   "fetch"
-  ]
- },
- {
-  "name": "tx-sosf-code",
-  "url": "https://data.texas.gov/resource/9cir-efmm.json?$where=sos_status_code%3D'K'&$limit=1",
+  "name": "tx-active-top",
+  "url": "https://data.texas.gov/resource/9cir-efmm.json?$where=upper(taxpayer_name)%20like%20'ACME%20%25'%20and%20right_to_transact_business_code%3D'A'&$order=taxpayer_name&$limit=5",
   "strategies": [
    "fetch"
   ]
