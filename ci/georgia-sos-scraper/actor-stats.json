@@ -1,17 +1,17 @@
 {
-  "checkedAt": "2026-10-14T03:25:44.649Z",
+  "checkedAt": "2026-10-14T03:30:20.622Z",
   "name": "georgia-sos-scraper",
   "isPublic": false,
   "pricing": [
     "PAY_PER_EVENT"
   ],
   "stats": {
-    "totalBuilds": 5,
-    "totalRuns": 22,
+    "totalBuilds": 6,
+    "totalRuns": 23,
     "totalUsers": 1,
     "totalUsers7Days": 0,
     "totalUsers30Days": 0,
     "totalUsers90Days": 0,
-    "lastRunStartedAt": "2026-10-14T03:19:12.390Z"
+    "lastRunStartedAt": "2026-10-14T03:25:45.300Z"
   }
 }
