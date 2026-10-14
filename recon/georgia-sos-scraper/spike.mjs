@@ -9,14 +9,17 @@ const log = (...a) => console.log(...a);
 const save = (name, text) => fs.writeFileSync(`${OUT}/${name}`, String(text).slice(0, 4_000_000));
 const HOME = 'https://ecorp.sos.ga.gov/BusinessSearch';
 
-async function openHome(kind) {
-  for (let attempt = 1; attempt <= 4; attempt++) {
-    const browser = await pw[kind].launch({ headless: true });
+async function openHome() {
+  const plan = [['firefox', true], ['firefox', false], ['chromium', false], ['firefox', true], ['firefox', false], ['chromium', false]];
+  for (let attempt = 1; attempt <= plan.length; attempt++) {
+    const [kind, headless] = plan[attempt - 1];
+    log('attempt', attempt, kind, headless ? 'headless' : 'headed');
+    const browser = await pw[kind].launch({ headless });
     const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
     const page = await ctx.newPage();
     try {
       await page.goto(HOME, { waitUntil: 'domcontentloaded', timeout: 60000 });
-      for (let i = 0; i < 12; i++) {
+      for (let i = 0; i < 30; i++) {
         if (!/just a moment/i.test(await page.title())) return { browser, ctx, page, attempt };
         await page.waitForTimeout(2500);
       }
@@ -27,7 +30,7 @@ async function openHome(kind) {
   return null;
 }
 
-const s = await openHome('firefox');
+const s = await openHome();
 if (!s) { log('NO-GO: could not pass home'); process.exit(0); }
 const { browser, page } = s;
 log('home passed on attempt', s.attempt);
