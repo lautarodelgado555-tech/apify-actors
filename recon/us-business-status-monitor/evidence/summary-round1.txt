@@ -1,0 +1,50 @@
+co-meta [fetch] status=200 len=18965 title="-" 498ms
+co-name [fetch] status=200 len=3441 title="-" 170ms
+co-status-dist [fetch] status=200 len=715 title="-" 7585ms
+co-type-dist [fetch] status=200 len=1102 title="-" 368ms
+co-delinquent [fetch] status=200 len=2020 title="-" 155ms
+co-hist-dist [fetch] status=200 len=4580 title="-" 11371ms
+co-hist-periodic [fetch] status=200 len=3 title="-" 133ms
+co-hist-meta [fetch] status=200 len=21341 title="-" 113ms
+tx-meta [fetch] status=200 len=37590 title="-" 496ms
+tx-name [fetch] status=200 len=2508 title="-" 291ms
+tx-status-dist [fetch] status=200 len=3516 title="-" 432ms
+tx-org-dist [fetch] status=200 len=4352 title="-" 383ms
+tx-exempt-dist [fetch] status=200 len=1871 title="-" 362ms
+tx-forfeited [fetch] status=200 len=1646 title="-" 145ms
+tx-notactive-other [fetch] status=200 len=1623 title="-" 130ms
+tx-id [fetch] status=200 len=543 title="-" 127ms
+tx-fte-info [fetch] status=200 len=137830 title="Franchise Tax" 94ms
+tx-fte-due [fetch] status=404 len=117122 title="Welcome to Comptroller.Texas.Gov" 100ms
+ny-meta [fetch] status=200 len=62428 title="-" 511ms
+ny-name [fetch] status=200 len=2775 title="-" 144ms
+ny-entity-type-dist [fetch] status=200 len=3063 title="-" 158ms
+ny-status-hist-dist [fetch] status=200 len=195 title="-" 4658ms
+ny-status-hist-meta [fetch] status=200 len=13539 title="-" 106ms
+ny-status-hist-sample [fetch] status=200 len=671 title="-" 144ms
+ny-allfilings-meta [fetch] status=200 len=50997 title="-" 176ms
+ny-allfilings-sample [fetch] status=200 len=816 title="-" 173ms
+ct-meta [fetch] status=200 len=113761 title="-" 555ms
+ct-sample [fetch] status=200 len=801 title="-" 167ms
+ct-name [fetch] status=200 len=4442 title="-" 144ms
+ct-status-dist [fetch] status=200 len=4203 title="-" 484ms
+ct-type-dist [fetch] status=200 len=1034 title="-" 297ms
+ct-hist-meta [fetch] status=200 len=35482 title="-" 96ms
+ct-hist-type-dist [fetch] status=200 len=3255 title="-" 1014ms
+ct-hist-annual [fetch] status=200 len=568 title="-" 150ms
+ct-not-good [fetch] status=200 len=2589 title="-" 150ms
+or-meta [fetch] status=200 len=35350 title="-" 589ms
+or-name [fetch] status=200 len=4136 title="-" 363ms
+or-assoc-dist [fetch] status=200 len=252 title="-" 1552ms
+or-type-dist [fetch] status=200 len=1226 title="-" 1640ms
+or-county-meta [fetch] status=200 len=20208 title="-" 111ms
+or-county-name [fetch] status=200 len=1325 title="-" 1146ms
+dc-layer [fetch] status=200 len=10410 title="-" 278ms
+dc-name [fetch] status=200 len=7616 title="-" 378ms
+dc-status-dist [fetch] status=200 len=896 title="-" 253ms
+dc-maxmod [fetch] status=200 len=195 title="-" 250ms
+dc-active-sample [fetch] status=200 len=6008 title="-" 316ms
+pa-live [fetch] status=999 len=23436 title="PABusiness Registry Portal - Security Check" 275ms
+pa-page [fetch] status=999 len=23231 title="PABusiness Registry Portal - Security Check" 81ms
+wy-search [fetch] status=200 len=46681 title="-" 369ms
+wy-root [fetch] status=302 len=139 title="Object moved" location=/Business/Default.aspx 281ms

@@ -1,6 +1,6 @@
 {
   "title": "US Business Entity Status & Good Standing Monitor",
-  "description": "Is this US company in good standing, and when is its annual report due? Normalized status, good standing and annual report due dates from official open data (CO, CT, DC, NY, OR, TX), plus change alerts when an entity becomes delinquent, suspended or dissolved.",
+  "description": "Is this US company in good standing, and when is its annual report due? Normalized status, good standing and annual report due dates from official open data (CO, CT, DC, NY, OR, TX), plus change alerts when an entity becomes delinquent, suspended or dissolved. No login, no proxy.",
   "categories": [
     "BUSINESS",
     "AUTOMATION"

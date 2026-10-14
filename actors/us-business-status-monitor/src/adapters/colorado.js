@@ -88,7 +88,7 @@ export function toRecord(row, { lastReportFiled, freshness, now }) {
         name,
         entityType: TYPE_NAMES[row.entitytype] ?? row.entitytype,
         statusRaw: row.entitystatus,
-        statusDetail: statusNote,
+        statusDetail: statusNote && statusNote.toLowerCase() !== String(row.entitystatus ?? '').toLowerCase() ? statusNote : null,
         status: mapped.status,
         goodStanding: mapped.goodStanding,
         formationDate: row.entityformdate,

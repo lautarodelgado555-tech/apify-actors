@@ -71,7 +71,7 @@ export const adapter = {
     activeListOnly: false,
     source: SOURCE,
     sourceUrl: 'https://opendata.dc.gov/datasets/DCGIS::corporate-registration',
-    officialSearchUrl: 'https://corponline.dlcp.dc.gov/',
+    officialSearchUrl: 'https://dlcp.dc.gov/page/corporations',
     supports: { annualReportDue: true, lastReportFiled: true, registeredAgent: true },
 
     async lookup({ id, name, limit, activeOnly }, ctx) {
