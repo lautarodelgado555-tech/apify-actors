@@ -12,7 +12,7 @@
   "events": {
     "message": {
       "eventTitle": "Message returned",
-      "eventDescription": "One message from a public Telegram channel returned to the dataset. Failed channels, private channels and empty results are never charged.",
+      "eventDescription": "One message from a public Telegram channel returned to the dataset. Failed channels, private channels, empty results and the Actor start are never charged.",
       "eventTieredPricingUsd": {
         "FREE": { "tieredEventPriceUsd": 0.001 },
         "BRONZE": { "tieredEventPriceUsd": 0.001 },
