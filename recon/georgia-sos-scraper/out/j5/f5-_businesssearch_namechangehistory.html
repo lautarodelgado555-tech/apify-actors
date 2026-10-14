@@ -1,0 +1,200 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta id="viewport" name="viewport" content="user-scalable=0, width=device-width, height=device-height, initial-scale=0.5, maximum-scale=0.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GEORGIA</title>
+    <link href="/Themes/CSS/Styles?v=Zg5mvax9ru3G0Vr5izUJdPH0jjJ6wtthi2dPqDAi_201" rel="stylesheet"/>
+
+    <script src="/Scripts/Script?v=8X2IDPh1LaRe4erLuQcGu5zpE8N1cVf-nEWZkD0RhvQ1"></script>
+
+
+    
+    
+<script type="text/javascript">
+    $helper = function ()
+    {
+        var config =
+        {
+            commerceHubSettings:
+            {
+                environment: 'PROD',
+                baseUrl: 'https://connect.fiservapis.com/ch/',
+                merchantId: '100106000000137',
+                terminalId: '10000001',
+                apiKey: 'OPoAc67m119kkZcWlHxdAWWbgyS83MCGcv2LovHI7NPwvff6',
+                domainWhiteList: 'http://localhost:51351/,https://localhost:51351/',
+                pageId: '2fa919c0-1edf-429a-903e-56decac5b1ac',
+                pageVersion: '1',
+                showGenericError: 'false'.toString().toLowerCase(),
+                genericError: 'Something went wrong while authorizing your card. You may want to try again or use a different payment method.'
+            }
+        };
+
+        return {
+            config: config
+        };
+    }();
+</script>   
+
+    <script type="text/javascript">
+        $v.messagebox = function (msg) {
+            errorDialog(msg, true);
+        };
+
+        $(function () {
+            if ($("#_errorElement_").val() != "") {
+                errorDialog($("#_errorElement_").val());
+            }
+        });
+
+
+        function ShowReportDialog() {
+            var top = (($(window).height() - 400) / 2);
+            var left = (($(window).width() - 700) / 2);
+            var reportUs = window.open("/Home/ReportUs", "Report", "width=700, height=400, left=" + left + ", top=" + top + ", toolbar=0, status=1");
+            reportUs.focus();
+            return false;
+        }
+    </script>
+    <style type="text/css">
+        .uatBg {
+            background: #2d2d2f url('../../Themes/base/Images/ga_uat.png') repeat 100% !important; /*#36598a*/
+        }
+    </style>
+
+</head>
+<body class="loginbody">
+    <input type="hidden" id="_errorElement_" value="" />
+    <table class="header_color" width="100%" border="0" cellspacing="0" cellpadding="8">
+        <tbody>
+            <tr>
+                <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td width="100" align="center" valign="middle">
+                                    <img src="/Themes/base/images/sos-logo.PNG">
+                                </td>
+                                <td valign="middle" class="header_left">
+                                    <div class="header_txt">
+                                        Georgia<br>
+                                        Corporations Division 
+                                    </div>
+                                </td>
+                                <td align="right">
+                                    <span class="header_small_title">GEORGIA SECRETARY OF STATE</span><br>
+                                    <span class="header_txt">BRAD RAFFENSPERGER</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+<div class='right_content'>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td class="border_pagetitle">
+            <div class="pagetitle">
+                <table border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td class="title_bg">Business Search</td>
+                        <td align="left">
+                            <img src="/Themes/CRDBase/images/corver.png" width="27" height="30" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+    </tr>
+        <tr>
+            <td>
+                <div class="data_pannel">
+                    <table cellpadding="4" width="100%">
+                        <tr>
+                            <td class="inner_databg" align="left" colspan="4">Business Information</td>
+                        </tr>
+                        <tr>
+                            <td width="25%" align="right">Business Name:</td>
+                            <td width="25%"><strong></strong></td>
+                            <td width="25%" align="right">Control Number:</td>
+                            <td width="25%"><strong></strong></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </tr>
+
+    <tr>
+        <td>
+            <div class="data_pannel">
+                <table width="100%">
+                    <tr>
+                        <td class="inner_databg" align="left">Name Change History</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table   style='width:100%' border='0' cellpadding='4' cellspacing='5' class='gridstyle grid_layout' id='grid_NameChangeHistoryGrid' ><thead ><tr align='left' class='grid_headerbg' id='Listrow_grid_NameChangeHistoryGrid'  ><th  >Filing Number</th><th  >Old Name</th><th  >New Name</th><th  >Filing Date</th><th  >Effective Date</th></tr></thead><tbody ><tr><td colspan='5'  class='norecords'  >No records to view.</td></tr></tbody></table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="button" name="btnSearch" value="Back" class="button" onclick="submitForm(0)" />
+        </td>
+    </tr>
+</table>
+
+</div>
+<br /><br />
+<script type="text/javascript">
+    function submitForm(id) {
+        var fromSearch = ''
+        //id = id == null || id == 0 ? parseInt(window.location.search.split('&')[0].split('=')[1]) : id;//fewer times id is set to 0, so get it frm url if it is 0.
+        if (searchFrom()) {            
+            $.submitForm('/businesssearch/BusinessInformation', { businessId: id, isEmailSubscriptionSearch: true, fromSearch: fromSearch });
+        }
+        else {
+            $.submitForm('/businesssearch/BusinessInformation', { businessId: id, fromSearch: fromSearch });
+        }
+    }
+
+    /*Returns true if business search is from Email Subscription page.*/
+    function searchFrom() {
+        if ($.inArray('isEmailSubscriptionSearch=true', window.location.search.split('&')) != -1) {
+            return true;
+        }
+    }
+</script>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="footer">
+                Office of the Georgia Secretary of State Attn: 2 MLK, Jr. Dr. Suite 313, Floyd West Tower Atlanta, GA 30334-1530, Phone: (404) 656-2817 Toll-free: (844) 753-7825, WEBSITE: https://sos.ga.gov/
+                <br />© 2015 PCC Technology Group. All Rights Reserved. Version 6.2.19
+                 <span style="float: right; padding-right: 10px"><a href="javascript:void(0);" onclick="javascript:return ShowReportDialog();" style="color: #FFF; font-weight: bold; font-size: 8pt">Report a Problem?</a></span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) 
+<script src="js/jquery.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed 
+<script src="js/bootstrap.js"></script>-->
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4a323891c3de956',t:'MTc5MTk0NDc4Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
