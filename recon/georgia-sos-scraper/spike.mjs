@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import pw from 'playwright';
 
-const OUT = 'recon/georgia-sos-scraper/out';
+const OUT = `recon/georgia-sos-scraper/out/j${process.env.JOB || '0'}`;
 fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT, { recursive: true });
 const log = (...a) => console.log(...a);
@@ -34,7 +34,6 @@ const s = await openHome();
 if (!s) { log('NO-GO: could not pass home'); process.exit(0); }
 const { browser, page } = s;
 log('home passed on attempt', s.attempt);
-await page.waitForLoadState('networkidle', { timeout: 30000 }).catch(() => {});
 log('cookies', JSON.stringify((await s.ctx.cookies()).map((c) => c.name)));
 
 const post = (path, params, extraHeaders = {}) =>
@@ -63,20 +62,13 @@ const search = (name, type, value, criteria = 'StartsWith') =>
   run(name, '/BusinessSearch', { 'search.SearchType': type, 'search.SearchValue': value, 'search.SearchCriteria': criteria });
 
 // warm-up: probe with a trivial POST until Cloudflare lets it through (log timing)
-for (let k = 1; k <= 6; k++) {
+let passed = false;
+for (let k = 1; k <= 5 && !passed; k++) {
   const r = await post('/BusinessSearch', { 'search.SearchType': 'BusinessName', 'search.SearchValue': 'Delta Air Lines', 'search.SearchCriteria': 'StartsWith' });
   log('probe', k, r.status, r.mitigated, r.text.length, 'cookies', JSON.stringify((await s.ctx.cookies()).map((c) => c.name)));
-  if (r.status === 200) break;
-  await page.waitForTimeout(k * 3000);
+  if (r.status === 200) passed = true; else await page.waitForTimeout(k * 3000);
 }
-
-// the JS bundle (XHtmlGrid pager, navigateToBusinessInfo ...)
-try {
-  const src = await page.$eval('script[src*="/Scripts/Script"]', (e) => e.getAttribute('src'));
-  const b = await get(src);
-  save('bundle.js', b.text);
-  log('bundle', b.status, b.text.length);
-} catch (e) { log('bundle ERR', e.message); }
+if (!passed) { log('BLOCKED: POST challenged on this runner'); await browser.close(); process.exit(0); }
 
 await search('s01-delta-starts', 'BusinessName', 'Delta Air Lines');
 const contains = await search('s02-delta-contains', 'BusinessName', 'Delta', 'Contains');
@@ -88,12 +80,11 @@ await search('s07-none', 'BusinessName', 'zzzqqxx nonexistent');
 const gp = await search('s08-georgia-power', 'BusinessName', 'Georgia Power');
 const llc = await search('s09-llc', 'BusinessName', 'Peach Holdings LLC');
 
-// paging guesses (page 2 of the Delta contains search)
-const pageParams = { 'search.SearchType': 'BusinessName', 'search.SearchValue': 'Delta', 'search.SearchCriteria': 'Contains' };
-await run('p1-pageIdx', '/BusinessSearch', { ...pageParams, pageIdx: '2', sortBy: '', sortType: 'a' }, { 'x-requested-with': 'XMLHttpRequest' });
-await run('p2-pageIdx-noSearch', '/BusinessSearch', { pageIdx: '2', sortBy: '', sortType: 'a' }, { 'x-requested-with': 'XMLHttpRequest' });
-await run('p3-page', '/BusinessSearch', { ...pageParams, page: '2' });
-await run('p4-pageNo', '/BusinessSearch', { ...pageParams, pageNo: '2', pageSize: '25' });
+// paging: XHtmlGrid posts "&sortby=&stype=a&pidx=N" to /BusinessSearch (search state kept in the session)
+await search('s02b-delta-contains-again', 'BusinessName', 'Delta', 'Contains');
+await run('p1-pidx2', '/BusinessSearch', { sortby: '', stype: 'a', pidx: '2' }, { 'x-requested-with': 'XMLHttpRequest' });
+await run('p2-pidx3', '/BusinessSearch', { sortby: '', stype: 'a', pidx: '3' }, { 'x-requested-with': 'XMLHttpRequest' });
+await run('p3-sort-name', '/BusinessSearch', { sortby: 'Business Name', stype: 'a', pidx: '1' }, { 'x-requested-with': 'XMLHttpRequest' });
 
 // details: pick businessId/type from a few result sets
 const ids = [];
