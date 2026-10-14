@@ -1,10 +1,6 @@
 name: recon-washington-sos-scraper
 on:
-  push:
-    paths:
-      - "recon/washington-sos-scraper/*.mjs"
-      - "recon/washington-sos-scraper/targets.json"
-      - ".github/workflows/recon-washington-sos-scraper.yml"
+  workflow_dispatch:
 permissions:
   contents: write
 concurrency:

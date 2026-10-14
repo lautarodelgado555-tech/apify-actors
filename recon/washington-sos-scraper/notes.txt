@@ -1,0 +1,8 @@
+Washington CCFS recon (2026-10-14) - NO-GO as of this date
+- Angular app https://ccfs.sos.wa.gov ; API base https://ccfs-api.prod.sos.wa.gov/api/ (apiURL.js). The old cfda.sos.wa.gov host no longer resolves (ENOTFOUND).
+- List: POST BusinessSearch/GetBusinessSearchList  body {Type,SearchType:"BusinessName"|"UBINumber",SearchEntityName,SearchValue,SearchCriteria:"Contains"|"StartsWith"|"ExactMatch",SortType,SortBy:"Entity Name"|"UBI #",IsSearch:true,PageID,PageCount:25}
+- Advanced (agent/principal name, dates, status): POST BusinessSearch/GetAdvanceBusinessSearchList
+- Detail: GET BusinessSearch/BusinessInformation?businessID=; filings: GetBusinessFilingList; name history: GetBusinessNameHistoryList
+- Every call sends header X-reCAPTCHA = Cloudflare Turnstile token (site key in apiURL.js, turnstileEnable=1). Without a valid token: HTTP 400 "System verification in progress, please wait." (probe/ files).
+- Turnstile fails with client error 600010 in Playwright chromium/firefox, headless and headed (xvfb), Chrome stable with software WebGL, on a GitHub runner. No search call was ever issued by the app. Apify residential proxy not available on the account (proxy forbidden).
+- Decision: fail closed, no Actor built (playbook rule 6: no CAPTCHA solving / unblockers).
