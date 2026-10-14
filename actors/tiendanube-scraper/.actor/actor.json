@@ -1,0 +1,17 @@
+{
+  "actorSpecification": 1,
+  "name": "tiendanube-scraper",
+  "title": "Tiendanube / Nuvemshop Product & Store Scraper",
+  "description": "Scrape Tiendanube (Nuvemshop in Brazil) stores: products, prices, variants, stock, installments, images and categories, plus public store contacts. Incremental mode returns only new or changed products.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "input": "./input_schema.json",
+  "dockerfile": "../Dockerfile",
+  "readme": "../README.md",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "minMemoryMbytes": 512,
+  "maxMemoryMbytes": 4096,
+  "output": "./output_schema.json"
+}

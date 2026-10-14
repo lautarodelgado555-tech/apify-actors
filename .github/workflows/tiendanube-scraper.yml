@@ -1,0 +1,82 @@
+# Copy to .github/workflows/tiendanube-scraper.yml, replace tiendanube-scraper with the Actor folder name and 41 11 * * * with a daily cron (UTC).
+# Needs in the Actor folder: package.json with "test" script, ci-inputs/*.json (local smoke inputs) and ci-inputs/platform.json (input for the run on Apify).
+# Local runs delete proxyConfiguration from the input (GitHub runner IPs are used directly); the platform run keeps it.
+name: tiendanube-scraper
+on:
+  push:
+    paths:
+      - "actors/tiendanube-scraper/**"
+      - ".github/workflows/tiendanube-scraper.yml"
+  schedule:
+    - cron: "41 11 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: tiendanube-scraper
+  cancel-in-progress: false
+env:
+  ACTOR_DIR: actors/tiendanube-scraper
+  OUT: ci/tiendanube-scraper
+jobs:
+  test-and-run:
+    runs-on: ubuntu-latest
+    env:
+      APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Prepare output folder
+        run: |
+          mkdir -p "${OUT:?}"
+          find "${OUT:?}" -maxdepth 1 -type f \( -name '*.log' -o -name '*.json' -o -name 'debug-*' \) -delete
+          echo "run $(date -u +%FT%TZ) sha ${GITHUB_SHA} event ${GITHUB_EVENT_NAME}" > "$OUT/00-meta.log"
+      - name: Install
+        run: (cd "$ACTOR_DIR" && npm install --no-audit --no-fund) > "$OUT/01-install.log" 2>&1 || echo "exit $?" >> "$OUT/01-install.log"
+      - name: Unit tests
+        run: (cd "$ACTOR_DIR" && npm test) > "$OUT/02-test.log" 2>&1 || echo "exit $?" >> "$OUT/02-test.log"
+      - name: Install Firefox for Playwright (only if the Actor uses Playwright)
+        run: |
+          if grep -q '"playwright"' "$ACTOR_DIR/package.json"; then
+            (cd "$ACTOR_DIR" && npx playwright install --with-deps firefox) > "$OUT/03-firefox.log" 2>&1 || echo "exit $?" >> "$OUT/03-firefox.log"
+          else echo "not needed" > "$OUT/03-firefox.log"; fi
+      - name: Local runs against the live source
+        run: |
+          cd "$ACTOR_DIR"
+          for f in ci-inputs/*.json; do
+            name=$(basename "$f" .json)
+            case "$name" in platform*) continue;; esac
+            rm -rf storage && mkdir -p storage/key_value_stores/default
+            node -e 'const i=require("./'"$f"'"); delete i.proxyConfiguration; require("fs").writeFileSync("storage/key_value_stores/default/INPUT.json", JSON.stringify(i))'
+            ACTOR_DEBUG=1 timeout 600 npm start > "../../$OUT/04-local-$name.log" 2>&1 || echo "exit $?" >> "../../$OUT/04-local-$name.log"
+            for d in storage/key_value_stores/default/DEBUG-*; do [ -e "$d" ] && cp "$d" "../../$OUT/debug-$name-$(basename "$d")"; done; true
+            node -e '
+              const fs=require("fs");const dir="storage/datasets/default";
+              const items=fs.existsSync(dir)?fs.readdirSync(dir).filter(f=>f.endsWith(".json")).map(f=>JSON.parse(fs.readFileSync(dir+"/"+f))):[];
+              fs.writeFileSync("../../'"$OUT"'/local-dataset-'"$name"'.json", JSON.stringify(items,null,2));
+              console.log("items:", items.length);
+            ' >> "../../$OUT/04-local-$name.log" 2>&1 || true
+          done
+      - name: Decide whether to run on the Apify platform (pushes and Mondays only, to save credit)
+        id: gate
+        run: |
+          if [ "$GITHUB_EVENT_NAME" != "schedule" ] || [ "$(date -u +%u)" = "1" ]; then echo "platform=yes" >> "$GITHUB_OUTPUT"; else echo "platform=no" >> "$GITHUB_OUTPUT"; fi
+      - name: Deploy to Apify
+        if: env.APIFY_TOKEN != '' && steps.gate.outputs.platform == 'yes'
+        run: |
+          cd "$ACTOR_DIR"
+          (npm install -g apify-cli && apify login -t "$APIFY_TOKEN" && apify push --force; bash ../../scripts/apify-configure.sh tiendanube-scraper "../../$OUT") 2>&1 | grep -v -i "token" > "../../$OUT/05-deploy.log" || echo "exit $?" >> "../../$OUT/05-deploy.log"
+      - name: Run on Apify
+        if: env.APIFY_TOKEN != '' && steps.gate.outputs.platform == 'yes'
+        run: |
+          cd "$ACTOR_DIR"
+          bash ../../scripts/apify-run.sh tiendanube-scraper ci-inputs/platform.json "../../$OUT" > "../../$OUT/06-apify-run.log" 2>&1 || echo "exit $?" >> "../../$OUT/06-apify-run.log"
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "ci-bot"
+          git config user.email "ci-bot@users.noreply.github.com"
+          git add -A "$OUT" || true
+          git commit -m "ci: tiendanube-scraper results $(date -u +%FT%TZ)" || echo "nothing to commit"
+          for i in 1 2 3 4 5; do git pull --rebase --autostash && git push && break; sleep $((RANDOM % 8 + 2)); done

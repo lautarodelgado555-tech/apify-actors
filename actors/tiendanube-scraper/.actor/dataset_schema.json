@@ -1,0 +1,84 @@
+{
+  "actorSpecification": 1,
+  "fields": {},
+  "views": {
+    "products": {
+      "title": "Products",
+      "transformation": {
+        "fields": [
+          "image",
+          "name",
+          "brand",
+          "price",
+          "compareAtPrice",
+          "currency",
+          "availability",
+          "stockTotal",
+          "variantCount",
+          "categories",
+          "storeName",
+          "country",
+          "changeType",
+          "url"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "image": { "label": "Image", "format": "image" },
+          "name": { "label": "Name", "format": "text" },
+          "brand": { "label": "Brand", "format": "text" },
+          "price": { "label": "Price", "format": "number" },
+          "compareAtPrice": { "label": "Compare-at price", "format": "number" },
+          "currency": { "label": "Currency", "format": "text" },
+          "availability": { "label": "Availability", "format": "text" },
+          "stockTotal": { "label": "Stock", "format": "number" },
+          "variantCount": { "label": "Variants", "format": "number" },
+          "categories": { "label": "Categories", "format": "array" },
+          "storeName": { "label": "Store", "format": "text" },
+          "country": { "label": "Country", "format": "text" },
+          "changeType": { "label": "Change", "format": "text" },
+          "url": { "label": "URL", "format": "link" }
+        }
+      }
+    },
+    "stores": {
+      "title": "Stores",
+      "transformation": {
+        "fields": [
+          "name",
+          "domain",
+          "platform",
+          "country",
+          "currency",
+          "emails",
+          "phones",
+          "whatsapp",
+          "instagram",
+          "facebook",
+          "productCount",
+          "lastProductUpdate",
+          "url"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "name": { "label": "Store", "format": "text" },
+          "domain": { "label": "Domain", "format": "text" },
+          "platform": { "label": "Platform", "format": "text" },
+          "country": { "label": "Country", "format": "text" },
+          "currency": { "label": "Currency", "format": "text" },
+          "emails": { "label": "E-mails", "format": "array" },
+          "phones": { "label": "Phones", "format": "array" },
+          "whatsapp": { "label": "WhatsApp", "format": "array" },
+          "instagram": { "label": "Instagram", "format": "link" },
+          "facebook": { "label": "Facebook", "format": "link" },
+          "productCount": { "label": "Products", "format": "number" },
+          "lastProductUpdate": { "label": "Last product update", "format": "date" },
+          "url": { "label": "URL", "format": "link" }
+        }
+      }
+    }
+  }
+}

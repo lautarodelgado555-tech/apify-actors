@@ -1,0 +1,9 @@
+{
+  "mode": "catalog",
+  "stores": [
+    "https://cocora.mitiendanube.com"
+  ],
+  "maxProductsPerStore": 5,
+  "incrementalStoreName": "ci-watchlist",
+  "keywords": ["pulsera", "arete"]
+}

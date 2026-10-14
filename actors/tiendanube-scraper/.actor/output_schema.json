@@ -1,0 +1,25 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Output of Tiendanube / Nuvemshop Product & Store Scraper",
+  "description": "One record per product (catalog mode) or per store (store profile mode), plus an OUTPUT summary with the status of every input store.",
+  "properties": {
+    "results": {
+      "type": "string",
+      "title": "Results",
+      "description": "All records as JSON. Append ?format=csv or ?format=xlsx to the URL for other formats.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items"
+    },
+    "resultsCsv": {
+      "type": "string",
+      "title": "Results (CSV)",
+      "description": "The same records as a CSV file.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items?format=csv"
+    },
+    "summary": {
+      "type": "string",
+      "title": "Run summary",
+      "description": "Status of every input store (ok, not a Tiendanube store, blocked, not found) and request statistics.",
+      "template": "{{links.apiDefaultKeyValueStoreUrl}}/records/OUTPUT"
+    }
+  }
+}

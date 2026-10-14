@@ -1,0 +1,11 @@
+{
+  "mode": "catalog",
+  "stores": [
+    "https://cocora.mitiendanube.com/productos/pulsera-baloon-mini/",
+    "https://tallertextildoscoyotes.mitiendanube.com/productos/hilo-de-lana-50-gramos/",
+    "esta-tienda-no-existe-zzqx.mitiendanube.com",
+    "example.com",
+    "no es un dominio"
+  ],
+  "maxProductsPerStore": 5
+}

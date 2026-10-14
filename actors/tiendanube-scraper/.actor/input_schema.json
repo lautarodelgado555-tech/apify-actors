@@ -1,0 +1,88 @@
+{
+  "title": "Tiendanube / Nuvemshop Scraper",
+  "type": "object",
+  "schemaVersion": 1,
+  "description": "Give the Actor the stores you want: it reads their public catalog (products, prices, variants, stock) or their public store profile (country, contacts, social links).",
+  "properties": {
+    "mode": {
+      "title": "What to extract",
+      "type": "string",
+      "description": "Product catalog: one row per product with prices, variants, stock, images and categories. Store profile: one row per store with its country, currency, public e-mail / phone / WhatsApp / social links and product count.",
+      "editor": "select",
+      "enum": ["catalog", "storeProfile"],
+      "enumTitles": ["Product catalog (one row per product)", "Store profile (one row per store, with public contacts)"],
+      "default": "catalog",
+      "prefill": "catalog"
+    },
+    "stores": {
+      "title": "Stores",
+      "type": "array",
+      "description": "Store URLs or domains: a Tiendanube/Nuvemshop address (name.mitiendanube.com, name.lojavirtualnuvem.com.br) or the store's own domain (shop.example.com). You can also paste a category URL (only that category is read) or a single product URL.",
+      "editor": "stringList",
+      "prefill": ["https://tallertextildoscoyotes.mitiendanube.com"]
+    },
+    "maxProductsPerStore": {
+      "title": "Max products per store",
+      "type": "integer",
+      "description": "Catalog mode only. The Actor looks at this many products per store, most recently changed first. Products that are skipped (out of stock filter, keywords, unchanged in incremental mode) still count toward this limit but are not charged.",
+      "default": 100,
+      "prefill": 5,
+      "minimum": 1,
+      "maximum": 100000
+    },
+    "onlyInStock": {
+      "title": "Only products in stock",
+      "type": "boolean",
+      "description": "Catalog mode only. Skip products with no available variant.",
+      "default": false
+    },
+    "keywords": {
+      "title": "Keywords (optional)",
+      "type": "array",
+      "description": "Catalog mode only. Keep only products whose name, brand, categories, tags or URL contain at least one of these words (Spanish or Portuguese work). Leave empty to keep everything.",
+      "editor": "stringList"
+    },
+    "since": {
+      "title": "Only changed since (optional)",
+      "type": "string",
+      "description": "Catalog mode only. A date (2026-10-01) or a period (\"7 days\", \"12 hours\", \"2 weeks\"). Products whose store sitemap says they were last modified before that are not opened at all, which saves time. Products without a modification date are always checked.",
+      "editor": "textfield"
+    },
+    "incrementalStoreName": {
+      "title": "Incremental mode: snapshot name (optional)",
+      "type": "string",
+      "description": "Catalog mode only. Set a name (letters, numbers, dashes) to remember what each store looked like last run. Scheduled runs then return only NEW or CHANGED products (price, compare-at price, stock, availability) and you are not charged for unchanged ones. Use the same name on every run of the same watchlist.",
+      "editor": "textfield",
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9-]{0,62}$"
+    },
+    "includeDescriptionHtml": {
+      "title": "Include description HTML",
+      "type": "boolean",
+      "description": "Catalog mode only. Add the product description with its HTML formatting (the plain-text description is always included).",
+      "default": false
+    },
+    "maxConcurrency": {
+      "title": "Max parallel requests",
+      "type": "integer",
+      "description": "Total parallel requests across all stores. The defaults are polite; the Actor slows down by itself when a store answers with rate-limit errors.",
+      "default": 8,
+      "minimum": 1,
+      "maximum": 30
+    },
+    "maxConcurrencyPerStore": {
+      "title": "Max parallel requests per store",
+      "type": "integer",
+      "description": "Parallel requests to the same store.",
+      "default": 4,
+      "minimum": 1,
+      "maximum": 10
+    },
+    "proxyConfiguration": {
+      "title": "Proxy (optional)",
+      "type": "object",
+      "description": "Not needed in normal use: Tiendanube / Nuvemshop storefronts answer plain requests. Add a proxy only if a store blocks your runs.",
+      "editor": "proxy"
+    }
+  },
+  "required": ["stores"]
+}

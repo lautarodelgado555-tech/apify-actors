@@ -1,0 +1,20 @@
+{
+  "name": "tiendanube-scraper",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Tiendanube / Nuvemshop product and store scraper",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "apify": "^3.4.0",
+    "cheerio": "^1.0.0",
+    "got-scraping": "^4.1.0"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node --test test/*.test.js"
+  },
+  "author": "Lautaro Delgado",
+  "license": "ISC"
+}

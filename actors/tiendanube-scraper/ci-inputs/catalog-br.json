@@ -1,0 +1,8 @@
+{
+  "mode": "catalog",
+  "stores": [
+    "https://www.vegpet.com.br"
+  ],
+  "maxProductsPerStore": 10,
+  "maxConcurrencyPerStore": 4
+}
