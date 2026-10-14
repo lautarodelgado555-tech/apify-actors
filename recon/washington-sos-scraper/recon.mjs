@@ -19,7 +19,7 @@ try {
   const html = await res.text();
   L('root status', res.status, 'len', html.length);
   fs.writeFileSync(path.join(out, 'root.html'), html.slice(0, 200000));
-  const srcs = [...html.matchAll(/(?:src|href)="([^"]+\.js)"/g)].map((m) => m[1]);
+  const srcs = [...html.matchAll(/src="([^"]+(?:\.js|js\?version=[0-9.]+))"/g)].map((m) => m[1]).filter((x) => !/cloudflare|googletag/.test(x));
   L('scripts', srcs.join(', '));
   let hints = '';
   for (const s of srcs) {
@@ -28,6 +28,7 @@ try {
     if (!r.text) { L('bundle fail', u, r.status); continue; }
     const js = await r.text();
     L('bundle', u, r.status, js.length);
+    if (/apiURL/.test(u)) fs.writeFileSync(path.join(out, 'apiURL.js'), js);
     for (const m of js.matchAll(/cfda\.sos\.wa\.gov[^"'`\s]{0,200}|api\/[A-Za-z]+\/[A-Za-z]+[^"'`\s]{0,100}/g)) hints += `${s}: ${m[0]}\n`;
     for (const m of js.matchAll(/(GetBusinessSearchList|BusinessSearch|AdvancedSearch|BusinessInformation)/g)) {
       const i = m.index;
@@ -45,7 +46,7 @@ async function probe(name, url, init = {}) {
     const t = await r.text();
     L('probe', name, r.status, t.length, t.slice(0, 200).replace(/\s+/g, ' '));
     fs.writeFileSync(path.join(out, `probe-${name}.json`), t.slice(0, 500000));
-  } catch (e) { L('probe', name, 'ERR', e.message); }
+  } catch (e) { L('probe', name, 'ERR', e.message, String(e.cause && (e.cause.code || e.cause.message))); }
 }
 await probe('detail-1348199', 'https://cfda.sos.wa.gov/api/BusinessSearch/BusinessInformation?businessID=1348199');
 await probe('detail-604000000', 'https://cfda.sos.wa.gov/api/BusinessSearch/BusinessInformation?businessID=604000000');
@@ -78,7 +79,7 @@ const step = async (n) => {
   L('step', n, page.url(), 'controls', ctrls.length);
 };
 try {
-  await page.goto('https://ccfs.sos.wa.gov/#/', { waitUntil: 'networkidle', timeout: 60000 });
+  await page.goto('https://ccfs.sos.wa.gov/#/', { waitUntil: 'domcontentloaded', timeout: 60000 });
   await page.waitForTimeout(3000);
   await step('1-home');
   const link = page.getByText(/business search/i).first();
