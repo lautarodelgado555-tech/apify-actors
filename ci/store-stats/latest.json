@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-10-14T13:37:02.767Z",
+  "actors": {
+    "florida-sunbiz-scraper": {
+      "isPublic": true,
+      "totalUsers": 2,
+      "totalUsers7Days": 1,
+      "totalUsers30Days": 1,
+      "totalRuns": 7,
+      "lastRunStartedAt": "2026-10-14T00:00:31.528Z",
+      "rating": 0,
+      "reviews": 0
+    },
+    "georgia-sos-scraper": {
+      "isPublic": true,
+      "totalUsers": 2,
+      "totalUsers7Days": 1,
+      "totalUsers30Days": 1,
+      "totalRuns": 25,
+      "lastRunStartedAt": "2026-10-14T13:28:31.728Z",
+      "rating": 0,
+      "reviews": 0
+    },
+    "mercadolibre-monitor": {
+      "isPublic": false,
+      "totalUsers": 1,
+      "totalUsers7Days": 0,
+      "totalUsers30Days": 0,
+      "totalRuns": 2,
+      "lastRunStartedAt": "2026-10-14T01:49:26.889Z",
+      "rating": null,
+      "reviews": null
+    },
+    "telegram-channel-scraper": {
+      "isPublic": true,
+      "totalUsers": 2,
+      "totalUsers7Days": 1,
+      "totalUsers30Days": 1,
+      "totalRuns": 13,
+      "lastRunStartedAt": "2026-10-14T13:28:31.757Z",
+      "rating": 0,
+      "reviews": 0
+    },
+    "tiendanube-scraper": {
+      "isPublic": true,
+      "totalUsers": 2,
+      "totalUsers7Days": 1,
+      "totalUsers30Days": 1,
+      "totalRuns": 7,
+      "lastRunStartedAt": "2026-10-14T13:28:31.666Z",
+      "rating": 0,
+      "reviews": 0
+    },
+    "us-business-status-monitor": {
+      "isPublic": true,
+      "totalUsers": 2,
+      "totalUsers7Days": 1,
+      "totalUsers30Days": 1,
+      "totalRuns": 7,
+      "lastRunStartedAt": "2026-10-14T13:28:31.730Z",
+      "rating": 0,
+      "reviews": 0
+    }
+  }
+}
