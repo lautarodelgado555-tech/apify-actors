@@ -1,0 +1,9 @@
+attempt 1 firefox headless
+home passed on attempt 1
+cookies ["ASP.NET_SessionId","__cflb"]
+probe 1 403 challenge 5950 cookies ["ASP.NET_SessionId","__cflb"]
+probe 2 403 challenge 5950 cookies ["ASP.NET_SessionId","__cflb","cf_clearance"]
+probe 3 403 challenge 5950 cookies ["ASP.NET_SessionId","__cflb","cf_clearance"]
+probe 4 403 challenge 5950 cookies ["ASP.NET_SessionId","__cflb","cf_clearance"]
+probe 5 403 challenge 5950 cookies ["ASP.NET_SessionId","__cflb","cf_clearance"]
+BLOCKED: POST challenged on this runner
