@@ -1,89 +1,57 @@
-01:35:14 proxy password present: true groups: ["BUYPROXIES94952","GOOGLE_SERP","RESIDENTIAL","UNBLOCKER"]
-01:35:16 store slugs 202
-01:35:22 tienda direct {"n":6,"byStatus":{"200":6},"gated":0,"okClean":6,"avgWireBytes":485255,"avgBytes":485255,"avgMs":643} items so far 215
-01:35:25 tienda dc {"n":6,"byStatus":{"0":6},"gated":0,"okClean":0,"avgWireBytes":0,"avgBytes":0,"avgMs":0} items so far 215
-01:35:27 tienda res {"n":6,"byStatus":{"0":6},"gated":0,"okClean":0,"avgWireBytes":0,"avgBytes":0,"avgMs":0} items so far 215
-01:35:29 listing direct {"n":3,"byStatus":{"200":3},"gated":3,"okClean":0,"avgWireBytes":0,"avgBytes":0,"avgMs":0} items so far 215
-01:35:30 listing dc {"n":3,"byStatus":{"0":3},"gated":0,"okClean":0,"avgWireBytes":0,"avgBytes":0,"avgMs":0} items so far 215
-01:35:32 listing res {"n":3,"byStatus":{"0":3},"gated":0,"okClean":0,"avgWireBytes":0,"avgBytes":0,"avgMs":0} items so far 215
-01:35:32 total item urls 215
-01:35:35 items direct {"n":40,"byStatus":{"200":40},"gated":40,"okClean":0,"avgWireBytes":0,"avgBytes":0,"avgMs":0}
-01:35:37 items dc {"n":40,"byStatus":{"0":40},"gated":0,"okClean":0,"avgWireBytes":0,"avgBytes":0,"avgMs":0}
-01:35:39 items res {"n":40,"byStatus":{"0":40},"gated":0,"okClean":0,"avgWireBytes":0,"avgBytes":0,"avgMs":0}
-01:35:39 api direct 403 /items/MLA58756915
-01:35:39 api direct 401 /items?ids=MLA58756915
-01:35:39 api direct 403 /items/MLA55887294
-01:35:39 api direct 401 /items?ids=MLA55887294
-01:35:40 api direct 403 /items/MLA60282799
-01:35:40 api direct 401 /items?ids=MLA60282799
-01:35:40 api dc 0 /items/MLA58756915
-01:35:40 api dc 0 /items?ids=MLA58756915
-01:35:40 api dc 0 /items/MLA55887294
-01:35:40 api dc 0 /items?ids=MLA55887294
-01:35:40 api res 0 /items/MLA58756915
-01:35:40 api res 0 /items?ids=MLA58756915
-01:35:40 api res 0 /items/MLA55887294
-01:35:40 api res 0 /items?ids=MLA55887294
-{
- "routes": {
-  "direct": {
-   "n": 40,
-   "byStatus": {
-    "200": 40
-   },
-   "gated": 40,
-   "okClean": 0,
-   "avgWireBytes": 0,
-   "avgBytes": 0,
-   "avgMs": 0
-  },
-  "dc": {
-   "n": 40,
-   "byStatus": {
-    "0": 40
-   },
-   "gated": 0,
-   "okClean": 0,
-   "avgWireBytes": 0,
-   "avgBytes": 0,
-   "avgMs": 0
-  },
-  "res": {
-   "n": 40,
-   "byStatus": {
-    "0": 40
-   },
-   "gated": 0,
-   "okClean": 0,
-   "avgWireBytes": 0,
-   "avgBytes": 0,
-   "avgMs": 0
-  }
- },
- "firefox": [
-  [
-   "direct",
-   200,
-   true,
-   null
-  ],
-  [
-   "direct",
-   200,
-   true,
-   null
-  ],
-  [
-   "res",
-   null,
-   null,
-   "page.goto: NS_ERROR_PROXY_FORBIDDEN"
-  ],
-  [
-   "res",
-   null,
-   null,
-   "page.goto: NS_ERROR_PROXY_FORBIDDEN"
-  ]
- ]
+01:39:45 proxy403 {"res":"HTTP/1.1 403 Forbidden\r\nx-apify-proxy-error: true\r\nconnection: close\r\ndate: Wed, 14 Oct 2026 01:39:45 GMT\r\ncontent-length: 121\r\nserver: Apify Proxy\r\ncontent-type: text/plain; charset=utf-8\r\n\r\nThe \"Proxy external access\" feature isn't enabled for your account. Please upgrade your plan or contact support@apify.com","auto":"HTTP/1.1 403 Forbidden\r\nx-apify-proxy-error: true\r\nconnection: close\r\ndate: Wed, 14 Oct 2026 01:39:45 GMT\r\ncontent-length: 121\r\nserver: Apify Proxy\r\ncontent-type: text/plain; charset=utf-8\r\n\r\nThe \"Proxy external access\" feature isn't enabled for your account. Please upgrade your plan or contact support@apify.com"}
+01:39:45 api 403 /items/MLA2639626512
+01:39:45 api 401 /items?ids=MLA2639626512
+01:39:45 api 403 /items/MLA2639626512?attributes=id,price,original_price,available_quantity,sold_quantity,seller_id
+01:39:46 api 401 /products/MLA58756915
+01:39:46 api 403 /products/MLA58756915/items
+01:39:46 api 403 /products/MLA58756915/items?limit=5
+01:39:46 api 403 /sites/MLA/search?q=microondas&limit=3
+01:39:47 api 403 /sites/MLA/search?category=MLA1055&limit=3
+01:39:47 api 403 /users/139060460
+01:39:47 api 403 /sites/MLA/search?seller_id=139060460&limit=3
+01:39:47 api 403 /sites/MLA/search?official_store_id=56&limit=3
+01:39:48 api 200 /categories/MLA1055
+01:39:48 api 401 /highlights/MLA/category/MLA1055
+01:39:48 api 403 /items/MLA2639626512/prices
+01:39:48 api 403 /reviews/item/MLA2639626512
+01:39:49 surface 200  GATE 122850 https://www.mercadolibre.com.ar/
+01:39:50 surface 200  GATE 108445 https://www.mercadolibre.com.ar/tiendas-oficiales
+01:39:51 surface 200  GATE 65951 https://www.mercadolibre.com.ar/tienda/bgh
+01:39:52 surface 200  GATE 9635 https://listado.mercadolibre.com.ar/tienda/bgh/
+01:39:52 surface 200  GATE 9635 https://www.mercadolibre.com.ar/c/celulares-y-telefonos
+01:39:53 surface 200  GATE 9650 https://www.mercadolibre.com.ar/c/electrodomesticos-y-aires-ac
+01:39:53 surface 200  GATE 183 https://www.mercadolibre.com.ar/categorias
+01:39:54 surface 200  GATE 9643 https://www.mercadolibre.com.ar/ofertas
+01:39:55 surface 200  GATE 117205 https://www.mercadolibre.com.ar/ofertas/supermercado
+01:39:55 surface 200  GATE 9609 https://www.mercadolibre.com.ar/mas-vendidos
+01:39:56 surface 200  GATE 9622 https://www.mercadolibre.com.ar/mas-vendidos/MLA1055
+01:39:56 surface 200  GATE 9633 https://listado.mercadolibre.com.ar/celulares-telefonos/celulares-smartphones/
+01:39:57 surface 200  GATE 9609 https://listado.mercadolibre.com.ar/microondas
+01:39:57 surface 200  GATE 9608 https://www.mercadolibre.com.ar/jm/search?as_word=microondas
+01:39:58 surface 200  GATE 9711 https://www.mercadolibre.com.ar/microondas-bgh-mecanico-18l-blanco-b118mb25/p/MLA58756915?
+01:39:58 surface 200  GATE 9620 https://www.mercadolibre.com.ar/p/MLA58756915
+01:39:59 surface 404  open 9592 https://www.mercadolibre.com.ar/MLA-2639626512
+01:39:59 surface 200  GATE 9624 https://articulo.mercadolibre.com.ar/MLA-2639626512
+01:40:02 surface 200  GATE 10304 https://www.mercadolibre.com.ar/perfil/BGH
+01:40:02 surface 200  GATE 34900 https://www.mercadolibre.com.ar/ayuda
+01:40:03 surface 404  open 9592 https://www.mercadolibre.com.ar/sitemap.xml
+01:40:03 surface 200  open 544 https://www.mercadolibre.com.ar/robots.txt
+node:internal/modules/package_json_reader:314
+  throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);
+        ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'tough-cookie' imported from /home/runner/work/apify-actors/apify-actors/recon/mercadolibre-monitor/spike.mjs
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:314:9)
+    at packageResolve (node:internal/modules/esm/resolve:772:81)
+    at moduleResolve (node:internal/modules/esm/resolve:859:18)
+    at defaultResolve (node:internal/modules/esm/resolve:989:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:747:20)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:724:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:320:38)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:680:36)
+    at TracingChannel.tracePromise (node:diagnostics_channel:350:14)
+    at ModuleLoader.import (node:internal/modules/esm/loader:679:21) {
+  code: 'ERR_MODULE_NOT_FOUND'
 }
+
+Node.js v22.23.3
