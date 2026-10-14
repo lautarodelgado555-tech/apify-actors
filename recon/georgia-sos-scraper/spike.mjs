@@ -78,44 +78,50 @@ for (const mode of ['block', 'clear', 'burst', 'plain']) {
 if (!winner) { log('BLOCKED: no mode got repeated POSTs through on this runner'); process.exit(0); }
 log('WINNER', winner);
 
-await search('s01-delta-starts', 'BusinessName', 'Delta Air Lines');
 const DET = '/BusinessSearch/BusinessInformation/';
-const hdrs = {};
+const rowRe = /navigateToBusinessInfo\((\d+), '([^']+)'\)">[^<]*<\/a><\/td><td >([^<]*)</g;
+const rowsOf = (html) => [...html.matchAll(rowRe)].map((m) => ({ id: m[1], type: m[2], control: m[3] }));
 const contains = await search('s02-delta-contains', 'BusinessName', 'Delta', 'Contains');
 const gp = await search('s08-georgia-power', 'BusinessName', 'Georgia Power');
 const llc = await search('s09-llc', 'BusinessName', 'Peach Holdings LLC');
-const rows = [];
-for (const html of [contains, gp, llc]) for (const m of html.matchAll(/navigateToBusinessInfo\((\d+), '([^']+)'\)/g)) rows.push([m[1], m[2]]);
-const wanted = [['567669', 'Foreign Profit Corporation'], ['301509', 'Domestic Nonprofit Corporation']];
-const types = new Set(wanted.map((w) => w[1]));
-for (const [id, type] of rows) { if (!types.has(type)) { types.add(type); wanted.push([id, type]); } }
-log('detail types', JSON.stringify(wanted));
+const nonp = await search('s10-nonprofit', 'BusinessName', 'Georgia Chamber', 'StartsWith');
+const all = [...rowsOf(contains), ...rowsOf(gp), ...rowsOf(llc), ...rowsOf(nonp)];
+const byType = new Map();
+for (const r of all) if (!byType.has(r.type)) byType.set(r.type, r);
+log('types', JSON.stringify([...byType.values()]));
+
+// detail per entity type: search by control number first so the id belongs to the last search
 let i = 0;
-for (const [id, type] of wanted) {
-  await run(`d${++i}-detail-${id}`, DET, { businessId: id, businessType: type, fromSearch: 'true' }, hdrs);
+for (const r of byType.values()) {
+  await search(`c${++i}-ctl-${r.control}`, 'ControlNo', r.control);
+  await run(`d${i}-detail-${r.id}`, DET, { businessId: r.id, businessType: r.type, fromSearch: 'true' });
 }
 
-// filing history / name history variants
-const FV = ['/BusinessSearch/BusinessFilings/', '/businesssearch/businessfilings', '/BusinessSearch/BusinessFilings', '/BusinessSearch/NameChangeHistory/', '/businesssearch/namechangehistory'];
-let k = 0;
-for (const path of FV) {
-  await run(`f${++k}-${path.replace(/[^a-z]/gi, '_')}`, path, { businessId: '567669' }, hdrs);
-}
-await run('f6-filings-llc', '/BusinessSearch/BusinessFilings/', { businessId: '4805471' }, hdrs);
-await run('f7-filings-nonprofit', '/BusinessSearch/BusinessFilings/', { businessId: '301509' }, hdrs);
-try {
-  const r = await page.evaluate(async () => { const x = await fetch('/BusinessSearch/BusinessFilings/?businessId=567669&isEmailSubscriptionSearch=true', { credentials: 'include' }); return { status: x.status, mitigated: x.headers.get('cf-mitigated'), text: await x.text() }; });
-  log('f8-get-filings', r.status, r.mitigated, r.text.length, (r.text.match(/<title>[^<]*/) || [''])[0]);
-  save('f8-get-filings.html', r.text);
-} catch (e) { log('f8 ERR', e.message); }
+// does detail need the id to be in the last search?
+await search('t0-ctl-delta', 'ControlNo', 'H853425');
+await run('t1-detail-in-last-search', DET, { businessId: '567669', businessType: 'Foreign Profit Corporation', fromSearch: 'true' });
+await search('t2-last-is-llc', 'BusinessName', 'Peach Holdings LLC');
+await run('t3-detail-not-in-last-search', DET, { businessId: '567669', businessType: 'Foreign Profit Corporation', fromSearch: 'true' });
+await run('t4-detail-empty-fromSearch', DET, { businessId: '567669', fromSearch: '' });
+await run('t5-detail-id-only', DET, { businessId: '567669' });
+await run('t6-detail-nofs-with-type', DET, { businessId: '567669', businessType: 'Foreign Profit Corporation' });
 
-// stress: details for the first 25 results of the contains search
+// filings paging
+await run('g1-filings-page1', '/BusinessSearch/BusinessFilings/', { businessId: '567669' });
+await run('g2-filing-pidx2', '/BusinessSearch/BusinessFiling', { businessid: '567669', sortby: '', stype: 'a', pidx: '2' }, { 'x-requested-with': 'XMLHttpRequest' });
+await run('g3-filing-pidx2-slash', '/BusinessSearch/BusinessFiling/', { businessid: '567669', sortby: '', stype: 'a', pidx: '2' }, { 'x-requested-with': 'XMLHttpRequest' });
+await run('g4-filing-pidx2-nobiz', '/BusinessSearch/BusinessFiling', { businessid: '', sortby: '', stype: 'a', pidx: '2' }, { 'x-requested-with': 'XMLHttpRequest' });
+
+// stress: details for every row of page 1 of a 25-row result list
+const first = await search('u0-contains-again', 'BusinessName', 'Delta', 'Contains');
 const t0 = Date.now();
 const stat = {};
-for (const [id, type] of rows.slice(0, 25)) {
-  const r = await post(DET, { businessId: id, businessType: type, fromSearch: 'true' });
-  stat[r.status] = (stat[r.status] || 0) + 1;
+let n = 0;
+for (const r of rowsOf(first)) {
+  const x = await post(DET, { businessId: r.id, businessType: r.type, fromSearch: 'true' });
+  stat[x.status] = (stat[x.status] || 0) + 1;
+  if (n++ < 6) save(`u1-sample-detail-${n}.html`, x.text);
 }
-log('STRESS 25 details', JSON.stringify(stat), (Date.now() - t0) + 'ms');
+log('STRESS details on current page', JSON.stringify(stat), (Date.now() - t0) + 'ms');
 
 await browser.close();

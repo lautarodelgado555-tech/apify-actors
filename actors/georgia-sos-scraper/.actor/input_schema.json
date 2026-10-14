@@ -1,0 +1,62 @@
+{
+  "title": "Georgia Secretary of State Business Search",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "searchType": {
+      "title": "Search by",
+      "type": "string",
+      "description": "Which Georgia eCorp search to use: business name, control number, registered agent name, or officer name.",
+      "editor": "select",
+      "enum": ["businessName", "controlNumber", "registeredAgent", "officer"],
+      "enumTitles": ["Business name", "Control number", "Registered agent name", "Officer name"],
+      "default": "businessName",
+      "prefill": "businessName"
+    },
+    "searchTerms": {
+      "title": "Search terms",
+      "type": "array",
+      "description": "One or more business names, control numbers, agent names or officer names to look up. Georgia ignores punctuation and spaces when matching, so \"coca cola\" and \"Coca-Cola\" find the same entities.",
+      "editor": "stringList",
+      "prefill": ["Delta Air Lines"],
+      "minItems": 1
+    },
+    "nameMatch": {
+      "title": "Name matching",
+      "type": "string",
+      "description": "How eCorp matches names (business name, agent and officer searches). 'Starts with' lists entities whose name begins with your term, 'Contains' finds the term anywhere in the name, 'Exact' needs the full name. Ignored for control number searches.",
+      "editor": "select",
+      "enum": ["startsWith", "contains", "exact"],
+      "enumTitles": ["Starts with (recommended)", "Contains", "Exact match"],
+      "default": "startsWith"
+    },
+    "maxResultsPerSearch": {
+      "title": "Max results per search term",
+      "type": "integer",
+      "description": "Stop after this many entities for each search term (the portal lists 25 per page). Free-plan runs are capped at 10 results per run.",
+      "default": 25,
+      "minimum": 1,
+      "maximum": 1000
+    },
+    "activeOnly": {
+      "title": "Active entities only",
+      "type": "boolean",
+      "description": "Skip dissolved, administratively dissolved, revoked and withdrawn entities.",
+      "default": false
+    },
+    "fetchDetails": {
+      "title": "Fetch full details",
+      "type": "boolean",
+      "description": "Open each entity's detail page to get formation date, jurisdiction, registered agent address, officers and the last annual registration year. Turn off to get only what the list shows (name, control number, type, principal office address, agent name, status), which is faster.",
+      "default": true
+    },
+    "proxyConfiguration": {
+      "title": "Proxy",
+      "type": "object",
+      "description": "Georgia's portal sits behind Cloudflare and challenges some datacenter IP ranges. Apify proxy is recommended; the Actor retries with a fresh IP when it is challenged.",
+      "editor": "proxy",
+      "prefill": { "useApifyProxy": true }
+    }
+  },
+  "required": ["searchTerms"]
+}

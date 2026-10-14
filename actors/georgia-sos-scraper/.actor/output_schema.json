@@ -1,0 +1,19 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Output of Georgia Secretary of State Business Search Scraper",
+  "description": "One record per Georgia business entity found, with status, good-standing flag, addresses, registered agent, officers and annual registration status.",
+  "properties": {
+    "entities": {
+      "type": "string",
+      "title": "Entities",
+      "description": "All entity records as JSON. Append ?format=csv or ?format=xlsx to the URL for other formats.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items"
+    },
+    "entitiesCsv": {
+      "type": "string",
+      "title": "Entities (CSV)",
+      "description": "The same records as a CSV file, one entity per row.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items?format=csv"
+    }
+  }
+}

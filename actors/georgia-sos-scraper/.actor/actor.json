@@ -1,0 +1,17 @@
+{
+  "actorSpecification": 1,
+  "name": "georgia-sos-scraper",
+  "title": "Georgia Secretary of State Business Search Scraper",
+  "description": "Search Georgia's eCorp business registry by name, control number, registered agent or officer. Returns status, good-standing flag, addresses, registered agent, officers and the annual registration status.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "input": "./input_schema.json",
+  "dockerfile": "../Dockerfile",
+  "readme": "../README.md",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "minMemoryMbytes": 1024,
+  "maxMemoryMbytes": 4096,
+  "output": "./output_schema.json"
+}
