@@ -1,6 +1,6 @@
 {
   "title": "Tiendanube / Nuvemshop Product & Store Scraper",
-  "description": "Scrape Tiendanube (Nuvemshop in Brazil) online stores: products, prices, compare-at prices, variants, stock, installments, images and categories, plus public store contacts. Incremental mode returns only new or changed products, so scheduled price and stock monitoring costs less. Spanish and Portuguese keywords work.",
+  "description": "Scrape Tiendanube (Nuvemshop in Brazil) stores: products, prices, variants, stock, installments, images and categories, plus public store contacts. Incremental mode returns only new or changed products. Spanish and Portuguese keywords work.",
   "categories": [
     "ECOMMERCE",
     "LEAD_GENERATION"
@@ -13,10 +13,24 @@
       "eventTitle": "Product",
       "eventDescription": "One product returned with price, variants, stock, images and categories (in incremental mode only new or changed products are returned and charged).",
       "eventTieredPricingUsd": {
-        "FREE": { "tieredEventPriceUsd": 0.001 },
-        "BRONZE": { "tieredEventPriceUsd": 0.001 },
-        "SILVER": { "tieredEventPriceUsd": 0.0008 },
-        "GOLD": { "tieredEventPriceUsd": 0.0005 }
+        "FREE": {
+          "tieredEventPriceUsd": 0.001
+        },
+        "BRONZE": {
+          "tieredEventPriceUsd": 0.001
+        },
+        "SILVER": {
+          "tieredEventPriceUsd": 0.0008
+        },
+        "GOLD": {
+          "tieredEventPriceUsd": 0.0005
+        },
+        "PLATINUM": {
+          "tieredEventPriceUsd": 0.0005
+        },
+        "DIAMOND": {
+          "tieredEventPriceUsd": 0.0005
+        }
       },
       "isPrimaryEvent": true
     },
@@ -24,10 +38,24 @@
       "eventTitle": "Store profile",
       "eventDescription": "One store profile returned with country, currency, public contacts, social links and product count.",
       "eventTieredPricingUsd": {
-        "FREE": { "tieredEventPriceUsd": 0.005 },
-        "BRONZE": { "tieredEventPriceUsd": 0.005 },
-        "SILVER": { "tieredEventPriceUsd": 0.004 },
-        "GOLD": { "tieredEventPriceUsd": 0.003 }
+        "FREE": {
+          "tieredEventPriceUsd": 0.005
+        },
+        "BRONZE": {
+          "tieredEventPriceUsd": 0.005
+        },
+        "SILVER": {
+          "tieredEventPriceUsd": 0.004
+        },
+        "GOLD": {
+          "tieredEventPriceUsd": 0.003
+        },
+        "PLATINUM": {
+          "tieredEventPriceUsd": 0.003
+        },
+        "DIAMOND": {
+          "tieredEventPriceUsd": 0.003
+        }
       }
     }
   },
