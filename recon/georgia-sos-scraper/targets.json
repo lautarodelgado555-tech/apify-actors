@@ -1,0 +1,5 @@
+[
+ {"name":"home","url":"https://ecorp.sos.ga.gov/BusinessSearch","strategies":["fetch","gotScraping","impit","firefox","chromium"]},
+ {"name":"browser-search","url":"https://ecorp.sos.ga.gov/BusinessSearch","strategies":["firefox"],
+  "actions":[{"fill":"input[type=text]:visible >> nth=0","value":"Delta Air Lines"},{"press":"input[type=text]:visible >> nth=0","key":"Enter"},{"wait":4000}]}
+]
