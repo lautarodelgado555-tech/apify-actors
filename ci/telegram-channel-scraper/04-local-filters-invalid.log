@@ -13,7 +13,7 @@
 [32mINFO[39m  [Status message]: 5/6 channels done, 5 messages
 [32mINFO[39m  @tginfo: 5 messages (1 page read)
 [32mINFO[39m  [Status message]: 6/6 channels done, 10 messages
-[32mINFO[39m  Done in 1.5s: 10 messages from 2 channels. Requests: 6, retries: 0, rate-limited: 0, 0.4 MB.
-[32mINFO[39m  SUMMARY [{"input":"https://t.me/+AbCdEfGh1234","status":"private_invite"},{"input":"ab","status":"invalid_username"},{"input":"BotFather","username":"BotFather","status":"not_a_channel","messages":0,"pages":0,"scanned":0,"seconds":1,"detail":"BotFather ✔ (@BotFather)"},{"input":"zzq_nonexistent_98765","username":"zzq_nonexistent_98765","status":"not_found","messages":0,"pages":0,"scanned":0,"seconds":1.1},{"input":"telegram","username":"telegram","status":"ok","messages":5,"pages":1,"scanned":10,"seconds":1.1},{"input":"tginfo","username":"tginfo","status":"ok","messages":5,"pages":1,"scanned":5,"seconds":1.5}]
+[32mINFO[39m  Done in 1.1s: 10 messages from 2 channels. Requests: 6, retries: 0, rate-limited: 0, 0.4 MB.
+[32mINFO[39m  SUMMARY [{"input":"https://t.me/+AbCdEfGh1234","status":"private_invite"},{"input":"ab","status":"invalid_username"},{"input":"BotFather","username":"BotFather","status":"not_a_channel","messages":0,"pages":0,"scanned":0,"seconds":0.7,"detail":"BotFather ✔ (@BotFather)"},{"input":"zzq_nonexistent_98765","username":"zzq_nonexistent_98765","status":"not_found","messages":0,"pages":0,"scanned":0,"seconds":0.7},{"input":"telegram","username":"telegram","status":"ok","messages":5,"pages":1,"scanned":10,"seconds":0.8},{"input":"tginfo","username":"tginfo","status":"ok","messages":5,"pages":1,"scanned":5,"seconds":1.1}]
 [32mINFO[39m  [Status message]: 10 messages from 2 channels; 4 channel(s) unavailable (see SUMMARY)
 items: 10

@@ -1,14 +1,14 @@
-2026-10-14T02:01:37.467Z ACTOR: Pulling container image of build EVJAu2R9ehC3nznFy from registry.
-2026-10-14T02:01:38.000Z ACTOR: Creating container.
-2026-10-14T02:01:38.051Z ACTOR: Starting container.
-2026-10-14T02:01:38.053Z ACTOR: Running under "LIMITED_PERMISSIONS".
-2026-10-14T02:01:38.757Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}
-2026-10-14T02:01:40.139Z INFO  @contest: 10 messages (1 page read)
-2026-10-14T02:01:40.152Z INFO  [Status message]: 1/3 channels done, 18 messages
-2026-10-14T02:01:40.269Z INFO  @durov: 10 messages (1 page read)
-2026-10-14T02:01:40.271Z INFO  [Status message]: 2/3 channels done, 22 messages
-2026-10-14T02:01:42.017Z INFO  @telegram: 10 messages (1 page read)
-2026-10-14T02:01:42.018Z INFO  [Status message]: 3/3 channels done, 30 messages
-2026-10-14T02:01:42.072Z INFO  Done in 3.3s: 30 messages from 3 channels. Requests: 3, retries: 0, rate-limited: 0, 0.5 MB.
-2026-10-14T02:01:42.074Z INFO  SUMMARY [{"input":"contest","username":"contest","status":"ok","messages":10,"pages":1,"scanned":10,"seconds":1.3},{"input":"durov","username":"durov","status":"ok","messages":10,"pages":1,"scanned":10,"seconds":1.4},{"input":"telegram","username":"telegram","status":"ok","messages":10,"pages":1,"scanned":10,"seconds":3.2}]
-2026-10-14T02:01:42.167Z INFO  [Status message]: 30 messages from 3 channels; free plan limits applied
+2026-10-14T02:04:27.923Z ACTOR: Pulling container image of build 2ucvsyod6oJkeaYg6 from registry.
+2026-10-14T02:04:28.458Z ACTOR: Creating container.
+2026-10-14T02:04:28.509Z ACTOR: Starting container.
+2026-10-14T02:04:28.511Z ACTOR: Running under "LIMITED_PERMISSIONS".
+2026-10-14T02:04:29.272Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}
+2026-10-14T02:04:30.725Z INFO  @durov: 10 messages (1 page read)
+2026-10-14T02:04:30.727Z INFO  [Status message]: 1/3 channels done, 25 messages
+2026-10-14T02:04:30.743Z INFO  @telegram: 10 messages (1 page read)
+2026-10-14T02:04:30.765Z INFO  [Status message]: 2/3 channels done, 27 messages
+2026-10-14T02:04:30.948Z INFO  @contest: 10 messages (1 page read)
+2026-10-14T02:04:30.950Z INFO  [Status message]: 3/3 channels done, 30 messages
+2026-10-14T02:04:30.987Z INFO  Done in 1.7s: 30 messages from 3 channels. Requests: 3, retries: 0, rate-limited: 0, 0.5 MB.
+2026-10-14T02:04:30.988Z INFO  SUMMARY [{"input":"durov","username":"durov","status":"ok","messages":10,"pages":1,"scanned":10,"seconds":1.4},{"input":"telegram","username":"telegram","status":"ok","messages":10,"pages":1,"scanned":10,"seconds":1.4},{"input":"contest","username":"contest","status":"ok","messages":10,"pages":1,"scanned":10,"seconds":1.6}]
+2026-10-14T02:04:31.064Z INFO  [Status message]: 30 messages from 3 channels; free plan limits applied
