@@ -91,4 +91,50 @@ for (const [i, u] of (cfg.urls || []).entries()) {
   say(`== URL ${i}`);
   await get(u, { save: `disc-${i}.txt`, max: 600000, timeout: 120000 });
 }
+
+// 4) host discovery experiment: how many distinct store hosts do CDX sources yield, and are they alive?
+const hostOf = (line) => {
+  let u = line.trim();
+  if (u.startsWith('{')) { try { u = JSON.parse(u).url || ''; } catch { return null; } }
+  const m = u.match(/^https?:\/\/([^/:?#]+)/i);
+  return m ? m[1].toLowerCase().replace(/^www\./, '') : null;
+};
+const allHosts = new Map();
+for (const src of cfg.cdx || []) {
+  say(`== CDX ${src.name}`);
+  const r = await get(src.url, { timeout: 150000 });
+  const hosts = new Set();
+  if (r.status === 200) for (const line of r.text.split('\n')) { const h = hostOf(line); if (h) hosts.add(h); }
+  say(`  ${src.name}: rows=${r.text.split('\n').length} distinctHosts=${hosts.size}`);
+  fs.writeFileSync(path.join(out, `hosts-${src.name}.txt`), [...hosts].sort().join('\n'));
+  for (const h of hosts) allHosts.set(h, (allHosts.get(h) || 0) + 1);
+}
+const candidates = [...allHosts.keys()].filter((h) => /^[a-z0-9-]+\.(mitiendanube\.com|lojavirtualnuvem\.com\.br)$/.test(h));
+say(`== UNION distinct store hosts: ${candidates.length}`);
+fs.writeFileSync(path.join(out, 'hosts-union.txt'), candidates.sort().join('\n'));
+if (cfg.aliveSample && candidates.length) {
+  const sample = candidates.slice().sort(() => Math.random() - 0.5).slice(0, cfg.aliveSample);
+  const stats = {};
+  const rows = [];
+  let idx = 0;
+  const worker = async () => {
+    while (idx < sample.length) {
+      const h = sample[idx++];
+      try {
+        const res = await fetch(`https://${h}/`, { headers: { 'user-agent': UA, 'accept-language': 'es' }, redirect: 'follow', signal: AbortSignal.timeout(25000) });
+        const t = await res.text();
+        const name = (t.match(/LS\.store = \{[\s\S]*?name\s*:\s*"([^"]*)"/) || [])[1] || '';
+        const country = (t.match(/LS\.country = "([A-Z]{2})"/) || [])[1] || '';
+        const cur = (t.match(/LS\.currency = \{\s*code\s*:\s*"([A-Z]{3})"/) || [])[1] || '';
+        const k = `${res.status}${new URL(res.url).host.replace(/^www\./, '') === h ? '' : ' redirected'}`;
+        stats[k] = (stats[k] || 0) + 1;
+        rows.push(`${h}\t${res.status}\t${res.url === `https://${h}/` ? '' : res.url}\t${country}\t${cur}\t${name}\t${t.length}`);
+      } catch (e) { stats.error = (stats.error || 0) + 1; rows.push(`${h}\tERR\t${e.cause?.code || e.message}`); }
+    }
+  };
+  await Promise.all(Array.from({ length: 8 }, worker));
+  say(`  alive sample ${sample.length}: ${JSON.stringify(stats)}`);
+  fs.writeFileSync(path.join(out, 'alive-sample.tsv'), rows.join('\n'));
+}
+
 fs.writeFileSync(path.join(out, 'summary.txt'), log.join('\n') + '\n');

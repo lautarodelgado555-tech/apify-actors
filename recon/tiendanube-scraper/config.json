@@ -1,29 +1,113 @@
 {
-  "outDir": "out2",
-  "stores": [],
-  "pages": [
-    { "url": "https://peek-store.com/productos/tisha-bendiceme/", "save": "peek.product.html" },
-    { "url": "https://www.asianstory.mx/productos/vestido-cairo-palmeras/", "save": "asianstory.product.html" },
-    { "url": "https://peek-store.com/productos/", "save": "peek.list.html" },
-    { "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/?page=2", "save": "taller.list2.html" },
-    { "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/", "save": "taller.list1.html" },
-    { "url": "https://cocora.mitiendanube.com/contacto/", "save": "cocora.contacto.html", "max": 600000 },
-    { "url": "https://dailyskincaremx.com/contacto/", "save": "dailyskin.contacto.html", "max": 600000 },
-    { "url": "https://www.vegpet.com.br/sitemap.xml.gz", "save": "vegpet.sitemap.xml" },
-    { "url": "https://www.vegpet.com.br/contato/", "save": "vegpet.contato.html", "max": 600000 },
-    { "url": "https://www.vegpet.com.br/produtos/?page=2", "save": "vegpet.list2.html", "max": 600000 },
-    { "url": "https://www.vegpet.com.br/", "save": "vegpet.home.html" },
-    { "url": "https://www.vegpet.com.br/nope-esta-pagina-no-existe/", "save": "vegpet.404.html", "max": 100000 },
-    { "url": "https://tiendainexistente-zzqx.mitiendanube.com/", "save": "nonexistent.mitiendanube.html", "max": 200000 },
-    { "url": "https://example.com/", "save": "notastore.html", "max": 50000 }
-  ],
-  "urls": [
-    "https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=mitiendanube.com&matchType=domain&output=json&showNumPages=true",
-    "https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=mitiendanube.com&matchType=domain&output=json&limit=3000&fl=url,status",
-    "https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=*.mitiendanube.com/productos/*&output=json&limit=3000&fl=url&filter=url:.*zapatill.*",
-    "https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&limit=3000&fl=url,status",
-    "https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&showNumPages=true",
-    "https://web.archive.org/cdx/search/cdx?url=mitiendanube.com&matchType=domain&fl=original&collapse=original&limit=3000",
-    "https://web.archive.org/cdx/search/cdx?url=*.mitiendanube.com/productos/*&fl=original&filter=original:.*zapatill.*&limit=500"
-  ]
+ "outDir": "out3",
+ "stores": [],
+ "pages": [],
+ "urls": [],
+ "aliveSample": 120,
+ "cdx": [
+  {
+   "name": "mnc-2026-39-p0",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0"
+  },
+  {
+   "name": "mnc-2026-39-p1",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1"
+  },
+  {
+   "name": "lvn-2026-39-p0",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0"
+  },
+  {
+   "name": "lvn-2026-39-p1",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1"
+  },
+  {
+   "name": "mnc-2026-34-p0",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-34-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0"
+  },
+  {
+   "name": "mnc-2026-34-p1",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-34-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1"
+  },
+  {
+   "name": "lvn-2026-34-p0",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-34-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0"
+  },
+  {
+   "name": "lvn-2026-34-p1",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-34-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1"
+  },
+  {
+   "name": "mnc-2026-30-p0",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-30-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0"
+  },
+  {
+   "name": "mnc-2026-30-p1",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-30-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1"
+  },
+  {
+   "name": "lvn-2026-30-p0",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-30-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0"
+  },
+  {
+   "name": "lvn-2026-30-p1",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-30-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1"
+  },
+  {
+   "name": "mnc-2026-25-p0",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0"
+  },
+  {
+   "name": "mnc-2026-25-p1",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1"
+  },
+  {
+   "name": "lvn-2026-25-p0",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0"
+  },
+  {
+   "name": "lvn-2026-25-p1",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1"
+  },
+  {
+   "name": "mnc-2026-21-p0",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-21-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0"
+  },
+  {
+   "name": "mnc-2026-21-p1",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-21-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1"
+  },
+  {
+   "name": "lvn-2026-21-p0",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-21-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0"
+  },
+  {
+   "name": "lvn-2026-21-p1",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-21-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1"
+  },
+  {
+   "name": "mnc-2026-17-p0",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-17-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0"
+  },
+  {
+   "name": "mnc-2026-17-p1",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-17-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1"
+  },
+  {
+   "name": "lvn-2026-17-p0",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-17-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0"
+  },
+  {
+   "name": "lvn-2026-17-p1",
+   "url": "https://index.commoncrawl.org/CC-MAIN-2026-17-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1"
+  },
+  {
+   "name": "wayback-mnc-roots",
+   "url": "https://web.archive.org/cdx/search/cdx?url=mitiendanube.com&matchType=domain&fl=original&collapse=original&filter=original:https?://[^/]*/?&limit=50000"
+  },
+  {
+   "name": "wayback-lvn-roots",
+   "url": "https://web.archive.org/cdx/search/cdx?url=lojavirtualnuvem.com.br&matchType=domain&fl=original&collapse=original&filter=original:https?://[^/]*/?&limit=50000"
+  }
+ ]
 }
