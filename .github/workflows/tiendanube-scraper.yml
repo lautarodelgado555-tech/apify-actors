@@ -42,6 +42,9 @@ jobs:
             (cd "$ACTOR_DIR" && npx playwright install --with-deps firefox) > "$OUT/03-firefox.log" 2>&1 || echo "exit $?" >> "$OUT/03-firefox.log"
           else echo "not needed" > "$OUT/03-firefox.log"; fi
       - name: Local runs against the live source
+        env:
+          # act like a paying user so the free-plan cap of 10 results does not hide what larger runs do
+          APIFY_USER_IS_PAYING: "1"
         run: |
           cd "$ACTOR_DIR"
           for f in ci-inputs/*.json; do

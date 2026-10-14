@@ -33,6 +33,7 @@ const {
     incrementalStoreName,
     maxConcurrency = 8,
     maxConcurrencyPerStore = 4,
+    requestsPerSecond = 3,
     proxyConfiguration,
 } = input;
 
@@ -98,11 +99,46 @@ class Semaphore {
 const globalSlots = new Semaphore(Math.max(1, maxConcurrency));
 const hosts = new Map();
 function hostOf(host) {
-    if (!hosts.has(host)) hosts.set(host, { slots: new Semaphore(Math.max(1, maxConcurrencyPerStore)), pauseUntil: 0, challenges: 0, throttled: 0 });
+    if (!hosts.has(host)) hosts.set(host, { slots: new Semaphore(Math.max(1, maxConcurrencyPerStore)), challenges: 0 });
     return hosts.get(host);
 }
 
 const stats = { requests: 0, retries: 0, throttled: 0, blocked: 0 };
+
+// Tiendanube's edge rate-limits per IP across ALL stores (measured from GitHub runners: about 2 uncached pages
+// per second are always fine, around 4 per second starts answering 429 for 6-9 seconds). One shared pacer for the
+// whole run keeps the request rate just under that: it slows down after a 429, pauses for a few seconds and speeds
+// up slowly again while everything succeeds.
+const pacer = {
+    rate: Math.max(0.2, requestsPerSecond),
+    max: Math.min(30, Math.max(requestsPerSecond * 2, 6)),
+    nextSlot: 0,
+    pauseUntil: 0,
+    okStreak: 0,
+    throttleStreak: 0,
+};
+async function pace() {
+    const now = Date.now();
+    const at = Math.max(now, pacer.nextSlot, pacer.pauseUntil);
+    pacer.nextSlot = at + 1000 / pacer.rate;
+    if (at > now) await sleep(at - now);
+}
+function onThrottle(retryAfterSecs) {
+    pacer.rate = Math.max(0.5, pacer.rate * 0.6);
+    const pause = retryAfterSecs > 0 ? Math.min(retryAfterSecs, 60) * 1000 : 8000 + Math.random() * 4000;
+    pacer.pauseUntil = Math.max(pacer.pauseUntil, Date.now() + pause);
+    pacer.okStreak = 0;
+    pacer.throttleStreak += 1;
+    stats.throttled += 1;
+}
+function onOk() {
+    pacer.throttleStreak = 0;
+    pacer.okStreak += 1;
+    if (pacer.okStreak >= 25) {
+        pacer.okStreak = 0;
+        pacer.rate = Math.min(pacer.max, pacer.rate * 1.2);
+    }
+}
 
 /** GET with retries. Never throws. Returns { status, body, url, blocked, error }. */
 async function fetchPage(url) {
@@ -112,9 +148,8 @@ async function fetchPage(url) {
     await globalSlots.acquire();
     try {
         let lastError = null;
-        for (let attempt = 0; attempt < 4; attempt += 1) {
-            const wait = hs.pauseUntil - Date.now();
-            if (wait > 0) await sleep(wait);
+        for (let attempt = 0; attempt < 8; attempt += 1) {
+            await pace();
             stats.requests += 1;
             let res;
             try {
@@ -132,19 +167,20 @@ async function fetchPage(url) {
                 lastError = e.code || e.message;
                 stats.retries += 1;
                 // DNS failures mean the domain does not exist: no point in retrying
-                if (lastError === 'ENOTFOUND') break;
+                if (lastError === 'ENOTFOUND' || attempt >= 3) break;
                 await sleep(600 * 2 ** attempt);
                 continue;
             }
             const { statusCode: status } = res;
             if (status === 429 || status === 503 || status === 502 || status === 504) {
-                const ra = Number(res.headers['retry-after']);
-                const delay = Number.isFinite(ra) && ra > 0 ? Math.min(ra, 30) * 1000 : 1500 * 2 ** attempt;
-                hs.pauseUntil = Date.now() + delay;
-                hs.throttled += 1;
-                stats.throttled += 1;
+                onThrottle(Number(res.headers['retry-after']));
                 stats.retries += 1;
                 lastError = `HTTP ${status}`;
+                if (pacer.throttleStreak >= 12) {
+                    // twelve rate-limit answers in a row without a single success: this IP is being blocked
+                    stats.blocked += 1;
+                    return { status, body: '', url: res.url, blocked: true };
+                }
                 continue;
             }
             const body = maybeGunzip(res.body).toString('utf8');
@@ -153,6 +189,7 @@ async function fetchPage(url) {
                 stats.blocked += 1;
                 return { status, body: '', url: res.url, blocked: true };
             }
+            onOk();
             return { status, body, url: res.url };
         }
         return { status: 0, body: '', url, error: lastError };

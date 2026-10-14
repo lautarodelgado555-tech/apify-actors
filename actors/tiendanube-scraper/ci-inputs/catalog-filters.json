@@ -1,0 +1,11 @@
+{
+  "mode": "catalog",
+  "stores": [
+    "https://www.vegpet.com.br"
+  ],
+  "maxProductsPerStore": 15,
+  "since": "14 days",
+  "keywords": ["ração", "racao"],
+  "onlyInStock": true,
+  "includeDescriptionHtml": true
+}

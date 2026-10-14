@@ -61,10 +61,18 @@
       "description": "Catalog mode only. Add the product description with its HTML formatting (the plain-text description is always included).",
       "default": false
     },
+    "requestsPerSecond": {
+      "title": "Requests per second",
+      "type": "integer",
+      "description": "Starting speed for all requests together. Tiendanube / Nuvemshop rate-limit each IP address for a few seconds above roughly 4 uncached pages per second, so the default is conservative; the Actor slows down by itself after a rate-limit answer and speeds up again while all goes well. With a proxy you can set a higher value.",
+      "default": 3,
+      "minimum": 1,
+      "maximum": 30
+    },
     "maxConcurrency": {
       "title": "Max parallel requests",
       "type": "integer",
-      "description": "Total parallel requests across all stores. The defaults are polite; the Actor slows down by itself when a store answers with rate-limit errors.",
+      "description": "Total requests in flight at the same time across all stores (the speed itself is set by Requests per second).",
       "default": 8,
       "minimum": 1,
       "maximum": 30
