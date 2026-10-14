@@ -108,7 +108,7 @@ The Actor respects the maximum cost per run you set: it stops cleanly when the n
 
 **Free plan limits:** up to 10 messages per channel and 10 channels per run, so you can test the output on real channels. Paid plans have no cap.
 
-**Speed and platform cost.** In our tests from a datacenter IP (GitHub runner) the Actor read 2,426 messages from 3 channels in 19 seconds with 128 requests, no rate limiting and no retries (1,000 messages from a single channel take roughly 15 to 20 seconds). Telegram's preview returned 20 messages per page of about 130 KB. A small run on Apify (30 messages, 3 channels, 2 GB) used USD 0.0007 of platform usage, which extrapolates to USD 0.024 per 1,000 messages including start-up overhead; large runs are cheaper per message.
+**Speed and platform cost.** In our tests from a datacenter IP (GitHub runner) the Actor read 2,426 messages from 3 channels in 19 seconds with 128 requests, no rate limiting and no retries (1,000 messages from a single channel take roughly 15 to 20 seconds). Telegram's preview returned 20 messages per page of about 130 KB. A small run on Apify (30 messages, 3 channels, 2 GB) used USD 0.0006 of platform usage, which extrapolates to about USD 0.02 per 1,000 messages including start-up overhead (extrapolated from a small run; large runs are cheaper per message).
 
 ## FAQ
 
