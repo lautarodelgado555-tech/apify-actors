@@ -1,0 +1,36 @@
+# Copy to .github/workflows/recon-__ACTOR__.yml and replace __ACTOR__ (sed -i 's/__ACTOR__/my-actor/g').
+# Edit recon/__ACTOR__/targets.json and push: this runs scripts/recon.mjs on a GitHub runner and commits recon/__ACTOR__/out/.
+name: recon-__ACTOR__
+on:
+  push:
+    paths:
+      - "recon/__ACTOR__/targets.json"
+      - ".github/workflows/recon-__ACTOR__.yml"
+permissions:
+  contents: write
+concurrency:
+  group: recon-__ACTOR__
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install clients
+        run: |
+          mkdir -p /tmp/rc && cd /tmp/rc && npm init -y >/dev/null && npm i got-scraping impit playwright >/dev/null 2>&1 && npx playwright install --with-deps chromium firefox >/dev/null 2>&1 || true
+          ln -sfn /tmp/rc/node_modules "$GITHUB_WORKSPACE/node_modules"
+      - name: Fetch
+        run: node scripts/recon.mjs recon/__ACTOR__/targets.json > /tmp/recon-run.log 2>&1 || true; mkdir -p recon/__ACTOR__/out; cp /tmp/recon-run.log recon/__ACTOR__/out/run.log
+      - name: Commit results
+        if: always()
+        run: |
+          unlink node_modules || true
+          git config user.name "ci-bot"
+          git config user.email "ci-bot@users.noreply.github.com"
+          git add -A recon/__ACTOR__/out
+          git commit -m "recon(__ACTOR__): results $(date -u +%FT%TZ)" || echo "nothing to commit"
+          for i in 1 2 3 4 5; do git pull --rebase --autostash && git push && break; sleep $((RANDOM % 8 + 2)); done
