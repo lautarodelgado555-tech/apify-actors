@@ -1,0 +1,80 @@
+== CDX mnc-2026-39-p0
+GET https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0 -> 200 final=https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0 len=52171 gz=false 2050ms server=nginx/1.31.6 content-type=text/x-ndjson content-encoding=gzip
+  mnc-2026-39-p0: rows=689 distinctHosts=86
+== CDX mnc-2026-39-p1
+GET https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1 -> 400 final=https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1 len=62 gz=false 185ms server=nginx/1.31.6 content-type=application/json; charset=utf-8
+  mnc-2026-39-p1: rows=1 distinctHosts=0
+== CDX lvn-2026-39-p0
+GET https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0 -> 502 final=https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0 len=559 gz=false 5457ms server=nginx/1.31.6 content-type=text/html
+  lvn-2026-39-p0: rows=14 distinctHosts=0
+== CDX lvn-2026-39-p1
+GET https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1 -> 200 final=https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1 len=93813 gz=false 1362ms server=nginx/1.31.6 content-type=text/x-ndjson content-encoding=gzip
+  lvn-2026-39-p1: rows=1113 distinctHosts=147
+== CDX mnc-2026-34-p0
+GET https://index.commoncrawl.org/CC-MAIN-2026-34-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0 -> 200 final=https://index.commoncrawl.org/CC-MAIN-2026-34-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0 len=32321 gz=false 404ms server=nginx/1.31.6 content-type=text/x-ndjson content-encoding=gzip
+  mnc-2026-34-p0: rows=461 distinctHosts=72
+== CDX mnc-2026-34-p1
+GET https://index.commoncrawl.org/CC-MAIN-2026-34-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1 -> 400 final=https://index.commoncrawl.org/CC-MAIN-2026-34-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1 len=62 gz=false 65ms server=nginx/1.31.6 content-type=application/json; charset=utf-8
+  mnc-2026-34-p1: rows=1 distinctHosts=0
+== CDX lvn-2026-34-p0
+GET https://index.commoncrawl.org/CC-MAIN-2026-34-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0 -> 200 final=https://index.commoncrawl.org/CC-MAIN-2026-34-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0 len=835584 gz=false 5417ms server=nginx/1.31.6 content-type=text/x-ndjson content-encoding=gzip
+  lvn-2026-34-p0: rows=10039 distinctHosts=1226
+== CDX lvn-2026-34-p1
+GET https://index.commoncrawl.org/CC-MAIN-2026-34-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1 -> 400 final=https://index.commoncrawl.org/CC-MAIN-2026-34-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1 len=62 gz=false 227ms server=nginx/1.31.6 content-type=application/json; charset=utf-8
+  lvn-2026-34-p1: rows=1 distinctHosts=0
+== CDX mnc-2026-30-p0
+GET https://index.commoncrawl.org/CC-MAIN-2026-30-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0 -> 200 final=https://index.commoncrawl.org/CC-MAIN-2026-30-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0 len=324474 gz=false 2601ms server=nginx/1.31.6 content-type=text/x-ndjson content-encoding=gzip
+  mnc-2026-30-p0: rows=4103 distinctHosts=322
+== CDX mnc-2026-30-p1
+GET https://index.commoncrawl.org/CC-MAIN-2026-30-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1 -> 400 final=https://index.commoncrawl.org/CC-MAIN-2026-30-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1 len=62 gz=false 85ms server=nginx/1.31.6 content-type=application/json; charset=utf-8
+  mnc-2026-30-p1: rows=1 distinctHosts=0
+== CDX lvn-2026-30-p0
+GET https://index.commoncrawl.org/CC-MAIN-2026-30-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0 -> 200 final=https://index.commoncrawl.org/CC-MAIN-2026-30-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0 len=15742 gz=false 522ms server=nginx/1.31.6 content-type=text/x-ndjson content-encoding=gzip
+  lvn-2026-30-p0: rows=231 distinctHosts=68
+== CDX lvn-2026-30-p1
+GET https://index.commoncrawl.org/CC-MAIN-2026-30-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1 -> 400 final=https://index.commoncrawl.org/CC-MAIN-2026-30-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1 len=62 gz=false 73ms server=nginx/1.31.6 content-type=application/json; charset=utf-8
+  lvn-2026-30-p1: rows=1 distinctHosts=0
+== CDX mnc-2026-25-p0
+GET https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0 -> 200 final=https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0 len=351789 gz=false 3643ms server=nginx/1.31.6 content-type=text/x-ndjson content-encoding=gzip
+  mnc-2026-25-p0: rows=4335 distinctHosts=354
+== CDX mnc-2026-25-p1
+GET https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1 -> 400 final=https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1 len=62 gz=false 62ms server=nginx/1.31.6 content-type=application/json; charset=utf-8
+  mnc-2026-25-p1: rows=1 distinctHosts=0
+== CDX lvn-2026-25-p0
+GET https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0 -> 200 final=https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0 len=20379 gz=false 405ms server=nginx/1.31.6 content-type=text/x-ndjson content-encoding=gzip
+  lvn-2026-25-p0: rows=292 distinctHosts=73
+== CDX lvn-2026-25-p1
+GET https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1 -> 400 final=https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1 len=62 gz=false 64ms server=nginx/1.31.6 content-type=application/json; charset=utf-8
+  lvn-2026-25-p1: rows=1 distinctHosts=0
+== CDX mnc-2026-21-p0
+GET https://index.commoncrawl.org/CC-MAIN-2026-21-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0 -> 200 final=https://index.commoncrawl.org/CC-MAIN-2026-21-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0 len=346150 gz=false 2577ms server=nginx/1.31.6 content-type=text/x-ndjson content-encoding=gzip
+  mnc-2026-21-p0: rows=4371 distinctHosts=354
+== CDX mnc-2026-21-p1
+GET https://index.commoncrawl.org/CC-MAIN-2026-21-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1 -> 400 final=https://index.commoncrawl.org/CC-MAIN-2026-21-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1 len=62 gz=false 60ms server=nginx/1.31.6 content-type=application/json; charset=utf-8
+  mnc-2026-21-p1: rows=1 distinctHosts=0
+== CDX lvn-2026-21-p0
+GET https://index.commoncrawl.org/CC-MAIN-2026-21-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0 -> 200 final=https://index.commoncrawl.org/CC-MAIN-2026-21-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0 len=35810 gz=false 335ms server=nginx/1.31.6 content-type=text/x-ndjson content-encoding=gzip
+  lvn-2026-21-p0: rows=452 distinctHosts=78
+== CDX lvn-2026-21-p1
+GET https://index.commoncrawl.org/CC-MAIN-2026-21-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1 -> 400 final=https://index.commoncrawl.org/CC-MAIN-2026-21-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1 len=62 gz=false 63ms server=nginx/1.31.6 content-type=application/json; charset=utf-8
+  lvn-2026-21-p1: rows=1 distinctHosts=0
+== CDX mnc-2026-17-p0
+GET https://index.commoncrawl.org/CC-MAIN-2026-17-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0 -> 200 final=https://index.commoncrawl.org/CC-MAIN-2026-17-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0 len=178556 gz=false 4931ms server=nginx/1.31.6 content-type=text/x-ndjson content-encoding=gzip
+  mnc-2026-17-p0: rows=2311 distinctHosts=269
+== CDX mnc-2026-17-p1
+GET https://index.commoncrawl.org/CC-MAIN-2026-17-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1 -> 400 final=https://index.commoncrawl.org/CC-MAIN-2026-17-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1 len=62 gz=false 207ms server=nginx/1.31.6 content-type=application/json; charset=utf-8
+  mnc-2026-17-p1: rows=1 distinctHosts=0
+== CDX lvn-2026-17-p0
+GET https://index.commoncrawl.org/CC-MAIN-2026-17-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0 -> 200 final=https://index.commoncrawl.org/CC-MAIN-2026-17-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0 len=36821 gz=false 938ms server=nginx/1.31.6 content-type=text/x-ndjson content-encoding=gzip
+  lvn-2026-17-p0: rows=480 distinctHosts=75
+== CDX lvn-2026-17-p1
+GET https://index.commoncrawl.org/CC-MAIN-2026-17-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1 -> 400 final=https://index.commoncrawl.org/CC-MAIN-2026-17-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1 len=62 gz=false 62ms server=nginx/1.31.6 content-type=application/json; charset=utf-8
+  lvn-2026-17-p1: rows=1 distinctHosts=0
+== CDX wayback-mnc-roots
+GET https://web.archive.org/cdx/search/cdx?url=mitiendanube.com&matchType=domain&fl=original&collapse=original&filter=original:https?://[^/]*/?&limit=50000 -> 200 final=https://web.archive.org/cdx/search/cdx?url=mitiendanube.com&matchType=domain&fl=original&collapse=original&filter=original:https?://[^/]*/?&limit=50000 len=6247738 gz=false 21251ms server=nginx content-type=text/plain content-encoding=gzip
+  wayback-mnc-roots: rows=50001 distinctHosts=126
+== CDX wayback-lvn-roots
+GET https://web.archive.org/cdx/search/cdx?url=lojavirtualnuvem.com.br&matchType=domain&fl=original&collapse=original&filter=original:https?://[^/]*/?&limit=50000 -> 200 final=https://web.archive.org/cdx/search/cdx?url=lojavirtualnuvem.com.br&matchType=domain&fl=original&collapse=original&filter=original:https?://[^/]*/?&limit=50000 len=3574084 gz=false 19436ms server=nginx content-type=text/plain content-encoding=gzip
+  wayback-lvn-roots: rows=50001 distinctHosts=1215
+== UNION distinct store hosts: 3505
+  alive sample 120: {"200":45,"404":2,"410":2,"429":51,"500":1,"200 redirected":13,"429 redirected":1,"error":5}
