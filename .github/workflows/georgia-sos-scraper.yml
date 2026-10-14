@@ -28,7 +28,7 @@ jobs:
       - name: Prepare output folder
         run: |
           mkdir -p "${OUT:?}"
-          find "${OUT:?}" -maxdepth 1 -type f \( -name '*.log' -o -name '*.json' -o -name 'debug-*' \) -delete
+          find "${OUT:?}" -maxdepth 1 -type f ! -name '07-publish.log' \( -name '*.log' -o -name '*.json' -o -name 'debug-*' \) -delete
           echo "run $(date -u +%FT%TZ) sha ${GITHUB_SHA} event ${GITHUB_EVENT_NAME}" > "$OUT/00-meta.log"
       - name: Install
         run: (cd "$ACTOR_DIR" && npm install --no-audit --no-fund) > "$OUT/01-install.log" 2>&1 || echo "exit $?" >> "$OUT/01-install.log"
@@ -86,4 +86,4 @@ jobs:
           git config user.email "ci-bot@users.noreply.github.com"
           git add -A "$OUT" || true
           git commit -m "ci: georgia-sos-scraper results $(date -u +%FT%TZ)" || echo "nothing to commit"
-          for i in 1 2 3 4 5; do git pull --rebase --autostash && git push && break; sleep $((RANDOM % 8 + 2)); done
+          for i in 1 2 3 4 5; do git pull --rebase --autostash -X theirs && git push && break; sleep $((RANDOM % 8 + 2)); done

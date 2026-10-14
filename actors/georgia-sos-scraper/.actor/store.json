@@ -16,7 +16,9 @@
         "FREE": { "tieredEventPriceUsd": 0.005 },
         "BRONZE": { "tieredEventPriceUsd": 0.005 },
         "SILVER": { "tieredEventPriceUsd": 0.0045 },
-        "GOLD": { "tieredEventPriceUsd": 0.004 }
+        "GOLD": { "tieredEventPriceUsd": 0.004 },
+        "PLATINUM": { "tieredEventPriceUsd": 0.004 },
+        "DIAMOND": { "tieredEventPriceUsd": 0.004 }
       },
       "isPrimaryEvent": true
     }
