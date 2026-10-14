@@ -79,45 +79,43 @@ if (!winner) { log('BLOCKED: no mode got repeated POSTs through on this runner')
 log('WINNER', winner);
 
 await search('s01-delta-starts', 'BusinessName', 'Delta Air Lines');
-const D = { businessId: '567669', businessType: 'Foreign Profit Corporation', fromSearch: 'true' };
-const qs = new URLSearchParams(D).toString();
-const raw = (name, fn) => page.evaluate(`(${fn})()`).then((r) => { log(name, r.status, r.mitigated, r.text.length, (r.text.match(/<title>[^<]*/) || [''])[0]); save(`${name}.html`, r.text); return r; }).catch((e) => log(name, 'ERR', e.message.split('\n')[0]));
-const F = (init) => `async () => { const r = await fetch(${init}); return { status: r.status, mitigated: r.headers.get('cf-mitigated'), text: await r.text() }; }`;
-const ev = (code) => `(${code})`;
-const V = {
-  'v01-post-plain': `async () => { const r = await fetch('/BusinessSearch/BusinessInformation', {method:'POST', headers:{'content-type':'application/x-www-form-urlencoded'}, body:'${qs}', credentials:'include'}); return {status:r.status, mitigated:r.headers.get('cf-mitigated'), text: await r.text()}; }`,
-  'v02-get-qs': `async () => { const r = await fetch('/BusinessSearch/BusinessInformation?${qs}', {credentials:'include'}); return {status:r.status, mitigated:r.headers.get('cf-mitigated'), text: await r.text()}; }`,
-  'v03-post-xhr-hdr': `async () => { const r = await fetch('/BusinessSearch/BusinessInformation', {method:'POST', headers:{'content-type':'application/x-www-form-urlencoded','x-requested-with':'XMLHttpRequest'}, body:'${qs}', credentials:'include'}); return {status:r.status, mitigated:r.headers.get('cf-mitigated'), text: await r.text()}; }`,
-  'v04-post-slash': `async () => { const r = await fetch('/BusinessSearch/BusinessInformation/', {method:'POST', headers:{'content-type':'application/x-www-form-urlencoded'}, body:'${qs}', credentials:'include'}); return {status:r.status, mitigated:r.headers.get('cf-mitigated'), text: await r.text()}; }`,
-  'v05-post-qs-and-body': `async () => { const r = await fetch('/BusinessSearch/BusinessInformation?${qs}', {method:'POST', headers:{'content-type':'application/x-www-form-urlencoded'}, body:'${qs}', credentials:'include'}); return {status:r.status, mitigated:r.headers.get('cf-mitigated'), text: await r.text()}; }`,
-  'v06-jquery-ajax': `() => new Promise((res) => { $.ajax({ type: 'POST', url: '/BusinessSearch/BusinessInformation', data: ${JSON.stringify(D)}, complete: (x) => res({ status: x.status, mitigated: x.getResponseHeader('cf-mitigated'), text: x.responseText || '' }) }); })`,
-  'v07-post-lower': `async () => { const r = await fetch('/businesssearch/businessinformation', {method:'POST', headers:{'content-type':'application/x-www-form-urlencoded'}, body:'${qs}', credentials:'include'}); return {status:r.status, mitigated:r.headers.get('cf-mitigated'), text: await r.text()}; }`,
-  'v08-get-lower-state': `async () => { const r = await fetch('/BusinessSearch/BusinessInformation?businessId=567669&businessType=Foreign%20Profit%20Corporation', {credentials:'include'}); return {status:r.status, mitigated:r.headers.get('cf-mitigated'), text: await r.text()}; }`,
-};
-for (const [name, code] of Object.entries(V)) { await raw(name, code); await page.waitForTimeout(1500); }
+const DET = '/BusinessSearch/BusinessInformation/';
+const hdrs = {};
+const contains = await search('s02-delta-contains', 'BusinessName', 'Delta', 'Contains');
+const gp = await search('s08-georgia-power', 'BusinessName', 'Georgia Power');
+const llc = await search('s09-llc', 'BusinessName', 'Peach Holdings LLC');
+const rows = [];
+for (const html of [contains, gp, llc]) for (const m of html.matchAll(/navigateToBusinessInfo\((\d+), '([^']+)'\)/g)) rows.push([m[1], m[2]]);
+const wanted = [['567669', 'Foreign Profit Corporation'], ['301509', 'Domestic Nonprofit Corporation']];
+const types = new Set(wanted.map((w) => w[1]));
+for (const [id, type] of rows) { if (!types.has(type)) { types.add(type); wanted.push([id, type]); } }
+log('detail types', JSON.stringify(wanted));
+let i = 0;
+for (const [id, type] of wanted) {
+  await run(`d${++i}-detail-${id}`, DET, { businessId: id, businessType: type, fromSearch: 'true' }, hdrs);
+}
 
-// iframe form submit (document-like request inside the page)
+// filing history / name history variants
+const FV = ['/BusinessSearch/BusinessFilings/', '/businesssearch/businessfilings', '/BusinessSearch/BusinessFilings', '/BusinessSearch/NameChangeHistory/', '/businesssearch/namechangehistory'];
+let k = 0;
+for (const path of FV) {
+  await run(`f${++k}-${path.replace(/[^a-z]/gi, '_')}`, path, { businessId: '567669' }, hdrs);
+}
+await run('f6-filings-llc', '/BusinessSearch/BusinessFilings/', { businessId: '4805471' }, hdrs);
+await run('f7-filings-nonprofit', '/BusinessSearch/BusinessFilings/', { businessId: '301509' }, hdrs);
 try {
-  const r = await page.evaluate(() => new Promise((res) => {
-    const f = document.createElement('iframe'); f.name = 'ifr'; f.style.display = 'none'; document.body.appendChild(f);
-    const form = document.createElement('form'); form.method = 'post'; form.action = '/BusinessSearch/BusinessInformation'; form.target = 'ifr';
-    for (const [k, v] of Object.entries({ businessId: '567669', businessType: 'Foreign Profit Corporation', fromSearch: 'true' })) { const i = document.createElement('input'); i.type = 'hidden'; i.name = k; i.value = v; form.appendChild(i); }
-    document.body.appendChild(form);
-    f.onload = () => { let t = ''; try { t = f.contentDocument.documentElement.outerHTML; } catch (e) { t = 'ERR ' + e.message; } res({ status: 0, mitigated: '', text: t }); };
-    form.submit();
-    setTimeout(() => res({ status: -1, mitigated: '', text: 'timeout' }), 20000);
-  }));
-  log('v09-iframe', r.status, r.text.length, (r.text.match(/<title>[^<]*/) || [''])[0]);
-  save('v09-iframe.html', r.text);
-} catch (e) { log('v09 ERR', e.message.split('\n')[0]); }
+  const r = await page.evaluate(async () => { const x = await fetch('/BusinessSearch/BusinessFilings/?businessId=567669&isEmailSubscriptionSearch=true', { credentials: 'include' }); return { status: x.status, mitigated: x.headers.get('cf-mitigated'), text: await x.text() }; });
+  log('f8-get-filings', r.status, r.mitigated, r.text.length, (r.text.match(/<title>[^<]*/) || [''])[0]);
+  save('f8-get-filings.html', r.text);
+} catch (e) { log('f8 ERR', e.message); }
 
-// full-page navigation through the real form with the jsd script blocked (document POST)
-try {
-  await page.evaluate(() => { document.body.insertAdjacentHTML('beforeend', '<form id="zz" method="post" action="/BusinessSearch/BusinessInformation"><input name="businessId" value="567669"><input name="businessType" value="Foreign Profit Corporation"><input name="fromSearch" value="true"></form>'); });
-  await Promise.all([page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 30000 }).catch((e) => log('nav err', e.message.split('\n')[0])), page.evaluate(() => document.getElementById('zz').submit())]);
-  await page.waitForTimeout(3000);
-  log('v10-document-post title', await page.title());
-  save('v10-document.html', await page.content());
-} catch (e) { log('v10 ERR', e.message.split('\n')[0]); }
+// stress: details for the first 25 results of the contains search
+const t0 = Date.now();
+const stat = {};
+for (const [id, type] of rows.slice(0, 25)) {
+  const r = await post(DET, { businessId: id, businessType: type, fromSearch: 'true' });
+  stat[r.status] = (stat[r.status] || 0) + 1;
+}
+log('STRESS 25 details', JSON.stringify(stat), (Date.now() - t0) + 'ms');
 
 await browser.close();
