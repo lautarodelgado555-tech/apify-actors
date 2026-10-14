@@ -1,228 +1,155 @@
-// Spike round 2: round 1 showed that GitHub datacenter IPs get the "suspicious traffic" gate on listings/best sellers and 403 on most API calls.
-// Round 2 compares three routes: direct (datacenter), Apify datacenter proxy, Apify residential proxy (AR), measuring wire bytes (compressed) too.
-// Output: recon/mercadolibre-monitor/out/r2/*   (needs APIFY_TOKEN env for the proxy password; the password is never printed)
+// Spike round 3. Findings so far: from a GitHub datacenter IP, item pages (/p/MLA..), listings, best sellers redirect to a LOGIN wall
+// ("Para continuar, ingresa a tu cuenta"), the API answers 403/401, and the Apify proxy refuses mercadolibre on the FREE plan (403).
+// Official store pages (/tienda/<slug>) and /tiendas-oficiales were served normally. Round 3 maps which surfaces stay open, with compressed wire bytes.
+// Output: recon/mercadolibre-monitor/out/r3/*   (APIFY_TOKEN env only used to read the proxy password; never printed)
 import fs from 'node:fs';
 import path from 'node:path';
 import zlib from 'node:zlib';
+import net from 'node:net';
 import { gotScraping } from 'got-scraping';
+import { Impit } from 'impit';
 
-const OUT = 'recon/mercadolibre-monitor/out/r2';
+const OUT = 'recon/mercadolibre-monitor/out/r3';
 fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT, { recursive: true });
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const log = (...a) => console.log(new Date().toISOString().slice(11, 19), ...a);
-const report = { startedAt: new Date().toISOString(), proxyGroups: null, discovery: {}, routes: {}, api: [], bestsellers: [], firefox: [] };
+const report = { startedAt: new Date().toISOString(), proxy403: null, api: [], surfaces: [], priming: [], impit: [], volume: [], otherSites: [] };
 
-// ---- proxy credentials (never logged)
-let PW = '';
-try {
-  const res = await fetch('https://api.apify.com/v2/users/me', { headers: { Authorization: `Bearer ${process.env.APIFY_TOKEN || ''}` } });
-  const j = await res.json();
-  PW = j?.data?.proxy?.password || '';
-  report.proxyGroups = (j?.data?.proxy?.groups || []).map((g) => g.name);
-  report.plan = j?.data?.plan?.id || null;
-} catch (e) { report.proxyError = String(e.message).slice(0, 100); }
-log('proxy password present:', !!PW, 'groups:', JSON.stringify(report.proxyGroups));
-
-const ROUTES = {
-  direct: () => undefined,
-  dc: () => (PW ? `http://auto:${PW}@proxy.apify.com:8000` : undefined),
-  res: (country = 'AR') => (PW ? `http://groups-RESIDENTIAL,country-${country}:${PW}@proxy.apify.com:8000` : undefined),
-};
-const routeAvailable = (r) => r === 'direct' || !!PW;
-
-const MARKERS = /account-verification|suspicious-traffic|captcha|unusual traffic|are you a human/i;
-const titleOf = (t) => ((t.match(/<title[^>]*>([^<]*)/i) || [])[1] || '-').trim().slice(0, 100);
-const features = (t) => ({
-  gate: MARKERS.test(t),
-  ldjson: (t.match(/application\/ld\+json/g) || []).length,
-  preloaded: /__PRELOADED_STATE__/.test(t),
-  nordic: /nordic/i.test(t),
-  pdp: /ui-pdp/.test(t),
-  money: /andes-money-amount/.test(t),
-  polyCard: /poly-card/.test(t),
-  uiSearch: /ui-search-layout|ui-search-result/.test(t),
-});
+const GATE = /account-verification|suspicious-traffic|captcha|ingresa a tu cuenta|unusual traffic|\/lgz\/login|gz\/login/i;
+const titleOf = (t) => ((t.match(/<title[^>]*>([^<]*)/i) || [])[1] || '-').trim().slice(0, 80);
 const decode = (buf, enc) => {
   try {
     if (/br/.test(enc)) return zlib.brotliDecompressSync(buf).toString('utf8');
     if (/gzip/.test(enc)) return zlib.gunzipSync(buf).toString('utf8');
     if (/deflate/.test(enc)) return zlib.inflateSync(buf).toString('utf8');
-  } catch { /* fall through */ }
+  } catch { /* identity */ }
   return buf.toString('utf8');
 };
-async function get(url, route = 'direct', { country, headers } = {}) {
+const feat = (t) => ({ gate: GATE.test(t), poly: (t.match(/poly-card__content/g) || []).length, money: /andes-money-amount/.test(t), pdp: /ui-pdp/.test(t), ld: (t.match(/application\/ld\+json/g) || []).length });
+async function get(url, { headers = {}, cookieJar, follow = true } = {}) {
   const t0 = Date.now();
-  const proxyUrl = ROUTES[route](country);
-  if (route !== 'direct' && !proxyUrl) return { url, route, status: -1, error: 'no proxy', text: '', wire: 0, bytes: 0, ms: 0 };
   try {
     const res = await gotScraping({
-      url, proxyUrl, followRedirect: true, maxRedirects: 5, throwHttpErrors: false, responseType: 'buffer', decompress: false,
-      timeout: { request: 45000 }, retry: { limit: 0 }, headers,
+      url, followRedirect: follow, maxRedirects: 5, throwHttpErrors: false, responseType: 'buffer', decompress: false, cookieJar,
+      timeout: { request: 40000 }, retry: { limit: 0 },
+      headers: { 'accept-encoding': 'gzip, deflate, br', ...headers },
       headerGeneratorOptions: { browsers: [{ name: 'chrome', minVersion: 120 }], operatingSystems: ['windows'], locales: ['es-AR', 'es'] },
     });
-    const text = decode(res.body, String(res.headers['content-encoding'] || ''));
-    return { url, route, status: res.statusCode, ms: Date.now() - t0, wire: res.body.length, bytes: Buffer.byteLength(text), finalUrl: res.url, text };
+    const enc = String(res.headers['content-encoding'] || 'identity');
+    const text = decode(res.body, enc);
+    return { url, status: res.statusCode, ms: Date.now() - t0, wire: res.body.length, bytes: Buffer.byteLength(text), enc, finalUrl: res.url, location: res.headers.location, text };
   } catch (e) {
-    return { url, route, status: 0, ms: Date.now() - t0, wire: 0, bytes: 0, error: String(e.message).split('\n')[0].slice(0, 120), text: '' };
+    return { url, status: 0, ms: Date.now() - t0, wire: 0, bytes: 0, error: String(e.message).split('\n')[0].slice(0, 120), text: '' };
   }
 }
-const brief = (r) => ({ url: r.url, route: r.route, status: r.status, ms: r.ms, wire: r.wire, bytes: r.bytes, error: r.error, finalUrl: r.finalUrl !== r.url ? r.finalUrl : undefined, title: titleOf(r.text), ...features(r.text) });
+const brief = (r) => ({ url: r.url.slice(0, 140), status: r.status, ms: r.ms, wire: r.wire, bytes: r.bytes, enc: r.enc, error: r.error, finalUrl: r.finalUrl && r.finalUrl !== r.url ? r.finalUrl.slice(0, 120) : undefined, title: titleOf(r.text), ...feat(r.text) });
 const saved = new Set();
-function save(name, text) {
-  if (saved.has(name) || !text) return;
-  saved.add(name);
-  fs.writeFileSync(path.join(OUT, `${name}.${/^\s*[\[{]/.test(text) ? 'json' : 'html'}`), text.slice(0, 3_000_000));
-}
-async function pool(list, n, fn) {
-  const out = []; let i = 0;
-  await Promise.all(Array.from({ length: n }, async () => { while (i < list.length) { const k = i++; out[k] = await fn(list[k], k); } }));
-  return out;
-}
-const summarize = (arr) => {
-  const by = {}; for (const x of arr) by[x.status] = (by[x.status] || 0) + 1;
-  const ok = arr.filter((x) => x.status === 200 && !x.gate);
-  const avg = (f) => (ok.length ? Math.round(ok.reduce((a, x) => a + x[f], 0) / ok.length) : 0);
-  return { n: arr.length, byStatus: by, gated: arr.filter((x) => x.gate).length, okClean: ok.length, avgWireBytes: avg('wire'), avgBytes: avg('bytes'), avgMs: avg('ms') };
-};
+const save = (name, text) => { if (saved.has(name) || !text) return; saved.add(name); fs.writeFileSync(path.join(OUT, `${name}.${/^\s*[\[{]/.test(text) ? 'json' : 'html'}`), text.slice(0, 3_000_000)); };
+async function pool(list, n, fn) { const out = []; let i = 0; await Promise.all(Array.from({ length: n }, async () => { while (i < list.length) { const k = i++; out[k] = await fn(list[k], k); } })); return out; }
 
-// ---- item link extraction
-function extractItems(text, host) {
-  const t = text.replace(/\\u002F/gi, '/').replace(/&amp;/g, '&');
-  const out = new Map();
-  for (const m of t.matchAll(/https?:\/\/[^"'\s<>\\]+/g)) {
-    const u = m[0];
-    const id = (u.match(/\/(ML[A-Z])-?(\d{8,12})(?![\d])/) || u.match(/\/p\/(ML[A-Z])(\d{6,12})/) || u.match(/\/up\/(ML[A-Z]U)(\d{6,12})/) || []);
-    if (id[0] && /mercadoli[bv]re/.test(u) && !/mlstatic|\.(jpg|webp|png)/.test(u)) out.set(id[1] + id[2] + (u.includes('/p/') ? 'p' : u.includes('/up/') ? 'u' : ''), u.split('#')[0]);
-  }
-  return [...out.values()];
-}
-
-// ---- 1. discovery of live item URLs: tiendas-oficiales -> tienda pages (compared across routes)
-const landingUrl = 'https://www.mercadolibre.com.ar/tiendas-oficiales';
-const landing = await get(landingUrl, 'direct');
-const slugs = [...new Set([...landing.text.matchAll(/mercadolibre\.com\.ar\/tienda\/([a-z0-9-]+)/g)].map((m) => m[1]))];
-report.discovery.landing = brief(landing); report.discovery.slugCount = slugs.length; report.discovery.slugs = slugs.slice(0, 30);
-log('store slugs', slugs.length);
-const pick = ['bgh', 'samsung', 'adidas', 'philips', 'motorola'].filter((s) => slugs.includes(s));
-const storeSlugs = [...new Set([...pick, ...slugs.slice(0, 6)])].slice(0, 6);
-const itemUrls = new Set();
-report.discovery.tienda = [];
-for (const route of ['direct', 'dc', 'res']) {
-  if (!routeAvailable(route)) continue;
-  const rs = [];
-  for (const s of storeSlugs) {
-    const r = await get(`https://www.mercadolibre.com.ar/tienda/${s}`, route);
-    const items = extractItems(r.text);
-    rs.push({ ...brief(r), itemLinks: items.length });
-    if (!r.text.match(MARKERS)) items.forEach((u) => itemUrls.add(u));
-    if (!saved.has(`tienda-${route}`) && r.status === 200 && !MARKERS.test(r.text)) save(`tienda-${route}`, r.text);
-    await sleep(300);
-  }
-  report.discovery.tienda.push({ route, summary: summarize(rs), pages: rs });
-  log('tienda', route, JSON.stringify(summarize(rs)), 'items so far', itemUrls.size);
-}
-// search listing through res as a second source (listing pages)
-const listingTerms = ['zapatillas', 'heladera', 'notebook'];
-report.discovery.listings = [];
-for (const route of ['direct', 'dc', 'res']) {
-  if (!routeAvailable(route)) continue;
-  const rs = [];
-  for (const term of listingTerms) {
-    const r = await get(`https://listado.mercadolibre.com.ar/${term}`, route);
-    const items = extractItems(r.text);
-    rs.push({ ...brief(r), itemLinks: items.length });
-    if (!MARKERS.test(r.text)) { items.forEach((u) => itemUrls.add(u)); save(`listing-${route}-${term}`, r.text); }
-    await sleep(300);
-  }
-  report.discovery.listings.push({ route, summary: summarize(rs), pages: rs });
-  log('listing', route, JSON.stringify(summarize(rs)), 'items so far', itemUrls.size);
-}
-const items = [...itemUrls];
-fs.writeFileSync(path.join(OUT, 'discovered-items.json'), JSON.stringify(items, null, 1));
-log('total item urls', items.length);
-
-// ---- 2. item pages per route
-const N = { direct: 40, dc: 40, res: 40 };
-for (const route of ['direct', 'dc', 'res']) {
-  if (!routeAvailable(route) || !items.length) continue;
-  const targets = items.slice(0, N[route]);
-  let k0 = 0;
-  const rs = await pool(targets, route === 'direct' ? 6 : 4, async (u, k) => {
-    const r = await get(u, route);
-    if (r.status === 200 && !MARKERS.test(r.text) && k0 < 3) { k0++; save(`item-${route}-${k}`, r.text); }
-    await sleep(120);
-    return brief(r);
-  });
-  report.routes[route] = { summary: summarize(rs), results: rs };
-  log('items', route, JSON.stringify(summarize(rs)));
-}
-
-// ---- 3. API with real item IDs, per route
-const idsOf = items.map((u) => (u.match(/ML[A-Z]-?\d{8,12}/) || [])[0]).filter(Boolean).map((x) => x.replace('-', ''));
-const apiIds = [...new Set(idsOf)].slice(0, 3);
-for (const route of ['direct', 'dc', 'res']) {
-  if (!routeAvailable(route)) continue;
-  for (const id of apiIds.slice(0, route === 'direct' ? 3 : 2)) {
-    for (const u of [`https://api.mercadolibre.com/items/${id}`, `https://api.mercadolibre.com/items?ids=${id}`]) {
-      const r = await get(u, route, { headers: { accept: 'application/json' } });
-      report.api.push({ route, url: u, status: r.status, wire: r.wire, body: r.text.slice(0, 300) });
-      if (r.status === 200 && /items\/ML/.test(u)) save(`api-item-${route}`, r.text);
-      log('api', route, r.status, u.replace('https://api.mercadolibre.com', ''));
-    }
-  }
-}
-
-// ---- 4. best sellers (landing -> categories), tried on the routes
-const bsRoutes = ['direct', 'res'];
-for (const route of bsRoutes) {
-  if (!routeAvailable(route)) continue;
-  const land = await get('https://www.mercadolibre.com.ar/mas-vendidos', route);
-  report.bestsellers.push(brief(land));
-  if (land.status === 200 && !MARKERS.test(land.text)) {
-    save(`bestsellers-landing-${route}`, land.text);
-    const cats = [...new Set([...land.text.replace(/\\u002F/g, '/').matchAll(/mas-vendidos\/(MLA\d+)/g)].map((m) => m[1]))].slice(0, 4);
-    report.bestsellerCategories = cats;
-    for (const [k, c] of cats.entries()) {
-      const r = await get(`https://www.mercadolibre.com.ar/mas-vendidos/${c}`, route);
-      report.bestsellers.push(brief(r));
-      if (k < 2 && r.status === 200 && !MARKERS.test(r.text)) save(`bestsellers-${route}-${c}`, r.text);
-      await sleep(300);
-    }
-  }
-}
-// other sites through residential (country matched)
-if (routeAvailable('res')) {
-  for (const [host, cc, path_] of [['https://listado.mercadolibre.com.mx', 'MX', 'audifonos'], ['https://lista.mercadolivre.com.br', 'BR', 'fone-de-ouvido'], ['https://www.mercadolibre.com.mx', 'MX', 'mas-vendidos'], ['https://www.mercadolivre.com.br', 'BR', 'mais-vendidos']]) {
-    const r = await get(`${host}/${path_}`, 'res', { country: cc });
-    report.bestsellers.push({ ...brief(r), note: `other-site ${cc}` });
-    if (r.status === 200 && !MARKERS.test(r.text)) save(`other-${cc}-${path_}`, r.text);
-    await sleep(300);
-  }
-}
-
-// ---- 5. Firefox: direct and through the residential proxy (pass/fail only)
+// ---- 0. why does the Apify proxy answer 403? (read the CONNECT response body; password not logged)
 try {
-  const { firefox } = await import('playwright');
-  for (const route of ['direct', 'res']) {
-    if (!routeAvailable(route) || !items.length) continue;
-    const browser = await firefox.launch({ headless: true, proxy: route === 'res' ? { server: 'http://proxy.apify.com:8000', username: 'groups-RESIDENTIAL,country-AR', password: PW } : undefined });
-    for (const u of [items[0], 'https://listado.mercadolibre.com.ar/zapatillas']) {
-      const t0 = Date.now(); const page = await browser.newPage(); let wire = 0;
-      page.on('response', async (resp) => { try { const cl = Number(resp.headers()['content-length'] || 0); wire += cl; } catch { /* ignore */ } });
-      try {
-        const resp = await page.goto(u, { waitUntil: 'domcontentloaded', timeout: 45000 });
-        await page.waitForTimeout(2500);
-        const html = await page.content();
-        report.firefox.push({ route, url: u, status: resp?.status(), ms: Date.now() - t0, bytes: Buffer.byteLength(html), wireApprox: wire, title: titleOf(html), ...features(html) });
-        if (!MARKERS.test(html)) save(`firefox-${route}-${u.includes('listado') ? 'listing' : 'item'}`, html);
-      } catch (e) { report.firefox.push({ route, url: u, error: String(e.message).split('\n')[0].slice(0, 120) }); }
-      await page.close();
+  const j = await (await fetch('https://api.apify.com/v2/users/me', { headers: { Authorization: `Bearer ${process.env.APIFY_TOKEN || ''}` } })).json();
+  const pw = j?.data?.proxy?.password;
+  report.plan = j?.data?.plan?.id;
+  if (pw) {
+    for (const [label, user] of [['res', 'groups-RESIDENTIAL,country-AR'], ['auto', 'auto']]) {
+      await new Promise((resolve) => {
+        {
+          const s = net.connect(8000, 'proxy.apify.com', () => {
+            const auth = Buffer.from(`${user}:${pw}`).toString('base64');
+            s.write(`CONNECT www.mercadolibre.com.ar:443 HTTP/1.1\r\nHost: www.mercadolibre.com.ar:443\r\nProxy-Authorization: Basic ${auth}\r\n\r\n`);
+          });
+          let buf = '';
+          s.on('data', (d) => { buf += d.toString(); });
+          s.setTimeout(8000, () => s.destroy());
+          s.on('close', () => { report.proxy403 = report.proxy403 || {}; report.proxy403[label] = buf.replaceAll(pw, '***').slice(0, 600); resolve(); });
+          s.on('error', () => resolve());
+        }
+      });
     }
-    await browser.close();
   }
-} catch (e) { report.firefox.push({ error: String(e.message).split('\n')[0] }); }
+} catch (e) { report.proxy403 = { error: String(e.message).slice(0, 100) }; }
+log('proxy403', JSON.stringify(report.proxy403));
+
+// ---- known live ids from round 2
+const ITEM = 'MLA2639626512'; const PROD = 'MLA58756915';
+const itemUrl = `https://www.mercadolibre.com.ar/microondas-bgh-mecanico-18l-blanco-b118mb25/p/${PROD}?pdp_filters=item_id%3A${ITEM}`;
+
+// ---- 1. API with real ids
+for (const u of [`/items/${ITEM}`, `/items?ids=${ITEM}`, `/items/${ITEM}?attributes=id,price,original_price,available_quantity,sold_quantity,seller_id`, `/products/${PROD}`, `/products/${PROD}/items`, `/products/${PROD}/items?limit=5`, `/sites/MLA/search?q=microondas&limit=3`, `/sites/MLA/search?category=MLA1055&limit=3`, `/users/139060460`, `/sites/MLA/search?seller_id=139060460&limit=3`, `/sites/MLA/search?official_store_id=56&limit=3`, `/categories/MLA1055`, `/highlights/MLA/category/MLA1055`, `/items/${ITEM}/prices`, `/reviews/item/${ITEM}`]) {
+  const r = await get(`https://api.mercadolibre.com${u}`, { headers: { accept: 'application/json' } });
+  report.api.push({ u, status: r.status, wire: r.wire, body: r.text.slice(0, 160) });
+  if (r.status === 200) save(`api-${u.replace(/[^a-z0-9]/gi, '_').slice(0, 40)}`, r.text);
+  log('api', r.status, u);
+  await sleep(200);
+}
+
+// ---- 2. which surfaces stay open from a datacenter IP?
+const surfaces = [
+  'https://www.mercadolibre.com.ar/', 'https://www.mercadolibre.com.ar/tiendas-oficiales', 'https://www.mercadolibre.com.ar/tienda/bgh', 'https://listado.mercadolibre.com.ar/tienda/bgh/',
+  'https://www.mercadolibre.com.ar/c/celulares-y-telefonos', 'https://www.mercadolibre.com.ar/c/electrodomesticos-y-aires-ac', 'https://www.mercadolibre.com.ar/categorias',
+  'https://www.mercadolibre.com.ar/ofertas', 'https://www.mercadolibre.com.ar/ofertas/supermercado', 'https://www.mercadolibre.com.ar/mas-vendidos', 'https://www.mercadolibre.com.ar/mas-vendidos/MLA1055',
+  'https://listado.mercadolibre.com.ar/celulares-telefonos/celulares-smartphones/', 'https://listado.mercadolibre.com.ar/microondas', 'https://www.mercadolibre.com.ar/jm/search?as_word=microondas',
+  itemUrl, `https://www.mercadolibre.com.ar/p/${PROD}`, `https://www.mercadolibre.com.ar/MLA-${ITEM.slice(3)}`, `https://articulo.mercadolibre.com.ar/MLA-${ITEM.slice(3)}`, `https://www.mercadolibre.com.ar/perfil/BGH`,
+  'https://www.mercadolibre.com.ar/ayuda', 'https://www.mercadolibre.com.ar/sitemap.xml', 'https://www.mercadolibre.com.ar/robots.txt',
+];
+for (const u of surfaces) {
+  const r = await get(u);
+  report.surfaces.push(brief(r)); log('surface', r.status, r.gate ?? '', feat(r.text).gate ? 'GATE' : 'open', r.wire, u.slice(0, 90));
+  if (r.status === 200 && !GATE.test(r.text)) save(`surface-${u.replace(/[^a-z0-9]/gi, '_').slice(8, 70)}`, r.text);
+  await sleep(300);
+}
+
+// ---- 3. priming: open store page (cookies) then item with referer; mobile UA; impit
+const jar = new (await import('tough-cookie')).CookieJar();
+const p1 = await get('https://www.mercadolibre.com.ar/tienda/bgh', { cookieJar: jar });
+const p2 = await get(itemUrl, { cookieJar: jar, headers: { referer: 'https://www.mercadolibre.com.ar/tienda/bgh', 'sec-fetch-site': 'same-origin' } });
+report.priming.push(brief(p1), brief(p2));
+const p3 = await get(itemUrl, { headers: { 'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1' } });
+report.priming.push({ ...brief(p3), note: 'iphone-ua' });
+log('priming', p1.status, p2.status, feat(p2.text).gate ? 'GATE' : 'open', p3.status, feat(p3.text).gate ? 'GATE' : 'open');
+try {
+  const impit = new Impit({ browser: 'chrome', followRedirects: true, cookieJar: undefined });
+  for (const u of [itemUrl, 'https://listado.mercadolibre.com.ar/microondas', 'https://www.mercadolibre.com.ar/tienda/bgh']) {
+    const res = await impit.fetch(u); const text = await res.text();
+    report.impit.push({ url: u.slice(0, 100), status: res.status, bytes: text.length, ...feat(text), title: titleOf(text) });
+  }
+} catch (e) { report.impit.push({ error: String(e.message).slice(0, 100) }); }
+log('impit', JSON.stringify(report.impit.map((x) => [x.status, x.gate])));
+
+// ---- 4. volume test on the open surface: official store pages (compressed wire bytes, block rate)
+const land = await get('https://www.mercadolibre.com.ar/tiendas-oficiales');
+const slugs = [...new Set([...land.text.matchAll(/mercadolibre\.com\.ar\/tienda\/([a-z0-9-]+)/g)].map((m) => m[1]))];
+log('slugs', slugs.length);
+let n = 0;
+const vol = await pool(slugs.slice(0, 80), 5, async (s, k) => {
+  const r = await get(`https://www.mercadolibre.com.ar/tienda/${s}`);
+  if (k < 4 && r.status === 200 && !GATE.test(r.text)) save(`store-${s}`, r.text);
+  n++; await sleep(100);
+  return { slug: s, ...brief(r) };
+});
+const ok = vol.filter((x) => x.status === 200 && !x.gate);
+report.volume = { n: vol.length, byStatus: vol.reduce((a, x) => ((a[x.status] = (a[x.status] || 0) + 1), a), {}), gated: vol.filter((x) => x.gate).length, ok: ok.length, avgWire: Math.round(ok.reduce((a, x) => a + x.wire, 0) / (ok.length || 1)), avgBytes: Math.round(ok.reduce((a, x) => a + x.bytes, 0) / (ok.length || 1)), avgMs: Math.round(ok.reduce((a, x) => a + x.ms, 0) / (ok.length || 1)), cardsPerPage: Math.round(ok.reduce((a, x) => a + x.poly, 0) / (ok.length || 1)), sample: vol.slice(0, 5) };
+log('volume', JSON.stringify({ ...report.volume, sample: undefined }));
+
+// ---- 5. other sites: official-store landings and a store page
+for (const [host, landing, storeRe] of [['www.mercadolibre.com.mx', '/tiendas-oficiales', /mercadolibre\.com\.mx\/tienda\/([a-z0-9-]+)/g], ['www.mercadolivre.com.br', '/lojas-oficiais', /mercadolivre\.com\.br\/loja\/([a-z0-9-]+)/g], ['www.mercadolibre.cl', '/tiendas-oficiales', /mercadolibre\.cl\/tienda\/([a-z0-9-]+)/g], ['www.mercadolibre.com.co', '/tiendas-oficiales', /mercadolibre\.com\.co\/tienda\/([a-z0-9-]+)/g]]) {
+  const l = await get(`https://${host}${landing}`);
+  const ss = [...new Set([...l.text.matchAll(storeRe)].map((m) => m[1]))];
+  const row = { host, landing: brief(l), slugs: ss.length };
+  if (ss.length) {
+    const kind = host.includes('.br') ? 'loja' : 'tienda';
+    const s = await get(`https://${host}/${kind}/${ss[0]}`);
+    row.store = brief(s); if (s.status === 200 && !GATE.test(s.text)) save(`store-${host}`, s.text);
+  }
+  const it = await get(`https://${host}/`);
+  row.home = brief(it);
+  report.otherSites.push(row); log('other', host, l.status, ss.length, row.store?.status, row.store?.gate);
+  await sleep(300);
+}
 
 report.finishedAt = new Date().toISOString();
 fs.writeFileSync(path.join(OUT, 'report.json'), JSON.stringify(report, null, 1));
-console.log(JSON.stringify({ routes: Object.fromEntries(Object.entries(report.routes).map(([k, v]) => [k, v.summary])), firefox: report.firefox.map((f) => [f.route, f.status, f.gate, f.error]) }, null, 1));
+console.log('done');
