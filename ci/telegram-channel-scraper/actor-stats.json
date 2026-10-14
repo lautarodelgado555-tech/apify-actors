@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-14T02:21:33.433Z",
+  "checkedAt": "2026-10-14T02:24:56.424Z",
   "name": "telegram-channel-scraper",
   "isPublic": false,
   "pricing": [
@@ -7,12 +7,12 @@
     "PAY_PER_EVENT"
   ],
   "stats": {
-    "totalBuilds": 10,
-    "totalRuns": 9,
+    "totalBuilds": 11,
+    "totalRuns": 10,
     "totalUsers": 1,
     "totalUsers7Days": 0,
     "totalUsers30Days": 0,
     "totalUsers90Days": 0,
-    "lastRunStartedAt": "2026-10-14T02:18:07.927Z"
+    "lastRunStartedAt": "2026-10-14T02:21:34.130Z"
   }
 }

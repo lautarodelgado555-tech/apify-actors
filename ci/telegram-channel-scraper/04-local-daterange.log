@@ -5,7 +5,7 @@
 [32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}[39m
 [32mINFO[39m  @bbcrussian: 30 messages (3 pages read)
 [32mINFO[39m  [Status message]: 1/1 channels done, 30 messages
-[32mINFO[39m  Done in 6.3s: 30 messages from 1 channels. Requests: 19, retries: 0, rate-limited: 0, 2.9 MB.
-[32mINFO[39m  SUMMARY [{"input":"bbcrussian","username":"bbcrussian","status":"ok","messages":30,"pages":3,"scanned":30,"seconds":6.3}]
+[32mINFO[39m  Done in 7.7s: 30 messages from 1 channels. Requests: 19, retries: 0, rate-limited: 0, 2.9 MB.
+[32mINFO[39m  SUMMARY [{"input":"bbcrussian","username":"bbcrussian","status":"ok","messages":30,"pages":3,"scanned":30,"seconds":7.7}]
 [32mINFO[39m  [Status message]: 30 messages from 1 channels
 items: 30
