@@ -1,0 +1,6 @@
+{
+  "channels": ["telegram", "rian_ru", "tass_agency"],
+  "maxMessages": 1000,
+  "extractLinks": true,
+  "includeHtml": false
+}

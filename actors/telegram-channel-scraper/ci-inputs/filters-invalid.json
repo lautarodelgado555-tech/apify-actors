@@ -1,5 +1,5 @@
 {
-  "channels": ["telegram", "tginfo", "this_channel_does_not_exist_zzq_98765", "https://t.me/+AbCdEfGh1234", "ab", "BotFather"],
+  "channels": ["telegram", "tginfo", "zzq_nonexistent_98765", "https://t.me/+AbCdEfGh1234", "ab", "BotFather"],
   "maxMessages": 5,
   "includeKeywords": ["telegram", "update"],
   "excludeKeywords": ["giveaway"],

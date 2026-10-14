@@ -5,6 +5,7 @@ import { TelegramFetcher } from './http.js';
 import { parseDateInput } from './dates.js';
 
 await Actor.init();
+const startedAt = Date.now();
 
 const input = (await Actor.getInput()) ?? {};
 const {
@@ -155,7 +156,7 @@ async function runChannel(username) {
         if (incremental) { line.previousLastId = lastId; line.lastId = res.nextLastId; }
         summary.push(line);
         const human = {
-            ok: `${res.emitted} messages (${res.pages} pages)`,
+            ok: `${res.emitted} messages (${res.pages} page${res.pages === 1 ? '' : 's'} read)`,
             empty: 'no messages found',
             restricted: 'content restricted by Telegram (age or copyright), nothing returned',
             preview_disabled: 'channel exists but its public web preview is disabled, nothing returned',
@@ -181,7 +182,8 @@ const workers = Array.from({ length: Math.max(1, Math.min(maxConcurrency, 20, to
 });
 await Promise.all(workers);
 
-log.info(`Done: ${pushed} messages from ${summary.filter((s) => s.status === 'ok').length} channels. Requests: ${fetcher.stats.requests}, retries: ${fetcher.stats.retries}, rate-limited: ${fetcher.stats.rateLimited}, ${(fetcher.stats.bytes / 1e6).toFixed(1)} MB.`);
+log.info(`Done in ${Math.round((Date.now() - startedAt) / 100) / 10}s: ${pushed} messages from ${summary.filter((s) => s.status === 'ok').length} channels. Requests: ${fetcher.stats.requests}, retries: ${fetcher.stats.retries}, rate-limited: ${fetcher.stats.rateLimited}, ${(fetcher.stats.bytes / 1e6).toFixed(1)} MB.`);
+log.info(`SUMMARY ${JSON.stringify(summary)}`);
 await Actor.setValue('SUMMARY', { generatedAt: scrapedAt(), incremental, messages: pushed, channels: summary, fetcher: fetcher.stats });
 
 const failed = summary.filter((s) => s.status === 'failed');
