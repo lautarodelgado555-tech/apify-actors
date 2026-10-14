@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - "recon/georgia-sos-scraper/targets.json"
+      - "recon/georgia-sos-scraper/spike.mjs"
       - ".github/workflows/recon-georgia-sos-scraper.yml"
 permissions:
   contents: write
@@ -24,7 +25,7 @@ jobs:
           mkdir -p /tmp/rc && cd /tmp/rc && npm init -y >/dev/null && npm i got-scraping impit playwright >/dev/null 2>&1 && npx playwright install --with-deps chromium firefox >/dev/null 2>&1 || true
           ln -sfn /tmp/rc/node_modules "$GITHUB_WORKSPACE/node_modules"
       - name: Fetch
-        run: node scripts/recon.mjs recon/georgia-sos-scraper/targets.json > /tmp/recon-run.log 2>&1 || true; mkdir -p recon/georgia-sos-scraper/out; cp /tmp/recon-run.log recon/georgia-sos-scraper/out/run.log
+        run: rm -rf recon/georgia-sos-scraper/out; mkdir -p recon/georgia-sos-scraper/out; timeout 900 node recon/georgia-sos-scraper/spike.mjs > /tmp/recon-run.log 2>&1 || true; mkdir -p recon/georgia-sos-scraper/out; cp /tmp/recon-run.log recon/georgia-sos-scraper/out/run.log
       - name: Commit results
         if: always()
         run: |
