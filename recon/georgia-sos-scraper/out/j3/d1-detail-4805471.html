@@ -102,8 +102,7 @@
         </tbody>
     </table>
     
-<div class='right_content'>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<div class='right_content'><div style='width:100%;text-align:right;font-weight:bold;'><a href='/'>HOME</a>&nbsp;&nbsp;</div><table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tr>
         <td class="border_pagetitle">
             <div class="pagetitle">
@@ -118,60 +117,117 @@
             </div>
         </td>
     </tr>
-        <tr>
-            <td>
-                <div class="data_pannel">
-                    <table cellpadding="4" width="100%">
+    <tr>
+        <td>
+            <div class="data_pannel">
+                <table cellpadding="4" width="100%">
+
                         <tr>
                             <td class="inner_databg" align="left" colspan="4">Business Information</td>
                         </tr>
                         <tr>
-                            <td width="25%" align="right">Business Name:</td>
-                            <td width="25%"><strong></strong></td>
-                            <td width="25%" align="right">Control Number:</td>
-                            <td width="25%"><strong></strong></td>
+                                <td align="right" width="25%">Business Name:</td>
+                            <td width="25%"><strong>13 Delta LLC</strong></td>
+                            <td align="right" width="25%">Control Number:</td>
+                            <td width="25%"><strong>26107403</strong></td>
                         </tr>
-                    </table>
-                </div>
-            </td>
-        </tr>
+                        <tr>
+                                <td align="right">Business Type:</td>
+                            <td><strong>Domestic Limited Liability Company</strong></td>
+                                <td align="right">Business Status:</td>
+                            <td><strong>Active/Compliance</strong></td>
+                        </tr>
+                                <tr>
+                                    <td align="right">NAICS Code:</td>
+                                    <td><strong>Real Estate and Rental and Leasing</strong></td>
+                                    <td align="right">NAICS Sub Code:</td>
+                                    <td><strong>Other Activities Related to Real Estate</strong></td>
+                                </tr>
+                            <tr>
+                                    <td align="right">Principal Office Address:</td>
 
-    <tr>
-        <td>
-            <div class="data_pannel">
-                <table width="100%">
-                    <tr>
-                        <td class="inner_databg" align="left">Name Change History</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <table   style='width:100%' border='0' cellpadding='4' cellspacing='5' class='gridstyle grid_layout' id='grid_NameChangeHistoryGrid' ><thead ><tr align='left' class='grid_headerbg' id='Listrow_grid_NameChangeHistoryGrid'  ><th  >Filing Number</th><th  >Old Name</th><th  >New Name</th><th  >Filing Date</th><th  >Effective Date</th></tr></thead><tbody ><tr><td colspan='5'  class='norecords'  >No records to view.</td></tr></tbody></table>
-                        </td>
-                    </tr>
+                                <td><strong>2 Winslow Circle, Savannah, GA, 31407, USA</strong></td>
+
+                                <td align="right">Date of Formation / Registration Date:</td>
+                                <td><strong>5/13/2026</strong></td>
+                            </tr>
+                            <tr>
+                                    <td align="right">State of Formation:</td>
+                                    <td><strong>Georgia</strong></td>
+
+                                    <td align="right">Last Annual Registration Year:</td>
+                                    <td><strong>NONE</strong></td>
+                            </tr>
+                        <tr>
+                                                    </tr>
+                        <tr>
+                        </tr>
                 </table>
             </div>
         </td>
     </tr>
-    <tr>
+                <tr>
+                    <td>
+                        <div class="data_pannel">
+                            <table width="100%" cellpadding="4">
+                                <tr>
+                                    <td class="inner_databg" align="left" colspan="2">Registered Agent Information</td>
+                                </tr>
+                                <tr>
+                                    <td width="25%" align="right">Registered Agent Name:</td>
+                                    <td width="75%"><strong>Vinay Patel</strong></td>
+                                </tr>
+                                    <tr>
+                                        <td width="25%" align="right">Physical Address:</td>
+                                        <td width="75%"><strong>2 winslow circle, Savannah, GA, 31407, USA</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="25%" align="right">County:</td>
+                                        <td width="75%"><strong>Chatham</strong></td>
+                                    </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+        <tr>
         <td>
-            <input type="button" name="btnSearch" value="Back" class="button" onclick="submitForm(0)" />
+            <table width="100%">
+                <tr>
+                    <td style="width: 150px;">
+                            <input type="button" name="" value="Back" class="button btnBack" onclick="submitBack()" />
+                    </td>
+                    <td style="text-align: center">
+                        <input type="button" name="btnSearch" value="Filing History" class="button" onclick="submitForm(4805471,'/BusinessSearch/BusinessFilings')" />
+                        <input type="button" name="btnSearch" value="Name History" class="button" onclick="submitForm(4805471,'/BusinessSearch/NameChangeHistory')" />
+                            <input type="button" name="Reset" value="Return to Business Search" class="button btnBack" onclick="window.location.href='/BusinessSearch'" />
+                    </td>
+                    <td style="width: 150px;"></td>
+                </tr>
+            </table>
         </td>
     </tr>
 </table>
 
-</div>
-<br /><br />
+
+</div><br />
+<br />
 <script type="text/javascript">
-    function submitForm(id) {
-        var fromSearch = ''
-        //id = id == null || id == 0 ? parseInt(window.location.search.split('&')[0].split('=')[1]) : id;//fewer times id is set to 0, so get it frm url if it is 0.
-        if (searchFrom()) {            
-            $.submitForm('/BusinessSearch/BusinessInformation', { businessId: id, isEmailSubscriptionSearch: true, fromSearch: fromSearch });
-        }
-        else {
-            $.submitForm('/BusinessSearch/BusinessInformation', { businessId: id, fromSearch: fromSearch });
-        }
+    function submitBack() {
+        $.submitForm('/BusinessSearch', { isBack: true });
     }
+
+    function submitForm(id, url) {
+        if (searchFrom())
+            window.location.href = url.trim() + '?businessId=' + id + '&isEmailSubscriptionSearch=true';
+        else
+            $.submitForm(url, { businessId: id });
+    }
+
+    $(function () {
+        if (searchFrom()) {
+            $(".btnBack").hide();
+        }
+    })
 
     /*Returns true if business search is from Email Subscription page.*/
     function searchFrom() {
@@ -196,5 +252,5 @@
 <script src="js/jquery.js"></script> -->
     <!-- Include all compiled plugins (below), or include individual files as needed 
 <script src="js/bootstrap.js"></script>-->
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4a3263b8b370914',t:'MTc5MTk0NDg5Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4a32af689877f1d',t:'MTc5MTk0NTA4Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>

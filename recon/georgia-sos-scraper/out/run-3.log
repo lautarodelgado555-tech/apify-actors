@@ -1,27 +1,38 @@
-block attempt 1 stuck on challenge
-block attempt 2 stuck on challenge
 MODE block statuses 200,200,200,200,200 cookies ["ASP.NET_SessionId","__cflb"]
 WINNER block
-s01-delta-starts status 200 mit null len 10477 119ms Page 1 of 1, records 1 to 2 of 2
-s02-delta-contains status 200 mit null len 19313 1876ms Page 1 of 76, records 1 to 25 of 1895&nbsp;&nbsp;
-s08-georgia-power status 200 mit null len 19290 126ms Page 1 of 2, records 1 to 25 of 32&nbsp;&nbsp;
-s09-llc status 200 mit null len 10811 127ms Page 1 of 1, records 1 to 3 of 3
-detail types [["567669","Foreign Profit Corporation"],["301509","Domestic Nonprofit Corporation"],["4805471","Domestic Limited Liability Company"],["3931787","Name Reservation"],["4396154","Foreign Limited Liability Company"],["1048120","Domestic Profit Corporation"],["564770","Foreign Nonprofit Corporation"],["923344","Foreign Limited Partnership"],["736568","Domestic Credit Union"]]
-d1-detail-567669 status 403 mit null len 2171 129ms 
-d2-detail-301509 status 403 mit null len 2171 117ms 
-d3-detail-4805471 status 403 mit null len 2171 115ms 
-d4-detail-3931787 status 403 mit null len 2171 113ms 
-d5-detail-4396154 status 403 mit null len 2171 105ms 
-d6-detail-1048120 status 403 mit null len 2171 113ms 
-d7-detail-564770 status 403 mit null len 2171 107ms 
-d8-detail-923344 status 403 mit null len 2171 121ms 
-d9-detail-736568 status 403 mit null len 2171 110ms 
-f1-_BusinessSearch_BusinessFilings_ status 200 mit null len 18231 126ms Page 1 of 2, records 1 to 25 of 33&nbsp;&nbsp;
-f2-_businesssearch_businessfilings status 200 mit null len 18231 124ms Page 1 of 2, records 1 to 25 of 33&nbsp;&nbsp;
-f3-_BusinessSearch_BusinessFilings status 200 mit null len 18231 136ms Page 1 of 2, records 1 to 25 of 33&nbsp;&nbsp;
-f4-_BusinessSearch_NameChangeHistory_ status 200 mit null len 9164 126ms 
-f5-_businesssearch_namechangehistory status 200 mit null len 9164 126ms 
-f6-filings-llc status 200 mit null len 12477 125ms Page 1 of 1, records 1 to 1 of 1
-f7-filings-nonprofit status 200 mit null len 12876 145ms Page 1 of 1, records 1 to 3 of 3
-f8-get-filings 403 challenge 6114 <title>Just a moment...
-STRESS 25 details {"403":25} 3839ms
+s02-delta-contains status 200 mit null len 19313 2075ms Page 1 of 76, records 1 to 25 of 1895&nbsp;&nbsp;
+s08-georgia-power status 200 mit null len 19290 58ms Page 1 of 2, records 1 to 25 of 32&nbsp;&nbsp;
+s09-llc status 200 mit null len 10811 52ms Page 1 of 1, records 1 to 3 of 3
+s10-nonprofit status 200 mit null len 13459 52ms Page 1 of 1, records 1 to 10 of 10
+types [{"id":"4805471","type":"Domestic Limited Liability Company","control":"26107403"},{"id":"3931787","type":"Name Reservation","control":""},{"id":"4714946","type":"Domestic Nonprofit Corporation","control":"26031725"},{"id":"1902488","type":"Foreign Profit Corporation","control":"14010708"},{"id":"4396154","type":"Foreign Limited Liability Company","control":"25002278"},{"id":"1048120","type":"Domestic Profit Corporation","control":"K743872"},{"id":"564770","type":"Foreign Nonprofit Corporation","control":"H850499"},{"id":"923344","type":"Foreign Limited Partnership","control":"K428359"},{"id":"736568","type":"Domestic Credit Union","control":"J720905"}]
+c1-ctl-26107403 status 200 mit null len 10099 119ms Page 1 of 1, records 1 to 1 of 1
+d1-detail-4805471 status 200 mit null len 12121 48ms 
+c2-ctl- status 200 mit null len 10099 149ms Page 1 of 1, records 1 to 1 of 1
+d2-detail-3931787 status 403 mit null len 2171 44ms 
+c3-ctl-26031725 status 200 mit null len 10133 120ms Page 1 of 1, records 1 to 1 of 1
+d3-detail-4714946 status 200 mit null len 12166 50ms 
+c4-ctl-14010708 status 200 mit null len 10088 116ms Page 1 of 1, records 1 to 1 of 1
+d4-detail-1902488 status 200 mit null len 13496 53ms 
+c5-ctl-25002278 status 200 mit null len 10133 124ms Page 1 of 1, records 1 to 1 of 1
+d5-detail-4396154 status 200 mit null len 12493 66ms 
+c6-ctl-K743872 status 200 mit null len 10123 122ms Page 1 of 1, records 1 to 1 of 1
+d6-detail-1048120 status 200 mit null len 13461 50ms 
+c7-ctl-H850499 status 200 mit null len 10134 133ms Page 1 of 1, records 1 to 1 of 1
+d7-detail-564770 status 200 mit null len 13525 56ms 
+c8-ctl-K428359 status 200 mit null len 10109 124ms Page 1 of 1, records 1 to 1 of 1
+d8-detail-923344 status 200 mit null len 12342 48ms 
+c9-ctl-J720905 status 200 mit null len 10085 115ms Page 1 of 1, records 1 to 1 of 1
+d9-detail-736568 status 200 mit null len 13476 49ms 
+t0-ctl-delta status 200 mit null len 10114 160ms Page 1 of 1, records 1 to 1 of 1
+t1-detail-in-last-search status 200 mit null len 13538 56ms 
+t2-last-is-llc status 200 mit null len 10811 52ms Page 1 of 1, records 1 to 3 of 3
+t3-detail-not-in-last-search status 403 mit null len 2171 46ms 
+t4-detail-empty-fromSearch status 200 mit null len 13149 48ms 
+t5-detail-id-only status 200 mit null len 13149 49ms 
+t6-detail-nofs-with-type status 200 mit null len 13149 54ms 
+g1-filings-page1 status 200 mit null len 18275 52ms Page 1 of 2, records 1 to 25 of 33&nbsp;&nbsp;
+g2-filing-pidx2 status 200 mit null len 5121 56ms Page 2 of 2, records 26 to 33 of 33&nbsp;&nbsp;
+g3-filing-pidx2-slash status 200 mit null len 5121 50ms Page 2 of 2, records 26 to 33 of 33&nbsp;&nbsp;
+g4-filing-pidx2-nobiz status 200 mit null len 8856 74ms Page 2 of 3, records 26 to 50 of 69&nbsp;&nbsp;
+u0-contains-again status 200 mit null len 19313 1974ms Page 1 of 76, records 1 to 25 of 1895&nbsp;&nbsp;
+STRESS details on current page {"200":25} 1616ms
