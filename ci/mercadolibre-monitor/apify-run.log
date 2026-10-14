@@ -1,57 +1,22 @@
-2026-10-14T01:44:26.853Z ACTOR: Pulling container image of build 1SxAmWoqKLE50GdoQ from registry.
-2026-10-14T01:44:27.638Z ACTOR: Creating container.
-2026-10-14T01:44:27.697Z ACTOR: Starting container.
-2026-10-14T01:44:27.698Z ACTOR: Running under "LIMITED_PERMISSIONS".
-2026-10-14T01:44:28.689Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}
-2026-10-14T01:44:34.199Z INFO  [residential-AR] 200 4661B wire item-catalog https://www.mercadolibre.com.ar/microondas-bgh-mecanico-18l-blanco-b118mb25/p/MLA58756915?
-2026-10-14T01:44:34.205Z INFO  [residential-AR] 200 6033B wire item-up https://www.mercadolibre.com.ar/camiseta-adidas-local-boca-juniors-2526-azul-kv2842/up/MLA
-2026-10-14T01:44:36.035Z INFO  [residential-AR] 200 4632B wire item-catalog https://www.mercadolibre.com.ar/adidas-running-response-2-kj1744/p/MLA67976159?pdp_filters
-2026-10-14T01:44:37.358Z INFO  [residential-AR] 200 4632B wire item-up https://www.mercadolibre.com.ar/taladro-percutor-18v--2-baterias-thunderplus-tl01223/up/ML
-2026-10-14T01:44:38.809Z INFO  [residential-AR] 200 5852B wire item-up https://www.mercadolibre.com.ar/inversor-victron-phoenix-12v-500va-vedirect-onda-pura/up/M
-2026-10-14T01:44:39.253Z INFO  [residential-AR] 200 4714B wire item-catalog https://www.mercadolibre.com.ar/sarten-de-hierro-arkimia-fenix-de-15cm-pre-curada-squimico
-2026-10-14T01:44:40.478Z INFO  [residential-AR] 200 3959B wire item-articulo https://articulo.mercadolibre.com.ar/MLA-1542948477-pelota-adidas-futbol-world-cup-league-
-2026-10-14T01:44:40.971Z INFO  [residential-AR] 200 65932B wire store-home https://www.mercadolibre.com.ar/tienda/bgh
-2026-10-14T01:44:42.494Z INFO  [residential-AR] 200 4157B wire item-up https://www.mercadolibre.com.ar/alacena-de-pino-de-120-amoblamiento-el-cardenal/up/MLAU159
-2026-10-14T01:44:43.627Z INFO  [residential-AR] 200 3867B wire listing https://listado.mercadolibre.com.ar/tienda/bgh/
-2026-10-14T01:44:45.158Z INFO  [residential-AR] 200 BLOCKED 9607B wire listing https://listado.mercadolibre.com.ar/microondas
-2026-10-14T01:44:46.820Z INFO  [residential-AR] 200 108890B wire stores-landing https://www.mercadolibre.com.ar/tiendas-oficiales
-2026-10-14T01:44:47.126Z INFO  [residential-AR] 200 BLOCKED 9612B wire bestsellers https://www.mercadolibre.com.ar/mas-vendidos
-2026-10-14T01:44:48.193Z INFO  [residential-AR] 200 4604B wire item-catalog https://www.mercadolibre.com.ar/p/MLA58756915
-2026-10-14T01:44:49.293Z INFO  [residential-AR] 200 BLOCKED 9630B wire bestsellers-category https://www.mercadolibre.com.ar/mas-vendidos/MLA1055
-2026-10-14T01:44:50.897Z INFO  [residential-AR] 403 BLOCKED 143B wire api:items https://api.mercadolibre.com/items/MLA2639626512
-2026-10-14T01:44:51.005Z INFO  [residential-AR] 401 BLOCKED 574B wire api:items https://api.mercadolibre.com/items?ids=MLA2639626512,MLA1902289377
-2026-10-14T01:44:52.413Z INFO  [residential-AR] 403 BLOCKED 143B wire api:products https://api.mercadolibre.com/products/MLA58756915/items
-2026-10-14T01:44:52.927Z INFO  [residential-AR] 403 BLOCKED 78B wire api:sites https://api.mercadolibre.com/sites/MLA/search?q=microondas&limit=3
-2026-10-14T01:44:53.160Z INFO  [residential-AR] 401 BLOCKED 67B wire api:products https://api.mercadolibre.com/products/MLA58756915
-2026-10-14T01:44:53.779Z INFO  [residential-AR] 403 BLOCKED 143B wire api:users https://api.mercadolibre.com/users/139060460
-2026-10-14T01:44:54.505Z INFO  [residential-AR] 200 3602B wire bestsellers https://www.mercadolibre.com.mx/mas-vendidos
-2026-10-14T01:44:57.029Z INFO  [residential-AR] 200 3604B wire bestsellers https://www.mercadolivre.com.br/mais-vendidos
-2026-10-14T01:44:57.969Z INFO  [residential-AR] 200 3892B wire listing https://lista.mercadolivre.com.br/fone-de-ouvido
-2026-10-14T01:45:04.978Z INFO  [residential-AR] 200 3876B wire listing https://listado.mercadolibre.com.mx/audifonos
-2026-10-14T01:45:04.999Z INFO  Route residential-AR: {"type":"probe-summary","route":"residential-AR","requests":25,"ok":16,"blocked":9,"errors":0,"avgWireBytesOk":14807,"byKind":{"item-up":"200,200,200,200","item-catalog":"200,200,200,200","item-articulo":"200","store-home":"200","listing":"200,blocked,200,200","stores-landing":"200","bestsellers":"blocked,200,200","bestsellers-category":"blocked","api:items":"blocked,blocked","api:products":"blocked,blocked","api:sites":"blocked","api:users":"blocked"}}
-2026-10-14T01:45:06.793Z INFO  [datacenter] 200 BLOCKED 9721B wire item-up https://www.mercadolibre.com.ar/camiseta-adidas-local-boca-juniors-2526-azul-kv2842/up/MLA
-2026-10-14T01:45:07.081Z INFO  [datacenter] 200 BLOCKED 9724B wire item-catalog https://www.mercadolibre.com.ar/adidas-running-response-2-kj1744/p/MLA67976159?pdp_filters
-2026-10-14T01:45:07.823Z INFO  [datacenter] 200 BLOCKED 9710B wire item-catalog https://www.mercadolibre.com.ar/microondas-bgh-mecanico-18l-blanco-b118mb25/p/MLA58756915?
-2026-10-14T01:45:09.489Z INFO  [datacenter] 200 BLOCKED 9732B wire item-up https://www.mercadolibre.com.ar/taladro-percutor-18v--2-baterias-thunderplus-tl01223/up/ML
-2026-10-14T01:45:10.804Z INFO  [datacenter] 200 BLOCKED 9749B wire item-catalog https://www.mercadolibre.com.ar/sarten-de-hierro-arkimia-fenix-de-15cm-pre-curada-squimico
-2026-10-14T01:45:11.856Z INFO  [datacenter] 200 BLOCKED 9719B wire item-articulo https://articulo.mercadolibre.com.ar/MLA-1542948477-pelota-adidas-futbol-world-cup-league-
-2026-10-14T01:45:12.861Z INFO  [datacenter] 200 65950B wire store-home https://www.mercadolibre.com.ar/tienda/bgh
-2026-10-14T01:45:14.044Z INFO  [datacenter] 200 108642B wire stores-landing https://www.mercadolibre.com.ar/tiendas-oficiales
-2026-10-14T01:45:15.535Z INFO  [datacenter] 200 BLOCKED 10321B wire item-up https://www.mercadolibre.com.ar/inversor-victron-phoenix-12v-500va-vedirect-onda-pura/up/M
-2026-10-14T01:45:16.021Z INFO  [datacenter] 200 BLOCKED 9606B wire listing https://listado.mercadolibre.com.ar/microondas
-2026-10-14T01:45:18.129Z INFO  [datacenter] 200 BLOCKED 9711B wire item-up https://www.mercadolibre.com.ar/alacena-de-pino-de-120-amoblamiento-el-cardenal/up/MLAU159
-2026-10-14T01:45:19.736Z INFO  [datacenter] 200 BLOCKED 9639B wire listing https://listado.mercadolibre.com.ar/tienda/bgh/
-2026-10-14T01:45:22.113Z INFO  [datacenter] 200 BLOCKED 9611B wire bestsellers https://www.mercadolibre.com.ar/mas-vendidos
-2026-10-14T01:45:23.218Z INFO  [datacenter] 200 BLOCKED 9626B wire item-catalog https://www.mercadolibre.com.ar/p/MLA58756915
-2026-10-14T01:45:23.265Z INFO  [datacenter] 200 BLOCKED 9628B wire bestsellers-category https://www.mercadolibre.com.ar/mas-vendidos/MLA1055
-2026-10-14T01:45:23.348Z INFO  [datacenter] 401 BLOCKED 574B wire api:items https://api.mercadolibre.com/items?ids=MLA2639626512,MLA1902289377
-2026-10-14T01:45:25.067Z INFO  [datacenter] 401 BLOCKED 67B wire api:products https://api.mercadolibre.com/products/MLA58756915
-2026-10-14T01:45:25.797Z INFO  [datacenter] 403 BLOCKED 78B wire api:sites https://api.mercadolibre.com/sites/MLA/search?q=microondas&limit=3
-2026-10-14T01:45:25.936Z INFO  [datacenter] 403 BLOCKED 143B wire api:users https://api.mercadolibre.com/users/139060460
-2026-10-14T01:45:26.719Z INFO  [datacenter] 403 BLOCKED 143B wire api:items https://api.mercadolibre.com/items/MLA2639626512
-2026-10-14T01:45:28.094Z INFO  [datacenter] 403 BLOCKED 143B wire api:products https://api.mercadolibre.com/products/MLA58756915/items
-2026-10-14T01:45:29.931Z INFO  [datacenter] 200 BLOCKED 6637B wire bestsellers https://www.mercadolibre.com.mx/mas-vendidos
-2026-10-14T01:45:31.198Z INFO  [datacenter] 200 BLOCKED 10295B wire bestsellers https://www.mercadolivre.com.br/mais-vendidos
-2026-10-14T01:45:32.115Z INFO  [datacenter] 200 BLOCKED 6628B wire listing https://listado.mercadolibre.com.mx/audifonos
-2026-10-14T01:45:36.382Z INFO  [datacenter] 200 BLOCKED 10301B wire listing https://lista.mercadolivre.com.br/fone-de-ouvido
-2026-10-14T01:45:36.408Z INFO  Route datacenter: {"type":"probe-summary","route":"datacenter","requests":25,"ok":2,"blocked":23,"errors":0,"avgWireBytesOk":87296,"byKind":{"item-up":"blocked,blocked,blocked,blocked","item-catalog":"blocked,blocked,blocked,blocked","item-articulo":"blocked","store-home":"200","stores-landing":"200","listing":"blocked,blocked,blocked,blocked","bestsellers":"blocked,blocked,blocked","bestsellers-category":"blocked","api:items":"blocked,blocked","api:products":"blocked,blocked","api:sites":"blocked","api:users":"blocked"}}
+2026-10-14T01:49:27.022Z ACTOR: Pulling container image of build aifySv7Ig13A7LpRT from registry.
+2026-10-14T01:49:36.614Z ACTOR: Creating container.
+2026-10-14T01:49:36.699Z ACTOR: Starting container.
+2026-10-14T01:49:36.701Z ACTOR: Running under "LIMITED_PERMISSIONS".
+2026-10-14T01:49:36.781Z Running on architecture: x86_64
+2026-10-14T01:49:36.783Z Will run command: xvfb-run -a -s "-ac -screen 0 1920x1080x24+32 -nolisten tcp" /bin/bash -o pipefail -c npm start --silent
+2026-10-14T01:49:37.975Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}
+2026-10-14T01:49:38.305Z INFO  Route residential-AR: {"type":"probe-summary","route":"residential-AR","requests":0,"ok":0,"challenge":0,"blocked":0,"errors":0,"avgWireBytesOk":0,"byKind":{}}
+2026-10-14T01:49:45.399Z INFO  [browser:residential-AR] item-catalog passed=5693 wire=128110 bytes=41644 challenge=false pdp=false https://www.mercadolibre.com.ar/microondas-bgh-mecanico-18l-blanco-b118mb25/p/ML
+2026-10-14T01:49:47.759Z INFO  [browser:residential-AR] item-up passed=2060 wire=160654 bytes=41704 challenge=false pdp=false https://www.mercadolibre.com.ar/camiseta-adidas-local-boca-juniors-2526-azul-kv2
+2026-10-14T01:49:52.034Z INFO  [browser:residential-AR] item-articulo passed=2900 wire=285101 bytes=41008 challenge=false pdp=false https://articulo.mercadolibre.com.ar/MLA-1542948477-pelota-adidas-futbol-world-c
+2026-10-14T01:49:56.364Z INFO  [browser:residential-AR] listing passed=2998 wire=284744 bytes=40569 challenge=false pdp=false https://listado.mercadolibre.com.ar/microondas
+2026-10-14T01:50:01.033Z INFO  [browser:residential-AR] bestsellers passed=2797 wire=288550 bytes=40965 challenge=false pdp=false https://www.mercadolibre.com.ar/mas-vendidos
+2026-10-14T01:50:04.562Z INFO  [browser:residential-AR] bestsellers-category passed=2410 wire=170464 bytes=41017 challenge=false pdp=false https://www.mercadolibre.com.ar/mas-vendidos/MLA1055
+2026-10-14T01:50:08.967Z INFO  [browser:residential-AR] listing passed=3086 wire=289234 bytes=40598 challenge=false pdp=false https://listado.mercadolibre.com.ar/tienda/bgh/
+2026-10-14T01:50:13.571Z INFO  [cookie-reuse:residential-AR] 200 wire=9798 challenge=false pdp=false item-catalog
+2026-10-14T01:50:15.862Z INFO  [cookie-reuse:residential-AR] 200 wire=9808 challenge=false pdp=false item-up
+2026-10-14T01:50:18.306Z INFO  [cookie-reuse:residential-AR] 200 wire=9789 challenge=false pdp=false item-up
+2026-10-14T01:50:20.583Z INFO  [cookie-reuse:residential-AR] 200 wire=9827 challenge=false pdp=false item-catalog
+2026-10-14T01:50:22.847Z INFO  [cookie-reuse:residential-AR] 200 wire=9782 challenge=false pdp=false item-up
+2026-10-14T01:50:26.456Z INFO  [cookie-reuse:residential-AR] 200 wire=9606 challenge=false pdp=false listing
+2026-10-14T01:50:30.291Z INFO  [cookie-reuse:residential-AR] 200 wire=9703 challenge=false pdp=false bestsellers-category

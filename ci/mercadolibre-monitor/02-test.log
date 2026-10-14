@@ -6,7 +6,7 @@ TAP version 13
 # Subtest: login wall redirect is detected as blocked
 ok 1 - login wall redirect is detected as blocked
   ---
-  duration_ms: 1.268847
+  duration_ms: 1.544216
   type: 'test'
   ...
 1..1
@@ -17,4 +17,4 @@ ok 1 - login wall redirect is detected as blocked
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 567.411582
+# duration_ms 313.05417
