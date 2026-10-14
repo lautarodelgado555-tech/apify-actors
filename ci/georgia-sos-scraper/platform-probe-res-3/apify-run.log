@@ -1,0 +1,11 @@
+2026-10-14T03:11:15.395Z ACTOR: Pulling container image of build 3f8CNUHSFcQgpZg1I from registry.
+2026-10-14T03:11:15.398Z ACTOR: Creating container.
+2026-10-14T03:11:15.466Z ACTOR: Starting container.
+2026-10-14T03:11:15.468Z ACTOR: Running under "LIMITED_PERMISSIONS".
+2026-10-14T03:11:15.532Z Running on architecture: x86_64
+2026-10-14T03:11:15.534Z Will run command: xvfb-run -a -s "-ac -screen 0 1920x1080x24+32 -nolisten tcp" /bin/bash -o pipefail -c npm start --silent
+2026-10-14T03:11:16.383Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}
+2026-10-14T03:11:16.631Z INFO  Free plan: results are capped at 10 per run. Upgrade to get more.
+2026-10-14T03:11:19.048Z INFO  Session ready (attempt 1, route: user).
+2026-10-14T03:11:19.215Z INFO  "Delta Air Lines": 2 record(s) in 1 page(s).
+2026-10-14T03:11:20.111Z INFO  Done. 2 entities saved for 1 search term(s).

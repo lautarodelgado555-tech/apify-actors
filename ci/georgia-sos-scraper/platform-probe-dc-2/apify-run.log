@@ -1,0 +1,19 @@
+2026-10-14T03:13:35.780Z ACTOR: Pulling container image of build 3f8CNUHSFcQgpZg1I from registry.
+2026-10-14T03:13:35.783Z ACTOR: Creating container.
+2026-10-14T03:13:35.847Z ACTOR: Starting container.
+2026-10-14T03:13:35.849Z ACTOR: Running under "LIMITED_PERMISSIONS".
+2026-10-14T03:13:35.913Z Running on architecture: x86_64
+2026-10-14T03:13:35.915Z Will run command: xvfb-run -a -s "-ac -screen 0 1920x1080x24+32 -nolisten tcp" /bin/bash -o pipefail -c npm start --silent
+2026-10-14T03:13:36.755Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}
+2026-10-14T03:13:37.005Z INFO  Free plan: results are capped at 10 per run. Upgrade to get more.
+2026-10-14T03:13:39.325Z WARN  Could not open the portal (attempt 1/8, route: user): Cloudflare challenge on the home page
+2026-10-14T03:13:44.022Z WARN  Could not open the portal (attempt 2/8, route: user): Cloudflare challenge on the home page
+2026-10-14T03:14:01.078Z WARN  Could not open the portal (attempt 3/8, route: user): Cloudflare challenge on the home page
+2026-10-14T03:14:21.380Z WARN  Could not open the portal (attempt 4/8, route: user): Cloudflare challenge on the home page
+2026-10-14T03:14:42.271Z WARN  Could not open the portal (attempt 5/8, route: user): Cloudflare challenge on the home page
+2026-10-14T03:15:05.069Z WARN  Could not open the portal (attempt 6/8, route: user): Cloudflare challenge on the home page
+2026-10-14T03:15:29.464Z WARN  Could not open the portal (attempt 7/8, route: user): Cloudflare challenge on the home page
+2026-10-14T03:15:55.068Z WARN  Could not open the portal (attempt 8/8, route: user): Cloudflare challenge on the home page
+2026-10-14T03:16:08.464Z ERROR Search "Delta Air Lines" failed: Georgia eCorp blocked every connection attempt (Cloudflare challenge).
+2026-10-14T03:16:08.466Z INFO  Done. 0 entities saved for 1 search term(s).
+2026-10-14T03:16:08.577Z ERROR [Status message]: Georgia eCorp blocked the run (Cloudflare challenge) or could not be searched. Nothing was charged. Try again later or use a different proxy group.

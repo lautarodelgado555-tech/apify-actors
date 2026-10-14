@@ -1,0 +1,123 @@
+{
+  "data": {
+    "id": "Sx5pVGOsuDU1kfSIj",
+    "actId": "K00frZ6BNGl5gHKPc",
+    "userId": "ejg6JY7N3cozjC5Ny",
+    "startedAt": "2026-10-14T03:16:18.964Z",
+    "finishedAt": "2026-10-14T03:19:04.486Z",
+    "status": "FAILED",
+    "statusMessage": "Georgia eCorp blocked the run (Cloudflare challenge) or could not be searched. Nothing was charged. Try again later or use a different proxy group.",
+    "isStatusMessageTerminal": true,
+    "meta": {
+      "origin": "API",
+      "userAgent": "curl/8.5.0"
+    },
+    "stats": {
+      "inputBodyLen": 240,
+      "migrationCount": 0,
+      "rebootCount": 0,
+      "restartCount": 0,
+      "durationMillis": 165352,
+      "resurrectCount": 0,
+      "runTimeSecs": 165.352,
+      "metamorph": 0,
+      "computeUnits": 0.09186222222222222,
+      "memAvgBytes": 335688680.2839769,
+      "memMaxBytes": 565948416,
+      "memCurrentBytes": 0,
+      "cpuAvgUsage": 23.702945686488622,
+      "cpuMaxUsage": 209.65462420382167,
+      "cpuCurrentUsage": 0,
+      "netRxBytes": 349349,
+      "netTxBytes": 150467
+    },
+    "options": {
+      "build": "latest",
+      "timeoutSecs": 900,
+      "memoryMbytes": 2048,
+      "maxTotalChargeUsd": 4.491572,
+      "maxItems": null,
+      "isMaxTotalChargeUsdSetByUser": false,
+      "diskMbytes": 4096
+    },
+    "buildId": "3f8CNUHSFcQgpZg1I",
+    "exitCode": 1,
+    "defaultKeyValueStoreId": "A2ClhqQKbSzNzR6Ko",
+    "defaultDatasetId": "jPraAuLlRmgFT0YqR",
+    "defaultRequestQueueId": "XGCvxZx5ZprsY4AGu",
+    "storageIds": {
+      "keyValueStores": {
+        "default": "A2ClhqQKbSzNzR6Ko"
+      },
+      "datasets": {
+        "default": "jPraAuLlRmgFT0YqR"
+      },
+      "requestQueues": {
+        "default": "XGCvxZx5ZprsY4AGu"
+      }
+    },
+    "pricingInfo": {
+      "pricingModel": "PAY_PER_EVENT",
+      "createdAt": "2026-10-14T02:58:41.632Z",
+      "startedAt": "2026-10-14T02:58:41.632Z",
+      "apifyMarginPercentage": 0.2,
+      "pricingPerEvent": {
+        "actorChargeEvents": {
+          "result": {
+            "eventTitle": "Entity record",
+            "eventDescription": "One Georgia business entity returned, with details when enabled.",
+            "isPrimaryEvent": true,
+            "eventPriceUsd": 0.005
+          }
+        }
+      }
+    },
+    "chargedEventCounts": {
+      "result": 0
+    },
+    "platformUsageBillingModel": "USER",
+    "accountedChargedEventCounts": {
+      "result": 0
+    },
+    "standby": null,
+    "generalAccess": "FOLLOW_USER_SETTING",
+    "buildNumber": "0.1.4",
+    "containerUrl": "https://5tnnpxrexxdl.runs.apify.net",
+    "usage": {
+      "ACTOR_COMPUTE_UNITS": 0.09186222222222222,
+      "DATASET_READS": 0,
+      "DATASET_WRITES": 0,
+      "KEY_VALUE_STORE_READS": 1,
+      "KEY_VALUE_STORE_WRITES": 4,
+      "KEY_VALUE_STORE_LISTS": 0,
+      "REQUEST_QUEUE_READS": 0,
+      "REQUEST_QUEUE_WRITES": 0,
+      "DATA_TRANSFER_INTERNAL_GBYTES": 0.00009449571371078491,
+      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.00013753771781921387,
+      "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
+      "PROXY_SERPS": 0,
+      "PROXY_UNBLOCKER_UNITS": 0
+    },
+    "usageTotalUsd": 0.016805547787600093,
+    "usageUsd": {
+      "ACTOR_COMPUTE_UNITS": 0.018372444444444445,
+      "DATASET_READS": 0,
+      "DATASET_WRITES": 0,
+      "KEY_VALUE_STORE_READS": 0.000005,
+      "KEY_VALUE_STORE_WRITES": 0.0002,
+      "KEY_VALUE_STORE_LISTS": 0,
+      "REQUEST_QUEUE_READS": 0,
+      "REQUEST_QUEUE_WRITES": 0,
+      "DATA_TRANSFER_INTERNAL_GBYTES": 0.000004724785685539246,
+      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.000027507543563842773,
+      "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
+      "PROXY_SERPS": 0,
+      "PROXY_UNBLOCKER_UNITS": 0
+    },
+    "consoleUrl": "https://console.apify.com/view/runs/Sx5pVGOsuDU1kfSIj",
+    "output": {
+      "entities": "https://api.apify.com/v2/datasets/jPraAuLlRmgFT0YqR/items?signature=MC4wLnpKU2NqSHNMM0F5MWVlVXBCbjUx",
+      "entitiesCsv": "https://api.apify.com/v2/datasets/jPraAuLlRmgFT0YqR/items?format=csv&signature=MC4wLnpKU2NqSHNMM0F5MWVlVXBCbjUx"
+    }
+  }
+}

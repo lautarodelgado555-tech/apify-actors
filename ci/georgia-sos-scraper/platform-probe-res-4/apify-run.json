@@ -1,0 +1,121 @@
+{
+  "data": {
+    "id": "dfA1JDmOg1geJBpbB",
+    "actId": "K00frZ6BNGl5gHKPc",
+    "userId": "ejg6JY7N3cozjC5Ny",
+    "startedAt": "2026-10-14T03:11:26.347Z",
+    "finishedAt": "2026-10-14T03:11:31.714Z",
+    "status": "SUCCEEDED",
+    "meta": {
+      "origin": "API",
+      "userAgent": "curl/8.5.0"
+    },
+    "stats": {
+      "inputBodyLen": 300,
+      "migrationCount": 0,
+      "rebootCount": 0,
+      "restartCount": 0,
+      "durationMillis": 5176,
+      "resurrectCount": 0,
+      "runTimeSecs": 5.176,
+      "metamorph": 0,
+      "computeUnits": 0.0028755555555555557,
+      "memAvgBytes": 374556520.76607907,
+      "memMaxBytes": 568270848,
+      "memCurrentBytes": 0,
+      "cpuAvgUsage": 136.95554545430596,
+      "cpuMaxUsage": 204.36707672796447,
+      "cpuCurrentUsage": 0,
+      "netRxBytes": 33466,
+      "netTxBytes": 11613
+    },
+    "options": {
+      "build": "latest",
+      "timeoutSecs": 900,
+      "memoryMbytes": 2048,
+      "maxTotalChargeUsd": 4.533541,
+      "maxItems": null,
+      "isMaxTotalChargeUsdSetByUser": false,
+      "diskMbytes": 4096
+    },
+    "buildId": "3f8CNUHSFcQgpZg1I",
+    "exitCode": 0,
+    "defaultKeyValueStoreId": "h0tiXAahmtSBaykWu",
+    "defaultDatasetId": "PsCRgKhaUmB9mTccB",
+    "defaultRequestQueueId": "S4FwvXstfkRyceo5x",
+    "storageIds": {
+      "keyValueStores": {
+        "default": "h0tiXAahmtSBaykWu"
+      },
+      "datasets": {
+        "default": "PsCRgKhaUmB9mTccB"
+      },
+      "requestQueues": {
+        "default": "S4FwvXstfkRyceo5x"
+      }
+    },
+    "pricingInfo": {
+      "pricingModel": "PAY_PER_EVENT",
+      "createdAt": "2026-10-14T02:58:41.632Z",
+      "startedAt": "2026-10-14T02:58:41.632Z",
+      "apifyMarginPercentage": 0.2,
+      "pricingPerEvent": {
+        "actorChargeEvents": {
+          "result": {
+            "eventTitle": "Entity record",
+            "eventDescription": "One Georgia business entity returned, with details when enabled.",
+            "isPrimaryEvent": true,
+            "eventPriceUsd": 0.005
+          }
+        }
+      }
+    },
+    "chargedEventCounts": {
+      "result": 0
+    },
+    "platformUsageBillingModel": "USER",
+    "accountedChargedEventCounts": {
+      "result": 0
+    },
+    "standby": null,
+    "generalAccess": "FOLLOW_USER_SETTING",
+    "buildNumber": "0.1.4",
+    "containerUrl": "https://hj7hppcfpfyl.runs.apify.net",
+    "usage": {
+      "ACTOR_COMPUTE_UNITS": 0.0028755555555555557,
+      "DATASET_READS": 0,
+      "DATASET_WRITES": 0,
+      "KEY_VALUE_STORE_READS": 1,
+      "KEY_VALUE_STORE_WRITES": 1,
+      "KEY_VALUE_STORE_LISTS": 0,
+      "REQUEST_QUEUE_READS": 0,
+      "REQUEST_QUEUE_WRITES": 0,
+      "DATA_TRANSFER_INTERNAL_GBYTES": 0,
+      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.000010815449059009552,
+      "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
+      "PROXY_SERPS": 0,
+      "PROXY_UNBLOCKER_UNITS": 0
+    },
+    "usageTotalUsd": 0.0006322742009229131,
+    "usageUsd": {
+      "ACTOR_COMPUTE_UNITS": 0.0005751111111111112,
+      "DATASET_READS": 0,
+      "DATASET_WRITES": 0,
+      "KEY_VALUE_STORE_READS": 0.000005,
+      "KEY_VALUE_STORE_WRITES": 0.00005,
+      "KEY_VALUE_STORE_LISTS": 0,
+      "REQUEST_QUEUE_READS": 0,
+      "REQUEST_QUEUE_WRITES": 0,
+      "DATA_TRANSFER_INTERNAL_GBYTES": 0,
+      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.0000021630898118019103,
+      "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
+      "PROXY_SERPS": 0,
+      "PROXY_UNBLOCKER_UNITS": 0
+    },
+    "consoleUrl": "https://console.apify.com/view/runs/dfA1JDmOg1geJBpbB",
+    "output": {
+      "entities": "https://api.apify.com/v2/datasets/PsCRgKhaUmB9mTccB/items?signature=MC4wLkYxV0VHUFZCSnZ2aDNKWTNUWXoz",
+      "entitiesCsv": "https://api.apify.com/v2/datasets/PsCRgKhaUmB9mTccB/items?format=csv&signature=MC4wLkYxV0VHUFZCSnZ2aDNKWTNUWXoz"
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "data": {
+    "id": "lT1xelQTlkkewh7Fc",
+    "actId": "K00frZ6BNGl5gHKPc",
+    "userId": "ejg6JY7N3cozjC5Ny",
+    "startedAt": "2026-10-14T03:10:42.625Z",
+    "finishedAt": "2026-10-14T03:13:27.522Z",
+    "status": "FAILED",
+    "statusMessage": "Georgia eCorp blocked the run (Cloudflare challenge) or could not be searched. Nothing was charged. Try again later or use a different proxy group.",
+    "isStatusMessageTerminal": true,
+    "meta": {
+      "origin": "API",
+      "userAgent": "curl/8.5.0"
+    },
+    "stats": {
+      "inputBodyLen": 240,
+      "migrationCount": 0,
+      "rebootCount": 0,
+      "restartCount": 0,
+      "durationMillis": 164745,
+      "resurrectCount": 0,
+      "runTimeSecs": 164.745,
+      "metamorph": 0,
+      "computeUnits": 0.091525,
+      "memAvgBytes": 329091721.01248205,
+      "memMaxBytes": 537657344,
+      "memCurrentBytes": 0,
+      "cpuAvgUsage": 24.75519776964855,
+      "cpuMaxUsage": 187.54501563477172,
+      "cpuCurrentUsage": 0,
+      "netRxBytes": 338773,
+      "netTxBytes": 149697
+    },
+    "options": {
+      "build": "latest",
+      "timeoutSecs": 900,
+      "memoryMbytes": 2048,
+      "maxTotalChargeUsd": 4.533541,
+      "maxItems": null,
+      "isMaxTotalChargeUsdSetByUser": false,
+      "diskMbytes": 4096
+    },
+    "buildId": "3f8CNUHSFcQgpZg1I",
+    "exitCode": 1,
+    "defaultKeyValueStoreId": "QtpmEORNWybMyebFa",
+    "defaultDatasetId": "vp3GHK2qWstm22i0J",
+    "defaultRequestQueueId": "ASIkNxSgMgpdvtdWb",
+    "storageIds": {
+      "keyValueStores": {
+        "default": "QtpmEORNWybMyebFa"
+      },
+      "datasets": {
+        "default": "vp3GHK2qWstm22i0J"
+      },
+      "requestQueues": {
+        "default": "ASIkNxSgMgpdvtdWb"
+      }
+    },
+    "pricingInfo": {
+      "pricingModel": "PAY_PER_EVENT",
+      "createdAt": "2026-10-14T02:58:41.632Z",
+      "startedAt": "2026-10-14T02:58:41.632Z",
+      "apifyMarginPercentage": 0.2,
+      "pricingPerEvent": {
+        "actorChargeEvents": {
+          "result": {
+            "eventTitle": "Entity record",
+            "eventDescription": "One Georgia business entity returned, with details when enabled.",
+            "isPrimaryEvent": true,
+            "eventPriceUsd": 0.005
+          }
+        }
+      }
+    },
+    "chargedEventCounts": {
+      "result": 0
+    },
+    "platformUsageBillingModel": "USER",
+    "accountedChargedEventCounts": {
+      "result": 0
+    },
+    "standby": null,
+    "generalAccess": "FOLLOW_USER_SETTING",
+    "buildNumber": "0.1.4",
+    "containerUrl": "https://hxwd9mi5yvai.runs.apify.net",
+    "usage": {
+      "ACTOR_COMPUTE_UNITS": 0.091525,
+      "DATASET_READS": 0,
+      "DATASET_WRITES": 0,
+      "KEY_VALUE_STORE_READS": 1,
+      "KEY_VALUE_STORE_WRITES": 4,
+      "KEY_VALUE_STORE_LISTS": 0,
+      "REQUEST_QUEUE_READS": 0,
+      "REQUEST_QUEUE_WRITES": 0,
+      "DATA_TRANSFER_INTERNAL_GBYTES": 0.00009452644735574722,
+      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.00013682059943675995,
+      "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
+      "PROXY_SERPS": 0,
+      "PROXY_UNBLOCKER_UNITS": 0
+    },
+    "usageTotalUsd": 0.014573593429858487,
+    "usageUsd": {
+      "ACTOR_COMPUTE_UNITS": 0.018305,
+      "DATASET_READS": 0,
+      "DATASET_WRITES": 0,
+      "KEY_VALUE_STORE_READS": 0.000005,
+      "KEY_VALUE_STORE_WRITES": 0.0002,
+      "KEY_VALUE_STORE_LISTS": 0,
+      "REQUEST_QUEUE_READS": 0,
+      "REQUEST_QUEUE_WRITES": 0,
+      "DATA_TRANSFER_INTERNAL_GBYTES": 0.0000047263223677873615,
+      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.00002736411988735199,
+      "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
+      "PROXY_SERPS": 0,
+      "PROXY_UNBLOCKER_UNITS": 0
+    },
+    "consoleUrl": "https://console.apify.com/view/runs/lT1xelQTlkkewh7Fc",
+    "output": {
+      "entities": "https://api.apify.com/v2/datasets/vp3GHK2qWstm22i0J/items?signature=MC4wLlJzNDBlY01QMG16YTBrQkdUYVhv",
+      "entitiesCsv": "https://api.apify.com/v2/datasets/vp3GHK2qWstm22i0J/items?format=csv&signature=MC4wLlJzNDBlY01QMG16YTBrQkdUYVhv"
+    }
+  }
+}
