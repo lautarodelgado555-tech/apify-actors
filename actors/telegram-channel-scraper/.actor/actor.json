@@ -1,0 +1,17 @@
+{
+  "actorSpecification": 1,
+  "name": "telegram-channel-scraper",
+  "title": "Telegram Channel Scraper & Monitor - Public Posts",
+  "description": "Scrape public Telegram channels from the t.me web preview: full message history, views, reactions, forwards, replies, polls, links and media metadata. Date ranges, keyword filters and incremental monitoring included. No login or API key.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "input": "./input_schema.json",
+  "dockerfile": "../Dockerfile",
+  "readme": "../README.md",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "minMemoryMbytes": 256,
+  "maxMemoryMbytes": 4096,
+  "output": "./output_schema.json"
+}

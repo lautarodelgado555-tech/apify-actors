@@ -1,0 +1,114 @@
+{
+  "title": "Telegram Channel Scraper & Monitor",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "channels": {
+      "title": "Public channels",
+      "type": "array",
+      "description": "Usernames or links of PUBLIC Telegram channels, one per line. Accepted forms: `telegram`, `@durov`, `https://t.me/bbcrussian`, `https://t.me/s/contest`. Private channels, invite links (`t.me/+...`) and groups without a public preview are skipped and never charged. You can add hundreds of channels in one run.",
+      "editor": "stringList",
+      "prefill": ["telegram"],
+      "minItems": 1
+    },
+    "maxMessages": {
+      "title": "Max messages per channel",
+      "type": "integer",
+      "description": "Stop after this many messages for each channel (newest first). Messages that do not pass your filters or date range do not count. Free plan: capped at 10 per channel.",
+      "default": 100,
+      "prefill": 20,
+      "minimum": 1,
+      "maximum": 1000000
+    },
+    "dateFrom": {
+      "title": "Only messages from (date)",
+      "type": "string",
+      "description": "Backfill start: skip messages older than this. Accepts `2026-09-01`, an ISO timestamp, or a relative value such as `7 days` or `2 weeks`. Leave empty to go back as far as `maxMessages` allows (Telegram keeps the complete channel history in the preview).",
+      "editor": "textfield"
+    },
+    "dateTo": {
+      "title": "Only messages until (date)",
+      "type": "string",
+      "description": "Backfill end (inclusive): skip messages newer than this. A date without time means the end of that day (UTC). The Actor jumps straight to that point of the archive instead of walking from the newest message.",
+      "editor": "textfield"
+    },
+    "incremental": {
+      "title": "Incremental mode (only new messages)",
+      "type": "boolean",
+      "description": "Remember the last message id seen per channel in a named key-value store and, on the next run, return only newer messages (oldest first). The first run returns the latest `maxMessages` and records the starting point. Ideal for scheduled monitoring: if more new messages than `maxMessages` are waiting, the next run continues exactly where this one stopped.",
+      "default": false
+    },
+    "stateStoreName": {
+      "title": "Incremental state store name",
+      "type": "string",
+      "description": "Name of the key-value store that remembers the last message id per channel. Use a different name for each independent monitoring job (for example one per schedule).",
+      "default": "telegram-channel-scraper-state",
+      "editor": "textfield"
+    },
+    "includeKeywords": {
+      "title": "Keywords to include",
+      "type": "array",
+      "description": "Keep only messages whose text, link preview or poll question contains at least one of these words or phrases (case-insensitive).",
+      "editor": "stringList"
+    },
+    "excludeKeywords": {
+      "title": "Keywords to exclude",
+      "type": "array",
+      "description": "Drop messages that contain any of these words or phrases (case-insensitive). Exclusion wins over inclusion.",
+      "editor": "stringList"
+    },
+    "includeRegex": {
+      "title": "Regex to include",
+      "type": "string",
+      "description": "JavaScript regular expression (case-insensitive). A message is kept if it matches this expression or one of the include keywords. Example: `\\b(airdrop|listing)\\b`.",
+      "editor": "textfield"
+    },
+    "excludeRegex": {
+      "title": "Regex to exclude",
+      "type": "string",
+      "description": "JavaScript regular expression (case-insensitive). Messages that match are dropped. Example: `^(ad|sponsored)\\b`.",
+      "editor": "textfield"
+    },
+    "extractLinks": {
+      "title": "Extract links, mentions and hashtags",
+      "type": "boolean",
+      "description": "Add `links` (external URLs in the text), `mentions` (@usernames) and `hashtags` arrays to every message.",
+      "default": true
+    },
+    "includeHtml": {
+      "title": "Include formatted HTML",
+      "type": "boolean",
+      "description": "Keep the message's formatting (bold, italics, links, quotes) as clean HTML in the `html` field next to the plain `text`. Turn off for smaller rows.",
+      "default": true
+    },
+    "includeServiceMessages": {
+      "title": "Include service messages",
+      "type": "boolean",
+      "description": "Also return system messages such as `pinned a message` or `channel name was changed`. Off by default.",
+      "default": false
+    },
+    "maxConcurrency": {
+      "title": "Channels in parallel",
+      "type": "integer",
+      "description": "How many channels are scraped at the same time. 5 is polite and fast; lower it if you see rate-limit warnings.",
+      "default": 5,
+      "minimum": 1,
+      "maximum": 20
+    },
+    "maxPagesPerChannel": {
+      "title": "Safety limit: pages per channel",
+      "type": "integer",
+      "description": "Each page holds up to 20 messages. This caps how deep the Actor walks into a channel's history when your filters match rarely. Raise it for very deep keyword searches.",
+      "default": 1000,
+      "minimum": 1,
+      "maximum": 50000
+    },
+    "proxyConfiguration": {
+      "title": "Proxy (optional)",
+      "type": "object",
+      "description": "Not needed in normal use. If Telegram rate-limits your runs, enable Apify datacenter proxy: the Actor rotates the proxy session automatically after a 429.",
+      "editor": "proxy"
+    }
+  },
+  "required": ["channels"]
+}

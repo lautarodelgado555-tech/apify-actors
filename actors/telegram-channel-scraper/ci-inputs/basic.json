@@ -1,0 +1,6 @@
+{
+  "channels": ["telegram", "@durov", "https://t.me/s/contest"],
+  "maxMessages": 25,
+  "extractLinks": true,
+  "includeHtml": true
+}

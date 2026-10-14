@@ -1,0 +1,25 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Output of Telegram Channel Scraper & Monitor - Public Posts",
+  "description": "One record per message of the public Telegram channels you asked for, with text, views, reactions, forwards, replies, polls, links and media metadata.",
+  "properties": {
+    "messages": {
+      "type": "string",
+      "title": "Messages",
+      "description": "All messages as JSON. Append ?format=csv or ?format=xlsx to the URL for other formats.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items"
+    },
+    "messagesCsv": {
+      "type": "string",
+      "title": "Messages (CSV)",
+      "description": "The same messages as a CSV file, one message per row.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items?format=csv"
+    },
+    "summary": {
+      "type": "string",
+      "title": "Run summary",
+      "description": "Per-channel result of the run: status, messages returned, pages read, and (in incremental mode) the last message id stored.",
+      "template": "{{links.apiDefaultKeyValueStoreUrl}}/records/SUMMARY"
+    }
+  }
+}

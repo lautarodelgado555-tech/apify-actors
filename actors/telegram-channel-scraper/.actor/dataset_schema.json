@@ -1,0 +1,40 @@
+{
+  "actorSpecification": 1,
+  "fields": {},
+  "views": {
+    "overview": {
+      "title": "Messages",
+      "transformation": {
+        "fields": [
+          "channel",
+          "channelTitle",
+          "messageId",
+          "date",
+          "text",
+          "views",
+          "reactionsTotal",
+          "forwardedFrom",
+          "mediaTypes",
+          "edited",
+          "url"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "channel": { "label": "Channel", "format": "text" },
+          "channelTitle": { "label": "Title", "format": "text" },
+          "messageId": { "label": "Message id", "format": "number" },
+          "date": { "label": "Date", "format": "date" },
+          "text": { "label": "Text", "format": "text" },
+          "views": { "label": "Views", "format": "number" },
+          "reactionsTotal": { "label": "Reactions", "format": "number" },
+          "forwardedFrom": { "label": "Forwarded from", "format": "object" },
+          "mediaTypes": { "label": "Media", "format": "array" },
+          "edited": { "label": "Edited", "format": "boolean" },
+          "url": { "label": "Link", "format": "link" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "channels": ["durov", "contest"],
+  "maxMessages": 5,
+  "incremental": true,
+  "stateStoreName": "ci-state"
+}
