@@ -1,0 +1,277 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta id="viewport" name="viewport" content="user-scalable=0, width=device-width, height=device-height, initial-scale=0.5, maximum-scale=0.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GEORGIA</title>
+    <link href="/Themes/CSS/Styles?v=Zg5mvax9ru3G0Vr5izUJdPH0jjJ6wtthi2dPqDAi_201" rel="stylesheet"/>
+
+    <script src="/Scripts/Script?v=8X2IDPh1LaRe4erLuQcGu5zpE8N1cVf-nEWZkD0RhvQ1"></script>
+
+
+    
+    
+    <script type="text/javascript">
+        function submitBack() {
+            if ($('#hdnIsMergerReturn').val()) {
+                $.submitForm('/Merger', { isBack: true });
+            }
+            else if ($('#hdnIsShareExchangeReturn').val()) {
+                $.submitForm('/ShareExchange', { isBack: true });
+            }
+            else {
+                $.submitForm('/BusinessSearch', { isBack: true });
+            }
+        }
+
+        function filenotfound() {
+            errorDialog("File not found.");
+        }
+
+        //pagenation
+        $xhtml.init({
+            url: '/BusinessSearch/NameReservationFilingList',
+            sortBy: '',
+            sortType: "a",
+            nodeNum: -1,
+            pageIdx: 1,
+            local: false,
+            headerRowId: "ListRow_xhtml_grid",
+            updateTargetId: "tdBusinessFiling",
+            data: { businessid: '3931787' }
+        });
+
+    </script>
+
+<script type="text/javascript">
+    $helper = function ()
+    {
+        var config =
+        {
+            commerceHubSettings:
+            {
+                environment: 'PROD',
+                baseUrl: 'https://connect.fiservapis.com/ch/',
+                merchantId: '100106000000137',
+                terminalId: '10000001',
+                apiKey: 'OPoAc67m119kkZcWlHxdAWWbgyS83MCGcv2LovHI7NPwvff6',
+                domainWhiteList: 'http://localhost:51351/,https://localhost:51351/',
+                pageId: '2fa919c0-1edf-429a-903e-56decac5b1ac',
+                pageVersion: '1',
+                showGenericError: 'false'.toString().toLowerCase(),
+                genericError: 'Something went wrong while authorizing your card. You may want to try again or use a different payment method.'
+            }
+        };
+
+        return {
+            config: config
+        };
+    }();
+</script>   
+
+    <script type="text/javascript">
+        $v.messagebox = function (msg) {
+            errorDialog(msg, true);
+        };
+
+        $(function () {
+            if ($("#_errorElement_").val() != "") {
+                errorDialog($("#_errorElement_").val());
+            }
+        });
+
+
+        function ShowReportDialog() {
+            var top = (($(window).height() - 400) / 2);
+            var left = (($(window).width() - 700) / 2);
+            var reportUs = window.open("/Home/ReportUs", "Report", "width=700, height=400, left=" + left + ", top=" + top + ", toolbar=0, status=1");
+            reportUs.focus();
+            return false;
+        }
+    </script>
+    <style type="text/css">
+        .uatBg {
+            background: #2d2d2f url('../../Themes/base/Images/ga_uat.png') repeat 100% !important; /*#36598a*/
+        }
+    </style>
+
+</head>
+<body class="loginbody">
+    <input type="hidden" id="_errorElement_" value="" />
+    <table class="header_color" width="100%" border="0" cellspacing="0" cellpadding="8">
+        <tbody>
+            <tr>
+                <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td width="100" align="center" valign="middle">
+                                    <img src="/Themes/base/images/sos-logo.PNG">
+                                </td>
+                                <td valign="middle" class="header_left">
+                                    <div class="header_txt">
+                                        Georgia<br>
+                                        Corporations Division 
+                                    </div>
+                                </td>
+                                <td align="right">
+                                    <span class="header_small_title">GEORGIA SECRETARY OF STATE</span><br>
+                                    <span class="header_txt">BRAD RAFFENSPERGER</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+<div class='right_content'><div style='width:100%;text-align:right;font-weight:bold;'><a href='/'>HOME</a>&nbsp;&nbsp;</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+    <tr>
+        <td class="border_pagetitle">
+            <div class="pagetitle">
+
+                <table border="0" cellspacing="0" cellpadding="0">
+
+                    <tr>
+                        <td class="title_bg">Name Reservation Search</td>
+                        <td align="left">
+                            <img src="/Themes/CRDBase/images/corver.png" width="27" height="30" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <div class="data_pannel">
+                <table width="100%">
+                    <tr class="inner_databg">
+                        <td align="left" colspan="2">Business Name</td>
+                    </tr>
+                </table>
+                <table border="0" cellspacing="0" cellpadding="4" width="100%">
+                    <tr>
+                        <td align="right" width="20%">
+                            Business Name:
+                        </td>
+                        <td align="left" width="80%">
+                            <strong>36 Delta Delta</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" width="20%">
+                            Effective and Expiration Date:
+                        </td>
+                        <td align="left" width="80%">
+                                <strong>04/20/2023 - 05/20/2023</strong>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="data_pannel">
+                <table width="100%">
+                    <tr class="inner_databg">
+                        <td colspan="2">
+                            Reserved For
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td align="right" width="20%">Name:</td>
+                        <td align="left" width="80%"><strong>William D. Moorhead III</strong></td>
+                    </tr>
+                    <tr>
+                        <td align="right" width="20%">Address:</td>
+                        <td align="left" width="80%"><strong>314 Residence Avenue, Albany, GA, 31701, USA</strong></td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="data_pannel">
+                <table width="100%">
+                    <tr>
+                        <td class="inner_databg" colspan="2">
+                            Filer Information
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                                <tr>
+
+                                    <td align="right" width="20%">Name:</td>
+                                    <td align="left" width="80%"><strong>William D. Moorhead III</strong></td>
+
+                                </tr>
+                                <tr>
+                                    <td align="right" width="20%">Address:</td>
+                                    <td align="left" width="80%"><strong>314 Residence Avenue, Albany, GA, 31701, USA</strong></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table width="100%">
+                <tr>
+                    <td style="width: 150px;">
+                        <input type="button" name="" value="Back" class="button" onclick="submitBack()" />
+                    </td>
+                    <td style="text-align: center">
+                        <input type="button" name="Reset" value="Return to Business Search" class="button btnBack" onclick="window.location.href='/BusinessSearch'" />
+                    </td>
+                    <td style="width: 150px;"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<br />
+<br />
+<iframe name="frmTemp" id="frmTemp" style="display: none;"></iframe>
+<form action="/BusinessSearch/DownloadFile" method="post" id="frmDownload" target="frmTemp" style="display:none;" dialog="true">
+    <input type="hidden" name="documentId" id="hdnDocumentID" />
+</form>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="footer">
+                Office of the Georgia Secretary of State Attn: 2 MLK, Jr. Dr. Suite 313, Floyd West Tower Atlanta, GA 30334-1530, Phone: (404) 656-2817 Toll-free: (844) 753-7825, WEBSITE: https://sos.ga.gov/
+                <br />© 2015 PCC Technology Group. All Rights Reserved. Version 6.2.19
+                 <span style="float: right; padding-right: 10px"><a href="javascript:void(0);" onclick="javascript:return ShowReportDialog();" style="color: #FFF; font-weight: bold; font-size: 8pt">Report a Problem?</a></span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) 
+<script src="js/jquery.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed 
+<script src="js/bootstrap.js"></script>-->
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4a32afa885fcfbc',t:'MTc5MTk0NTA4Nw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
