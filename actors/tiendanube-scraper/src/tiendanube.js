@@ -768,7 +768,7 @@ export function parseStoreProfile(html) {
             currency: store.main_currency || null,
             language: store.main_language || null,
             logo: store.logo || null,
-            createdAt: store.created_at || null,
+            createdAt: store.created_at && !Number.isNaN(Date.parse(store.created_at)) ? new Date(Date.parse(store.created_at)).toISOString() : null,
             description: clean(loc(store.description, lang)) || info.description,
         };
         for (const e of [store.email, store.contact_email]) if (e && validEmail(String(e).toLowerCase())) contacts.emails.unshift(String(e).toLowerCase());

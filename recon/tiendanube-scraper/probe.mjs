@@ -163,4 +163,34 @@ for (const r of cfg.rate || []) {
   if (first) say(`  first non-200: ${JSON.stringify(first)}`);
 }
 
+
+// 6) distinct-page crawl: take N product URLs from a store's sitemap and fetch them at a given concurrency
+for (const c of cfg.crawl || []) {
+  say(`== CRAWL ${c.sitemap} n=${c.n} conc=${c.concurrency}`);
+  const sm = await get(c.sitemap, { max: 10 });
+  const urls = locsOf(sm.text).filter(isProduct).slice(0, c.n);
+  const counts = {};
+  const lat = [];
+  let first = null;
+  let idx = 0;
+  const t0 = Date.now();
+  const worker = async () => {
+    while (idx < urls.length) {
+      const u = urls[idx++];
+      const t1 = Date.now();
+      try {
+        const res = await fetch(u, { headers: { 'user-agent': UA, 'accept-language': 'es' }, redirect: 'follow', signal: AbortSignal.timeout(30000) });
+        const body = await res.text();
+        counts[res.status] = (counts[res.status] || 0) + 1;
+        lat.push(Date.now() - t1);
+        if (res.status !== 200 && !first) first = { url: u, status: res.status, headers: Object.fromEntries(res.headers.entries()), body: body.slice(0, 600) };
+      } catch (e) { counts.err = (counts.err || 0) + 1; }
+    }
+  };
+  await Promise.all(Array.from({ length: c.concurrency }, worker));
+  lat.sort((a, b) => a - b);
+  say(`  urls=${urls.length} counts=${JSON.stringify(counts)} elapsed=${Date.now() - t0}ms p50=${lat[Math.floor(lat.length / 2)]}ms p95=${lat[Math.floor(lat.length * 0.95)]}ms`);
+  if (first) say(`  first non-200: ${JSON.stringify(first)}`);
+}
+
 fs.writeFileSync(path.join(out, 'summary.txt'), log.join('\n') + '\n');

@@ -177,7 +177,15 @@ async function mapPool(items, limit, fn) {
 
 // ------------------------------------------------------------------ emitting
 
-async function emit(eventName, item) {
+// Emits are serialized so the free-plan cap and the charge limit are exact even with parallel workers.
+let emitChain = Promise.resolve();
+function emit(eventName, item) {
+    const run = emitChain.then(() => emitNow(eventName, item));
+    emitChain = run.catch(() => {});
+    return run;
+}
+
+async function emitNow(eventName, item) {
     if (stopAll) return false;
     if (state.pushed >= runCap) {
         stopAll = true;

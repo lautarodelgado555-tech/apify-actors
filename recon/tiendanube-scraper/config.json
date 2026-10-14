@@ -1,72 +1,35 @@
 {
- "outDir": "out4",
+ "outDir": "out5",
  "stores": [],
  "pages": [],
  "urls": [],
- "cdx": [
+ "cdx": [],
+ "rate": [],
+ "crawl": [
   {
-   "name": "wayback-mnc-urlkey",
-   "url": "https://web.archive.org/cdx/search/cdx?url=mitiendanube.com&matchType=domain&fl=original&collapse=urlkey&filter=original:https?://[^/]*/?&limit=200000"
+   "sitemap": "https://www.vegpet.com.br/sitemap.xml.gz",
+   "n": 120,
+   "concurrency": 4
   },
   {
-   "name": "wayback-lvn-urlkey",
-   "url": "https://web.archive.org/cdx/search/cdx?url=lojavirtualnuvem.com.br&matchType=domain&fl=original&collapse=urlkey&filter=original:https?://[^/]*/?&limit=200000"
-  }
- ],
- "rate": [
-  {
-   "url": "https://www.vegpet.com.br/produtos/?page=2",
-   "n": 40,
-   "concurrency": 1,
-   "delayMs": 0
+   "sitemap": "https://www.vegpet.com.br/sitemap.xml.gz",
+   "n": 120,
+   "concurrency": 8
   },
   {
-   "url": "https://www.vegpet.com.br/produtos/?page=2",
-   "n": 40,
-   "concurrency": 3,
-   "delayMs": 0
+   "sitemap": "https://dailyskincaremx.com/sitemap.xml",
+   "n": 150,
+   "concurrency": 4
   },
   {
-   "url": "https://www.vegpet.com.br/produtos/?page=2",
-   "n": 40,
-   "concurrency": 6,
-   "delayMs": 0
+   "sitemap": "https://littleprincessbypaulinado.mitiendanube.com/sitemap.xml",
+   "n": 150,
+   "concurrency": 8
   },
   {
-   "url": "https://www.vegpet.com.br/produtos/?page=2",
-   "n": 40,
-   "concurrency": 2,
-   "delayMs": 300
-  },
-  {
-   "url": "https://leelahouse.lojavirtualnuvem.com.br/",
-   "n": 30,
-   "concurrency": 1,
-   "delayMs": 0
-  },
-  {
-   "url": "https://leelahouse.lojavirtualnuvem.com.br/",
-   "n": 30,
-   "concurrency": 4,
-   "delayMs": 0
-  },
-  {
-   "url": "https://leelahouse.lojavirtualnuvem.com.br/",
-   "n": 30,
-   "concurrency": 8,
-   "delayMs": 0
-  },
-  {
-   "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/",
-   "n": 40,
-   "concurrency": 4,
-   "delayMs": 0
-  },
-  {
-   "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/",
-   "n": 40,
-   "concurrency": 8,
-   "delayMs": 0
+   "sitemap": "https://peek-store.com/sitemap.xml",
+   "n": 49,
+   "concurrency": 6
   }
  ]
 }

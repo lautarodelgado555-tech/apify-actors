@@ -283,7 +283,7 @@ test('store profile from a next-generation storefront uses the embedded store ob
     assert.deepEqual(p.contacts.emails, ['peekstoremx@gmail.com']);
     assert.ok(p.contacts.whatsapp.includes('+523315301476'));
     assert.equal(p.contacts.socials.instagram, 'https://instagram.com/peekstoremx');
-    assert.match(p.createdAt, /^2023-10-01/);
+    assert.equal(p.createdAt, '2023-10-01T02:18:01.000Z');
 });
 
 test('incremental snapshot: new, unchanged and changed products', () => {
