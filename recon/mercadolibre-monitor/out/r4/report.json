@@ -1,0 +1,230 @@
+{
+ "flows": [
+  {
+   "kind": "firefox",
+   "open1": {
+    "title": "BGH | Tienda Oficial",
+    "url": "https://www.mercadolibre.com.ar/tienda/bgh"
+   },
+   "href": "https://www.mercadolibre.com.ar/microondas-bgh-mecanico-18l-blanco-b118mb25/p/MLA58756915?pdp_filters=item_id%3AMLA2639626512#polycard_client=mshops-appearance-",
+   "after": {
+    "url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fmicroondas-bgh-mecanico-18l-blanco-b118mb25%2Fp%2FMLA58756915",
+    "title": "Mercado Libre",
+    "wall": true,
+    "len": 38779,
+    "pdp": false,
+    "ld": 0
+   }
+  },
+  {
+   "kind": "chromium",
+   "open1": {
+    "title": "",
+    "url": "https://www.mercadolibre.com.ar/tienda/bgh"
+   },
+   "href": null,
+   "after": null
+  }
+ ],
+ "bundles": [
+  {
+   "s": "https://http2.mlstatic.com/frontend-assets/mshops-web-home/framework.c17f45b7.js",
+   "status": 200,
+   "len": 219651
+  },
+  {
+   "s": "https://http2.mlstatic.com/frontend-assets/mshops-web-home/commons.c24a8dee.js",
+   "status": 200,
+   "len": 99067
+  },
+  {
+   "s": "https://http2.mlstatic.com/frontend-assets/mshops-web-home/eshopType-___eshopId.4227a944.js",
+   "status": 200,
+   "len": 9165
+  }
+ ],
+ "api": [
+  {
+   "g": "",
+   "status": 404,
+   "ct": "application/json; charset=utf-8",
+   "len": 36,
+   "head": "{\"status\":404,\"message\":\"Not Found\"}"
+  },
+  {
+   "g": "/home",
+   "status": 404,
+   "ct": "application/json; charset=utf-8",
+   "len": 36,
+   "head": "{\"status\":404,\"message\":\"Not Found\"}"
+  },
+  {
+   "g": "/search",
+   "status": 404,
+   "ct": "application/json; charset=utf-8",
+   "len": 36,
+   "head": "{\"status\":404,\"message\":\"Not Found\"}"
+  },
+  {
+   "g": "/items",
+   "status": 404,
+   "ct": "application/json; charset=utf-8",
+   "len": 36,
+   "head": "{\"status\":404,\"message\":\"Not Found\"}"
+  },
+  {
+   "g": "/products",
+   "status": 404,
+   "ct": "application/json; charset=utf-8",
+   "len": 36,
+   "head": "{\"status\":404,\"message\":\"Not Found\"}"
+  },
+  {
+   "g": "/components",
+   "status": 404,
+   "ct": "application/json; charset=utf-8",
+   "len": 36,
+   "head": "{\"status\":404,\"message\":\"Not Found\"}"
+  },
+  {
+   "g": "/sections/home",
+   "status": 404,
+   "ct": "application/json; charset=utf-8",
+   "len": 36,
+   "head": "{\"status\":404,\"message\":\"Not Found\"}"
+  },
+  {
+   "g": "/storefront",
+   "status": 404,
+   "ct": "application/json; charset=utf-8",
+   "len": 36,
+   "head": "{\"status\":404,\"message\":\"Not Found\"}"
+  },
+  {
+   "g": "/listing",
+   "status": 404,
+   "ct": "application/json; charset=utf-8",
+   "len": 36,
+   "head": "{\"status\":404,\"message\":\"Not Found\"}"
+  },
+  {
+   "g": "/search?limit=5",
+   "status": 404,
+   "ct": "application/json; charset=utf-8",
+   "len": 36,
+   "head": "{\"status\":404,\"message\":\"Not Found\"}"
+  },
+  {
+   "g": "/items?limit=5",
+   "status": 404,
+   "ct": "application/json; charset=utf-8",
+   "len": 36,
+   "head": "{\"status\":404,\"message\":\"Not Found\"}"
+  }
+ ],
+ "open": [
+  {
+   "u": "https://www.mercadolibre.com.ar/",
+   "status": 200,
+   "len": 540901,
+   "wall": false,
+   "cards": 0,
+   "title": "Mercado Libre Argentina - Envíos Gratis en el día",
+   "finalUrl": "https://www.mercadolibre.com.ar/"
+  },
+  {
+   "u": "https://www.mercadolibre.com.ar/ofertas/supermercado",
+   "status": 200,
+   "len": 1112237,
+   "wall": false,
+   "cards": 160,
+   "title": "Full Súper en Mercado Libre",
+   "finalUrl": "https://www.mercadolibre.com.ar/supermercado/market"
+  },
+  {
+   "u": "https://www.mercadolibre.com.ar/ofertas/farmacia",
+   "status": 200,
+   "len": 38977,
+   "wall": true,
+   "cards": 0,
+   "title": "Mercado Libre",
+   "finalUrl": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fo"
+  },
+  {
+   "u": "https://www.mercadolibre.com.ar/tienda/samsung",
+   "status": 200,
+   "len": 942111,
+   "wall": false,
+   "cards": 0,
+   "title": "",
+   "finalUrl": "https://www.mercadolibre.com.ar/tiendas-oficiales"
+  },
+  {
+   "u": "https://www.mercadolibre.com.ar/tienda/adidas",
+   "status": 200,
+   "len": 510641,
+   "wall": false,
+   "cards": 40,
+   "title": "adidas | Tienda Oficial",
+   "finalUrl": "https://www.mercadolibre.com.ar/tienda/adidas"
+  },
+  {
+   "u": "https://www.mercadolibre.com.mx/tiendas-oficiales",
+   "status": 200,
+   "len": 880294,
+   "wall": false,
+   "cards": 0,
+   "title": "",
+   "finalUrl": "https://www.mercadolibre.com.mx/tiendas-oficiales"
+  },
+  {
+   "u": "https://www.mercadolivre.com.br/lojas-oficiais",
+   "status": 200,
+   "len": 905616,
+   "wall": false,
+   "cards": 0,
+   "title": "",
+   "finalUrl": "https://www.mercadolivre.com.br/lojas-oficiais"
+  },
+  {
+   "u": "https://www.mercadolibre.com.mx/",
+   "status": 200,
+   "len": 511672,
+   "wall": false,
+   "cards": 0,
+   "title": "Mercado Libre México - Envíos Gratis en el día",
+   "finalUrl": "https://www.mercadolibre.com.mx/"
+  },
+  {
+   "u": "https://www.mercadolivre.com.br/",
+   "status": 200,
+   "len": 523666,
+   "wall": false,
+   "cards": 0,
+   "title": "Mercado Livre Brasil - Frete Grátis no mesmo dia",
+   "finalUrl": "https://www.mercadolivre.com.br/"
+  },
+  {
+   "u": "https://www.mercadolibre.cl/",
+   "status": 200,
+   "len": 498090,
+   "wall": false,
+   "cards": 0,
+   "title": "Mercado Libre Chile - Envíos Gratis en el día",
+   "finalUrl": "https://www.mercadolibre.cl/"
+  },
+  {
+   "u": "https://www.mercadolibre.com.co/",
+   "status": 200,
+   "len": 477287,
+   "wall": false,
+   "cards": 0,
+   "title": "Mercado Libre Colombia - Envíos Gratis en el día",
+   "finalUrl": "https://www.mercadolibre.com.co/"
+  }
+ ],
+ "apiPaths": [
+  "search",
+  "component"
+ ]
+}
