@@ -17,9 +17,8 @@ console.log('current pricing:', JSON.stringify(curEvent ?? null), 'isPublic=', c
 const wanted = store.events.message;
 if (cur.isPublic) { console.log('Actor is public: not touching pricing'); process.exit(0); }
 if (curEvent?.eventTieredPricingUsd && JSON.stringify(curEvent.eventTieredPricingUsd) === JSON.stringify(wanted.eventTieredPricingUsd)) { console.log('tiered pricing already in place'); process.exit(0); }
-// Edit the existing record in place (the API wants its createdAt/startedAt/margin kept) instead of sending a brand-new one.
-const edited = { ...ppe, pricingPerEvent: { ...ppe.pricingPerEvent, actorChargeEvents: store.events } };
-const body = { pricingInfos: [edited] };
+// The API wants the existing pricing records first, unchanged, followed by at most one new record.
+const body = { pricingInfos: [...(cur.pricingInfos || []), { pricingModel: 'PAY_PER_EVENT', pricingPerEvent: { actorChargeEvents: store.events } }] };
 const res = await fetch(`${API}/acts/${id}`, { method: 'PUT', headers, body: JSON.stringify(body) });
 const out = await res.json();
 if (out.data) {
