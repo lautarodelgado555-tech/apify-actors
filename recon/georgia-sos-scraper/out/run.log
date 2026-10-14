@@ -1,0 +1,6 @@
+home [fetch] status=403 len=5843 title="Just a moment..." 271ms
+home [gotScraping] ERROR No "exports" main defined in /home/runner/work/apify-actors/apify-actors/node_modules/got-scraping/package.json
+home [impit] status=403 len=6078 title="Just a moment..." 106ms
+home [firefox] status=200 len=28534 title="Just a moment..." 32249ms
+home [chromium] status=200 len=28961 title="Just a moment..." 30447ms
+browser-search [firefox] status=200 len=16378 title="GEORGIA" 6028ms
