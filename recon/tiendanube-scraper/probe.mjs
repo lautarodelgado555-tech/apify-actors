@@ -6,7 +6,7 @@ import zlib from 'node:zlib';
 
 const dir = path.dirname(new URL(import.meta.url).pathname);
 const cfg = JSON.parse(fs.readFileSync(path.join(dir, 'config.json'), 'utf8'));
-const out = path.join(dir, 'out');
+const out = path.join(dir, cfg.outDir || 'out');
 fs.rmSync(out, { recursive: true, force: true });
 fs.mkdirSync(out, { recursive: true });
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36';
@@ -14,10 +14,10 @@ const log = [];
 const say = (s) => { console.log(s); log.push(s); };
 const safe = (s) => s.replace(/[^a-z0-9.]+/gi, '_').slice(0, 90);
 
-async function get(url, { save, max = 400000, headers = {} } = {}) {
+async function get(url, { save, max = 400000, headers = {}, timeout = 30000 } = {}) {
   const t0 = Date.now();
   try {
-    const res = await fetch(url, { headers: { 'user-agent': UA, 'accept-language': 'es-AR,es;q=0.9', accept: '*/*', ...headers }, redirect: 'follow', signal: AbortSignal.timeout(30000) });
+    const res = await fetch(url, { headers: { 'user-agent': UA, 'accept-language': 'es-AR,es;q=0.9', accept: '*/*', ...headers }, redirect: 'follow', signal: AbortSignal.timeout(timeout) });
     let buf = Buffer.from(await res.arrayBuffer());
     const gz = buf.length > 2 && buf[0] === 0x1f && buf[1] === 0x8b;
     if (gz) { try { buf = zlib.gunzipSync(buf); } catch (e) { say(`  gunzip failed ${url}: ${e.message}`); } }
@@ -80,9 +80,15 @@ if (cfg.burst) {
   say(`  codes=${JSON.stringify(codes)} total=${Date.now() - t0}ms`);
 }
 
+// 2b) explicit pages (full size)
+for (const p of cfg.pages || []) {
+  say(`== PAGE ${p.save}`);
+  await get(p.url, { save: p.save, max: p.max || 3000000, timeout: 60000 });
+}
+
 // 3) discovery sources
 for (const [i, u] of (cfg.urls || []).entries()) {
   say(`== URL ${i}`);
-  await get(u, { save: `disc-${i}-${safe(u.replace(/^https?:\/\//, ''))}.txt`, max: 300000 });
+  await get(u, { save: `disc-${i}.txt`, max: 600000, timeout: 120000 });
 }
 fs.writeFileSync(path.join(out, 'summary.txt'), log.join('\n') + '\n');
