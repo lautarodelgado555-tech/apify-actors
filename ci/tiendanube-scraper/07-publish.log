@@ -1,0 +1,6 @@
+publishing lautarodelgado~tiendanube-scraper from actors/tiendanube-scraper/.actor/store.json
+current: isPublic=false pricing=[]
+listing FAILED: {"error":{"type":"schema-validation","message":"Invalid value provided in updatedActor: description must be at most 300 characters long Received \"Scrape Tiendanube (Nuvemshop in Brazil) online stores: products, prices, compare-at prices, varia...\""}}
+pricing FAILED: {"error":{"type":"schema-validation","message":"Invalid value provided in checkAndSanitizePricingInfosModifier[new_record]: Charged event must contain price, title, and description. Received {\"product\":{\"eventTitle\":\"Product\",\"eventDescription\":\"One product returned with price, variants,..."}}
+permissions ok: LIMITED_PERMISSIONS exampleInput=set
+visibility ok: isPublic=false
