@@ -1,35 +1,35 @@
 {
   "data": {
-    "id": "A5RN1KDxHCfHzOibE",
+    "id": "VekZGf1wlc4hXRkSB",
     "actId": "WypRBtkwW8fH12dDE",
     "userId": "ejg6JY7N3cozjC5Ny",
-    "startedAt": "2026-10-14T02:14:59.025Z",
-    "finishedAt": "2026-10-14T02:15:02.644Z",
+    "startedAt": "2026-10-14T02:18:07.927Z",
+    "finishedAt": "2026-10-14T02:18:11.237Z",
     "status": "SUCCEEDED",
-    "statusMessage": "0 messages from 3 channels; free plan limits applied",
+    "statusMessage": "30 messages from 3 channels; free plan limits applied",
     "isStatusMessageTerminal": true,
     "meta": {
       "origin": "API",
       "userAgent": "curl/8.5.0"
     },
     "stats": {
-      "inputBodyLen": 231,
+      "inputBodyLen": 245,
       "migrationCount": 0,
       "rebootCount": 0,
       "restartCount": 0,
-      "durationMillis": 3411,
+      "durationMillis": 3164,
       "resurrectCount": 0,
-      "runTimeSecs": 3.411,
+      "runTimeSecs": 3.164,
       "metamorph": 0,
-      "computeUnits": 0.001895,
-      "memAvgBytes": 57871588.16399287,
-      "memMaxBytes": 87015424,
+      "computeUnits": 0.0017577777777777778,
+      "memAvgBytes": 77691907.03857566,
+      "memMaxBytes": 110804992,
       "memCurrentBytes": 0,
-      "cpuAvgUsage": 44.91209335337595,
-      "cpuMaxUsage": 91.84876574307305,
+      "cpuAvgUsage": 55.16817263879321,
+      "cpuMaxUsage": 82.8165047318612,
       "cpuCurrentUsage": 0,
-      "netRxBytes": 36162,
-      "netTxBytes": 13486
+      "netRxBytes": 127669,
+      "netTxBytes": 45412
     },
     "options": {
       "build": "latest",
@@ -40,40 +40,40 @@
       "isMaxTotalChargeUsdSetByUser": false,
       "diskMbytes": 4096
     },
-    "buildId": "ye3egnoeEfpQPB6OP",
+    "buildId": "VBMWxhgAChB7fLrkg",
     "exitCode": 0,
-    "defaultKeyValueStoreId": "zdKnlG4FE3gE0dfaa",
-    "defaultDatasetId": "QK58NI8qNfvyPBjuy",
-    "defaultRequestQueueId": "pB7RVUHIbn1biT5QS",
+    "defaultKeyValueStoreId": "WApXTEF9EpBUHGjwb",
+    "defaultDatasetId": "7Z0dMzSaL8Dm5WpV9",
+    "defaultRequestQueueId": "SGdihne0ILwKyZegy",
     "storageIds": {
       "keyValueStores": {
-        "default": "zdKnlG4FE3gE0dfaa"
+        "default": "WApXTEF9EpBUHGjwb"
       },
       "datasets": {
-        "default": "QK58NI8qNfvyPBjuy"
+        "default": "7Z0dMzSaL8Dm5WpV9"
       },
       "requestQueues": {
-        "default": "pB7RVUHIbn1biT5QS"
+        "default": "SGdihne0ILwKyZegy"
       }
     },
     "pricingInfo": {
       "pricingModel": "PAY_PER_EVENT",
-      "createdAt": "2026-10-14T02:03:12.792Z",
-      "startedAt": "2026-10-14T02:03:12.792Z",
+      "createdAt": "2026-10-14T02:18:07.395Z",
+      "startedAt": "2026-10-14T02:18:07.395Z",
       "apifyMarginPercentage": 0.2,
       "pricingPerEvent": {
         "actorChargeEvents": {
           "message": {
             "eventTitle": "Message returned",
             "eventDescription": "One message from a public Telegram channel returned to the dataset. Failed channels, private channels and empty results are never charged.",
-            "eventPriceUsd": 0.001,
-            "isPrimaryEvent": true
+            "isPrimaryEvent": true,
+            "eventPriceUsd": 0.001
           }
         }
       }
     },
     "chargedEventCounts": {
-      "message": 0
+      "message": 30
     },
     "platformUsageBillingModel": "USER",
     "accountedChargedEventCounts": {
@@ -81,44 +81,44 @@
     },
     "standby": null,
     "generalAccess": "FOLLOW_USER_SETTING",
-    "buildNumber": "0.1.8",
-    "containerUrl": "https://9aqif2xolzja.runs.apify.net",
+    "buildNumber": "0.1.9",
+    "containerUrl": "https://mwwmdhtvtdig.runs.apify.net",
     "usage": {
-      "ACTOR_COMPUTE_UNITS": 0.001895,
+      "ACTOR_COMPUTE_UNITS": 0.0017577777777777778,
       "DATASET_READS": 0,
-      "DATASET_WRITES": 0,
-      "KEY_VALUE_STORE_READS": 4,
-      "KEY_VALUE_STORE_WRITES": 1,
+      "DATASET_WRITES": 30,
+      "KEY_VALUE_STORE_READS": 1,
+      "KEY_VALUE_STORE_WRITES": 2,
       "KEY_VALUE_STORE_LISTS": 0,
       "REQUEST_QUEUE_READS": 0,
       "REQUEST_QUEUE_WRITES": 0,
-      "DATA_TRANSFER_INTERNAL_GBYTES": 0,
-      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.000012559816241264343,
+      "DATA_TRANSFER_INTERNAL_GBYTES": 0.0000341515988111496,
+      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.000025610439479351044,
       "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
       "PROXY_SERPS": 0,
       "PROXY_UNBLOCKER_UNITS": 0
     },
-    "usageTotalUsd": 0.0004515119632482529,
+    "usageTotalUsd": 0.0006133852233919834,
     "usageUsd": {
-      "ACTOR_COMPUTE_UNITS": 0.000379,
+      "ACTOR_COMPUTE_UNITS": 0.0003515555555555556,
       "DATASET_READS": 0,
-      "DATASET_WRITES": 0,
-      "KEY_VALUE_STORE_READS": 0.00002,
-      "KEY_VALUE_STORE_WRITES": 0.00005,
+      "DATASET_WRITES": 0.00015000000000000001,
+      "KEY_VALUE_STORE_READS": 0.000005,
+      "KEY_VALUE_STORE_WRITES": 0.0001,
       "KEY_VALUE_STORE_LISTS": 0,
       "REQUEST_QUEUE_READS": 0,
       "REQUEST_QUEUE_WRITES": 0,
-      "DATA_TRANSFER_INTERNAL_GBYTES": 0,
-      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.000002511963248252869,
+      "DATA_TRANSFER_INTERNAL_GBYTES": 0.0000017075799405574799,
+      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.000005122087895870209,
       "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
       "PROXY_SERPS": 0,
       "PROXY_UNBLOCKER_UNITS": 0
     },
-    "consoleUrl": "https://console.apify.com/view/runs/A5RN1KDxHCfHzOibE",
+    "consoleUrl": "https://console.apify.com/view/runs/VekZGf1wlc4hXRkSB",
     "output": {
-      "messages": "https://api.apify.com/v2/datasets/QK58NI8qNfvyPBjuy/items?signature=MC4wLjEwUFE2RW9xWGxKM2hicVdaVXdNdw",
-      "messagesCsv": "https://api.apify.com/v2/datasets/QK58NI8qNfvyPBjuy/items?format=csv&signature=MC4wLjEwUFE2RW9xWGxKM2hicVdaVXdNdw",
-      "summary": "https://api.apify.com/v2/key-value-stores/zdKnlG4FE3gE0dfaa/records/SUMMARY?signature=tUI2cseOSKDP5j5O2VL4"
+      "messages": "https://api.apify.com/v2/datasets/7Z0dMzSaL8Dm5WpV9/items?signature=MC4wLkxWWnZsZmZTRXk1SWx0Z1A5WGc4",
+      "messagesCsv": "https://api.apify.com/v2/datasets/7Z0dMzSaL8Dm5WpV9/items?format=csv&signature=MC4wLkxWWnZsZmZTRXk1SWx0Z1A5WGc4",
+      "summary": "https://api.apify.com/v2/key-value-stores/WApXTEF9EpBUHGjwb/records/SUMMARY?signature=1de4mGecosOn50hOFElbS"
     }
   }
 }
