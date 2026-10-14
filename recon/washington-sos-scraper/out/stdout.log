@@ -1,49 +1,13 @@
-probe list-json-nohdr 400 47 "System verification in progress, please wait."
-probe list-form-nohdr 400 47 "System verification in progress, please wait."
-probe detail-nohdr 400 47 "System verification in progress, please wait."
-probe list-json-empty 400 47 "System verification in progress, please wait."
-probe list-form-empty 400 47 "System verification in progress, please wait."
-probe detail-empty 400 47 "System verification in progress, please wait."
-probe list-json-local 400 47 "System verification in progress, please wait."
-probe list-form-local 400 47 "System verification in progress, please wait."
-probe detail-local 400 47 "System verification in progress, please wait."
-probe list-json-junk 400 47 "System verification in progress, please wait."
-probe list-form-junk 400 47 "System verification in progress, please wait."
-probe detail-junk 400 47 "System verification in progress, please wait."
-probe options 200 0 
-console [JavaScript Error: "Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://www.googletagmanager.com/gtag/js?id=G-7B08VE04WV" {file: "https://www.googletagmanager.com/gtag/js?id=G-7B08VE04WV" line: 0}]
-console [JavaScript Error: "Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://challenges.cloudflare.com/turnstile/v0/api.js" {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 0}]
-console [JavaScript Error: "Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://www.datadoghq-browser-agent.com/us3/v5/datadog-rum.js" {file: "https://www.datadoghq-browser-agent.com/us3/v5/datadog-rum.js" line: 0}]
-console [JavaScript Error: "Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://fonts.gstatic.com/s/montserrat/v10/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2" {file: "https://fonts.gstatic.com/s/montserrat/v10/zhcz-_WihjSQC0oH
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console [Cloudflare Turnstile] Error: 600010.
 step 1-home https://ccfs.sos.wa.gov/#/
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Window.fullScreen attribute is deprecated and will be removed in the future." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto/fbE/new/normal?lang=auto" line: 1}]
-console [JavaScript Warning: "InstallTrigger is deprecated and will be removed in the future." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto/fbE/new/normal?lang=auto" line: 1}]
-console [JavaScript Warning: "onmozfullscreenchange is deprecated." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto/fbE/new/normal?lang=auto" line: 1}]
-console [JavaScript Warning: "onmozfullscreenerror is deprecated." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto/fbE/new/normal?lang=auto" line: 1}]
 console Error
 console  Error
 console  Error
@@ -51,49 +15,9 @@ console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
-console [JavaScript Error: "downloadable font: rejected by sanitizer (font-family: "DejaVu Sans" style:normal weight:400 width:100 src index:0) source: (invalid URI)"]
-console [JavaScript Error: "downloadable font: font load failed (font-family: "DejaVu Sans" style:normal weight:400 width:100 src index:0) source: (invalid URI)"]
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
-* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
-* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* AllowWebgl2:false restricts context creation on this system. ()" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto/fbE/new/normal?lang=auto" 
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* AllowWebgl2:false restricts context creation on this system. ()" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto/fbE/new/normal?lang=auto" 
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
 console [Cloudflare Turnstile] Error: 600010.
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Window.fullScreen attribute is deprecated and will be removed in the future." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchxiOSREn8PKM11uo_5PthjGXz5E_wVCDTO1ckPu2von4-1791942505-1.3.1.1-TuOLO0W1UD9n5nVw.1CRHcR2r_FdZDRhCjZp9Z1qcWo/3
-console [JavaScript Warning: "InstallTrigger is deprecated and will be removed in the future." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchxiOSREn8PKM11uo_5PthjGXz5E_wVCDTO1ckPu2von4-1791942505-1.3.1.1-TuOLO0W1UD9n5nVw.1CRHcR2r_FdZDRhCjZp9Z1qcWo/32xpu/0x4AAAAA
-console [JavaScript Warning: "onmozfullscreenchange is deprecated." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchxiOSREn8PKM11uo_5PthjGXz5E_wVCDTO1ckPu2von4-1791942505-1.3.1.1-TuOLO0W1UD9n5nVw.1CRHcR2r_FdZDRhCjZp9Z1qcWo/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto/fbE/f
-console [JavaScript Warning: "onmozfullscreenerror is deprecated." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchxiOSREn8PKM11uo_5PthjGXz5E_wVCDTO1ckPu2von4-1791942505-1.3.1.1-TuOLO0W1UD9n5nVw.1CRHcR2r_FdZDRhCjZp9Z1qcWo/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto/fbE/fa
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
-* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
-* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* AllowWebgl2:false restricts context creation on this system. ()" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchxiOSREn8PKM11uo_5PthjGXz5E_wVCDTO1ckPu2von4-1791942505-1.3.1.1-
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* AllowWebgl2:false restricts context creation on this system. ()" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchxiOSREn8PKM11uo_5PthjGXz5E_wVCDTO1ckPu2von4-1791942505-1.3.1.1-
+console Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://challenges.cloudflare.com') does not match the recipient window's origin ('https://ccfs.sos.wa.gov').
 console Error
 console  Error
 console  Error
@@ -101,40 +25,8 @@ console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
-console [JavaScript Error: "downloadable font: rejected by sanitizer (font-family: "DejaVu Sans" style:normal weight:400 width:100 src index:0) source: (invalid URI)"]
-console [JavaScript Error: "downloadable font: font load failed (font-family: "DejaVu Sans" style:normal weight:400 width:100 src index:0) source: (invalid URI)"]
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
 console [Cloudflare Turnstile] Error: 600010.
-console [JavaScript Warning: "The resource at “https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2ec3a793c2ab6/1791942517240/deqQIsiZpOZFag2m4XNrNnGmtehSCiF023nh.x9hUIk-1791942517-1.3.1.1-PdKSXsXywlQBX.kwYSlXf5zlCfWp2loTy7W2lnyUjhCqj0eR6fbDeQglaR1PXxtWD1kUcEsJ2in7Wq40GwBMEVYtbA0sKODLn0n
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Window.fullScreen attribute is deprecated and will be removed in the future." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchOk_HLppgy5pbkc3bB67TDFFZz04RAUdmTwt5RcHmifo-1791942516-1.3.1.1-wI354djt2uZG88snSYMOcNVB8Xt3xhJWjGqEsLHLHOU/3
-console [JavaScript Warning: "InstallTrigger is deprecated and will be removed in the future." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchOk_HLppgy5pbkc3bB67TDFFZz04RAUdmTwt5RcHmifo-1791942516-1.3.1.1-wI354djt2uZG88snSYMOcNVB8Xt3xhJWjGqEsLHLHOU/32xpu/0x4AAAAA
-console [JavaScript Warning: "onmozfullscreenchange is deprecated." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchOk_HLppgy5pbkc3bB67TDFFZz04RAUdmTwt5RcHmifo-1791942516-1.3.1.1-wI354djt2uZG88snSYMOcNVB8Xt3xhJWjGqEsLHLHOU/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto/fbE/f
-console [JavaScript Warning: "onmozfullscreenerror is deprecated." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchOk_HLppgy5pbkc3bB67TDFFZz04RAUdmTwt5RcHmifo-1791942516-1.3.1.1-wI354djt2uZG88snSYMOcNVB8Xt3xhJWjGqEsLHLHOU/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto/fbE/fa
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
-* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
-* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* AllowWebgl2:false restricts context creation on this system. ()" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchOk_HLppgy5pbkc3bB67TDFFZz04RAUdmTwt5RcHmifo-1791942516-1.3.1.1-
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* AllowWebgl2:false restricts context creation on this system. ()" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchOk_HLppgy5pbkc3bB67TDFFZz04RAUdmTwt5RcHmifo-1791942516-1.3.1.1-
 console Error
 console  Error
 console  Error
@@ -142,42 +34,10 @@ console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
-console [JavaScript Error: "downloadable font: rejected by sanitizer (font-family: "DejaVu Sans" style:normal weight:400 width:100 src index:0) source: (invalid URI)"]
-console [JavaScript Error: "downloadable font: font load failed (font-family: "DejaVu Sans" style:normal weight:400 width:100 src index:0) source: (invalid URI)"]
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
 console [Cloudflare Turnstile] Error: 600010.
 step 2-results https://ccfs.sos.wa.gov/#/BusinessSearch
 result rows 1
-console [JavaScript Warning: "The resource at “https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2ec80ac972ab6/1791942528444/4SsafqnRxqAA1UFM.p6zqI0L_1xB8RDC9tRurOrThnU-1791942528-1.3.1.1-JZfVNx2X8Kwp.0k4RdFqiH2BZrwQ8UgkY.7.C44pivI0ZFM9_gavhC2vPssM0lFezPmesSPuZ5OIoP5eviWJJh7cmRjo1iyna54
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Window.fullScreen attribute is deprecated and will be removed in the future." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch6Q1zooU1IdTZpn8BPcHn2OqGyPVeyhIePhai889XyKQ-1791942528-1.3.1.1-UzprrFgErjT3tlzKjYKx3qAhqALBKIw9Sa4G.e2tCBw/3
-console [JavaScript Warning: "InstallTrigger is deprecated and will be removed in the future." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch6Q1zooU1IdTZpn8BPcHn2OqGyPVeyhIePhai889XyKQ-1791942528-1.3.1.1-UzprrFgErjT3tlzKjYKx3qAhqALBKIw9Sa4G.e2tCBw/32xpu/0x4AAAAA
-console [JavaScript Warning: "onmozfullscreenchange is deprecated." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch6Q1zooU1IdTZpn8BPcHn2OqGyPVeyhIePhai889XyKQ-1791942528-1.3.1.1-UzprrFgErjT3tlzKjYKx3qAhqALBKIw9Sa4G.e2tCBw/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto/fbE/f
-console [JavaScript Warning: "onmozfullscreenerror is deprecated." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch6Q1zooU1IdTZpn8BPcHn2OqGyPVeyhIePhai889XyKQ-1791942528-1.3.1.1-UzprrFgErjT3tlzKjYKx3qAhqALBKIw9Sa4G.e2tCBw/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto/fbE/fa
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
-* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
-* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* AllowWebgl2:false restricts context creation on this system. ()" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch6Q1zooU1IdTZpn8BPcHn2OqGyPVeyhIePhai889XyKQ-1791942528-1.3.1.1-
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* AllowWebgl2:false restricts context creation on this system. ()" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch6Q1zooU1IdTZpn8BPcHn2OqGyPVeyhIePhai889XyKQ-1791942528-1.3.1.1-
 console Error
 console  Error
 console  Error
@@ -185,31 +45,9 @@ console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
-console [JavaScript Error: "downloadable font: rejected by sanitizer (font-family: "DejaVu Sans" style:normal weight:400 width:100 src index:0) source: (invalid URI)"]
-console [JavaScript Error: "downloadable font: font load failed (font-family: "DejaVu Sans" style:normal weight:400 width:100 src index:0) source: (invalid URI)"]
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
 console [Cloudflare Turnstile] Error: 600010.
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Window.fullScreen attribute is deprecated and will be removed in the future." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch4TDJlM_BRAGhsRpmKlcDf4DziNhzuL1LYPy6UDu9u7Q-1791942539-1.3.1.1-UJ_pEJXg4_4ngFAc57KCUR__H07wn0MVhJRYadUw8yY/3
-console [JavaScript Warning: "InstallTrigger is deprecated and will be removed in the future." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch4TDJlM_BRAGhsRpmKlcDf4DziNhzuL1LYPy6UDu9u7Q-1791942539-1.3.1.1-UJ_pEJXg4_4ngFAc57KCUR__H07wn0MVhJRYadUw8yY/32xpu/0x4AAAAA
-console [JavaScript Warning: "onmozfullscreenchange is deprecated." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch4TDJlM_BRAGhsRpmKlcDf4DziNhzuL1LYPy6UDu9u7Q-1791942539-1.3.1.1-UJ_pEJXg4_4ngFAc57KCUR__H07wn0MVhJRYadUw8yY/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto/fbE/f
-console [JavaScript Warning: "onmozfullscreenerror is deprecated." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch4TDJlM_BRAGhsRpmKlcDf4DziNhzuL1LYPy6UDu9u7Q-1791942539-1.3.1.1-UJ_pEJXg4_4ngFAc57KCUR__H07wn0MVhJRYadUw8yY/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto/fbE/fa
-console [JavaScript Error: "downloadable font: rejected by sanitizer (font-family: "DejaVu Sans" style:normal weight:400 width:100 src index:0) source: (invalid URI)"]
-console [JavaScript Error: "downloadable font: font load failed (font-family: "DejaVu Sans" style:normal weight:400 width:100 src index:0) source: (invalid URI)"]
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
 console Error
 console  Error
 console  Error
@@ -217,37 +55,8 @@ console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
-* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
-* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* AllowWebgl2:false restricts context creation on this system. ()" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch4TDJlM_BRAGhsRpmKlcDf4DziNhzuL1LYPy6UDu9u7Q-1791942539-1.3.1.1-
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* AllowWebgl2:false restricts context creation on this system. ()" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch4TDJlM_BRAGhsRpmKlcDf4DziNhzuL1LYPy6UDu9u7Q-1791942539-1.3.1.1-
 console [Cloudflare Turnstile] Error: 600010.
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Window.fullScreen attribute is deprecated and will be removed in the future." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchPQ9hFIzDUeuX24VWfZfm.SjqFEFAoi1OxuopWb2JD7M-1791942550-1.3.1.1-bkXYiNU3cpBGdktxJX9YbxP4YHLOoSSllr3Pl9ZvAkI/3
-console [JavaScript Warning: "InstallTrigger is deprecated and will be removed in the future." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchPQ9hFIzDUeuX24VWfZfm.SjqFEFAoi1OxuopWb2JD7M-1791942550-1.3.1.1-bkXYiNU3cpBGdktxJX9YbxP4YHLOoSSllr3Pl9ZvAkI/32xpu/0x4AAAAA
-console [JavaScript Warning: "onmozfullscreenchange is deprecated." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchPQ9hFIzDUeuX24VWfZfm.SjqFEFAoi1OxuopWb2JD7M-1791942550-1.3.1.1-bkXYiNU3cpBGdktxJX9YbxP4YHLOoSSllr3Pl9ZvAkI/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto/fbE/f
-console [JavaScript Warning: "onmozfullscreenerror is deprecated." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchPQ9hFIzDUeuX24VWfZfm.SjqFEFAoi1OxuopWb2JD7M-1791942550-1.3.1.1-bkXYiNU3cpBGdktxJX9YbxP4YHLOoSSllr3Pl9ZvAkI/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto/fbE/fa
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
 console Error
 console  Error
 console  Error
@@ -255,45 +64,11 @@ console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
-* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
-* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* AllowWebgl2:false restricts context creation on this system. ()" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchPQ9hFIzDUeuX24VWfZfm.SjqFEFAoi1OxuopWb2JD7M-1791942550-1.3.1.1-
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* AllowWebgl2:false restricts context creation on this system. ()" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchPQ9hFIzDUeuX24VWfZfm.SjqFEFAoi1OxuopWb2JD7M-1791942550-1.3.1.1-
-console [JavaScript Error: "downloadable font: rejected by sanitizer (font-family: "DejaVu Sans" style:normal weight:400 width:100 src index:0) source: (invalid URI)"]
-console [JavaScript Error: "downloadable font: font load failed (font-family: "DejaVu Sans" style:normal weight:400 width:100 src index:0) source: (invalid URI)"]
 console [Cloudflare Turnstile] Error: 600010.
 row err locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator('table tbody tr a').first()
 
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Window.fullScreen attribute is deprecated and will be removed in the future." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchhIIxkk1mVdUYUHxWPDcy1JpiHmuWGpFfE8R_8aOMcK4-1791942561-1.3.1.1-9CYTEk7d23K1jXEGFdlkNyDCepwBs_46GmVwCMpqTyg/3
-console [JavaScript Warning: "InstallTrigger is deprecated and will be removed in the future." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchhIIxkk1mVdUYUHxWPDcy1JpiHmuWGpFfE8R_8aOMcK4-1791942561-1.3.1.1-9CYTEk7d23K1jXEGFdlkNyDCepwBs_46GmVwCMpqTyg/32xpu/0x4AAAAA
-console [JavaScript Warning: "onmozfullscreenchange is deprecated." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchhIIxkk1mVdUYUHxWPDcy1JpiHmuWGpFfE8R_8aOMcK4-1791942561-1.3.1.1-9CYTEk7d23K1jXEGFdlkNyDCepwBs_46GmVwCMpqTyg/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto/fbE/f
-console [JavaScript Warning: "onmozfullscreenerror is deprecated." {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchhIIxkk1mVdUYUHxWPDcy1JpiHmuWGpFfE8R_8aOMcK4-1791942561-1.3.1.1-9CYTEk7d23K1jXEGFdlkNyDCepwBs_46GmVwCMpqTyg/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto/fbE/fa
-console [JavaScript Error: "downloadable font: rejected by sanitizer (font-family: "DejaVu Sans" style:normal weight:400 width:100 src index:0) source: (invalid URI)"]
-console [JavaScript Error: "downloadable font: font load failed (font-family: "DejaVu Sans" style:normal weight:400 width:100 src index:0) source: (invalid URI)"]
 console Error
 console  Error
 console  Error
@@ -301,43 +76,258 @@ console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
 console %c%d font-size:0;color:transparent Error
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
-* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
-* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* AllowWebgl2:false restricts context creation on this system. ()" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchhIIxkk1mVdUYUHxWPDcy1JpiHmuWGpFfE8R_8aOMcK4-1791942561-1.3.1.1-
-console [JavaScript Warning: "Failed to create WebGL context: WebGL creation failed: 
-* AllowWebgl2:false restricts context creation on this system. ()" {file: "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchhIIxkk1mVdUYUHxWPDcy1JpiHmuWGpFfE8R_8aOMcK4-1791942561-1.3.1.1-
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
 console [Cloudflare Turnstile] Error: 600010.
-console [JavaScript Warning: "The resource at “https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2ed98dd392ab6/1791942573431/lGBdTgFTUjbCZ2Ml6IjUMBRuM5zcquNNG3pP0cslILI-1791942573-1.3.1.1-Pb2kIkEAT3xFp7VsWwAap0lNOL2_Ngsarh3juz_QPqRmYuZKsekwJnzYvMjbgGpDnzxcAw2bpGJIcxdQ2.3n11o6e9kmJFT79yG
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “cross-origin-isolated”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “keyboard-map”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
-console [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “xr-spatial-tracking”." {file: "https://challenges.cloudflare.com/turnstile/v0/api.js" line: 2}]
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
 step 3-detail https://ccfs.sos.wa.gov/#/BusinessSearch
-calls 49 GET https://challenges.cloudflare.com/turnstile/v0/api.js 302 | GET https://challenges.cloudflare.com/turnstile/v0/g/4df4a60fa397/api.js 200 | GET https://ccfs-api.prod.sos.wa.gov/api/Home1/GetStatistics/ 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/gg8l5/0x4AAAAAABLh8fs_3VYXfD20/auto 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/32xpu/0x4AAAAAABLh8fs_3VYXfD20/auto 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2ebf52d7a2ab6/eLpWKvOQgJs7rLKIfBVP0cyUOd9 undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2ebf52d7a2ab6/1791942506017/82d849c870434706198e 401 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2ebf52d7a2ab6/1791942506021/_LVgGxGemMp5lyGxV.h8A 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchxiOSREn8PKM11uo_5PthjGXz5E_wVCDTO1ck 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2ec3a793c2ab6/ubl8HTwoBLV_.NM0kn0ELZr2qsJ undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2ec3a793c2ab6/1791942517236/ab089bcbbafb73696325 401 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2ec3a793c2ab6/1791942517240/deqQIsiZpOZFag2m4XNrN 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchOk_HLppgy5pbkc3bB67TDFFZz04RAUdmTwt5 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2ec80ac972ab6/1791942528442/5924cc469c6087bd740a 401 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2ec80ac972ab6/Zbz3WK_YxolhmqnOmY5bJF6gKHc undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2ec80ac972ab6/1791942528444/4SsafqnRxqAA1UFM.p6zq 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch6Q1zooU1IdTZpn8BPcHn2OqGyPVeyhIePhai 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2ecc5f8ec2ab6/_pAnLWWwKRxNzN2flC_pqkI8wKS undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2ecc5f8ec2ab6/1791942539529/f166f2c0e189cfcec327 401 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2ecc5f8ec2ab6/1791942539531/PzOzO4271iLW8QcTz1_hD 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch4TDJlM_BRAGhsRpmKlcDf4DziNhzuL1LYPy6 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2ed0c58d02ab6/QpUyofpt8rx28HBu2mhOW7bqJ10 undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2ed0c58d02ab6/1791942550793/ddf22a10633cd9241efe 401 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2ed0c58d02ab6/1791942550795/GR8WaDBeNmATAtGxctmxp 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchPQ9hFIzDUeuX24VWfZfm.SjqFEFAoi1Oxuop 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2ed5308a82ab6/1791942562115/4c6427bf0ee23affe6e7 401 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2ed5308a82ab6/UgCl.YinZo1zBHIVi9lkAf8XDpG undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2ed5308a82ab6/1791942562116/xlTMTelusAVb9pExEwNYN 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchhIIxkk1mVdUYUHxWPDcy1JpiHmuWGpFfE8R_ 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2ed98dd392ab6/4S46j_en4BxktcrA6Q8qFCSUIAI undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2ed98dd392ab6/1791942573431/bb25bd6a0325d8f330ce 401 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2ed98dd392ab6/1791942573431/lGBdTgFTUjbCZ2Ml6IjUM 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchFWUp1ANtfrgWaemUHeUmxk.3fBOXFD6bjxdP 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 undefined
-browser error page.goto: NS_ERROR_PROXY_FORBIDDEN
+calls 89 GET https://challenges.cloudflare.com/turnstile/v0/api.js 302 | GET https://challenges.cloudflare.com/turnstile/v0/g/4df4a60fa397/api.js 200 | GET https://ccfs-api.prod.sos.wa.gov/api/Home1/GetStatistics/ 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/g7zp6/0x4AAAAAABLh8fs_3VYXfD20/auto 200 | GET blob:https://challenges.cloudflare.com/cd36dee3-699a-4648-af39-bd4569bc41bf undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/12254b17-7594-4605-bd67-bf87df601268 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f0eb1d63a619/1791942709433/b15dce7f99f196aa0a60 401 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f0eb1d63a619/Tjg_vygnQMtn9LZli6y.XdpQIYZ undefined | GET blob:https://challenges.cloudflare.com/12254b17-7594-4605-bd67-bf87df601268 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f0eb1d63a619/1791942709434/1Cf.y.nF.d1_lAyp8Hp5d 200 | GET blob:https://challenges.cloudflare.com/12254b17-7594-4605-bd67-bf87df601268 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/bi8hz/0x4AAAAAABLh8fs_3VYXfD20/auto 200 | GET blob:https://challenges.cloudflare.com/5cc79e79-8b02-4b04-8e6a-3a117fde17b2 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/9289519d-4ad8-49c0-a3f2-f8fcc5394d1a 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f10e7c13a619/1791942714946/d489cd069aa957c4c3f9 401 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f10e7c13a619/b2Vq.AEdCG_ybGAWfZZjHpdWvCw undefined | GET blob:https://challenges.cloudflare.com/9289519d-4ad8-49c0-a3f2-f8fcc5394d1a 200 | GET blob:https://challenges.cloudflare.com/9289519d-4ad8-49c0-a3f2-f8fcc5394d1a 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f10e7c13a619/1791942714947/R4..uvCwnKJC59sytnu2C 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchWN8zGPajMdBLg7yLZ.9OXkqJmyRgLni28rMw 200 | GET blob:https://challenges.cloudflare.com/3c8c0ab1-9485-429c-a1eb-8d621f1f8b18 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/ab05d116-4a10-4b23-bbdd-8f73c5913b67 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f15799c5a619/ZSI8EAOh8MFw.iNtAK_GQNAtN8e undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f15799c5a619/1791942726559/6fa8b0552088506f0078 401 | GET blob:https://challenges.cloudflare.com/ab05d116-4a10-4b23-bbdd-8f73c5913b67 200 | GET blob:https://challenges.cloudflare.com/ab05d116-4a10-4b23-bbdd-8f73c5913b67 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f15799c5a619/1791942726564/odmH99R4W8RWEJsuo2OO2 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchcvSCIbDrP5TomNwqt1WlmPf199mOGzU5MjNX 200 | GET blob:https://challenges.cloudflare.com/ee4b3095-53dd-4915-b8e3-6675a06c839f undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/daff0360-05ae-4dd3-bcb7-5d3f5565a0ce 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f1a05fa4a619/1791942738211/1381b8e0b75b7de16b9d 401 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f1a05fa4a619/eMWtrvHk4LEQWN_6ZhKqrQR2W0K undefined | GET blob:https://challenges.cloudflare.com/daff0360-05ae-4dd3-bcb7-5d3f5565a0ce 200 | GET blob:https://challenges.cloudflare.com/daff0360-05ae-4dd3-bcb7-5d3f5565a0ce 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f1a05fa4a619/1791942738212/4hvaW5AUUTuiTNIbXcnL2 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchLrTuhkpw9wLaKfp9uAdJRx9x.annfxVEWVCE 200 | GET blob:https://challenges.cloudflare.com/6f4e7b4a-80f5-49ff-865a-ab3589571efb undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/e18e1ead-cf3d-4ac3-9594-af4923dfe5d8 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f1e80d9ca619/M.41j.764hHNtUUM9ct6XOQTw_9 undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f1e80d9ca619/1791942749762/9e554d6749c555f53149 401 | GET blob:https://challenges.cloudflare.com/e18e1ead-cf3d-4ac3-9594-af4923dfe5d8 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f1e80d9ca619/1791942749763/2RBFf5YH654gzipJDdkZm 200 | GET blob:https://challenges.cloudflare.com/e18e1ead-cf3d-4ac3-9594-af4923dfe5d8 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchPVC5N96QSTC4EgQ.wWoZo0bMEtSd3wIp5P3a 200 | GET blob:https://challenges.cloudflare.com/fe638d52-67c4-4777-9f15-d87fcd3ee8d6 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/d0aaf5f0-d08c-47ba-b1a9-50917237a2f7 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f23039bba619/BQ64GzWyi9bo4iy8bt4L41C4YYL undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f23039bba619/1791942761318/c3b603abfe256dd55cd7 401 | GET blob:https://challenges.cloudflare.com/d0aaf5f0-d08c-47ba-b1a9-50917237a2f7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f23039bba619/1791942761320/cjOc7dWliwt_zirncC0MX 200 | GET blob:https://challenges.cloudflare.com/d0aaf5f0-d08c-47ba-b1a9-50917237a2f7 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchrxSHOqu76mmViLBtOgd6e9l.CAXleIFbxOck 200 | GET blob:https://challenges.cloudflare.com/d2350b25-5370-4680-b096-ea24b88311a6 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/8a8cee8a-1166-4b1c-a54c-6f59ce691dd8 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f278981fa619/zJ5bN4z4lDC2Psx0YyVl3St8V3o undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f278981fa619/1791942772894/9c1437a069be96c6fefb 401 | GET blob:https://challenges.cloudflare.com/8a8cee8a-1166-4b1c-a54c-6f59ce691dd8 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f278981fa619/1791942772896/etMwdTHUwIgM7xhUMuFYU 200 | GET blob:https://challenges.cloudflare.com/8a8cee8a-1166-4b1c-a54c-6f59ce691dd8 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchlGP4dNRht2v8DhWY.8TFxsDmKKzPv9L7oNHQ 200 | GET blob:https://challenges.cloudflare.com/53f39aa3-ad97-45fb-9bdf-abe428a3f96b undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/ec0384d1-b645-4e7e-bc8e-3338617d95be 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f2c21d7aa619/FIHT4yz3gy26suR7PwaXpJxfbeo undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f2c21d7aa619/1791942784674/6c904d2ed3941724463a 401 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f2c21d7aa619/1791942784674/0N29JK.0snL4i.YXaextn 200 | GET blob:https://challenges.cloudflare.com/ec0384d1-b645-4e7e-bc8e-3338617d95be 200 | GET blob:https://challenges.cloudflare.com/ec0384d1-b645-4e7e-bc8e-3338617d95be 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchMjLh2Jl5KIHmoZnMn3Hy0vekKnI5k3aRFuK5 200 | GET blob:https://challenges.cloudflare.com/2457cbf3-c03b-4cf5-af00-d27367cd5a7e undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/e71f9e67-32d2-437c-9228-fc7888e2b35d 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f30b686ba619/kMANRov30qac4fCCX9Vx78.q1Oc undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f30b686ba619/1791942796390/1bb1e90b5d856eddcb6e 401
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console [Cloudflare Turnstile] Error: 600010.
+step 1-home https://ccfs.sos.wa.gov/#/
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console [Cloudflare Turnstile] Error: 600010.
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console [Cloudflare Turnstile] Error: 600010.
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console [Cloudflare Turnstile] Error: 600010.
+step 2-results https://ccfs.sos.wa.gov/#/BusinessSearch
+result rows 1
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console [Cloudflare Turnstile] Error: 600010.
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console [Cloudflare Turnstile] Error: 600010.
+row err locator.click: Timeout 30000ms exceeded.
 Call log:
-  - navigating to "https://ccfs.sos.wa.gov/#/", waiting until "domcontentloaded"
+  - waiting for locator('table tbody tr a').first()
 
-calls 0 
-browser error page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://ccfs.sos.wa.gov/#/
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console [Cloudflare Turnstile] Error: 600010.
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console [Cloudflare Turnstile] Error: 600010.
+step 3-detail https://ccfs.sos.wa.gov/#/BusinessSearch
+calls 83 GET https://challenges.cloudflare.com/turnstile/v0/api.js 302 | GET https://challenges.cloudflare.com/turnstile/v0/g/4df4a60fa397/api.js 200 | GET https://ccfs-api.prod.sos.wa.gov/api/Home1/GetStatistics/ 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/mdc5d/0x4AAAAAABLh8fs_3VYXfD20/auto 200 | GET blob:https://challenges.cloudflare.com/d40b3389-ecfc-4968-ac4e-de8d52946bec undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/beda28e7-fcbc-469a-9960-2203ea3069c9 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f31e9c63f082/IzoXf6DNZS8uN2WfxWSqBH9ZU.a undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f31e9c63f082/1791942799530/cf28295c5438a6f153b3 401 | GET blob:https://challenges.cloudflare.com/beda28e7-fcbc-469a-9960-2203ea3069c9 200 | GET blob:https://challenges.cloudflare.com/beda28e7-fcbc-469a-9960-2203ea3069c9 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f31e9c63f082/1791942799534/IofccyA3kDKgja.RBpYai 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/chzgd/0x4AAAAAABLh8fs_3VYXfD20/auto 200 | GET blob:https://challenges.cloudflare.com/8b7d4dd3-41cc-4a36-9626-f2dd018f52af undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/8633a47e-36a0-40b0-addf-ca391d47964e 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f3451823f082/ki4v9GKeG2FUz1swKwHmwdUzF_a undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f3451823f082/1791942805963/e5bce30785756d0099ac 401 | GET blob:https://challenges.cloudflare.com/8633a47e-36a0-40b0-addf-ca391d47964e 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f3451823f082/1791942805964/TSLOsqf9cSf52jiAZcYay 200 | GET blob:https://challenges.cloudflare.com/8633a47e-36a0-40b0-addf-ca391d47964e 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchsxi__ODTDEauElg3voDafc9ZCVojXxpm.dCu 200 | GET blob:https://challenges.cloudflare.com/4fa6389a-dd5a-48a2-aeeb-44ada5fae70b undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/a60bda91-ef99-4b68-8351-ece6de230bee 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f39c7c87f082/1791942819565/83675b553512e165e4ad 401 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f39c7c87f082/KGL8ywn.ZYRehE5Hj16xC_q8YxQ undefined | GET blob:https://challenges.cloudflare.com/a60bda91-ef99-4b68-8351-ece6de230bee 200 | GET blob:https://challenges.cloudflare.com/a60bda91-ef99-4b68-8351-ece6de230bee 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f39c7c87f082/1791942819571/S3BKqs0UcPnm5HOCHzG8F 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchSlJ9IieyHx8vgpw9XFK4DQBaMspnF2Zk6X1c 200 | GET blob:https://challenges.cloudflare.com/134fadbf-392f-46c4-89a5-cdd8a0e681a3 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/4978f15c-4873-4108-84fb-f67d511db5c8 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f3ebfffbf082/gOgaiW4e3XY99S_F3kGcBCwCzBg undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f3ebfffbf082/1791942832380/4ae5296c452582298f25 401 | GET blob:https://challenges.cloudflare.com/4978f15c-4873-4108-84fb-f67d511db5c8 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f3ebfffbf082/1791942832380/wWl6v9L9Mvs0uBIeT.16j 200 | GET blob:https://challenges.cloudflare.com/4978f15c-4873-4108-84fb-f67d511db5c8 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchPWEO73AruHFTYHiXxGFSnkJC7kFoF0hCXE2p 200 | GET blob:https://challenges.cloudflare.com/4b16ce9d-49de-4603-a573-e4095c0fbce3 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/ea42167f-2724-4710-9130-ddf09b519543 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f43e5d56f082/1791942845546/8c1775868d667d143b12 401 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f43e5d56f082/g1YhiCh.aBPfI8PqAUbcSyTXDMg undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f43e5d56f082/1791942845546/rKrFTIjza3mTCxxlFwu3G 200 | GET blob:https://challenges.cloudflare.com/ea42167f-2724-4710-9130-ddf09b519543 200 | GET blob:https://challenges.cloudflare.com/ea42167f-2724-4710-9130-ddf09b519543 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchhEtimrBRYmj8JOnb9LA601cX7dbf7a7qpBXJ 200 | GET blob:https://challenges.cloudflare.com/25456441-ad11-492f-ac48-a8b723c1890a undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/05a68bc5-85b6-48ae-8ff3-8c12331c6687 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f48e192cf082/1791942858317/181e3eedca1b1d0da00d 401 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f48e192cf082/vZV1XQJ8qr3pkQOR3su3jUFlK3b undefined | GET blob:https://challenges.cloudflare.com/05a68bc5-85b6-48ae-8ff3-8c12331c6687 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f48e192cf082/1791942858318/pjhnls6ooktct2j71HxGV 200 | GET blob:https://challenges.cloudflare.com/05a68bc5-85b6-48ae-8ff3-8c12331c6687 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchUXdawRdPZu_ip60mIgNfw4VP0gHkFIoFrLTN 200 | GET blob:https://challenges.cloudflare.com/cfe6b26e-9483-4c4d-8a7f-04abfe7bfc06 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/ab1519b5-926f-477c-bf41-f9e097193ca8 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f4dd5f8cf082/thoxogGeIPTC3dMIom3xWDj0TJ6 undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f4dd5f8cf082/1791942870988/9688fe612eecba5e7462 401 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f4dd5f8cf082/1791942870988/56IfkruaSbniHIqeKieUt 200 | GET blob:https://challenges.cloudflare.com/ab1519b5-926f-477c-bf41-f9e097193ca8 200 | GET blob:https://challenges.cloudflare.com/ab1519b5-926f-477c-bf41-f9e097193ca8 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchUFGm93pxMfQ4kCFcm7G.l9o9B4walI6WrpoQ 200 | GET blob:https://challenges.cloudflare.com/5a754206-fde0-4373-bf3c-b3eecf57441f undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/6846e2c3-4133-4e54-aad0-ef3207d229ac 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f52d0e80f082/KrdWxgIrx5mgPIm3dDuSJtedxxU undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f52d0e80f082/1791942883814/490907cf02fd972588db 401 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f52d0e80f082/1791942883814/4Q90xLRFBU9rnbnMDWI19 200 | GET blob:https://challenges.cloudflare.com/6846e2c3-4133-4e54-aad0-ef3207d229ac 200 | GET blob:https://challenges.cloudflare.com/6846e2c3-4133-4e54-aad0-ef3207d229ac 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console [Cloudflare Turnstile] Error: 600010.
+step 1-home https://ccfs.sos.wa.gov/#/
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console [Cloudflare Turnstile] Error: 600010.
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console [Cloudflare Turnstile] Error: 600010.
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console [Cloudflare Turnstile] Error: 600010.
+step 2-results https://ccfs.sos.wa.gov/#/BusinessSearch
+result rows 1
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console [Cloudflare Turnstile] Error: 600010.
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console [Cloudflare Turnstile] Error: 600010.
+row err locator.click: Timeout 30000ms exceeded.
 Call log:
-  - navigating to "https://ccfs.sos.wa.gov/#/", waiting until "domcontentloaded"
+  - waiting for locator('table tbody tr a').first()
 
-calls 0 
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console [Cloudflare Turnstile] Error: 600010.
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console [Cloudflare Turnstile] Error: 600010.
+step 3-detail https://ccfs.sos.wa.gov/#/BusinessSearch
+calls 83 GET https://challenges.cloudflare.com/turnstile/v0/api.js 302 | GET https://challenges.cloudflare.com/turnstile/v0/g/4df4a60fa397/api.js 200 | GET https://ccfs-api.prod.sos.wa.gov/api/Home1/GetStatistics/ 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/1m435/0x4AAAAAABLh8fs_3VYXfD20/auto 200 | GET blob:https://challenges.cloudflare.com/59a53eab-4d4d-4f37-bc0b-7b0f43276a87 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/872f0fd9-00fc-4469-9b46-153cfa61343a 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f5513c686c79/1791942889832/c1de58b6ca24b5882b32 401 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f5513c686c79/lfBPewuUBnK84XSaWaqdkVGgcfK undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f5513c686c79/1791942889834/keNFrCp389Bkm2g8Ajfof 200 | GET blob:https://challenges.cloudflare.com/872f0fd9-00fc-4469-9b46-153cfa61343a 200 | GET blob:https://challenges.cloudflare.com/872f0fd9-00fc-4469-9b46-153cfa61343a 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/9x04x/0x4AAAAAABLh8fs_3VYXfD20/auto 200 | GET blob:https://challenges.cloudflare.com/dd31edb3-45c6-48da-9381-edddfcca0aec undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/3411256b-bb7d-43e7-a6bb-597198925a88 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f577594c6c79/wKY9HybnmIk189g76LVpdXPTWWS undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f577594c6c79/1791942895704/aac2bde05e2e62a2041a 401 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f577594c6c79/1791942895704/J.W4fv0kZQJTpeoigGwYt 200 | GET blob:https://challenges.cloudflare.com/3411256b-bb7d-43e7-a6bb-597198925a88 200 | GET blob:https://challenges.cloudflare.com/3411256b-bb7d-43e7-a6bb-597198925a88 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchl5G7olaXwzzdzlzhoKwnhbUrV8xjSK8Cdqu4 200 | GET blob:https://challenges.cloudflare.com/9c303d41-b73a-49c6-8d59-5fd8bdd99dcc undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/a273f9cc-ce39-4211-952a-126c48ffffb3 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f5cd8ac36c79/XRpnemMAaGIreAFGK4pmPXNAtv1 undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f5cd8ac36c79/1791942909587/433a01b0c42a8079c1c4 401 | GET blob:https://challenges.cloudflare.com/a273f9cc-ce39-4211-952a-126c48ffffb3 200 | GET blob:https://challenges.cloudflare.com/a273f9cc-ce39-4211-952a-126c48ffffb3 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f5cd8ac36c79/1791942909588/YMp7QYFabMIvEHsJR17CV 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchNXh0D4TCjbRHpODljDCAGkQUAXC4kr5WcO3d 200 | GET blob:https://challenges.cloudflare.com/3359eb3e-11c8-4667-b1f7-2db9bdfb04c2 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/28c99005-7348-40b3-b842-c9f05a1063e7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f61eaa396c79/1791942922533/e5f9955e502754b644c0 401 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f61eaa396c79/ylpk0CdDYT1sedm8Rc9XEUKSx_X undefined | GET blob:https://challenges.cloudflare.com/28c99005-7348-40b3-b842-c9f05a1063e7 200 | GET blob:https://challenges.cloudflare.com/28c99005-7348-40b3-b842-c9f05a1063e7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f61eaa396c79/1791942922535/ThMG1K.Hb9KsqLyhjRmZn 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchO79fy6AMtIwNTpho4.BQaIC.aR7m2dRfBmMo 200 | GET blob:https://challenges.cloudflare.com/9b1f1a13-e542-4260-ab85-94830e7ea831 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/a96d2dbf-7e6e-4f6b-9c27-4608f4d58799 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f6712a976c79/43OYvRfNyzdek8hJ6esxoEDwTJE undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f6712a976c79/1791942935762/fc30473a31c8146a0e70 401 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f6712a976c79/1791942935765/j6sgOwIiqE1S8j87eg7De 200 | GET blob:https://challenges.cloudflare.com/a96d2dbf-7e6e-4f6b-9c27-4608f4d58799 200 | GET blob:https://challenges.cloudflare.com/a96d2dbf-7e6e-4f6b-9c27-4608f4d58799 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchh9S8fNbKRRmqVZ6w9Ys0YcCYoj6EBl_p80D6 200 | GET blob:https://challenges.cloudflare.com/6baf0f00-e216-4f91-b0f5-52f011917e45 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/c5c2d3ac-5d80-442e-a0cf-8f5b4ec5b792 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f6c23ae36c79/eIsC6N5OqqSAEea86shK.Nbubt0 undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f6c23ae36c79/1791942948728/dd96404756553ffe2c2e 401 | GET blob:https://challenges.cloudflare.com/c5c2d3ac-5d80-442e-a0cf-8f5b4ec5b792 200 | GET blob:https://challenges.cloudflare.com/c5c2d3ac-5d80-442e-a0cf-8f5b4ec5b792 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f6c23ae36c79/1791942948731/Ff4ONIun3OF6Ss6HEMjcw 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchM9tdRhYBF_MOu176cz.T7VKweYJcM4DLro8A 200 | GET blob:https://challenges.cloudflare.com/72c75a1a-6aaf-4bb9-be3b-dd52e7d2a3ce undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/ac4ce7b6-1203-42dd-9c27-4affaabca2a0 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f7149aa16c79/3X3cEnUF5U6VYHLlrYa8hjkYeBw undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f7149aa16c79/1791942961906/1323288861eaab9e5b0f 401 | GET blob:https://challenges.cloudflare.com/ac4ce7b6-1203-42dd-9c27-4affaabca2a0 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f7149aa16c79/1791942961908/BxGPbxgY7_Wl.CJyD6FPt 200 | GET blob:https://challenges.cloudflare.com/ac4ce7b6-1203-42dd-9c27-4affaabca2a0 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchvz6IB3QpkFDNz_sQpf6WEh.3jTLkKAd4TniA 200 | GET blob:https://challenges.cloudflare.com/ae94868e-7f9e-4035-9f4a-b0135c5b4e67 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/46f93a3f-b5b2-4aab-acf3-f8df326554e9 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f7652b5a6c79/1791942974780/83e5006bd842683be22a 401 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f7652b5a6c79/tKmN.UbCz4ZCNvKd6Tw.eyiPzJZ undefined | GET blob:https://challenges.cloudflare.com/46f93a3f-b5b2-4aab-acf3-f8df326554e9 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f7652b5a6c79/1791942974780/pEP0g.jG.3_Rnknuw8BVL 200 | GET blob:https://challenges.cloudflare.com/46f93a3f-b5b2-4aab-acf3-f8df326554e9 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console [Cloudflare Turnstile] Error: 600010.
+step 1-home https://ccfs.sos.wa.gov/#/
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console [Cloudflare Turnstile] Error: 600010.
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console [Cloudflare Turnstile] Error: 600010.
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console [Cloudflare Turnstile] Error: 600010.
+step 2-results https://ccfs.sos.wa.gov/#/BusinessSearch
+result rows 1
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console [Cloudflare Turnstile] Error: 600010.
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console [Cloudflare Turnstile] Error: 600010.
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console [Cloudflare Turnstile] Error: 600010.
+row err locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('table tbody tr a').first()
+
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console [Cloudflare Turnstile] Error: 600010.
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+step 3-detail https://ccfs.sos.wa.gov/#/BusinessSearch
+calls 90 GET https://challenges.cloudflare.com/turnstile/v0/api.js 302 | GET https://challenges.cloudflare.com/turnstile/v0/g/4df4a60fa397/api.js 200 | GET https://ccfs-api.prod.sos.wa.gov/api/Home1/GetStatistics/ 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/wr6i4/0x4AAAAAABLh8fs_3VYXfD20/auto 200 | GET blob:https://challenges.cloudflare.com/6ee14e6d-6e2b-4052-be6e-51c55b0630dc undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/75f70f8f-8798-4543-bdde-01c5a443be91 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f781c96defd9/1791942979253/c7c576470d53cee80f78 401 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f781c96defd9/yAjeieQsySATwEFaDEhu_N_CuB0 undefined | GET blob:https://challenges.cloudflare.com/75f70f8f-8798-4543-bdde-01c5a443be91 200 | GET blob:https://challenges.cloudflare.com/75f70f8f-8798-4543-bdde-01c5a443be91 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f781c96defd9/1791942979257/6pf0xdZ7lK2_EdGaleLPY 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/vaqwf/0x4AAAAAABLh8fs_3VYXfD20/auto 200 | GET blob:https://challenges.cloudflare.com/0d6fad52-ff21-421b-b71b-9d98e16d86d5 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/d8465e51-e766-49ac-8a9c-3c4362ad50a1 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f7a3cd4defd9/YO87QxhcZv3kgnjbaVciDzeFEF3 undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f7a3cd4defd9/1791942984625/4b9af397536f7f91a059 401 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f7a3cd4defd9/1791942984626/o7L3Aq_3btS1WNQGTuNyJ 200 | GET blob:https://challenges.cloudflare.com/d8465e51-e766-49ac-8a9c-3c4362ad50a1 200 | GET blob:https://challenges.cloudflare.com/d8465e51-e766-49ac-8a9c-3c4362ad50a1 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchWbS17pfve1SbNpwpSzkwMVBWsiLQLYlGjYXh 200 | GET blob:https://challenges.cloudflare.com/f03016a8-1000-43d8-a289-00123ee6e1ba undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/18d3e828-ce00-436e-a321-68dff429aa26 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f7ebfa1cefd9/0eK15trHcxjIoQOWMuPQhvcAlk3 undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f7ebfa1cefd9/1791942996159/ceb45b393d0ba896d84e 401 | GET blob:https://challenges.cloudflare.com/18d3e828-ce00-436e-a321-68dff429aa26 200 | GET blob:https://challenges.cloudflare.com/18d3e828-ce00-436e-a321-68dff429aa26 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f7ebfa1cefd9/1791942996161/HsUbBe1x8fxwWCg_jt15H 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rcheuJAxIKXXbr1mX9z0qGT8APJjNrFLPjRcCnI 200 | GET blob:https://challenges.cloudflare.com/ebf31b2d-9cd9-4626-844a-d9549e3a0513 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/6911e548-9228-4e42-8a66-1655662a5200 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f834bebbefd9/eVd8i60c7UXJ6V7KCBfBddONmr. undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f834bebbefd9/1791943007719/19924f77b88e8411e66b 401 | GET blob:https://challenges.cloudflare.com/6911e548-9228-4e42-8a66-1655662a5200 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f834bebbefd9/1791943007720/sq144lAp.Ta2BGPlV6DjQ 200 | GET blob:https://challenges.cloudflare.com/6911e548-9228-4e42-8a66-1655662a5200 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchvzxhbC5cPslAu3mHYP5lvkRrc9UBZJyhZO5W 200 | GET blob:https://challenges.cloudflare.com/9a7ad33e-1937-410b-8289-27fe9f9b4a09 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/903a1128-6f80-4ae9-bae5-c8fbf59e966e 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f87cea93efd9/1791943019279/f2641f89354a732406cd 401 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f87cea93efd9/ApLifGB_l0Zq_s2i3rHOGAF75X. undefined | GET blob:https://challenges.cloudflare.com/903a1128-6f80-4ae9-bae5-c8fbf59e966e 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f87cea93efd9/1791943019282/Dk_AO2ghMz5jEcSEtj_vq 200 | GET blob:https://challenges.cloudflare.com/903a1128-6f80-4ae9-bae5-c8fbf59e966e 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchNxQy3_eqa1VFpQcQ87qxH2Pg8i..iBdWkEsE 200 | GET blob:https://challenges.cloudflare.com/db8e7c10-e988-484e-a030-0d043eb03d12 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/2135454d-b5e1-4bc3-be4c-44f9e1f3c7ef 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f8c4cd06efd9/1791943030915/718a174040c9de920e59 401 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f8c4cd06efd9/ZqErarp7FejORNuRvDjBxAdRSp0 undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f8c4cd06efd9/1791943030915/9aekG..pQh6rIpNVj0Y76 200 | GET blob:https://challenges.cloudflare.com/2135454d-b5e1-4bc3-be4c-44f9e1f3c7ef 200 | GET blob:https://challenges.cloudflare.com/2135454d-b5e1-4bc3-be4c-44f9e1f3c7ef 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch.2JxVoesJx0PfjfxwVYEcQ7sEmrj_Yb9I8mY 200 | GET blob:https://challenges.cloudflare.com/63e07b03-0a94-4a35-866e-4c4ed9df9946 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/31ad74c2-9444-4cb9-b0a1-1e3787ad0f43 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f90df9aaefd9/vQMYzl_C0WjZO4v2lPsr8Knz928 undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f90df9aaefd9/1791943042483/dd2a717a071b90ea547d 401 | GET blob:https://challenges.cloudflare.com/31ad74c2-9444-4cb9-b0a1-1e3787ad0f43 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f90df9aaefd9/1791943042485/.CeGncFccuN2WktK4FspK 200 | GET blob:https://challenges.cloudflare.com/31ad74c2-9444-4cb9-b0a1-1e3787ad0f43 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rcht6Db0fy7pjqEMZJ4ZuTyZ6VGsPe2LIk2yoI5 200 | GET blob:https://challenges.cloudflare.com/573957e1-f7be-4f62-bc7d-fe43bff70965 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/06570c5e-d9cc-47ac-92f4-67c56fde74d0 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f956de1defd9/1791943054234/f04b7e30e9f02f133c77 401 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f956de1defd9/nz_hsXyKKJKaqcrSg9FpAnUejfS undefined | GET blob:https://challenges.cloudflare.com/06570c5e-d9cc-47ac-92f4-67c56fde74d0 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f956de1defd9/1791943054235/FksEfldiXy8TqJc3LvaE_ 200 | GET blob:https://challenges.cloudflare.com/06570c5e-d9cc-47ac-92f4-67c56fde74d0 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchgit19op7tz.23w3P6DxQ66S0PTchZtG.7fUe 200 | GET blob:https://challenges.cloudflare.com/058b7e20-3066-4233-844a-c36ec2324808 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/9ea575af-8aa6-436c-9f2b-fc2fed559e42 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f99fc9c6efd9/X6wLgSS6qnGEnx1eD6F17dw18aP undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f99fc9c6efd9/1791943065954/e4f2a038f1b8e16f9937 401 | GET blob:https://challenges.cloudflare.com/9ea575af-8aa6-436c-9f2b-fc2fed559e42 200

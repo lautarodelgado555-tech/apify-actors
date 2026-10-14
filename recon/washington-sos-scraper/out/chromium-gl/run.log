@@ -1,0 +1,83 @@
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console [Cloudflare Turnstile] Error: 600010.
+step 1-home https://ccfs.sos.wa.gov/#/
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console [Cloudflare Turnstile] Error: 600010.
+console Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://challenges.cloudflare.com') does not match the recipient window's origin ('https://ccfs.sos.wa.gov').
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console [Cloudflare Turnstile] Error: 600010.
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console [Cloudflare Turnstile] Error: 600010.
+step 2-results https://ccfs.sos.wa.gov/#/BusinessSearch
+result rows 1
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console [Cloudflare Turnstile] Error: 600010.
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console [Cloudflare Turnstile] Error: 600010.
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console [Cloudflare Turnstile] Error: 600010.
+row err locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('table tbody tr a').first()
+
+console Error
+console  Error
+console  Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console %c%d font-size:0;color:transparent Error
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+console [Cloudflare Turnstile] Error: 600010.
+console OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+step 3-detail https://ccfs.sos.wa.gov/#/BusinessSearch
+calls 89 GET https://challenges.cloudflare.com/turnstile/v0/api.js 302 | GET https://challenges.cloudflare.com/turnstile/v0/g/4df4a60fa397/api.js 200 | GET https://ccfs-api.prod.sos.wa.gov/api/Home1/GetStatistics/ 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/g7zp6/0x4AAAAAABLh8fs_3VYXfD20/auto 200 | GET blob:https://challenges.cloudflare.com/cd36dee3-699a-4648-af39-bd4569bc41bf undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/12254b17-7594-4605-bd67-bf87df601268 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f0eb1d63a619/1791942709433/b15dce7f99f196aa0a60 401 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f0eb1d63a619/Tjg_vygnQMtn9LZli6y.XdpQIYZ undefined | GET blob:https://challenges.cloudflare.com/12254b17-7594-4605-bd67-bf87df601268 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f0eb1d63a619/1791942709434/1Cf.y.nF.d1_lAyp8Hp5d 200 | GET blob:https://challenges.cloudflare.com/12254b17-7594-4605-bd67-bf87df601268 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/bi8hz/0x4AAAAAABLh8fs_3VYXfD20/auto 200 | GET blob:https://challenges.cloudflare.com/5cc79e79-8b02-4b04-8e6a-3a117fde17b2 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/9289519d-4ad8-49c0-a3f2-f8fcc5394d1a 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f10e7c13a619/1791942714946/d489cd069aa957c4c3f9 401 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f10e7c13a619/b2Vq.AEdCG_ybGAWfZZjHpdWvCw undefined | GET blob:https://challenges.cloudflare.com/9289519d-4ad8-49c0-a3f2-f8fcc5394d1a 200 | GET blob:https://challenges.cloudflare.com/9289519d-4ad8-49c0-a3f2-f8fcc5394d1a 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f10e7c13a619/1791942714947/R4..uvCwnKJC59sytnu2C 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchWN8zGPajMdBLg7yLZ.9OXkqJmyRgLni28rMw 200 | GET blob:https://challenges.cloudflare.com/3c8c0ab1-9485-429c-a1eb-8d621f1f8b18 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/ab05d116-4a10-4b23-bbdd-8f73c5913b67 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f15799c5a619/ZSI8EAOh8MFw.iNtAK_GQNAtN8e undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f15799c5a619/1791942726559/6fa8b0552088506f0078 401 | GET blob:https://challenges.cloudflare.com/ab05d116-4a10-4b23-bbdd-8f73c5913b67 200 | GET blob:https://challenges.cloudflare.com/ab05d116-4a10-4b23-bbdd-8f73c5913b67 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f15799c5a619/1791942726564/odmH99R4W8RWEJsuo2OO2 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchcvSCIbDrP5TomNwqt1WlmPf199mOGzU5MjNX 200 | GET blob:https://challenges.cloudflare.com/ee4b3095-53dd-4915-b8e3-6675a06c839f undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/daff0360-05ae-4dd3-bcb7-5d3f5565a0ce 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f1a05fa4a619/1791942738211/1381b8e0b75b7de16b9d 401 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f1a05fa4a619/eMWtrvHk4LEQWN_6ZhKqrQR2W0K undefined | GET blob:https://challenges.cloudflare.com/daff0360-05ae-4dd3-bcb7-5d3f5565a0ce 200 | GET blob:https://challenges.cloudflare.com/daff0360-05ae-4dd3-bcb7-5d3f5565a0ce 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f1a05fa4a619/1791942738212/4hvaW5AUUTuiTNIbXcnL2 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchLrTuhkpw9wLaKfp9uAdJRx9x.annfxVEWVCE 200 | GET blob:https://challenges.cloudflare.com/6f4e7b4a-80f5-49ff-865a-ab3589571efb undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/e18e1ead-cf3d-4ac3-9594-af4923dfe5d8 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f1e80d9ca619/M.41j.764hHNtUUM9ct6XOQTw_9 undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f1e80d9ca619/1791942749762/9e554d6749c555f53149 401 | GET blob:https://challenges.cloudflare.com/e18e1ead-cf3d-4ac3-9594-af4923dfe5d8 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f1e80d9ca619/1791942749763/2RBFf5YH654gzipJDdkZm 200 | GET blob:https://challenges.cloudflare.com/e18e1ead-cf3d-4ac3-9594-af4923dfe5d8 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchPVC5N96QSTC4EgQ.wWoZo0bMEtSd3wIp5P3a 200 | GET blob:https://challenges.cloudflare.com/fe638d52-67c4-4777-9f15-d87fcd3ee8d6 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/d0aaf5f0-d08c-47ba-b1a9-50917237a2f7 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f23039bba619/BQ64GzWyi9bo4iy8bt4L41C4YYL undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f23039bba619/1791942761318/c3b603abfe256dd55cd7 401 | GET blob:https://challenges.cloudflare.com/d0aaf5f0-d08c-47ba-b1a9-50917237a2f7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f23039bba619/1791942761320/cjOc7dWliwt_zirncC0MX 200 | GET blob:https://challenges.cloudflare.com/d0aaf5f0-d08c-47ba-b1a9-50917237a2f7 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchrxSHOqu76mmViLBtOgd6e9l.CAXleIFbxOck 200 | GET blob:https://challenges.cloudflare.com/d2350b25-5370-4680-b096-ea24b88311a6 undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/8a8cee8a-1166-4b1c-a54c-6f59ce691dd8 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f278981fa619/zJ5bN4z4lDC2Psx0YyVl3St8V3o undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f278981fa619/1791942772894/9c1437a069be96c6fefb 401 | GET blob:https://challenges.cloudflare.com/8a8cee8a-1166-4b1c-a54c-6f59ce691dd8 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f278981fa619/1791942772896/etMwdTHUwIgM7xhUMuFYU 200 | GET blob:https://challenges.cloudflare.com/8a8cee8a-1166-4b1c-a54c-6f59ce691dd8 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchlGP4dNRht2v8DhWY.8TFxsDmKKzPv9L7oNHQ 200 | GET blob:https://challenges.cloudflare.com/53f39aa3-ad97-45fb-9bdf-abe428a3f96b undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/ec0384d1-b645-4e7e-bc8e-3338617d95be 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f2c21d7aa619/FIHT4yz3gy26suR7PwaXpJxfbeo undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f2c21d7aa619/1791942784674/6c904d2ed3941724463a 401 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a2f2c21d7aa619/1791942784674/0N29JK.0snL4i.YXaextn 200 | GET blob:https://challenges.cloudflare.com/ec0384d1-b645-4e7e-bc8e-3338617d95be 200 | GET blob:https://challenges.cloudflare.com/ec0384d1-b645-4e7e-bc8e-3338617d95be 200 | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rchMjLh2Jl5KIHmoZnMn3Hy0vekKnI5k3aRFuK5 200 | GET blob:https://challenges.cloudflare.com/2457cbf3-c03b-4cf5-af00-d27367cd5a7e undefined | POST https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/4072155196:1791940513:d0xMj_0zOHH2lLrpUdGkCvhyVhwg-7 200 | GET blob:https://challenges.cloudflare.com/e71f9e67-32d2-437c-9228-fc7888e2b35d 200 | GET https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a2f30b686ba619/kMANRov30qac4fCCX9Vx78.q1Oc undefined | GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a2f30b686ba619/1791942796390/1bb1e90b5d856eddcb6e 401

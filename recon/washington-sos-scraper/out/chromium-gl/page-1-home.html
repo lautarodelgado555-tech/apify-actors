@@ -1,0 +1,722 @@
+<!DOCTYPE html><html class="fixed js flexbox flexboxlegacy csstransforms csstransforms3d no-overflowscrolling no-mobile-device custom-scroll ng-scope" ng-app="wacorpApp" style=""><!-- fixed sidebar-left-collapsed to fix an issue per TAS --><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <script async="" src="https://www.datadoghq-browser-agent.com/us3/v5/datadog-rum.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-7B08VE04WV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-7B08VE04WV');
+    </script>
+    <!-- Basic -->
+    <meta charset="UTF-8">
+
+    <title>Corporations and Charities System</title>
+    <meta name="keywords" content="CCFS">
+    <meta name="google" content="notranslate">
+    <meta name="description" content="Washington Corporations and Charities Filing System">
+    <meta name="author" content="pcctg.com">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Metas   -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Web Fonts  -->
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap-multiselect/bootstrap-multiselect.css">
+    <link rel="stylesheet" href="assets/vendor/morris/morris.css">
+    <link href="assets/css/jquery.fancybox.css" rel="stylesheet">
+    <link href="assets/css/toastr.css" rel="stylesheet">
+    <link href="assets/css/loading-bar.css?version=20261005.1" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/theme.css?version=20261005.1">
+    <link rel="stylesheet" href="assets/css/skins/default.css?version=20261005.1">
+    <link rel="stylesheet" href="assets/css/theme-custom.css">
+    <script src="assets/vendor/modernizr/modernizr.js?version=20261005.1"></script>
+    <link href="assets/css/progress-wizard.min.css" rel="stylesheet">
+    <link href="ng-app/directives/AutoComplete/autocomplete.css" rel="stylesheet">
+    <link href="assets/css/custom.css?version=20261005.1" rel="stylesheet">
+
+    <!--<link href="assets/css/treasure-overlay-spinner.min.css" rel="stylesheet" />-->
+    <style>
+        #loaderDiv {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1100;
+            background-color: white;
+            opacity: .6;
+        }
+
+        .ajax-loader {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -32px; /* -1 * image width / 2 */
+            margin-top: -32px; /* -1 * image height / 2 */
+            display: block;
+        }
+    </style>
+
+    <script>
+        function printScreen(objreference) {
+            var contents = $(objreference).html();
+            var frame1 = $('<iframe />');
+            frame1[0].name = "frame1";
+            frame1.css({ "position": "absolute", "top": "-1000000px" });
+            $("body").append(frame1);
+            var frameDoc = frame1[0].contentWindow ? frame1[0].contentWindow : frame1[0].contentDocument.document ? frame1[0].contentDocument.document : frame1[0].contentDocument;
+            frameDoc.document.open();
+            //Create a new HTML document.
+            frameDoc.document.write('<html><head><title></title>');
+            frameDoc.document.write('</head><body>');
+            //Append the external CSS file.
+            frameDoc.document.write('<style>.bg-primary{text-align:left;}.div_header {text-transform: uppercase;font-size:22px;padding: 15px 0 4px 0; font-family: "arial";}.alignright{padding-top:6px;} .div_header{border-bottom:1px solid #000; margin-bottom:4px;}</style>');
+            //Append the DIV contents.
+            frameDoc.document.write(contents);
+            frameDoc.document.write('</body></html>');
+            frameDoc.document.close();
+            setTimeout(function () {
+                window.frames["frame1"].focus();
+                window.frames["frame1"].print();
+                frame1.remove();
+            }, 500);
+        }
+    </script>
+    <script src="apiURL.js"></script>
+<style type="text/css">.fancybox-margin{margin-right:0px;}</style></head>
+
+<body>
+    <script>
+        (function (h, o, u, n, d) {
+            h = h[d] = h[d] || { q: [], onReady: function (c) { h.q.push(c) } }
+            d = o.createElement(u); d.async = 1; d.src = n
+            n = o.getElementsByTagName(u)[0]; n.parentNode.insertBefore(d, n)
+        })(window, document, 'script', 'https://www.datadoghq-browser-agent.com/us3/v5/datadog-rum.js', 'DD_RUM')
+        window.DD_RUM.onReady(function () {
+            window.DD_RUM.init({
+                clientToken: window.aPIURL.clientToken,
+                applicationId: window.aPIURL.applicationId,
+                site: 'us3.datadoghq.com',
+                service: 'ccfs-online',
+                env: window.aPIURL.env + '-ccfs',
+                // Specify a version number to identify the deployed version of your application in Datadog
+                // version: '1.0.0',
+                sessionSampleRate: window.aPIURL.sessionSampleRate,
+                sessionReplaySampleRate: window.aPIURL.sessionReplaySampleRate,
+                trackUserInteractions: true,
+                trackResources: true,
+                trackLongTasks: true,
+                defaultPrivacyLevel: 'mask-user-input',
+                allowedTracingUrls: [window.aPIURL.serviceUrl]
+            });
+        })
+    </script>
+    <div ng-controller="rootController" ng-init="rootInit()" class="ng-scope">
+        <!-- ngInclude: undefined --><ng-include src="masterLayout()" class="ng-scope" style=""><style type="text/css" class="ng-scope">
+    body {
+        background: #fff !important;
+    }
+</style>
+
+<!-- start: page -->
+
+<!-- ngView:  --><div ng-view="" class="ng-scope"><!--Changes:--->
+<!--Reconfigured element class col-widths parameters-->
+<!--Added "TestBanner" div element-->
+
+<div style="background-color: #f5f5f5 !important;" class="ng-scope">
+
+    <!-- Header -->
+    <header class="headerSection">
+        <div class="container-fluid">
+            <div class="row">
+                <!--<div class="col-lg-6 col-md-6 col-sm-5 col-xs-12">-->
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <img class="logo-responsive logo" src="/assets/images/wa-corp-logo1.png" alt="Washington Corporations Logo">
+                </div>
+
+                <!-- TFS#2607; revamped banner; JS below determines visibility, content -->
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" style="font-size: 36px; font-weight: bold; color: red">
+                    <div id="debugBanner" style="visibility: hidden;">
+                        <br><label id="lblDebugBanner" style="font-size:larger;font-weight:bold"></label>
+                    </div>
+                </div>
+
+                <!--<div class="col-lg-6 col-md-6 col-sm-7 col-xs-12 rightHeading">-->
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 rightHeading">
+                    <h2 class="appTitle text-right">
+                        <span class="textContent">
+                            <span class="titleFont">w</span>ashington
+                            <span class="titleFont">c</span>orporations<span class="hideBreak"><br></span> and
+                            <span class="titleFont">c</span>harities
+                            <span class="titleFont">f</span>iling
+                            <span class="titleFont">s</span>ystem
+                        </span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <main class="container mainContent">
+        <!-- ngInclude: 'ng-app/view/account/login.html' --><div class="row flex-container login_space ng-scope" ng-include="'ng-app/view/account/login.html'" style="">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 leftPane ng-scope">
+            <div class="padding_lr_20 ng-scope" ng-controller="accountController" ng-init="InitLogin()">
+                <ng-form role="formClass" novalidate="" name="loginForm" autocomplete="off" class="ng-pristine ng-invalid ng-invalid-required">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Customer Login</h3>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <!--<div live-chat=""></div>-->
+                        </div>
+                        <div class="col-md-12">
+                            <p>Please enter your User ID and Password</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="input-group input-group-lg logInput" ng-enter="login('loginForm')">
+                                <span class="input-group-addon custom-addon">
+                                    <span class="glyphicon glyphicon-user userIcon" aria-hidden="true"></span>
+                                </span>
+                                <input type="text" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="User ID" ng-model="user.Username" id="txtUsername" name="Username" ng-required="true" ng-trim="true" is-not-upper-case="true" required="required" style="text-transform: none;">
+                            </div>
+                            <div ng-messages="loginForm.Username.$error" class="danger ng-active ng-hide" data-ng-show="validateErrorMsg">
+                                <!-- ngMessage: required --><p ng-message="required" class="error-messages ng-binding ng-scope" data-ng-bind="messages.Login.userID">Please enter User ID.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="input-group input-group-lg logInput" ng-enter="login('loginForm')">
+                                <span class="input-group-addon custom-addon"><img src="/assets/images/password.png"></span>
+                                <input type="password" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Password" ng-model="user.Password" name="Password" ng-required="true" ng-trim="true" required="required" style="">
+                            </div>
+                            <div ng-messages="loginForm.Password.$error" class="danger ng-active ng-hide" data-ng-show="validateErrorMsg">
+                                <!-- ngMessage: required --><p class="error-messages ng-binding ng-scope" ng-message="required" data-ng-bind="messages.Login.password">Please enter Password.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <cf-turnstile class="ng-isolate-scope"><!-- ngIf: isTurnstileEnable --><div class="cf-turnstile ng-scope" ng-if="isTurnstileEnable"><div><div></div><input type="hidden" name="cf-turnstile-response" id="cf-chl-widget-g7zp6_response" value="" style=""></div></div><!-- end ngIf: isTurnstileEnable --></cf-turnstile>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-5 col-xs-6 paneLeft">
+                            <div class="pull-left">
+                                <button type="submit" class="btn btn-default btn-lg button_bg" ng-click="login('loginForm')"> <span class="glyphicon glyphicon-log-in"></span> &nbsp;Log In </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 paneLeft">
+                            <button type="button" class="btn btn-default btn-forgot btn-md pull-left" ng-click="navForgotUser();">
+                                <span class="glyphicon glyphicon-user"></span> &nbsp;Forgot User ID
+                            </button>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 paneRight">
+                            <button type="button" class="btn btn-default btn-forgot btn-md pull-right" ng-click="navForgotPassword();">
+                                <span class="glyphicon glyphicon-lock"></span> &nbsp;Forgot Password
+                            </button>
+                        </div>
+                    </div>
+                    <br>
+                </ng-form>
+
+                <!--Resend Email verification-->                       
+                    <!-- Modal -->
+                <div class="modal ngdialog-theme-default" id="myModalResendEmail" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-body  text-success">
+                                <br>
+                                 Your account has not been activated.  A verification email was sent to  <span class="text-success text-bold ng-binding"></span>. Open this email and click on the link to activate your account. If the email is not received, please click on Resend.
+                              
+
+                            </div>
+                            <div class="modal-footer">
+                                <input type="submit" value="Resend" text="Resend" class="btn btn-success" id="btnresend" ng-click="resendEmail();" style="">&nbsp;<button type="button" id="btnclosepopup" class="btn btn-success" ng-click="closepopup();">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 registratio_bg rightPane ng-scope">
+        <div class="padding_lr_15 text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-center registerHeading">Create a User Account</h3>
+                    <p>
+                        Create a user account to manage subscriptions, create a business, register a charity, and file amendments and other filings.<br>
+                        <!--"Create a User Account"<br />
+                        below before you can file your Annual Report,<br />
+                        create a new business including a Trade Name,<br />
+                        or file and/ or search Organization transactions-->
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="button" ng-click="navUserRegistration();" class="btn btn-default btn-lg btn-register">Create a User Account</button>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 lineBorder">&nbsp;</div>
+            </div>
+            
+            <p>This Website Supports</p>
+            <div class="row">
+                <img src="/assets/images/cards1.png" alt="Payment Gateways">
+            </div>
+            <div class="visible-xs visible-sm">&nbsp;</div>
+            <div class="row">
+                <div>
+                    <div class="row">
+                        <!--<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 lineBorder">&nbsp;</div>-->
+                        <div class="">&nbsp;</div>
+                    </div>
+                    <p> <a style="color:white" ng-click="showBrowserCompality();">CCFS Web Browser Supports</a></p>
+                    <div class="row" style="margin-bottom:10px;">
+                        <!--<img src="../../../images/ie.svg" width="32px" height="32px" alt="IE Browser Logo" style="cursor:pointer" ng-click="showBrowserCompality();" />--> <!-- TFS 2921 DEV 1181 IE logo org-->
+                        <img src="../../../images/Edge_Logo_2019.svg" width="32px" height="32px" alt="Edge Browser Logo" style="cursor:pointer" ng-click="showBrowserCompality();"> <!-- TFS 2921 DEV 1181 Edge logo -->
+                        <img src="../../../images/chrome.svg" width="32px" height="32px" alt="Chrome Browser Logo" style="cursor:pointer" ng-click="showBrowserCompality();">
+                    </div>
+                </div>
+
+                <!--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 paneLeft">
+            </br>
+            <h4 ng-click="CommercialRegisteredAgentsList();" style="cursor:pointer;color:black;" onmouseover="this.style.color = '#fff'"
+                onmouseout="this.style.color = '#000000'">
+                Commercial Registered Agents
+            </h4>
+
+        </div>-->
+                <!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 paneRight">
+            <button type="button" class="btn btn-default btn-forgot btn-md pull-right" ng-click="navForogtPassword();">
+                <span class="glyphicon glyphicon-lock"></span> &nbsp;Forgot Password
+            </button>
+        </div>-->
+            </div>
+        </div>
+    </div> 
+    
+</div>
+        <div class="row paddingBottom">
+            <div class="col-md-6 btnLeftPanel">
+                <div class="btn-panel oneClickStyle oneClickStyle-green" onclick="location.href = '#/oneClickARSearch/BusinessSearch'">
+                    <div class="panel-body text-center text-uppercase btn-panel-body">
+                        <span class="expressIcon-green"></span>
+                        <p>
+                            <strong>express annual report</strong> &nbsp;<br>
+                            <strong><span style="color:#59a92a">without changes</span></strong><br>
+                            <strong>(no login required)</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 btnRightPanel">
+                <div class="btn-panel oneClickStyle oneClickStyle-blue" onclick="location.href = '#/expressAnnualReportSearch/BusinessSearch'">
+                    <div class="panel-body text-center text-uppercase btn-panel-body">
+                        <span class="expressIcon-blue"></span>
+                        <p>
+                            <strong>express annual report</strong> &nbsp;<br>
+                            <strong><span style="color:#1ca4e8">with changes</span></strong><br>
+                            <strong>(no login required)</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ngInclude: 'ng-app/view/businesssearch/searchBusiness.html' --><div class="ng-scope" ng-include="'ng-app/view/businesssearch/searchBusiness.html'" style="">
+    <div class="col-md-12 ng-scope">
+        <div class="panel panel-default  custom-panel">
+            <div class="panel-body panel-home custom-panel-body">
+
+                <div class="padding_lr_15 ng-scope" ng-controller="searchBusinessController" ng-init="initSearchBusiness()" data-ng-enter="searchBusiness()">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Corporation Search</h3>
+                            <p>Business information filed with the Office of the Secretary of State is available for public view using the Corporation Search. </p>
+                            <p><b>Search by a Business Name or a UBI Number:</b></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!--<div class="col-md-3 col-sm-5 col-xs-12">
+                            <select class="form-control" ng-model="businessSearchEntity.SearchCriteria">
+                                <option data-ng-repeat="type in searchTypesList" value="{{type.key}}"> {{type.value}} </option>
+                            </select>
+                        </div>-->
+                        <!--<div class="col-md-6 controls ng-scope">
+                            <label><input name="searchType" class="ng-pristine ng-untouched ng-valid" id="rdoContains" type="radio" value="Contains" data-ng-model="businessSearchEntity.SearchCriteria"/> Contains &nbsp;&nbsp;</label>
+                            <label><input name="searchType" class="ng-pristine ng-untouched ng-valid" id="rdoStartswith" type="radio" value="StartsWith" data-ng-model="businessSearchEntity.SearchCriteria"/> Begins With &nbsp;&nbsp;</label>
+                            <label><input name="searchType" class="ng-pristine ng-untouched ng-valid" id="rdoEndswith" type="radio" value="ExactMatch" data-ng-model="businessSearchEntity.SearchCriteria"/> Exact Match</label>
+                        </div>-->
+                    </div>
+                    <div class="row">
+                       
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 col-sm-4 col-xs-12">
+                            <input name="BusinessName" id="BusinessName" class="form-control ng-pristine ng-untouched ng-valid ng-valid-maxlength" placeholder="Business Name" type="text" ng-model="businessSearchEntity.BusinessName" maxlength="255" style="">
+                        </div>
+                        <div class="col-md-1" style="text-align: center; width: 5%;">
+                            <span>OR</span>
+                        </div>
+                        <div class="hidden spacer"></div>
+                        <div class="col-md-3 col-sm-7 col-xs-12">
+                            <input name="UBINumber" id="UBINumber" data-valid-number="" maxlength="11" class="form-control ng-pristine ng-untouched ng-valid ng-valid-maxlength" placeholder="UBI" ng-paste="setPastedUBIHome($event)" ng-keypress="setUBILengthHome($event)" type="text" ng-model="businessSearchEntity.UBINumber" style="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!--<cf-turnstile ></cf-turnstile>-->
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <button ng-disabled="isformValid()" class="btn btn-primary btn-search" type="submit" ng-click="searchBusiness()" disabled="disabled"><i class="fa fa-search" aria-hidden="true"></i> <strong class="ng-binding">Search</strong> </button>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <a ng-href="#/AdvancedSearch" class="btn btn-default btn-advdSearch pull-right" href="#/AdvancedSearch">Advanced Search &nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <p></p><br>
+                    <div>
+                        <!--<label data-ng-bind="errorMessages.BusinessSearch.disclaimerStatement">
+                    Search historical Corporations documents (prior to 2004) at the <b><a href="https://www.digitalarchives.wa.gov/" target="_blank"> Digital Archives </a></b>. All documents filed with the Corporations Division are considered public record.
+                </label>-->
+                        <label>
+                            Search historical records at the <b><a href="https://www.digitalarchives.wa.gov/" target="_blank"> Digital Archives.</a></b>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            View our current list of Commercial Registered Agents <b><a href="" ng-click="CommercialRegisteredAgentsList();">here.</a></b>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script class="ng-scope">
+        $("#BusinessName").focus(function () {
+            $("#UBINumber").val('');
+            $("#UBINumber").attr("disabled", "disabled");
+        });
+        $("#BusinessName").mouseleave(function () {
+            $("#UBINumber").removeAttr("disabled");
+        });
+
+        $("#UBINumber").focus(function () {
+            $("#BusinessName").val('');
+            $("#BusinessName").attr("disabled", "disabled");
+        });
+        $("#UBINumber").mouseleave(function () {
+            $("#BusinessName").removeAttr("disabled");
+        });
+    </script>
+</div>
+        <!-- ngInclude: 'ng-app/view/businesssearch/cftBusinessSearch.html' --><div class="ng-scope" ng-include="'ng-app/view/businesssearch/cftBusinessSearch.html'">
+<!-- ngIf: !isUserLoggedIn --><div class="col-md-6 ng-scope" ng-if="!isUserLoggedIn">
+    <div class="panel panel-default  custom-panel">
+        <div class="panel-body panel-home custom-panel-body">
+            <div class="padding_lr_15 ng-scope" ng-controller="cftBusinessSearchController" ng-init="initCFTSearchBusiness()" data-ng-enter="searchCFTBusiness(PublicSearchform)">
+                <data-ng-form name="PublicSearchform" novalidate="" class="ng-pristine ng-valid-maxlength ng-invalid ng-invalid-required">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Charity/Fundraiser/Trust Search</h3>
+                            <br>
+                            <!--<p>Search by Organization Name or Registration Number</p>-->
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label>Search By:</label>
+                    </div>
+                    <div class="col-md-12">
+                        
+                            <div class="col-md-12">
+                                <label>
+                                    <input id="searchFein" type="radio" name="bSearchModal" ng-change="cleartext()" data-ng-model="charitySearchCriteria.Type" value="RegistrationNumber" class="ng-pristine ng-untouched ng-valid" style="">
+                                    Registration Number
+                                </label>
+                                <label>
+                                    <input id="searchName" type="radio" name="bSearchModal" ng-change="cleartext()" data-ng-model="charitySearchCriteria.Type" value="OrganizationName" class="ng-pristine ng-untouched ng-valid" style="">
+                                    Organization Name
+                                </label>
+                            </div>
+                            <div class="col-md-12">
+                                <label>
+                                    <input id="searchFein" type="radio" name="bSearchModal" ng-change="cleartext()" data-ng-model="charitySearchCriteria.Type" value="FEINNo" class="ng-pristine ng-untouched ng-valid" style="">
+                                    FEIN Number
+                                </label>
+                                &nbsp;&nbsp;&nbsp;
+                                <label>
+                                    <input id="searchFein" type="radio" name="bSearchModal" ng-change="cleartext()" data-ng-model="charitySearchCriteria.Type" value="UBINumber" class="ng-pristine ng-untouched ng-valid" style="">
+                                    UBI Number
+                                </label>
+                            </div>
+                         
+                    </div>
+
+                    <div class="row">
+                         <div class="col-md-12 ng-hide" data-ng-show="charitySearchCriteria.Type=='OrganizationName'">
+                            <div class="col-md-12 controls ng-scope">
+                                <label><input name="searchType" class="ng-pristine ng-untouched ng-valid" id="rdoContains" type="radio" value="Contains" data-ng-model="charitySearchCriteria.SearchCriteria" style=""> Contains &nbsp;&nbsp;</label>
+                                <label><input name="searchType" class="ng-pristine ng-untouched ng-valid" id="rdoStartswith" type="radio" value="StartsWith" data-ng-model="charitySearchCriteria.SearchCriteria" style=""> Begins With &nbsp;&nbsp;</label>
+                                <label><input name="searchType" class="ng-pristine ng-untouched ng-valid" id="rdoEndswith" type="radio" value="ExactMatch" data-ng-model="charitySearchCriteria.SearchCriteria" style=""> Exact Match</label>
+                            </div>
+                            <input type="text" class="form-control name ng-pristine ng-untouched ng-valid-maxlength ng-valid ng-valid-required" data-ng-required="charitySearchCriteria.Type=='OrganizationName'" id="entityNameSearchField" name="entityNameSearchField" data-ng-model="charitySearchCriteria.OrgName" maxlength="256" ng-change="checkValue(charitySearchCriteria.OrgName,'entityNameSearchField')" style="">
+                            <div data-ng-messages="searchform.entityNameSearchField.$error" data-ng-show="isShowErrorFlag" class="ng-inactive ng-hide">
+                                <!--<span data-ng-message="required" class="error-messages" data-ng-bind="messages.CFTSearch.entityNameRequired"></span>-->
+                            </div>
+                        </div>
+                        <div class="col-md-12 ng-hide" data-ng-show="charitySearchCriteria.Type=='FEINNo'">
+                            <input type="text" class="form-control name ng-pristine ng-untouched ng-valid-maxlength ng-valid ng-valid-required" data-ng-required="charitySearchCriteria.Type=='FEINNo'" id="FEINNoSearchField" name="feinSearchField" data-ng-model="charitySearchCriteria.ID" maxlength="9" data-valid-number="" focus-me="IsFocus" ng-keyup="checkValue(charitySearchCriteria.ID,'FEINNoSearchField')" ng-paste="setPastedUbiHome($event)" style="">
+                            <div data-ng-messages="searchform.feinSearchField.$error" data-ng-show="isShowErrorFlag" class="ng-inactive ng-hide">
+                                <!--<span data-ng-message="required" class="error-messages" data-ng-bind="messages.CFTSearch.feinNoRequired"></span>-->
+                            </div>
+                        </div>
+                        <div class="col-md-12" data-ng-show="charitySearchCriteria.Type=='RegistrationNumber'">
+                            <input type="text" class="form-control name ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-maxlength" data-ng-required="charitySearchCriteria.Type=='RegistrationNumber'" id="RegistrationNumberSearchField" name="RegistrationNumberSearchField" ng-keyup="checkValue(charitySearchCriteria.ID,'RegistrationNumberSearchField')" focus-me="IsFocus" data-ng-model="charitySearchCriteria.ID" maxlength="7" data-valid-number="" ng-paste="setPastedRegNumberHome($event)" required="required" style="">
+                            <div data-ng-messages="searchform.RegistrationNumberSearchField.$error" data-ng-show="isShowErrorFlag" class="ng-inactive ng-hide">
+                                <!--<span data-ng-message="required" class="error-messages" data-ng-bind="messages.CFTSearch.RegNoRequired"></span>-->
+                            </div>
+                        </div>
+                        <div class="col-md-12 ng-hide" data-ng-show="charitySearchCriteria.Type=='UBINumber'">
+                            <input type="text" class="form-control name ng-pristine ng-untouched ng-valid-maxlength ng-valid ng-valid-required" data-ng-required="charitySearchCriteria.Type=='UBINumber'" id="UBINumberSearchField" name="UBINumberSearchField" ng-keyup="checkValue(charitySearchCriteria.ID,'UBINumberSearchField')" focus-me="IsFocus" data-ng-model="charitySearchCriteria.ID" maxlength="11" data-valid-number="" ng-paste="setPastedUbiHome($event)" ng-keypress="CharityUBI($event)" style="">
+                            <div data-ng-messages="searchform.UBINumberSearchField.$error" data-ng-show="isShowErrorFlag" class="ng-inactive ng-hide">
+                                <!--<span data-ng-message="required" class="error-messages" data-ng-bind="messages.CFTSearch.UBINoRequired"></span>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <button ng-disabled="!formValid" class="btn btn-primary btn-search" type="submit" ng-click="searchCFTBusiness(PublicSearchform)" disabled="disabled"><i class="fa fa-search" aria-hidden="true"></i> <strong class="ng-binding">Search</strong> </button>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <a ng-href="#/cftSearch" class="btn btn-default btn-advdSearch pull-right" href="#/cftSearch">Advanced Search &nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+
+                    </div>
+                    
+                    <div style="visibility:hidden">
+                        <!--<label>
+                        Search historical Corporations documents (prior to 2004) at the <b><a href="https://www.digitalarchives.wa.gov/" target="_blank"> Digital Archives </a></b>. All documents filed with the Corporations Division are considered public record.
+                    </label>-->
+                        &nbsp;
+                    </div>
+                    <!--<div class="row">
+                    <div class="col-md-5 col-sm-5 col-xs-12">
+                        <select class="form-control" ng-model="businessSearchEntity.SearchCriteria">
+                            <option data-ng-repeat="type in searchTypesList" value="{{type.key}}"> {{type.value}} </option>
+                        </select>
+                    </div>
+                    <div class="hidden spacer"></div>
+                    <div class="col-md-7 col-sm-7 col-xs-12">
+                        <input name="cftBusinessName" id="cftBusinessName" class="form-control" placeholder="Organization Name" type="text" ng-model="businessSearchEntity.cftBusinessName">
+                    </div>
+                </div>-->
+                    <!--<di
+                v class="row">
+                    <div class="col-md-12">
+                        <span>OR</span>
+                    </div>
+                </div>-->
+                    <!--<di
+                v class="row">
+                    <div class="col-md-6 col-sm-4 col-xs-12">
+                        <input name="RegNumber" id="RegNumber" maxlength="7" class="form-control" placeholder="Registration Number"
+                               ng-paste="setPastedRegNumberHome($event)" ng-keypress="setRegNumberLengthHome($event)"
+                               type="text" ng-model="businessSearchEntity.RegistrationNumber">
+                    </div>
+                </div>-->
+                </data-ng-form>
+                 <div>
+                    <label>
+                        <b>
+                           View our current <a href="" ng-click="DownloadActivityReport('Commercial_Fundraiser_Activity_Report.pdf');" target="_blank">
+                                Commercial Fundraiser Activity Report
+                            </a>
+                        </b>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <b>
+                            View our current <a href="" ng-click="DownloadActivityReport('Trust_Directory_Report.pdf');" target="_blank">
+                                Trust Directory Report
+                            </a>
+                        </b>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div><!-- end ngIf: !isUserLoggedIn -->
+
+<!-- ngIf: isUserLoggedIn -->
+
+<script class="ng-scope">
+    $("#cftBusinessName").focus(function () {
+        $("#RegNumber").val('');
+        $("#RegNumber").attr("disabled", "disabled");
+    });
+    $("#cftBusinessName").mouseleave(function () {
+        $("#RegNumber").removeAttr("disabled");
+    });
+
+    $("#RegNumber").focus(function () {
+        $("#cftBusinessName").val('');
+        $("#cftBusinessName").attr("disabled", "disabled");
+    });
+    $("#RegNumber").mouseleave(function () {
+        $("#cftBusinessName").removeAttr("disabled");
+    });
+</script>
+</div>
+        <!-- ngInclude: 'ng-app/view/businesssearch/trademarkHomeSearch.html' --><div class="ng-scope" ng-include="'ng-app/view/businesssearch/trademarkHomeSearch.html'">
+<div class="col-md-6 ng-scope">
+    <div class="panel panel-default custom-panel">
+        <!--<div class="panel-body custom-panel-body">-->
+        <div class="panel-body panel-home custom-panel-body">
+            <div class="padding_lr_15 ng-scope" ng-controller="trademarkHomeSearchController" ng-init="initTradeSearch()" data-ng-enter="searchTrade('Trademarksearchform')">
+                <data-ng-form name="Trademarksearchform" novalidate="" class="ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Trademark Search</h3>
+                            <br>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="col-md-12">
+                                <label>Search By:</label>
+                            </div>
+                            <div class="col-md-12">
+                                <div>
+                                    <div class="col-md-12">
+                                        <label> <input id="rdoTradeNo" type="radio" name="Tradesearch" data-ng-model="trademarkSearch.Type" value="RegistrationNumber" ng-click="hideOption('RegistrationNumber')" class="ng-pristine ng-untouched ng-valid" style=""> Registration # &nbsp;</label>
+                                        <label><input id="rdoTradename" type="radio" name="Tradesearch" data-ng-model="trademarkSearch.Type" value="TrademarkOwner" ng-click="hideOption('TrademarkOwner')" class="ng-pristine ng-untouched ng-valid" style=""> Owner's Name &nbsp;</label>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label><input type="radio" id="rdoTradetext" name="Tradesearch" data-ng-model="trademarkSearch.Type" value="TrademarkText" ng-click="hideOption('TrademarkText')" class="ng-pristine ng-untouched ng-valid" style=""> Trademark Text &nbsp;</label>
+                                        <!-- ngIf: IsType -->
+                                        <label><input type="radio" id="rdoTradeUbi" name="Tradesearch" data-ng-model="trademarkSearch.Type" value="UBINumber" ng-click="hideOption('UBINumber')" class="ng-pristine ng-untouched ng-valid" style=""> UBI Number</label>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+
+                                <!-- ngIf: trademarkSearch.Type=='RegistrationNumber' --><div class="col-md-12 ng-scope" data-ng-if="trademarkSearch.Type=='RegistrationNumber'">
+                                    <input type="text" name="txtTrademarkNo" data-valid-number="" maxlength="9" ng-required="trademarkSearch.Type=='RegistrationNumber'" id="txtTrademarkNo" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-maxlength" ng-paste="setPastedTradeNum($event)" ng-model="trademarkSearch.RegistrationNumber" ng-click="hideOption('RegistrationNumber')" required="required" style="">
+                                    <div data-ng-messages="Trademarksearchform.txtTrademarkNo.$error" data-ng-show="isShowErrorFlag" class="ng-active ng-hide">
+                                        <!-- ngMessage: required --><span data-ng-message="required" class="error-messages ng-binding ng-scope" data-ng-bind="messages.TrademarkSearch.registrationNumber">Please enter Registration Number.</span>
+                                    </div>
+                                </div><!-- end ngIf: trademarkSearch.Type=='RegistrationNumber' -->
+
+                                <!-- ngIf: trademarkSearch.Type=='TrademarkOwner' -->
+
+                                <!-- ngIf: trademarkSearch.Type=='TrademarkText' -->
+                                <!-- ngIf: trademarkSearch.Type=='UBINumber' -->
+
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-4 col-md-6 col-lg-6">
+                                    <button ng-disabled="isformValid()" class="btn btn-primary btn-search" type="submit" data-ng-click="searchTrade('Trademarksearchform')" disabled="disabled"> <i class="fa fa-search" aria-hidden="true"></i>&nbsp;<strong>Search</strong></button>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <a ng-href="#/trademarkHomeAdvancedSearch" class="btn btn-default btn-advdSearch pull-right" href="#/trademarkHomeAdvancedSearch">Advanced Search &nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <!--<label data-ng-bind="errorMessages.BusinessSearch.disclaimerStatement">
+                                Search historical Corporations documents (prior to 2004) at the <b><a href="https://www.digitalarchives.wa.gov/" target="_blank"> Digital Archives </a></b>. All documents filed with the Corporations Division are considered public record.
+                            </label>-->
+                            <label>
+                                To search federal trademarks, visit the USPTO at  <b><a href="https://www.uspto.gov/trademarks-application-process/search-trademark-database" target="_blank"> https://www.uspto.gov/trademarks-application-process/search-trademark-database</a></b>
+                            </label>
+                        </div>
+
+                    </div>
+
+                </data-ng-form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+        <!--<div class="col-md-12">
+            <div live-chat=""></div>
+        </div>-->
+
+    </main>
+    <div class="clearfix"></div>
+    <footer>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-md-12 footer-section">
+                    <!--Washington Secretary of State, Corporations Division, 801 Capitol Way South PO Box 40234, Olympia, WA 98504-0234--> <!-- DevOps 3042 -->
+                    Washington Secretary of State, Corporations &amp; Charities Division, PO Box 40234, Olympia, WA 98504-0234 <!-- DevOps 3042 DevOps 3687-->
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!-- TFS#2607; add banners that will change automatically with host (server/connection) name -->
+<script type="text/javascript" class="ng-scope">
+    $(function () {
+        var xxx = window.location.hostname;
+
+        if (xxx.indexOf("ccfs.sos") != -1) {
+            $('#debugBanner').css('visibility', 'hidden');
+        } else if (xxx.indexOf('ts-ccfs') != -1) {
+            $('#debugBanner').css('visibility', 'visible');
+            $('#lblDebugBanner').html("* P R E - P R O D *");
+        } else if (xxx.indexOf("localhost") != -1) {
+            $('#debugBanner').css('visibility', 'visible');
+            $('#lblDebugBanner').html("* L O C A L *");
+        }
+    });
+</script></div>
+
+
+
+<!-- end: page --></ng-include>
+    </div>
+
+    <script type="text/javascript" src="bundles/vendor-js?version=20261005.1"></script>
+    <link href="assets/vendor/bootstrap-datepicker/css/datepicker3.css" rel="stylesheet">
+    <!-- application -->
+
+    <script type="text/javascript" src="bundles/ccfs-js?version=20261005.1"></script>
+
+    <link href="assets/css/ngDialog.min.css" rel="stylesheet">
+    <link href="assets/css/ngDialog-theme-default.min.css" rel="stylesheet">
+    <link href="assets/css/ngDialog-theme-plain.min.css" rel="stylesheet">
+
+    <!--<div id="loaderDiv" loader><img src="/assets/images/ajax-loader.gif" class="ajax-loader" /></div>-->
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer=""></script>
+
+</body></html>
