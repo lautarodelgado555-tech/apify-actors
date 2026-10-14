@@ -1,0 +1,75 @@
+{
+  "isPublic": false,
+  "title": "Tiendanube / Nuvemshop Product & Store Scraper",
+  "categories": [
+    "ECOMMERCE",
+    "LEAD_GENERATION"
+  ],
+  "permission": "LIMITED_PERMISSIONS",
+  "pricingInfos": [
+    {
+      "pricingModel": "PAY_PER_EVENT",
+      "pricingPerEvent": {
+        "actorChargeEvents": {
+          "product": {
+            "eventTitle": "Product",
+            "eventDescription": "One product returned with price, variants, stock, images and categories (in incremental mode only new or changed products are returned and charged).",
+            "eventTieredPricingUsd": {
+              "FREE": {
+                "tieredEventPriceUsd": 0.001
+              },
+              "BRONZE": {
+                "tieredEventPriceUsd": 0.001
+              },
+              "SILVER": {
+                "tieredEventPriceUsd": 0.0008
+              },
+              "GOLD": {
+                "tieredEventPriceUsd": 0.0005
+              },
+              "PLATINUM": {
+                "tieredEventPriceUsd": 0.0005
+              },
+              "DIAMOND": {
+                "tieredEventPriceUsd": 0.0005
+              }
+            },
+            "isPrimaryEvent": true
+          },
+          "store": {
+            "eventTitle": "Store profile",
+            "eventDescription": "One store profile returned with country, currency, public contacts, social links and product count.",
+            "eventTieredPricingUsd": {
+              "FREE": {
+                "tieredEventPriceUsd": 0.005
+              },
+              "BRONZE": {
+                "tieredEventPriceUsd": 0.005
+              },
+              "SILVER": {
+                "tieredEventPriceUsd": 0.004
+              },
+              "GOLD": {
+                "tieredEventPriceUsd": 0.003
+              },
+              "PLATINUM": {
+                "tieredEventPriceUsd": 0.003
+              },
+              "DIAMOND": {
+                "tieredEventPriceUsd": 0.003
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2026-10-14T02:03:05.589Z",
+      "startedAt": "2026-10-14T02:03:05.589Z",
+      "apifyMarginPercentage": 0.2
+    }
+  ],
+  "defaultRunOptions": {
+    "build": "latest",
+    "timeoutSecs": 3600,
+    "memoryMbytes": 2048
+  }
+}
