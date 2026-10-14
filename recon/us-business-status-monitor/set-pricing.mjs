@@ -24,7 +24,8 @@ if (same) {
     console.log('tiered pricing already in place');
     process.exit(0);
 }
-const body = { pricingInfos: [{ pricingModel: 'PAY_PER_EVENT', pricingPerEvent: { actorChargeEvents: store.events } }] };
+// The API wants the existing pricing records first, unchanged, followed by at most one new record.
+const body = { pricingInfos: [...(cur.pricingInfos || []), { pricingModel: 'PAY_PER_EVENT', pricingPerEvent: { actorChargeEvents: store.events } }] };
 const res = await fetch(`${API}/acts/${id}`, { method: 'PUT', headers, body: JSON.stringify(body) });
 const out = await res.json();
 if (out.data) {
