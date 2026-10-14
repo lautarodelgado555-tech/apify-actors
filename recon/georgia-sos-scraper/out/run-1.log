@@ -1,0 +1,20 @@
+attempt 1 firefox headless
+home passed on attempt 1
+cookies ["ASP.NET_SessionId","__cflb"]
+probe 1 200 null 10477 cookies ["ASP.NET_SessionId","__cflb","cf_clearance"]
+s01-delta-starts status 403 mit challenge len 5950 23ms 
+s02-delta-contains status 403 mit challenge len 5929 23ms 
+s03-coca-cola status 403 mit challenge len 5950 21ms 
+s04-control status 403 mit challenge len 5950 23ms 
+s05-agent status 403 mit challenge len 5950 20ms 
+s06-officer status 403 mit challenge len 5950 22ms 
+s07-none status 403 mit challenge len 5950 21ms 
+s08-georgia-power status 403 mit challenge len 5950 22ms 
+s09-llc status 403 mit challenge len 5950 21ms 
+s02b-delta-contains-again status 403 mit challenge len 5929 21ms 
+p1-pidx2 status 403 mit challenge len 5929 21ms 
+p2-pidx3 status 403 mit challenge len 5929 20ms 
+p3-sort-name status 403 mit challenge len 5950 22ms 
+detail targets [["567669","Foreign Profit Corporation"],["301509","Domestic Nonprofit Corporation"]]
+d1-detail-567669 status 403 mit challenge len 6031 24ms 
+d2-detail-301509 status 403 mit challenge len 6031 33ms 
