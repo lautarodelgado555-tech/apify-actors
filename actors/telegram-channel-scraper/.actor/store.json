@@ -13,7 +13,14 @@
     "message": {
       "eventTitle": "Message returned",
       "eventDescription": "One message from a public Telegram channel returned to the dataset. Failed channels, private channels and empty results are never charged.",
-      "eventPriceUsd": 0.001,
+      "eventTieredPricingUsd": {
+        "FREE": { "tieredEventPriceUsd": 0.001 },
+        "BRONZE": { "tieredEventPriceUsd": 0.001 },
+        "SILVER": { "tieredEventPriceUsd": 0.0008 },
+        "GOLD": { "tieredEventPriceUsd": 0.0005 },
+        "PLATINUM": { "tieredEventPriceUsd": 0.0005 },
+        "DIAMOND": { "tieredEventPriceUsd": 0.0005 }
+      },
       "isPrimaryEvent": true
     }
   },

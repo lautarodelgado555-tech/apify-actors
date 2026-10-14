@@ -96,9 +96,13 @@ A per-channel **run summary** (status, messages, pages read, incremental pointer
 
 Pay per message returned. You are never charged for channels that fail, are private, do not exist or return nothing, and not for the Actor start.
 
-| Event | Price |
+| Apify plan | Price per 1,000 messages |
 | --- | --- |
-| `message` (one message returned) | USD 0.001 = **$1.00 per 1,000 messages** |
+| Free / Bronze | $1.00 |
+| Silver | $0.80 |
+| Gold and above | $0.50 |
+
+Billing is per `message` event: USD 0.001 / 0.0008 / 0.0005 per message returned.
 
 The Actor respects the maximum cost per run you set: it stops cleanly when the next message would exceed it.
 
@@ -146,5 +150,5 @@ This Actor is **not affiliated with, endorsed by or sponsored by Telegram**. It 
 - **Solo canales públicos.** No hace falta cuenta, teléfono ni API de Telegram. Los canales privados, enlaces de invitación y canales sin vista previa se omiten y no se cobran.
 - **Historial completo** hasta el primer mensaje, **rango de fechas** (`dateFrom` / `dateTo`) y **modo incremental** para monitorear: en cada ejecución programada devuelve solo los mensajes nuevos, guardando el último id por canal en un almacén con nombre.
 - **Filtros** por palabras clave y expresiones regulares, y hasta cientos de canales por ejecución.
-- **Precio:** USD 1,00 por cada 1.000 mensajes. Plan gratis: 10 mensajes por canal y 10 canales por ejecución.
+- **Precio:** USD 1,00 por cada 1.000 mensajes (Silver 0,80, Gold o superior 0,50). Plan gratis: 10 mensajes por canal y 10 canales por ejecución.
 - **Aviso legal:** no está afiliado a Telegram ni cuenta con su respaldo. Los mensajes pueden contener datos personales; el usuario es responsable de usarlos conforme a la ley (por ejemplo GDPR y la ley argentina de protección de datos personales).
