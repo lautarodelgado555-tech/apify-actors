@@ -1,6 +1,0 @@
-publishing lautarodelgado~us-business-status-monitor from actors/us-business-status-monitor/.actor/store.json
-current: isPublic=false pricing=["PAY_PER_EVENT"]
-listing ok: US Business Entity Status & Good Standing Monitor | ["BUSINESS","AUTOMATION"]
-pricing already set, leaving it alone
-permissions ok: LIMITED_PERMISSIONS exampleInput=set
-visibility ok: isPublic=false

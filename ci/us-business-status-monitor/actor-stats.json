@@ -1,17 +1,17 @@
 {
-  "checkedAt": "2026-10-14T02:08:35.091Z",
+  "checkedAt": "2026-10-14T02:20:23.178Z",
   "name": "us-business-status-monitor",
   "isPublic": false,
   "pricing": [
     "PAY_PER_EVENT"
   ],
   "stats": {
-    "totalBuilds": 3,
-    "totalRuns": 2,
+    "totalBuilds": 5,
+    "totalRuns": 4,
     "totalUsers": 1,
     "totalUsers7Days": 0,
     "totalUsers30Days": 0,
     "totalUsers90Days": 0,
-    "lastRunStartedAt": "2026-10-14T02:04:29.134Z"
+    "lastRunStartedAt": "2026-10-14T02:11:03.619Z"
   }
 }
