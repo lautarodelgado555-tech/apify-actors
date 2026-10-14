@@ -64,3 +64,11 @@ in place of `eventPriceUsd` (the two are mutually exclusive). The field name was
 ## Final report (to the orchestrator, Spanish, under 300 words)
 
 Status (done / partial / no-go), evidence paths in `ci/<name>/`, what the Actor does, modes/inputs, pricing set and the measured platform cost per 1,000 results, known limits and risks, anything Lautaro must do, anything the orchestrator must do (shared-file changes), and the exact name/title of the Actor on Apify.
+
+## Lessons from the first wave (added after it ran)
+
+- Tiered PPE pricing is only accepted by the API when ALL six tiers are present: FREE, BRONZE, SILVER, GOLD, PLATINUM, DIAMOND (copy GOLD into PLATINUM and DIAMOND). `scripts/apify-publish.sh` does not change pricing that already exists; see `recon/telegram-channel-scraper/set-pricing.mjs` and `actors/us-business-status-monitor` for a working set-pricing step.
+- The CI template must not delete `07-publish.log` / `05b-pricing.log` (fixed in the template).
+- `apify-configure.sh` sets 2048 MB default memory; light HTTP Actors need about 512 MB.
+- Sources that put Cloudflare Turnstile / reCAPTCHA tokens on their API (Washington), a `robots.txt` with `Disallow: /` plus an image CAPTCHA (Arizona) or a login wall for automated traffic (Mercado Libre) are no-go: do not evade them.
+- Cloudflare in front of Georgia: Apify datacenter proxy blocked, direct connection and residential passed; Tiendanube rate-limits per IP above ~3 requests/second.
