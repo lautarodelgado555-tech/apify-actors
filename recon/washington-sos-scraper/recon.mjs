@@ -40,11 +40,16 @@ if (VARIANT === 'probe') {
 const kind = VARIANT.startsWith('firefox') ? 'firefox' : 'chromium';
 const headed = VARIANT.endsWith('headed');
 const launchOpts = { headless: !headed };
+if (VARIANT.endsWith('resi') || VARIANT.endsWith('dc')) {
+  const group = VARIANT.endsWith('resi') ? 'groups-RESIDENTIAL,country-US' : 'auto';
+  launchOpts.proxy = { server: 'http://proxy.apify.com:8000', username: group, password: process.env.APIFY_PROXY_PASSWORD };
+}
 if (kind === 'chromium') launchOpts.args = ['--disable-blink-features=AutomationControlled'];
 const browser = await require('playwright')[kind].launch(launchOpts);
 const ctx = await browser.newContext({ viewport: { width: 1400, height: 1000 }, ...(kind === 'chromium' ? { userAgent: UA } : {}) });
 const page = await ctx.newPage();
 const calls = [];
+page.on('console', (m) => { const t = m.text(); if (/turnstile|cloudflare|error|fail/i.test(t)) L('console', t.slice(0, 300)); });
 page.on('request', (rq) => {
   const u = rq.url();
   if (!/ccfs-api\.prod\.sos\.wa\.gov|cdn-cgi|challenges\.cloudflare/.test(u)) return;
