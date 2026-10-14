@@ -65,6 +65,9 @@ jobs:
         run: |
           cd "$ACTOR_DIR"
           (npm install -g apify-cli && apify login -t "$APIFY_TOKEN" && apify push --force; bash ../../scripts/apify-configure.sh us-business-status-monitor "../../$OUT") 2>&1 | grep -v -i "token" > "../../$OUT/05-deploy.log" || echo "exit $?" >> "../../$OUT/05-deploy.log"
+      - name: Apply tiered pricing while the Actor is private (idempotent)
+        if: env.APIFY_TOKEN != '' && steps.gate.outputs.platform == 'yes'
+        run: node recon/us-business-status-monitor/set-pricing.mjs > "$OUT/05b-pricing.log" 2>&1 || echo "exit $?" >> "$OUT/05b-pricing.log"
       - name: Run on Apify
         if: env.APIFY_TOKEN != '' && steps.gate.outputs.platform == 'yes'
         run: |
