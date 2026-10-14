@@ -1,0 +1,96 @@
+== STORE cocora.mitiendanube.com
+GET https://cocora.mitiendanube.com/ -> 200 final=https://cocora.mitiendanube.com/ len=853420 gz=false 269ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d305bbc9acf3-MSP cache-control=public, s-maxage=86400, no-store
+GET https://cocora.mitiendanube.com/robots.txt -> 200 final=https://cocora.mitiendanube.com/robots.txt len=1647 gz=false 162ms server=cloudflare content-type=text/plain;charset=UTF-8 content-encoding=gzip cf-ray=a4a2d306ad30acf3-MSP cache-control=no-cache, must-revalidate
+GET https://cocora.mitiendanube.com/sitemap.xml -> 200 final=https://cocora.mitiendanube.com/sitemap.xml len=16888 gz=false 202ms server=cloudflare content-type=application/xml content-encoding=gzip cf-ray=a4a2d307aeb5acf3-MSP cache-control=no-cache, must-revalidate
+  sitemap locs=29 children=0
+  product url: https://cocora.mitiendanube.com/productos/pulsera-baloon-mini/
+GET https://cocora.mitiendanube.com/productos/pulsera-baloon-mini/ -> 200 final=https://cocora.mitiendanube.com/productos/pulsera-baloon-mini/ len=510283 gz=false 764ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d308e8fdacf3-MSP cache-control=public, s-maxage=86400, no-store
+GET https://cocora.mitiendanube.com/productos/ -> 200 final=https://cocora.mitiendanube.com/productos/ len=806806 gz=false 203ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d30db934acf3-MSP cache-control=public, s-maxage=86400, no-store
+GET https://cocora.mitiendanube.com/productos/?mpage=2 -> 200 final=https://cocora.mitiendanube.com/productos/?mpage=2 len=806806 gz=false 58ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d30efc23acf3-MSP cache-control=public, s-maxage=86400, no-store
+GET https://cocora.mitiendanube.com/produtos/ -> 404 final=https://cocora.mitiendanube.com/produtos/ len=765743 gz=false 467ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d30f5cebacf3-MSP
+== STORE dailyskin.mitiendanube.com
+GET https://dailyskin.mitiendanube.com/ -> 200 final=https://dailyskincaremx.com/ len=470139 gz=false 382ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d313fcdae02b-MSP cache-control=public, s-maxage=86400, no-store
+GET https://dailyskin.mitiendanube.com/robots.txt -> 200 final=https://dailyskincaremx.com/robots.txt len=1647 gz=false 126ms server=cloudflare content-type=text/plain;charset=UTF-8 content-encoding=gzip cf-ray=a4a2d3151a0fe02b-MSP cache-control=no-cache, must-revalidate
+GET https://dailyskin.mitiendanube.com/sitemap.xml -> 200 final=https://dailyskincaremx.com/sitemap.xml len=219332 gz=false 356ms server=cloudflare content-type=application/xml content-encoding=gzip cf-ray=a4a2d3162edbe02b-MSP cache-control=no-cache, must-revalidate
+  sitemap locs=394 children=0
+  product url: https://dailyskincaremx.com/productos/locion-corporal-eucerin-urearepair-plus-10-de-urea-pad6e/
+GET https://dailyskincaremx.com/productos/locion-corporal-eucerin-urearepair-plus-10-de-urea-pad6e/ -> 200 final=https://dailyskincaremx.com/productos/locion-corporal-eucerin-urearepair-plus-10-de-urea-pad6e/ len=365667 gz=false 340ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d317ae69e02b-MSP cache-control=public, s-maxage=86400, no-store
+GET https://dailyskin.mitiendanube.com/productos/ -> 200 final=https://dailyskincaremx.com/productos/ len=564710 gz=false 897ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d31a8be2e02b-MSP cache-control=public, s-maxage=86400, no-store
+GET https://dailyskin.mitiendanube.com/productos/?mpage=2 -> 200 final=https://dailyskincaremx.com/productos/?mpage=2 len=564710 gz=false 149ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d3201864e02b-MSP cache-control=public, s-maxage=86400, no-store
+GET https://dailyskin.mitiendanube.com/produtos/ -> 404 final=https://dailyskincaremx.com/produtos/ len=356387 gz=false 311ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d3215e30e02b-MSP
+== STORE tallertextildoscoyotes.mitiendanube.com
+GET https://tallertextildoscoyotes.mitiendanube.com/ -> 200 final=https://tallertextildoscoyotes.mitiendanube.com/ len=716265 gz=false 108ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d3229b9c4cbd-MSP cache-control=public, s-maxage=86400, no-store
+GET https://tallertextildoscoyotes.mitiendanube.com/robots.txt -> 200 final=https://tallertextildoscoyotes.mitiendanube.com/robots.txt len=1647 gz=false 63ms server=cloudflare content-type=text/plain;charset=UTF-8 content-encoding=gzip cf-ray=a4a2d322fc1d4cbd-MSP cache-control=no-cache, must-revalidate
+GET https://tallertextildoscoyotes.mitiendanube.com/sitemap.xml -> 200 final=https://tallertextildoscoyotes.mitiendanube.com/sitemap.xml len=91722 gz=false 207ms server=cloudflare content-type=application/xml content-encoding=gzip cf-ray=a4a2d3235cb64cbd-MSP cache-control=no-cache, must-revalidate
+  sitemap locs=66 children=0
+  product url: https://tallertextildoscoyotes.mitiendanube.com/productos/hilo-de-lana-50-gramos/
+GET https://tallertextildoscoyotes.mitiendanube.com/productos/hilo-de-lana-50-gramos/ -> 200 final=https://tallertextildoscoyotes.mitiendanube.com/productos/hilo-de-lana-50-gramos/ len=618122 gz=false 591ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d324aee54cbd-MSP cache-control=public, s-maxage=86400, no-store
+GET https://tallertextildoscoyotes.mitiendanube.com/productos/ -> 200 final=https://tallertextildoscoyotes.mitiendanube.com/productos/ len=808990 gz=false 92ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d3285c214cbd-MSP cache-control=public, s-maxage=86400, no-store
+GET https://tallertextildoscoyotes.mitiendanube.com/productos/?mpage=2 -> 200 final=https://tallertextildoscoyotes.mitiendanube.com/productos/?mpage=2 len=808990 gz=false 51ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d328ecde4cbd-MSP cache-control=public, s-maxage=86400, no-store
+GET https://tallertextildoscoyotes.mitiendanube.com/produtos/ -> 404 final=https://tallertextildoscoyotes.mitiendanube.com/produtos/ len=657802 gz=false 193ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d3293d6c4cbd-MSP
+== STORE littleprincessbypaulinado.mitiendanube.com
+GET https://littleprincessbypaulinado.mitiendanube.com/ -> 200 final=https://littleprincessbypaulinado.mitiendanube.com/ len=1364076 gz=false 191ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d32ae876a221-MSP cache-control=public, s-maxage=86400, no-store
+GET https://littleprincessbypaulinado.mitiendanube.com/robots.txt -> 200 final=https://littleprincessbypaulinado.mitiendanube.com/robots.txt len=2277 gz=false 72ms server=cloudflare content-type=text/plain;charset=UTF-8 content-encoding=gzip cf-ray=a4a2d32ba9aca221-MSP cache-control=no-cache, must-revalidate
+GET https://littleprincessbypaulinado.mitiendanube.com/sitemap.xml -> 200 final=https://littleprincessbypaulinado.mitiendanube.com/sitemap.xml len=782442 gz=false 232ms server=cloudflare content-type=application/xml content-encoding=gzip cf-ray=a4a2d32c1a54a221-MSP cache-control=no-cache, must-revalidate
+  sitemap locs=667 children=0
+  product url: https://littleprincessbypaulinado.mitiendanube.com/es/productos/tutu-para-bebe-con-bandita-incluida/
+GET https://littleprincessbypaulinado.mitiendanube.com/es/productos/tutu-para-bebe-con-bandita-incluida/ -> 200 final=https://littleprincessbypaulinado.mitiendanube.com/es/productos/tutu-para-bebe-con-bandita-incluida/ len=586381 gz=false 1068ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d32d8cd1a221-MSP cache-control=public, s-maxage=86400
+GET https://littleprincessbypaulinado.mitiendanube.com/productos/ -> 200 final=https://littleprincessbypaulinado.mitiendanube.com/productos/ len=668649 gz=false 116ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d334390fa221-MSP cache-control=public, s-maxage=86400, no-store
+GET https://littleprincessbypaulinado.mitiendanube.com/productos/?mpage=2 -> 200 final=https://littleprincessbypaulinado.mitiendanube.com/productos/?mpage=2 len=668649 gz=false 73ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d334fa26a221-MSP cache-control=public, s-maxage=86400, no-store
+GET https://littleprincessbypaulinado.mitiendanube.com/produtos/ -> 404 final=https://littleprincessbypaulinado.mitiendanube.com/produtos/ len=900683 gz=false 194ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d3356af3a221-MSP
+== STORE peek-store.com
+GET https://peek-store.com/ -> 200 final=https://peek-store.com/ len=422599 gz=false 265ms server=cloudflare content-type=text/html; charset=utf-8 content-encoding=gzip cf-ray=a4a2d337bfcae02b-MSP cache-control=public, max-age=14400
+GET https://peek-store.com/robots.txt -> 200 final=https://peek-store.com/robots.txt len=1647 gz=false 75ms server=cloudflare content-type=text/plain;charset=UTF-8 content-encoding=gzip cf-ray=a4a2d33849f9e02b-MSP cache-control=no-cache, must-revalidate
+GET https://peek-store.com/sitemap.xml -> 200 final=https://peek-store.com/sitemap.xml len=39153 gz=false 347ms server=cloudflare content-type=application/xml content-encoding=gzip cf-ray=a4a2d338cc08e02b-MSP cache-control=no-cache, must-revalidate
+  sitemap locs=57 children=0
+  product url: https://peek-store.com/productos/tisha-bendiceme/
+GET https://peek-store.com/productos/tisha-bendiceme/ -> 200 final=https://peek-store.com/productos/tisha-bendiceme len=446221 gz=false 866ms server=cloudflare content-type=text/html; charset=utf-8 content-encoding=br cf-ray=a4a2d33c2a9faccc-MSP cache-control=private, no-cache, no-store, max-age=0, must-revalidate
+GET https://peek-store.com/productos/ -> 200 final=https://peek-store.com/productos len=395504 gz=false 489ms server=cloudflare content-type=text/html; charset=utf-8 content-encoding=br cf-ray=a4a2d340dc0baccc-MSP cache-control=private, no-cache, no-store, max-age=0, must-revalidate
+GET https://peek-store.com/productos/?mpage=2 -> 200 final=https://peek-store.com/productos?mpage=2 len=395538 gz=false 326ms server=cloudflare content-type=text/html; charset=utf-8 content-encoding=br cf-ray=a4a2d3440a0aaccc-MSP cache-control=private, no-cache, no-store, max-age=0, must-revalidate
+GET https://peek-store.com/produtos/ -> 200 final=https://peek-store.com/produtos len=395503 gz=false 359ms server=cloudflare content-type=text/html; charset=utf-8 content-encoding=br cf-ray=a4a2d345dd6daccc-MSP cache-control=private, no-cache, no-store, max-age=0, must-revalidate
+== STORE javitoys.mx
+GET https://javitoys.mx/ -> 200 final=https://javitoys.mx/ len=2009654 gz=false 361ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d348d9616a42-MSP cache-control=public, s-maxage=86400, no-store
+GET https://javitoys.mx/robots.txt -> 200 final=https://javitoys.mx/robots.txt len=1742 gz=false 70ms server=cloudflare content-type=text/plain;charset=UTF-8 content-encoding=gzip cf-ray=a4a2d349fb526a42-MSP cache-control=no-cache, must-revalidate
+GET https://javitoys.mx/sitemap.xml -> 200 final=https://javitoys.mx/sitemap.xml len=278194 gz=false 200ms server=cloudflare content-type=application/xml content-encoding=gzip cf-ray=a4a2d34a6c236a42-MSP cache-control=no-cache, must-revalidate
+  sitemap locs=365 children=1
+GET https://javitoys.mx/sitemap_blog.xml/ -> 200 final=https://javitoys.mx/sitemap_blog.xml/ len=513 gz=false 180ms server=cloudflare content-type=application/xml content-encoding=gzip cf-ray=a4a2d34bae936a42-MSP cache-control=no-cache, must-revalidate
+  child https://javitoys.mx/sitemap_blog.xml/ locs=1 sample=https://javitoys.mx/blog/
+  product url: https://javitoys.mx/productos/bolitas-de-colores/
+GET https://javitoys.mx/productos/bolitas-de-colores/ -> 200 final=https://javitoys.mx/productos/bolitas-de-colores/ len=625664 gz=false 441ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d34cc8a76a42-MSP cache-control=public, s-maxage=86400, no-store
+GET https://javitoys.mx/productos/ -> 200 final=https://javitoys.mx/productos/ len=906308 gz=false 113ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d34f8dc26a42-MSP cache-control=public, s-maxage=86400, no-store
+GET https://javitoys.mx/productos/?mpage=2 -> 200 final=https://javitoys.mx/productos/?mpage=2 len=906308 gz=false 83ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d3503f0e6a42-MSP cache-control=public, s-maxage=86400, no-store
+GET https://javitoys.mx/produtos/ -> 404 final=https://javitoys.mx/produtos/ len=456482 gz=false 206ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d350c8126a42-MSP
+== STORE www.vegpet.com.br
+GET https://www.vegpet.com.br/ -> 200 final=https://www.vegpet.com.br/ len=2199098 gz=false 780ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d355b97f0c73-MSP cache-control=public, s-maxage=86400, no-store
+GET https://www.vegpet.com.br/robots.txt -> 200 final=https://www.vegpet.com.br/robots.txt len=1660 gz=false 98ms server=cloudflare content-type=text/plain;charset=UTF-8 content-encoding=gzip cf-ray=a4a2d356efcf0c73-MSP cache-control=no-cache, must-revalidate
+GET https://www.vegpet.com.br/sitemap.xml -> 200 final=https://www.vegpet.com.br/ len=2199098 gz=false 407ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d3591ff4a1ef-MSP cache-control=public, s-maxage=86400, no-store
+  sitemap locs=0 children=0
+  product url: https://www.vegpet.com.br/produtos/gold-neem-suplemento-natural-para-caes-50g/
+GET https://www.vegpet.com.br/produtos/gold-neem-suplemento-natural-para-caes-50g/ -> 200 final=https://www.vegpet.com.br/produtos/gold-neem-suplemento-natural-para-caes-50g/ len=776701 gz=false 148ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d35a19250c73-MSP cache-control=public, s-maxage=86400, no-store
+GET https://www.vegpet.com.br/productos/ -> 404 final=https://www.vegpet.com.br/productos/ len=334629 gz=false 155ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d35b0de20c73-MSP
+GET https://www.vegpet.com.br/productos/?mpage=2 -> 404 final=https://www.vegpet.com.br/productos/?mpage=2 len=334629 gz=false 202ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d35bfa9f0c73-MSP
+GET https://www.vegpet.com.br/produtos/ -> 200 final=https://www.vegpet.com.br/produtos/ len=960462 gz=false 109ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d35d48b80c73-MSP cache-control=public, s-maxage=86400, no-store
+== STORE www.asianstory.mx
+GET https://www.asianstory.mx/ -> 200 final=https://www.asianstory.mx/ len=337838 gz=false 205ms server=cloudflare content-type=text/html; charset=utf-8 content-encoding=gzip cf-ray=a4a2d35eaa05acf3-MSP cache-control=public, max-age=14400
+GET https://www.asianstory.mx/robots.txt -> 200 final=https://www.asianstory.mx/robots.txt len=1647 gz=false 78ms server=cloudflare content-type=text/plain;charset=UTF-8 content-encoding=gzip cf-ray=a4a2d35f3b04acf3-MSP cache-control=no-cache, must-revalidate
+GET https://www.asianstory.mx/sitemap.xml -> 200 final=https://www.asianstory.mx/sitemap.xml len=364957 gz=false 230ms server=cloudflare content-type=application/xml content-encoding=gzip cf-ray=a4a2d35fbbfeacf3-MSP cache-control=no-cache, must-revalidate
+  sitemap locs=567 children=0
+  product url: https://www.asianstory.mx/productos/vestido-cairo-palmeras/
+GET https://www.asianstory.mx/productos/vestido-cairo-palmeras/ -> 200 final=https://www.asianstory.mx/productos/vestido-cairo-palmeras len=485234 gz=false 607ms server=cloudflare content-type=text/html; charset=utf-8 content-encoding=br cf-ray=a4a2d361f80be02b-MSP cache-control=private, no-cache, no-store, max-age=0, must-revalidate
+GET https://www.asianstory.mx/productos/ -> 200 final=https://www.asianstory.mx/productos len=450417 gz=false 1317ms server=cloudflare content-type=text/html; charset=utf-8 content-encoding=br cf-ray=a4a2d3656a86e02b-MSP cache-control=private, no-cache, no-store, max-age=0, must-revalidate
+GET https://www.asianstory.mx/productos/?mpage=2 -> 200 final=https://www.asianstory.mx/productos?mpage=2 len=450451 gz=false 485ms server=cloudflare content-type=text/html; charset=utf-8 content-encoding=br cf-ray=a4a2d36dcbd0e02b-MSP cache-control=private, no-cache, no-store, max-age=0, must-revalidate
+GET https://www.asianstory.mx/produtos/ -> 200 final=https://www.asianstory.mx/produtos len=450416 gz=false 437ms server=cloudflare content-type=text/html; charset=utf-8 content-encoding=br cf-ray=a4a2d370aab9e02b-MSP cache-control=private, no-cache, no-store, max-age=0, must-revalidate
+== BURST https://cocora.mitiendanube.com/productos/ x40
+  codes={"200":40} total=2645ms
+== URL 0
+GET https://index.commoncrawl.org/collinfo.json -> 200 final=https://index.commoncrawl.org/collinfo.json len=35226 gz=false 143ms server=nginx/1.31.6 content-type=application/json content-encoding=gzip cache-control=public, max-age=300
+== URL 1
+GET https://crt.sh/?q=%25.mitiendanube.com&output=json -> 404 final=https://crt.sh/?q=%25.mitiendanube.com&output=json len=253 gz=false 5109ms server=nginx content-type=text/html; charset=iso-8859-1 content-encoding=gzip
+== URL 2
+GET https://crt.sh/?q=%25.lojavirtualnuvem.com.br&output=json -> 502 final=https://crt.sh/?q=%25.lojavirtualnuvem.com.br&output=json len=552 gz=false 126ms server=nginx content-type=text/html
+== URL 3
+GET https://www.tiendanube.com/ -> 200 final=https://www.tiendanube.com/ len=992294 gz=false 198ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d3a58d4f4cbd-MSP cache-control=public, max-age=172800
+== URL 4
+GET https://www.nuvemshop.com.br/ -> 200 final=https://www.nuvemshop.com.br/ len=1035253 gz=false 395ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=gzip cf-ray=a4a2d3a7cb32a1ca-MSP cache-control=public, max-age=14400
+== URL 5
+GET https://www.tiendanube.com/sitemap.xml -> 200 final=https://www.tiendanube.com/sitemap.xml len=1807 gz=false 98ms server=cloudflare content-type=text/xml;charset=UTF-8 content-encoding=gzip cf-ray=a4a2d3a8daaf4cbd-MSP

@@ -1,0 +1,74 @@
+# We use Nuvemshop as our ecommerce platform: https://www.nuvemshop.com.br
+
+User-agent: *
+Disallow: /admin/
+Disallow: /account/
+Disallow: /checkout/
+Disallow: /discount/
+Disallow: /*?*preview_theme_installation_id*
+Disallow: /*?view=
+Disallow: /*?*&view=
+Disallow: /*?*exit_preview_theme_installation*
+Disallow: /*?*srsltid=*
+Disallow: /blog/drafts/*
+Disallow: /comprar/
+Disallow: /comprar-express/
+Disallow: /completar-compra-express/
+Disallow: /search/
+Disallow: /frete/
+Disallow: /fb-comment/
+Disallow: /br/comprar/
+Disallow: /br/comprar-express/
+Disallow: /br/completar-compra-express/
+Disallow: /br/search/
+Disallow: /br/frete/
+Disallow: /br/fb-comment/
+
+Sitemap: https://www.vegpet.com.br/sitemap.xml.gz
+Sitemap: https://www.vegpet.com.br/sitemap_blog.xml.gz
+
+# Google adsbot must be specifically named
+User-agent: adsbot-google
+Disallow: /admin/
+Disallow: /account/
+Disallow: /checkout/
+Disallow: /discount/
+Disallow: /*?*preview_theme_installation_id*
+Disallow: /*?view=
+Disallow: /*?*&view=
+Disallow: /*?*exit_preview_theme_installation*
+Disallow: /*?*srsltid=*
+Disallow: /blog/drafts/*
+Disallow: /comprar/
+Disallow: /comprar-express/
+Disallow: /completar-compra-express/
+Disallow: /search/
+Disallow: /frete/
+Disallow: /fb-comment/
+Disallow: /br/comprar/
+Disallow: /br/comprar-express/
+Disallow: /br/completar-compra-express/
+Disallow: /br/search/
+Disallow: /br/frete/
+Disallow: /br/fb-comment/
+
+User-agent: WBSearchBot
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: Nutch
+Disallow: /
+
+User-agent: URLmetrica
+Disallow: /
+
+User-agent: MJ12bot
+Crawl-Delay: 10
+
+User-agent: Pinterest
+Crawl-delay: 1
+
+User-agent: SemrushBot
+Crawl-delay: 10
