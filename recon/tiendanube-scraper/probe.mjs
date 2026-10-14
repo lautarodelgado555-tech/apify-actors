@@ -137,4 +137,30 @@ if (cfg.aliveSample && candidates.length) {
   fs.writeFileSync(path.join(out, 'alive-sample.tsv'), rows.join('\n'));
 }
 
+
+// 5) rate-limit experiments: n requests at a given concurrency; log status counts and the first non-200 response
+for (const r of cfg.rate || []) {
+  say(`== RATE ${r.url} n=${r.n} conc=${r.concurrency} delayMs=${r.delayMs || 0}`);
+  const urls = r.urls || Array.from({ length: r.n }, () => r.url);
+  const counts = {};
+  let first = null;
+  let idx = 0;
+  const t0 = Date.now();
+  const worker = async () => {
+    while (idx < urls.length) {
+      const u = urls[idx++];
+      try {
+        const res = await fetch(u, { headers: { 'user-agent': UA, 'accept-language': 'es' }, redirect: 'follow', signal: AbortSignal.timeout(30000) });
+        const body = await res.text();
+        counts[res.status] = (counts[res.status] || 0) + 1;
+        if (res.status !== 200 && !first) first = { status: res.status, headers: Object.fromEntries(res.headers.entries()), body: body.slice(0, 1500) };
+      } catch (e) { counts.err = (counts.err || 0) + 1; }
+      if (r.delayMs) await new Promise((x) => setTimeout(x, r.delayMs));
+    }
+  };
+  await Promise.all(Array.from({ length: r.concurrency }, worker));
+  say(`  counts=${JSON.stringify(counts)} elapsed=${Date.now() - t0}ms`);
+  if (first) say(`  first non-200: ${JSON.stringify(first)}`);
+}
+
 fs.writeFileSync(path.join(out, 'summary.txt'), log.join('\n') + '\n');

@@ -19,12 +19,12 @@ jobs:
         with:
           node-version: 22
       - name: Probe
-        run: node recon/tiendanube-scraper/probe.mjs > /tmp/recon-run.log 2>&1 || true; mkdir -p recon/tiendanube-scraper/out3; cp /tmp/recon-run.log recon/tiendanube-scraper/out3/run.log
+        run: node recon/tiendanube-scraper/probe.mjs > /tmp/recon-run.log 2>&1 || true; mkdir -p recon/tiendanube-scraper/out4; cp /tmp/recon-run.log recon/tiendanube-scraper/out4/run.log
       - name: Commit results
         if: always()
         run: |
           git config user.name "ci-bot"
           git config user.email "ci-bot@users.noreply.github.com"
-          git add -A recon/tiendanube-scraper/out recon/tiendanube-scraper/out2 recon/tiendanube-scraper/out3
+          git add -A recon/tiendanube-scraper/out recon/tiendanube-scraper/out2 recon/tiendanube-scraper/out3 recon/tiendanube-scraper/out4
           git commit -m "recon(tiendanube-scraper): results $(date -u +%FT%TZ)" || echo "nothing to commit"
           for i in 1 2 3 4 5; do git pull --rebase --autostash && git push origin HEAD:main && break; sleep $((RANDOM % 8 + 2)); done

@@ -1,113 +1,72 @@
 {
- "outDir": "out3",
+ "outDir": "out4",
  "stores": [],
  "pages": [],
  "urls": [],
- "aliveSample": 120,
  "cdx": [
   {
-   "name": "mnc-2026-39-p0",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0"
+   "name": "wayback-mnc-urlkey",
+   "url": "https://web.archive.org/cdx/search/cdx?url=mitiendanube.com&matchType=domain&fl=original&collapse=urlkey&filter=original:https?://[^/]*/?&limit=200000"
   },
   {
-   "name": "mnc-2026-39-p1",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1"
+   "name": "wayback-lvn-urlkey",
+   "url": "https://web.archive.org/cdx/search/cdx?url=lojavirtualnuvem.com.br&matchType=domain&fl=original&collapse=urlkey&filter=original:https?://[^/]*/?&limit=200000"
+  }
+ ],
+ "rate": [
+  {
+   "url": "https://www.vegpet.com.br/produtos/?page=2",
+   "n": 40,
+   "concurrency": 1,
+   "delayMs": 0
   },
   {
-   "name": "lvn-2026-39-p0",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0"
+   "url": "https://www.vegpet.com.br/produtos/?page=2",
+   "n": 40,
+   "concurrency": 3,
+   "delayMs": 0
   },
   {
-   "name": "lvn-2026-39-p1",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1"
+   "url": "https://www.vegpet.com.br/produtos/?page=2",
+   "n": 40,
+   "concurrency": 6,
+   "delayMs": 0
   },
   {
-   "name": "mnc-2026-34-p0",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-34-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0"
+   "url": "https://www.vegpet.com.br/produtos/?page=2",
+   "n": 40,
+   "concurrency": 2,
+   "delayMs": 300
   },
   {
-   "name": "mnc-2026-34-p1",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-34-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1"
+   "url": "https://leelahouse.lojavirtualnuvem.com.br/",
+   "n": 30,
+   "concurrency": 1,
+   "delayMs": 0
   },
   {
-   "name": "lvn-2026-34-p0",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-34-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0"
+   "url": "https://leelahouse.lojavirtualnuvem.com.br/",
+   "n": 30,
+   "concurrency": 4,
+   "delayMs": 0
   },
   {
-   "name": "lvn-2026-34-p1",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-34-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1"
+   "url": "https://leelahouse.lojavirtualnuvem.com.br/",
+   "n": 30,
+   "concurrency": 8,
+   "delayMs": 0
   },
   {
-   "name": "mnc-2026-30-p0",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-30-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0"
+   "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/",
+   "n": 40,
+   "concurrency": 4,
+   "delayMs": 0
   },
   {
-   "name": "mnc-2026-30-p1",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-30-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1"
-  },
-  {
-   "name": "lvn-2026-30-p0",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-30-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0"
-  },
-  {
-   "name": "lvn-2026-30-p1",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-30-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1"
-  },
-  {
-   "name": "mnc-2026-25-p0",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0"
-  },
-  {
-   "name": "mnc-2026-25-p1",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1"
-  },
-  {
-   "name": "lvn-2026-25-p0",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0"
-  },
-  {
-   "name": "lvn-2026-25-p1",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1"
-  },
-  {
-   "name": "mnc-2026-21-p0",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-21-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0"
-  },
-  {
-   "name": "mnc-2026-21-p1",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-21-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1"
-  },
-  {
-   "name": "lvn-2026-21-p0",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-21-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0"
-  },
-  {
-   "name": "lvn-2026-21-p1",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-21-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1"
-  },
-  {
-   "name": "mnc-2026-17-p0",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-17-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=0"
-  },
-  {
-   "name": "mnc-2026-17-p1",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-17-index?url=mitiendanube.com&matchType=domain&output=json&fl=url&page=1"
-  },
-  {
-   "name": "lvn-2026-17-p0",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-17-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=0"
-  },
-  {
-   "name": "lvn-2026-17-p1",
-   "url": "https://index.commoncrawl.org/CC-MAIN-2026-17-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&fl=url&page=1"
-  },
-  {
-   "name": "wayback-mnc-roots",
-   "url": "https://web.archive.org/cdx/search/cdx?url=mitiendanube.com&matchType=domain&fl=original&collapse=original&filter=original:https?://[^/]*/?&limit=50000"
-  },
-  {
-   "name": "wayback-lvn-roots",
-   "url": "https://web.archive.org/cdx/search/cdx?url=lojavirtualnuvem.com.br&matchType=domain&fl=original&collapse=original&filter=original:https?://[^/]*/?&limit=50000"
+   "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/",
+   "n": 40,
+   "concurrency": 8,
+   "delayMs": 0
   }
  ]
 }
