@@ -1,4 +1,4 @@
-FROM apify/actor-node:22
+FROM apify/actor-node-playwright-firefox:22-1.64.0
 
 COPY --chown=myuser package*.json ./
 
