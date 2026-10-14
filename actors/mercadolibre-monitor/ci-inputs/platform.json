@@ -1,0 +1,41 @@
+{
+  "mode": "probe",
+  "probeSaveHtml": true,
+  "probeUrls": [
+    "https://www.mercadolibre.com.ar/microondas-bgh-mecanico-18l-blanco-b118mb25/p/MLA58756915?pdp_filters=item_id%3AMLA2639626512",
+    "https://www.mercadolibre.com.ar/adidas-running-response-2-kj1744/p/MLA67976159?pdp_filters=item_id%3AMLA1902289377",
+    "https://www.mercadolibre.com.ar/camiseta-adidas-local-boca-juniors-2526-azul-kv2842/up/MLAU4472470166?pdp_filters=item_id%3AMLA1926848487",
+    "https://articulo.mercadolibre.com.ar/MLA-1542948477-pelota-adidas-futbol-world-cup-league-jd8045-_JM?searchVariation=191144561687",
+    "https://www.mercadolibre.com.ar/inversor-victron-phoenix-12v-500va-vedirect-onda-pura/up/MLAU288874256?pdp_filters=item_id%3AMLA832201791",
+    "https://www.mercadolibre.com.ar/taladro-percutor-18v--2-baterias-thunderplus-tl01223/up/MLAU3018036423?pdp_filters=item_id%3AMLA2017004756",
+    "https://www.mercadolibre.com.ar/sarten-de-hierro-arkimia-fenix-de-15cm-pre-curada-squimicos-arena/p/MLA68250127?pdp_filters=item_id%3AMLA3203242884",
+    "https://www.mercadolibre.com.ar/alacena-de-pino-de-120-amoblamiento-el-cardenal/up/MLAU1592985765?pdp_filters=item_id%3AMLA1452190603",
+    "https://www.mercadolibre.com.ar/tienda/bgh",
+    "https://www.mercadolibre.com.ar/tiendas-oficiales",
+    "https://listado.mercadolibre.com.ar/microondas",
+    "https://listado.mercadolibre.com.ar/tienda/bgh/",
+    "https://www.mercadolibre.com.ar/mas-vendidos",
+    "https://www.mercadolibre.com.ar/mas-vendidos/MLA1055",
+    "https://www.mercadolibre.com.ar/p/MLA58756915",
+    "https://api.mercadolibre.com/items/MLA2639626512",
+    "https://api.mercadolibre.com/items?ids=MLA2639626512,MLA1902289377",
+    "https://api.mercadolibre.com/products/MLA58756915",
+    "https://api.mercadolibre.com/products/MLA58756915/items",
+    "https://api.mercadolibre.com/sites/MLA/search?q=microondas&limit=3",
+    "https://api.mercadolibre.com/users/139060460",
+    "https://www.mercadolibre.com.mx/mas-vendidos",
+    "https://listado.mercadolibre.com.mx/audifonos",
+    "https://www.mercadolivre.com.br/mais-vendidos",
+    "https://lista.mercadolivre.com.br/fone-de-ouvido"
+  ],
+  "probeRoutes": [
+    {
+      "label": "residential-AR",
+      "proxyConfiguration": { "useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"], "apifyProxyCountry": "AR" }
+    },
+    {
+      "label": "datacenter",
+      "proxyConfiguration": { "useApifyProxy": true }
+    }
+  ]
+}

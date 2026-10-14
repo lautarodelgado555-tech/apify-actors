@@ -1,0 +1,14 @@
+{
+  "mode": "probe",
+  "probeUrls": [
+    "https://www.mercadolibre.com.ar/tienda/bgh",
+    "https://www.mercadolibre.com.ar/tiendas-oficiales",
+    "https://listado.mercadolibre.com.ar/microondas",
+    "https://www.mercadolibre.com.ar/mas-vendidos",
+    "https://www.mercadolibre.com.ar/microondas-bgh-mecanico-18l-blanco-b118mb25/p/MLA58756915?pdp_filters=item_id%3AMLA2639626512",
+    "https://articulo.mercadolibre.com.ar/MLA-1542948477-pelota-adidas-futbol-world-cup-league-jd8045-_JM",
+    "https://api.mercadolibre.com/items/MLA2639626512",
+    "https://api.mercadolibre.com/categories/MLA1055"
+  ],
+  "probeRoutes": [{ "label": "direct" }]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Mercado Libre Monitor",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "mode": {
+      "title": "Mode",
+      "type": "string",
+      "description": "What to do. Diagnostics fetches a list of URLs and reports whether Mercado Libre served them, without charging.",
+      "editor": "select",
+      "enum": ["probe"],
+      "enumTitles": ["Diagnostics"],
+      "default": "probe"
+    },
+    "probeUrls": {
+      "title": "Diagnostic URLs",
+      "type": "array",
+      "description": "URLs to test in Diagnostics mode.",
+      "editor": "stringList"
+    }
+  }
+}

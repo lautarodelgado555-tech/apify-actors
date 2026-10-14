@@ -1,0 +1,13 @@
+{
+  "actorSpecification": 1,
+  "name": "mercadolibre-monitor",
+  "title": "Mercado Libre Price Monitor & Seller Scraper",
+  "description": "Monitor Mercado Libre prices, stock and sales with change alerts, scrape seller and official-store catalogs, and rank best sellers per category and country.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "input": "./input_schema.json",
+  "dockerfile": "../Dockerfile",
+  "readme": "../README.md",
+  "minMemoryMbytes": 512,
+  "maxMemoryMbytes": 4096
+}
