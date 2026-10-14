@@ -1,2 +1,2 @@
 current pricing: {"eventTitle":"Message returned","eventDescription":"One message from a public Telegram channel returned to the dataset. Failed channels, private channels and empty results are never charged.","eventPriceUsd":0.001,"isPrimaryEvent":true} isPublic= false
-pricing update FAILED: {"error":{"type":"schema-validation","message":"Invalid value provided in checkAndSanitizePricingInfosModifier[existing_record]: createdAt is required"}}
+pricing update FAILED: {"error":{"type":"incorrect-pricing-modifier-prefix","message":"The pricing modifier must start with the existing pricing info objects and then it can have optionally one more object you are adding."}}

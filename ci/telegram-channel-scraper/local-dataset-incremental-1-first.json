@@ -1,32 +1,5 @@
 [
   {
-    "channel": "contest",
-    "channelTitle": "Telegram Contests",
-    "channelSubscribers": 299000,
-    "messageId": 462,
-    "url": "https://t.me/contest/462",
-    "date": "2026-09-06T13:41:41.000Z",
-    "text": null,
-    "views": 139000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [],
-    "mediaTypes": [],
-    "poll": null,
-    "html": null,
-    "links": [],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-10-14T02:10:54.719Z"
-  },
-  {
     "channel": "durov",
     "channelTitle": "Pavel Durov",
     "channelSubscribers": 10400000,
@@ -88,17 +61,17 @@
       "@designers"
     ],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T02:10:54.815Z"
+    "scrapedAt": "2026-10-14T02:14:20.865Z"
   },
   {
     "channel": "contest",
     "channelTitle": "Telegram Contests",
     "channelSubscribers": 299000,
-    "messageId": 461,
-    "url": "https://t.me/contest/461",
-    "date": "2026-08-31T19:08:23.000Z",
-    "text": "🏆 Digital Freedom Contest: Results\n\n🍆 Our judges have completed their evaluation and are pleased to confirm that the entire prize pool of $200,000 has been distributed.\n\n🫠 With several hundred winners, we are now completing the technical formalities and will update you in this channel and on contest.com within the next few days.\n\n💸 Stay tuned for updates, and congratulations to all the winners.",
-    "views": 142000,
+    "messageId": 462,
+    "url": "https://t.me/contest/462",
+    "date": "2026-09-06T13:41:41.000Z",
+    "text": null,
+    "views": 139000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -111,13 +84,11 @@
     "media": [],
     "mediaTypes": [],
     "poll": null,
-    "html": "🏆 <b>Digital Freedom Contest: Results</b><br><br>🍆 Our judges have completed their evaluation and are pleased to confirm that the <b>entire prize pool of $200,000</b> has been distributed.<br><br>🫠 With <b>several hundred winners</b>, we are now completing the technical formalities and will update you in this channel and on <a href=\"http://contest.com/\">contest.com</a> <b>within the next few days</b>.<br><br>💸 Stay tuned for updates, and congratulations to all the winners.",
-    "links": [
-      "http://contest.com/"
-    ],
+    "html": null,
+    "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T02:10:54.817Z"
+    "scrapedAt": "2026-10-14T02:14:20.961Z"
   },
   {
     "channel": "durov",
@@ -175,7 +146,92 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T02:10:54.818Z"
+    "scrapedAt": "2026-10-14T02:14:20.963Z"
+  },
+  {
+    "channel": "contest",
+    "channelTitle": "Telegram Contests",
+    "channelSubscribers": 299000,
+    "messageId": 461,
+    "url": "https://t.me/contest/461",
+    "date": "2026-08-31T19:08:23.000Z",
+    "text": "🏆 Digital Freedom Contest: Results\n\n🍆 Our judges have completed their evaluation and are pleased to confirm that the entire prize pool of $200,000 has been distributed.\n\n🫠 With several hundred winners, we are now completing the technical formalities and will update you in this channel and on contest.com within the next few days.\n\n💸 Stay tuned for updates, and congratulations to all the winners.",
+    "views": 142000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [],
+    "mediaTypes": [],
+    "poll": null,
+    "html": "🏆 <b>Digital Freedom Contest: Results</b><br><br>🍆 Our judges have completed their evaluation and are pleased to confirm that the <b>entire prize pool of $200,000</b> has been distributed.<br><br>🫠 With <b>several hundred winners</b>, we are now completing the technical formalities and will update you in this channel and on <a href=\"http://contest.com/\">contest.com</a> <b>within the next few days</b>.<br><br>💸 Stay tuned for updates, and congratulations to all the winners.",
+    "links": [
+      "http://contest.com/"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-10-14T02:14:20.963Z"
+  },
+  {
+    "channel": "durov",
+    "channelTitle": "Pavel Durov",
+    "channelSubscribers": 10400000,
+    "messageId": 548,
+    "url": "https://t.me/durov/548",
+    "date": "2026-09-11T16:04:02.000Z",
+    "text": "🤝 Telegram has become the sponsor of Codeforces — the largest competitive programming platform in the world.\n\n ⚡CodeForces organizes over 100 coding contests every year and has 4 million contestants signed up.\n\n🌱 Since 2010, I've supported Codeforces through the companies I started.\n\n🆙 But this year will be special. Its founder Mike wants to bring Codeforces to the next level — and we'll be happy to help him do that 🤝",
+    "views": 3220000,
+    "reactions": [
+      {
+        "emoji": "⭐",
+        "count": 21800,
+        "paid": true
+      },
+      {
+        "emoji": null,
+        "count": 36000,
+        "customEmojiId": "5399847211989246390"
+      },
+      {
+        "emoji": null,
+        "count": 10500,
+        "customEmojiId": "5936157098181135162"
+      },
+      {
+        "emoji": null,
+        "count": 9860,
+        "customEmojiId": "5373223594484587136"
+      }
+    ],
+    "reactionsTotal": 78160,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": "Pavel Durov",
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": {
+      "url": "https://codeforces.com/blog/entry/156620",
+      "siteName": "Codeforces",
+      "title": "Telegram Returns as Title Sponsor of Codeforces!",
+      "description": "Hi, Codeforces!",
+      "imageUrl": "https://cdn4.telesco.pe/file/W99-A1_HMaHwRc7xfvS5z3htYMiVspe-7A2eJ-UfJwMMIxIJ5vqeWN9crKVhMP2uTe-1KKpix_Q2Tg8V5t1Bz-W59sgMjiy9YwYwzX-PAkZZasokuMqOL1G3cmixS5d7IAK5pZ8GAqMd-lGCclz7_MGvFwyBtlmwa1KrhpI0dBJPBhm1uNHT1AJuM-YoQfvY8D1WVdt0w_msuVPlfO_-jv29FUcPXPsTBCFfkjj6039_WSwLFA5VQ7xVky14HIwgl_IHKD6XhJgBRlEAx3JL4KQtYP7YatzQVMsGF0Cj7DTPjhhOZV2DSend-NDJh5rGip2a8DRAgkQS0fF52wXFHQ.jpg"
+    },
+    "media": [],
+    "mediaTypes": [],
+    "poll": null,
+    "html": "🤝 Telegram has become the sponsor of <a href=\"https://codeforces.com/blog/entry/156620\">Codeforces</a> — the largest competitive programming platform in the world. <br><br> ⚡CodeForces organizes over <b>100</b> coding contests every year and has <b>4 million</b> contestants signed up.<br><br>🌱 Since 2010, I've supported Codeforces through the companies I started.<br><br>🆙 But this year will be special. Its founder Mike wants to bring Codeforces to the next level — and we'll be happy to help him do that 🤝",
+    "links": [
+      "https://codeforces.com/blog/entry/156620"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-10-14T02:14:20.964Z"
   },
   {
     "channel": "contest",
@@ -241,95 +297,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T02:10:54.819Z"
-  },
-  {
-    "channel": "durov",
-    "channelTitle": "Pavel Durov",
-    "channelSubscribers": 10400000,
-    "messageId": 548,
-    "url": "https://t.me/durov/548",
-    "date": "2026-09-11T16:04:02.000Z",
-    "text": "🤝 Telegram has become the sponsor of Codeforces — the largest competitive programming platform in the world.\n\n ⚡CodeForces organizes over 100 coding contests every year and has 4 million contestants signed up.\n\n🌱 Since 2010, I've supported Codeforces through the companies I started.\n\n🆙 But this year will be special. Its founder Mike wants to bring Codeforces to the next level — and we'll be happy to help him do that 🤝",
-    "views": 3220000,
-    "reactions": [
-      {
-        "emoji": "⭐",
-        "count": 21800,
-        "paid": true
-      },
-      {
-        "emoji": null,
-        "count": 36000,
-        "customEmojiId": "5399847211989246390"
-      },
-      {
-        "emoji": null,
-        "count": 10500,
-        "customEmojiId": "5936157098181135162"
-      },
-      {
-        "emoji": null,
-        "count": 9860,
-        "customEmojiId": "5373223594484587136"
-      }
-    ],
-    "reactionsTotal": 78160,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": "Pavel Durov",
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": {
-      "url": "https://codeforces.com/blog/entry/156620",
-      "siteName": "Codeforces",
-      "title": "Telegram Returns as Title Sponsor of Codeforces!",
-      "description": "Hi, Codeforces!",
-      "imageUrl": "https://cdn4.telesco.pe/file/W99-A1_HMaHwRc7xfvS5z3htYMiVspe-7A2eJ-UfJwMMIxIJ5vqeWN9crKVhMP2uTe-1KKpix_Q2Tg8V5t1Bz-W59sgMjiy9YwYwzX-PAkZZasokuMqOL1G3cmixS5d7IAK5pZ8GAqMd-lGCclz7_MGvFwyBtlmwa1KrhpI0dBJPBhm1uNHT1AJuM-YoQfvY8D1WVdt0w_msuVPlfO_-jv29FUcPXPsTBCFfkjj6039_WSwLFA5VQ7xVky14HIwgl_IHKD6XhJgBRlEAx3JL4KQtYP7YatzQVMsGF0Cj7DTPjhhOZV2DSend-NDJh5rGip2a8DRAgkQS0fF52wXFHQ.jpg"
-    },
-    "media": [],
-    "mediaTypes": [],
-    "poll": null,
-    "html": "🤝 Telegram has become the sponsor of <a href=\"https://codeforces.com/blog/entry/156620\">Codeforces</a> — the largest competitive programming platform in the world. <br><br> ⚡CodeForces organizes over <b>100</b> coding contests every year and has <b>4 million</b> contestants signed up.<br><br>🌱 Since 2010, I've supported Codeforces through the companies I started.<br><br>🆙 But this year will be special. Its founder Mike wants to bring Codeforces to the next level — and we'll be happy to help him do that 🤝",
-    "links": [
-      "https://codeforces.com/blog/entry/156620"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-10-14T02:10:54.820Z"
-  },
-  {
-    "channel": "contest",
-    "channelTitle": "Telegram Contests",
-    "channelSubscribers": 299000,
-    "messageId": 459,
-    "url": "https://t.me/contest/459",
-    "date": "2026-07-16T20:26:48.000Z",
-    "text": "Digital Freedom Contest: Submissions\n\n👏 We would like to thank each contestant for their input – you are all amazing! More than 1,000 links were submitted, already drawing over 67.2M views. That is the population of a large country – reached, thanks to you, with the idea of digital freedom.\n\n🎬 We will open all submissions on contest.com in the coming days – watch for a separate announcement here. Judging is already underway; results are expected by the end of August.\n\n❗ If you have not yet edited your video's caption on the external platform or updated your bio (on TikTok, Instagram, X, YouTube or Snap) to include your @username  or t.me/username, please do so immediately. This is the only way we can verify that you are the author of the submitted video.",
-    "views": 221000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": true,
-    "linkPreview": null,
-    "media": [],
-    "mediaTypes": [],
-    "poll": null,
-    "html": "<b>Digital Freedom Contest: Submissions</b><br><br>👏 We would like to thank each contestant for their input – you are all amazing! More than <u>1,000 links</u> were submitted, already drawing over <b>67.2M views</b>. That is the population of a large country – reached, thanks to you, with the idea of digital freedom.<br><br>🎬 We will open all submissions on <a href=\"http://contest.com/\">contest.com</a> in the coming days – watch for a separate announcement here. Judging is already underway; results are expected by the end of August.<br><br>❗ If you have not yet edited your video's caption on the external platform or updated your bio (on TikTok, Instagram, X, YouTube or Snap) to include <a href=\"https://t.me/TelegramTips/44\">your @username</a>  or <a href=\"https://t.me/TelegramTips/44\">t.me/username</a>, please do so immediately. This is the <b>only way</b> we can verify that you are the author of the submitted video.",
-    "links": [
-      "http://contest.com/",
-      "https://t.me/TelegramTips/44"
-    ],
-    "mentions": [
-      "@username"
-    ],
-    "hashtags": [],
-    "scrapedAt": "2026-10-14T02:10:54.821Z"
+    "scrapedAt": "2026-10-14T02:14:20.965Z"
   },
   {
     "channel": "durov",
@@ -389,17 +357,17 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T02:10:54.821Z"
+    "scrapedAt": "2026-10-14T02:14:20.966Z"
   },
   {
     "channel": "contest",
     "channelTitle": "Telegram Contests",
     "channelSubscribers": 299000,
-    "messageId": 458,
-    "url": "https://t.me/contest/458",
-    "date": "2026-07-13T16:20:34.000Z",
-    "text": "ContestBot is now ready to accept submissions for the Digital Freedom Contest.\n\nStart the bot, choose “Digital Freedom Contest”, answer the bot’s questions, then send:\n– A link(s) to your video(s) on TikTok, Instagram, YouTube, Snapchat Spotlights or X.\n\nUsername Verification: Remember to include your Telegram @username in the caption of your video on the external platform. If you cannot edit the caption, your Telegram @username must be visible in your bio or About section on the external platform.\n\n⚠️ Important: If you're submitting more than one video, put all links in a single message, separated by line breaks.\n\nNote: We will automatically discard videos that gained fewer than 10,000 views by the deadline or that did not meet the username verification criteria.",
-    "views": 206000,
+    "messageId": 459,
+    "url": "https://t.me/contest/459",
+    "date": "2026-07-16T20:26:48.000Z",
+    "text": "Digital Freedom Contest: Submissions\n\n👏 We would like to thank each contestant for their input – you are all amazing! More than 1,000 links were submitted, already drawing over 67.2M views. That is the population of a large country – reached, thanks to you, with the idea of digital freedom.\n\n🎬 We will open all submissions on contest.com in the coming days – watch for a separate announcement here. Judging is already underway; results are expected by the end of August.\n\n❗ If you have not yet edited your video's caption on the external platform or updated your bio (on TikTok, Instagram, X, YouTube or Snap) to include your @username  or t.me/username, please do so immediately. This is the only way we can verify that you are the author of the submitted video.",
+    "views": 221000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -407,22 +375,21 @@
     "author": null,
     "viaBot": null,
     "isService": false,
-    "edited": false,
+    "edited": true,
     "linkPreview": null,
     "media": [],
     "mediaTypes": [],
     "poll": null,
-    "html": "<a href=\"https://t.me/contestbot\">ContestBot</a> is now ready to accept submissions for the <a href=\"https://t.me/contest/456\">Digital Freedom Contest</a>. <br><br>Start the bot, choose “Digital Freedom Contest”, answer the bot’s questions, then send:<br>– A link(s) to your video(s) on TikTok, Instagram, YouTube, Snapchat Spotlights or X.<br><br><b>Username Verification: </b>Remember to include <a href=\"https://t.me/TelegramTips/44\">your Telegram @username</a> in the caption of your video on the external platform. If you cannot edit the caption, <a href=\"https://t.me/TelegramTips/44\">your Telegram @username</a> must be visible in your bio or About section on the external platform.<br><br><blockquote><b>⚠️ Important:</b> If you're submitting <b>more than one video</b>, put all links in a <b>single message</b>, separated by line breaks.</blockquote><br><br><i>Note: We will automatically discard videos that gained fewer than 10,000 views by the deadline or that did not meet the username verification criteria.</i>",
+    "html": "<b>Digital Freedom Contest: Submissions</b><br><br>👏 We would like to thank each contestant for their input – you are all amazing! More than <u>1,000 links</u> were submitted, already drawing over <b>67.2M views</b>. That is the population of a large country – reached, thanks to you, with the idea of digital freedom.<br><br>🎬 We will open all submissions on <a href=\"http://contest.com/\">contest.com</a> in the coming days – watch for a separate announcement here. Judging is already underway; results are expected by the end of August.<br><br>❗ If you have not yet edited your video's caption on the external platform or updated your bio (on TikTok, Instagram, X, YouTube or Snap) to include <a href=\"https://t.me/TelegramTips/44\">your @username</a>  or <a href=\"https://t.me/TelegramTips/44\">t.me/username</a>, please do so immediately. This is the <b>only way</b> we can verify that you are the author of the submitted video.",
     "links": [
-      "https://t.me/contestbot",
-      "https://t.me/contest/456",
+      "http://contest.com/",
       "https://t.me/TelegramTips/44"
     ],
     "mentions": [
       "@username"
     ],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T02:10:54.822Z"
+    "scrapedAt": "2026-10-14T02:14:20.966Z"
   },
   {
     "channel": "durov",
@@ -480,6 +447,39 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T02:10:54.823Z"
+    "scrapedAt": "2026-10-14T02:14:20.967Z"
+  },
+  {
+    "channel": "contest",
+    "channelTitle": "Telegram Contests",
+    "channelSubscribers": 299000,
+    "messageId": 458,
+    "url": "https://t.me/contest/458",
+    "date": "2026-07-13T16:20:34.000Z",
+    "text": "ContestBot is now ready to accept submissions for the Digital Freedom Contest.\n\nStart the bot, choose “Digital Freedom Contest”, answer the bot’s questions, then send:\n– A link(s) to your video(s) on TikTok, Instagram, YouTube, Snapchat Spotlights or X.\n\nUsername Verification: Remember to include your Telegram @username in the caption of your video on the external platform. If you cannot edit the caption, your Telegram @username must be visible in your bio or About section on the external platform.\n\n⚠️ Important: If you're submitting more than one video, put all links in a single message, separated by line breaks.\n\nNote: We will automatically discard videos that gained fewer than 10,000 views by the deadline or that did not meet the username verification criteria.",
+    "views": 206000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [],
+    "mediaTypes": [],
+    "poll": null,
+    "html": "<a href=\"https://t.me/contestbot\">ContestBot</a> is now ready to accept submissions for the <a href=\"https://t.me/contest/456\">Digital Freedom Contest</a>. <br><br>Start the bot, choose “Digital Freedom Contest”, answer the bot’s questions, then send:<br>– A link(s) to your video(s) on TikTok, Instagram, YouTube, Snapchat Spotlights or X.<br><br><b>Username Verification: </b>Remember to include <a href=\"https://t.me/TelegramTips/44\">your Telegram @username</a> in the caption of your video on the external platform. If you cannot edit the caption, <a href=\"https://t.me/TelegramTips/44\">your Telegram @username</a> must be visible in your bio or About section on the external platform.<br><br><blockquote><b>⚠️ Important:</b> If you're submitting <b>more than one video</b>, put all links in a <b>single message</b>, separated by line breaks.</blockquote><br><br><i>Note: We will automatically discard videos that gained fewer than 10,000 views by the deadline or that did not meet the username verification criteria.</i>",
+    "links": [
+      "https://t.me/contestbot",
+      "https://t.me/contest/456",
+      "https://t.me/TelegramTips/44"
+    ],
+    "mentions": [
+      "@username"
+    ],
+    "hashtags": [],
+    "scrapedAt": "2026-10-14T02:14:20.967Z"
   }
 ]
