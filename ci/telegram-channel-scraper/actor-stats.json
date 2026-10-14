@@ -1,14 +1,15 @@
 {
-  "checkedAt": "2026-10-14T01:50:40.632Z",
+  "checkedAt": "2026-10-14T01:55:14.374Z",
   "name": "telegram-channel-scraper",
   "isPublic": false,
   "pricing": [],
   "stats": {
-    "totalBuilds": 1,
-    "totalRuns": 0,
+    "totalBuilds": 2,
+    "totalRuns": 1,
     "totalUsers": 1,
     "totalUsers7Days": 0,
     "totalUsers30Days": 0,
-    "totalUsers90Days": 0
+    "totalUsers90Days": 0,
+    "lastRunStartedAt": "2026-10-14T01:50:41.160Z"
   }
 }

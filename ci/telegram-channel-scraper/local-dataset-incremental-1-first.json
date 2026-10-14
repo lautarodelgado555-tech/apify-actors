@@ -1,32 +1,5 @@
 [
   {
-    "channel": "contest",
-    "channelTitle": "Telegram Contests",
-    "channelSubscribers": 299000,
-    "messageId": 462,
-    "url": "https://t.me/contest/462",
-    "date": "2026-09-06T13:41:41.000Z",
-    "text": null,
-    "views": 139000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [],
-    "mediaTypes": [],
-    "poll": null,
-    "html": null,
-    "links": [],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-10-14T01:50:04.147Z"
-  },
-  {
     "channel": "durov",
     "channelTitle": "Pavel Durov",
     "channelSubscribers": 10400000,
@@ -88,17 +61,17 @@
       "@designers"
     ],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T01:50:04.202Z"
+    "scrapedAt": "2026-10-14T01:54:36.446Z"
   },
   {
     "channel": "contest",
     "channelTitle": "Telegram Contests",
     "channelSubscribers": 299000,
-    "messageId": 461,
-    "url": "https://t.me/contest/461",
-    "date": "2026-08-31T19:08:23.000Z",
-    "text": "🏆 Digital Freedom Contest: Results\n\n🍆 Our judges have completed their evaluation and are pleased to confirm that the entire prize pool of $200,000 has been distributed.\n\n🫠 With several hundred winners, we are now completing the technical formalities and will update you in this channel and on contest.com within the next few days.\n\n💸 Stay tuned for updates, and congratulations to all the winners.",
-    "views": 142000,
+    "messageId": 462,
+    "url": "https://t.me/contest/462",
+    "date": "2026-09-06T13:41:41.000Z",
+    "text": null,
+    "views": 139000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -111,13 +84,11 @@
     "media": [],
     "mediaTypes": [],
     "poll": null,
-    "html": "🏆 <b>Digital Freedom Contest: Results</b><br><br>🍆 Our judges have completed their evaluation and are pleased to confirm that the <b>entire prize pool of $200,000</b> has been distributed.<br><br>🫠 With <b>several hundred winners</b>, we are now completing the technical formalities and will update you in this channel and on <a href=\"http://contest.com/\">contest.com</a> <b>within the next few days</b>.<br><br>💸 Stay tuned for updates, and congratulations to all the winners.",
-    "links": [
-      "http://contest.com/"
-    ],
+    "html": null,
+    "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T01:50:04.204Z"
+    "scrapedAt": "2026-10-14T01:54:36.530Z"
   },
   {
     "channel": "durov",
@@ -175,7 +146,36 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T01:50:04.204Z"
+    "scrapedAt": "2026-10-14T01:54:36.532Z"
+  },
+  {
+    "channel": "contest",
+    "channelTitle": "Telegram Contests",
+    "channelSubscribers": 299000,
+    "messageId": 461,
+    "url": "https://t.me/contest/461",
+    "date": "2026-08-31T19:08:23.000Z",
+    "text": "🏆 Digital Freedom Contest: Results\n\n🍆 Our judges have completed their evaluation and are pleased to confirm that the entire prize pool of $200,000 has been distributed.\n\n🫠 With several hundred winners, we are now completing the technical formalities and will update you in this channel and on contest.com within the next few days.\n\n💸 Stay tuned for updates, and congratulations to all the winners.",
+    "views": 142000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [],
+    "mediaTypes": [],
+    "poll": null,
+    "html": "🏆 <b>Digital Freedom Contest: Results</b><br><br>🍆 Our judges have completed their evaluation and are pleased to confirm that the <b>entire prize pool of $200,000</b> has been distributed.<br><br>🫠 With <b>several hundred winners</b>, we are now completing the technical formalities and will update you in this channel and on <a href=\"http://contest.com/\">contest.com</a> <b>within the next few days</b>.<br><br>💸 Stay tuned for updates, and congratulations to all the winners.",
+    "links": [
+      "http://contest.com/"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-10-14T01:54:36.533Z"
   },
   {
     "channel": "durov",
@@ -231,7 +231,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T01:50:04.205Z"
+    "scrapedAt": "2026-10-14T01:54:36.533Z"
   },
   {
     "channel": "contest",
@@ -297,7 +297,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T01:50:04.205Z"
+    "scrapedAt": "2026-10-14T01:54:36.534Z"
   },
   {
     "channel": "durov",
@@ -357,7 +357,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T01:50:04.206Z"
+    "scrapedAt": "2026-10-14T01:54:36.534Z"
   },
   {
     "channel": "contest",
@@ -389,7 +389,7 @@
       "@username"
     ],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T01:50:04.206Z"
+    "scrapedAt": "2026-10-14T01:54:36.535Z"
   },
   {
     "channel": "durov",
@@ -447,7 +447,7 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T01:50:04.207Z"
+    "scrapedAt": "2026-10-14T01:54:36.536Z"
   },
   {
     "channel": "contest",
@@ -480,6 +480,6 @@
       "@username"
     ],
     "hashtags": [],
-    "scrapedAt": "2026-10-14T01:50:04.207Z"
+    "scrapedAt": "2026-10-14T01:54:36.536Z"
   }
 ]

@@ -1,13 +1,14 @@
-2026-10-14T01:50:41.339Z ACTOR: Pulling container image of build XqfaLnR0enJaRhqDG from registry.
-2026-10-14T01:50:42.069Z ACTOR: Creating container.
-2026-10-14T01:50:42.152Z ACTOR: Starting container.
-2026-10-14T01:50:42.157Z ACTOR: Running under "LIMITED_PERMISSIONS".
-2026-10-14T01:50:43.668Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}
-2026-10-14T01:50:45.184Z INFO  @durov: 10 messages (1 pages)
-2026-10-14T01:50:45.184Z INFO  [Status message]: 1/3 channels done, 28 messages
-2026-10-14T01:50:45.217Z INFO  @contest: 10 messages (1 pages)
-2026-10-14T01:50:45.218Z INFO  [Status message]: 2/3 channels done, 29 messages
-2026-10-14T01:50:45.219Z INFO  @telegram: 10 messages (1 pages)
-2026-10-14T01:50:45.219Z INFO  [Status message]: 3/3 channels done, 30 messages
-2026-10-14T01:50:45.295Z INFO  Done: 30 messages from 3 channels. Requests: 3, retries: 0, rate-limited: 0, 0.5 MB.
-2026-10-14T01:50:45.391Z INFO  [Status message]: 30 messages from 3 channels; free plan limits applied
+2026-10-14T01:55:15.130Z ACTOR: Pulling container image of build bYwDdefStjdHYIGpD from registry.
+2026-10-14T01:55:15.734Z ACTOR: Creating container.
+2026-10-14T01:55:15.798Z ACTOR: Starting container.
+2026-10-14T01:55:15.799Z ACTOR: Running under "LIMITED_PERMISSIONS".
+2026-10-14T01:55:16.952Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}
+2026-10-14T01:55:18.476Z INFO  @contest: 10 messages (1 page read)
+2026-10-14T01:55:18.478Z INFO  [Status message]: 1/3 channels done, 26 messages
+2026-10-14T01:55:18.500Z INFO  @telegram: 10 messages (1 page read)
+2026-10-14T01:55:18.502Z INFO  [Status message]: 2/3 channels done, 28 messages
+2026-10-14T01:55:18.574Z INFO  @durov: 10 messages (1 page read)
+2026-10-14T01:55:18.575Z INFO  [Status message]: 3/3 channels done, 30 messages
+2026-10-14T01:55:18.617Z INFO  Done in 1.7s: 30 messages from 3 channels. Requests: 3, retries: 0, rate-limited: 0, 0.5 MB.
+2026-10-14T01:55:18.618Z INFO  SUMMARY [{"input":"contest","username":"contest","status":"ok","messages":10,"pages":1,"scanned":10,"seconds":1.4},{"input":"telegram","username":"telegram","status":"ok","messages":10,"pages":1,"scanned":10,"seconds":1.4},{"input":"durov","username":"durov","status":"ok","messages":10,"pages":1,"scanned":10,"seconds":1.5}]
+2026-10-14T01:55:18.700Z INFO  [Status message]: 30 messages from 3 channels; free plan limits applied
