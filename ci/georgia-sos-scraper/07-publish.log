@@ -1,6 +1,6 @@
 publishing lautarodelgado~georgia-sos-scraper from actors/georgia-sos-scraper/.actor/store.json
-current: isPublic=false pricing=[]
+current: isPublic=false pricing=["PAY_PER_EVENT"]
 listing ok: Georgia Secretary of State Business Search Scraper | ["BUSINESS","LEAD_GENERATION"]
-pricing ok: ["PAY_PER_EVENT"]
+pricing already set, leaving it alone
 permissions ok: LIMITED_PERMISSIONS exampleInput=set
 visibility ok: isPublic=false
