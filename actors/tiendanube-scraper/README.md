@@ -117,7 +117,7 @@ Pay per event, no extra platform usage:
 
 That is about **$1 per 1,000 products** on the free/bronze tier and **$0.50 per 1,000** on Gold. In incremental mode, unchanged products cost nothing. Failed pages, deleted products, stores that are not on Tiendanube and blocked stores are never charged. Free Apify plans return at most 10 results per run.
 
-Platform cost of a run (the Actor uses plain HTTP, no browser): a test run with 11 products from 3 stores used USD 0.00065 of platform usage (including start-up), which extrapolates to roughly USD 0.06 per 1,000 products. Small run, so treat it as an estimate.
+Platform cost of a run (the Actor uses plain HTTP, no browser): a test run on the Apify platform with 10 products from 3 stores took 8 seconds and used USD 0.0010 of platform usage at 2 GB, start-up included. At the default speed (about 3 pages per second) that extrapolates to roughly USD 0.05 per 1,000 products. It is an estimate from a small run.
 
 ## FAQ
 

@@ -1,6 +1,6 @@
 {
   "title": "Tiendanube / Nuvemshop Product & Store Scraper",
-  "description": "Scrape Tiendanube (Nuvemshop in Brazil) online stores: products, prices, compare-at prices, variants, stock, installments, images and categories, plus public store contacts. Incremental mode returns only new or changed products. Spanish and Portuguese keywords work.",
+  "description": "Scrape Tiendanube (Nuvemshop in Brazil) online stores: products, prices, compare-at prices, variants, stock, installments, images and categories, plus public store contacts. Incremental mode returns only new or changed products, so scheduled price and stock monitoring costs less. Spanish and Portuguese keywords work.",
   "categories": [
     "ECOMMERCE",
     "LEAD_GENERATION"
