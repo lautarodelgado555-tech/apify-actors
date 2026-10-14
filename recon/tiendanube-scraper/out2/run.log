@@ -1,0 +1,42 @@
+== PAGE peek.product.html
+GET https://peek-store.com/productos/tisha-bendiceme/ -> 200 final=https://peek-store.com/productos/tisha-bendiceme len=446221 gz=false 752ms server=cloudflare content-type=text/html; charset=utf-8 content-encoding=br cf-ray=a4a2d6dd7aa7a1a5-SEA cache-control=private, no-cache, no-store, max-age=0, must-revalidate
+== PAGE asianstory.product.html
+GET https://www.asianstory.mx/productos/vestido-cairo-palmeras/ -> 200 final=https://www.asianstory.mx/productos/vestido-cairo-palmeras len=485222 gz=false 586ms server=cloudflare content-type=text/html; charset=utf-8 content-encoding=br cf-ray=a4a2d6e1be4c1675-SEA cache-control=private, no-cache, no-store, max-age=0, must-revalidate
+== PAGE peek.list.html
+GET https://peek-store.com/productos/ -> 200 final=https://peek-store.com/productos len=395504 gz=false 730ms server=cloudflare content-type=text/html; charset=utf-8 content-encoding=br cf-ray=a4a2d6e44db6a1a5-SEA cache-control=private, no-cache, no-store, max-age=0, must-revalidate
+== PAGE taller.list2.html
+GET https://tallertextildoscoyotes.mitiendanube.com/productos/?page=2 -> 200 final=https://tallertextildoscoyotes.mitiendanube.com/productos/?page=2 len=800072 gz=false 670ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d6e8ac575782-SEA cache-control=public, s-maxage=86400, no-store
+== PAGE taller.list1.html
+GET https://tallertextildoscoyotes.mitiendanube.com/productos/ -> 200 final=https://tallertextildoscoyotes.mitiendanube.com/productos/ len=808990 gz=false 166ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d6ec6f015782-SEA cache-control=public, s-maxage=86400, no-store
+== PAGE cocora.contacto.html
+GET https://cocora.mitiendanube.com/contacto/ -> 200 final=https://cocora.mitiendanube.com/contacto/ len=361290 gz=false 353ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d6edd808df25-SEA
+== PAGE dailyskin.contacto.html
+GET https://dailyskincaremx.com/contacto/ -> 200 final=https://dailyskincaremx.com/contacto/ len=267876 gz=false 625ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d6f02e5d2bc1-SEA
+== PAGE vegpet.sitemap.xml
+GET https://www.vegpet.com.br/sitemap.xml.gz -> 200 final=https://www.vegpet.com.br/sitemap.xml.gz len=148559 gz=false 1011ms server=cloudflare content-type=application/xml content-encoding=gzip cf-ray=a4a2d6f87d7c346b-SEA cache-control=no-cache, must-revalidate
+== PAGE vegpet.contato.html
+GET https://www.vegpet.com.br/contato/ -> 200 final=https://www.vegpet.com.br/contato/ len=239779 gz=false 320ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d6f9efba346b-SEA
+== PAGE vegpet.list2.html
+GET https://www.vegpet.com.br/produtos/?page=2 -> 200 final=https://www.vegpet.com.br/produtos/?page=2 len=866393 gz=false 1461ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d6fbea7f346b-SEA cache-control=public, s-maxage=86400, no-store
+== PAGE vegpet.home.html
+GET https://www.vegpet.com.br/ -> 200 final=https://www.vegpet.com.br/ len=2199098 gz=false 94ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d7050eb0346b-SEA cache-control=public, s-maxage=86400, no-store
+== PAGE vegpet.404.html
+GET https://www.vegpet.com.br/nope-esta-pagina-no-existe/ -> 404 final=https://www.vegpet.com.br/nope-esta-pagina-no-existe/ len=334629 gz=false 229ms server=cloudflare content-type=text/html; charset=UTF-8 content-encoding=br cf-ray=a4a2d705af9b346b-SEA
+== PAGE nonexistent.mitiendanube.html
+GET https://tiendainexistente-zzqx.mitiendanube.com/ -> 410 final=https://tiendainexistente-zzqx.mitiendanube.com/ len=0 gz=false 234ms server=cloudflare content-type=text/html; charset=UTF-8 cf-ray=a4a2d7078a53c22a-SEA
+== PAGE notastore.html
+GET https://example.com/ -> 200 final=https://example.com/ len=577 gz=false 35ms server=cloudflare content-type=text/html; charset=utf-8 content-encoding=br cf-ray=a4a2d708aacc6e7d-SEA
+== URL 0
+GET https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=mitiendanube.com&matchType=domain&output=json&showNumPages=true -> 200 final=https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=mitiendanube.com&matchType=domain&output=json&showNumPages=true len=40 gz=false 2039ms server=nginx/1.31.6 content-type=text/x-ndjson content-encoding=gzip
+== URL 1
+GET https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=mitiendanube.com&matchType=domain&output=json&limit=3000&fl=url,status -> 200 final=https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=mitiendanube.com&matchType=domain&output=json&limit=3000&fl=url,status len=63867 gz=false 1090ms server=nginx/1.31.6 content-type=text/x-ndjson content-encoding=gzip
+== URL 2
+GET https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=*.mitiendanube.com/productos/*&output=json&limit=3000&fl=url&filter=url:.*zapatill.* -> 404 final=https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=*.mitiendanube.com/productos/*&output=json&limit=3000&fl=url&filter=url:.*zapatill.* len=66 gz=false 868ms server=nginx/1.31.6 content-type=application/json; charset=utf-8 content-encoding=gzip
+== URL 3
+GET https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&limit=3000&fl=url,status -> 504 final=https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&limit=3000&fl=url,status len=569 gz=false 10067ms server=nginx/1.31.6 content-type=text/html
+== URL 4
+GET https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&showNumPages=true -> 200 final=https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=lojavirtualnuvem.com.br&matchType=domain&output=json&showNumPages=true len=40 gz=false 309ms server=nginx/1.31.6 content-type=text/x-ndjson content-encoding=gzip
+== URL 5
+GET https://web.archive.org/cdx/search/cdx?url=mitiendanube.com&matchType=domain&fl=original&collapse=original&limit=3000 -> 200 final=https://web.archive.org/cdx/search/cdx?url=mitiendanube.com&matchType=domain&fl=original&collapse=original&limit=3000 len=235307 gz=false 10292ms server=nginx content-type=text/plain content-encoding=gzip
+== URL 6
+GET https://web.archive.org/cdx/search/cdx?url=*.mitiendanube.com/productos/*&fl=original&filter=original:.*zapatill.*&limit=500 -> 504 final=https://web.archive.org/cdx/search/cdx?url=*.mitiendanube.com/productos/*&fl=original&filter=original:.*zapatill.*&limit=500 len=562 gz=false 60027ms server=nginx content-type=text/html
