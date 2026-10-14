@@ -1,19 +1,13 @@
-attempt 1 firefox headless
-attempt 1 stuck on challenge
-attempt 2 firefox headed
-attempt 2 stuck on challenge
-attempt 3 chromium headed
-attempt 3 stuck on challenge
-attempt 4 firefox headless
-attempt 4 stuck on challenge
-attempt 5 firefox headed
-attempt 5 stuck on challenge
-attempt 6 chromium headed
-home passed on attempt 6
-cookies ["ASP.NET_SessionId","__cflb"]
-probe 1 403 challenge 6099 cookies ["ASP.NET_SessionId","__cflb"]
-probe 2 403 challenge 6099 cookies ["ASP.NET_SessionId","__cflb","cf_clearance"]
-probe 3 403 challenge 6099 cookies ["ASP.NET_SessionId","__cflb","cf_clearance"]
-probe 4 403 challenge 6099 cookies ["ASP.NET_SessionId","__cflb","cf_clearance"]
-probe 5 403 challenge 6099 cookies ["ASP.NET_SessionId","__cflb","cf_clearance"]
-BLOCKED: POST challenged on this runner
+MODE block statuses 200,200,200,200,200 cookies ["ASP.NET_SessionId","__cflb"]
+WINNER block
+s01-delta-starts status 200 mit null len 10477 61ms Page 1 of 1, records 1 to 2 of 2
+v01-post-plain ERR Cannot read properties of undefined (reading 'status')
+v02-get-qs ERR Cannot read properties of undefined (reading 'status')
+v03-post-xhr-hdr ERR Cannot read properties of undefined (reading 'status')
+v04-post-slash ERR Cannot read properties of undefined (reading 'status')
+v05-post-qs-and-body ERR Cannot read properties of undefined (reading 'status')
+v06-jquery-ajax ERR Cannot read properties of undefined (reading 'status')
+v07-post-lower ERR Cannot read properties of undefined (reading 'status')
+v08-get-lower-state ERR Cannot read properties of undefined (reading 'status')
+v09-iframe 0 5971 <title>Just a moment...
+v10-document-post title Just a moment...
