@@ -1,5 +1,26 @@
-attempt 1 stuck on challenge
-attempt 2 stuck on challenge
-attempt 3 stuck on challenge
-attempt 4 stuck on challenge
-NO-GO: could not pass home
+attempt 1 firefox headless
+home passed on attempt 1
+cookies ["ASP.NET_SessionId","__cflb","cf_clearance"]
+probe 1 403 challenge 5928 cookies ["ASP.NET_SessionId","__cflb","cf_clearance"]
+probe 2 403 challenge 5928 cookies ["ASP.NET_SessionId","__cflb","cf_clearance"]
+probe 3 403 challenge 5928 cookies ["ASP.NET_SessionId","__cflb","cf_clearance"]
+probe 4 403 challenge 5928 cookies ["ASP.NET_SessionId","__cflb","cf_clearance"]
+probe 5 403 challenge 5928 cookies ["ASP.NET_SessionId","__cflb","cf_clearance"]
+probe 6 403 challenge 5928 cookies ["ASP.NET_SessionId","__cflb","cf_clearance"]
+bundle 200 372820
+s01-delta-starts status 403 mit challenge len 5928 21ms 
+s02-delta-contains status 403 mit challenge len 5907 27ms 
+s03-coca-cola status 403 mit challenge len 5928 27ms 
+s04-control status 403 mit challenge len 5928 27ms 
+s05-agent status 403 mit challenge len 5928 29ms 
+s06-officer status 403 mit challenge len 5928 27ms 
+s07-none status 403 mit challenge len 5928 28ms 
+s08-georgia-power status 403 mit challenge len 5928 31ms 
+s09-llc status 403 mit challenge len 5928 26ms 
+p1-pageIdx status 403 mit challenge len 5971 21ms 
+p2-pageIdx-noSearch status 403 mit challenge len 5928 22ms 
+p3-page status 403 mit challenge len 5928 19ms 
+p4-pageNo status 403 mit challenge len 5928 23ms 
+detail targets [["567669","Foreign Profit Corporation"],["301509","Domestic Nonprofit Corporation"]]
+d1-detail-567669 status 403 mit challenge len 6031 21ms 
+d2-detail-301509 status 403 mit challenge len 6031 18ms 
