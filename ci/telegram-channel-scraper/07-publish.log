@@ -1,6 +1,0 @@
-publishing lautarodelgado~telegram-channel-scraper from actors/telegram-channel-scraper/.actor/store.json
-current: isPublic=false pricing=[]
-listing ok: Telegram Channel Scraper & Monitor - Public Posts | ["SOCIAL_MEDIA","NEWS","AUTOMATION"]
-pricing FAILED: {"error":{"type":"schema-validation","message":"Invalid value provided in checkAndSanitizePricingInfosModifier[new_record]: Charged event must contain price, title, and description. Received {\"message\":{\"eventTitle\":\"Message returned\",\"eventDescription\":\"One message from a public Telegra..."}}
-permissions ok: LIMITED_PERMISSIONS exampleInput=set
-visibility ok: isPublic=false

@@ -4,12 +4,12 @@
 
 [32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}[39m
 [32mINFO[39m  @telegram: 426 messages (22 pages read)
-[32mINFO[39m  [Status message]: 1/3 channels done, 1329 messages
+[32mINFO[39m  [Status message]: 1/3 channels done, 1337 messages
 [32mINFO[39m  @tass_agency: 1000 messages (52 pages read)
-[32mINFO[39m  [Status message]: 2/3 channels done, 2206 messages
+[32mINFO[39m  [Status message]: 2/3 channels done, 2264 messages
 [32mINFO[39m  @rian_ru: 1000 messages (54 pages read)
 [32mINFO[39m  [Status message]: 3/3 channels done, 2426 messages
-[32mINFO[39m  Done in 20.1s: 2426 messages from 3 channels. Requests: 128, retries: 0, rate-limited: 0, 16.6 MB.
-[32mINFO[39m  SUMMARY [{"input":"telegram","username":"telegram","status":"ok","messages":426,"pages":22,"scanned":430,"seconds":8.6},{"input":"tass_agency","username":"tass_agency","status":"ok","messages":1000,"pages":52,"scanned":1000,"seconds":16},{"input":"rian_ru","username":"rian_ru","status":"ok","messages":1000,"pages":54,"scanned":1000,"seconds":20.1}]
+[32mINFO[39m  Done in 21.7s: 2426 messages from 3 channels. Requests: 128, retries: 0, rate-limited: 0, 16.6 MB.
+[32mINFO[39m  SUMMARY [{"input":"telegram","username":"telegram","status":"ok","messages":426,"pages":22,"scanned":430,"seconds":9.9},{"input":"tass_agency","username":"tass_agency","status":"ok","messages":1000,"pages":52,"scanned":1000,"seconds":18.6},{"input":"rian_ru","username":"rian_ru","status":"ok","messages":1000,"pages":54,"scanned":1000,"seconds":21.7}]
 [32mINFO[39m  [Status message]: 2426 messages from 3 channels
 items: 2426
