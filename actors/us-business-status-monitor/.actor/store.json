@@ -12,31 +12,27 @@
     "entity-check": {
       "eventTitle": "Normalized entity check",
       "eventDescription": "One entity returned with canonical status, good standing and annual report due date (name searches charge once per candidate returned).",
-      "eventTieredPricingUsd": {
-        "FREE": { "tieredEventPriceUsd": 0.02 },
-        "BRONZE": { "tieredEventPriceUsd": 0.02 },
-        "SILVER": { "tieredEventPriceUsd": 0.015 },
-        "GOLD": { "tieredEventPriceUsd": 0.01 }
-      },
+      "eventPriceUsd": 0.02,
       "isPrimaryEvent": true
     },
     "change-alert": {
       "eventTitle": "Change alert",
       "eventDescription": "One alert per monitored entity whose status, good standing or annual report due date changed since the previous run (all of its changes are bundled in one alert).",
-      "eventTieredPricingUsd": {
-        "FREE": { "tieredEventPriceUsd": 0.01 },
-        "BRONZE": { "tieredEventPriceUsd": 0.01 },
-        "SILVER": { "tieredEventPriceUsd": 0.0075 },
-        "GOLD": { "tieredEventPriceUsd": 0.005 }
-      }
+      "eventPriceUsd": 0.01
     }
   },
   "permissionLevel": "LIMITED_PERMISSIONS",
   "exampleInput": {
     "mode": "check",
     "watchlist": [
-      { "state": "TX", "id": "32070357671" },
-      { "state": "CT", "id": "0074441" }
+      {
+        "state": "TX",
+        "id": "32070357671"
+      },
+      {
+        "state": "CT",
+        "id": "0074441"
+      }
     ]
   }
 }

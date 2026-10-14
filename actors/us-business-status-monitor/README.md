@@ -163,12 +163,12 @@ Free-plan runs are limited to **10 checks per run**.
 
 Pay per event, no subscription and no per-entity monthly fee:
 
-| Event | FREE / BRONZE | SILVER | GOLD |
-| --- | --- | --- | --- |
-| `entity-check` (one normalized entity row) | $0.02 | $0.015 | $0.01 |
-| `change-alert` (one alert per changed entity per run) | $0.01 | $0.0075 | $0.005 |
+| Event | Price |
+| --- | --- |
+| `entity-check` (one normalized entity row) | $0.02 |
+| `change-alert` (one alert per changed entity per run) | $0.01 |
 
-Monitoring 100 entities every day costs about $2.00 per day in checks on the base tier ($1.00 on GOLD), plus $0.01 or less per change that actually happens. Not-found entries, errors and blocked lookups are never charged, and the Actor respects the run's maximum cost.
+Monitoring 100 entities every day costs about $2.00 per day in checks, plus $0.01 per change that actually happens. For comparison, other monitors on the Store charge per record without alerts or add a monthly fee per monitored company. Not-found entries, errors and blocked lookups are never charged, and the Actor respects the run's maximum cost.
 
 ## FAQ
 
@@ -196,4 +196,4 @@ Live adapters being added to the same framework (each state is one file implemen
 
 ## En espanol (resumen)
 
-Este Actor responde "esta empresa estadounidense esta al dia con el estado y cuando vence su annual report?" con un formato unico para todos los estados (CO, CT, DC, NY, OR, TX): `status` canonico, `goodStanding` (verdadero, falso o nulo si la fuente no lo dice), `annualReportDue` solo cuando la fuente lo declara o la regla del estado esta documentada, y fecha de actualizacion del dataset. En modo `monitor` guarda una foto de cada entidad y genera una alerta (`change-alert`) cuando cambia el estado, deja de estar en regla, se disuelve o se mueve la fecha del annual report. Usa datos abiertos oficiales, sin login ni CAPTCHA. No es asesoramiento legal: verifique siempre en la fuente oficial. Precio por evento: $0.02 por chequeo y $0.01 por alerta en el plan base.
+Este Actor responde "esta empresa estadounidense esta al dia con el estado y cuando vence su annual report?" con un formato unico para todos los estados (CO, CT, DC, NY, OR, TX): `status` canonico, `goodStanding` (verdadero, falso o nulo si la fuente no lo dice), `annualReportDue` solo cuando la fuente lo declara o la regla del estado esta documentada, y fecha de actualizacion del dataset. En modo `monitor` guarda una foto de cada entidad y genera una alerta (`change-alert`) cuando cambia el estado, deja de estar en regla, se disuelve o se mueve la fecha del annual report. Usa datos abiertos oficiales, sin login ni CAPTCHA. No es asesoramiento legal: verifique siempre en la fuente oficial. Precio por evento: $0.02 por chequeo y $0.01 por alerta.
