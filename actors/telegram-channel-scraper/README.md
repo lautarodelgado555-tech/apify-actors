@@ -96,17 +96,15 @@ A per-channel **run summary** (status, messages, pages read, incremental pointer
 
 Pay per message returned. You are never charged for channels that fail, are private, do not exist or return nothing, and not for the Actor start.
 
-| Plan | Price per 1,000 messages |
+| Event | Price |
 | --- | --- |
-| Free / Bronze | $1.00 |
-| Silver | $0.80 |
-| Gold | $0.50 |
+| `message` (one message returned) | USD 0.001 = **$1.00 per 1,000 messages** |
 
-Prices are per `message` event: USD 0.001 / 0.0008 / 0.0005 per message. The Actor respects the maximum cost per run you set.
+The Actor respects the maximum cost per run you set: it stops cleanly when the next message would exceed it.
 
 **Free plan limits:** up to 10 messages per channel and 10 channels per run, so you can test the output on real channels. Paid plans have no cap.
 
-**Speed and platform cost.** In our tests from a datacenter IP (GitHub runner) the Actor read 2,426 messages from 3 channels in 19 seconds with 128 requests, no rate limiting and no retries, (1,000 messages from a single channel take roughly 15 to 20 seconds). Telegram's preview returned 20 messages per page of about 130 KB. A small run on Apify (30 messages, 3 channels, 2 GB) used USD 0.0007 of platform usage, which extrapolates to USD 0.024 per 1,000 messages including start-up overhead; large runs are cheaper per message.
+**Speed and platform cost.** In our tests from a datacenter IP (GitHub runner) the Actor read 2,426 messages from 3 channels in 19 seconds with 128 requests, no rate limiting and no retries (1,000 messages from a single channel take roughly 15 to 20 seconds). Telegram's preview returned 20 messages per page of about 130 KB. A small run on Apify (30 messages, 3 channels, 2 GB) used USD 0.0007 of platform usage, which extrapolates to USD 0.024 per 1,000 messages including start-up overhead; large runs are cheaper per message.
 
 ## FAQ
 
@@ -148,5 +146,5 @@ This Actor is **not affiliated with, endorsed by or sponsored by Telegram**. It 
 - **Solo canales públicos.** No hace falta cuenta, teléfono ni API de Telegram. Los canales privados, enlaces de invitación y canales sin vista previa se omiten y no se cobran.
 - **Historial completo** hasta el primer mensaje, **rango de fechas** (`dateFrom` / `dateTo`) y **modo incremental** para monitorear: en cada ejecución programada devuelve solo los mensajes nuevos, guardando el último id por canal en un almacén con nombre.
 - **Filtros** por palabras clave y expresiones regulares, y hasta cientos de canales por ejecución.
-- **Precio:** USD 1,00 por cada 1.000 mensajes (Silver 0,80, Gold 0,50). Plan gratis: 10 mensajes por canal y 10 canales por ejecución.
+- **Precio:** USD 1,00 por cada 1.000 mensajes. Plan gratis: 10 mensajes por canal y 10 canales por ejecución.
 - **Aviso legal:** no está afiliado a Telegram ni cuenta con su respaldo. Los mensajes pueden contener datos personales; el usuario es responsable de usarlos conforme a la ley (por ejemplo GDPR y la ley argentina de protección de datos personales).
