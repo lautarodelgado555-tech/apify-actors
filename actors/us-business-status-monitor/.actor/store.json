@@ -6,7 +6,7 @@
     "AUTOMATION"
   ],
   "seoTitle": "US Business Good Standing & Annual Report Monitor",
-  "seoDescription": "Check US business entity status, good standing and annual report due dates across states and get change alerts for delinquent, suspended or dissolved companies.",
+  "seoDescription": "Check US business status, good standing and annual report due dates from official open data. Get alerts when a company turns delinquent or dissolved.",
   "isPublic": false,
   "events": {
     "entity-check": {
