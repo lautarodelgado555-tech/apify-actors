@@ -1,0 +1,149 @@
+[
+  {
+    "controlNumber": "14087446",
+    "name": "20 W. Duffy Condominium Association, Inc.",
+    "entityType": "Domestic Nonprofit Corporation",
+    "status": "Active/Compliance",
+    "active": true,
+    "goodStanding": true,
+    "statusNormalized": "active_good_standing",
+    "formationDate": "2014-09-08",
+    "jurisdiction": "Georgia",
+    "purpose": null,
+    "naicsCode": null,
+    "naicsSubCode": null,
+    "dissolvedDate": null,
+    "principalAddress": "20 W. Duffy Street, Unit C, Savannah, GA, 31401, USA",
+    "registeredAgentName": "Melanie Orsini",
+    "registeredAgentAddress": "821 E 71st St, Savannah, GA, 31405, USA",
+    "registeredAgentCounty": "Chatham",
+    "officers": [
+      {
+        "name": "Melanie Orsini",
+        "title": "CFO",
+        "address": "20 W. Duffy Street, Unit C, Savannah, GA, 31401, USA"
+      },
+      {
+        "name": "Ridley Stallings",
+        "title": "Secretary",
+        "address": "20 W. Duffy Street, Unit A, Savannah, GA, 31401, USA"
+      },
+      {
+        "name": "Sebastian Orsini",
+        "title": "CEO",
+        "address": "20 W Duffy Street, Unit C, Savannah, GA, 31401, USA"
+      }
+    ],
+    "lastAnnualReportYear": 2026,
+    "annualReportCurrent": true,
+    "annualReportStatus": "filed",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "lateFeeUsd": null,
+    "portalOwesAnnualRegistration": false,
+    "nextAnnualReportWindow": "2027-01-01",
+    "portalBusinessId": "1979216",
+    "sourceUrl": "https://ecorp.sos.ga.gov/BusinessSearch",
+    "searchType": "officer",
+    "searchTerm": "Bastian",
+    "scrapedAt": "2026-10-14T02:37:13.022Z"
+  },
+  {
+    "controlNumber": "10028514",
+    "name": "3 Badge Beverage Corporation",
+    "entityType": "Foreign Profit Corporation",
+    "status": "Active/Compliance",
+    "active": true,
+    "goodStanding": true,
+    "statusNormalized": "active_good_standing",
+    "formationDate": "2010-04-13",
+    "jurisdiction": "California",
+    "purpose": null,
+    "naicsCode": null,
+    "naicsSubCode": null,
+    "dissolvedDate": null,
+    "principalAddress": "32 Patten Street, Sonoma, CA, 95476, USA",
+    "registeredAgentName": "ULTIMATE DISTRIBUTORS, INC.",
+    "registeredAgentAddress": "1376 Hills Place, Atlanta, GA, 30318, USA",
+    "registeredAgentCounty": "Fulton",
+    "officers": [
+      {
+        "name": "August David Sebastiani",
+        "title": "CEO",
+        "address": "32 Patten Street, Sonoma, CA, 95476, USA"
+      },
+      {
+        "name": "EMILIA Coakley",
+        "title": "Secretary",
+        "address": "32 Patten Street, Sonoma, CA, 95476, USA"
+      },
+      {
+        "name": "KEITH CASALE",
+        "title": "CFO",
+        "address": "32 Patten Street, Sonoma, CA, 95476, USA"
+      }
+    ],
+    "lastAnnualReportYear": 2026,
+    "annualReportCurrent": true,
+    "annualReportStatus": "filed",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "lateFeeUsd": null,
+    "portalOwesAnnualRegistration": false,
+    "nextAnnualReportWindow": "2027-01-01",
+    "portalBusinessId": "1527139",
+    "sourceUrl": "https://ecorp.sos.ga.gov/BusinessSearch",
+    "searchType": "officer",
+    "searchTerm": "Bastian",
+    "scrapedAt": "2026-10-14T02:37:13.096Z"
+  },
+  {
+    "controlNumber": "25101711",
+    "name": "7N USA Inc.",
+    "entityType": "Foreign Profit Corporation",
+    "status": "Active/Compliance",
+    "active": true,
+    "goodStanding": true,
+    "statusNormalized": "active_good_standing",
+    "formationDate": "2025-05-15",
+    "jurisdiction": "New York",
+    "purpose": null,
+    "naicsCode": "Professional, Scientific, and Technical Services",
+    "naicsSubCode": "Administrative Management and General Management Consulting Services",
+    "dissolvedDate": null,
+    "principalAddress": "500 7th Avenue, New York, CA, 10018-9581, USA",
+    "registeredAgentName": "Corporation Service Company",
+    "registeredAgentAddress": "2 Sun Court Suite 400, Peachtree Corners, GA, 30092, USA",
+    "registeredAgentCounty": "Gwinnett",
+    "officers": [
+      {
+        "name": "Edward Wright",
+        "title": "Secretary",
+        "address": "1 Capitol Mall, Suite 670, Sacramento, GA, 95814, USA"
+      },
+      {
+        "name": "Jacob Lehman",
+        "title": "CFO",
+        "address": "500 7th Avenue, New York, NY, 10018, USA"
+      },
+      {
+        "name": "Sebastian Podlesny",
+        "title": "CEO",
+        "address": "500 7th Avenue, New York, NY, 10018, USA"
+      }
+    ],
+    "lastAnnualReportYear": 2026,
+    "annualReportCurrent": true,
+    "annualReportStatus": "filed",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "lateFeeUsd": null,
+    "portalOwesAnnualRegistration": false,
+    "nextAnnualReportWindow": "2027-01-01",
+    "portalBusinessId": "4509404",
+    "sourceUrl": "https://ecorp.sos.ga.gov/BusinessSearch",
+    "searchType": "officer",
+    "searchTerm": "Bastian",
+    "scrapedAt": "2026-10-14T02:37:13.188Z"
+  }
+]

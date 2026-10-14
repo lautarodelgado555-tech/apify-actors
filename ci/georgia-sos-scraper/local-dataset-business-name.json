@@ -1,0 +1,1198 @@
+[
+  {
+    "controlNumber": "0453350",
+    "name": "DELTA AIR LINES EMPLOYEES ASSOCIATION, INC.",
+    "entityType": "Domestic Nonprofit Corporation",
+    "status": "Dissolved",
+    "active": false,
+    "goodStanding": false,
+    "statusNormalized": "dissolved",
+    "formationDate": "2004-09-03",
+    "jurisdiction": "Georgia",
+    "purpose": null,
+    "naicsCode": null,
+    "naicsSubCode": null,
+    "dissolvedDate": "2005-01-21",
+    "principalAddress": "541 TENTH ST. NW #166, ATLANTA, GA, 30318-5713, USA",
+    "registeredAgentName": "ROBERT D. HEATH",
+    "registeredAgentAddress": "220 MALLARD LANE, LOCUST GROVE, GA, 30248, USA",
+    "registeredAgentCounty": "Henry",
+    "officers": [
+      {
+        "name": "DOUGLAS J. ROSS",
+        "title": "CFO",
+        "address": "16923 SW 79 PLACE, MIAMI, FL, 33157, USA"
+      },
+      {
+        "name": "GUSTAV S. HERTZ",
+        "title": "CEO",
+        "address": "545 MALLARD LN, LOCUST GROVE, GA, 30248, USA"
+      },
+      {
+        "name": "ROBERT D. HEATH",
+        "title": "Secretary",
+        "address": "220 MALLARD LN, LOCUST GROVE, GA, 30248, USA"
+      }
+    ],
+    "lastAnnualReportYear": 2004,
+    "annualReportCurrent": null,
+    "annualReportStatus": "not_applicable_inactive",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "lateFeeUsd": null,
+    "portalOwesAnnualRegistration": null,
+    "nextAnnualReportWindow": null,
+    "annualRegistrations": [
+      {
+        "year": 2004,
+        "filedDate": "2004-11-29",
+        "amended": false
+      }
+    ],
+    "lastAnnualReportFiledDate": "2004-11-29",
+    "filings": [
+      {
+        "filingNumber": "00740502",
+        "filedDate": "2004-09-08",
+        "effectiveDate": null,
+        "type": "Business Formation"
+      },
+      {
+        "filingNumber": "11601644",
+        "filedDate": "2004-11-29",
+        "effectiveDate": null,
+        "type": "Annual Registration (2004)"
+      },
+      {
+        "filingNumber": "04489914",
+        "filedDate": "2005-01-21",
+        "effectiveDate": null,
+        "type": "Voluntary Dissolution"
+      }
+    ],
+    "portalBusinessId": "301509",
+    "sourceUrl": "https://ecorp.sos.ga.gov/BusinessSearch",
+    "searchType": "businessName",
+    "searchTerm": "Delta Air Lines",
+    "scrapedAt": "2026-10-14T02:36:36.601Z"
+  },
+  {
+    "controlNumber": "H853425",
+    "name": "DELTA AIR LINES, INC.",
+    "entityType": "Foreign Profit Corporation",
+    "status": "Active/Compliance",
+    "active": true,
+    "goodStanding": true,
+    "statusNormalized": "active_good_standing",
+    "formationDate": "1967-05-10",
+    "jurisdiction": "Delaware",
+    "purpose": null,
+    "naicsCode": null,
+    "naicsSubCode": null,
+    "dissolvedDate": null,
+    "principalAddress": "1030 Delta Blvd, Dept 982, Atlanta, GA, 30354, USA",
+    "registeredAgentName": "Corporation Service Company",
+    "registeredAgentAddress": "2 SUN COURT, SUITE 400, PEACHTREE CORNERS, GA, 30092, USA",
+    "registeredAgentCounty": "Gwinnett",
+    "officers": [
+      {
+        "name": "Daniel C. Janki",
+        "title": "CFO",
+        "address": "1030 Delta Blvd, Dept 982, Atlanta, GA, 30354, USA"
+      },
+      {
+        "name": "Edward H. Bastian",
+        "title": "CEO",
+        "address": "1030 Delta Blvd, Dept 982, Atlanta, GA, 30354, USA"
+      },
+      {
+        "name": "Peter W. Carter",
+        "title": "Secretary",
+        "address": "1030 Delta Blvd, Dept 982, Atlanta, GA, 30354, USA"
+      }
+    ],
+    "lastAnnualReportYear": 2026,
+    "annualReportCurrent": true,
+    "annualReportStatus": "filed",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "lateFeeUsd": null,
+    "portalOwesAnnualRegistration": false,
+    "nextAnnualReportWindow": "2027-01-01",
+    "annualRegistrations": [
+      {
+        "year": 1999,
+        "filedDate": "1999-04-01",
+        "amended": false
+      },
+      {
+        "year": 2000,
+        "filedDate": "2000-04-01",
+        "amended": false
+      },
+      {
+        "year": 2001,
+        "filedDate": "2001-05-07",
+        "amended": false
+      },
+      {
+        "year": 2001,
+        "filedDate": "2001-08-27",
+        "amended": false
+      },
+      {
+        "year": 2001,
+        "filedDate": "2001-10-24",
+        "amended": false
+      },
+      {
+        "year": 2002,
+        "filedDate": "2002-04-15",
+        "amended": false
+      },
+      {
+        "year": 2004,
+        "filedDate": "2004-03-19",
+        "amended": false
+      },
+      {
+        "year": 2005,
+        "filedDate": "2005-03-15",
+        "amended": false
+      },
+      {
+        "year": 2006,
+        "filedDate": "2006-04-18",
+        "amended": false
+      },
+      {
+        "year": 2007,
+        "filedDate": "2007-03-26",
+        "amended": false
+      },
+      {
+        "year": 2008,
+        "filedDate": "2008-03-06",
+        "amended": false
+      },
+      {
+        "year": 2009,
+        "filedDate": "2009-03-06",
+        "amended": false
+      },
+      {
+        "year": 2010,
+        "filedDate": "2010-03-08",
+        "amended": false
+      },
+      {
+        "year": 2011,
+        "filedDate": "2011-03-18",
+        "amended": false
+      },
+      {
+        "year": 2012,
+        "filedDate": "2012-03-26",
+        "amended": false
+      },
+      {
+        "year": 2013,
+        "filedDate": "2013-02-06",
+        "amended": false
+      },
+      {
+        "year": 2014,
+        "filedDate": "2014-03-27",
+        "amended": false
+      },
+      {
+        "year": 2015,
+        "filedDate": "2015-03-27",
+        "amended": false
+      },
+      {
+        "year": 2016,
+        "filedDate": "2016-02-01",
+        "amended": false
+      },
+      {
+        "year": 2017,
+        "filedDate": "2017-01-25",
+        "amended": false
+      },
+      {
+        "year": 2018,
+        "filedDate": "2018-03-06",
+        "amended": false
+      },
+      {
+        "year": 2019,
+        "filedDate": "2019-03-05",
+        "amended": false
+      },
+      {
+        "year": 2020,
+        "filedDate": "2020-01-03",
+        "amended": false
+      },
+      {
+        "year": 2021,
+        "filedDate": "2021-03-20",
+        "amended": false
+      },
+      {
+        "year": null,
+        "filedDate": "2021-06-15",
+        "amended": true
+      },
+      {
+        "year": 2022,
+        "filedDate": "2022-04-03",
+        "amended": false
+      },
+      {
+        "year": 2023,
+        "filedDate": "2023-02-08",
+        "amended": false
+      },
+      {
+        "year": 2024,
+        "filedDate": "2024-03-19",
+        "amended": false
+      },
+      {
+        "year": 2025,
+        "filedDate": "2025-01-23",
+        "amended": false
+      },
+      {
+        "year": 2026,
+        "filedDate": "2026-02-06",
+        "amended": false
+      }
+    ],
+    "lastAnnualReportFiledDate": "2026-02-06",
+    "filings": [
+      {
+        "filingNumber": "00769727",
+        "filedDate": "1967-05-10",
+        "effectiveDate": null,
+        "type": "Business Formation"
+      },
+      {
+        "filingNumber": "17725968",
+        "filedDate": "1999-04-01",
+        "effectiveDate": "1999-04-01",
+        "type": "Annual Registration (1999)"
+      },
+      {
+        "filingNumber": "17755895",
+        "filedDate": "2000-04-01",
+        "effectiveDate": "2000-04-01",
+        "type": "Annual Registration (2000)"
+      },
+      {
+        "filingNumber": "03121078",
+        "filedDate": "2001-05-07",
+        "effectiveDate": null,
+        "type": "Annual Registration (2001)"
+      },
+      {
+        "filingNumber": "03096976",
+        "filedDate": "2001-08-27",
+        "effectiveDate": null,
+        "type": "Annual Registration (2001)"
+      },
+      {
+        "filingNumber": "02833427",
+        "filedDate": "2001-10-24",
+        "effectiveDate": null,
+        "type": "Annual Registration (2001)"
+      },
+      {
+        "filingNumber": "03484187",
+        "filedDate": "2002-04-15",
+        "effectiveDate": null,
+        "type": "Annual Registration (2002)"
+      },
+      {
+        "filingNumber": "03870081",
+        "filedDate": "2004-03-19",
+        "effectiveDate": null,
+        "type": "Annual Registration (2004)"
+      },
+      {
+        "filingNumber": "04748474",
+        "filedDate": "2005-03-15",
+        "effectiveDate": null,
+        "type": "Annual Registration (2005)"
+      },
+      {
+        "filingNumber": "05455813",
+        "filedDate": "2006-04-18",
+        "effectiveDate": null,
+        "type": "Annual Registration (2006)"
+      },
+      {
+        "filingNumber": "06019393",
+        "filedDate": "2007-03-26",
+        "effectiveDate": null,
+        "type": "Annual Registration (2007)"
+      },
+      {
+        "filingNumber": "06618534",
+        "filedDate": "2008-03-06",
+        "effectiveDate": null,
+        "type": "Annual Registration (2008)"
+      },
+      {
+        "filingNumber": "06873175",
+        "filedDate": "2008-12-31",
+        "effectiveDate": null,
+        "type": "Survivor"
+      },
+      {
+        "filingNumber": "07608585",
+        "filedDate": "2009-03-06",
+        "effectiveDate": null,
+        "type": "Annual Registration (2009)"
+      },
+      {
+        "filingNumber": "07954383",
+        "filedDate": "2010-03-08",
+        "effectiveDate": null,
+        "type": "Annual Registration (2010)"
+      },
+      {
+        "filingNumber": "09070701",
+        "filedDate": "2011-03-18",
+        "effectiveDate": null,
+        "type": "Annual Registration (2011)"
+      },
+      {
+        "filingNumber": "09281160",
+        "filedDate": "2012-03-26",
+        "effectiveDate": null,
+        "type": "Annual Registration (2012)"
+      },
+      {
+        "filingNumber": "10152146",
+        "filedDate": "2013-02-06",
+        "effectiveDate": null,
+        "type": "Annual Registration (2013)"
+      },
+      {
+        "filingNumber": "10404376",
+        "filedDate": "2014-03-27",
+        "effectiveDate": null,
+        "type": "Annual Registration (2014)"
+      },
+      {
+        "filingNumber": "10797139",
+        "filedDate": "2015-03-27",
+        "effectiveDate": null,
+        "type": "Annual Registration (2015)"
+      },
+      {
+        "filingNumber": "12569349",
+        "filedDate": "2016-02-01",
+        "effectiveDate": "2016-02-01",
+        "type": "Annual Registration (2016)"
+      },
+      {
+        "filingNumber": "13912139",
+        "filedDate": "2017-01-25",
+        "effectiveDate": "2017-01-25",
+        "type": "Annual Registration (2017)"
+      },
+      {
+        "filingNumber": "15432007",
+        "filedDate": "2018-03-06",
+        "effectiveDate": "2018-03-06",
+        "type": "Annual Registration (2018)"
+      },
+      {
+        "filingNumber": "16797728",
+        "filedDate": "2019-03-05",
+        "effectiveDate": "2019-03-05",
+        "type": "Annual Registration (2019)"
+      },
+      {
+        "filingNumber": "18238048",
+        "filedDate": "2020-01-03",
+        "effectiveDate": "2020-01-03",
+        "type": "Annual Registration (2020)"
+      },
+      {
+        "filingNumber": "20551149",
+        "filedDate": "2021-03-20",
+        "effectiveDate": "2021-03-20",
+        "type": "Annual Registration (2021)"
+      },
+      {
+        "filingNumber": "20690208",
+        "filedDate": "2021-03-30",
+        "effectiveDate": "2021-03-30",
+        "type": "Registered Office Address Change"
+      },
+      {
+        "filingNumber": "21004556",
+        "filedDate": "2021-06-15",
+        "effectiveDate": "2021-06-15",
+        "type": "Amended Annual Registration"
+      },
+      {
+        "filingNumber": "23073026",
+        "filedDate": "2022-04-03",
+        "effectiveDate": "2022-04-03",
+        "type": "Annual Registration (2022)"
+      },
+      {
+        "filingNumber": "24497781",
+        "filedDate": "2023-02-08",
+        "effectiveDate": "2023-02-08",
+        "type": "Annual Registration (2023)"
+      },
+      {
+        "filingNumber": "26965946",
+        "filedDate": "2024-03-19",
+        "effectiveDate": "2024-03-19",
+        "type": "Annual Registration (2024)"
+      },
+      {
+        "filingNumber": "28488800",
+        "filedDate": "2025-01-23",
+        "effectiveDate": "2025-01-23",
+        "type": "Annual Registration (2025)"
+      },
+      {
+        "filingNumber": "30705963",
+        "filedDate": "2026-02-06",
+        "effectiveDate": "2026-02-06",
+        "type": "Annual Registration (2026)"
+      }
+    ],
+    "portalBusinessId": "567669",
+    "sourceUrl": "https://ecorp.sos.ga.gov/BusinessSearch",
+    "searchType": "businessName",
+    "searchTerm": "Delta Air Lines",
+    "scrapedAt": "2026-10-14T02:36:36.813Z"
+  },
+  {
+    "controlNumber": "15093060",
+    "name": "Coca-Cola Bottling Company United - Central LLC",
+    "entityType": "Foreign Limited Liability Company",
+    "status": "Active/Compliance",
+    "active": true,
+    "goodStanding": true,
+    "statusNormalized": "active_good_standing",
+    "formationDate": "2015-09-18",
+    "jurisdiction": "Delaware",
+    "purpose": null,
+    "naicsCode": "Manufacturing",
+    "naicsSubCode": "Soft Drink Manufacturing",
+    "dissolvedDate": null,
+    "principalAddress": "4600 East Lake Blvd, Birmingham, AL, 35217, USA",
+    "registeredAgentName": "CSC Networks, Inc.",
+    "registeredAgentAddress": "407 East Maple Street, Suite 204, Cumming, GA, 30040, USA",
+    "registeredAgentCounty": "Forsyth",
+    "officers": [],
+    "lastAnnualReportYear": 2026,
+    "annualReportCurrent": true,
+    "annualReportStatus": "filed",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "lateFeeUsd": null,
+    "portalOwesAnnualRegistration": false,
+    "nextAnnualReportWindow": "2027-01-01",
+    "annualRegistrations": [
+      {
+        "year": 2016,
+        "filedDate": "2016-03-31",
+        "amended": false
+      },
+      {
+        "year": 2017,
+        "filedDate": "2017-03-29",
+        "amended": false
+      },
+      {
+        "year": null,
+        "filedDate": "2017-08-24",
+        "amended": true
+      },
+      {
+        "year": 2018,
+        "filedDate": "2018-03-21",
+        "amended": false
+      },
+      {
+        "year": 2019,
+        "filedDate": "2019-03-15",
+        "amended": false
+      },
+      {
+        "year": 2020,
+        "filedDate": "2020-03-31",
+        "amended": false
+      },
+      {
+        "year": 2021,
+        "filedDate": "2021-03-30",
+        "amended": false
+      },
+      {
+        "year": 2022,
+        "filedDate": "2022-02-21",
+        "amended": false
+      },
+      {
+        "year": null,
+        "filedDate": "2022-09-08",
+        "amended": true
+      },
+      {
+        "year": 2023,
+        "filedDate": "2023-02-17",
+        "amended": false
+      },
+      {
+        "year": 2024,
+        "filedDate": "2024-02-15",
+        "amended": false
+      },
+      {
+        "year": 2025,
+        "filedDate": "2025-02-27",
+        "amended": false
+      },
+      {
+        "year": null,
+        "filedDate": "2025-03-11",
+        "amended": true
+      },
+      {
+        "year": 2026,
+        "filedDate": "2026-02-12",
+        "amended": false
+      },
+      {
+        "year": null,
+        "filedDate": "2026-07-23",
+        "amended": true
+      }
+    ],
+    "lastAnnualReportFiledDate": "2026-07-23",
+    "filings": [
+      {
+        "filingNumber": "12165810",
+        "filedDate": "2015-09-18",
+        "effectiveDate": "2015-09-18",
+        "type": "Business Formation"
+      },
+      {
+        "filingNumber": "13083941",
+        "filedDate": "2016-03-31",
+        "effectiveDate": "2016-03-31",
+        "type": "Annual Registration (2016)"
+      },
+      {
+        "filingNumber": "14371570",
+        "filedDate": "2017-03-29",
+        "effectiveDate": "2017-03-29",
+        "type": "Annual Registration (2017)"
+      },
+      {
+        "filingNumber": "14885306",
+        "filedDate": "2017-08-24",
+        "effectiveDate": "2017-08-24",
+        "type": "Amended Annual Registration"
+      },
+      {
+        "filingNumber": "15588873",
+        "filedDate": "2018-03-21",
+        "effectiveDate": "2018-03-21",
+        "type": "Annual Registration (2018)"
+      },
+      {
+        "filingNumber": "16875662",
+        "filedDate": "2019-03-15",
+        "effectiveDate": "2019-03-15",
+        "type": "Annual Registration (2019)"
+      },
+      {
+        "filingNumber": "18914914",
+        "filedDate": "2020-03-31",
+        "effectiveDate": "2020-03-31",
+        "type": "Annual Registration (2020)"
+      },
+      {
+        "filingNumber": "20673981",
+        "filedDate": "2021-03-30",
+        "effectiveDate": "2021-03-30",
+        "type": "Annual Registration (2021)"
+      },
+      {
+        "filingNumber": "22579234",
+        "filedDate": "2022-02-21",
+        "effectiveDate": "2022-02-21",
+        "type": "Annual Registration (2022)"
+      },
+      {
+        "filingNumber": "23697968",
+        "filedDate": "2022-09-08",
+        "effectiveDate": "2022-09-08",
+        "type": "Amended Annual Registration"
+      },
+      {
+        "filingNumber": "24107810",
+        "filedDate": "2022-12-29",
+        "effectiveDate": "2022-12-29",
+        "type": "Registered Office Address Change"
+      },
+      {
+        "filingNumber": "24555461",
+        "filedDate": "2023-02-17",
+        "effectiveDate": "2023-02-17",
+        "type": "Annual Registration (2023)"
+      },
+      {
+        "filingNumber": "26697906",
+        "filedDate": "2024-02-15",
+        "effectiveDate": "2024-02-15",
+        "type": "Annual Registration (2024)"
+      },
+      {
+        "filingNumber": "27340546",
+        "filedDate": "2024-05-31",
+        "effectiveDate": "2024-05-31",
+        "type": "Registered Office Address Change"
+      },
+      {
+        "filingNumber": "28811508",
+        "filedDate": "2025-02-27",
+        "effectiveDate": "2025-02-27",
+        "type": "Annual Registration (2025)"
+      },
+      {
+        "filingNumber": "28910312",
+        "filedDate": "2025-03-11",
+        "effectiveDate": "2025-03-11",
+        "type": "Amended Annual Registration"
+      },
+      {
+        "filingNumber": "30761342",
+        "filedDate": "2026-02-12",
+        "effectiveDate": "2026-02-12",
+        "type": "Annual Registration (2026)"
+      },
+      {
+        "filingNumber": "31888957",
+        "filedDate": "2026-07-23",
+        "effectiveDate": "2026-07-23",
+        "type": "Amended Annual Registration"
+      }
+    ],
+    "portalBusinessId": "2110123",
+    "sourceUrl": "https://ecorp.sos.ga.gov/BusinessSearch",
+    "searchType": "businessName",
+    "searchTerm": "Coca-Cola",
+    "scrapedAt": "2026-10-14T02:36:37.031Z"
+  },
+  {
+    "controlNumber": "23106606",
+    "name": "Coca - Cola USA Ltd",
+    "entityType": "Domestic Profit Corporation",
+    "status": "Admin. Dissolved",
+    "active": false,
+    "goodStanding": false,
+    "statusNormalized": "administratively_dissolved",
+    "formationDate": "2023-05-12",
+    "jurisdiction": "Georgia",
+    "purpose": null,
+    "naicsCode": "Transportation and Warehousing",
+    "naicsSubCode": "Scheduled Passenger Air Transportation",
+    "dissolvedDate": "2024-09-13",
+    "principalAddress": "3478 lakeside dr, Unit 713, Atlanta, GA, 30309, USA",
+    "registeredAgentName": "Elijah Buckley",
+    "registeredAgentAddress": "3478 lakeside dr, Atlanta, GA, 30309, USA",
+    "registeredAgentCounty": "Fulton",
+    "officers": [],
+    "lastAnnualReportYear": null,
+    "annualReportCurrent": null,
+    "annualReportStatus": "not_applicable_inactive",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "lateFeeUsd": null,
+    "portalOwesAnnualRegistration": null,
+    "nextAnnualReportWindow": null,
+    "annualRegistrations": [],
+    "lastAnnualReportFiledDate": null,
+    "filings": [
+      {
+        "filingNumber": "25182964",
+        "filedDate": "2023-05-12",
+        "effectiveDate": "2023-05-12",
+        "type": "Business Formation"
+      },
+      {
+        "filingNumber": "27425585",
+        "filedDate": "2024-06-14",
+        "effectiveDate": "2024-06-14",
+        "type": "Notice of Admin. Dissolution/Revocation"
+      },
+      {
+        "filingNumber": "27957183",
+        "filedDate": "2024-09-13",
+        "effectiveDate": "2024-09-13",
+        "type": "Administrative Dissolution"
+      }
+    ],
+    "portalBusinessId": "3953473",
+    "sourceUrl": "https://ecorp.sos.ga.gov/BusinessSearch",
+    "searchType": "businessName",
+    "searchTerm": "Coca-Cola",
+    "scrapedAt": "2026-10-14T02:36:37.162Z"
+  },
+  {
+    "controlNumber": "K952144",
+    "name": "COCA COLA BOTTLING COMPANY UNITED-EAST, LLC",
+    "entityType": "Foreign Limited Liability Company",
+    "status": "Active/Compliance",
+    "active": true,
+    "goodStanding": true,
+    "statusNormalized": "active_good_standing",
+    "formationDate": "1999-12-20",
+    "jurisdiction": "Delaware",
+    "purpose": null,
+    "naicsCode": null,
+    "naicsSubCode": null,
+    "dissolvedDate": null,
+    "principalAddress": "4600 E LAKE BLVD, BIRMINGHAM, AL, 35217-4032, USA",
+    "registeredAgentName": "CSC Networks, Inc.",
+    "registeredAgentAddress": "407 East Maple Street, Suite 204, Cumming, GA, 30040, USA",
+    "registeredAgentCounty": "Forsyth",
+    "officers": [],
+    "lastAnnualReportYear": 2026,
+    "annualReportCurrent": true,
+    "annualReportStatus": "filed",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "lateFeeUsd": null,
+    "portalOwesAnnualRegistration": false,
+    "nextAnnualReportWindow": "2027-01-01",
+    "annualRegistrations": [
+      {
+        "year": 2000,
+        "filedDate": "2000-04-10",
+        "amended": false
+      },
+      {
+        "year": 2001,
+        "filedDate": "2001-04-03",
+        "amended": false
+      },
+      {
+        "year": 2002,
+        "filedDate": "2002-03-20",
+        "amended": false
+      },
+      {
+        "year": 2002,
+        "filedDate": "2002-04-24",
+        "amended": false
+      },
+      {
+        "year": 2004,
+        "filedDate": "2004-01-12",
+        "amended": false
+      },
+      {
+        "year": 2005,
+        "filedDate": "2005-03-18",
+        "amended": false
+      },
+      {
+        "year": 2006,
+        "filedDate": "2006-03-17",
+        "amended": false
+      },
+      {
+        "year": 2007,
+        "filedDate": "2007-04-12",
+        "amended": false
+      },
+      {
+        "year": 2008,
+        "filedDate": "2008-04-09",
+        "amended": false
+      },
+      {
+        "year": 2008,
+        "filedDate": "2008-10-10",
+        "amended": false
+      },
+      {
+        "year": 2009,
+        "filedDate": "2009-03-30",
+        "amended": false
+      },
+      {
+        "year": 2009,
+        "filedDate": "2009-12-21",
+        "amended": false
+      },
+      {
+        "year": 2010,
+        "filedDate": "2010-03-22",
+        "amended": false
+      },
+      {
+        "year": 2011,
+        "filedDate": "2011-04-01",
+        "amended": false
+      },
+      {
+        "year": 2011,
+        "filedDate": "2011-10-04",
+        "amended": false
+      },
+      {
+        "year": 2012,
+        "filedDate": "2012-03-30",
+        "amended": false
+      },
+      {
+        "year": 2013,
+        "filedDate": "2013-03-27",
+        "amended": false
+      },
+      {
+        "year": 2014,
+        "filedDate": "2014-03-26",
+        "amended": false
+      },
+      {
+        "year": 2015,
+        "filedDate": "2015-03-25",
+        "amended": false
+      },
+      {
+        "year": 2016,
+        "filedDate": "2016-03-31",
+        "amended": false
+      },
+      {
+        "year": 2016,
+        "filedDate": "2016-03-31",
+        "amended": false
+      },
+      {
+        "year": 2017,
+        "filedDate": "2017-03-29",
+        "amended": false
+      },
+      {
+        "year": null,
+        "filedDate": "2017-08-24",
+        "amended": true
+      },
+      {
+        "year": 2018,
+        "filedDate": "2018-03-21",
+        "amended": false
+      },
+      {
+        "year": 2019,
+        "filedDate": "2019-03-15",
+        "amended": false
+      },
+      {
+        "year": 2020,
+        "filedDate": "2020-03-31",
+        "amended": false
+      },
+      {
+        "year": 2021,
+        "filedDate": "2021-03-30",
+        "amended": false
+      },
+      {
+        "year": 2022,
+        "filedDate": "2022-02-21",
+        "amended": false
+      },
+      {
+        "year": null,
+        "filedDate": "2022-09-08",
+        "amended": true
+      },
+      {
+        "year": 2023,
+        "filedDate": "2023-02-17",
+        "amended": false
+      },
+      {
+        "year": 2024,
+        "filedDate": "2024-02-15",
+        "amended": false
+      },
+      {
+        "year": 2025,
+        "filedDate": "2025-02-27",
+        "amended": false
+      },
+      {
+        "year": null,
+        "filedDate": "2025-03-11",
+        "amended": true
+      },
+      {
+        "year": 2026,
+        "filedDate": "2026-02-12",
+        "amended": false
+      },
+      {
+        "year": null,
+        "filedDate": "2026-07-23",
+        "amended": true
+      }
+    ],
+    "lastAnnualReportFiledDate": "2026-07-23",
+    "filings": [
+      {
+        "filingNumber": "01483389",
+        "filedDate": "1999-12-21",
+        "effectiveDate": null,
+        "type": "Business Formation"
+      },
+      {
+        "filingNumber": "03000760",
+        "filedDate": "2000-04-10",
+        "effectiveDate": null,
+        "type": "Annual Registration (2000)"
+      },
+      {
+        "filingNumber": "03142799",
+        "filedDate": "2001-04-03",
+        "effectiveDate": null,
+        "type": "Annual Registration (2001)"
+      },
+      {
+        "filingNumber": "11559349",
+        "filedDate": "2002-03-20",
+        "effectiveDate": null,
+        "type": "Annual Registration (2002)"
+      },
+      {
+        "filingNumber": "03709797",
+        "filedDate": "2002-04-24",
+        "effectiveDate": null,
+        "type": "Annual Registration (2002)"
+      },
+      {
+        "filingNumber": "04414065",
+        "filedDate": "2004-01-12",
+        "effectiveDate": null,
+        "type": "Annual Registration (2004)"
+      },
+      {
+        "filingNumber": "04488418",
+        "filedDate": "2005-03-18",
+        "effectiveDate": null,
+        "type": "Annual Registration (2005)"
+      },
+      {
+        "filingNumber": "05407914",
+        "filedDate": "2006-03-17",
+        "effectiveDate": null,
+        "type": "Annual Registration (2006)"
+      },
+      {
+        "filingNumber": "05553830",
+        "filedDate": "2007-04-12",
+        "effectiveDate": null,
+        "type": "Annual Registration (2007)"
+      },
+      {
+        "filingNumber": "06926742",
+        "filedDate": "2008-04-09",
+        "effectiveDate": null,
+        "type": "Annual Registration (2008)"
+      },
+      {
+        "filingNumber": "07178048",
+        "filedDate": "2008-10-10",
+        "effectiveDate": null,
+        "type": "Annual Registration (2008)"
+      },
+      {
+        "filingNumber": "07291291",
+        "filedDate": "2009-03-30",
+        "effectiveDate": null,
+        "type": "Annual Registration (2009)"
+      },
+      {
+        "filingNumber": "07339583",
+        "filedDate": "2009-12-21",
+        "effectiveDate": null,
+        "type": "Annual Registration (2009)"
+      },
+      {
+        "filingNumber": "08216819",
+        "filedDate": "2010-03-22",
+        "effectiveDate": null,
+        "type": "Annual Registration (2010)"
+      },
+      {
+        "filingNumber": "11899648",
+        "filedDate": "2011-04-01",
+        "effectiveDate": null,
+        "type": "Annual Registration (2011)"
+      },
+      {
+        "filingNumber": "08836334",
+        "filedDate": "2011-10-04",
+        "effectiveDate": null,
+        "type": "Annual Registration (2011)"
+      },
+      {
+        "filingNumber": "09607778",
+        "filedDate": "2012-03-30",
+        "effectiveDate": null,
+        "type": "Annual Registration (2012)"
+      },
+      {
+        "filingNumber": "10087996",
+        "filedDate": "2013-03-27",
+        "effectiveDate": null,
+        "type": "Annual Registration (2013)"
+      },
+      {
+        "filingNumber": "10739535",
+        "filedDate": "2014-03-26",
+        "effectiveDate": null,
+        "type": "Annual Registration (2014)"
+      },
+      {
+        "filingNumber": "10426922",
+        "filedDate": "2015-03-25",
+        "effectiveDate": null,
+        "type": "Annual Registration (2015)"
+      },
+      {
+        "filingNumber": "13083434",
+        "filedDate": "2016-03-31",
+        "effectiveDate": "2016-03-31",
+        "type": "Annual Registration (2016)"
+      },
+      {
+        "filingNumber": "13084223",
+        "filedDate": "2016-03-31",
+        "effectiveDate": "2016-03-31",
+        "type": "Annual Registration (2016)"
+      },
+      {
+        "filingNumber": "14371639",
+        "filedDate": "2017-03-29",
+        "effectiveDate": "2017-03-29",
+        "type": "Annual Registration (2017)"
+      },
+      {
+        "filingNumber": "14885275",
+        "filedDate": "2017-08-24",
+        "effectiveDate": "2017-08-24",
+        "type": "Amended Annual Registration"
+      },
+      {
+        "filingNumber": "15588757",
+        "filedDate": "2018-03-21",
+        "effectiveDate": "2018-03-21",
+        "type": "Annual Registration (2018)"
+      },
+      {
+        "filingNumber": "16875741",
+        "filedDate": "2019-03-15",
+        "effectiveDate": "2019-03-15",
+        "type": "Annual Registration (2019)"
+      },
+      {
+        "filingNumber": "18914565",
+        "filedDate": "2020-03-31",
+        "effectiveDate": "2020-03-31",
+        "type": "Annual Registration (2020)"
+      },
+      {
+        "filingNumber": "20673512",
+        "filedDate": "2021-03-30",
+        "effectiveDate": "2021-03-30",
+        "type": "Annual Registration (2021)"
+      },
+      {
+        "filingNumber": "22579206",
+        "filedDate": "2022-02-21",
+        "effectiveDate": "2022-02-21",
+        "type": "Annual Registration (2022)"
+      },
+      {
+        "filingNumber": "23697984",
+        "filedDate": "2022-09-08",
+        "effectiveDate": "2022-09-08",
+        "type": "Amended Annual Registration"
+      },
+      {
+        "filingNumber": "24107811",
+        "filedDate": "2022-12-29",
+        "effectiveDate": "2022-12-29",
+        "type": "Registered Office Address Change"
+      },
+      {
+        "filingNumber": "24555434",
+        "filedDate": "2023-02-17",
+        "effectiveDate": "2023-02-17",
+        "type": "Annual Registration (2023)"
+      },
+      {
+        "filingNumber": "26697850",
+        "filedDate": "2024-02-15",
+        "effectiveDate": "2024-02-15",
+        "type": "Annual Registration (2024)"
+      },
+      {
+        "filingNumber": "27340547",
+        "filedDate": "2024-05-31",
+        "effectiveDate": "2024-05-31",
+        "type": "Registered Office Address Change"
+      },
+      {
+        "filingNumber": "28811474",
+        "filedDate": "2025-02-27",
+        "effectiveDate": "2025-02-27",
+        "type": "Annual Registration (2025)"
+      },
+      {
+        "filingNumber": "28910315",
+        "filedDate": "2025-03-11",
+        "effectiveDate": "2025-03-11",
+        "type": "Amended Annual Registration"
+      },
+      {
+        "filingNumber": "30760442",
+        "filedDate": "2026-02-12",
+        "effectiveDate": "2026-02-12",
+        "type": "Annual Registration (2026)"
+      },
+      {
+        "filingNumber": "31888965",
+        "filedDate": "2026-07-23",
+        "effectiveDate": "2026-07-23",
+        "type": "Amended Annual Registration"
+      }
+    ],
+    "portalBusinessId": "1149474",
+    "sourceUrl": "https://ecorp.sos.ga.gov/BusinessSearch",
+    "searchType": "businessName",
+    "searchTerm": "Coca-Cola",
+    "scrapedAt": "2026-10-14T02:36:37.390Z"
+  }
+]

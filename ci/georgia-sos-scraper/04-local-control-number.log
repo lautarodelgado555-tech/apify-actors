@@ -1,0 +1,9 @@
+
+> georgia-sos-scraper@0.1.0 start
+> node src/main.js
+
+[32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}[39m
+[32mINFO[39m  Session ready (attempt 1).
+[32mINFO[39m  "H853425": 1 record(s) in 1 page(s).
+[32mINFO[39m  Done. 1 entities saved for 1 search term(s).
+items: 1

@@ -1,0 +1,37 @@
+2026-10-14T02:38:01.425Z ACTOR: Pulling container image of build 9aaaVpnPIUsW4efB1 from registry.
+2026-10-14T02:38:11.907Z ACTOR: Creating container.
+2026-10-14T02:38:11.990Z ACTOR: Starting container.
+2026-10-14T02:38:11.991Z ACTOR: Running under "LIMITED_PERMISSIONS".
+2026-10-14T02:38:12.088Z Running on architecture: x86_64
+2026-10-14T02:38:12.094Z Will run command: xvfb-run -a -s "-ac -screen 0 1920x1080x24+32 -nolisten tcp" /bin/bash -o pipefail -c npm start --silent
+2026-10-14T02:38:13.171Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}
+2026-10-14T02:38:13.498Z INFO  Free plan: results are capped at 10 per run. Upgrade to get more.
+2026-10-14T02:38:16.747Z WARN  Could not open the portal (attempt 1/8): Cloudflare challenge on the home page
+2026-10-14T02:38:21.378Z INFO  Session ready (attempt 2).
+2026-10-14T02:38:21.723Z INFO  "Delta Air Lines": 2 record(s) in 1 page(s).
+2026-10-14T02:38:21.958Z WARN  Challenged on /BusinessSearch/BusinessInformation/; opening a new session (1/4).
+2026-10-14T02:38:37.053Z INFO  Session ready (attempt 1).
+2026-10-14T02:38:37.444Z INFO  "Delta Air Lines": 2 record(s) in 1 page(s).
+2026-10-14T02:38:37.644Z WARN  Challenged on /BusinessSearch/BusinessInformation/; opening a new session (2/4).
+2026-10-14T02:38:52.981Z WARN  Could not open the portal (attempt 1/8): Cloudflare challenge on the home page
+2026-10-14T02:39:08.848Z INFO  Session ready (attempt 2).
+2026-10-14T02:39:09.144Z INFO  "Delta Air Lines": 2 record(s) in 1 page(s).
+2026-10-14T02:39:09.284Z WARN  Challenged on /BusinessSearch/BusinessInformation/; opening a new session (3/4).
+2026-10-14T02:39:23.651Z WARN  Could not open the portal (attempt 1/8): Cloudflare challenge on the home page
+2026-10-14T02:39:40.061Z WARN  Could not open the portal (attempt 2/8): Cloudflare challenge on the home page
+2026-10-14T02:39:58.348Z WARN  Could not open the portal (attempt 3/8): Cloudflare challenge on the home page
+2026-10-14T02:40:18.664Z INFO  Session ready (attempt 4).
+2026-10-14T02:40:19.407Z INFO  "Delta Air Lines": 2 record(s) in 1 page(s).
+2026-10-14T02:40:19.902Z WARN  Challenged on /BusinessSearch/BusinessInformation/; opening a new session (4/4).
+2026-10-14T02:40:34.560Z WARN  Could not open the portal (attempt 1/8): Cloudflare challenge on the home page
+2026-10-14T02:40:50.242Z INFO  Session ready (attempt 2).
+2026-10-14T02:40:50.642Z INFO  "Coca-Cola": 29 record(s) in 2 page(s).
+2026-10-14T02:40:51.142Z WARN  Challenged on /BusinessSearch/BusinessInformation/; opening a new session (1/4).
+2026-10-14T02:41:05.741Z WARN  Could not open the portal (attempt 1/8): Cloudflare challenge on the home page
+2026-10-14T02:41:21.247Z WARN  Could not open the portal (attempt 2/8): Cloudflare challenge on the home page
+2026-10-14T02:41:39.557Z INFO  Session ready (attempt 3).
+2026-10-14T02:41:39.847Z INFO  "Coca-Cola": 29 record(s) in 2 page(s).
+2026-10-14T02:41:40.125Z WARN  Challenged on /BusinessSearch/BusinessInformation/; opening a new session (2/4).
+2026-10-14T02:41:55.257Z INFO  Session ready (attempt 1).
+2026-10-14T02:41:55.678Z INFO  "Coca-Cola": 29 record(s) in 2 page(s).
+2026-10-14T02:41:57.450Z INFO  Done. 3 entities saved for 2 search term(s).
