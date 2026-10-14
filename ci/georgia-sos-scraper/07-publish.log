@@ -1,6 +1,6 @@
 publishing lautarodelgado~georgia-sos-scraper from actors/georgia-sos-scraper/.actor/store.json
-{"error":{"type":"record-not-found","message":"Actor with this name was not found"}}
-listing FAILED: {"error":{"type":"record-not-found","message":"Actor with this name was not found"}}
-pricing FAILED: {"error":{"type":"record-not-found","message":"Actor with this name was not found"}}
-permissions FAILED: {"error":{"type":"record-not-found","message":"Actor with this name was not found"}}
-visibility FAILED: {"error":{"type":"record-not-found","message":"Actor with this name was not found"}}
+current: isPublic=false pricing=[]
+listing ok: Georgia Secretary of State Business Search Scraper | ["BUSINESS","LEAD_GENERATION"]
+pricing FAILED: {"error":{"type":"schema-validation","message":"Invalid value provided in checkAndSanitizePricingInfosModifier[new_record]: Charged event must contain price, title, and description. Received {\"result\":{\"eventTitle\":\"Entity record\",\"eventDescription\":\"One Georgia business entity returned,..."}}
+permissions ok: LIMITED_PERMISSIONS exampleInput=set
+visibility ok: isPublic=false
