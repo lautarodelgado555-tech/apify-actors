@@ -1,0 +1,21 @@
+{
+  "stores": [
+    "cocora.mitiendanube.com",
+    "dailyskin.mitiendanube.com",
+    "tallertextildoscoyotes.mitiendanube.com",
+    "littleprincessbypaulinado.mitiendanube.com",
+    "peek-store.com",
+    "javitoys.mx",
+    "www.vegpet.com.br",
+    "www.asianstory.mx"
+  ],
+  "burst": { "url": "https://cocora.mitiendanube.com/productos/", "n": 40 },
+  "urls": [
+    "https://index.commoncrawl.org/collinfo.json",
+    "https://crt.sh/?q=%25.mitiendanube.com&output=json",
+    "https://crt.sh/?q=%25.lojavirtualnuvem.com.br&output=json",
+    "https://www.tiendanube.com/",
+    "https://www.nuvemshop.com.br/",
+    "https://www.tiendanube.com/sitemap.xml"
+  ]
+}
