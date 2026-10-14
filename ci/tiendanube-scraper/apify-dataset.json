@@ -1384,7 +1384,130 @@
   "platform": "tiendanube",
   "engine": "classic",
   "lastModified": "2026-10-09T16:36:03.000Z",
-  "scrapedAt": "2026-10-14T02:00:07.136Z"
+  "scrapedAt": "2026-10-14T02:03:00.782Z"
+},
+{
+  "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/lana-mexicana-en-crudo/",
+  "productId": 71001017,
+  "name": "Lana Mexicana en crudo",
+  "brand": null,
+  "description": "Hilo de lana mexicanaPresentación en conos de 1 kgHecho en México Hilo de lana 2-3 mm Lana en crudo es el color natural del pelo del borrego. Y la lana gris natural es una mezcla de fibras de lana en crudo y de lana \"negra\". La lana negra es un color café oscuro1 hebra1800 metros aproxSugerencias: crochet, agujas, trama en telar de marco y punch needle. Hilo de lana torcido 1 mm 1 hebra2300 metros aproxSugerencias: crochet, agujas, urdimbre y trama en telar de marco. Hilo de lana extra fino 1 hebragrosor menor a 1 mm3000 metros aproxSugerencias: bordado Este producto está hecho con lanas del tono natural de la fibra, éstos pueden cambiar de una partida a otra porque dependen de la materia prima. Hacemos todo lo posible para que las fotografías sean lo más ilustrativas al color y textura pero ten en consideración que éstos pueden variar. La lana ya está lavada de fábrica pero aún así te sugerimos lavarla con jabón neutro antes de tejerla en la trama y si la tejes a crochet o agujas la puedes lavar después de tejer. Si no la lavas y la guardas en un lugar con poca luz y ventilado le quitas tiempo de vida porque puede atraer a las polillas.",
+  "categories": [
+    "Materiales",
+    "Materiales para Crochet & Agujas"
+  ],
+  "tags": [],
+  "price": 250,
+  "compareAtPrice": null,
+  "promotionalPrice": null,
+  "onSale": false,
+  "discountPercent": null,
+  "priceMin": 250,
+  "priceMax": 450,
+  "currency": "MXN",
+  "installments": {
+    "maxInstallments": 1,
+    "maxInterestFreeInstallments": 1,
+    "interestFreeInstallmentValue": null,
+    "processor": null
+  },
+  "availability": "InStock",
+  "inStock": true,
+  "stockTotal": 6,
+  "stockUnlimited": false,
+  "sku": null,
+  "variantCount": 5,
+  "variants": [
+    {
+      "id": 520436834,
+      "sku": null,
+      "price": 250,
+      "compareAtPrice": null,
+      "promotionalPrice": null,
+      "stock": 4,
+      "available": true,
+      "attributes": {
+        "Tipo de Hilo": "Crudo 2-3 mm"
+      },
+      "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/e8cee073-4d56-45b2-bf96-ed3870afbd5c-5c9a81d83c4e0107ba16630861201212-1024-1024.webp"
+    },
+    {
+      "id": 520436836,
+      "sku": null,
+      "price": 250,
+      "compareAtPrice": null,
+      "promotionalPrice": null,
+      "stock": 1,
+      "available": true,
+      "attributes": {
+        "Tipo de Hilo": "Gris 2-3 mm"
+      },
+      "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/d6a3b364-283b-4418-b5f0-a3814f3496c2-66ddd207f1b7a655fb16630861201134-1024-1024.webp"
+    },
+    {
+      "id": 520436838,
+      "sku": null,
+      "price": 350,
+      "compareAtPrice": null,
+      "promotionalPrice": null,
+      "stock": 0,
+      "available": false,
+      "attributes": {
+        "Tipo de Hilo": "Negra 2-3 mm"
+      },
+      "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/0d15d10b-5ee0-441b-82f7-dccf59b2fcbd-88e5a42a147363cab216630861200909-1024-1024.webp"
+    },
+    {
+      "id": 520436840,
+      "sku": null,
+      "price": 450,
+      "compareAtPrice": null,
+      "promotionalPrice": null,
+      "stock": 1,
+      "available": true,
+      "attributes": {
+        "Tipo de Hilo": "Extra fina"
+      },
+      "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/ccecfbb8-a395-4434-8a33-672121ecfe47-6fa020431669d8316c16630861201024-1024-1024.webp"
+    },
+    {
+      "id": 520436841,
+      "sku": null,
+      "price": 350,
+      "compareAtPrice": null,
+      "promotionalPrice": null,
+      "stock": 0,
+      "available": false,
+      "attributes": {
+        "Tipo de Hilo": "1 mm hilo torcido"
+      },
+      "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/8474751e-1c98-48d0-8901-787872ed9c05-6d84605f417f1f682a16630861201373-1024-1024.webp"
+    }
+  ],
+  "images": [
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/2d38a7fb-46d2-4002-8c12-3f0594e8d9f5-0309aee19461d5b49d16630861201243-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/092a607e-b25c-4dbd-b281-8eb3d003c04d_nube-5603c78cc37a26612016147292290443-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/d53cc626-2f6a-4580-87f5-f243b1522e44_nube-7c149a60f097e05f0816150841036282-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/7ae444cf-68df-4ffa-b7ef-86a893eb5749_nube-e07919340242b5229a16150841097071-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/22a3f2dc-b8c1-48c6-be50-9afdf8efbbc5-1e48266dfa4f729dad16630861201166-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/ccecfbb8-a395-4434-8a33-672121ecfe47-6fa020431669d8316c16630861201024-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/e8cee073-4d56-45b2-bf96-ed3870afbd5c-5c9a81d83c4e0107ba16630861201212-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/d6a3b364-283b-4418-b5f0-a3814f3496c2-66ddd207f1b7a655fb16630861201134-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/0d15d10b-5ee0-441b-82f7-dccf59b2fcbd-88e5a42a147363cab216630861200909-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/8474751e-1c98-48d0-8901-787872ed9c05-6d84605f417f1f682a16630861201373-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_41651-59ab7a163b363bbae416081466829287-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/9cd382dd-6646-4387-9299-0f73edfec9d4-a16d596883d667313616630861201066-1024-1024.webp"
+  ],
+  "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/2d38a7fb-46d2-4002-8c12-3f0594e8d9f5-0309aee19461d5b49d16630861201243-1024-1024.webp",
+  "weightKg": 1.5,
+  "storeName": "Taller Textil Dos Coyotes",
+  "storeDomain": "tallertextildoscoyotes.mitiendanube.com",
+  "country": "MX",
+  "language": "es_MX",
+  "platform": "tiendanube",
+  "engine": "classic",
+  "lastModified": "2026-10-09T16:36:03.000Z",
+  "scrapedAt": "2026-10-14T02:03:00.940Z"
 },
 {
   "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/jueves-crochetero-after-office/",
@@ -1526,7 +1649,7 @@
   "platform": "tiendanube",
   "engine": "classic",
   "lastModified": "2026-10-08T22:56:59.000Z",
-  "scrapedAt": "2026-10-14T02:00:07.515Z"
+  "scrapedAt": "2026-10-14T02:03:01.270Z"
 },
 {
   "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/taller-de-experimentacion-textil/",
@@ -1621,198 +1744,7 @@
   "platform": "tiendanube",
   "engine": "classic",
   "lastModified": "2026-10-08T13:45:54.000Z",
-  "scrapedAt": "2026-10-14T02:00:08.069Z"
-},
-{
-  "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/lana-mexicana-en-crudo/",
-  "productId": 71001017,
-  "name": "Lana Mexicana en crudo",
-  "brand": null,
-  "description": "Hilo de lana mexicanaPresentación en conos de 1 kgHecho en México Hilo de lana 2-3 mm Lana en crudo es el color natural del pelo del borrego. Y la lana gris natural es una mezcla de fibras de lana en crudo y de lana \"negra\". La lana negra es un color café oscuro1 hebra1800 metros aproxSugerencias: crochet, agujas, trama en telar de marco y punch needle. Hilo de lana torcido 1 mm 1 hebra2300 metros aproxSugerencias: crochet, agujas, urdimbre y trama en telar de marco. Hilo de lana extra fino 1 hebragrosor menor a 1 mm3000 metros aproxSugerencias: bordado Este producto está hecho con lanas del tono natural de la fibra, éstos pueden cambiar de una partida a otra porque dependen de la materia prima. Hacemos todo lo posible para que las fotografías sean lo más ilustrativas al color y textura pero ten en consideración que éstos pueden variar. La lana ya está lavada de fábrica pero aún así te sugerimos lavarla con jabón neutro antes de tejerla en la trama y si la tejes a crochet o agujas la puedes lavar después de tejer. Si no la lavas y la guardas en un lugar con poca luz y ventilado le quitas tiempo de vida porque puede atraer a las polillas.",
-  "categories": [
-    "Materiales",
-    "Materiales para Crochet & Agujas"
-  ],
-  "tags": [],
-  "price": 250,
-  "compareAtPrice": null,
-  "promotionalPrice": null,
-  "onSale": false,
-  "discountPercent": null,
-  "priceMin": 250,
-  "priceMax": 450,
-  "currency": "MXN",
-  "installments": {
-    "maxInstallments": 1,
-    "maxInterestFreeInstallments": 1,
-    "interestFreeInstallmentValue": null,
-    "processor": null
-  },
-  "availability": "InStock",
-  "inStock": true,
-  "stockTotal": 6,
-  "stockUnlimited": false,
-  "sku": null,
-  "variantCount": 5,
-  "variants": [
-    {
-      "id": 520436834,
-      "sku": null,
-      "price": 250,
-      "compareAtPrice": null,
-      "promotionalPrice": null,
-      "stock": 4,
-      "available": true,
-      "attributes": {
-        "Tipo de Hilo": "Crudo 2-3 mm"
-      },
-      "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/e8cee073-4d56-45b2-bf96-ed3870afbd5c-5c9a81d83c4e0107ba16630861201212-1024-1024.webp"
-    },
-    {
-      "id": 520436836,
-      "sku": null,
-      "price": 250,
-      "compareAtPrice": null,
-      "promotionalPrice": null,
-      "stock": 1,
-      "available": true,
-      "attributes": {
-        "Tipo de Hilo": "Gris 2-3 mm"
-      },
-      "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/d6a3b364-283b-4418-b5f0-a3814f3496c2-66ddd207f1b7a655fb16630861201134-1024-1024.webp"
-    },
-    {
-      "id": 520436838,
-      "sku": null,
-      "price": 350,
-      "compareAtPrice": null,
-      "promotionalPrice": null,
-      "stock": 0,
-      "available": false,
-      "attributes": {
-        "Tipo de Hilo": "Negra 2-3 mm"
-      },
-      "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/0d15d10b-5ee0-441b-82f7-dccf59b2fcbd-88e5a42a147363cab216630861200909-1024-1024.webp"
-    },
-    {
-      "id": 520436840,
-      "sku": null,
-      "price": 450,
-      "compareAtPrice": null,
-      "promotionalPrice": null,
-      "stock": 1,
-      "available": true,
-      "attributes": {
-        "Tipo de Hilo": "Extra fina"
-      },
-      "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/ccecfbb8-a395-4434-8a33-672121ecfe47-6fa020431669d8316c16630861201024-1024-1024.webp"
-    },
-    {
-      "id": 520436841,
-      "sku": null,
-      "price": 350,
-      "compareAtPrice": null,
-      "promotionalPrice": null,
-      "stock": 0,
-      "available": false,
-      "attributes": {
-        "Tipo de Hilo": "1 mm hilo torcido"
-      },
-      "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/8474751e-1c98-48d0-8901-787872ed9c05-6d84605f417f1f682a16630861201373-1024-1024.webp"
-    }
-  ],
-  "images": [
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/2d38a7fb-46d2-4002-8c12-3f0594e8d9f5-0309aee19461d5b49d16630861201243-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/092a607e-b25c-4dbd-b281-8eb3d003c04d_nube-5603c78cc37a26612016147292290443-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/d53cc626-2f6a-4580-87f5-f243b1522e44_nube-7c149a60f097e05f0816150841036282-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/7ae444cf-68df-4ffa-b7ef-86a893eb5749_nube-e07919340242b5229a16150841097071-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/22a3f2dc-b8c1-48c6-be50-9afdf8efbbc5-1e48266dfa4f729dad16630861201166-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/ccecfbb8-a395-4434-8a33-672121ecfe47-6fa020431669d8316c16630861201024-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/e8cee073-4d56-45b2-bf96-ed3870afbd5c-5c9a81d83c4e0107ba16630861201212-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/d6a3b364-283b-4418-b5f0-a3814f3496c2-66ddd207f1b7a655fb16630861201134-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/0d15d10b-5ee0-441b-82f7-dccf59b2fcbd-88e5a42a147363cab216630861200909-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/8474751e-1c98-48d0-8901-787872ed9c05-6d84605f417f1f682a16630861201373-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_41651-59ab7a163b363bbae416081466829287-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/9cd382dd-6646-4387-9299-0f73edfec9d4-a16d596883d667313616630861201066-1024-1024.webp"
-  ],
-  "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/2d38a7fb-46d2-4002-8c12-3f0594e8d9f5-0309aee19461d5b49d16630861201243-1024-1024.webp",
-  "weightKg": 1.5,
-  "storeName": "Taller Textil Dos Coyotes",
-  "storeDomain": "tallertextildoscoyotes.mitiendanube.com",
-  "country": "MX",
-  "language": "es_MX",
-  "platform": "tiendanube",
-  "engine": "classic",
-  "lastModified": "2026-10-09T16:36:03.000Z",
-  "scrapedAt": "2026-10-14T02:00:08.311Z"
-},
-{
-  "url": "https://peek-store.com/productos/cd-cta-1pbh9",
-  "productId": 321285513,
-  "name": "CD CTA",
-  "brand": null,
-  "description": "CD físico original de CTA by Charles Ans",
-  "categories": [
-    "By Charles Ans"
-  ],
-  "tags": [],
-  "price": 350,
-  "compareAtPrice": null,
-  "promotionalPrice": null,
-  "onSale": false,
-  "discountPercent": null,
-  "priceMin": 350,
-  "priceMax": 450,
-  "currency": "MXN",
-  "installments": null,
-  "availability": "InStock",
-  "inStock": true,
-  "stockTotal": 15,
-  "stockUnlimited": false,
-  "sku": null,
-  "variantCount": 2,
-  "variants": [
-    {
-      "id": 1424180496,
-      "sku": null,
-      "price": 450,
-      "compareAtPrice": null,
-      "promotionalPrice": null,
-      "stock": 0,
-      "available": false,
-      "attributes": {
-        "Con o Sin Firma": "Con Firma"
-      },
-      "image": null
-    },
-    {
-      "id": 1424180502,
-      "sku": null,
-      "price": 350,
-      "compareAtPrice": null,
-      "promotionalPrice": null,
-      "stock": 15,
-      "available": true,
-      "attributes": {
-        "Con o Sin Firma": "Sin Firma"
-      },
-      "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/7-cd-cta-c9281989714ad00b1717698998781656-1024-1024.png"
-    }
-  ],
-  "images": [
-    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/6-cd-cta-5edb99f14cddc58b7517698998631688-1024-1024.png",
-    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/7-cd-cta-c9281989714ad00b1717698998781656-1024-1024.png"
-  ],
-  "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/6-cd-cta-5edb99f14cddc58b7517698998631688-1024-1024.png",
-  "weightKg": null,
-  "storeName": "Peek Store",
-  "storeDomain": "peek-store.com",
-  "country": "MX",
-  "language": "es",
-  "platform": "tiendanube",
-  "engine": "next",
-  "lastModified": "2026-10-10T19:23:19.000Z",
-  "scrapedAt": "2026-10-14T02:00:08.374Z"
+  "scrapedAt": "2026-10-14T02:03:01.588Z"
 },
 {
   "url": "https://peek-store.com/productos/tisha-bendiceme",
@@ -1882,7 +1814,143 @@
   "platform": "tiendanube",
   "engine": "next",
   "lastModified": "2026-10-11T19:09:55.000Z",
-  "scrapedAt": "2026-10-14T02:00:08.404Z"
+  "scrapedAt": "2026-10-14T02:03:02.032Z"
+},
+{
+  "url": "https://peek-store.com/productos/cd-cta-1pbh9",
+  "productId": 321285513,
+  "name": "CD CTA",
+  "brand": null,
+  "description": "CD físico original de CTA by Charles Ans",
+  "categories": [
+    "By Charles Ans"
+  ],
+  "tags": [],
+  "price": 350,
+  "compareAtPrice": null,
+  "promotionalPrice": null,
+  "onSale": false,
+  "discountPercent": null,
+  "priceMin": 350,
+  "priceMax": 450,
+  "currency": "MXN",
+  "installments": null,
+  "availability": "InStock",
+  "inStock": true,
+  "stockTotal": 15,
+  "stockUnlimited": false,
+  "sku": null,
+  "variantCount": 2,
+  "variants": [
+    {
+      "id": 1424180496,
+      "sku": null,
+      "price": 450,
+      "compareAtPrice": null,
+      "promotionalPrice": null,
+      "stock": 0,
+      "available": false,
+      "attributes": {
+        "Con o Sin Firma": "Con Firma"
+      },
+      "image": null
+    },
+    {
+      "id": 1424180502,
+      "sku": null,
+      "price": 350,
+      "compareAtPrice": null,
+      "promotionalPrice": null,
+      "stock": 15,
+      "available": true,
+      "attributes": {
+        "Con o Sin Firma": "Sin Firma"
+      },
+      "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/7-cd-cta-c9281989714ad00b1717698998781656-1024-1024.png"
+    }
+  ],
+  "images": [
+    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/6-cd-cta-5edb99f14cddc58b7517698998631688-1024-1024.png",
+    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/7-cd-cta-c9281989714ad00b1717698998781656-1024-1024.png"
+  ],
+  "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/6-cd-cta-5edb99f14cddc58b7517698998631688-1024-1024.png",
+  "weightKg": null,
+  "storeName": "Peek Store",
+  "storeDomain": "peek-store.com",
+  "country": "MX",
+  "language": "es",
+  "platform": "tiendanube",
+  "engine": "next",
+  "lastModified": "2026-10-10T19:23:19.000Z",
+  "scrapedAt": "2026-10-14T02:03:02.405Z"
+},
+{
+  "url": "https://peek-store.com/productos/cd-lrds-p3r2q",
+  "productId": 321285761,
+  "name": "CD LRDS",
+  "brand": null,
+  "description": "CD físico original de LRDS by Charles Ans",
+  "categories": [
+    "By Charles Ans"
+  ],
+  "tags": [],
+  "price": 350,
+  "compareAtPrice": null,
+  "promotionalPrice": null,
+  "onSale": false,
+  "discountPercent": null,
+  "priceMin": 350,
+  "priceMax": 450,
+  "currency": "MXN",
+  "installments": null,
+  "availability": "InStock",
+  "inStock": true,
+  "stockTotal": 17,
+  "stockUnlimited": false,
+  "sku": null,
+  "variantCount": 2,
+  "variants": [
+    {
+      "id": 1424183290,
+      "sku": null,
+      "price": 450,
+      "compareAtPrice": null,
+      "promotionalPrice": null,
+      "stock": 0,
+      "available": false,
+      "attributes": {
+        "Con o Sin Firma": "Con Firma"
+      },
+      "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/8-cd-lrds-f4a868e3d50068a73417699003305283-1024-1024.png"
+    },
+    {
+      "id": 1424183293,
+      "sku": null,
+      "price": 350,
+      "compareAtPrice": null,
+      "promotionalPrice": null,
+      "stock": 17,
+      "available": true,
+      "attributes": {
+        "Con o Sin Firma": "Sin Firma"
+      },
+      "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png"
+    }
+  ],
+  "images": [
+    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png",
+    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/8-cd-lrds-f4a868e3d50068a73417699003305283-1024-1024.png"
+  ],
+  "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png",
+  "weightKg": null,
+  "storeName": "Peek Store",
+  "storeDomain": "peek-store.com",
+  "country": "MX",
+  "language": "es",
+  "platform": "tiendanube",
+  "engine": "next",
+  "lastModified": "2026-10-10T19:23:19.000Z",
+  "scrapedAt": "2026-10-14T02:03:02.922Z"
 },
 {
   "url": "https://peek-store.com/productos/classic-beanie-103fp",
@@ -1964,75 +2032,7 @@
   "platform": "tiendanube",
   "engine": "next",
   "lastModified": "2026-10-08T22:12:25.000Z",
-  "scrapedAt": "2026-10-14T02:00:08.471Z"
-},
-{
-  "url": "https://peek-store.com/productos/cd-lrds-p3r2q",
-  "productId": 321285761,
-  "name": "CD LRDS",
-  "brand": null,
-  "description": "CD físico original de LRDS by Charles Ans",
-  "categories": [
-    "By Charles Ans"
-  ],
-  "tags": [],
-  "price": 350,
-  "compareAtPrice": null,
-  "promotionalPrice": null,
-  "onSale": false,
-  "discountPercent": null,
-  "priceMin": 350,
-  "priceMax": 450,
-  "currency": "MXN",
-  "installments": null,
-  "availability": "InStock",
-  "inStock": true,
-  "stockTotal": 17,
-  "stockUnlimited": false,
-  "sku": null,
-  "variantCount": 2,
-  "variants": [
-    {
-      "id": 1424183290,
-      "sku": null,
-      "price": 450,
-      "compareAtPrice": null,
-      "promotionalPrice": null,
-      "stock": 0,
-      "available": false,
-      "attributes": {
-        "Con o Sin Firma": "Con Firma"
-      },
-      "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/8-cd-lrds-f4a868e3d50068a73417699003305283-1024-1024.png"
-    },
-    {
-      "id": 1424183293,
-      "sku": null,
-      "price": 350,
-      "compareAtPrice": null,
-      "promotionalPrice": null,
-      "stock": 17,
-      "available": true,
-      "attributes": {
-        "Con o Sin Firma": "Sin Firma"
-      },
-      "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png"
-    }
-  ],
-  "images": [
-    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png",
-    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/8-cd-lrds-f4a868e3d50068a73417699003305283-1024-1024.png"
-  ],
-  "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png",
-  "weightKg": null,
-  "storeName": "Peek Store",
-  "storeDomain": "peek-store.com",
-  "country": "MX",
-  "language": "es",
-  "platform": "tiendanube",
-  "engine": "next",
-  "lastModified": "2026-10-10T19:23:19.000Z",
-  "scrapedAt": "2026-10-14T02:00:08.631Z"
+  "scrapedAt": "2026-10-14T02:03:03.127Z"
 },
 {
   "url": "https://www.vegpet.com.br/produtos/organica-all-love-veggie-sabor-grao-de-bico-quinoa-cenoura-72kg/",
@@ -2095,7 +2095,7 @@
   "platform": "nuvemshop",
   "engine": "classic",
   "lastModified": "2026-10-13T01:26:00.000Z",
-  "scrapedAt": "2026-10-14T02:00:09.347Z"
+  "scrapedAt": "2026-10-14T02:03:03.958Z"
 },
 {
   "url": "https://www.vegpet.com.br/produtos/krocao-biscoito-banana-e-aveia-1kg/",
@@ -2157,5 +2157,5 @@
   "platform": "nuvemshop",
   "engine": "classic",
   "lastModified": "2026-10-13T01:26:00.000Z",
-  "scrapedAt": "2026-10-14T02:00:09.642Z"
+  "scrapedAt": "2026-10-14T02:03:04.312Z"
 }]
