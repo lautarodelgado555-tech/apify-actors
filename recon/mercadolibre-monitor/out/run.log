@@ -1,149 +1,89 @@
-01:32:05 listing MLA zapatillas 200 39112 suspicious
-01:32:06 listing MLA celular-samsung 200 39137 suspicious
-01:32:07 listing MLA heladera 200 39102 suspicious
-01:32:07 listing MLA auriculares-bluetooth 200 39167 suspicious
-01:32:08 listing MLA notebook 200 39102 suspicious
-01:32:09 listing MLA yerba-mate 200 39112 suspicious
-01:32:09 listing MLA perfume 200 39097 suspicious
-01:32:10 listing MLA lavarropas 200 39112 suspicious
-01:32:10 listing MLA smart-tv 200 39102 suspicious
-01:32:11 listing MLA mochila 200 39097 suspicious
-01:32:12 found MLA 0
-01:32:12 listing MLM audifonos 200 23411 suspicious
-01:32:13 listing MLM tenis 200 23391 suspicious
-01:32:13 found MLM 0
-01:32:14 listing MLB fone-de-ouvido 200 39470 suspicious
-01:32:15 listing MLB tenis 200 39425 suspicious
-01:32:15 found MLB 0
-01:32:16 listing MLC zapatillas 200 23286 suspicious
-01:32:16 found MLC 0
-01:32:16 listing MCO audifonos 200 23261 suspicious
-01:32:17 found MCO 0
-01:32:17 api browser-ua 403 /sites/MLA
-01:32:17 api browser-ua 403 /sites/MLA/search?q=zapatillas&limit=5
-01:32:18 api curl-ua 403 /sites/MLA/search?q=zapatillas&limit=5
-01:32:18 api browser-ua 403 /sites/MLA/categories
-01:32:19 api browser-ua 200 /categories/MLA1055
-01:32:19 api browser-ua 401 /highlights/MLA/category/MLA1055
-01:32:19 api browser-ua 403 /trends/MLA
-01:32:20 api browser-ua 200 /sites/MLA/domain_discovery/search?q=zapatillas
-01:32:20 api browser-ua 404 /items/
-01:32:21 api browser-ua 404 /items?ids=
-01:32:21 api browser-ua 404 /items//description
-01:32:21 api browser-ua 403 /users/1
-01:32:22 api browser-ua 403 /sites/MLA/search?seller_id=1&limit=3
-01:32:22 api curl-ua 403 /sites/MLA/search?seller_id=1&limit=3
-01:32:23 api browser-ua 403 /currencies/ARS
-01:32:23 item targets 0
-01:32:23 items ok 0 / 0
-01:32:23 impit done
-01:32:23 site MLM 
-01:32:23 site MLB 
-01:32:23 site MLC 
-01:32:23 site MCO 
-01:32:23 bestseller categories 0
-01:32:25 seller 200 https://www.mercadolibre.com.ar/tiendas-oficiales
+01:35:14 proxy password present: true groups: ["BUYPROXIES94952","GOOGLE_SERP","RESIDENTIAL","UNBLOCKER"]
+01:35:16 store slugs 202
+01:35:22 tienda direct {"n":6,"byStatus":{"200":6},"gated":0,"okClean":6,"avgWireBytes":485255,"avgBytes":485255,"avgMs":643} items so far 215
+01:35:25 tienda dc {"n":6,"byStatus":{"0":6},"gated":0,"okClean":0,"avgWireBytes":0,"avgBytes":0,"avgMs":0} items so far 215
+01:35:27 tienda res {"n":6,"byStatus":{"0":6},"gated":0,"okClean":0,"avgWireBytes":0,"avgBytes":0,"avgMs":0} items so far 215
+01:35:29 listing direct {"n":3,"byStatus":{"200":3},"gated":3,"okClean":0,"avgWireBytes":0,"avgBytes":0,"avgMs":0} items so far 215
+01:35:30 listing dc {"n":3,"byStatus":{"0":3},"gated":0,"okClean":0,"avgWireBytes":0,"avgBytes":0,"avgMs":0} items so far 215
+01:35:32 listing res {"n":3,"byStatus":{"0":3},"gated":0,"okClean":0,"avgWireBytes":0,"avgBytes":0,"avgMs":0} items so far 215
+01:35:32 total item urls 215
+01:35:35 items direct {"n":40,"byStatus":{"200":40},"gated":40,"okClean":0,"avgWireBytes":0,"avgBytes":0,"avgMs":0}
+01:35:37 items dc {"n":40,"byStatus":{"0":40},"gated":0,"okClean":0,"avgWireBytes":0,"avgBytes":0,"avgMs":0}
+01:35:39 items res {"n":40,"byStatus":{"0":40},"gated":0,"okClean":0,"avgWireBytes":0,"avgBytes":0,"avgMs":0}
+01:35:39 api direct 403 /items/MLA58756915
+01:35:39 api direct 401 /items?ids=MLA58756915
+01:35:39 api direct 403 /items/MLA55887294
+01:35:39 api direct 401 /items?ids=MLA55887294
+01:35:40 api direct 403 /items/MLA60282799
+01:35:40 api direct 401 /items?ids=MLA60282799
+01:35:40 api dc 0 /items/MLA58756915
+01:35:40 api dc 0 /items?ids=MLA58756915
+01:35:40 api dc 0 /items/MLA55887294
+01:35:40 api dc 0 /items?ids=MLA55887294
+01:35:40 api res 0 /items/MLA58756915
+01:35:40 api res 0 /items?ids=MLA58756915
+01:35:40 api res 0 /items/MLA55887294
+01:35:40 api res 0 /items?ids=MLA55887294
 {
- "items": {
-  "n": 0,
-  "byStatus": {},
-  "okClean": 0,
-  "markers": 0,
-  "avgBytes": 0,
-  "avgMs": 0,
-  "withLdJson": 0,
-  "withPreloaded": 0
- },
- "itemsImpit": {
-  "n": 0,
-  "byStatus": {},
-  "okClean": 0,
-  "markers": 0,
-  "avgBytes": 0,
-  "avgMs": 0,
-  "withLdJson": 0,
-  "withPreloaded": 0
- },
- "listings": {
-  "n": 16,
-  "byStatus": {
-   "200": 16
-  },
-  "okClean": 0,
-  "markers": 16,
-  "avgBytes": 0,
-  "avgMs": 0,
-  "withLdJson": 0,
-  "withPreloaded": 0
- },
- "bestsellers": {
-  "n": 4,
-  "byStatus": {
-   "200": 4
-  },
-  "okClean": 0,
-  "markers": 4,
-  "avgBytes": 0,
-  "avgMs": 0,
-  "withLdJson": 0,
-  "withPreloaded": 0
- },
- "sellers": {
-  "n": 1,
-  "byStatus": {
-   "200": 1
-  },
-  "okClean": 0,
-  "markers": 1,
-  "avgBytes": 0,
-  "avgMs": 0,
-  "withLdJson": 0,
-  "withPreloaded": 0
- },
- "sites": [
-  {
-   "site": "MLM",
-   "n": 0,
-   "byStatus": {},
+ "routes": {
+  "direct": {
+   "n": 40,
+   "byStatus": {
+    "200": 40
+   },
+   "gated": 40,
    "okClean": 0,
-   "markers": 0,
+   "avgWireBytes": 0,
    "avgBytes": 0,
-   "avgMs": 0,
-   "withLdJson": 0,
-   "withPreloaded": 0
+   "avgMs": 0
   },
-  {
-   "site": "MLB",
-   "n": 0,
-   "byStatus": {},
+  "dc": {
+   "n": 40,
+   "byStatus": {
+    "0": 40
+   },
+   "gated": 0,
    "okClean": 0,
-   "markers": 0,
+   "avgWireBytes": 0,
    "avgBytes": 0,
-   "avgMs": 0,
-   "withLdJson": 0,
-   "withPreloaded": 0
+   "avgMs": 0
   },
-  {
-   "site": "MLC",
-   "n": 0,
-   "byStatus": {},
+  "res": {
+   "n": 40,
+   "byStatus": {
+    "0": 40
+   },
+   "gated": 0,
    "okClean": 0,
-   "markers": 0,
+   "avgWireBytes": 0,
    "avgBytes": 0,
-   "avgMs": 0,
-   "withLdJson": 0,
-   "withPreloaded": 0
-  },
-  {
-   "site": "MCO",
-   "n": 0,
-   "byStatus": {},
-   "okClean": 0,
-   "markers": 0,
-   "avgBytes": 0,
-   "avgMs": 0,
-   "withLdJson": 0,
-   "withPreloaded": 0
+   "avgMs": 0
   }
+ },
+ "firefox": [
+  [
+   "direct",
+   200,
+   true,
+   null
+  ],
+  [
+   "direct",
+   200,
+   true,
+   null
+  ],
+  [
+   "res",
+   null,
+   null,
+   "page.goto: NS_ERROR_PROXY_FORBIDDEN"
+  ],
+  [
+   "res",
+   null,
+   null,
+   "page.goto: NS_ERROR_PROXY_FORBIDDEN"
+  ]
  ]
 }
