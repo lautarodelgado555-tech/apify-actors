@@ -1,13 +1,25 @@
 MODE block statuses 200,200,200,200,200 cookies ["ASP.NET_SessionId","__cflb"]
 WINNER block
-s01-delta-starts status 200 mit null len 10477 143ms Page 1 of 1, records 1 to 2 of 2
-v01-post-plain 403 challenge 5946 <title>Just a moment...
-v02-get-qs 403 challenge 6234 <title>Just a moment...
-v03-post-xhr-hdr 403 challenge 5967 <title>Just a moment...
-v04-post-slash 200 null 13538 <title>GEORGIA
-v05-post-qs-and-body 403 challenge 6298 <title>Just a moment...
-v06-jquery-ajax 403 challenge 5989 <title>Just a moment...
-v07-post-lower 200 null 13538 <title>GEORGIA
-v08-get-lower-state 403 challenge 6183 <title>Just a moment...
-v09-iframe 0 5993 <title>Just a moment...
-v10-document-post title Just a moment...
+s01-delta-starts status 200 mit null len 10477 107ms Page 1 of 1, records 1 to 2 of 2
+s02-delta-contains status 200 mit null len 19313 1781ms Page 1 of 76, records 1 to 25 of 1895&nbsp;&nbsp;
+s08-georgia-power status 200 mit null len 19290 138ms Page 1 of 2, records 1 to 25 of 32&nbsp;&nbsp;
+s09-llc status 200 mit null len 10811 122ms Page 1 of 1, records 1 to 3 of 3
+detail types [["567669","Foreign Profit Corporation"],["301509","Domestic Nonprofit Corporation"],["4805471","Domestic Limited Liability Company"],["3931787","Name Reservation"],["4396154","Foreign Limited Liability Company"],["1048120","Domestic Profit Corporation"],["564770","Foreign Nonprofit Corporation"],["923344","Foreign Limited Partnership"],["736568","Domestic Credit Union"]]
+d1-detail-567669 status 403 mit null len 2171 112ms 
+d2-detail-301509 status 403 mit null len 2171 115ms 
+d3-detail-4805471 status 403 mit null len 2171 104ms 
+d4-detail-3931787 status 403 mit null len 2171 117ms 
+d5-detail-4396154 status 403 mit null len 2171 103ms 
+d6-detail-1048120 status 403 mit null len 2171 112ms 
+d7-detail-564770 status 403 mit null len 2171 102ms 
+d8-detail-923344 status 403 mit null len 2171 113ms 
+d9-detail-736568 status 403 mit null len 2171 114ms 
+f1-_BusinessSearch_BusinessFilings_ status 200 mit null len 18231 132ms Page 1 of 2, records 1 to 25 of 33&nbsp;&nbsp;
+f2-_businesssearch_businessfilings status 200 mit null len 18231 110ms Page 1 of 2, records 1 to 25 of 33&nbsp;&nbsp;
+f3-_BusinessSearch_BusinessFilings status 200 mit null len 18231 121ms Page 1 of 2, records 1 to 25 of 33&nbsp;&nbsp;
+f4-_BusinessSearch_NameChangeHistory_ status 200 mit null len 9164 103ms 
+f5-_businesssearch_namechangehistory status 200 mit null len 9164 119ms 
+f6-filings-llc status 200 mit null len 12477 102ms Page 1 of 1, records 1 to 1 of 1
+f7-filings-nonprofit status 200 mit null len 12876 125ms Page 1 of 1, records 1 to 3 of 3
+f8-get-filings 200 null 18231 <title>GEORGIA
+STRESS 25 details {"403":25} 2774ms
