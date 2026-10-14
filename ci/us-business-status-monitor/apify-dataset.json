@@ -20,7 +20,7 @@
   "sourceUrl": "https://data.texas.gov/resource/9cir-efmm.json?taxpayer_number=32070357671",
   "mode": "opendata",
   "dataFreshness": "2026-10-10T08:18:45.000Z",
-  "checkedAt": "2026-10-14T02:04:32.801Z",
+  "checkedAt": "2026-10-14T02:08:37.671Z",
   "details": {
     "taxpayerNumber": "32070357671",
     "sosFileNumber": "0803287393",
@@ -40,7 +40,7 @@
   },
   "monitored": true,
   "firstSeen": false,
-  "previousCheckedAt": "2026-10-14T01:58:06.034Z",
+  "previousCheckedAt": "2026-10-14T02:04:32.801Z",
   "changed": false,
   "changeTypes": [],
   "changes": []
@@ -67,7 +67,7 @@
   "sourceUrl": "https://data.ct.gov/resource/n7gp-d28j.json?accountnumber=0074441",
   "mode": "opendata",
   "dataFreshness": "2026-10-13T09:30:34.000Z",
-  "checkedAt": "2026-10-14T02:04:32.801Z",
+  "checkedAt": "2026-10-14T02:08:37.671Z",
   "details": {
     "registryRecordId": "001t000000WmVHCAA3",
     "businessTypeCode": "Stock",
@@ -83,7 +83,7 @@
   },
   "monitored": true,
   "firstSeen": false,
-  "previousCheckedAt": "2026-10-14T01:58:06.034Z",
+  "previousCheckedAt": "2026-10-14T02:04:32.801Z",
   "changed": false,
   "changeTypes": [],
   "changes": []
@@ -110,7 +110,7 @@
   "sourceUrl": "https://data.colorado.gov/resource/4ykn-tg5h.json?entityid=20191893002",
   "mode": "opendata",
   "dataFreshness": "2026-10-13T11:24:11.000Z",
-  "checkedAt": "2026-10-14T02:04:32.801Z",
+  "checkedAt": "2026-10-14T02:08:37.671Z",
   "details": {
     "entityTypeCode": "DLLC",
     "jurisdictionOfFormation": "CO",
@@ -124,7 +124,7 @@
   },
   "monitored": true,
   "firstSeen": false,
-  "previousCheckedAt": "2026-10-14T01:58:06.034Z",
+  "previousCheckedAt": "2026-10-14T02:04:32.801Z",
   "changed": false,
   "changeTypes": [],
   "changes": []
@@ -151,7 +151,7 @@
   "sourceUrl": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Business_Licensing_and_Grants_WebMercator/FeatureServer/0/query?outFields=*&returnGeometry=false&f=json&where=FILE_NUMBER%3D'620118'",
   "mode": "opendata",
   "dataFreshness": "2026-10-13T11:47:46.000Z",
-  "checkedAt": "2026-10-14T02:04:32.801Z",
+  "checkedAt": "2026-10-14T02:08:37.671Z",
   "details": {
     "locale": "Domestic",
     "businessAddress": "3027 DAVENPORT ST. ,N.W., WASHINGTON, DC 20008",
@@ -165,7 +165,7 @@
   },
   "monitored": true,
   "firstSeen": false,
-  "previousCheckedAt": "2026-10-14T01:58:06.034Z",
+  "previousCheckedAt": "2026-10-14T02:04:32.801Z",
   "changed": false,
   "changeTypes": [],
   "changes": []

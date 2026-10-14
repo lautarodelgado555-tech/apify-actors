@@ -1,10 +1,10 @@
 {
   "data": {
-    "id": "WxbfSnbWRL2IYFWdo",
+    "id": "h1dgIqyflFXYiSF0W",
     "actId": "969kXcZRR2fVat2GC",
     "userId": "ejg6JY7N3cozjC5Ny",
-    "startedAt": "2026-10-14T02:04:29.134Z",
-    "finishedAt": "2026-10-14T02:04:40.096Z",
+    "startedAt": "2026-10-14T02:08:35.565Z",
+    "finishedAt": "2026-10-14T02:08:41.054Z",
     "status": "SUCCEEDED",
     "statusMessage": "4 check(s), 0 entities changed, 0 new baseline(s), 0 not found, 0 error(s)",
     "isStatusMessageTerminal": null,
@@ -17,50 +17,81 @@
       "migrationCount": 0,
       "rebootCount": 0,
       "restartCount": 0,
-      "durationMillis": 10818,
+      "durationMillis": 5230,
       "resurrectCount": 0,
-      "runTimeSecs": 10.818,
+      "runTimeSecs": 5.23,
       "metamorph": 0,
-      "computeUnits": 0.00601,
-      "memAvgBytes": 55575030.74001507,
-      "memMaxBytes": 69091328,
+      "computeUnits": 0.0029055555555555558,
+      "memAvgBytes": 56009061.73673213,
+      "memMaxBytes": 68497408,
       "memCurrentBytes": 0,
-      "cpuAvgUsage": 18.113221316914867,
-      "cpuMaxUsage": 79.37529113924052,
+      "cpuAvgUsage": 21.907332787878254,
+      "cpuMaxUsage": 79.5936040609137,
       "cpuCurrentUsage": 0,
-      "netRxBytes": 110001,
-      "netTxBytes": 43130
+      "netRxBytes": 105893,
+      "netTxBytes": 38487
     },
     "options": {
       "build": "latest",
       "timeoutSecs": 900,
       "memoryMbytes": 2048,
+      "maxTotalChargeUsd": 4.760698,
+      "maxItems": null,
       "isMaxTotalChargeUsdSetByUser": false,
       "diskMbytes": 4096
     },
-    "buildId": "u1Th6i60hqwXgN8yB",
+    "buildId": "ng7bMGA6ttadEIVMs",
     "exitCode": 0,
-    "defaultKeyValueStoreId": "9LHzCsPpxz0RbAcya",
-    "defaultDatasetId": "pngzP1gJHzbaGFbCU",
-    "defaultRequestQueueId": "GzaSvYzy9gFfjXVtb",
+    "defaultKeyValueStoreId": "T4E6yAlI2kQupT50u",
+    "defaultDatasetId": "YKkrnlv1nXc5YC5eP",
+    "defaultRequestQueueId": "Tt3Uj6EHfKZ2Oudrf",
     "storageIds": {
       "keyValueStores": {
-        "default": "9LHzCsPpxz0RbAcya"
+        "default": "T4E6yAlI2kQupT50u"
       },
       "datasets": {
-        "default": "pngzP1gJHzbaGFbCU"
+        "default": "YKkrnlv1nXc5YC5eP"
       },
       "requestQueues": {
-        "default": "GzaSvYzy9gFfjXVtb"
+        "default": "Tt3Uj6EHfKZ2Oudrf"
       }
     },
+    "pricingInfo": {
+      "pricingModel": "PAY_PER_EVENT",
+      "createdAt": "2026-10-14T02:06:33.828Z",
+      "startedAt": "2026-10-14T02:06:33.828Z",
+      "apifyMarginPercentage": 0.2,
+      "pricingPerEvent": {
+        "actorChargeEvents": {
+          "entity-check": {
+            "eventTitle": "Normalized entity check",
+            "eventDescription": "One entity returned with canonical status, good standing and annual report due date (name searches charge once per candidate returned).",
+            "eventPriceUsd": 0.02,
+            "isPrimaryEvent": true
+          },
+          "change-alert": {
+            "eventTitle": "Change alert",
+            "eventDescription": "One alert per monitored entity whose status, good standing or annual report due date changed since the previous run (all of its changes are bundled in one alert).",
+            "eventPriceUsd": 0.01
+          }
+        }
+      }
+    },
+    "chargedEventCounts": {
+      "entity-check": 4,
+      "change-alert": 0
+    },
     "platformUsageBillingModel": "USER",
+    "accountedChargedEventCounts": {
+      "entity-check": 0,
+      "change-alert": 0
+    },
     "standby": null,
     "generalAccess": "FOLLOW_USER_SETTING",
-    "buildNumber": "0.1.2",
-    "containerUrl": "https://uimkrfpgarkn.runs.apify.net",
+    "buildNumber": "0.1.3",
+    "containerUrl": "https://plt4hr56d8x4.runs.apify.net",
     "usage": {
-      "ACTOR_COMPUTE_UNITS": 0.00601,
+      "ACTOR_COMPUTE_UNITS": 0.0029055555555555558,
       "DATASET_READS": 0,
       "DATASET_WRITES": 4,
       "KEY_VALUE_STORE_READS": 5,
@@ -68,15 +99,15 @@
       "KEY_VALUE_STORE_LISTS": 0,
       "REQUEST_QUEUE_READS": 0,
       "REQUEST_QUEUE_WRITES": 0,
-      "DATA_TRANSFER_INTERNAL_GBYTES": 0.000012832693755626678,
-      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.00003581494092941284,
+      "DATA_TRANSFER_INTERNAL_GBYTES": 0.000007633119821548462,
+      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.00003373902291059494,
       "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
       "PROXY_SERPS": 0,
       "PROXY_UNBLOCKER_UNITS": 0
     },
-    "usageTotalUsd": 0.001554804622873664,
+    "usageTotalUsd": 0.0009332405716843076,
     "usageUsd": {
-      "ACTOR_COMPUTE_UNITS": 0.001202,
+      "ACTOR_COMPUTE_UNITS": 0.0005811111111111111,
       "DATASET_READS": 0,
       "DATASET_WRITES": 0.00002,
       "KEY_VALUE_STORE_READS": 0.000025,
@@ -84,17 +115,17 @@
       "KEY_VALUE_STORE_LISTS": 0,
       "REQUEST_QUEUE_READS": 0,
       "REQUEST_QUEUE_WRITES": 0,
-      "DATA_TRANSFER_INTERNAL_GBYTES": 6.41634687781334e-7,
-      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.000007162988185882569,
+      "DATA_TRANSFER_INTERNAL_GBYTES": 3.816559910774231e-7,
+      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.0000067478045821189885,
       "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
       "PROXY_SERPS": 0,
       "PROXY_UNBLOCKER_UNITS": 0
     },
-    "consoleUrl": "https://console.apify.com/view/runs/WxbfSnbWRL2IYFWdo",
+    "consoleUrl": "https://console.apify.com/view/runs/h1dgIqyflFXYiSF0W",
     "output": {
-      "results": "https://api.apify.com/v2/datasets/pngzP1gJHzbaGFbCU/items?signature=MC4wLjF1VEMxcldXVFV1TXpPb1g2UHhFaw",
-      "resultsCsv": "https://api.apify.com/v2/datasets/pngzP1gJHzbaGFbCU/items?format=csv&signature=MC4wLjF1VEMxcldXVFV1TXpPb1g2UHhFaw",
-      "summary": "https://api.apify.com/v2/key-value-stores/9LHzCsPpxz0RbAcya/records/OUTPUT?signature=amwDUd9IqJqwAZcVDi9o"
+      "results": "https://api.apify.com/v2/datasets/YKkrnlv1nXc5YC5eP/items?signature=MC4wLkVhMnRhb1ZMTjdlSHVQMnFOdnVV",
+      "resultsCsv": "https://api.apify.com/v2/datasets/YKkrnlv1nXc5YC5eP/items?format=csv&signature=MC4wLkVhMnRhb1ZMTjdlSHVQMnFOdnVV",
+      "summary": "https://api.apify.com/v2/key-value-stores/T4E6yAlI2kQupT50u/records/OUTPUT?signature=rRqbmK0ZIctQGw52BSx4"
     }
   }
 }

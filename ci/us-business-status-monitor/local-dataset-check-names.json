@@ -21,7 +21,7 @@
     "sourceUrl": "https://data.colorado.gov/resource/4ykn-tg5h.json?entityid=20171362116",
     "mode": "opendata",
     "dataFreshness": "2026-10-13T11:24:11.000Z",
-    "checkedAt": "2026-10-14T02:02:48.997Z",
+    "checkedAt": "2026-10-14T02:06:42.839Z",
     "details": {
       "entityTypeCode": "FPC",
       "jurisdictionOfFormation": "DE",
@@ -67,7 +67,7 @@
     "sourceUrl": "https://data.texas.gov/resource/9cir-efmm.json?taxpayer_number=32073591276",
     "mode": "opendata",
     "dataFreshness": "2026-10-10T08:18:45.000Z",
-    "checkedAt": "2026-10-14T02:02:48.997Z",
+    "checkedAt": "2026-10-14T02:06:42.839Z",
     "details": {
       "taxpayerNumber": "32073591276",
       "sosFileNumber": "0803562210",
@@ -119,7 +119,7 @@
     "sourceUrl": "https://data.ny.gov/resource/3gg2-jgnp.json?corpid_num=4667344&$order=date_filed%20desc%2Cfilm_num%20desc&$limit=1",
     "mode": "opendata",
     "dataFreshness": "2026-10-13T18:14:12.000Z",
-    "checkedAt": "2026-10-14T02:02:48.997Z",
+    "checkedAt": "2026-10-14T02:06:42.839Z",
     "details": {
       "jurisdiction": "New York",
       "county": "Queens",
@@ -166,7 +166,7 @@
     "sourceUrl": "https://data.ct.gov/resource/n7gp-d28j.json?accountnumber=0074441",
     "mode": "opendata",
     "dataFreshness": "2026-10-13T09:30:34.000Z",
-    "checkedAt": "2026-10-14T02:02:48.997Z",
+    "checkedAt": "2026-10-14T02:06:42.839Z",
     "details": {
       "registryRecordId": "001t000000WmVHCAA3",
       "businessTypeCode": "Stock",
@@ -214,7 +214,7 @@
     "sourceUrl": "https://data.oregon.gov/resource/tckn-sxa6.json?registry_number=149629495",
     "mode": "opendata",
     "dataFreshness": "2026-10-13T21:31:34.000Z",
-    "checkedAt": "2026-10-14T02:02:48.997Z",
+    "checkedAt": "2026-10-14T02:06:42.839Z",
     "details": {
       "jurisdiction": "DE",
       "entityTypeCode": "FLLC"
@@ -259,7 +259,7 @@
     "sourceUrl": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Business_Licensing_and_Grants_WebMercator/FeatureServer/0/query?outFields=*&returnGeometry=false&f=json&where=FILE_NUMBER%3D'932195'",
     "mode": "opendata",
     "dataFreshness": "2026-10-13T11:47:46.000Z",
-    "checkedAt": "2026-10-14T02:02:48.997Z",
+    "checkedAt": "2026-10-14T02:06:42.839Z",
     "details": {
       "locale": "Foreign",
       "businessAddress": "7750 Wisconsin Avenue, Bethesda, MD 20814",
@@ -294,6 +294,6 @@
       "label": null
     },
     "charged": false,
-    "checkedAt": "2026-10-14T02:02:48.997Z"
+    "checkedAt": "2026-10-14T02:06:42.839Z"
   }
 ]
