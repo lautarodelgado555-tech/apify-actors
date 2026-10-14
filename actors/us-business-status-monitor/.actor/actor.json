@@ -1,0 +1,17 @@
+{
+  "actorSpecification": 1,
+  "name": "us-business-status-monitor",
+  "title": "US Business Entity Status & Good Standing Monitor",
+  "description": "Check whether a US company is in good standing and when its annual report is due, normalized across states, and get change alerts when its status changes. Open-data sources, no login.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "input": "./input_schema.json",
+  "dockerfile": "../Dockerfile",
+  "readme": "../README.md",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "minMemoryMbytes": 256,
+  "maxMemoryMbytes": 4096,
+  "output": "./output_schema.json"
+}

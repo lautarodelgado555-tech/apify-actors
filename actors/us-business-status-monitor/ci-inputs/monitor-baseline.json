@@ -1,0 +1,13 @@
+{
+  "mode": "monitor",
+  "snapshotStoreName": "ci-monitor-baseline",
+  "watchlist": [
+    { "state": "CO", "id": "20191893002", "label": "CO delinquent LLC" },
+    { "state": "TX", "id": "32070357671" },
+    { "state": "CT", "id": "0074441" },
+    { "state": "OR", "id": "149629495" },
+    { "state": "OR", "id": "100000000", "label": "id never seen: not found" },
+    { "state": "TX", "name": "Kroger", "label": "name entry in monitor mode: candidates only" }
+  ],
+  "maxCandidates": 2
+}

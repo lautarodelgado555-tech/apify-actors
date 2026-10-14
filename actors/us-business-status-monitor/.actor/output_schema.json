@@ -1,0 +1,25 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Output of US Business Entity Status & Good Standing Monitor",
+  "description": "One row per entity check (normalized status, good standing, annual report due), one change-alert row per entity that changed since the last run, and a run summary with every change event.",
+  "properties": {
+    "results": {
+      "type": "string",
+      "title": "Results",
+      "description": "All rows as JSON: entity-check, change-alert, not-found and lookup-error rows. Append ?format=csv or ?format=xlsx for other formats.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items"
+    },
+    "resultsCsv": {
+      "type": "string",
+      "title": "Results (CSV)",
+      "description": "The same rows as a CSV file.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items?format=csv"
+    },
+    "summary": {
+      "type": "string",
+      "title": "Run summary and change events",
+      "description": "JSON summary of the run: counts, truncation and the flat list of change events (before/after). Handy as a webhook payload.",
+      "template": "{{links.apiDefaultKeyValueStoreUrl}}/records/OUTPUT"
+    }
+  }
+}

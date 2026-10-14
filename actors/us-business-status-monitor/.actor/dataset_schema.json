@@ -1,0 +1,64 @@
+{
+  "actorSpecification": 1,
+  "fields": {},
+  "views": {
+    "overview": {
+      "title": "Entity checks",
+      "transformation": {
+        "fields": [
+          "recordType",
+          "state",
+          "entityId",
+          "name",
+          "status",
+          "goodStanding",
+          "annualReportDue",
+          "annualReportDueBasis",
+          "lastReportFiled",
+          "statusRaw",
+          "changed",
+          "matchScore",
+          "dataFreshness"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "recordType": { "label": "Row type", "format": "text" },
+          "state": { "label": "State", "format": "text" },
+          "entityId": { "label": "Entity ID", "format": "text" },
+          "name": { "label": "Name", "format": "text" },
+          "status": { "label": "Status", "format": "text" },
+          "goodStanding": { "label": "Good standing", "format": "boolean" },
+          "annualReportDue": { "label": "Annual report due", "format": "date" },
+          "annualReportDueBasis": { "label": "Due date basis", "format": "text" },
+          "lastReportFiled": { "label": "Last report filed", "format": "date" },
+          "statusRaw": { "label": "Status (as published)", "format": "text" },
+          "changed": { "label": "Changed", "format": "boolean" },
+          "matchScore": { "label": "Name match", "format": "number" },
+          "dataFreshness": { "label": "Dataset updated", "format": "date" }
+        }
+      }
+    },
+    "changes": {
+      "title": "Change alerts",
+      "transformation": {
+        "fields": ["recordType", "state", "entityId", "name", "summary", "eventTypes", "previousCheckedAt", "checkedAt", "sourceUrl"]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "recordType": { "label": "Row type", "format": "text" },
+          "state": { "label": "State", "format": "text" },
+          "entityId": { "label": "Entity ID", "format": "text" },
+          "name": { "label": "Name", "format": "text" },
+          "summary": { "label": "What changed", "format": "text" },
+          "eventTypes": { "label": "Events", "format": "array" },
+          "previousCheckedAt": { "label": "Previous check", "format": "date" },
+          "checkedAt": { "label": "Checked at", "format": "date" },
+          "sourceUrl": { "label": "Source", "format": "link" }
+        }
+      }
+    }
+  }
+}

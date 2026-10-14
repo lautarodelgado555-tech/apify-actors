@@ -1,0 +1,14 @@
+{
+  "mode": "check",
+  "watchlist": [
+    { "state": "CO", "id": "20241007271", "label": "CO good standing LLC" },
+    { "state": "CO", "id": "20191893002", "label": "CO delinquent LLC" },
+    { "state": "TX", "id": "32070357671", "label": "TX active LLC" },
+    { "state": "NY", "id": "4809335" },
+    { "state": "CT", "id": "0074441", "label": "CT stock corp with due date" },
+    { "state": "OR", "id": "149629495" },
+    { "state": "DC", "id": "620118" },
+    { "state": "TX", "id": "99999999999", "label": "not found case" },
+    { "state": "DE", "name": "Acme Holdings", "label": "unsupported state case" }
+  ]
+}

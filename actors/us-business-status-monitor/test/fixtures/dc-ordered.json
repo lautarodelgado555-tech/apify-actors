@@ -1,0 +1,62 @@
+{
+ "objectIdFieldName": "OBJECTID",
+ "globalIdFieldName": "GLOBALID",
+ "fields": [
+  {
+   "name": "FILE_NUMBER",
+   "alias": "File Number",
+   "type": "esriFieldTypeString",
+   "length": 20
+  },
+  {
+   "name": "BUSINESS_NAME",
+   "alias": "Business Name",
+   "type": "esriFieldTypeString",
+   "length": 300
+  },
+  {
+   "name": "ENTITY_STATUS",
+   "alias": "Entity Status",
+   "type": "esriFieldTypeString",
+   "length": 50
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "FILE_NUMBER": "C00007793660",
+    "BUSINESS_NAME": "MARRIOTT HOSPITALITY ENTERTAINMENT, L.L.C.",
+    "ENTITY_STATUS": "Active - In Good Standing"
+   }
+  },
+  {
+   "attributes": {
+    "FILE_NUMBER": "932195",
+    "BUSINESS_NAME": "MARRIOTT HOTEL SERVICES, LLC",
+    "ENTITY_STATUS": "Active - In Good Standing"
+   }
+  },
+  {
+   "attributes": {
+    "FILE_NUMBER": "983037",
+    "BUSINESS_NAME": "MARRIOTT INTERNATIONAL ADMINISTRATIVE SERVICES Inc.",
+    "ENTITY_STATUS": "Active - In Good Standing"
+   }
+  },
+  {
+   "attributes": {
+    "FILE_NUMBER": "298482",
+    "BUSINESS_NAME": "MARRIOTT INTERNATIONAL CONSTRUCTION SERVICES Inc.",
+    "ENTITY_STATUS": "Active - In Good Standing"
+   }
+  },
+  {
+   "attributes": {
+    "FILE_NUMBER": "723400",
+    "BUSINESS_NAME": "MARRIOTT INTERNATIONAL DESIGN & CONSTRUCTION SERVICES Inc.",
+    "ENTITY_STATUS": "Active - In Good Standing"
+   }
+  }
+ ],
+ "exceededTransferLimit": true
+}

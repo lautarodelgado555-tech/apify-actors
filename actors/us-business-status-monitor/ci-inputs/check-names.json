@@ -1,0 +1,14 @@
+{
+  "mode": "check",
+  "maxCandidates": 1,
+  "activeOnly": true,
+  "watchlist": [
+    { "state": "CO", "name": "Zayo Education" },
+    { "state": "TX", "name": "Kroger Fulfillment Network" },
+    { "state": "NY", "name": "Google Car Service" },
+    { "state": "CT", "name": "Stanley Black & Decker, Inc." },
+    { "state": "OR", "name": "Nike Alpha Force" },
+    { "state": "DC", "name": "Marriott Hotel Services" },
+    { "state": "CO", "name": "Zzzzqx Nonexistent Holdings" }
+  ]
+}

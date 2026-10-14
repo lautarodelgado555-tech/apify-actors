@@ -1,0 +1,10 @@
+{
+  "mode": "monitor",
+  "snapshotStoreName": "us-business-status-snapshots",
+  "watchlist": [
+    { "state": "TX", "id": "32070357671" },
+    { "state": "CT", "id": "0074441" },
+    { "state": "CO", "id": "20191893002" },
+    { "state": "DC", "id": "620118" }
+  ]
+}

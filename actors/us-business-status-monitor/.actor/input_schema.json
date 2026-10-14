@@ -1,0 +1,64 @@
+{
+  "title": "US Business Entity Status Monitor",
+  "type": "object",
+  "schemaVersion": 1,
+  "description": "Give the Actor a watchlist of companies (state plus entity number or name). In check mode it returns the current normalized status. In monitor mode it also compares with the last run and reports changes.",
+  "properties": {
+    "mode": {
+      "title": "Mode",
+      "type": "string",
+      "description": "Check returns the current status once. Monitor does the same and, for entities given by id, stores a snapshot and emits a change-alert row whenever status, good standing or the annual report due date changed since the last run (schedule it daily).",
+      "editor": "select",
+      "enum": ["check", "monitor"],
+      "enumTitles": ["Check (point in time)", "Monitor (check + detect changes)"],
+      "default": "check",
+      "prefill": "check"
+    },
+    "watchlist": {
+      "title": "Watchlist",
+      "type": "array",
+      "description": "List of entries. Each entry needs a \"state\" (2-letter code: CO, CT, DC, NY, OR, TX) and either an \"id\" (the state's entity number, recommended and required for monitoring) or a \"name\" (returns scored candidates). Optional \"label\" is echoed back. Example: {\"state\": \"TX\", \"id\": \"32070357671\"}.",
+      "editor": "json",
+      "prefill": [
+        { "state": "TX", "id": "32070357671" },
+        { "state": "CT", "id": "0074441" }
+      ]
+    },
+    "maxCandidates": {
+      "title": "Max candidates per name",
+      "type": "integer",
+      "description": "For entries given by name: how many best-matching entities to return (each one is a charged check). Use an id for exact, single-entity checks.",
+      "default": 3,
+      "minimum": 1,
+      "maximum": 10
+    },
+    "activeOnly": {
+      "title": "Active entities only (name searches)",
+      "type": "boolean",
+      "description": "For name searches, skip entities that are dissolved, withdrawn or otherwise no longer registered.",
+      "default": false
+    },
+    "autoResolveExactName": {
+      "title": "Monitor an exact name match automatically",
+      "type": "boolean",
+      "description": "Monitor mode only. When a name entry has exactly one candidate whose name matches exactly (ignoring punctuation), monitor that entity without asking for its id. Off by default because names are not unique identifiers.",
+      "default": false
+    },
+    "maxChecks": {
+      "title": "Max checks per run",
+      "type": "integer",
+      "description": "Safety limit on charged entity checks in one run. Free plan runs are limited to 10 checks regardless of this value.",
+      "default": 500,
+      "minimum": 1,
+      "maximum": 10000
+    },
+    "snapshotStoreName": {
+      "title": "Snapshot store name",
+      "type": "string",
+      "description": "Named key-value store that keeps the last snapshot of every monitored entity between runs (monitor mode). Use different names to keep separate watchlists apart. Lowercase letters, digits and hyphens.",
+      "editor": "textfield",
+      "default": "us-business-status-snapshots"
+    }
+  },
+  "required": ["watchlist"]
+}
