@@ -1,4 +1,6 @@
 {
   "channels": ["telegram", "durov", "contest"],
-  "maxMessages": 10
+  "maxMessages": 10,
+  "incremental": true,
+  "stateStoreName": "ci-platform-state"
 }
