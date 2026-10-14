@@ -14,57 +14,14 @@
     <title>GEORGIA</title>
     <link href="/Themes/CSS/Styles?v=Zg5mvax9ru3G0Vr5izUJdPH0jjJ6wtthi2dPqDAi_201" rel="stylesheet"/>
 
-    <script src="/Scripts/Script?v=8X2IDPh1LaRe4erLuQcGu5zpE8N1cVf-nEWZkD0RhvQ1"></script>
+    
 
 
     
     
-<script type="text/javascript">
-    $helper = function ()
-    {
-        var config =
-        {
-            commerceHubSettings:
-            {
-                environment: 'PROD',
-                baseUrl: 'https://connect.fiservapis.com/ch/',
-                merchantId: '100106000000137',
-                terminalId: '10000001',
-                apiKey: 'OPoAc67m119kkZcWlHxdAWWbgyS83MCGcv2LovHI7NPwvff6',
-                domainWhiteList: 'http://localhost:51351/,https://localhost:51351/',
-                pageId: '2fa919c0-1edf-429a-903e-56decac5b1ac',
-                pageVersion: '1',
-                showGenericError: 'false'.toString().toLowerCase(),
-                genericError: 'Something went wrong while authorizing your card. You may want to try again or use a different payment method.'
-            }
-        };
+   
 
-        return {
-            config: config
-        };
-    }();
-</script>   
-
-    <script type="text/javascript">
-        $v.messagebox = function (msg) {
-            errorDialog(msg, true);
-        };
-
-        $(function () {
-            if ($("#_errorElement_").val() != "") {
-                errorDialog($("#_errorElement_").val());
-            }
-        });
-
-
-        function ShowReportDialog() {
-            var top = (($(window).height() - 400) / 2);
-            var left = (($(window).width() - 700) / 2);
-            var reportUs = window.open("/Home/ReportUs", "Report", "width=700, height=400, left=" + left + ", top=" + top + ", toolbar=0, status=1");
-            reportUs.focus();
-            return false;
-        }
-    </script>
+    
     <style type="text/css">
         .uatBg {
             background: #2d2d2f url('../../Themes/base/Images/ga_uat.png') repeat 100% !important; /*#36598a*/
@@ -130,13 +87,7 @@
     <input type="hidden" name="fromSearch" value="true" />
 </form>
 
-<script type="text/javascript">
-    function navigateToBusinessInfo(businessId, businessType) {
-        document.getElementById('hdnBusinessId').value = businessId;
-        document.getElementById('hdnBusinessType').value = businessType;
-        document.getElementById('frmBusinessInfo').submit();
-    }
-</script>
+
 
                 </div>
                 </td>
@@ -150,33 +101,7 @@
         
 </div><br /><br />
 
-<script type="text/javascript">
-    function submitBack() {
-       // $.submitForm('/BusinessSearch', {isBack : true});
-       window.location.href = '/BusinessSearch';
-    }
 
-    // pager
-    var businessGrid = new XHtmlGrid();
-    businessGrid.init({
-        url: '/BusinessSearch',
-        sortBy: '',
-        sortType: "a",
-        nodeNum: -1,
-        pageIdx: 1,
-        local: false,
-        headerRowId: "ListRow_xhtml_grid",
-        updateTargetId: "businessSearchResult",
-        //data: {
-        //    SearchType: function () { return $("[name='Criteria']:checked").val(); },
-        //    SearchValue: function () { return $("#txtSearchValue").val(); }
-        //}
-    });
-
-    businessGrid.callback = function (data) {
-
-    };
-</script>
     <div class="container-fluid">
         <div class="row">
             <div class="footer">
@@ -189,8 +114,8 @@
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) 
-<script src="js/jquery.js"></script> -->
+ -->
     <!-- Include all compiled plugins (below), or include individual files as needed 
-<script src="js/bootstrap.js"></script>-->
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4a2df816c1cdd64',t:'MTc5MTk0MTk5NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+-->
+</body>
 </html>

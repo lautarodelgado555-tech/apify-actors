@@ -81,7 +81,7 @@ log('WINNER', winner);
 await search('s01-delta-starts', 'BusinessName', 'Delta Air Lines');
 const D = { businessId: '567669', businessType: 'Foreign Profit Corporation', fromSearch: 'true' };
 const qs = new URLSearchParams(D).toString();
-const raw = (name, fn) => page.evaluate(fn).then((r) => { log(name, r.status, r.mitigated, r.text.length, (r.text.match(/<title>[^<]*/) || [''])[0]); save(`${name}.html`, r.text); return r; }).catch((e) => log(name, 'ERR', e.message.split('\n')[0]));
+const raw = (name, fn) => page.evaluate(`(${fn})()`).then((r) => { log(name, r.status, r.mitigated, r.text.length, (r.text.match(/<title>[^<]*/) || [''])[0]); save(`${name}.html`, r.text); return r; }).catch((e) => log(name, 'ERR', e.message.split('\n')[0]));
 const F = (init) => `async () => { const r = await fetch(${init}); return { status: r.status, mitigated: r.headers.get('cf-mitigated'), text: await r.text() }; }`;
 const ev = (code) => `(${code})`;
 const V = {
