@@ -1,0 +1,12 @@
+
+> telegram-channel-scraper@0.1.0 start
+> node src/main.js
+
+[32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}[39m
+[32mINFO[39m  @durov: 5 messages (1 pages)
+[32mINFO[39m  [Status message]: 1/2 channels done, 10 messages
+[32mINFO[39m  @contest: 5 messages (1 pages)
+[32mINFO[39m  [Status message]: 2/2 channels done, 10 messages
+[32mINFO[39m  Done: 10 messages from 2 channels. Requests: 2, retries: 0, rate-limited: 0, 0.3 MB.
+[32mINFO[39m  [Status message]: 10 messages from 2 channels
+items: 10

@@ -1,0 +1,10 @@
+
+> telegram-channel-scraper@0.1.0 start
+> node src/main.js
+
+[32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}[39m
+[32mINFO[39m  @bbcrussian: 30 messages (3 pages)
+[32mINFO[39m  [Status message]: 1/1 channels done, 30 messages
+[32mINFO[39m  Done: 30 messages from 1 channels. Requests: 19, retries: 0, rate-limited: 0, 2.9 MB.
+[32mINFO[39m  [Status message]: 30 messages from 1 channels
+items: 30
