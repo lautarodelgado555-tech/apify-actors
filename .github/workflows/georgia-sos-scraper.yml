@@ -70,6 +70,15 @@ jobs:
         run: |
           cd "$ACTOR_DIR"
           bash ../../scripts/apify-run.sh georgia-sos-scraper ci-inputs/platform.json "../../$OUT" > "../../$OUT/06-apify-run.log" 2>&1 || echo "exit $?" >> "../../$OUT/06-apify-run.log"
+      - name: Proxy probes on Apify (which IP type gets through the portal's firewall)
+        if: env.APIFY_TOKEN != '' && steps.gate.outputs.platform == 'yes' && github.event_name == 'push'
+        run: |
+          cd "$ACTOR_DIR"
+          for f in ci-inputs/platform-probe-*.json; do
+            n=$(basename "$f" .json)
+            mkdir -p "../../$OUT/$n"
+            bash ../../scripts/apify-run.sh georgia-sos-scraper "$f" "../../$OUT/$n" > "../../$OUT/$n/run.log" 2>&1 || echo "exit $?" >> "../../$OUT/$n/run.log"
+          done
       - name: Commit results
         if: always()
         run: |

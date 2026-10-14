@@ -124,8 +124,30 @@ async function post(path, params) {
         },
         { path, params },
     );
-    if (res.mitigated === 'challenge' || isChallengePage(res.text)) throw new SessionBlocked(`Challenged on ${path}`);
+    if (res.mitigated === 'challenge' || isChallengePage(res.text)) throw new SessionBlocked(`Cloudflare challenged ${path} (HTTP ${res.status})`);
     return res;
+}
+
+/**
+ * The portal's firewall challenges the plain detail URL; the same route with a trailing slash or in lower case
+ * reaches the application (the server treats URLs case-insensitively). Try the variants in turn on one session.
+ */
+const DETAIL_PATHS = ['/BusinessSearch/BusinessInformation/', '/businesssearch/businessinformation'];
+let detailPathIndex = 0;
+async function postDetail(params) {
+    let lastError;
+    for (let i = 0; i < DETAIL_PATHS.length; i += 1) {
+        const idx = (detailPathIndex + i) % DETAIL_PATHS.length;
+        try {
+            const res = await post(DETAIL_PATHS[idx], params);
+            detailPathIndex = idx;
+            return res;
+        } catch (e) {
+            if (!(e instanceof SessionBlocked)) throw e;
+            lastError = e;
+        }
+    }
+    throw lastError;
 }
 
 const scrapedAt = () => new Date().toISOString();
@@ -198,7 +220,7 @@ async function fetchFilings(businessId) {
 /** Fetch one entity's detail (and optionally filings); returns null when the portal has no detail for it. */
 async function loadEntity(row, term) {
     if (!fetchDetails) return baseItem({ row, term });
-    const res = await post('/BusinessSearch/BusinessInformation/', { businessId: row.businessId, fromSearch: '' });
+    const res = await postDetail({ businessId: row.businessId, fromSearch: '' });
     if (res.status !== 200 || !isDetailPage(res.text)) {
         log.warning(`No detail page for ${row.name} (${row.controlNumber || 'no control number'}, HTTP ${res.status}); skipping it.`);
         return null;

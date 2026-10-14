@@ -1,0 +1,7 @@
+{
+  "searchType": "businessName",
+  "searchTerms": ["Delta Air Lines"],
+  "nameMatch": "startsWith",
+  "maxResultsPerSearch": 2,
+  "fetchDetails": true
+}
