@@ -1,0 +1,30 @@
+{
+  "title": "Telegram Channel Scraper & Monitor - Public Posts",
+  "description": "Scrape public Telegram channels: full message history, views, reactions, forwards, replies, polls, links and media metadata. Date-range backfill, keyword/regex filters and incremental monitoring for scheduled runs. No login, no API key.",
+  "categories": [
+    "SOCIAL_MEDIA",
+    "NEWS",
+    "AUTOMATION"
+  ],
+  "seoTitle": "Telegram Channel Scraper - Public Posts & Monitor",
+  "seoDescription": "Telegram channel scraper for public channels: complete history, date ranges, keyword filters and incremental monitoring. Views, reactions, forwards, polls, links.",
+  "isPublic": false,
+  "events": {
+    "message": {
+      "eventTitle": "Message returned",
+      "eventDescription": "One message from a public Telegram channel returned to the dataset. Failed channels, private channels and empty results are never charged.",
+      "eventTieredPricingUsd": {
+        "FREE": { "tieredEventPriceUsd": 0.001 },
+        "BRONZE": { "tieredEventPriceUsd": 0.001 },
+        "SILVER": { "tieredEventPriceUsd": 0.0008 },
+        "GOLD": { "tieredEventPriceUsd": 0.0005 }
+      },
+      "isPrimaryEvent": true
+    }
+  },
+  "permissionLevel": "LIMITED_PERMISSIONS",
+  "exampleInput": {
+    "channels": ["telegram"],
+    "maxMessages": 20
+  }
+}
