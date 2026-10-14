@@ -14,6 +14,7 @@ const cur = (await (await fetch(`${API}/acts/${id}`, { headers })).json()).data;
 const ppe = (cur.pricingInfos || []).filter((p) => p.pricingModel === 'PAY_PER_EVENT').at(-1);
 const curEvent = ppe?.pricingPerEvent?.actorChargeEvents?.message;
 console.log('current pricing:', JSON.stringify(curEvent ?? null), 'isPublic=', cur.isPublic);
+console.log('pricing history:', JSON.stringify((cur.pricingInfos || []).map((p) => ({ model: p.pricingModel, createdAt: p.createdAt, startedAt: p.startedAt, tiered: Boolean(p.pricingPerEvent?.actorChargeEvents?.message?.eventTieredPricingUsd), flat: p.pricingPerEvent?.actorChargeEvents?.message?.eventPriceUsd }))));
 const wanted = store.events.message;
 if (cur.isPublic) { console.log('Actor is public: not touching pricing'); process.exit(0); }
 if (curEvent?.eventTieredPricingUsd && JSON.stringify(curEvent.eventTieredPricingUsd) === JSON.stringify(wanted.eventTieredPricingUsd)) { console.log('tiered pricing already in place'); process.exit(0); }

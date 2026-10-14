@@ -124,7 +124,7 @@ The Actor respects the maximum cost per run you set: it stops cleanly when the n
 
 **Why is a reaction emoji `null`?** Custom emoji reactions are rendered by Telegram as animated stickers without a character; we return their `customEmojiId` and count.
 
-**Which channels did you test?** Large public channels such as `telegram`, `durov`, `contest`, `tginfo`, `bbcrussian`, `rian_ru` and `tass_agency`, including full-archive walks.
+**Which channels were used to test it?** Large public channels such as `telegram`, `durov`, `contest`, `tginfo`, `bbcrussian`, `rian_ru` and `tass_agency`, including full-archive walks.
 
 **It says 429 or rate limited.** The Actor backs off automatically (honouring `Retry-After`) and slows every worker down. If it keeps happening, lower `maxConcurrency` or enable the proxy option.
 
