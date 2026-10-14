@@ -1,0 +1,98 @@
+[{
+  "controlNumber": "0453350",
+  "name": "DELTA AIR LINES EMPLOYEES ASSOCIATION, INC.",
+  "entityType": "Domestic Nonprofit Corporation",
+  "status": "Dissolved",
+  "active": false,
+  "goodStanding": false,
+  "statusNormalized": "dissolved",
+  "formationDate": "2004-09-03",
+  "jurisdiction": "Georgia",
+  "purpose": null,
+  "naicsCode": null,
+  "naicsSubCode": null,
+  "dissolvedDate": "2005-01-21",
+  "principalAddress": "541 TENTH ST. NW #166, ATLANTA, GA, 30318-5713, USA",
+  "registeredAgentName": "ROBERT D. HEATH",
+  "registeredAgentAddress": "220 MALLARD LANE, LOCUST GROVE, GA, 30248, USA",
+  "registeredAgentCounty": "Henry",
+  "officers": [
+    {
+      "name": "DOUGLAS J. ROSS",
+      "title": "CFO",
+      "address": "16923 SW 79 PLACE, MIAMI, FL, 33157, USA"
+    },
+    {
+      "name": "GUSTAV S. HERTZ",
+      "title": "CEO",
+      "address": "545 MALLARD LN, LOCUST GROVE, GA, 30248, USA"
+    },
+    {
+      "name": "ROBERT D. HEATH",
+      "title": "Secretary",
+      "address": "220 MALLARD LN, LOCUST GROVE, GA, 30248, USA"
+    }
+  ],
+  "lastAnnualReportYear": 2004,
+  "annualReportCurrent": null,
+  "annualReportStatus": "not_applicable_inactive",
+  "annualReportDueDate": null,
+  "lateFeeApplies": false,
+  "lateFeeUsd": null,
+  "portalOwesAnnualRegistration": null,
+  "nextAnnualReportWindow": null,
+  "portalBusinessId": "301509",
+  "sourceUrl": "https://ecorp.sos.ga.gov/BusinessSearch",
+  "searchType": "businessName",
+  "searchTerm": "Delta Air Lines",
+  "scrapedAt": "2026-10-14T03:01:45.883Z"
+},
+{
+  "controlNumber": "H853425",
+  "name": "DELTA AIR LINES, INC.",
+  "entityType": "Foreign Profit Corporation",
+  "status": "Active/Compliance",
+  "active": true,
+  "goodStanding": true,
+  "statusNormalized": "active_good_standing",
+  "formationDate": "1967-05-10",
+  "jurisdiction": "Delaware",
+  "purpose": null,
+  "naicsCode": null,
+  "naicsSubCode": null,
+  "dissolvedDate": null,
+  "principalAddress": "1030 Delta Blvd, Dept 982, Atlanta, GA, 30354, USA",
+  "registeredAgentName": "Corporation Service Company",
+  "registeredAgentAddress": "2 SUN COURT, SUITE 400, PEACHTREE CORNERS, GA, 30092, USA",
+  "registeredAgentCounty": "Gwinnett",
+  "officers": [
+    {
+      "name": "Daniel C. Janki",
+      "title": "CFO",
+      "address": "1030 Delta Blvd, Dept 982, Atlanta, GA, 30354, USA"
+    },
+    {
+      "name": "Edward H. Bastian",
+      "title": "CEO",
+      "address": "1030 Delta Blvd, Dept 982, Atlanta, GA, 30354, USA"
+    },
+    {
+      "name": "Peter W. Carter",
+      "title": "Secretary",
+      "address": "1030 Delta Blvd, Dept 982, Atlanta, GA, 30354, USA"
+    }
+  ],
+  "lastAnnualReportYear": 2026,
+  "annualReportCurrent": true,
+  "annualReportStatus": "filed",
+  "annualReportDueDate": null,
+  "lateFeeApplies": false,
+  "lateFeeUsd": null,
+  "portalOwesAnnualRegistration": false,
+  "nextAnnualReportWindow": "2027-01-01",
+  "portalBusinessId": "567669",
+  "sourceUrl": "https://ecorp.sos.ga.gov/BusinessSearch",
+  "searchType": "businessName",
+  "searchTerm": "Delta Air Lines",
+  "scrapedAt": "2026-10-14T03:01:46.188Z"
+}]
