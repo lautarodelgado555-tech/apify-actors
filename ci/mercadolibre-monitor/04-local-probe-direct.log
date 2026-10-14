@@ -1,0 +1,15 @@
+
+> mercadolibre-monitor@0.1.0 start
+> node src/main.js
+
+[32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}[39m
+[32mINFO[39m  [direct] 200 BLOCKED 9604B wire listing https://listado.mercadolibre.com.ar/microondas
+[32mINFO[39m  [direct] 200 BLOCKED 9615B wire bestsellers https://www.mercadolibre.com.ar/mas-vendidos
+[32mINFO[39m  [direct] 200 65953B wire store-home https://www.mercadolibre.com.ar/tienda/bgh
+[32mINFO[39m  [direct] 200 BLOCKED 9710B wire item-catalog https://www.mercadolibre.com.ar/microondas-bgh-mecanico-18l-blanco-b118mb25/p/MLA58756915?
+[32mINFO[39m  [direct] 403 BLOCKED 143B wire api:items https://api.mercadolibre.com/items/MLA2639626512
+[32mINFO[39m  [direct] 200 1174B wire api:categories https://api.mercadolibre.com/categories/MLA1055
+[32mINFO[39m  [direct] 200 108801B wire stores-landing https://www.mercadolibre.com.ar/tiendas-oficiales
+[32mINFO[39m  [direct] 200 BLOCKED 9683B wire item-articulo https://articulo.mercadolibre.com.ar/MLA-1542948477-pelota-adidas-futbol-world-cup-league-
+[32mINFO[39m  Route direct: {"type":"probe-summary","route":"direct","requests":8,"ok":3,"blocked":5,"errors":0,"avgWireBytesOk":58643,"byKind":{"listing":"blocked","bestsellers":"blocked","store-home":"200","item-catalog":"blocked","api:items":"blocked","api:categories":"200","stores-landing":"200","item-articulo":"blocked"}}
+items: 9

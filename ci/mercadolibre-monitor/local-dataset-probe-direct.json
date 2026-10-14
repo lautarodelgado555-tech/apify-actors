@@ -1,0 +1,123 @@
+[
+  {
+    "type": "probe",
+    "route": "direct",
+    "kind": "listing",
+    "url": "https://listado.mercadolibre.com.ar/microondas",
+    "status": 200,
+    "blocked": true,
+    "finalUrl": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Flistado.mercadolibre.com.ar%2Fmicroondas&tid=fe26f2e5-debf-413d-931b-c26d86b035e5",
+    "wireBytes": 9604,
+    "bytes": 39112,
+    "ms": 290,
+    "title": "Mercado Libre"
+  },
+  {
+    "type": "probe",
+    "route": "direct",
+    "kind": "bestsellers",
+    "url": "https://www.mercadolibre.com.ar/mas-vendidos",
+    "status": 200,
+    "blocked": true,
+    "finalUrl": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fmas-vendidos&tid=1aac1c47-0f9f-45e7-ad5f-01fe0493097a",
+    "wireBytes": 9615,
+    "bytes": 39111,
+    "ms": 85,
+    "title": "Mercado Libre"
+  },
+  {
+    "type": "probe",
+    "route": "direct",
+    "kind": "store-home",
+    "url": "https://www.mercadolibre.com.ar/tienda/bgh",
+    "status": 200,
+    "blocked": false,
+    "wireBytes": 65953,
+    "bytes": 342884,
+    "ms": 442,
+    "title": "BGH | Tienda Oficial"
+  },
+  {
+    "type": "probe",
+    "route": "direct",
+    "kind": "item-catalog",
+    "url": "https://www.mercadolibre.com.ar/microondas-bgh-mecanico-18l-blanco-b118mb25/p/MLA58756915?pdp_filters=item_id%3AMLA2639626512",
+    "status": 200,
+    "blocked": true,
+    "finalUrl": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fmicroondas-bgh-mecanico-18l-blanco-b118mb25%2Fp%2FMLA58756915%3Fpdp_filters%3Ditem_id%253AMLA26396265",
+    "wireBytes": 9710,
+    "bytes": 39621,
+    "ms": 93,
+    "title": "Mercado Libre"
+  },
+  {
+    "type": "probe",
+    "route": "direct",
+    "kind": "api:items",
+    "url": "https://api.mercadolibre.com/items/MLA2639626512",
+    "status": 403,
+    "blocked": true,
+    "wireBytes": 143,
+    "bytes": 143,
+    "ms": 138,
+    "title": "",
+    "preview": "{\"blocked_by\":\"PolicyAgent\",\"code\":\"PA_UNAUTHORIZED_RESULT_FROM_POLICIES\",\"message\":\"At least one policy returned UNAUTHORIZED.\",\"status\":403}\n"
+  },
+  {
+    "type": "probe",
+    "route": "direct",
+    "kind": "api:categories",
+    "url": "https://api.mercadolibre.com/categories/MLA1055",
+    "status": 200,
+    "blocked": false,
+    "wireBytes": 1174,
+    "bytes": 2039,
+    "ms": 34,
+    "title": "",
+    "preview": "{\"id\":\"MLA1055\",\"name\":\"Celulares y Smartphones\",\"picture\":\"https://http2.mlstatic.com/storage/categories-api/images/fdca1620-3b63-4af2-bc0b-aeed17048d5d.png\",\"permalink\":null,\"total_items_in_this_category\":116579,\"path_from_root\":[{\"id\":\"MLA1051\",\"name\":\"Celulares y Teléfonos\"},{\"id\":\"MLA1055\",\"name\":\"Celulares y Smartphones\"}],\"children_categories\":[],\"attribute_types\":\"variations\",\"settings\":{\""
+  },
+  {
+    "type": "probe",
+    "route": "direct",
+    "kind": "stores-landing",
+    "url": "https://www.mercadolibre.com.ar/tiendas-oficiales",
+    "status": 200,
+    "blocked": false,
+    "wireBytes": 108801,
+    "bytes": 941496,
+    "ms": 666,
+    "title": ""
+  },
+  {
+    "type": "probe",
+    "route": "direct",
+    "kind": "item-articulo",
+    "url": "https://articulo.mercadolibre.com.ar/MLA-1542948477-pelota-adidas-futbol-world-cup-league-jd8045-_JM",
+    "status": 200,
+    "blocked": true,
+    "finalUrl": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-1542948477-pelota-adidas-futbol-world-cup-league-jd8045-_JM&tid=f4885d6d-c7a1-4350-a753-46c4",
+    "wireBytes": 9683,
+    "bytes": 39383,
+    "ms": 365,
+    "title": "Mercado Libre"
+  },
+  {
+    "type": "probe-summary",
+    "route": "direct",
+    "requests": 8,
+    "ok": 3,
+    "blocked": 5,
+    "errors": 0,
+    "avgWireBytesOk": 58643,
+    "byKind": {
+      "listing": "blocked",
+      "bestsellers": "blocked",
+      "store-home": "200",
+      "item-catalog": "blocked",
+      "api:items": "blocked",
+      "api:categories": "200",
+      "stores-landing": "200",
+      "item-articulo": "blocked"
+    }
+  }
+]
