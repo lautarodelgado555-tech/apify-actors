@@ -31,6 +31,8 @@ const s = await openHome('firefox');
 if (!s) { log('NO-GO: could not pass home'); process.exit(0); }
 const { browser, page } = s;
 log('home passed on attempt', s.attempt);
+await page.waitForLoadState('networkidle', { timeout: 30000 }).catch(() => {});
+log('cookies', JSON.stringify((await s.ctx.cookies()).map((c) => c.name)));
 
 const post = (path, params, extraHeaders = {}) =>
   page.evaluate(async ({ path, params, extraHeaders }) => {
@@ -56,6 +58,14 @@ async function run(name, path, params, headers) {
 }
 const search = (name, type, value, criteria = 'StartsWith') =>
   run(name, '/BusinessSearch', { 'search.SearchType': type, 'search.SearchValue': value, 'search.SearchCriteria': criteria });
+
+// warm-up: probe with a trivial POST until Cloudflare lets it through (log timing)
+for (let k = 1; k <= 6; k++) {
+  const r = await post('/BusinessSearch', { 'search.SearchType': 'BusinessName', 'search.SearchValue': 'Delta Air Lines', 'search.SearchCriteria': 'StartsWith' });
+  log('probe', k, r.status, r.mitigated, r.text.length, 'cookies', JSON.stringify((await s.ctx.cookies()).map((c) => c.name)));
+  if (r.status === 200) break;
+  await page.waitForTimeout(k * 3000);
+}
 
 // the JS bundle (XHtmlGrid pager, navigateToBusinessInfo ...)
 try {
