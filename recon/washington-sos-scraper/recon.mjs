@@ -29,8 +29,9 @@ try {
     const js = await r.text();
     L('bundle', u, r.status, js.length);
     if (/apiURL/.test(u)) fs.writeFileSync(path.join(out, 'apiURL.js'), js);
+    if (/ccfs-js/.test(u)) fs.writeFileSync(path.join(out, 'ccfs.js'), js);
     for (const m of js.matchAll(/cfda\.sos\.wa\.gov[^"'`\s]{0,200}|api\/[A-Za-z]+\/[A-Za-z]+[^"'`\s]{0,100}/g)) hints += `${s}: ${m[0]}\n`;
-    for (const m of js.matchAll(/(GetBusinessSearchList|BusinessSearch|AdvancedSearch|BusinessInformation)/g)) {
+    for (const m of js.matchAll(/(GetBusinessSearchList|BusinessInformation)/g)) {
       const i = m.index;
       hints += `\n--- ${s} @${i} ${m[1]}\n${js.slice(Math.max(0, i - 500), i + 900)}\n`;
       if (hints.length > 600000) break;
@@ -52,8 +53,8 @@ await probe('detail-1348199', 'https://cfda.sos.wa.gov/api/BusinessSearch/Busine
 await probe('detail-604000000', 'https://cfda.sos.wa.gov/api/BusinessSearch/BusinessInformation?businessID=604000000');
 
 // ---- 2. browser
-const { chromium } = require('playwright');
-const browser = await chromium.launch({ headless: true });
+const KIND = process.env.BROWSER || 'chromium';
+const browser = await require('playwright')[KIND].launch({ headless: process.env.HEADED ? false : true });
 const ctx = await browser.newContext({ userAgent: UA, viewport: { width: 1400, height: 1000 } });
 const page = await ctx.newPage();
 const calls = [];
@@ -85,11 +86,11 @@ try {
   const link = page.getByText(/business search/i).first();
   if (await link.count()) { await link.click().catch((e) => L('click err', e.message)); await page.waitForTimeout(4000); }
   await step('2-search');
-  const input = page.locator('input[type=text]:visible, input:not([type]):visible').first();
+  const input = page.locator('#BusinessName');
   L('text inputs visible', await page.locator('input[type=text]:visible').count());
-  await input.fill('Microsoft').catch((e) => L('fill err', e.message));
+  await input.click(); await input.pressSequentially('Microsoft', { delay: 60 }).catch((e) => L('fill err', e.message));
   await page.waitForTimeout(500);
-  const btn = page.locator('button:visible', { hasText: /search/i }).first();
+  const btn = page.locator('button.btn-search').first();
   if (await btn.count()) await btn.click().catch((e) => L('btn err', e.message)); else await input.press('Enter');
   await page.waitForTimeout(8000);
   await step('3-results');
