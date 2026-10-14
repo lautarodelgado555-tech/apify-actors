@@ -1,18 +1,18 @@
-2026-10-14T01:49:23.337Z ACTOR: Pulling container image of build HHMMY8GcgMdCtfTsW from registry.
-2026-10-14T01:49:23.996Z ACTOR: Creating container.
-2026-10-14T01:49:24.063Z ACTOR: Starting container.
-2026-10-14T01:49:24.065Z ACTOR: Running under "LIMITED_PERMISSIONS".
-2026-10-14T01:49:25.182Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}
-2026-10-14T01:49:25.370Z INFO  Free plan: this run returns at most 10 results. Upgrade to a paid Apify plan to remove the cap.
-2026-10-14T01:49:25.545Z INFO  https://tallertextildoscoyotes.mitiendanube.com: 37 products found, examining 4.
-2026-10-14T01:49:25.565Z INFO  peek-store.com: 49 products found, examining 4.
-2026-10-14T01:49:26.157Z INFO  https://tallertextildoscoyotes.mitiendanube.com: 4 saved, 0 unchanged, 0 skipped, 0 failed.
-2026-10-14T01:49:26.160Z INFO  [Status message]: 4 results so far
-2026-10-14T01:49:26.171Z INFO  peek-store.com: 4 saved, 0 unchanged, 0 skipped, 0 failed.
-2026-10-14T01:49:26.174Z INFO  [Status message]: 8 results so far
-2026-10-14T01:49:26.593Z INFO  https://www.vegpet.com.br: 164 products found, examining 4.
-2026-10-14T01:49:26.941Z WARN  Free plan cap of 10 results reached. Stopping.
-2026-10-14T01:49:26.943Z INFO  https://www.vegpet.com.br: 3 saved, 0 unchanged, 0 skipped, 0 failed.
-2026-10-14T01:49:26.945Z INFO  [Status message]: 11 results so far
-2026-10-14T01:49:27.074Z INFO  Done. 11 results from 3 input(s). Requests: 18 (0 throttled, 0 blocked).
-2026-10-14T01:49:27.155Z INFO  [Status message]: 11 results
+2026-10-14T01:51:49.028Z ACTOR: Pulling container image of build ke5jgy1Vec9TyrMJb from registry.
+2026-10-14T01:51:49.705Z ACTOR: Creating container.
+2026-10-14T01:51:49.769Z ACTOR: Starting container.
+2026-10-14T01:51:49.773Z ACTOR: Running under "LIMITED_PERMISSIONS".
+2026-10-14T01:51:50.812Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}
+2026-10-14T01:51:50.936Z INFO  Free plan: this run returns at most 10 results. Upgrade to a paid Apify plan to remove the cap.
+2026-10-14T01:51:51.064Z INFO  https://tallertextildoscoyotes.mitiendanube.com: 37 products found, examining 4.
+2026-10-14T01:51:51.073Z INFO  peek-store.com: 49 products found, examining 4.
+2026-10-14T01:51:51.779Z INFO  https://tallertextildoscoyotes.mitiendanube.com: 4 saved, 0 unchanged, 0 skipped, 0 failed.
+2026-10-14T01:51:51.779Z INFO  [Status message]: 4 results so far
+2026-10-14T01:51:51.974Z INFO  peek-store.com: 4 saved, 0 unchanged, 0 skipped, 0 failed.
+2026-10-14T01:51:51.983Z INFO  [Status message]: 8 results so far
+2026-10-14T01:51:52.195Z INFO  https://www.vegpet.com.br: 164 products found, examining 4.
+2026-10-14T01:51:52.582Z WARN  Free plan cap of 10 results reached. Stopping.
+2026-10-14T01:51:52.582Z INFO  https://www.vegpet.com.br: 2 saved, 0 unchanged, 0 skipped, 0 failed.
+2026-10-14T01:51:52.583Z INFO  [Status message]: 10 results so far
+2026-10-14T01:51:52.706Z INFO  Done. 10 results from 3 input(s). Requests: 18 (0 throttled, 0 blocked).
+2026-10-14T01:51:52.786Z INFO  [Status message]: 10 results

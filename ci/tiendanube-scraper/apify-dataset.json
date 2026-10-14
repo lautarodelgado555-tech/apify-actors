@@ -1,99 +1,4 @@
 [{
-  "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/taller-de-experimentacion-textil/",
-  "productId": 212491321,
-  "name": "Taller de Experimentación Textil - Sábados",
-  "brand": null,
-  "description": "Taller de Experimentación Textil Este taller será los sábados y está a cargo de la artista textil Karla Belinda Amezcua, fundadora del taller y excelente maestra. Durante el taller aprenderás varias técnicas de tejido que te servirán de base para empezar a crear tus ideas en hilos, conocerás la técnica de tejido en telar de bastidor, entre otras técnicas textiles fuera del telar que te permitirán crear textiles tridimensionales. Entre los objetivos principales del taller es la exploración de la forma a través del tejido y la sensibilización de materiales que desemboquen una creación artística que podrás usarlo para decoración o moda. En este taller tú eliges la ruta de tu aprendizaje, realizarás un muestrario con los principales nudos con diferentes tipos de hilo. En las siguientes sesiones realizarás el proyecto que tú elijas. ¿Quien puede tomar el taller?Este espacio de experimentación es para todxs lxs interesadxs en experimentar con textiles, no necesitas conocimientos previos. En las sesiones de tejido conviven principiantes y avanzados.- Materiales Tenemos una caja de textura con materiales de distintas fibras e hilaturas que está disponible para todo el grupo, sólo en caso de tener un proyecto que requiera material en especifico o diferente a los que tenemos disponibles deberás traerlo.Fechas5 sesiones - sábados 17, 24, 31 de octubre, 1 y 21 de noviembre Horariode 3 pm a 6 pm Si quieres ver la información del taller entre semana da click en este link LUNES DE TEJIDO",
-  "categories": [
-    "Talleres Presenciales",
-    "CALENDARIO 2026",
-    "Octubre"
-  ],
-  "tags": [],
-  "price": 2000,
-  "compareAtPrice": null,
-  "promotionalPrice": null,
-  "onSale": false,
-  "discountPercent": null,
-  "priceMin": 2000,
-  "priceMax": 3000,
-  "currency": "MXN",
-  "installments": {
-    "maxInstallments": 3,
-    "maxInterestFreeInstallments": 3,
-    "interestFreeInstallmentValue": 666.67,
-    "processor": "Pago Nube"
-  },
-  "availability": "InStock",
-  "inStock": true,
-  "stockTotal": 5,
-  "stockUnlimited": false,
-  "sku": null,
-  "variantCount": 2,
-  "variants": [
-    {
-      "id": 1585253317,
-      "sku": null,
-      "price": 2000,
-      "compareAtPrice": null,
-      "promotionalPrice": null,
-      "stock": 3,
-      "available": true,
-      "attributes": {
-        "Telar": "Telar Chico"
-      },
-      "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9505-010ca59285fd4235c517156504516125-1024-1024.webp"
-    },
-    {
-      "id": 1585253318,
-      "sku": null,
-      "price": 3000,
-      "compareAtPrice": null,
-      "promotionalPrice": null,
-      "stock": 2,
-      "available": true,
-      "attributes": {
-        "Telar": "Telar Grande"
-      },
-      "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/c15ed5c3-7dde-44a3-9cab-066ee283312b-b5ac2eadaa47e0588917156505411489-1024-1024.webp"
-    }
-  ],
-  "images": [
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/c15ed5c3-7dde-44a3-9cab-066ee283312b-b5ac2eadaa47e0588917156505411489-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0043-9fb548abc25e6af3e317156504513338-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0084-620c9f6a2ff56d7fc417156504526638-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0040-6c11e6038a31996a0117156504501273-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9682-40402a1b879051744d17156504526616-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9683-27e3f06f655eb8c1a317156504515850-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9622-1e5d67fb5130d1849117156504489240-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9624-0853657e808b53070517156504481452-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9620-9c97b8cf0d13043ff817156504502617-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9505-010ca59285fd4235c517156504516125-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9503-da951d95e7bfbddf6617156504513044-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9339-f51b50c124175fd6f717156504494350-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9039-e73f0928352765988a17156505484441-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_8205-342503a2bf483c665c17156505489202-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_7524-6372c8939d1603e8b817156505469580-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_7389-2bc93dd2b7f08b637017156505398181-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_4706-936da28e5e4d8ea21217156505425700-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_1433-89dec74ece357e7d0417156505502777-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_8599-689826e01465a8573d17156505496104-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/7df928ec-6456-4a28-85df-cd8504e60c6e-f5423530c7b3a1ad5217156505336089-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_4692-e252c76e530c183e1017156505497912-1024-1024.webp",
-    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_3306-2675a37e55c72a7c4717156505499894-1024-1024.webp"
-  ],
-  "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/c15ed5c3-7dde-44a3-9cab-066ee283312b-b5ac2eadaa47e0588917156505411489-1024-1024.webp",
-  "weightKg": null,
-  "storeName": "Taller Textil Dos Coyotes",
-  "storeDomain": "tallertextildoscoyotes.mitiendanube.com",
-  "country": "MX",
-  "language": "es_MX",
-  "platform": "tiendanube",
-  "engine": "classic",
-  "lastModified": "2026-10-08T13:45:54.000Z",
-  "scrapedAt": "2026-10-14T01:49:25.833Z"
-},
-{
   "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/jueves-crochetero-after-office/",
   "productId": 157303682,
   "name": "Jueves Crochetero - after office -",
@@ -233,7 +138,7 @@
   "platform": "tiendanube",
   "engine": "classic",
   "lastModified": "2026-10-08T22:56:59.000Z",
-  "scrapedAt": "2026-10-14T01:49:25.756Z"
+  "scrapedAt": "2026-10-14T01:51:51.313Z"
 },
 {
   "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/lana-mexicana-en-crudo/",
@@ -356,7 +261,102 @@
   "platform": "tiendanube",
   "engine": "classic",
   "lastModified": "2026-10-09T16:36:03.000Z",
-  "scrapedAt": "2026-10-14T01:49:25.943Z"
+  "scrapedAt": "2026-10-14T01:51:51.419Z"
+},
+{
+  "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/taller-de-experimentacion-textil/",
+  "productId": 212491321,
+  "name": "Taller de Experimentación Textil - Sábados",
+  "brand": null,
+  "description": "Taller de Experimentación Textil Este taller será los sábados y está a cargo de la artista textil Karla Belinda Amezcua, fundadora del taller y excelente maestra. Durante el taller aprenderás varias técnicas de tejido que te servirán de base para empezar a crear tus ideas en hilos, conocerás la técnica de tejido en telar de bastidor, entre otras técnicas textiles fuera del telar que te permitirán crear textiles tridimensionales. Entre los objetivos principales del taller es la exploración de la forma a través del tejido y la sensibilización de materiales que desemboquen una creación artística que podrás usarlo para decoración o moda. En este taller tú eliges la ruta de tu aprendizaje, realizarás un muestrario con los principales nudos con diferentes tipos de hilo. En las siguientes sesiones realizarás el proyecto que tú elijas. ¿Quien puede tomar el taller?Este espacio de experimentación es para todxs lxs interesadxs en experimentar con textiles, no necesitas conocimientos previos. En las sesiones de tejido conviven principiantes y avanzados.- Materiales Tenemos una caja de textura con materiales de distintas fibras e hilaturas que está disponible para todo el grupo, sólo en caso de tener un proyecto que requiera material en especifico o diferente a los que tenemos disponibles deberás traerlo.Fechas5 sesiones - sábados 17, 24, 31 de octubre, 1 y 21 de noviembre Horariode 3 pm a 6 pm Si quieres ver la información del taller entre semana da click en este link LUNES DE TEJIDO",
+  "categories": [
+    "Talleres Presenciales",
+    "CALENDARIO 2026",
+    "Octubre"
+  ],
+  "tags": [],
+  "price": 2000,
+  "compareAtPrice": null,
+  "promotionalPrice": null,
+  "onSale": false,
+  "discountPercent": null,
+  "priceMin": 2000,
+  "priceMax": 3000,
+  "currency": "MXN",
+  "installments": {
+    "maxInstallments": 3,
+    "maxInterestFreeInstallments": 3,
+    "interestFreeInstallmentValue": 666.67,
+    "processor": "Pago Nube"
+  },
+  "availability": "InStock",
+  "inStock": true,
+  "stockTotal": 5,
+  "stockUnlimited": false,
+  "sku": null,
+  "variantCount": 2,
+  "variants": [
+    {
+      "id": 1585253317,
+      "sku": null,
+      "price": 2000,
+      "compareAtPrice": null,
+      "promotionalPrice": null,
+      "stock": 3,
+      "available": true,
+      "attributes": {
+        "Telar": "Telar Chico"
+      },
+      "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9505-010ca59285fd4235c517156504516125-1024-1024.webp"
+    },
+    {
+      "id": 1585253318,
+      "sku": null,
+      "price": 3000,
+      "compareAtPrice": null,
+      "promotionalPrice": null,
+      "stock": 2,
+      "available": true,
+      "attributes": {
+        "Telar": "Telar Grande"
+      },
+      "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/c15ed5c3-7dde-44a3-9cab-066ee283312b-b5ac2eadaa47e0588917156505411489-1024-1024.webp"
+    }
+  ],
+  "images": [
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/c15ed5c3-7dde-44a3-9cab-066ee283312b-b5ac2eadaa47e0588917156505411489-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0043-9fb548abc25e6af3e317156504513338-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0084-620c9f6a2ff56d7fc417156504526638-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0040-6c11e6038a31996a0117156504501273-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9682-40402a1b879051744d17156504526616-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9683-27e3f06f655eb8c1a317156504515850-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9622-1e5d67fb5130d1849117156504489240-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9624-0853657e808b53070517156504481452-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9620-9c97b8cf0d13043ff817156504502617-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9505-010ca59285fd4235c517156504516125-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9503-da951d95e7bfbddf6617156504513044-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9339-f51b50c124175fd6f717156504494350-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9039-e73f0928352765988a17156505484441-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_8205-342503a2bf483c665c17156505489202-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_7524-6372c8939d1603e8b817156505469580-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_7389-2bc93dd2b7f08b637017156505398181-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_4706-936da28e5e4d8ea21217156505425700-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_1433-89dec74ece357e7d0417156505502777-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_8599-689826e01465a8573d17156505496104-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/7df928ec-6456-4a28-85df-cd8504e60c6e-f5423530c7b3a1ad5217156505336089-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_4692-e252c76e530c183e1017156505497912-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_3306-2675a37e55c72a7c4717156505499894-1024-1024.webp"
+  ],
+  "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/c15ed5c3-7dde-44a3-9cab-066ee283312b-b5ac2eadaa47e0588917156505411489-1024-1024.webp",
+  "weightKg": null,
+  "storeName": "Taller Textil Dos Coyotes",
+  "storeDomain": "tallertextildoscoyotes.mitiendanube.com",
+  "country": "MX",
+  "language": "es_MX",
+  "platform": "tiendanube",
+  "engine": "classic",
+  "lastModified": "2026-10-08T13:45:54.000Z",
+  "scrapedAt": "2026-10-14T01:51:51.530Z"
 },
 {
   "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/hilo-de-lana-mexicana-colores/",
@@ -1744,7 +1744,213 @@
   "platform": "tiendanube",
   "engine": "classic",
   "lastModified": "2026-10-09T16:36:03.000Z",
-  "scrapedAt": "2026-10-14T01:49:26.085Z"
+  "scrapedAt": "2026-10-14T01:51:51.647Z"
+},
+{
+  "url": "https://peek-store.com/productos/cd-cta-1pbh9",
+  "productId": 321285513,
+  "name": "CD CTA",
+  "brand": null,
+  "description": "CD físico original de CTA by Charles Ans",
+  "categories": [
+    "By Charles Ans"
+  ],
+  "tags": [],
+  "price": 350,
+  "compareAtPrice": null,
+  "promotionalPrice": null,
+  "onSale": false,
+  "discountPercent": null,
+  "priceMin": 350,
+  "priceMax": 450,
+  "currency": "MXN",
+  "installments": null,
+  "availability": "InStock",
+  "inStock": true,
+  "stockTotal": 15,
+  "stockUnlimited": false,
+  "sku": null,
+  "variantCount": 2,
+  "variants": [
+    {
+      "id": 1424180496,
+      "sku": null,
+      "price": 450,
+      "compareAtPrice": null,
+      "promotionalPrice": null,
+      "stock": 0,
+      "available": false,
+      "attributes": {
+        "Con o Sin Firma": "Con Firma"
+      },
+      "image": null
+    },
+    {
+      "id": 1424180502,
+      "sku": null,
+      "price": 350,
+      "compareAtPrice": null,
+      "promotionalPrice": null,
+      "stock": 15,
+      "available": true,
+      "attributes": {
+        "Con o Sin Firma": "Sin Firma"
+      },
+      "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/7-cd-cta-c9281989714ad00b1717698998781656-1024-1024.png"
+    }
+  ],
+  "images": [
+    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/6-cd-cta-5edb99f14cddc58b7517698998631688-1024-1024.png",
+    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/7-cd-cta-c9281989714ad00b1717698998781656-1024-1024.png"
+  ],
+  "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/6-cd-cta-5edb99f14cddc58b7517698998631688-1024-1024.png",
+  "weightKg": null,
+  "storeName": "Peek Store",
+  "storeDomain": "peek-store.com",
+  "country": "MX",
+  "language": "es",
+  "platform": "tiendanube",
+  "engine": "next",
+  "lastModified": "2026-10-10T19:23:19.000Z",
+  "scrapedAt": "2026-10-14T01:51:51.669Z"
+},
+{
+  "url": "https://peek-store.com/productos/tisha-bendiceme",
+  "productId": 321284040,
+  "name": "Tisha Bendíceme",
+  "brand": null,
+  "description": "Icónica canción de Charles Ans ft Juaninacka perteneciente a su disco LADO A. Esta pieza fue creada para el rodaje del videoclip oficial y la trajimos disponible a la tienda para ustedes.",
+  "categories": [
+    "By Charles Ans"
+  ],
+  "tags": [],
+  "price": 600,
+  "compareAtPrice": null,
+  "promotionalPrice": null,
+  "onSale": false,
+  "discountPercent": null,
+  "priceMin": 600,
+  "priceMax": 600,
+  "currency": "MXN",
+  "installments": null,
+  "availability": "InStock",
+  "inStock": true,
+  "stockTotal": 1,
+  "stockUnlimited": false,
+  "sku": null,
+  "variantCount": 2,
+  "variants": [
+    {
+      "id": 1424187492,
+      "sku": null,
+      "price": 600,
+      "compareAtPrice": null,
+      "promotionalPrice": null,
+      "stock": 0,
+      "available": false,
+      "attributes": {
+        "Color": "NEGRA"
+      },
+      "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/11-tisha-bendiceme-negra-3a26b8dc286167dc9d17699004798242-1024-1024.jpg"
+    },
+    {
+      "id": 1424187508,
+      "sku": null,
+      "price": 600,
+      "compareAtPrice": null,
+      "promotionalPrice": null,
+      "stock": 1,
+      "available": true,
+      "attributes": {
+        "Color": "BLANCA"
+      },
+      "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-tisha-bendiceme-blanca-853285ae7d6f34e83517699004830053-1024-1024.jpg"
+    }
+  ],
+  "images": [
+    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-11-tisha-bendiceme-978ab1007c165652a417699004860046-1024-1024.jpg",
+    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/11-tisha-bendiceme-negra-3a26b8dc286167dc9d17699004798242-1024-1024.jpg",
+    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-11-tisha-bendiceme-e327aa60b3534b013b17699004897472-1024-1024.jpg",
+    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-tisha-bendiceme-blanca-853285ae7d6f34e83517699004830053-1024-1024.jpg"
+  ],
+  "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-11-tisha-bendiceme-978ab1007c165652a417699004860046-1024-1024.jpg",
+  "weightKg": null,
+  "storeName": "Peek Store",
+  "storeDomain": "peek-store.com",
+  "country": "MX",
+  "language": "es",
+  "platform": "tiendanube",
+  "engine": "next",
+  "lastModified": "2026-10-11T19:09:55.000Z",
+  "scrapedAt": "2026-10-14T01:51:51.678Z"
+},
+{
+  "url": "https://peek-store.com/productos/cd-lrds-p3r2q",
+  "productId": 321285761,
+  "name": "CD LRDS",
+  "brand": null,
+  "description": "CD físico original de LRDS by Charles Ans",
+  "categories": [
+    "By Charles Ans"
+  ],
+  "tags": [],
+  "price": 350,
+  "compareAtPrice": null,
+  "promotionalPrice": null,
+  "onSale": false,
+  "discountPercent": null,
+  "priceMin": 350,
+  "priceMax": 450,
+  "currency": "MXN",
+  "installments": null,
+  "availability": "InStock",
+  "inStock": true,
+  "stockTotal": 17,
+  "stockUnlimited": false,
+  "sku": null,
+  "variantCount": 2,
+  "variants": [
+    {
+      "id": 1424183290,
+      "sku": null,
+      "price": 450,
+      "compareAtPrice": null,
+      "promotionalPrice": null,
+      "stock": 0,
+      "available": false,
+      "attributes": {
+        "Con o Sin Firma": "Con Firma"
+      },
+      "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/8-cd-lrds-f4a868e3d50068a73417699003305283-1024-1024.png"
+    },
+    {
+      "id": 1424183293,
+      "sku": null,
+      "price": 350,
+      "compareAtPrice": null,
+      "promotionalPrice": null,
+      "stock": 17,
+      "available": true,
+      "attributes": {
+        "Con o Sin Firma": "Sin Firma"
+      },
+      "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png"
+    }
+  ],
+  "images": [
+    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png",
+    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/8-cd-lrds-f4a868e3d50068a73417699003305283-1024-1024.png"
+  ],
+  "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png",
+  "weightKg": null,
+  "storeName": "Peek Store",
+  "storeDomain": "peek-store.com",
+  "country": "MX",
+  "language": "es",
+  "platform": "tiendanube",
+  "engine": "next",
+  "lastModified": "2026-10-10T19:23:19.000Z",
+  "scrapedAt": "2026-10-14T01:51:51.684Z"
 },
 {
   "url": "https://peek-store.com/productos/classic-beanie-103fp",
@@ -1826,213 +2032,69 @@
   "platform": "tiendanube",
   "engine": "next",
   "lastModified": "2026-10-08T22:12:25.000Z",
-  "scrapedAt": "2026-10-14T01:49:26.109Z"
+  "scrapedAt": "2026-10-14T01:51:51.691Z"
 },
 {
-  "url": "https://peek-store.com/productos/cd-cta-1pbh9",
-  "productId": 321285513,
-  "name": "CD CTA",
-  "brand": null,
-  "description": "CD físico original de CTA by Charles Ans",
+  "url": "https://www.vegpet.com.br/produtos/krocao-biscoito-banana-e-aveia-1kg/",
+  "productId": 57205210,
+  "name": "Krocão Biscoito Banana e Aveia 1Kg",
+  "brand": "Krocão",
+  "description": "Descrição KROCÃO BISCOITO BANANA E AVEIA 1KG Os biscoitos Krocão são mais uma alternativa que a Vegpet traz para oferecer petiscos saudáveis aos nossos pets. Além de ser uma forma de agradar, o biscoito krocão ainda traz vários benefícios à saúde de seu peludo: Melhora o sistema digestivo e imunológico Deixa os pelos e pele mais saudáveis Diminui o tártaro Aumenta a absorção dos alimentos Nova formulação livre de transgênicos 100% natural, não contém adição de nenhum componente de origem animal. Krocão é indicado para agradar o seu cão de forma nutritiva e saudável, contendo ingredientes de ótima qualidade, podendo ser fornecido diariamente. Composição básica: amido de milho, extrato de levedura, farinha de trigo integral e farinha de arroz, farinha de milho, banana e aveia.",
   "categories": [
-    "By Charles Ans"
+    "Petiscos"
   ],
-  "tags": [],
-  "price": 350,
+  "tags": [
+    "Biscoito",
+    "Biscoito Vegetariano",
+    "Petisco Vegetariano",
+    "Petiscos"
+  ],
+  "price": 45.9,
   "compareAtPrice": null,
   "promotionalPrice": null,
   "onSale": false,
   "discountPercent": null,
-  "priceMin": 350,
-  "priceMax": 450,
-  "currency": "MXN",
-  "installments": null,
+  "priceMin": 45.9,
+  "priceMax": 45.9,
+  "currency": "BRL",
+  "installments": {
+    "maxInstallments": 11,
+    "maxInterestFreeInstallments": 3,
+    "interestFreeInstallmentValue": 15.3,
+    "processor": "Nuvem Pago"
+  },
   "availability": "InStock",
   "inStock": true,
-  "stockTotal": 15,
+  "stockTotal": 9,
   "stockUnlimited": false,
-  "sku": null,
-  "variantCount": 2,
+  "sku": "7898945771306",
+  "variantCount": 1,
   "variants": [
     {
-      "id": 1424180496,
-      "sku": null,
-      "price": 450,
+      "id": 164357064,
+      "sku": "7898945771306",
+      "price": 45.9,
       "compareAtPrice": null,
       "promotionalPrice": null,
-      "stock": 0,
-      "available": false,
-      "attributes": {
-        "Con o Sin Firma": "Con Firma"
-      },
-      "image": null
-    },
-    {
-      "id": 1424180502,
-      "sku": null,
-      "price": 350,
-      "compareAtPrice": null,
-      "promotionalPrice": null,
-      "stock": 15,
+      "stock": 9,
       "available": true,
-      "attributes": {
-        "Con o Sin Firma": "Sin Firma"
-      },
-      "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/7-cd-cta-c9281989714ad00b1717698998781656-1024-1024.png"
+      "attributes": {},
+      "image": "https://acdn-us.mitiendanube.com/stores/001/045/983/products/krocao-biscoito-banana-e-aveia-1kg-web-961e0d78bc85bd3bbf17557777933800-1024-1024.webp"
     }
   ],
   "images": [
-    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/6-cd-cta-5edb99f14cddc58b7517698998631688-1024-1024.png",
-    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/7-cd-cta-c9281989714ad00b1717698998781656-1024-1024.png"
+    "https://acdn-us.mitiendanube.com/stores/001/045/983/products/krocao-biscoito-banana-e-aveia-1kg-web-961e0d78bc85bd3bbf17557777933800-1024-1024.webp"
   ],
-  "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/6-cd-cta-5edb99f14cddc58b7517698998631688-1024-1024.png",
-  "weightKg": null,
-  "storeName": "Peek Store",
-  "storeDomain": "peek-store.com",
-  "country": "MX",
-  "language": "es",
-  "platform": "tiendanube",
-  "engine": "next",
-  "lastModified": "2026-10-10T19:23:19.000Z",
-  "scrapedAt": "2026-10-14T01:49:26.115Z"
-},
-{
-  "url": "https://peek-store.com/productos/tisha-bendiceme",
-  "productId": 321284040,
-  "name": "Tisha Bendíceme",
-  "brand": null,
-  "description": "Icónica canción de Charles Ans ft Juaninacka perteneciente a su disco LADO A. Esta pieza fue creada para el rodaje del videoclip oficial y la trajimos disponible a la tienda para ustedes.",
-  "categories": [
-    "By Charles Ans"
-  ],
-  "tags": [],
-  "price": 600,
-  "compareAtPrice": null,
-  "promotionalPrice": null,
-  "onSale": false,
-  "discountPercent": null,
-  "priceMin": 600,
-  "priceMax": 600,
-  "currency": "MXN",
-  "installments": null,
-  "availability": "InStock",
-  "inStock": true,
-  "stockTotal": 1,
-  "stockUnlimited": false,
-  "sku": null,
-  "variantCount": 2,
-  "variants": [
-    {
-      "id": 1424187492,
-      "sku": null,
-      "price": 600,
-      "compareAtPrice": null,
-      "promotionalPrice": null,
-      "stock": 0,
-      "available": false,
-      "attributes": {
-        "Color": "NEGRA"
-      },
-      "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/11-tisha-bendiceme-negra-3a26b8dc286167dc9d17699004798242-1024-1024.jpg"
-    },
-    {
-      "id": 1424187508,
-      "sku": null,
-      "price": 600,
-      "compareAtPrice": null,
-      "promotionalPrice": null,
-      "stock": 1,
-      "available": true,
-      "attributes": {
-        "Color": "BLANCA"
-      },
-      "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-tisha-bendiceme-blanca-853285ae7d6f34e83517699004830053-1024-1024.jpg"
-    }
-  ],
-  "images": [
-    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-11-tisha-bendiceme-978ab1007c165652a417699004860046-1024-1024.jpg",
-    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/11-tisha-bendiceme-negra-3a26b8dc286167dc9d17699004798242-1024-1024.jpg",
-    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-11-tisha-bendiceme-e327aa60b3534b013b17699004897472-1024-1024.jpg",
-    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-tisha-bendiceme-blanca-853285ae7d6f34e83517699004830053-1024-1024.jpg"
-  ],
-  "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-11-tisha-bendiceme-978ab1007c165652a417699004860046-1024-1024.jpg",
-  "weightKg": null,
-  "storeName": "Peek Store",
-  "storeDomain": "peek-store.com",
-  "country": "MX",
-  "language": "es",
-  "platform": "tiendanube",
-  "engine": "next",
-  "lastModified": "2026-10-11T19:09:55.000Z",
-  "scrapedAt": "2026-10-14T01:49:26.123Z"
-},
-{
-  "url": "https://peek-store.com/productos/cd-lrds-p3r2q",
-  "productId": 321285761,
-  "name": "CD LRDS",
-  "brand": null,
-  "description": "CD físico original de LRDS by Charles Ans",
-  "categories": [
-    "By Charles Ans"
-  ],
-  "tags": [],
-  "price": 350,
-  "compareAtPrice": null,
-  "promotionalPrice": null,
-  "onSale": false,
-  "discountPercent": null,
-  "priceMin": 350,
-  "priceMax": 450,
-  "currency": "MXN",
-  "installments": null,
-  "availability": "InStock",
-  "inStock": true,
-  "stockTotal": 17,
-  "stockUnlimited": false,
-  "sku": null,
-  "variantCount": 2,
-  "variants": [
-    {
-      "id": 1424183290,
-      "sku": null,
-      "price": 450,
-      "compareAtPrice": null,
-      "promotionalPrice": null,
-      "stock": 0,
-      "available": false,
-      "attributes": {
-        "Con o Sin Firma": "Con Firma"
-      },
-      "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/8-cd-lrds-f4a868e3d50068a73417699003305283-1024-1024.png"
-    },
-    {
-      "id": 1424183293,
-      "sku": null,
-      "price": 350,
-      "compareAtPrice": null,
-      "promotionalPrice": null,
-      "stock": 17,
-      "available": true,
-      "attributes": {
-        "Con o Sin Firma": "Sin Firma"
-      },
-      "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png"
-    }
-  ],
-  "images": [
-    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png",
-    "https://acdn-us.mitiendanube.com/stores/003/780/562/products/8-cd-lrds-f4a868e3d50068a73417699003305283-1024-1024.png"
-  ],
-  "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png",
-  "weightKg": null,
-  "storeName": "Peek Store",
-  "storeDomain": "peek-store.com",
-  "country": "MX",
-  "language": "es",
-  "platform": "tiendanube",
-  "engine": "next",
-  "lastModified": "2026-10-10T19:23:19.000Z",
-  "scrapedAt": "2026-10-14T01:49:26.133Z"
+  "image": "https://acdn-us.mitiendanube.com/stores/001/045/983/products/krocao-biscoito-banana-e-aveia-1kg-web-961e0d78bc85bd3bbf17557777933800-1024-1024.webp",
+  "weightKg": 1,
+  "storeName": "VegPet • Compre Online",
+  "storeDomain": "vegpet.com.br",
+  "country": "BR",
+  "language": "pt_BR",
+  "platform": "nuvemshop",
+  "engine": "classic",
+  "lastModified": "2026-10-13T01:26:00.000Z",
+  "scrapedAt": "2026-10-14T01:51:52.338Z"
 },
 {
   "url": "https://www.vegpet.com.br/produtos/bifinho-para-cachorro-bark-beterraba-vegano-60g/",
@@ -2095,134 +2157,5 @@
   "platform": "nuvemshop",
   "engine": "classic",
   "lastModified": "2026-10-13T01:26:00.000Z",
-  "scrapedAt": "2026-10-14T01:49:26.713Z"
-},
-{
-  "url": "https://www.vegpet.com.br/produtos/bicho-green-pequeno-porte-super-premium-25-kg-racao-plant-based-vegana/",
-  "productId": 251972408,
-  "name": "Bicho Green Pequeno Porte Super Premium 2,5 kg Ração Plant Based (Vegana)",
-  "brand": "Bicho Green",
-  "description": "Descrição Ração Vegana Super Premium Bicho Green Para Cães Porte Pequeno 2,5 kg Saúde e Vitalidade com Ingredientes 100% Plant-Based A Ração Bicho Green transforma a nutrição pet com uma fórmula 100% vegetal, funcional e equilibrada. Ideal para tutores que buscam uma alimentação ética, natural e eficaz — agora com versão especial para cães de porte pequeno. Benefícios 100% vegana e livre de crueldade Rica em aminoácidos essenciais de origem vegetal Reduz alergias à proteína animal Melhora pele e pelagem Favorece digestão, imunidade e vitalidade Fórmula adaptada para cães de porte pequeno Garantia de satisfação ou seu dinheiro de volta (pacote de 2,5 kg) Ingredientes Funcionais e Seus Benefícios Ingrediente Benefício Real Leveduras e parede celular de levedura Prebióticos naturais que equilibram a microbiota intestinal Cúrcuma Ação anti-inflamatória natural e suporte ao sistema imune Extrato de Yucca Reduz odor das fezes e melhora a absorção dos nutrientes Carvão vegetal ativado Ajuda na digestão e eliminação de toxinas Linhaça Fonte de ômega 3, benéfica para pele e pelagem Vitaminas A, D3, E, B12, K3 Auxiliam imunidade, metabolismo, visão e saúde óssea Zinco, selênio, ferro, cobre Essenciais para pele, pelagem e funções vitais Perguntas Frequentes Cães podem viver bem com proteína vegetal? Sim! O essencial são os aminoácidos, não a origem da proteína. A Bicho Green fornece todos os nutrientes necessários com segurança. Essa versão é nova? É confiável? Sim, é uma nova versão, mas a linha Bicho Green está no mercado desde 2018, com milhares de avaliações positivas públicas. Tem transgênicos? Sim, como a maioria das rações nacionais. Até ingredientes de origem animal geralmente são provenientes de animais alimentados com OGMs. E se meu cão não gostar? O pacote de 2,5 kg possui garantia de satisfação: ou você vê resultado, ou devolvemos seu dinheiro. Como fazer a adaptação? Transição gradual em 5 dias: Dia 1: 20% Bicho Green + 80% ração anterior Dia 2: 40% Bicho Green + 60% ração anterior Dia 3: 60% Bicho Green + 40% ração anterior Dia 4: 80% Bicho Green + 20% ração anterior Dia 5: 100% Bicho Green Informações Técnicas Indicação de uso: Alimento completo para cães. Modo de uso: Alimento de pronto uso. A quantidade pode variar conforme atividade e características individuais do cão. Divida a porção diária em pelo menos duas refeições. Modo de conservação: Conservar o produto em local fresco, ventilado, livre de umidade, afastado de paredes e ao abrigo da luz solar. Composição Básica do Produto: Milho integral moído, farelo de soja, farelo de trigo, farelo de glúten de milho, óleo de soja, linhaça (0,4%), cloreto de sódio (sal comum), fosfato bicálcico, carbonato de cálcio, ácido fólico, cloreto de colina, iodato de cálcio, monóxido de manganês, niacina, óxido de zinco, pantotenato de cálcio, selenito de sódio, sulfato de cobalto, sulfato de cobre, sulfato de ferro, vitamina A, vitamina B12, vitamina B2, vitamina B6, vitamina D3, vitamina E, vitamina K3, L-Lisina, DL-metionina, extrato de yucca (0,015%), aditivo prebiótico (0,03%), parede celular de levedura, levedura inativada, levedura de cana-de-açúcar, aditivo palatabilizante, aroma de alho, aroma de vegetais, cúrcuma (0,01%), carvão vegetal ativado, proteinato de selênio, bentonita, sorbato de potássio, propionato de cálcio, ácido propiônico, ácido acético, ácido cítrico, ácido fórmico, propionato de amônia e antioxidantes (0,05%) (tocoferol, extrato de alecrim). Eventuais Substitutivos: Óleo de soja degomado, extrato de cardio mariano, polpa de beterraba desidratada, linhaça farelo, aroma de queijo, extrato de levedura, DL-Alfa-Tocoferol, óleo essencial de alecrim, ácido fosfórico, goma xantana, levedura de cerveja, óxido de zinco, óxido de manganês, biocolina, sacarose e maltodextrina. Enriquecimento por kg do produto: Ácido fólico 0,60 mg, ácido pantotênico 16,4 mg, cobalto 0,5 mg, cobre 8,3 mg, colina 1.250 mg, ferro 85 mg, iodo 1,90 mg, manganês 10,5 mg, niacina 18,9 mg, selênio 0,5 mg, zinco 100 mg, vitamina A 9.000 UI, vitamina B2 6,9 mg, vitamina B6 2,5 mg, vitamina B12 20 mcg, vitamina D3 800 UI, vitamina E 50 UI, vitamina K3 2,0 mg. Níveis de Garantia do Produto: Umidade (máx.): 100 g/kg Proteína Bruta (mín.): 240 g/kg Extrato Etéreo (mín.): 100 g/kg Matéria Fibrosa (máx): 50 g/kg Matéria Mineral (máx.): 90 g/kg Cálcio (mín.): 9.000 mg/kg Cálcio (máx): 22 g/kg Fósforo (mín.): 9.000 mg/kg Sódio (mín.): 2.200 mg/kg Ácido Linolênico - Ômega 3 (mín.): 2.600 mg/kg Ácido Linoleico - Ômega 6 (mín.): 22 g/kg Mananoligossacarídeos (mín.): 300 mg/kg Lisina (mín): 5.000 mg/kg Metionina (mín): 4.500 mg/kg Energia Metabolizável (EM): 3.276,273 Kcal/kg Veja Mais Sobre a Ração",
-  "categories": [
-    "Rações Vegetarianas e Veganas"
-  ],
-  "tags": [
-    "Alimentacao Vegetariana",
-    "Cachorro Vegetariano",
-    "Racao Vegana",
-    "Racao Vegetariana",
-    "bicho green",
-    "bichogreen",
-    "racao 100% vegetal",
-    "racao vegetal"
-  ],
-  "price": 132.5,
-  "compareAtPrice": null,
-  "promotionalPrice": null,
-  "onSale": false,
-  "discountPercent": null,
-  "priceMin": 132.5,
-  "priceMax": 132.5,
-  "currency": "BRL",
-  "installments": {
-    "maxInstallments": 12,
-    "maxInterestFreeInstallments": 3,
-    "interestFreeInstallmentValue": 44.17,
-    "processor": "Nuvem Pago"
-  },
-  "availability": "InStock",
-  "inStock": true,
-  "stockTotal": 86,
-  "stockUnlimited": false,
-  "sku": "7898994715382",
-  "variantCount": 1,
-  "variants": [
-    {
-      "id": 1112899856,
-      "sku": "7898994715382",
-      "price": 132.5,
-      "compareAtPrice": null,
-      "promotionalPrice": null,
-      "stock": 86,
-      "available": true,
-      "attributes": {},
-      "image": "https://acdn-us.mitiendanube.com/stores/001/045/983/products/0e01ba1cba59afab0dd173eb838d71f7-2b6fadd8a81c277f8317546097441424-1024-1024.webp"
-    }
-  ],
-  "images": [
-    "https://acdn-us.mitiendanube.com/stores/001/045/983/products/0e01ba1cba59afab0dd173eb838d71f7-2b6fadd8a81c277f8317546097441424-1024-1024.webp"
-  ],
-  "image": "https://acdn-us.mitiendanube.com/stores/001/045/983/products/0e01ba1cba59afab0dd173eb838d71f7-2b6fadd8a81c277f8317546097441424-1024-1024.webp",
-  "weightKg": 2.5,
-  "storeName": "VegPet • Compre Online",
-  "storeDomain": "vegpet.com.br",
-  "country": "BR",
-  "language": "pt_BR",
-  "platform": "nuvemshop",
-  "engine": "classic",
-  "lastModified": "2026-10-13T00:52:18.000Z",
-  "scrapedAt": "2026-10-14T01:49:26.794Z"
-},
-{
-  "url": "https://www.vegpet.com.br/produtos/organica-all-love-veggie-sabor-grao-de-bico-quinoa-cenoura-72kg/",
-  "productId": 46882800,
-  "name": "(ORGÂNICA) - ALL LOVE VEGGIE SABOR GRÃO DE BICO, QUINOA & CENOURA 7,2KG",
-  "brand": "Dr. Stanley - Orgânico",
-  "description": "Descrição Dr. Stanley All Love Veggie Sabor Grão de Bico, Quinoa & Cenoura 7,2kg Você pediu e a Dr. Stanley atendeu!! A primeira linha de Alimento Vegetariano para Cães 100% Completo e Orgânico Certificado para cães!Formulado por veterinários, é um alimento 100% completo que pode substituir a ração, tudo feito com muito amor em pequenas fornadas, exatamente como você faria em sua casa. É um produto orgânico certificado, sem transgênico, sem sal adicionado, 100% natural, sem corantes ou conservantes artificiais.São 9 saquinhos de 800gr embalados separadamente através de um processo que retira o ar atmosférico e coloca um gás inerte (nitrogênio) no lugar, evitando que a ração oxide, mantendo a qualidade por mais tempo. A receita do All Love Veggie é cientificamente balanceada para atender as necessidades fisiológicas de cada cão.Diferentemente das outras rações, o alimento All Love Veggie não passa por processo de extrusão. Eles são assados lentamente para manter o sabor e nutrientes em sua forma natural. Possui em sua formulação: Algas + Óleos Vegetais - fornecem Ômega 6 e 3, importantes para o organismo de seu peludo, principalmente pele e pelagem; Fibras Especiais + Cereais 100% Integrais; Extratos Naturais - atuam como antioxidantes, reduzindo a formação de radicais livres; Com selo de Certificado Orgânico, não possui transgênico. INGREDIENTES:Farinha de trigo integral orgânica, farinha de soja orgânica, óleo soja orgânica, extrato de levedura, levedura de cerveja, fibra de cana de açúcar, grão de bico, farinha de arroz integral orgânico, fibra de cana de açúcar, glúten de trigo, linhaça orgânica, chia orgânica, cenoura desidratada, azeite de oliva, fosfato bicálcico, bentonita, vitaminas (A, D*, E, K, C, B1, B2, B12, biotina, pantotenato de cálcio, ácido fólico, niacina, cloreto de colina), minerais (sulfato de ferro, sulfato de cobre, iodato de cálcio, cloreto de potássio, óxido de zinco, óxido de manganês, selenito de sódio), metionina, extratos vegetais (yucca, alecrim, chá verde e hortelã)(0,06%). ENRIQUECIMENTO MÍNIMO POR KG DO PRODUTO: Vitamina A 24.000UI, Vitamina D3* 1.900UI, Vitamina E 160UI, Vitamina C 160mg, Vitamina K 1,8mg, Vitamina B1 6mg, Vitamina B2 20mg, Ácido Pantotênico 48mg, Niacina 80mg, Vitamina B6 1,5mg, Biotina 0,4mg, Ácido Fólico 0,9mg, Vitamina B12 55µg, Colina 800mg, Potássio 500mg, Manganês 8mg, Ferro 130mg, Cobre 12mg, Iodo 2mg, Selênio 0,18mg, Zinco 200mg. NÍVEIS DE GARANTIA: Proteína Bruta (mín.) 210 g/kg, Extrato Etéreo (mín.) 110 g/kg, Umidade (máx.) 100 g/kg, Matéria Fibrosa (máx.) 35 g/kg, Matéria Mineral (máx.) 85 g/kg,Cálcio (máx.) 12 g/kg,Cálcio (mín.) 6000 mg/kg, Fósforo (mín.) 4500 mg/kg, Ômega 6 (mín.) 30 g/kg , Ômega 3 (mín.) 5000 mg/kg, DHA (mín.) 100 mg/kg. *a Vitamina D usada no produto é a D3 proveniente de lã de ovelhas. Para uma alternativa Vegana e 100% Vegetal conheça a Bicho Green. Acesse: https://www.vegpet.com.br/produtos/caes-racao-bicho-green-segunda-geracao-102kg/",
-  "categories": [
-    "Rações Vegetarianas e Veganas"
-  ],
-  "tags": [
-    "All Love",
-    "Dr. Stanley",
-    "Racao Vegetariana",
-    "bicho green",
-    "bichogreen"
-  ],
-  "price": 399,
-  "compareAtPrice": null,
-  "promotionalPrice": null,
-  "onSale": false,
-  "discountPercent": null,
-  "priceMin": 399,
-  "priceMax": 399,
-  "currency": "BRL",
-  "installments": {
-    "maxInstallments": 12,
-    "maxInterestFreeInstallments": 3,
-    "interestFreeInstallmentValue": 133,
-    "processor": "Nuvem Pago"
-  },
-  "availability": "InStock",
-  "inStock": true,
-  "stockTotal": 11,
-  "stockUnlimited": false,
-  "sku": "7898958916145",
-  "variantCount": 1,
-  "variants": [
-    {
-      "id": 124776312,
-      "sku": "7898958916145",
-      "price": 399,
-      "compareAtPrice": null,
-      "promotionalPrice": null,
-      "stock": 11,
-      "available": true,
-      "attributes": {},
-      "image": "https://acdn-us.mitiendanube.com/stores/001/045/983/products/62a66825e46deb0544d2b0a10dc6c579awsaccesskeyidakiatclmsgfx4j7tu445expires1701969721signatureco0u5d2fow93ffr2fs8uuim8w7rrw3d-c0d165b18c637de0c116704337277472-1024-1024.webp"
-    }
-  ],
-  "images": [
-    "https://acdn-us.mitiendanube.com/stores/001/045/983/products/62a66825e46deb0544d2b0a10dc6c579awsaccesskeyidakiatclmsgfx4j7tu445expires1701969721signatureco0u5d2fow93ffr2fs8uuim8w7rrw3d-c0d165b18c637de0c116704337277472-1024-1024.webp"
-  ],
-  "image": "https://acdn-us.mitiendanube.com/stores/001/045/983/products/62a66825e46deb0544d2b0a10dc6c579awsaccesskeyidakiatclmsgfx4j7tu445expires1701969721signatureco0u5d2fow93ffr2fs8uuim8w7rrw3d-c0d165b18c637de0c116704337277472-1024-1024.webp",
-  "weightKg": 7.5,
-  "storeName": "VegPet • Compre Online",
-  "storeDomain": "vegpet.com.br",
-  "country": "BR",
-  "language": "pt_BR",
-  "platform": "nuvemshop",
-  "engine": "classic",
-  "lastModified": "2026-10-13T01:26:00.000Z",
-  "scrapedAt": "2026-10-14T01:49:26.872Z"
+  "scrapedAt": "2026-10-14T01:51:52.432Z"
 }]

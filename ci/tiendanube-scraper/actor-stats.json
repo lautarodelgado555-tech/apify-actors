@@ -1,14 +1,15 @@
 {
-  "checkedAt": "2026-10-14T01:49:22.742Z",
+  "checkedAt": "2026-10-14T01:51:48.350Z",
   "name": "tiendanube-scraper",
   "isPublic": false,
   "pricing": [],
   "stats": {
-    "totalBuilds": 1,
-    "totalRuns": 0,
+    "totalBuilds": 2,
+    "totalRuns": 1,
     "totalUsers": 1,
     "totalUsers7Days": 0,
     "totalUsers30Days": 0,
-    "totalUsers90Days": 0
+    "totalUsers90Days": 0,
+    "lastRunStartedAt": "2026-10-14T01:49:23.116Z"
   }
 }

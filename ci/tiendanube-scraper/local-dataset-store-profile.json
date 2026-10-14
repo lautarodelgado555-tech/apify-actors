@@ -1,5 +1,37 @@
 [
   {
+    "url": "https://peek-store.com",
+    "domain": "peek-store.com",
+    "name": "Peek Store",
+    "platform": "tiendanube",
+    "country": "MX",
+    "currency": "MXN",
+    "language": "es",
+    "description": "Comprá productos de Peek Store por internet. Tenemos by charles ans, peek kiddos, colabs by peek, exclusive peek, accesorios peek y más. Hacé tu pedido y pagalo online",
+    "logo": "https://d1a9qnv764bsoo.cloudfront.net/stores/003/780/562/themes/common/logo-2354907205025270730-1770258092-1c452e891931f5851a7f31b95ef6c9a51770258092.png?0",
+    "emails": [
+      "peekstoremx@gmail.com"
+    ],
+    "phones": [],
+    "whatsapp": [
+      "+523315301476"
+    ],
+    "instagram": "https://instagram.com/peekstoremx",
+    "facebook": "https://www.facebook.com/share/1EJN3WwscS",
+    "tiktok": null,
+    "youtube": null,
+    "twitter": null,
+    "pinterest": null,
+    "linkedin": null,
+    "businessName": null,
+    "businessAddress": null,
+    "productCount": 49,
+    "lastProductUpdate": "2026-10-11T19:09:55.000Z",
+    "createdAt": "2023-10-01T02:18:01.000Z",
+    "engine": "next",
+    "scrapedAt": "2026-10-14T01:51:15.151Z"
+  },
+  {
     "url": "https://cocora.mitiendanube.com",
     "domain": "cocora.mitiendanube.com",
     "name": "Cocora",
@@ -29,71 +61,7 @@
     "lastProductUpdate": "2024-11-13T21:19:44.000Z",
     "createdAt": null,
     "engine": "classic",
-    "scrapedAt": "2026-10-14T01:48:51.947Z"
-  },
-  {
-    "url": "https://peek-store.com",
-    "domain": "peek-store.com",
-    "name": "Peek Store",
-    "platform": "tiendanube",
-    "country": "MX",
-    "currency": "MXN",
-    "language": "es",
-    "description": "Comprá productos de Peek Store por internet. Tenemos by charles ans, peek kiddos, colabs by peek, exclusive peek, accesorios peek y más. Hacé tu pedido y pagalo online",
-    "logo": "https://d1a9qnv764bsoo.cloudfront.net/stores/003/780/562/themes/common/logo-2354907205025270730-1770258092-1c452e891931f5851a7f31b95ef6c9a51770258092.png?0",
-    "emails": [
-      "peekstoremx@gmail.com"
-    ],
-    "phones": [],
-    "whatsapp": [
-      "+523315301476"
-    ],
-    "instagram": "https://instagram.com/peekstoremx",
-    "facebook": "https://www.facebook.com/share/1EJN3WwscS",
-    "tiktok": null,
-    "youtube": null,
-    "twitter": null,
-    "pinterest": null,
-    "linkedin": null,
-    "businessName": null,
-    "businessAddress": null,
-    "productCount": 49,
-    "lastProductUpdate": "2026-10-11T19:09:55.000Z",
-    "createdAt": "2023-10-01T02:18:01+0000",
-    "engine": "next",
-    "scrapedAt": "2026-10-14T01:48:52.389Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com",
-    "domain": "dailyskincaremx.com",
-    "name": "Dailyskincaremx",
-    "platform": "tiendanube",
-    "country": "MX",
-    "currency": "MXN",
-    "language": "es_MX",
-    "description": "Skincare y belleza",
-    "logo": "https://dcdn-us.mitiendanube.com/stores/001/934/203/themes/common/logo-8395862390041294209-1775788826-12ee86a03fe7b2ad1eb710873e1acce21775788826.png?0",
-    "emails": [],
-    "phones": [
-      "7714253186"
-    ],
-    "whatsapp": [
-      "+527714253186"
-    ],
-    "instagram": "https://instagram.com/dailyskincare.mx",
-    "facebook": "https://www.facebook.com/Daily-Skincare-Mx-100907369012570",
-    "tiktok": null,
-    "youtube": null,
-    "twitter": null,
-    "pinterest": null,
-    "linkedin": null,
-    "businessName": null,
-    "businessAddress": null,
-    "productCount": 343,
-    "lastProductUpdate": "2026-09-21T16:23:34.000Z",
-    "createdAt": null,
-    "engine": "classic",
-    "scrapedAt": "2026-10-14T01:48:52.740Z"
+    "scrapedAt": "2026-10-14T01:51:15.292Z"
   },
   {
     "url": "https://www.vegpet.com.br",
@@ -125,6 +93,38 @@
     "lastProductUpdate": "2026-10-13T01:26:00.000Z",
     "createdAt": null,
     "engine": "classic",
-    "scrapedAt": "2026-10-14T01:48:52.796Z"
+    "scrapedAt": "2026-10-14T01:51:15.509Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com",
+    "domain": "dailyskincaremx.com",
+    "name": "Dailyskincaremx",
+    "platform": "tiendanube",
+    "country": "MX",
+    "currency": "MXN",
+    "language": "es_MX",
+    "description": "Skincare y belleza",
+    "logo": "https://dcdn-us.mitiendanube.com/stores/001/934/203/themes/common/logo-8395862390041294209-1775788826-12ee86a03fe7b2ad1eb710873e1acce21775788826.png?0",
+    "emails": [],
+    "phones": [
+      "7714253186"
+    ],
+    "whatsapp": [
+      "+527714253186"
+    ],
+    "instagram": "https://instagram.com/dailyskincare.mx",
+    "facebook": "https://www.facebook.com/Daily-Skincare-Mx-100907369012570",
+    "tiktok": null,
+    "youtube": null,
+    "twitter": null,
+    "pinterest": null,
+    "linkedin": null,
+    "businessName": null,
+    "businessAddress": null,
+    "productCount": 343,
+    "lastProductUpdate": "2026-09-21T16:23:34.000Z",
+    "createdAt": null,
+    "engine": "classic",
+    "scrapedAt": "2026-10-14T01:51:15.906Z"
   }
 ]
