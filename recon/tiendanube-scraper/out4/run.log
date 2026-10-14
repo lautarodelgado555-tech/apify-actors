@@ -1,0 +1,25 @@
+== CDX wayback-mnc-urlkey
+GET https://web.archive.org/cdx/search/cdx?url=mitiendanube.com&matchType=domain&fl=original&collapse=urlkey&filter=original:https?://[^/]*/?&limit=200000 -> 200 final=https://web.archive.org/cdx/search/cdx?url=mitiendanube.com&matchType=domain&fl=original&collapse=urlkey&filter=original:https?://[^/]*/?&limit=200000 len=26516617 gz=false 33567ms server=nginx content-type=text/plain content-encoding=gzip
+  wayback-mnc-urlkey: rows=200001 distinctHosts=126
+== CDX wayback-lvn-urlkey
+GET https://web.archive.org/cdx/search/cdx?url=lojavirtualnuvem.com.br&matchType=domain&fl=original&collapse=urlkey&filter=original:https?://[^/]*/?&limit=200000 -> 200 final=https://web.archive.org/cdx/search/cdx?url=lojavirtualnuvem.com.br&matchType=domain&fl=original&collapse=urlkey&filter=original:https?://[^/]*/?&limit=200000 len=14542637 gz=false 31170ms server=nginx content-type=text/plain content-encoding=gzip
+  wayback-lvn-urlkey: rows=200001 distinctHosts=7705
+== UNION distinct store hosts: 7826
+== RATE https://www.vegpet.com.br/produtos/?page=2 n=40 conc=1 delayMs=0
+  counts={"200":40} elapsed=3691ms
+== RATE https://www.vegpet.com.br/produtos/?page=2 n=40 conc=3 delayMs=0
+  counts={"200":40} elapsed=1034ms
+== RATE https://www.vegpet.com.br/produtos/?page=2 n=40 conc=6 delayMs=0
+  counts={"200":40} elapsed=587ms
+== RATE https://www.vegpet.com.br/produtos/?page=2 n=40 conc=2 delayMs=300
+  counts={"200":40} elapsed=7534ms
+== RATE https://leelahouse.lojavirtualnuvem.com.br/ n=30 conc=1 delayMs=0
+  counts={"200":30} elapsed=1545ms
+== RATE https://leelahouse.lojavirtualnuvem.com.br/ n=30 conc=4 delayMs=0
+  counts={"200":30} elapsed=469ms
+== RATE https://leelahouse.lojavirtualnuvem.com.br/ n=30 conc=8 delayMs=0
+  counts={"200":30} elapsed=257ms
+== RATE https://tallertextildoscoyotes.mitiendanube.com/productos/ n=40 conc=4 delayMs=0
+  counts={"200":40} elapsed=1003ms
+== RATE https://tallertextildoscoyotes.mitiendanube.com/productos/ n=40 conc=8 delayMs=0
+  counts={"200":40} elapsed=369ms
