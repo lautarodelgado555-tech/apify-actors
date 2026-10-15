@@ -1,5 +1,71 @@
 [
   {
+    "url": "https://dailyskincaremx.com/productos/eucerin-anti-pigment-serum-corporal-para-areas-sensibles-1obnz/",
+    "productId": 337876806,
+    "name": "Eucerin Anti-Pigment Sérum Corporal para Áreas Sensibles",
+    "brand": "Eucerin",
+    "description": "El producto comercializado como Eucerin Anti-Pigment Sérum Corporal para Áreas Sensibles se presenta en una presentación de 75 ml y está diseñado para tratar y prevenir manchas oscuras y hiperpigmentación en zonas corporales sensibles como axilas, ingles, cuello, codos y rodillas, especialmente causadas por fricción, rasurado o depilación. 75ml",
+    "categories": [
+      "Marcas",
+      "Eucerin"
+    ],
+    "tags": [
+      "El producto comercializado como Eucerin Anti-Pigment Sérum Corporal para Áreas Sensibles se presenta en una presentación de 75 ml (no 70 ml)",
+      "codos y rodillas",
+      "cuello",
+      "especialmente causadas por fricción",
+      "ingles",
+      "rasurado o depilación.",
+      "y está diseñado para tratar y prevenir manchas oscuras y hiperpigmentación en zonas corporales sensibles como axilas"
+    ],
+    "price": 789,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 789,
+    "priceMax": 789,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 65.75,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 6,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1501922204,
+        "sku": null,
+        "price": 789,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 6,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-anti-pigment-serum-corporal-para-areas-sensibles-fca34f73399e03223517761403896893-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-anti-pigment-serum-corporal-para-areas-sensibles-fca34f73399e03223517761403896893-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-anti-pigment-serum-corporal-para-areas-sensibles-fca34f73399e03223517761403896893-1024-1024.webp",
+    "weightKg": 0.08,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-09-21T16:23:34.000Z",
+    "scrapedAt": "2026-10-15T15:44:19.457Z"
+  },
+  {
     "url": "https://dailyskincaremx.com/productos/garnier-skinactive-express-aclara-crema-hidratante-vitamina-c-wd2lv/",
     "productId": 354630198,
     "name": "Garnier SkinActive Express Aclara Crema Hidratante Vitamina C",
@@ -59,7 +125,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-09-21T16:23:34.000Z",
-    "scrapedAt": "2026-10-14T15:58:24.632Z"
+    "scrapedAt": "2026-10-15T15:44:19.764Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/good-molecules-hyaluronic-acid-serum-nxme8/",
@@ -121,7 +187,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-09-21T16:23:34.000Z",
-    "scrapedAt": "2026-10-14T15:58:24.882Z"
+    "scrapedAt": "2026-10-15T15:44:20.349Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eucerin-78-menos-arrugas-rutina-anti-edad-glley/",
@@ -181,7 +247,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-30T21:33:51.000Z",
-    "scrapedAt": "2026-10-14T15:58:25.922Z"
+    "scrapedAt": "2026-10-15T15:44:21.339Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/good-molecules-yerba-mate-wake-up-eye-gel-1xgd0/",
@@ -242,7 +308,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T03:24:57.000Z",
-    "scrapedAt": "2026-10-14T15:58:26.258Z"
+    "scrapedAt": "2026-10-15T15:44:21.665Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/good-molecules-niacinamide-serum-1ooo1/",
@@ -304,7 +370,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T03:24:31.000Z",
-    "scrapedAt": "2026-10-14T15:58:26.572Z"
+    "scrapedAt": "2026-10-15T15:44:21.716Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/good-molecules-discoloration-correcting-serum-r6465/",
@@ -366,7 +432,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T03:24:26.000Z",
-    "scrapedAt": "2026-10-14T15:58:26.903Z"
+    "scrapedAt": "2026-10-15T15:44:22.412Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/svr-a-ampoule-lift-v8sex/",
@@ -427,7 +493,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T03:22:24.000Z",
-    "scrapedAt": "2026-10-14T15:58:27.336Z"
+    "scrapedAt": "2026-10-15T15:44:22.655Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bioderma-sensibio-h2o-850ml-g6efq/",
@@ -487,7 +553,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T03:18:16.000Z",
-    "scrapedAt": "2026-10-14T15:58:27.580Z"
+    "scrapedAt": "2026-10-15T15:44:22.736Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bioderma-sensibio-h2o-500-ml-tx43o/",
@@ -547,7 +613,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T03:17:43.000Z",
-    "scrapedAt": "2026-10-14T15:58:27.910Z"
+    "scrapedAt": "2026-10-15T15:44:23.039Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bioderma-sensibio-h2o-agua-micelar-vosfy/",
@@ -607,7 +673,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T03:17:33.000Z",
-    "scrapedAt": "2026-10-14T15:58:28.252Z"
+    "scrapedAt": "2026-10-15T15:44:23.459Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/neutrogena-oil-free-eye-makeup-remover-set-2pz-3hv3t/",
@@ -669,7 +735,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T03:13:58.000Z",
-    "scrapedAt": "2026-10-14T15:58:28.548Z"
+    "scrapedAt": "2026-10-15T15:44:23.672Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eucerin-sun-photoaging-control-spf-50-zerne/",
@@ -730,68 +796,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T03:05:22.000Z",
-    "scrapedAt": "2026-10-14T15:58:28.834Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/eucerin-protector-solar-pigment-control-fps-50-j880c/",
-    "productId": 303416061,
-    "name": "Eucerin Protector solar pigment control FPS 50+.",
-    "brand": "Eucerin",
-    "description": "Eucerin Protector solar pigment control FPS 50+. Protector solar par todo tipo de piel, previene hiperpigmentacion provocada por los rayos solares. 50ml.",
-    "categories": [
-      "Marcas",
-      "Eucerin"
-    ],
-    "tags": [
-      "Eucerin Protector solar pigment control FPS 50+.  Protector solar par todo tipo de piel",
-      "previene hiperpigmentacion provocada por los rayos solares.  50ml."
-    ],
-    "price": 619,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 619,
-    "priceMax": 619,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 51.58,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 10,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1350381930,
-        "sku": null,
-        "price": 619,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 10,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-protector-solar-fps50-a9c56adcc0b9ebd9ab17616105385166-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-protector-solar-fps50-a9c56adcc0b9ebd9ab17616105385166-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-protector-solar-fps50-a9c56adcc0b9ebd9ab17616105385166-1024-1024.webp",
-    "weightKg": 0.08,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-29T03:05:12.000Z",
-    "scrapedAt": "2026-10-14T15:58:29.190Z"
+    "scrapedAt": "2026-10-15T15:44:24.066Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eucerin-dermopure-clinical-gel-limpiador-purificante-isokn/",
@@ -849,7 +854,131 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T03:04:38.000Z",
-    "scrapedAt": "2026-10-14T15:58:29.545Z"
+    "scrapedAt": "2026-10-15T15:44:24.719Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/eucerin-protector-solar-pigment-control-fps-50-j880c/",
+    "productId": 303416061,
+    "name": "Eucerin Sun Fluid Pigment Control FPS 50+",
+    "brand": "Eucerin",
+    "description": "Eucerin Sun Fluid Pigment Control FPS 50+ es un protector solar facial de uso diario para todo tipo de piel que ofrece una protección muy alta contra los rayos UVA y UVB, así como contra la luz visible de alta energía (HEVIS). Su fórmula está enriquecida con Thiamidol, un ingrediente patentado que reduce eficazmente las manchas oscuras y previene su reaparición, además de Licochalcone A para neutralizar los radicales libres. 50ml.",
+    "categories": [
+      "Marcas",
+      "Eucerin"
+    ],
+    "tags": [
+      "Eucerin Protector solar pigment control FPS 50+.  Protector solar par todo tipo de piel",
+      "previene hiperpigmentacion provocada por los rayos solares.  50ml."
+    ],
+    "price": 619,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 619,
+    "priceMax": 619,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 51.58,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 4,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1350381930,
+        "sku": null,
+        "price": 619,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 4,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-protector-solar-fps50-a9c56adcc0b9ebd9ab17616105385166-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-protector-solar-fps50-a9c56adcc0b9ebd9ab17616105385166-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-protector-solar-fps50-a9c56adcc0b9ebd9ab17616105385166-1024-1024.webp",
+    "weightKg": 0.08,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-29T03:05:12.000Z",
+    "scrapedAt": "2026-10-15T15:44:24.768Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/the-ordinary-multi-peptide-serum-for-hair-density-596mj/",
+    "productId": 339059176,
+    "name": "The Ordinary Multi-Peptide Serum for Hair Density",
+    "brand": "The Ordinary",
+    "description": "El The Ordinary Multi-Peptide Serum for Hair Density es un tratamiento capilar concentrado que combina péptidos, cafeína y extractos botánicos para fortalecer el cabello, reducir la caída y mejorar su densidad y apariencia de grosor. Es adecuado para todo tipo de cabello, especialmente fino o con adelgazamiento. 60ml",
+    "categories": [
+      "Marcas",
+      "The Ordinary"
+    ],
+    "tags": [
+      "El The Ordinary Multi-Peptide Serum for Hair Density es un tratamiento capilar concentrado que combina péptidos",
+      "cafeína y extractos botánicos para fortalecer el cabello",
+      "especialmente fino o con adelgazamiento.",
+      "reducir la caída y mejorar su densidad y apariencia de grosor.  Es adecuado para todo tipo de cabello"
+    ],
+    "price": 769,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 769,
+    "priceMax": 769,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 64.08,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1506927536,
+        "sku": null,
+        "price": 769,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/the-ordinary-multi-peptide-serum-for-hair-density-02706e7369426cef2617765709847825-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/the-ordinary-multi-peptide-serum-for-hair-density-02706e7369426cef2617765709847825-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/the-ordinary-multi-peptide-serum-for-hair-density-02706e7369426cef2617765709847825-1024-1024.webp",
+    "weightKg": 0.09,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-29T03:03:14.000Z",
+    "scrapedAt": "2026-10-15T15:44:25.299Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/the-ordinary-aha-30-bha-2-peeling-solution-1qcuq/",
@@ -913,70 +1042,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T03:03:19.000Z",
-    "scrapedAt": "2026-10-14T15:58:29.899Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/the-ordinary-multi-peptide-serum-for-hair-density-596mj/",
-    "productId": 339059176,
-    "name": "The Ordinary Multi-Peptide Serum for Hair Density",
-    "brand": "The Ordinary",
-    "description": "El The Ordinary Multi-Peptide Serum for Hair Density es un tratamiento capilar concentrado que combina péptidos, cafeína y extractos botánicos para fortalecer el cabello, reducir la caída y mejorar su densidad y apariencia de grosor. Es adecuado para todo tipo de cabello, especialmente fino o con adelgazamiento. 60ml",
-    "categories": [
-      "Marcas",
-      "The Ordinary"
-    ],
-    "tags": [
-      "El The Ordinary Multi-Peptide Serum for Hair Density es un tratamiento capilar concentrado que combina péptidos",
-      "cafeína y extractos botánicos para fortalecer el cabello",
-      "especialmente fino o con adelgazamiento.",
-      "reducir la caída y mejorar su densidad y apariencia de grosor.  Es adecuado para todo tipo de cabello"
-    ],
-    "price": 769,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 769,
-    "priceMax": 769,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 64.08,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1506927536,
-        "sku": null,
-        "price": 769,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/the-ordinary-multi-peptide-serum-for-hair-density-02706e7369426cef2617765709847825-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/the-ordinary-multi-peptide-serum-for-hair-density-02706e7369426cef2617765709847825-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/the-ordinary-multi-peptide-serum-for-hair-density-02706e7369426cef2617765709847825-1024-1024.webp",
-    "weightKg": 0.09,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-29T03:03:14.000Z",
-    "scrapedAt": "2026-10-14T15:58:30.217Z"
+    "scrapedAt": "2026-10-15T15:44:25.347Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/the-ordinary-acido-salicilico-2-solution-bwt1s/",
@@ -1041,7 +1107,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T03:03:08.000Z",
-    "scrapedAt": "2026-10-14T15:58:30.560Z"
+    "scrapedAt": "2026-10-15T15:44:25.595Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/the-ordinary-caffeine-solution-5-egcg-8uxup/",
@@ -1099,65 +1165,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T03:03:08.000Z",
-    "scrapedAt": "2026-10-14T15:58:30.911Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/the-ordinary-niacinamide-10-zinc-1-xnc02/",
-    "productId": 347209123,
-    "name": "The Ordinary Niacinamide 10% + Zinc 1%",
-    "brand": "The Ordinary",
-    "description": "sérum facial de alta concentración diseñado para equilibrar la producción de sebo, reducir la apariencia de imperfecciones y minimizar los poros visibles. Es uno de los productos más populares y accesibles de la marca, aunque su textura y potencia generan opiniones divididas. 30ml",
-    "categories": [
-      "Marcas",
-      "The Ordinary"
-    ],
-    "tags": [],
-    "price": 299,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 299,
-    "priceMax": 299,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 24.92,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 10,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1533447936,
-        "sku": null,
-        "price": 299,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 10,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/the-ordinary-niacinamida-346dae79f58a25c5cb17800081389541-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/the-ordinary-niacinamida-346dae79f58a25c5cb17800081389541-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/the-ordinary-niacinamida-346dae79f58a25c5cb17800081389541-1024-1024.webp",
-    "weightKg": 0.004,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-29T03:03:03.000Z",
-    "scrapedAt": "2026-10-14T15:58:31.204Z"
+    "scrapedAt": "2026-10-15T15:44:26.275Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/sol-de-janeiro-rio-radiance-lm3y2/",
@@ -1218,68 +1226,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T03:01:55.000Z",
-    "scrapedAt": "2026-10-14T15:58:31.531Z"
+    "scrapedAt": "2026-10-15T15:44:26.664Z"
   },
   {
-    "url": "https://dailyskincaremx.com/productos/sol-de-janeiro-brazilian-crush-cheirosa-68-bhrpj/",
-    "productId": 306839971,
-    "name": "Sol de Janeiro 240 ml / Brazilian Crush Cheirosa 68",
-    "brand": "Sol de Janeiro",
-    "description": "Sol de Janeiro Brazilian Crush Cheirosa 68 es una fragancia corporal en spray que forma parte de la colección Cheirosa 68 de Sol de Janeiro, inspirada en la vibrante energía de las playas brasileñas y las noches de fiesta en Copacabana. 90ml",
+    "url": "https://dailyskincaremx.com/productos/the-ordinary-niacinamide-10-zinc-1-xnc02/",
+    "productId": 347209123,
+    "name": "The Ordinary Niacinamide 10% + Zinc 1%",
+    "brand": "The Ordinary",
+    "description": "sérum facial de alta concentración diseñado para equilibrar la producción de sebo, reducir la apariencia de imperfecciones y minimizar los poros visibles. Es uno de los productos más populares y accesibles de la marca, aunque su textura y potencia generan opiniones divididas. 30ml",
     "categories": [
       "Marcas",
-      "Otras marcas"
+      "The Ordinary"
     ],
-    "tags": [
-      "Sol de Janeiro Brazilian Crush Cheirosa 68 es una fragancia corporal en spray que forma parte de la coleccion Cheirosa 68 de Sol de Janeiro",
-      "inspirada en la vibrante energia de las playas brasilenas y las noches de fiesta en Copacabana."
-    ],
-    "price": 917,
+    "tags": [],
+    "price": 299,
     "compareAtPrice": null,
     "promotionalPrice": null,
     "onSale": false,
     "discountPercent": null,
-    "priceMin": 917,
-    "priceMax": 917,
+    "priceMin": 299,
+    "priceMax": 299,
     "currency": "MXN",
     "installments": {
       "maxInstallments": 24,
       "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 76.42,
+      "interestFreeInstallmentValue": 24.92,
       "processor": "PayPal"
     },
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": 1,
+    "stockTotal": 10,
     "stockUnlimited": false,
     "sku": null,
     "variantCount": 1,
     "variants": [
       {
-        "id": 1363648673,
+        "id": 1533447936,
         "sku": null,
-        "price": 917,
+        "price": 299,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 1,
+        "stock": 10,
         "available": true,
         "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4435-ea3e5809a44f9fb6be17852936068618-1024-1024.webp"
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/the-ordinary-niacinamida-346dae79f58a25c5cb17800081389541-1024-1024.webp"
       }
     ],
     "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4435-ea3e5809a44f9fb6be17852936068618-1024-1024.webp"
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/the-ordinary-niacinamida-346dae79f58a25c5cb17800081389541-1024-1024.webp"
     ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4435-ea3e5809a44f9fb6be17852936068618-1024-1024.webp",
-    "weightKg": 0.1,
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/the-ordinary-niacinamida-346dae79f58a25c5cb17800081389541-1024-1024.webp",
+    "weightKg": 0.004,
     "storeName": "Dailyskincaremx",
     "storeDomain": "dailyskincaremx.com",
     "country": "MX",
     "language": "es_MX",
     "platform": "tiendanube",
     "engine": "classic",
-    "lastModified": "2026-07-29T03:01:45.000Z",
-    "scrapedAt": "2026-10-14T15:58:31.901Z"
+    "lastModified": "2026-07-29T03:03:03.000Z",
+    "scrapedAt": "2026-10-15T15:44:26.843Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/clinique-almost-lipstick-tono-black-honey-azd7i/",
@@ -1342,7 +1347,68 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T02:57:53.000Z",
-    "scrapedAt": "2026-10-14T15:58:32.271Z"
+    "scrapedAt": "2026-10-15T15:44:27.375Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/sol-de-janeiro-brazilian-crush-cheirosa-68-bhrpj/",
+    "productId": 306839971,
+    "name": "Sol de Janeiro 240 ml / Brazilian Crush Cheirosa 68",
+    "brand": "Sol de Janeiro",
+    "description": "Sol de Janeiro Brazilian Crush Cheirosa 68 es una fragancia corporal en spray que forma parte de la colección Cheirosa 68 de Sol de Janeiro, inspirada en la vibrante energía de las playas brasileñas y las noches de fiesta en Copacabana. 90ml",
+    "categories": [
+      "Marcas",
+      "Otras marcas"
+    ],
+    "tags": [
+      "Sol de Janeiro Brazilian Crush Cheirosa 68 es una fragancia corporal en spray que forma parte de la coleccion Cheirosa 68 de Sol de Janeiro",
+      "inspirada en la vibrante energia de las playas brasilenas y las noches de fiesta en Copacabana."
+    ],
+    "price": 917,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 917,
+    "priceMax": 917,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 76.42,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1363648673,
+        "sku": null,
+        "price": 917,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4435-ea3e5809a44f9fb6be17852936068618-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4435-ea3e5809a44f9fb6be17852936068618-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4435-ea3e5809a44f9fb6be17852936068618-1024-1024.webp",
+    "weightKg": 0.1,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-29T03:01:45.000Z",
+    "scrapedAt": "2026-10-15T15:44:27.427Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/clinique-take-the-day-off-makeup-remover-19c2l/",
@@ -1403,67 +1469,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T02:57:48.000Z",
-    "scrapedAt": "2026-10-14T15:58:32.540Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/sephora-paleta-bronze-bronze-glow-arz1f/",
-    "productId": 354449690,
-    "name": "Sephora Paleta Bronze Bronze Glow",
-    "brand": "SEPHORA",
-    "description": "Contenido: Incluye 3 productos en una sola paleta compacta: Bronceador en crema: Acabado mate, se transforma en polvo al aplicarse para esculpir. Bronceador en polvo: Acabado luminoso para calentar el cutis. Iluminador en polvo: Para un toque de luz final. Acabado: Natural y \"sun-kissed\" (besada por el sol), resistente al calor y la humedad.",
-    "categories": [
-      "Marcas",
-      "Makeup / variado"
-    ],
-    "tags": [
-      "El término \"Sephora Bronze Glow\" puede referirse a dos productos principales de la marca Sephora Collection: una paleta de rostro muy popular y un aceite corporal iluminador (a veces discontinuado o bajo nombres variados)."
-    ],
-    "price": 479,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 479,
-    "priceMax": 479,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 39.92,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 2,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1555537267,
-        "sku": null,
-        "price": 479,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 2,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-bronzer-bronzer-glow-973386be1b016e7a7717834723472162-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-bronzer-bronzer-glow-973386be1b016e7a7717834723472162-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-bronzer-bronzer-glow-973386be1b016e7a7717834723472162-1024-1024.webp",
-    "weightKg": 0.2,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-29T02:49:44.000Z",
-    "scrapedAt": "2026-10-14T15:58:32.925Z"
+    "scrapedAt": "2026-10-15T15:44:27.636Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/chi-infra-moisture-therapy-shampoo-1d9sh/",
@@ -1524,7 +1530,67 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T02:47:33.000Z",
-    "scrapedAt": "2026-10-14T15:58:33.163Z"
+    "scrapedAt": "2026-10-15T15:44:28.294Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/sephora-paleta-bronze-bronze-glow-arz1f/",
+    "productId": 354449690,
+    "name": "Sephora Paleta Bronze Bronze Glow",
+    "brand": "SEPHORA",
+    "description": "Contenido: Incluye 3 productos en una sola paleta compacta: Bronceador en crema: Acabado mate, se transforma en polvo al aplicarse para esculpir. Bronceador en polvo: Acabado luminoso para calentar el cutis. Iluminador en polvo: Para un toque de luz final. Acabado: Natural y \"sun-kissed\" (besada por el sol), resistente al calor y la humedad.",
+    "categories": [
+      "Marcas",
+      "Makeup / variado"
+    ],
+    "tags": [
+      "El término \"Sephora Bronze Glow\" puede referirse a dos productos principales de la marca Sephora Collection: una paleta de rostro muy popular y un aceite corporal iluminador (a veces discontinuado o bajo nombres variados)."
+    ],
+    "price": 479,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 479,
+    "priceMax": 479,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 39.92,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 2,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1555537267,
+        "sku": null,
+        "price": 479,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 2,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-bronzer-bronzer-glow-973386be1b016e7a7717834723472162-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-bronzer-bronzer-glow-973386be1b016e7a7717834723472162-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-bronzer-bronzer-glow-973386be1b016e7a7717834723472162-1024-1024.webp",
+    "weightKg": 0.2,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-29T02:49:44.000Z",
+    "scrapedAt": "2026-10-15T15:44:28.388Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/chi-infra-essential-care-pak-eg2yz/",
@@ -1587,68 +1653,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T02:47:12.000Z",
-    "scrapedAt": "2026-10-14T15:58:33.451Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/set-sephora-favorites-prep-set-1m5wr/",
-    "productId": 338194329,
-    "name": "Set Sephora Favorites Prep & Set x KOHL´S",
-    "brand": "SEPHORA",
-    "description": "El Sephora Favorites Prep & Set incluye dos de nuestros productos favoritos, uno en formato mini y tres productos de lujo imprescindibles para los labios, todos ellos repletos de brillo jugoso e hidratación suave. Desde bálsamos deliciosos hasta perfiladores suavizantes, cada producto dejará tus labios con un aspecto voluminoso y brillante. Fenty Beauty: Un iluminador y voluminizador de labios que aporta un ligero toque de color y unos labios de aspecto más voluminoso, en el tono Hot Chocolit, 0,07 fl oz. Kosas: Un tratamiento labial con péptidos, aceite labial y brillo, todo en uno, que rellena e hidrata visiblemente los labios, a la vez que aporta un toque de color jugoso, en el tono Clear, 0,06 fl oz. Lancôme: Un bálsamo labial cremoso e hidratante con escualeno que aporta color y brillo al instante sin pegajosidad, además de hasta 24 horas de hidratación —en el tono Million Dollar Berry, 0,02 fl oz. LYS Beauty: Un bálsamo labial ultranutritivo, de alto brillo y jugoso que hidrata y rellena visiblemente con una sola pasada —en el tono Nude, 0,9 oz. Merit: Un perfilador de labios que no reseca y se puede aplicar en capas, que crea una definición suave o un color transparente y uniforme para unos labios cómodos, hidratados y de aspecto natural —en el tono Capricorn, 0,01 oz. Tatcha: Una deliciosa mascarilla labial en gelatina que actúa durante todo el día o toda la noche para rellenar, hidratar y suavizar, devolviendo la plenitud y la suavidad a los labios secos y escamosos — 0,17 fl oz.",
-    "categories": [
-      "Marcas",
-      "Makeup / variado"
-    ],
-    "tags": [
-      "El Sephora Favorites Prep & Set Makeup and Skincare Value Set es un kit limitado que combina productos de marcas populares para preparar",
-      "perfeccionar y fijar el maquillaje.  Ideal para quienes buscan una rutina completa de prep and set con productos de alta performance"
-    ],
-    "price": 1599,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 1599,
-    "priceMax": 1599,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 133.25,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 2,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1503195457,
-        "sku": null,
-        "price": 1599,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 2,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/set-sephora-favorites-perfect-pout-lip-kit-khols-31780eb9588590299317833920711698-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/set-sephora-favorites-perfect-pout-lip-kit-khols-31780eb9588590299317833920711698-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/set-sephora-favorites-perfect-pout-lip-kit-khols-31780eb9588590299317833920711698-1024-1024.webp",
-    "weightKg": 1,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-29T02:46:27.000Z",
-    "scrapedAt": "2026-10-14T15:58:33.776Z"
+    "scrapedAt": "2026-10-15T15:44:28.924Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/sephora-favorites-clean-me-up-kit-p6pv7/",
@@ -1711,7 +1716,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T02:46:16.000Z",
-    "scrapedAt": "2026-10-14T15:58:34.013Z"
+    "scrapedAt": "2026-10-15T15:44:29.735Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/sephora-favorites-spring-styling-superstars-76scj/",
@@ -1772,7 +1777,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T02:46:16.000Z",
-    "scrapedAt": "2026-10-14T15:58:34.277Z"
+    "scrapedAt": "2026-10-15T15:44:29.814Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/sephora-favorites-prep-set-y39f4/",
@@ -1834,7 +1839,126 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T02:46:11.000Z",
-    "scrapedAt": "2026-10-14T15:58:34.554Z"
+    "scrapedAt": "2026-10-15T15:44:29.990Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/set-sephora-favorites-prep-set-1m5wr/",
+    "productId": 338194329,
+    "name": "Set Sephora Favorites Prep & Set x KOHL´S",
+    "brand": "SEPHORA",
+    "description": "El Sephora Favorites Prep & Set incluye dos de nuestros productos favoritos, uno en formato mini y tres productos de lujo imprescindibles para los labios, todos ellos repletos de brillo jugoso e hidratación suave. Desde bálsamos deliciosos hasta perfiladores suavizantes, cada producto dejará tus labios con un aspecto voluminoso y brillante. Fenty Beauty: Un iluminador y voluminizador de labios que aporta un ligero toque de color y unos labios de aspecto más voluminoso, en el tono Hot Chocolit, 0,07 fl oz. Kosas: Un tratamiento labial con péptidos, aceite labial y brillo, todo en uno, que rellena e hidrata visiblemente los labios, a la vez que aporta un toque de color jugoso, en el tono Clear, 0,06 fl oz. Lancôme: Un bálsamo labial cremoso e hidratante con escualeno que aporta color y brillo al instante sin pegajosidad, además de hasta 24 horas de hidratación —en el tono Million Dollar Berry, 0,02 fl oz. LYS Beauty: Un bálsamo labial ultranutritivo, de alto brillo y jugoso que hidrata y rellena visiblemente con una sola pasada —en el tono Nude, 0,9 oz. Merit: Un perfilador de labios que no reseca y se puede aplicar en capas, que crea una definición suave o un color transparente y uniforme para unos labios cómodos, hidratados y de aspecto natural —en el tono Capricorn, 0,01 oz. Tatcha: Una deliciosa mascarilla labial en gelatina que actúa durante todo el día o toda la noche para rellenar, hidratar y suavizar, devolviendo la plenitud y la suavidad a los labios secos y escamosos — 0,17 fl oz.",
+    "categories": [
+      "Marcas",
+      "Makeup / variado"
+    ],
+    "tags": [
+      "El Sephora Favorites Prep & Set Makeup and Skincare Value Set es un kit limitado que combina productos de marcas populares para preparar",
+      "perfeccionar y fijar el maquillaje.  Ideal para quienes buscan una rutina completa de prep and set con productos de alta performance"
+    ],
+    "price": 1599,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 1599,
+    "priceMax": 1599,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 133.25,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 2,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1503195457,
+        "sku": null,
+        "price": 1599,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 2,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/set-sephora-favorites-perfect-pout-lip-kit-khols-31780eb9588590299317833920711698-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/set-sephora-favorites-perfect-pout-lip-kit-khols-31780eb9588590299317833920711698-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/set-sephora-favorites-perfect-pout-lip-kit-khols-31780eb9588590299317833920711698-1024-1024.webp",
+    "weightKg": 1,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-29T02:46:27.000Z",
+    "scrapedAt": "2026-10-15T15:44:30.166Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/sephora-favorites-vacay-all-day-makeup-and-skincare-value-set-16ma2/",
+    "productId": 347234703,
+    "name": "Sephora Favorites Vacay All Day Makeup and Skincare Value Set",
+    "brand": "SEPHORA",
+    "description": "Contenido del Set Rare Beauty: Gloss labial Positive Light en Glimmer (tamaño completo). Sol de Janeiro: Crema hidratante Rosa Charmosa Dewy Cream (tamaño lujo). REFY: Gloss labial transparente (tamaño mini). Glossier: Bálsamo labial Balm Dotcom en Birthday (tamaño completo). Anastasia Beverly Hills: Gel transparente para cejas (tamaño mini). Huda Beauty: Spray fijador Easy Bake (tamaño mini). Danessa Myricks Beauty: Sérum iluminador Yummy Skin Glow (tamaño lujo). Haus Labs by Lady Gaga: Rubor en crema Color Fuse en Glassy Rosette (tamaño completo). LANEIGE: Crema hidratante Water Bank (tamaño mini).",
+    "categories": [
+      "Marcas",
+      "Makeup / variado"
+    ],
+    "tags": [],
+    "price": 1749,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 1749,
+    "priceMax": 1749,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 145.75,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1533512779,
+        "sku": null,
+        "price": 1749,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-vacay-all-day-7c8b4789fc39e7916817800173347422-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-vacay-all-day-7c8b4789fc39e7916817800173347422-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-vacay-all-day-7c8b4789fc39e7916817800173347422-1024-1024.webp",
+    "weightKg": 0.25,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-29T02:45:50.000Z",
+    "scrapedAt": "2026-10-15T15:44:30.250Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/sephora-favorites-perfect-pout-lip-kit-set-extra-juicy-10lux/",
@@ -1894,65 +2018,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T02:45:54.000Z",
-    "scrapedAt": "2026-10-14T15:58:34.819Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/sephora-favorites-vacay-all-day-makeup-and-skincare-value-set-16ma2/",
-    "productId": 347234703,
-    "name": "Sephora Favorites Vacay All Day Makeup and Skincare Value Set",
-    "brand": "SEPHORA",
-    "description": "Contenido del Set Rare Beauty: Gloss labial Positive Light en Glimmer (tamaño completo). Sol de Janeiro: Crema hidratante Rosa Charmosa Dewy Cream (tamaño lujo). REFY: Gloss labial transparente (tamaño mini). Glossier: Bálsamo labial Balm Dotcom en Birthday (tamaño completo). Anastasia Beverly Hills: Gel transparente para cejas (tamaño mini). Huda Beauty: Spray fijador Easy Bake (tamaño mini). Danessa Myricks Beauty: Sérum iluminador Yummy Skin Glow (tamaño lujo). Haus Labs by Lady Gaga: Rubor en crema Color Fuse en Glassy Rosette (tamaño completo). LANEIGE: Crema hidratante Water Bank (tamaño mini).",
-    "categories": [
-      "Marcas",
-      "Makeup / variado"
-    ],
-    "tags": [],
-    "price": 1749,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 1749,
-    "priceMax": 1749,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 145.75,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1533512779,
-        "sku": null,
-        "price": 1749,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-vacay-all-day-7c8b4789fc39e7916817800173347422-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-vacay-all-day-7c8b4789fc39e7916817800173347422-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-vacay-all-day-7c8b4789fc39e7916817800173347422-1024-1024.webp",
-    "weightKg": 0.25,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-29T02:45:50.000Z",
-    "scrapedAt": "2026-10-14T15:58:35.119Z"
+    "scrapedAt": "2026-10-15T15:44:30.522Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/sephora-favorites-clean-me-up-kit-trousse-rituel-beaute-1080i/",
@@ -2013,67 +2079,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T02:45:29.000Z",
-    "scrapedAt": "2026-10-14T15:58:35.392Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/sephora-favorites-summer-essentials-odkwd/",
-    "productId": 347233596,
-    "name": "Sephora Favorites Summer Essentials",
-    "brand": "SEPHORA",
-    "description": "Contenido del Set Salt & Stone: Desodorante en barra Saffron & Cedar (28 g). Ouai: Champú en seco Super Dry en Cape Town (56 g). LYS Beauty: Spray fijador Skin Loyalty (13 mL). tarte: Bálsamo labial y gloss maracuja en Hibiscus (1.3 g). Charlotte Tilbury: Máscara de pestañas Exagger-eyes Volume (2 mL, tamaño deluxe). PATRICK TA: Duo de rubor en crema y polvo Major Headlines en She’s That Girl (4.2 g).",
-    "categories": [
-      "Marcas",
-      "Makeup / variado"
-    ],
-    "tags": [
-      "Sephora Favorites Summer Essentials On The Go Value Set"
-    ],
-    "price": 1100,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 1100,
-    "priceMax": 1100,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 91.67,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1533510337,
-        "sku": null,
-        "price": 1100,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-set-summer-essentials-73602306b82957f9c817800168113283-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-set-summer-essentials-73602306b82957f9c817800168113283-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-set-summer-essentials-73602306b82957f9c817800168113283-1024-1024.webp",
-    "weightKg": 0.25,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-29T02:45:15.000Z",
-    "scrapedAt": "2026-10-14T15:58:35.669Z"
+    "scrapedAt": "2026-10-15T15:44:30.894Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/patrik-ta-double-take-creme-powder-blush-duo-tono-shes-seductive-17en3/",
@@ -2133,7 +2139,67 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T02:42:39.000Z",
-    "scrapedAt": "2026-10-14T15:58:35.953Z"
+    "scrapedAt": "2026-10-15T15:44:31.103Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/sephora-favorites-summer-essentials-odkwd/",
+    "productId": 347233596,
+    "name": "Sephora Favorites Summer Essentials",
+    "brand": "SEPHORA",
+    "description": "Contenido del Set Salt & Stone: Desodorante en barra Saffron & Cedar (28 g). Ouai: Champú en seco Super Dry en Cape Town (56 g). LYS Beauty: Spray fijador Skin Loyalty (13 mL). tarte: Bálsamo labial y gloss maracuja en Hibiscus (1.3 g). Charlotte Tilbury: Máscara de pestañas Exagger-eyes Volume (2 mL, tamaño deluxe). PATRICK TA: Duo de rubor en crema y polvo Major Headlines en She’s That Girl (4.2 g).",
+    "categories": [
+      "Marcas",
+      "Makeup / variado"
+    ],
+    "tags": [
+      "Sephora Favorites Summer Essentials On The Go Value Set"
+    ],
+    "price": 1100,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 1100,
+    "priceMax": 1100,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 91.67,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1533510337,
+        "sku": null,
+        "price": 1100,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-set-summer-essentials-73602306b82957f9c817800168113283-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-set-summer-essentials-73602306b82957f9c817800168113283-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-set-summer-essentials-73602306b82957f9c817800168113283-1024-1024.webp",
+    "weightKg": 0.25,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-29T02:45:15.000Z",
+    "scrapedAt": "2026-10-15T15:44:31.299Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/victorias-secret-5-pack-pink-wink-lace-trim-cheeky-panties-an3av/",
@@ -2196,7 +2262,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T02:42:04.000Z",
-    "scrapedAt": "2026-10-14T15:58:36.203Z"
+    "scrapedAt": "2026-10-15T15:44:31.722Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/la-roche-posay-effaclar-serum-ultra-concentrado-1fq3s/",
+    "productId": 347194510,
+    "name": "La Roche-Posay Effaclar Sérum Ultra Concentrado",
+    "brand": "LA ROCHE-POSAY",
+    "description": "tratamiento facial de alta eficacia diseñado específicamente para pieles grasas con tendencia acneica, imperfecciones persistentes y marcas residuales. Combina una potente acción exfoliante con ingredientes calmantes para renovar la textura de la piel sin irritarla en exceso. 30ml",
+    "categories": [
+      "Marcas",
+      "La Roche Posay"
+    ],
+    "tags": [],
+    "price": 749,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 749,
+    "priceMax": 749,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 62.42,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 3,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1533404449,
+        "sku": null,
+        "price": 749,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 3,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-effaclr-serum-ultra-concentrado-fce38ea4aaca29a4a717800036840205-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-effaclr-serum-ultra-concentrado-fce38ea4aaca29a4a717800036840205-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-effaclr-serum-ultra-concentrado-fce38ea4aaca29a4a717800036840205-1024-1024.webp",
+    "weightKg": 0.035,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-29T02:35:53.000Z",
+    "scrapedAt": "2026-10-15T15:44:31.935Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/la-roche-posay-serum-retinol-b3-ve6n8/",
@@ -2259,65 +2383,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T02:36:09.000Z",
-    "scrapedAt": "2026-10-14T15:58:36.450Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/la-roche-posay-effaclar-serum-ultra-concentrado-1fq3s/",
-    "productId": 347194510,
-    "name": "La Roche-Posay Effaclar Sérum Ultra Concentrado",
-    "brand": "LA ROCHE-POSAY",
-    "description": "tratamiento facial de alta eficacia diseñado específicamente para pieles grasas con tendencia acneica, imperfecciones persistentes y marcas residuales. Combina una potente acción exfoliante con ingredientes calmantes para renovar la textura de la piel sin irritarla en exceso. 30ml",
-    "categories": [
-      "Marcas",
-      "La Roche Posay"
-    ],
-    "tags": [],
-    "price": 749,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 749,
-    "priceMax": 749,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 62.42,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 3,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1533404449,
-        "sku": null,
-        "price": 749,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-effaclr-serum-ultra-concentrado-fce38ea4aaca29a4a717800036840205-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-effaclr-serum-ultra-concentrado-fce38ea4aaca29a4a717800036840205-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-effaclr-serum-ultra-concentrado-fce38ea4aaca29a4a717800036840205-1024-1024.webp",
-    "weightKg": 0.035,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-29T02:35:53.000Z",
-    "scrapedAt": "2026-10-14T15:58:36.764Z"
+    "scrapedAt": "2026-10-15T15:44:31.984Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/svr-ampoule-b3-hydra-2kzzl/",
@@ -2379,7 +2445,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T02:34:43.000Z",
-    "scrapedAt": "2026-10-14T15:58:36.986Z"
+    "scrapedAt": "2026-10-15T15:44:32.491Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/la-roche-posay-hyalu-b5-serum-de-olhos-17mpb/",
@@ -2439,7 +2505,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-29T02:34:00.000Z",
-    "scrapedAt": "2026-10-14T15:58:37.315Z"
+    "scrapedAt": "2026-10-15T15:44:32.843Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bioderma-sebium-pore-refiner-9qsxg/",
@@ -2498,7 +2564,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T21:51:16.000Z",
-    "scrapedAt": "2026-10-14T15:58:37.572Z"
+    "scrapedAt": "2026-10-15T15:44:33.029Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eucerin-aquaphor-reparacion-de-labios-s-o-s-10ml-f165q/",
@@ -2560,7 +2626,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T21:51:05.000Z",
-    "scrapedAt": "2026-10-14T15:58:37.829Z"
+    "scrapedAt": "2026-10-15T15:44:33.258Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/cerave-locion-hidratante-1y1no/",
@@ -2620,7 +2686,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T21:50:56.000Z",
-    "scrapedAt": "2026-10-14T15:58:38.183Z"
+    "scrapedAt": "2026-10-15T15:44:33.633Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eucerin-dermopure-clinical-piel-grasa-set-3pz-6fswu/",
@@ -2682,7 +2748,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T21:43:07.000Z",
-    "scrapedAt": "2026-10-14T15:58:38.455Z"
+    "scrapedAt": "2026-10-15T15:44:33.955Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/mielle-organics-rosemary-mint-scalp-hair-strengthening-oil-u2er5/",
@@ -2743,7 +2809,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T21:36:28.000Z",
-    "scrapedAt": "2026-10-14T15:58:38.708Z"
+    "scrapedAt": "2026-10-15T15:44:34.161Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/e-l-f-soft-glam-cream-blush-tono-muted-mauvemuted-mauve-1upmp/",
@@ -2804,7 +2870,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T21:32:04.000Z",
-    "scrapedAt": "2026-10-14T15:58:39.025Z"
+    "scrapedAt": "2026-10-15T15:44:34.511Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/victorias-secret-pink-5-pack-no-show-thong-panties-fe8f9/",
@@ -2867,68 +2933,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T21:31:37.000Z",
-    "scrapedAt": "2026-10-14T15:58:39.283Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/victorias-secret-pink-5-pack-no-show-thong-panties-1ixae/",
-    "productId": 357879636,
-    "name": "Victoria´s Secret PINK 5-Pack No-Show Thong Panties",
-    "brand": "victoria secret",
-    "description": "Marcas mínimas bajo la ropa Apenas se notan, pero son una GRAN ventaja para tu rotación de ropa interior. Te volverás tan adicta a ellas que te preguntarás cómo te vestías antes sin ellas (y te alegrarás mucho de haber comprado más de un par). 5 por paquete Tejido suave y elástico Detalles con el logotipo de PINK Los bordes sin rematar son casi invisibles bajo la ropa Refuerzo 100 % algodón Talla L.",
-    "categories": [
-      "Marcas",
-      "Otras marcas"
-    ],
-    "tags": [
-      "Marcas mínimas bajo la ropa  Apenas se notan",
-      "pero son una GRAN ventaja para tu rotación de ropa interior. Te volverás tan adicta a ellas que te preguntarás cómo te vestías antes sin ellas (y te alegrarás mucho de haber comprado más de un par)."
-    ],
-    "price": 499,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 499,
-    "priceMax": 499,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 41.58,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1566260573,
-        "sku": null,
-        "price": 499,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/victoria-secret-pack-5-thong-a4ff84d46a7b53474217851756116513-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/victoria-secret-pack-5-thong-a4ff84d46a7b53474217851756116513-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/victoria-secret-pack-5-thong-a4ff84d46a7b53474217851756116513-1024-1024.webp",
-    "weightKg": null,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-28T21:31:35.000Z",
-    "scrapedAt": "2026-10-14T15:58:39.582Z"
+    "scrapedAt": "2026-10-15T15:44:34.793Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/victorias-secret-5-pack-no-show-cheeky-panties-1v321/",
@@ -2989,7 +2994,68 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T21:31:32.000Z",
-    "scrapedAt": "2026-10-14T15:58:39.837Z"
+    "scrapedAt": "2026-10-15T15:44:34.982Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/victorias-secret-pink-5-pack-no-show-thong-panties-1ixae/",
+    "productId": 357879636,
+    "name": "Victoria´s Secret PINK 5-Pack No-Show Thong Panties",
+    "brand": "victoria secret",
+    "description": "Marcas mínimas bajo la ropa Apenas se notan, pero son una GRAN ventaja para tu rotación de ropa interior. Te volverás tan adicta a ellas que te preguntarás cómo te vestías antes sin ellas (y te alegrarás mucho de haber comprado más de un par). 5 por paquete Tejido suave y elástico Detalles con el logotipo de PINK Los bordes sin rematar son casi invisibles bajo la ropa Refuerzo 100 % algodón Talla L.",
+    "categories": [
+      "Marcas",
+      "Otras marcas"
+    ],
+    "tags": [
+      "Marcas mínimas bajo la ropa  Apenas se notan",
+      "pero son una GRAN ventaja para tu rotación de ropa interior. Te volverás tan adicta a ellas que te preguntarás cómo te vestías antes sin ellas (y te alegrarás mucho de haber comprado más de un par)."
+    ],
+    "price": 499,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 499,
+    "priceMax": 499,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 41.58,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1566260573,
+        "sku": null,
+        "price": 499,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/victoria-secret-pack-5-thong-a4ff84d46a7b53474217851756116513-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/victoria-secret-pack-5-thong-a4ff84d46a7b53474217851756116513-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/victoria-secret-pack-5-thong-a4ff84d46a7b53474217851756116513-1024-1024.webp",
+    "weightKg": null,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-28T21:31:35.000Z",
+    "scrapedAt": "2026-10-15T15:44:35.046Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/la-roche-posay-anthelios-uvair-serum-spf-50-tono-medio-8wa1n/",
@@ -3020,7 +3086,7 @@
     },
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": 8,
+    "stockTotal": 6,
     "stockUnlimited": false,
     "sku": null,
     "variantCount": 1,
@@ -3031,7 +3097,7 @@
         "price": 629,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 8,
+        "stock": 6,
         "available": true,
         "attributes": {},
         "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-anthelios-uvair-serum-tono-medio-0af6bbdddda7f4575817850909077910-1024-1024.webp"
@@ -3049,7 +3115,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T21:09:48.000Z",
-    "scrapedAt": "2026-10-14T15:58:40.089Z"
+    "scrapedAt": "2026-10-15T15:44:35.252Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bioderma-photoderm-dry-touch-fps50-muy-claro-mqp00/",
@@ -3110,69 +3176,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T21:07:16.000Z",
-    "scrapedAt": "2026-10-14T15:58:40.246Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/isdin-fusion-water-magic-spf-50-4114l/",
-    "productId": 306493144,
-    "name": "ISDIN Fusion Water Magic SPF 50+",
-    "brand": "ISDIN",
-    "description": "ISDIN Fotoprotector Fusion Water Magic Repair SPF 50 es un protector solar facial de fase acuosa y textura ultraligera, diseñado para uso diario en todo tipo de pieles, incluidas las sensibles. SPF 50+ con protección amplia contra UVA, UVB, luz visible y polución. Triple acción antifotoenvejecimiento: protege, repara y revierte signos de envejecimiento solar. 50ml.",
-    "categories": [
-      "Marcas",
-      "Isdin"
-    ],
-    "tags": [
-      "ISDIN Fotoprotector Fusion Water Magic Repair SPF 50 es un protector solar facial de fase acuosa y textura ultraligera",
-      "disenado para uso diario en todo tipo de pieles",
-      "incluidas las sensibles."
-    ],
-    "price": 567,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 567,
-    "priceMax": 567,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 47.25,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 14,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1362449279,
-        "sku": null,
-        "price": 567,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 14,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/isdin-fusion-water-magic-protector-877b31f94e37c2583617628746718883-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/isdin-fusion-water-magic-protector-877b31f94e37c2583617628746718883-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/isdin-fusion-water-magic-protector-877b31f94e37c2583617628746718883-1024-1024.webp",
-    "weightKg": 0.06,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-28T21:06:50.000Z",
-    "scrapedAt": "2026-10-14T15:58:40.469Z"
+    "scrapedAt": "2026-10-15T15:44:35.784Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eucerin-sun-hydro-protect-fluid-tinted-tono-claro-11jlk/",
@@ -3233,7 +3237,69 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T21:06:20.000Z",
-    "scrapedAt": "2026-10-14T15:58:40.740Z"
+    "scrapedAt": "2026-10-15T15:44:35.833Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/isdin-fusion-water-magic-spf-50-4114l/",
+    "productId": 306493144,
+    "name": "ISDIN Fusion Water Magic SPF 50+",
+    "brand": "ISDIN",
+    "description": "ISDIN Fotoprotector Fusion Water Magic Repair SPF 50 es un protector solar facial de fase acuosa y textura ultraligera, diseñado para uso diario en todo tipo de pieles, incluidas las sensibles. SPF 50+ con protección amplia contra UVA, UVB, luz visible y polución. Triple acción antifotoenvejecimiento: protege, repara y revierte signos de envejecimiento solar. 50ml.",
+    "categories": [
+      "Marcas",
+      "Isdin"
+    ],
+    "tags": [
+      "ISDIN Fotoprotector Fusion Water Magic Repair SPF 50 es un protector solar facial de fase acuosa y textura ultraligera",
+      "disenado para uso diario en todo tipo de pieles",
+      "incluidas las sensibles."
+    ],
+    "price": 567,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 567,
+    "priceMax": 567,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 47.25,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 13,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1362449279,
+        "sku": null,
+        "price": 567,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 13,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/isdin-fusion-water-magic-protector-877b31f94e37c2583617628746718883-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/isdin-fusion-water-magic-protector-877b31f94e37c2583617628746718883-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/isdin-fusion-water-magic-protector-877b31f94e37c2583617628746718883-1024-1024.webp",
+    "weightKg": 0.06,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-28T21:06:50.000Z",
+    "scrapedAt": "2026-10-15T15:44:36.030Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eucerin-anti-brillo-oil-control-para-piel-mixta-a-grasa-5okbt/",
@@ -3266,7 +3332,7 @@
     },
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": 24,
+    "stockTotal": 21,
     "stockUnlimited": false,
     "sku": null,
     "variantCount": 1,
@@ -3277,7 +3343,7 @@
         "price": 589,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 24,
+        "stock": 21,
         "available": true,
         "attributes": {},
         "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-anti-brillo-oil-control-para-piel-mixta-a-grasa-91c78c32a75201d60417761406808218-1024-1024.webp"
@@ -3295,7 +3361,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T21:06:03.000Z",
-    "scrapedAt": "2026-10-14T15:58:40.948Z"
+    "scrapedAt": "2026-10-15T15:44:36.121Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eucerin-sun-gel-cream-oil-control-tinted-tono-medio-eyzl6/",
@@ -3324,7 +3390,7 @@
     },
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": 3,
+    "stockTotal": 1,
     "stockUnlimited": false,
     "sku": null,
     "variantCount": 1,
@@ -3335,7 +3401,7 @@
         "price": 569,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 3,
+        "stock": 1,
         "available": true,
         "attributes": {},
         "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-oil-control-tono-medio-b0d15831f3e3a8ce0617800062412489-1024-1024.webp"
@@ -3353,7 +3419,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T21:05:57.000Z",
-    "scrapedAt": "2026-10-14T15:58:41.224Z"
+    "scrapedAt": "2026-10-15T15:44:36.652Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/vichy-dercos-technique-shampoo-anticaspa-mas-refill-pack-10p2t/",
@@ -3416,7 +3482,67 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T21:02:50.000Z",
-    "scrapedAt": "2026-10-14T15:58:41.535Z"
+    "scrapedAt": "2026-10-15T15:44:36.975Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/eucerin-aquaphor-pomada-reparadora-1my9b/",
+    "productId": 357846678,
+    "name": "Eucerin Aquaphor Pomada Reparadora 45 ml",
+    "brand": "Eucerin",
+    "description": "Esta pomada actúa creando una barrera protectora semipermeable que permite a la piel respirar mientras retiene la humedad necesaria para regenerarse. Reparación Acelerada: Contiene Pantenol (Provitamina B5) y Glicerina, ingredientes que clínicamente aceleran la renovación de la piel y calman la irritación. Versatilidad: Es ideal para zonas localizadas extremadamente secas como codos, rodillas, nudillos, talones agrietados y cutículas. 45ml",
+    "categories": [
+      "Marcas",
+      "Eucerin"
+    ],
+    "tags": [
+      "Esta pomada actúa creando una barrera protectora semipermeable que permite a la piel respirar mientras retiene la humedad necesaria para regenerarse."
+    ],
+    "price": 149,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 149,
+    "priceMax": 149,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 18,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 12.42,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 5,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1566143761,
+        "sku": null,
+        "price": 149,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 5,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-aquaphor-pomada-hidratante-cc1e085f71ce08c49b17851698183421-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-aquaphor-pomada-hidratante-cc1e085f71ce08c49b17851698183421-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-aquaphor-pomada-hidratante-cc1e085f71ce08c49b17851698183421-1024-1024.webp",
+    "weightKg": 0.07,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-28T21:02:29.000Z",
+    "scrapedAt": "2026-10-15T15:44:37.058Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eucerin-hyaluron-filler-3x-effect-crema-de-dia-1v1cp/",
@@ -3479,67 +3605,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T21:02:36.000Z",
-    "scrapedAt": "2026-10-14T15:58:41.683Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/eucerin-aquaphor-pomada-reparadora-1my9b/",
-    "productId": 357846678,
-    "name": "Eucerin Aquaphor Pomada Reparadora 45 ml",
-    "brand": "Eucerin",
-    "description": "Esta pomada actúa creando una barrera protectora semipermeable que permite a la piel respirar mientras retiene la humedad necesaria para regenerarse. Reparación Acelerada: Contiene Pantenol (Provitamina B5) y Glicerina, ingredientes que clínicamente aceleran la renovación de la piel y calman la irritación. Versatilidad: Es ideal para zonas localizadas extremadamente secas como codos, rodillas, nudillos, talones agrietados y cutículas. 45ml",
-    "categories": [
-      "Marcas",
-      "Eucerin"
-    ],
-    "tags": [
-      "Esta pomada actúa creando una barrera protectora semipermeable que permite a la piel respirar mientras retiene la humedad necesaria para regenerarse."
-    ],
-    "price": 149,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 149,
-    "priceMax": 149,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 18,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 12.42,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 5,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1566143761,
-        "sku": null,
-        "price": 149,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 5,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-aquaphor-pomada-hidratante-cc1e085f71ce08c49b17851698183421-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-aquaphor-pomada-hidratante-cc1e085f71ce08c49b17851698183421-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-aquaphor-pomada-hidratante-cc1e085f71ce08c49b17851698183421-1024-1024.webp",
-    "weightKg": 0.07,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-28T21:02:29.000Z",
-    "scrapedAt": "2026-10-14T15:58:41.905Z"
+    "scrapedAt": "2026-10-15T15:44:37.165Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eucerin-pack-de-limpieza-facial-dermatologica-eo2eh/",
@@ -3599,7 +3665,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T21:01:45.000Z",
-    "scrapedAt": "2026-10-14T15:58:42.168Z"
+    "scrapedAt": "2026-10-15T15:44:37.749Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/svr-sebiaclear-tratamiento-mat-pores-con-el-gel-moussant-1jv25/",
@@ -3659,7 +3725,68 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T21:01:12.000Z",
-    "scrapedAt": "2026-10-14T15:58:42.376Z"
+    "scrapedAt": "2026-10-15T15:44:37.859Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/mac-studio-fix-powder-plus-foundation-tono-nc16-rlc97/",
+    "productId": 357898086,
+    "name": "MAC Studio Fix Powder Plus Foundation- tono NC16",
+    "brand": "MAC",
+    "description": "MAC Studio Fix Powder Plus Foundation- tono NC16 es una base en polvo compacto diseñada para pieles claras con subtonos neutros-fríos (que en la nomenclatura de MAC corresponden a tonos amarillos, dorados o melocotón). Es ideal para personas con piel clara que no tienen un rosado evidente, sino que tienden al beige dorado o melocotón. Si tu piel tiene subtonos rosados, el tono equivalente sería el NW15 (Neutral Warm), que es el opuesto en la gama de MAC. NC (Neutral Cool): Indica un subtono \"frío\" en la rueda de color artística de MAC, lo que paradójicamente significa que está formulado para neutralizar o igualar pieles con matices amarillos, dorados o melocotón. 16: Indica la profundidad del color, situándose en la gama de pieles claras (light). Es ligeramente más oscuro que el NC15.",
+    "categories": [
+      "Marcas",
+      "Makeup / variado"
+    ],
+    "tags": [
+      "MAC Studio Fix Powder Plus Foundation- tono NC16 es una base en polvo compacto diseñada para pieles claras con subtonos neutros-fríos (que en la nomenclatura de MAC corresponden a tonos amarillos",
+      "dorados o melocotón)."
+    ],
+    "price": 619,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 619,
+    "priceMax": 619,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 51.58,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 3,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1566321043,
+        "sku": null,
+        "price": 619,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 3,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4432-e65167d16d59884f2317852928702464-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4432-e65167d16d59884f2317852928702464-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4432-e65167d16d59884f2317852928702464-1024-1024.webp",
+    "weightKg": 0.2,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-28T20:17:37.000Z",
+    "scrapedAt": "2026-10-15T15:44:37.983Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/svr-topialyse-huile-lavante-1mqpj/",
@@ -3723,68 +3850,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T21:01:07.000Z",
-    "scrapedAt": "2026-10-14T15:58:42.598Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/mac-studio-fix-powder-plus-foundation-tono-nc16-rlc97/",
-    "productId": 357898086,
-    "name": "MAC Studio Fix Powder Plus Foundation- tono NC16",
-    "brand": "MAC",
-    "description": "MAC Studio Fix Powder Plus Foundation- tono NC16 es una base en polvo compacto diseñada para pieles claras con subtonos neutros-fríos (que en la nomenclatura de MAC corresponden a tonos amarillos, dorados o melocotón). Es ideal para personas con piel clara que no tienen un rosado evidente, sino que tienden al beige dorado o melocotón. Si tu piel tiene subtonos rosados, el tono equivalente sería el NW15 (Neutral Warm), que es el opuesto en la gama de MAC. NC (Neutral Cool): Indica un subtono \"frío\" en la rueda de color artística de MAC, lo que paradójicamente significa que está formulado para neutralizar o igualar pieles con matices amarillos, dorados o melocotón. 16: Indica la profundidad del color, situándose en la gama de pieles claras (light). Es ligeramente más oscuro que el NC15.",
-    "categories": [
-      "Marcas",
-      "Makeup / variado"
-    ],
-    "tags": [
-      "MAC Studio Fix Powder Plus Foundation- tono NC16 es una base en polvo compacto diseñada para pieles claras con subtonos neutros-fríos (que en la nomenclatura de MAC corresponden a tonos amarillos",
-      "dorados o melocotón)."
-    ],
-    "price": 619,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 619,
-    "priceMax": 619,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 51.58,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 3,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1566321043,
-        "sku": null,
-        "price": 619,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4432-e65167d16d59884f2317852928702464-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4432-e65167d16d59884f2317852928702464-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4432-e65167d16d59884f2317852928702464-1024-1024.webp",
-    "weightKg": 0.2,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-28T20:17:37.000Z",
-    "scrapedAt": "2026-10-14T15:58:42.873Z"
+    "scrapedAt": "2026-10-15T15:44:38.261Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/marc-jacobs-perfect-daisy-wild-eau-de-parfum-mini-splash-set-1q06v/",
@@ -3844,7 +3910,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T20:17:16.000Z",
-    "scrapedAt": "2026-10-14T15:58:43.065Z"
+    "scrapedAt": "2026-10-15T15:44:38.612Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/flash-eyelash-serum-8jhmg/",
@@ -3906,7 +3972,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T20:16:45.000Z",
-    "scrapedAt": "2026-10-14T15:58:43.304Z"
+    "scrapedAt": "2026-10-15T15:44:38.823Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/ogx-coconut-miracle-oil-lh2za/",
@@ -3966,68 +4032,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T20:16:40.000Z",
-    "scrapedAt": "2026-10-14T15:58:43.520Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/mac-studio-radiance-serum-powered-foundation-tono-nc18-cn9q4/",
-    "productId": 357912044,
-    "name": "MAC Studio Radiance Serum-Powered Foundation- tono NC18",
-    "brand": "MAC",
-    "description": "MAC Studio Radiance Serum-Powered Foundation- tono NC18 es una base líquida híbrida que combina maquillaje con un alto porcentaje de ingredientes de cuidado de la piel, diseñada específicamente para aportar hidratación intensa y un acabado luminoso natural. Posicionamiento: Se sitúa entre el NC17 (beige claro neutro) y el NC20 (beige claro neutro-dorado). Es ligeramente más oscuro y neutro que el popular NC15/NC16. Subtono: Al ser \"Neutral\" dentro de la gama NC (que en MAC suele indicar subtonos amarillos/dorados), el NC18 es ideal para pieles claras que no son excesivamente amarillas ni rosadas, buscando un equilibrio natural que no oxide ni se vea naranja. Comparativa: Si usas NC15 en la base Studio Fix, es posible que el NC18 en esta fórmula sea tu match perfecto, ya que las bases con sérum tienden a ser ligeramente más translúcidas y los tonos pueden leerse de forma diferente al mezclarse con la hidratación de la piel.",
-    "categories": [
-      "Marcas",
-      "Makeup / variado"
-    ],
-    "tags": [
-      "MAC Studio Radiance Serum-Powered Foundation- tono NC18 es una base líquida híbrida que combina maquillaje con un alto porcentaje de ingredientes de cuidado de la piel",
-      "diseñada específicamente para aportar hidratación intensa y un acabado luminoso natural."
-    ],
-    "price": 662,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 662,
-    "priceMax": 662,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 55.17,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1566361034,
-        "sku": null,
-        "price": 662,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4429-29c96f04ffb223615617852927714574-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4429-29c96f04ffb223615617852927714574-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4429-29c96f04ffb223615617852927714574-1024-1024.webp",
-    "weightKg": 0.1,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-28T20:13:15.000Z",
-    "scrapedAt": "2026-10-14T15:58:43.760Z"
+    "scrapedAt": "2026-10-15T15:44:38.987Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/chi-infra-silk-infusion-tratamiento-capilar-oude6/",
@@ -4092,7 +4097,128 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T20:12:31.000Z",
-    "scrapedAt": "2026-10-14T15:58:43.999Z"
+    "scrapedAt": "2026-10-15T15:44:39.141Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/mac-studio-radiance-serum-powered-foundation-tono-nc18-cn9q4/",
+    "productId": 357912044,
+    "name": "MAC Studio Radiance Serum-Powered Foundation- tono NC18",
+    "brand": "MAC",
+    "description": "MAC Studio Radiance Serum-Powered Foundation- tono NC18 es una base líquida híbrida que combina maquillaje con un alto porcentaje de ingredientes de cuidado de la piel, diseñada específicamente para aportar hidratación intensa y un acabado luminoso natural. Posicionamiento: Se sitúa entre el NC17 (beige claro neutro) y el NC20 (beige claro neutro-dorado). Es ligeramente más oscuro y neutro que el popular NC15/NC16. Subtono: Al ser \"Neutral\" dentro de la gama NC (que en MAC suele indicar subtonos amarillos/dorados), el NC18 es ideal para pieles claras que no son excesivamente amarillas ni rosadas, buscando un equilibrio natural que no oxide ni se vea naranja. Comparativa: Si usas NC15 en la base Studio Fix, es posible que el NC18 en esta fórmula sea tu match perfecto, ya que las bases con sérum tienden a ser ligeramente más translúcidas y los tonos pueden leerse de forma diferente al mezclarse con la hidratación de la piel.",
+    "categories": [
+      "Marcas",
+      "Makeup / variado"
+    ],
+    "tags": [
+      "MAC Studio Radiance Serum-Powered Foundation- tono NC18 es una base líquida híbrida que combina maquillaje con un alto porcentaje de ingredientes de cuidado de la piel",
+      "diseñada específicamente para aportar hidratación intensa y un acabado luminoso natural."
+    ],
+    "price": 662,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 662,
+    "priceMax": 662,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 55.17,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1566361034,
+        "sku": null,
+        "price": 662,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4429-29c96f04ffb223615617852927714574-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4429-29c96f04ffb223615617852927714574-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4429-29c96f04ffb223615617852927714574-1024-1024.webp",
+    "weightKg": 0.1,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-28T20:13:15.000Z",
+    "scrapedAt": "2026-10-15T15:44:39.278Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/patrick-ta-mini-must-have-blush-duo-set-78n86/",
+    "productId": 357927545,
+    "name": "Patrick Ta Mini Must-Have Blush Duo Set",
+    "brand": "Patrick Ta",
+    "description": "Patrick Ta Mini Must-Have Blush Duo Set es un set de edición limitada lanzado en 2026 que incluye dos de los rubores dúo (crema + polvo) más icónicos de la marca en formato de viaje. Es ideal para probar los tonos bestseller o para llevar en el bolso. Este kit de valor incluye dos compactos miniatura, cada uno con su fórmula característica de crema y polvo en un solo estuche con espejo: She Goes To The Gym: Un tono rosa malva frío (cool mauve rose). Es un color natural y fresco que imita el sonrojo después del ejercicio, ideal para pieles claras a medias con subtonos fríos o neutros. She’s Seductive: Un tono rosa malva cálido (warm mauve rose). Aporta un toque más terroso y romántico, favorecedor para pieles con subtonos cálidos o dorados.",
+    "categories": [
+      "Marcas",
+      "Makeup / variado"
+    ],
+    "tags": [
+      "Patrick Ta Mini Must-Have Blush Duo Set  es un set de edición limitada lanzado en 2026 que incluye dos de los rubores dúo (crema + polvo) más icónicos de la marca en formato de viaje."
+    ],
+    "price": 1283,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 1283,
+    "priceMax": 1283,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 106.92,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 2,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1566409839,
+        "sku": null,
+        "price": 1283,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 2,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/patrick-ta-blush-duo-pack-9cd80794b68eb5ee4617851877217735-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/patrick-ta-blush-duo-pack-9cd80794b68eb5ee4617851877217735-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/patrick-ta-blush-duo-pack-9cd80794b68eb5ee4617851877217735-1024-1024.webp",
+    "weightKg": 0.4,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-28T20:12:15.000Z",
+    "scrapedAt": "2026-10-15T15:44:39.640Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/loreal-elvive-oleo-extraordinario-tratamiento-nutricion-16g22/",
@@ -4153,67 +4279,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T20:12:23.000Z",
-    "scrapedAt": "2026-10-14T15:58:44.213Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/patrick-ta-mini-must-have-blush-duo-set-78n86/",
-    "productId": 357927545,
-    "name": "Patrick Ta Mini Must-Have Blush Duo Set",
-    "brand": "Patrick Ta",
-    "description": "Patrick Ta Mini Must-Have Blush Duo Set es un set de edición limitada lanzado en 2026 que incluye dos de los rubores dúo (crema + polvo) más icónicos de la marca en formato de viaje. Es ideal para probar los tonos bestseller o para llevar en el bolso. Este kit de valor incluye dos compactos miniatura, cada uno con su fórmula característica de crema y polvo en un solo estuche con espejo: She Goes To The Gym: Un tono rosa malva frío (cool mauve rose). Es un color natural y fresco que imita el sonrojo después del ejercicio, ideal para pieles claras a medias con subtonos fríos o neutros. She’s Seductive: Un tono rosa malva cálido (warm mauve rose). Aporta un toque más terroso y romántico, favorecedor para pieles con subtonos cálidos o dorados.",
-    "categories": [
-      "Marcas",
-      "Makeup / variado"
-    ],
-    "tags": [
-      "Patrick Ta Mini Must-Have Blush Duo Set  es un set de edición limitada lanzado en 2026 que incluye dos de los rubores dúo (crema + polvo) más icónicos de la marca en formato de viaje."
-    ],
-    "price": 1283,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 1283,
-    "priceMax": 1283,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 106.92,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 2,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1566409839,
-        "sku": null,
-        "price": 1283,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 2,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/patrick-ta-blush-duo-pack-9cd80794b68eb5ee4617851877217735-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/patrick-ta-blush-duo-pack-9cd80794b68eb5ee4617851877217735-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/patrick-ta-blush-duo-pack-9cd80794b68eb5ee4617851877217735-1024-1024.webp",
-    "weightKg": 0.4,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-28T20:12:15.000Z",
-    "scrapedAt": "2026-10-14T15:58:44.468Z"
+    "scrapedAt": "2026-10-15T15:44:39.694Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/cetaphil-toallitas-de-limpieza-facial-para-piel-sensible-odwaa/",
@@ -4275,7 +4341,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-28T00:01:57.000Z",
-    "scrapedAt": "2026-10-14T15:58:44.707Z"
+    "scrapedAt": "2026-10-15T15:44:39.828Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/avene-cleanance-gel-nettoyant-15r42/",
@@ -4336,7 +4402,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-26T19:23:23.000Z",
-    "scrapedAt": "2026-10-14T15:58:44.932Z"
+    "scrapedAt": "2026-10-15T15:44:40.061Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/e-l-f-sheer-for-it-blush-tint-tono-surgun-did-that-6mbfl/",
@@ -4397,7 +4463,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T17:26:08.000Z",
-    "scrapedAt": "2026-10-14T15:58:45.404Z"
+    "scrapedAt": "2026-10-15T15:44:40.799Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/e-l-f-sheer-for-it-blush-tint-tono-mauve-actualy-xf09n/",
@@ -4458,7 +4524,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T17:21:05.000Z",
-    "scrapedAt": "2026-10-14T15:58:45.618Z"
+    "scrapedAt": "2026-10-15T15:44:41.083Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/e-l-f-sheer-for-it-blush-tint-tono-left-on-red-1yqo4/",
@@ -4519,7 +4585,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:38:23.000Z",
-    "scrapedAt": "2026-10-14T15:58:45.816Z"
+    "scrapedAt": "2026-10-15T15:44:41.318Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-forever-red-zp88g/",
@@ -4579,7 +4645,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:19:44.000Z",
-    "scrapedAt": "2026-10-14T15:58:46.014Z"
+    "scrapedAt": "2026-10-15T15:44:41.443Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-sweet-pea-5ptdd/",
@@ -4639,7 +4705,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:19:37.000Z",
-    "scrapedAt": "2026-10-14T15:58:46.213Z"
+    "scrapedAt": "2026-10-15T15:44:41.636Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-poppy-d417i/",
@@ -4699,7 +4765,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:19:35.000Z",
-    "scrapedAt": "2026-10-14T15:58:46.388Z"
+    "scrapedAt": "2026-10-15T15:44:41.857Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-hello-hapiness-zpgmd/",
@@ -4759,7 +4825,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:19:34.000Z",
-    "scrapedAt": "2026-10-14T15:58:46.620Z"
+    "scrapedAt": "2026-10-15T15:44:42.007Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-be-enchanted-1vk28/",
@@ -4819,7 +4885,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:19:34.000Z",
-    "scrapedAt": "2026-10-14T15:58:46.870Z"
+    "scrapedAt": "2026-10-15T15:44:42.242Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-saltwater-breezy-19i60/",
@@ -4879,7 +4945,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:19:32.000Z",
-    "scrapedAt": "2026-10-14T15:58:46.975Z"
+    "scrapedAt": "2026-10-15T15:44:42.414Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-wrapped-in-vanilla-z6yup/",
@@ -4939,7 +5005,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:19:29.000Z",
-    "scrapedAt": "2026-10-14T15:58:47.148Z"
+    "scrapedAt": "2026-10-15T15:44:42.587Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-warm-musk-1xx25/",
@@ -4999,7 +5065,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:19:25.000Z",
-    "scrapedAt": "2026-10-14T15:58:47.358Z"
+    "scrapedAt": "2026-10-15T15:44:42.826Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-blush-cardigan-gt56l/",
@@ -5059,7 +5125,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:19:24.000Z",
-    "scrapedAt": "2026-10-14T15:58:47.564Z"
+    "scrapedAt": "2026-10-15T15:44:43.036Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-vanilla-ease-xmrtq/",
@@ -5119,7 +5185,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:19:24.000Z",
-    "scrapedAt": "2026-10-14T15:58:47.761Z"
+    "scrapedAt": "2026-10-15T15:44:43.207Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-chocolate-amber-1dwp3/",
@@ -5179,7 +5245,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:19:19.000Z",
-    "scrapedAt": "2026-10-14T15:58:47.932Z"
+    "scrapedAt": "2026-10-15T15:44:43.409Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-dream-bright-16ujn/",
@@ -5239,7 +5305,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:19:18.000Z",
-    "scrapedAt": "2026-10-14T15:58:48.117Z"
+    "scrapedAt": "2026-10-15T15:44:43.533Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-fresh-musk-14048/",
@@ -5299,7 +5365,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:19:17.000Z",
-    "scrapedAt": "2026-10-14T15:58:48.317Z"
+    "scrapedAt": "2026-10-15T15:44:43.902Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-fruty-musk-1dlrr/",
@@ -5359,67 +5425,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:19:15.000Z",
-    "scrapedAt": "2026-10-14T15:58:48.521Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-meet-me-in-miami-z46hh/",
-    "productId": 357143493,
-    "name": "Bath & Body Works Fine Fragrance Mist Aroma- Meet me in Miami",
-    "brand": " Bath &amp; Body Works",
-    "description": "Es una fragancia tropical y vibrante, descrita oficialmente como \"un escape vacacional en una botella\". Notas Oficiales: Palmeras con brisa (breezy palm trees), coladas de cabaña (cabana coladas) y días bronceados (sun-tanned days). Notas Reales Percibidas: Agua de coco, tangerina, loto blanco, y una nota dominante de coco cremoso y plumeria. 236ml",
-    "categories": [
-      "Marcas",
-      "Makeup / variado"
-    ],
-    "tags": [
-      "El producto ofrece una gran cobertura y está formulado con aloe acondicionador para nutrir la piel mientras perfuma.  Es libre de parabenos y no testado en animales."
-    ],
-    "price": 345,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 345,
-    "priceMax": 345,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 28.75,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1563953869,
-        "sku": "",
-        "price": 345,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/fragancia-forever-meet-me-in-miami-152666989265a4c79417847667863975-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/fragancia-forever-meet-me-in-miami-152666989265a4c79417847667863975-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/fragancia-forever-meet-me-in-miami-152666989265a4c79417847667863975-1024-1024.webp",
-    "weightKg": 0.25,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-23T16:19:13.000Z",
-    "scrapedAt": "2026-10-14T15:58:48.719Z"
+    "scrapedAt": "2026-10-15T15:44:43.951Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-viva-vanilla-mu52a/",
@@ -5479,14 +5485,14 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:19:13.000Z",
-    "scrapedAt": "2026-10-14T15:58:48.909Z"
+    "scrapedAt": "2026-10-15T15:44:44.040Z"
   },
   {
-    "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-salted-shorelines-150r2/",
-    "productId": 357145837,
-    "name": "Bath & Body Works Fine Fragrance Mist Aroma- Salted shorelines",
+    "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-meet-me-in-miami-z46hh/",
+    "productId": 357143493,
+    "name": "Bath & Body Works Fine Fragrance Mist Aroma- Meet me in Miami",
     "brand": " Bath &amp; Body Works",
-    "description": "Es una fragancia acuática y sofisticada, descrita oficialmente como \"un hallazgo playero brillante, terroso y salado en el mejor sentido\". Notas olfativas: bergamota fresca, salvia cálida y madera flotante salada. 236ml",
+    "description": "Es una fragancia tropical y vibrante, descrita oficialmente como \"un escape vacacional en una botella\". Notas Oficiales: Palmeras con brisa (breezy palm trees), coladas de cabaña (cabana coladas) y días bronceados (sun-tanned days). Notas Reales Percibidas: Agua de coco, tangerina, loto blanco, y una nota dominante de coco cremoso y plumeria. 236ml",
     "categories": [
       "Marcas",
       "Makeup / variado"
@@ -5510,27 +5516,27 @@
     },
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": 3,
+    "stockTotal": 1,
     "stockUnlimited": false,
     "sku": null,
     "variantCount": 1,
     "variants": [
       {
-        "id": 1563961487,
+        "id": 1563953869,
         "sku": "",
         "price": 345,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 3,
+        "stock": 1,
         "available": true,
         "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/fragancia-forever-salted-shorelines-1572dbd8b20f2aa04f17847675494131-1024-1024.webp"
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/fragancia-forever-meet-me-in-miami-152666989265a4c79417847667863975-1024-1024.webp"
       }
     ],
     "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/fragancia-forever-salted-shorelines-1572dbd8b20f2aa04f17847675494131-1024-1024.webp"
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/fragancia-forever-meet-me-in-miami-152666989265a4c79417847667863975-1024-1024.webp"
     ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/fragancia-forever-salted-shorelines-1572dbd8b20f2aa04f17847675494131-1024-1024.webp",
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/fragancia-forever-meet-me-in-miami-152666989265a4c79417847667863975-1024-1024.webp",
     "weightKg": 0.25,
     "storeName": "Dailyskincaremx",
     "storeDomain": "dailyskincaremx.com",
@@ -5538,8 +5544,8 @@
     "language": "es_MX",
     "platform": "tiendanube",
     "engine": "classic",
-    "lastModified": "2026-07-23T16:19:04.000Z",
-    "scrapedAt": "2026-10-14T15:58:49.099Z"
+    "lastModified": "2026-07-23T16:19:13.000Z",
+    "scrapedAt": "2026-10-15T15:44:44.301Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-into-the-night-exfoliating-glow-body-scrub-sjmuq/",
@@ -5602,7 +5608,67 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:18:58.000Z",
-    "scrapedAt": "2026-10-14T15:58:49.301Z"
+    "scrapedAt": "2026-10-15T15:44:44.443Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/bath-body-works-fine-fragrance-mist-aroma-salted-shorelines-150r2/",
+    "productId": 357145837,
+    "name": "Bath & Body Works Fine Fragrance Mist Aroma- Salted shorelines",
+    "brand": " Bath &amp; Body Works",
+    "description": "Es una fragancia acuática y sofisticada, descrita oficialmente como \"un hallazgo playero brillante, terroso y salado en el mejor sentido\". Notas olfativas: bergamota fresca, salvia cálida y madera flotante salada. 236ml",
+    "categories": [
+      "Marcas",
+      "Makeup / variado"
+    ],
+    "tags": [
+      "El producto ofrece una gran cobertura y está formulado con aloe acondicionador para nutrir la piel mientras perfuma.  Es libre de parabenos y no testado en animales."
+    ],
+    "price": 345,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 345,
+    "priceMax": 345,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 28.75,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 3,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1563961487,
+        "sku": "",
+        "price": 345,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 3,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/fragancia-forever-salted-shorelines-1572dbd8b20f2aa04f17847675494131-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/fragancia-forever-salted-shorelines-1572dbd8b20f2aa04f17847675494131-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/fragancia-forever-salted-shorelines-1572dbd8b20f2aa04f17847675494131-1024-1024.webp",
+    "weightKg": 0.25,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-23T16:19:04.000Z",
+    "scrapedAt": "2026-10-15T15:44:44.547Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-vanilla-ease-daily-nourishing-body-lotion-1293d/",
@@ -5667,7 +5733,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:18:48.000Z",
-    "scrapedAt": "2026-10-14T15:58:49.470Z"
+    "scrapedAt": "2026-10-15T15:44:44.974Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-vanilla-romance-daily-nourishing-body-lotion-fs33j/",
@@ -5732,7 +5798,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:18:47.000Z",
-    "scrapedAt": "2026-10-14T15:58:49.730Z"
+    "scrapedAt": "2026-10-15T15:44:45.107Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-a-touch-to-you-daily-nourishing-body-lotion-g5y4b/",
@@ -5797,7 +5863,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:18:43.000Z",
-    "scrapedAt": "2026-10-14T15:58:49.886Z"
+    "scrapedAt": "2026-10-15T15:44:45.300Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-velvet-sugar-daily-nourishing-body-lotion-13trv/",
@@ -5862,7 +5928,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:18:40.000Z",
-    "scrapedAt": "2026-10-14T15:58:50.051Z"
+    "scrapedAt": "2026-10-15T15:44:45.478Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-ginglan-gorgeous-daily-nourishing-body-lotion-1rk6g/",
@@ -5927,7 +5993,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:18:37.000Z",
-    "scrapedAt": "2026-10-14T15:58:50.241Z"
+    "scrapedAt": "2026-10-15T15:44:45.711Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-meet-me-in-miami-daily-nourishing-body-lotion-1vtbb/",
@@ -5992,7 +6058,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T16:18:32.000Z",
-    "scrapedAt": "2026-10-14T15:58:50.466Z"
+    "scrapedAt": "2026-10-15T15:44:45.904Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/makeup-by-mario-soft-pop-plumping-blush-veil-10r9d/",
@@ -6067,7 +6133,69 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-23T02:50:42.000Z",
-    "scrapedAt": "2026-10-14T15:58:50.623Z"
+    "scrapedAt": "2026-10-15T15:44:46.148Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/eucerin-sun-hydro-fluid-con-color-fps-50-fqaai/",
+    "productId": 303418375,
+    "name": "Eucerin Sun Hydro Fluid con color FPS 50+ tono medio",
+    "brand": "Eucerin",
+    "description": "Eucerin Sun Hydro Fluid con color FPS50+ Protector solar de uso diario, formula ultraligera y no grasosa, se absorbe rapidamente. Contiene pigmentos que ayudan a unificar el color de la piel. Tono medio. 50ml.",
+    "categories": [
+      "Marcas",
+      "Eucerin"
+    ],
+    "tags": [
+      "Eucerin Sun Hydro Fluid con color FPS50+  Protector solar de uso diario",
+      "formula ultraligera y no grasosa",
+      "se absorbe rapidamente.  Contiene pigmentos que ayudan a unificar el color de la piel.  Tono medio.  50ml."
+    ],
+    "price": 549,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 549,
+    "priceMax": 549,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 45.75,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 8,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1554975829,
+        "sku": null,
+        "price": 549,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 8,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-protector-con-color-4cf41cf8a8ca15db7d17616114972248-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-protector-con-color-4cf41cf8a8ca15db7d17616114972248-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-protector-con-color-4cf41cf8a8ca15db7d17616114972248-1024-1024.webp",
+    "weightKg": 0.08,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-21T22:40:25.000Z",
+    "scrapedAt": "2026-10-15T15:44:46.268Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/makeup-by-mario-softsculpt-transforming-skin-perfector-a8ope/",
@@ -6130,14 +6258,14 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-22T21:40:31.000Z",
-    "scrapedAt": "2026-10-14T15:58:50.776Z"
+    "scrapedAt": "2026-10-15T15:44:46.338Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eucerin-intim-protect-para-piel-sencible-gal1x/",
     "productId": 303408650,
-    "name": "Eucerin intim protect, para piel sensible",
+    "name": "Eucerin Intim Protect",
     "brand": "Eucerin",
-    "description": "Jabon de higiene íntima, limpieza sueva para la zona íntima. Ayuda a mantener el pH natural de la zona íntima. Ácido láctico & bisabolol. 250ml.",
+    "description": "Eucerin Intim Protect es un jabón líquido de limpieza extra suave, especialmente formulado para la higiene íntima femenina y el cuidado de la piel sensible. pH 4.5, adaptado al pH natural de la zona íntima Contiene ácido láctico (propio de la piel) que conserva la microflora vaginal natural Bisabolol (extracto de manzanilla) con acción antiinflamatoria y calmante Dexpantenol que ayuda a regenerar la piel y fortalecer la barrera protectora Ginecológicamente testeado 250ml.",
     "categories": [
       "Marcas",
       "Eucerin"
@@ -6162,7 +6290,7 @@
     },
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": 3,
+    "stockTotal": 5,
     "stockUnlimited": false,
     "sku": null,
     "variantCount": 1,
@@ -6173,7 +6301,7 @@
         "price": 449,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 3,
+        "stock": 5,
         "available": true,
         "attributes": {},
         "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-intim-protect-ddc11207a2460fbf0e17616083125008-1024-1024.webp"
@@ -6191,190 +6319,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-21T22:41:43.000Z",
-    "scrapedAt": "2026-10-14T15:58:50.985Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/eucerin-sun-hydro-fluid-con-color-fps-50-fqaai/",
-    "productId": 303418375,
-    "name": "Eucerin Sun Hydro Fluid con color FPS 50+ tono medio",
-    "brand": "Eucerin",
-    "description": "Eucerin Sun Hydro Fluid con color FPS50+ Protector solar de uso diario, formula ultraligera y no grasosa, se absorbe rapidamente. Contiene pigmentos que ayudan a unificar el color de la piel. Tono medio. 50ml.",
-    "categories": [
-      "Marcas",
-      "Eucerin"
-    ],
-    "tags": [
-      "Eucerin Sun Hydro Fluid con color FPS50+  Protector solar de uso diario",
-      "formula ultraligera y no grasosa",
-      "se absorbe rapidamente.  Contiene pigmentos que ayudan a unificar el color de la piel.  Tono medio.  50ml."
-    ],
-    "price": 549,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 549,
-    "priceMax": 549,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 45.75,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 10,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1554975829,
-        "sku": null,
-        "price": 549,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 10,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-protector-con-color-4cf41cf8a8ca15db7d17616114972248-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-protector-con-color-4cf41cf8a8ca15db7d17616114972248-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/eucerin-protector-con-color-4cf41cf8a8ca15db7d17616114972248-1024-1024.webp",
-    "weightKg": 0.08,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-21T22:40:25.000Z",
-    "scrapedAt": "2026-10-14T15:58:51.119Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/la-roche-posay-anthelios-uvmune-400-oil-control-gel-crema-spf50-pub76/",
-    "productId": 303424776,
-    "name": "La Roche-Posay Anthelios UVMune 400 Oil control gel-crema SPF50+ con tono",
-    "brand": "LA ROCHE-POSAY",
-    "description": "La Roche-Posay Anthelios UVMune 400 Oil control gel-crema SPF50+. Diseñado para pieles mixtas a grasas y sensibles, proporcionando un acabado mate. Control brillo hasta 12h. 50ml.",
-    "categories": [
-      "Marcas",
-      "La Roche Posay"
-    ],
-    "tags": [
-      "proporcionando un acabado mate.  Control brillo hasta 12h.  50ml."
-    ],
-    "price": 589,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 589,
-    "priceMax": 589,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 49.08,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 3,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1350410408,
-        "sku": null,
-        "price": 589,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-gel-crema-6a6a89aa6cbb9899f417616131677301-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-gel-crema-6a6a89aa6cbb9899f417616131677301-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-gel-crema-6a6a89aa6cbb9899f417616131677301-1024-1024.webp",
-    "weightKg": 0.08,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-21T22:40:24.000Z",
-    "scrapedAt": "2026-10-14T15:58:51.237Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/la-roche-posay-effaclar-gel-limpiador-purificante-g7bta/",
-    "productId": 303428515,
-    "name": "La Roche-Posay Effaclar gel limpiador purificante.",
-    "brand": "LA ROCHE-POSAY",
-    "description": "La Roche-Posay Effaclar gel limpiador purificante. Formulado apra piel grasa y sencible, purifica la piel, elimina el exceso ded sebo y restos de maquillaje. Reduce los puntos negros y el brillo dejando la piel limpia y fresca. 400ml.",
-    "categories": [
-      "Marcas",
-      "La Roche Posay"
-    ],
-    "tags": [
-      "elimina el exceso ded sebo y restos de maquillaje.  Reduce los puntos negros y el brillo dejando la piel limpia y fresca.  400ml.",
-      "purifica la piel"
-    ],
-    "price": 749,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 749,
-    "priceMax": 749,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 62.42,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 3,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1350423946,
-        "sku": null,
-        "price": 749,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-gel-limpiador-a03286b6c1a755923017616144321971-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-gel-limpiador-a03286b6c1a755923017616144321971-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-gel-limpiador-a03286b6c1a755923017616144321971-1024-1024.webp",
-    "weightKg": 0.8,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-21T22:39:58.000Z",
-    "scrapedAt": "2026-10-14T15:58:51.406Z"
+    "scrapedAt": "2026-10-15T15:44:46.438Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/la-roche-posay-crema-espumosa-limpiadora-effaclar-wsevo/",
@@ -6434,7 +6379,128 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-21T22:39:41.000Z",
-    "scrapedAt": "2026-10-14T15:58:51.555Z"
+    "scrapedAt": "2026-10-15T15:44:46.751Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/la-roche-posay-anthelios-uvmune-400-oil-control-gel-crema-spf50-pub76/",
+    "productId": 303424776,
+    "name": "La Roche-Posay Anthelios UVMune 400 Oil control gel-crema SPF50+ con tono",
+    "brand": "LA ROCHE-POSAY",
+    "description": "La Roche-Posay Anthelios UVMune 400 Oil control gel-crema SPF50+. Diseñado para pieles mixtas a grasas y sensibles, proporcionando un acabado mate. Control brillo hasta 12h. 50ml.",
+    "categories": [
+      "Marcas",
+      "La Roche Posay"
+    ],
+    "tags": [
+      "proporcionando un acabado mate.  Control brillo hasta 12h.  50ml."
+    ],
+    "price": 589,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 589,
+    "priceMax": 589,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 49.08,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 3,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1350410408,
+        "sku": null,
+        "price": 589,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 3,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-gel-crema-6a6a89aa6cbb9899f417616131677301-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-gel-crema-6a6a89aa6cbb9899f417616131677301-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-gel-crema-6a6a89aa6cbb9899f417616131677301-1024-1024.webp",
+    "weightKg": 0.08,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-21T22:40:24.000Z",
+    "scrapedAt": "2026-10-15T15:44:46.834Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/la-roche-posay-effaclar-gel-limpiador-purificante-g7bta/",
+    "productId": 303428515,
+    "name": "La Roche-Posay Effaclar gel limpiador purificante.",
+    "brand": "LA ROCHE-POSAY",
+    "description": "La Roche-Posay Effaclar gel limpiador purificante. Formulado apra piel grasa y sencible, purifica la piel, elimina el exceso ded sebo y restos de maquillaje. Reduce los puntos negros y el brillo dejando la piel limpia y fresca. 400ml.",
+    "categories": [
+      "Marcas",
+      "La Roche Posay"
+    ],
+    "tags": [
+      "elimina el exceso ded sebo y restos de maquillaje.  Reduce los puntos negros y el brillo dejando la piel limpia y fresca.  400ml.",
+      "purifica la piel"
+    ],
+    "price": 749,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 749,
+    "priceMax": 749,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 62.42,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 8,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1350423946,
+        "sku": null,
+        "price": 749,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 8,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-gel-limpiador-a03286b6c1a755923017616144321971-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-gel-limpiador-a03286b6c1a755923017616144321971-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-gel-limpiador-a03286b6c1a755923017616144321971-1024-1024.webp",
+    "weightKg": 0.8,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-21T22:39:58.000Z",
+    "scrapedAt": "2026-10-15T15:44:47.147Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/la-roche-posay-mela-b3-gel-limpiador-micro-peeling-mfomp/",
@@ -6495,7 +6561,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-21T22:39:18.000Z",
-    "scrapedAt": "2026-10-14T15:58:51.751Z"
+    "scrapedAt": "2026-10-15T15:44:47.394Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/shiseido-clear-suncare-stick-spf-50-2uamh/",
@@ -6557,7 +6623,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-21T22:38:27.000Z",
-    "scrapedAt": "2026-10-14T15:58:52.069Z"
+    "scrapedAt": "2026-10-15T15:44:47.594Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/tocobo-eye-gel-cream-collagen-brightenin-2ywca/",
@@ -6621,7 +6687,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-21T22:38:18.000Z",
-    "scrapedAt": "2026-10-14T15:58:52.249Z"
+    "scrapedAt": "2026-10-15T15:44:47.835Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/madagascar-centella-tea-trica-bha-foam-0zyqf/",
@@ -6683,7 +6749,68 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-21T22:37:22.000Z",
-    "scrapedAt": "2026-10-14T15:58:52.409Z"
+    "scrapedAt": "2026-10-15T15:44:47.882Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-ceramide-coating-protein-treatment-lspfu/",
+    "productId": 304943067,
+    "name": "Elizavecca CER-100 Collagen Ceramide Coating Protein Treatment",
+    "brand": "ELIZAVECCA",
+    "description": "Elizavecca CER-100 Collagen Ceramide Coating Protein Treatment Tratamiento intensivo para el cabello diseñado para reparar y nutrir el cabello dañado. Formula con colageno hidrolizado, queratina y proteinas vegetales que fortalecen la fibra capilar y mejorar la elasticidad. 100ml.",
+    "categories": [
+      "Marcas",
+      "K-Beauty"
+    ],
+    "tags": [
+      "Elizavecca CER-100 Collagen Ceramide Coating Protein Treatment  Tratamiento intensivo para el cabello disenado para reparar y nutrir el cabello danado.  Formula con colageno hidrolizado",
+      "queratina y proteinas vegetales que fortalecen la fibra capilar y mejorar la elasticidad.  100ml."
+    ],
+    "price": 399,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 399,
+    "priceMax": 399,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 33.25,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 3,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1356465213,
+        "sku": null,
+        "price": 399,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 3,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/elizavecca-tratamiento-capilar-4dad9785da5131e78c17622115172062-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/elizavecca-tratamiento-capilar-4dad9785da5131e78c17622115172062-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/elizavecca-tratamiento-capilar-4dad9785da5131e78c17622115172062-1024-1024.webp",
+    "weightKg": 0.15,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-21T22:37:06.000Z",
+    "scrapedAt": "2026-10-15T15:44:47.941Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/mixsoon-centella-sun-cream-spf-50-y-pa-zlk66/",
@@ -6745,131 +6872,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-21T22:37:20.000Z",
-    "scrapedAt": "2026-10-14T15:58:52.577Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-ceramide-coating-protein-treatment-lspfu/",
-    "productId": 304943067,
-    "name": "Elizavecca CER-100 Collagen Ceramide Coating Protein Treatment",
-    "brand": "ELIZAVECCA",
-    "description": "Elizavecca CER-100 Collagen Ceramide Coating Protein Treatment Tratamiento intensivo para el cabello diseñado para reparar y nutrir el cabello dañado. Formula con colageno hidrolizado, queratina y proteinas vegetales que fortalecen la fibra capilar y mejorar la elasticidad. 100ml.",
-    "categories": [
-      "Marcas",
-      "K-Beauty"
-    ],
-    "tags": [
-      "Elizavecca CER-100 Collagen Ceramide Coating Protein Treatment  Tratamiento intensivo para el cabello disenado para reparar y nutrir el cabello danado.  Formula con colageno hidrolizado",
-      "queratina y proteinas vegetales que fortalecen la fibra capilar y mejorar la elasticidad.  100ml."
-    ],
-    "price": 399,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 399,
-    "priceMax": 399,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 33.25,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 3,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1356465213,
-        "sku": null,
-        "price": 399,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/elizavecca-tratamiento-capilar-4dad9785da5131e78c17622115172062-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/elizavecca-tratamiento-capilar-4dad9785da5131e78c17622115172062-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/elizavecca-tratamiento-capilar-4dad9785da5131e78c17622115172062-1024-1024.webp",
-    "weightKg": 0.15,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-21T22:37:06.000Z",
-    "scrapedAt": "2026-10-14T15:58:52.749Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/cosrx-aloe-shoothing-sun-cream-spf-50-pa-f7hyw/",
-    "productId": 304951555,
-    "name": "COSRX Aloe Shoothing Sun Cream SPF 50+ PA++++",
-    "brand": "COSRX",
-    "description": "COSRX Aloe Shoothing Sun Cream SPF 50+ PA++++. Protector solar facian con aloe vera, que ayuda a calmar la piel, adecuado para todo tipo de piel, incluido la sensible. 50ml.",
-    "categories": [
-      "Marcas",
-      "K-Beauty"
-    ],
-    "tags": [
-      "COSRX Aloe Shoothing Sun Cream SPF 50+ PA++++.  Protector solar facian con aloe vera",
-      "adecuado para todo tipo de piel",
-      "incluido la sensible.  50ml.",
-      "que ayuda a calmar la piel"
-    ],
-    "price": 499,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 499,
-    "priceMax": 499,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 41.58,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1356503469,
-        "sku": null,
-        "price": 499,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/cosrx-aloe-shoothing-sun-cream-spf-50-pa-220fcd9954f266cb6717757883982111-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/cosrx-aloe-shoothing-sun-cream-spf-50-pa-220fcd9954f266cb6717757883982111-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/cosrx-aloe-shoothing-sun-cream-spf-50-pa-220fcd9954f266cb6717757883982111-1024-1024.webp",
-    "weightKg": 0.008,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-07-21T22:36:54.000Z",
-    "scrapedAt": "2026-10-14T15:58:52.885Z"
+    "scrapedAt": "2026-10-15T15:44:47.999Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/madagascar-centella-tone-brightening-capsule-ampoule-k6417/",
@@ -6933,7 +6936,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-21T22:36:47.000Z",
-    "scrapedAt": "2026-10-14T15:58:53.068Z"
+    "scrapedAt": "2026-10-15T15:44:48.590Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/some-by-mi-tonico-aha-bha-pha-30-dias-6beuf/",
@@ -6996,7 +6999,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-21T22:36:32.000Z",
-    "scrapedAt": "2026-10-14T15:58:53.219Z"
+    "scrapedAt": "2026-10-15T15:44:48.721Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-crema-enriquecida-probio-cica-w592q/",
@@ -7062,6 +7065,69 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-07-21T22:36:15.000Z",
-    "scrapedAt": "2026-10-14T15:58:53.405Z"
+    "scrapedAt": "2026-10-15T15:44:48.836Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/cosrx-aloe-shoothing-sun-cream-spf-50-pa-f7hyw/",
+    "productId": 304951555,
+    "name": "COSRX Aloe Shoothing Sun Cream SPF 50+ PA++++",
+    "brand": "COSRX",
+    "description": "COSRX Aloe Shoothing Sun Cream SPF 50+ PA++++. Protector solar facian con aloe vera, que ayuda a calmar la piel, adecuado para todo tipo de piel, incluido la sensible. 50ml.",
+    "categories": [
+      "Marcas",
+      "K-Beauty"
+    ],
+    "tags": [
+      "COSRX Aloe Shoothing Sun Cream SPF 50+ PA++++.  Protector solar facian con aloe vera",
+      "adecuado para todo tipo de piel",
+      "incluido la sensible.  50ml.",
+      "que ayuda a calmar la piel"
+    ],
+    "price": 499,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 499,
+    "priceMax": 499,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 41.58,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1356503469,
+        "sku": null,
+        "price": 499,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/cosrx-aloe-shoothing-sun-cream-spf-50-pa-220fcd9954f266cb6717757883982111-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/cosrx-aloe-shoothing-sun-cream-spf-50-pa-220fcd9954f266cb6717757883982111-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/cosrx-aloe-shoothing-sun-cream-spf-50-pa-220fcd9954f266cb6717757883982111-1024-1024.webp",
+    "weightKg": 0.008,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-07-21T22:36:54.000Z",
+    "scrapedAt": "2026-10-15T15:45:00.331Z"
   }
 ]

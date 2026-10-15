@@ -29,7 +29,7 @@
     "lastProductUpdate": "2026-10-11T19:09:55.000Z",
     "createdAt": "2023-10-01T02:18:01.000Z",
     "engine": "next",
-    "scrapedAt": "2026-10-14T15:59:00.552Z"
+    "scrapedAt": "2026-10-15T15:45:07.121Z"
   },
   {
     "url": "https://dailyskincaremx.com",
@@ -61,39 +61,7 @@
     "lastProductUpdate": "2026-09-21T16:23:34.000Z",
     "createdAt": null,
     "engine": "classic",
-    "scrapedAt": "2026-10-14T15:59:00.882Z"
-  },
-  {
-    "url": "https://www.vegpet.com.br",
-    "domain": "vegpet.com.br",
-    "name": "VegPet • Compre Online",
-    "platform": "nuvemshop",
-    "country": "BR",
-    "currency": "BRL",
-    "language": "pt_BR",
-    "description": "A VegPet atua desde 2013 comercializando produtos vegetarianos e veganos para pets. Já processamos mais de 30 mil pedidos com 98% das avaliações excelentes, ou boas. Pronta entrega para todo o Brasil.",
-    "logo": "https://acdn-us.mitiendanube.com/stores/001/045/983/themes/common/logo-635245864-1596141278-9042560dd9ade1c0928dc9199d1ba19e1596141278.png?0",
-    "emails": [],
-    "phones": [],
-    "whatsapp": [
-      "+5511976677282",
-      "+5511953291001",
-      "+5551998000112"
-    ],
-    "instagram": "https://instagram.com/vegpet_oficial",
-    "facebook": "https://www.facebook.com/vegpet",
-    "tiktok": "https://www.tiktok.com/@vegpet_oficial",
-    "youtube": "https://www.youtube.com/c/VegpetOficial",
-    "twitter": null,
-    "pinterest": null,
-    "linkedin": null,
-    "businessName": null,
-    "businessAddress": null,
-    "productCount": 164,
-    "lastProductUpdate": "2026-10-14T00:32:33.000Z",
-    "createdAt": null,
-    "engine": "classic",
-    "scrapedAt": "2026-10-14T15:59:01.320Z"
+    "scrapedAt": "2026-10-15T15:45:07.488Z"
   },
   {
     "url": "https://cocora.mitiendanube.com",
@@ -125,6 +93,38 @@
     "lastProductUpdate": "2024-11-13T21:19:44.000Z",
     "createdAt": null,
     "engine": "classic",
-    "scrapedAt": "2026-10-14T15:59:01.501Z"
+    "scrapedAt": "2026-10-15T15:45:08.119Z"
+  },
+  {
+    "url": "https://www.vegpet.com.br",
+    "domain": "vegpet.com.br",
+    "name": "VegPet • Compre Online",
+    "platform": "nuvemshop",
+    "country": "BR",
+    "currency": "BRL",
+    "language": "pt_BR",
+    "description": "A VegPet atua desde 2013 comercializando produtos vegetarianos e veganos para pets. Já processamos mais de 30 mil pedidos com 98% das avaliações excelentes, ou boas. Pronta entrega para todo o Brasil.",
+    "logo": "https://acdn-us.mitiendanube.com/stores/001/045/983/themes/common/logo-635245864-1596141278-9042560dd9ade1c0928dc9199d1ba19e1596141278.png?0",
+    "emails": [],
+    "phones": [],
+    "whatsapp": [
+      "+5511976677282",
+      "+5511953291001",
+      "+5551998000112"
+    ],
+    "instagram": "https://instagram.com/vegpet_oficial",
+    "facebook": "https://www.facebook.com/vegpet",
+    "tiktok": "https://www.tiktok.com/@vegpet_oficial",
+    "youtube": "https://www.youtube.com/c/VegpetOficial",
+    "twitter": null,
+    "pinterest": null,
+    "linkedin": null,
+    "businessName": null,
+    "businessAddress": null,
+    "productCount": 164,
+    "lastProductUpdate": "2026-10-14T22:32:26.000Z",
+    "createdAt": null,
+    "engine": "classic",
+    "scrapedAt": "2026-10-15T15:45:08.623Z"
   }
 ]
