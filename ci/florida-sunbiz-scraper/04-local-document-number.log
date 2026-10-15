@@ -6,7 +6,7 @@
 [32mINFO[39m [33m PlaywrightCrawler:[39m Starting the crawler.
 [32mINFO[39m  No results for "Z99999999999"
 [32mINFO[39m [33m PlaywrightCrawler:[39m All requests from the queue have been processed, the crawler will shut down.
-[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":3,"requestsFailed":0,"retryHistogram":[3],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":3342,"requestsFinishedPerMinute":30,"requestsFailedPerMinute":0,"requestTotalDurationMillis":10025,"requestsTotal":3,"crawlerRuntimeMillis":5991}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":3,"requestsFailed":0,"retryHistogram":[3],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":2277,"requestsFinishedPerMinute":40,"requestsFailedPerMinute":0,"requestTotalDurationMillis":6832,"requestsTotal":3,"crawlerRuntimeMillis":4489}[39m
 [32mINFO[39m [33m PlaywrightCrawler:[39m Finished! Total 3 requests: 3 succeeded, 0 failed.[90m {"terminal":true}[39m
 [32mINFO[39m  Done. 2 entities saved for 3 search term(s).
 items: 2
