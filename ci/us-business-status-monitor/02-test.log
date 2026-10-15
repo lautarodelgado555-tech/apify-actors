@@ -6,313 +6,313 @@ TAP version 13
 # Subtest: Colorado: strips the status suffix Colorado appends to names
 ok 1 - Colorado: strips the status suffix Colorado appends to names
   ---
-  duration_ms: 3.781546
+  duration_ms: 2.461768
   type: 'test'
   ...
 # Subtest: Colorado: delinquent entity looked up by id
 ok 2 - Colorado: delinquent entity looked up by id
   ---
-  duration_ms: 2.661924
+  duration_ms: 1.750965
   type: 'test'
   ...
 # Subtest: Colorado: status mapping covers every value seen live
 ok 3 - Colorado: status mapping covers every value seen live
   ---
-  duration_ms: 0.401299
+  duration_ms: 0.293794
   type: 'test'
   ...
 # Subtest: Colorado: name search returns candidates with cleaned names
 ok 4 - Colorado: name search returns candidates with cleaned names
   ---
-  duration_ms: 2.170165
+  duration_ms: 1.434668
   type: 'test'
   ...
 # Subtest: Texas: active LLC gets goodStanding true and the statutory May 15 date
 ok 5 - Texas: active LLC gets goodStanding true and the statutory May 15 date
   ---
-  duration_ms: 1.351485
+  duration_ms: 0.917245
   type: 'test'
   ...
 # Subtest: Texas: forfeited franchise tax maps to suspended / not in good standing, with no due date
 ok 6 - Texas: forfeited franchise tax maps to suspended / not in good standing, with no due date
   ---
-  duration_ms: 0.320268
+  duration_ms: 0.254384
   type: 'test'
   ...
 # Subtest: Texas: Comptroller-assigned (type X) accounts are not claimed as suspended
 ok 7 - Texas: Comptroller-assigned (type X) accounts are not claimed as suspended
   ---
-  duration_ms: 0.41721
+  duration_ms: 0.31738
   type: 'test'
   ...
 # Subtest: Texas: right-to-transact D is still active; first report is due the year after becoming liable
 ok 8 - Texas: right-to-transact D is still active; first report is due the year after becoming liable
   ---
-  duration_ms: 0.439702
+  duration_ms: 0.325091
   type: 'test'
   ...
 # Subtest: Texas: name search and file-number lookup
 ok 9 - Texas: name search and file-number lookup
   ---
-  duration_ms: 3.880738
+  duration_ms: 1.453455
   type: 'test'
   ...
 # Subtest: New York: active entity by id uses the status history and does not claim good standing
 ok 10 - New York: active entity by id uses the status history and does not claim good standing
   ---
-  duration_ms: 1.562169
+  duration_ms: 1.094413
   type: 'test'
   ...
 # Subtest: New York: entity missing from the active list is resolved through the histories
 ok 11 - New York: entity missing from the active list is resolved through the histories
   ---
-  duration_ms: 1.512997
+  duration_ms: 1.511273
   type: 'test'
   ...
 # Subtest: New York: unknown id returns no records
 ok 12 - New York: unknown id returns no records
   ---
-  duration_ms: 0.299841
+  duration_ms: 0.245881
   type: 'test'
   ...
 # Subtest: Connecticut: active entity with source-stated due date, last annual report and agent
 ok 13 - Connecticut: active entity with source-stated due date, last annual report and agent
   ---
-  duration_ms: 1.252531
+  duration_ms: 1.051048
   type: 'test'
   ...
 # Subtest: Connecticut: sub-status drives delinquent; forfeited and dissolved are dissolved
 ok 14 - Connecticut: sub-status drives delinquent; forfeited and dissolved are dissolved
   ---
-  duration_ms: 0.399797
+  duration_ms: 0.361226
   type: 'test'
   ...
 # Subtest: Connecticut: overdue first report is delinquent and keeps the overdue date; dissolved has no due date
 ok 15 - Connecticut: overdue first report is delinquent and keeps the overdue date; dissolved has no due date
   ---
-  duration_ms: 0.827597
+  duration_ms: 0.676342
   type: 'test'
   ...
 # Subtest: Connecticut: name search excludes name reservations
 ok 16 - Connecticut: name search excludes name reservations
   ---
-  duration_ms: 0.461723
+  duration_ms: 0.397661
   type: 'test'
   ...
 # Subtest: Oregon: active list gives agent and, when published, the anniversary date
 ok 17 - Oregon: active list gives agent and, when published, the anniversary date
   ---
-  duration_ms: 1.717799
+  duration_ms: 1.270769
   type: 'test'
   ...
 # Subtest: DC: good standing is stated by the register; due date and last report come from the source
 ok 18 - DC: good standing is stated by the register; due date and last report come from the source
   ---
-  duration_ms: 1.016519
+  duration_ms: 0.797264
   type: 'test'
   ...
 # Subtest: DC: non-active statuses carry no due date
 ok 19 - DC: non-active statuses carry no due date
   ---
-  duration_ms: 0.703205
+  duration_ms: 0.520646
   type: 'test'
   ...
 # Subtest: DC: status vocabulary
 ok 20 - DC: status vocabulary
   ---
-  duration_ms: 0.181009
+  duration_ms: 0.183537
   type: 'test'
   ...
 # Subtest: adapters reject malformed ids before touching the network
 ok 21 - adapters reject malformed ids before touching the network
   ---
-  duration_ms: 0.961266
+  duration_ms: 0.822041
   type: 'test'
   ...
 # Subtest: isoDate understands every format the sources use
 ok 22 - isoDate understands every format the sources use
   ---
-  duration_ms: 1.489573
+  duration_ms: 1.102475
   type: 'test'
   ...
 # Subtest: makeRecord fills every key and refuses invented vocabulary
 ok 23 - makeRecord fills every key and refuses invented vocabulary
   ---
-  duration_ms: 0.905122
+  duration_ms: 0.670763
   type: 'test'
   ...
 # Subtest: date helpers
 ok 24 - date helpers
   ---
-  duration_ms: 0.325929
+  duration_ms: 0.222787
   type: 'test'
   ...
 # Subtest: diff: no previous snapshot means no events
 ok 25 - diff: no previous snapshot means no events
   ---
-  duration_ms: 1.064268
+  duration_ms: 0.654118
   type: 'test'
   ...
 # Subtest: diff: active to delinquent raises statusChanged, goodStandingChanged and newlyDelinquent
 ok 26 - diff: active to delinquent raises statusChanged, goodStandingChanged and newlyDelinquent
   ---
-  duration_ms: 0.370984
+  duration_ms: 0.226241
   type: 'test'
   ...
 # Subtest: diff: delinquent to dissolved is dissolved but not newlyDelinquent
 ok 27 - diff: delinquent to dissolved is dissolved but not newlyDelinquent
   ---
-  duration_ms: 0.226774
+  duration_ms: 0.130076
   type: 'test'
   ...
 # Subtest: diff: active to suspended counts as newly delinquent; reinstatement does not
 ok 28 - diff: active to suspended counts as newly delinquent; reinstatement does not
   ---
-  duration_ms: 0.263843
+  duration_ms: 0.181895
   type: 'test'
   ...
 # Subtest: diff: losing good standing with an unchanged status is newly delinquent
 ok 29 - diff: losing good standing with an unchanged status is newly delinquent
   ---
-  duration_ms: 0.16604
+  duration_ms: 0.104568
   type: 'test'
   ...
 # Subtest: diff: null good standing never triggers goodStandingChanged
 ok 30 - diff: null good standing never triggers goodStandingChanged
   ---
-  duration_ms: 0.409085
+  duration_ms: 0.318752
   type: 'test'
   ...
 # Subtest: diff: source-stated due dates alert, statutory-rule dates never do
 ok 31 - diff: source-stated due dates alert, statutory-rule dates never do
   ---
-  duration_ms: 0.497189
+  duration_ms: 0.427295
   type: 'test'
   ...
 # Subtest: snapshotOf keeps only the monitored fields and keys are KVS-safe
 ok 32 - snapshotOf keeps only the monitored fields and keys are KVS-safe
   ---
-  duration_ms: 0.373428
+  duration_ms: 0.982384
   type: 'test'
   ...
 # Subtest: name normalization and scoring
 ok 33 - name normalization and scoring
   ---
-  duration_ms: 1.564603
+  duration_ms: 0.37099
   type: 'test'
   ...
 # Subtest: rankCandidates sorts by score then live-before-dissolved and keeps the best N
 ok 34 - rankCandidates sorts by score then live-before-dissolved and keeps the best N
   ---
-  duration_ms: 0.416408
+  duration_ms: 0.306342
   type: 'test'
   ...
 # Subtest: SoQL helpers escape quotes and wildcards
 ok 35 - SoQL helpers escape quotes and wildcards
   ---
-  duration_ms: 0.306402
+  duration_ms: 0.290359
   type: 'test'
   ...
 # Subtest: fetchJson retries on 5xx and returns JSON
 ok 36 - fetchJson retries on 5xx and returns JSON
   ---
-  duration_ms: 18.596499
+  duration_ms: 11.002259
   type: 'test'
   ...
 # Subtest: fetchJson fails closed on blocks and challenge pages without retrying
 ok 37 - fetchJson fails closed on blocks and challenge pages without retrying
   ---
-  duration_ms: 0.70624
+  duration_ms: 0.54283
   type: 'test'
   ...
 # Subtest: fetchJson gives up after the retry budget
 ok 38 - fetchJson gives up after the retry budget
   ---
-  duration_ms: 1.689407
+  duration_ms: 1.62192
   type: 'test'
   ...
 # Subtest: registry discovers the shipped adapters and validates the contract
 ok 39 - registry discovers the shipped adapters and validates the contract
   ---
-  duration_ms: 26.741548
+  duration_ms: 13.883972
   type: 'test'
   ...
 # Subtest: registry rejects duplicate states and malformed adapters
 ok 40 - registry rejects duplicate states and malformed adapters
   ---
-  duration_ms: 0.582859
+  duration_ms: 0.256497
   type: 'test'
   ...
 # Subtest: normalizeState accepts codes and a few names
 ok 41 - normalizeState accepts codes and a few names
   ---
-  duration_ms: 0.438319
+  duration_ms: 0.108544
   type: 'test'
   ...
 # Subtest: check mode: one id lookup is one charged check, no snapshot is written
 ok 42 - check mode: one id lookup is one charged check, no snapshot is written
   ---
-  duration_ms: 5.302759
+  duration_ms: 3.632457
   type: 'test'
   ...
 # Subtest: monitor mode: baseline on first run, change-alert when status changes, quiet when nothing changes
 ok 43 - monitor mode: baseline on first run, change-alert when status changes, quiet when nothing changes
   ---
-  duration_ms: 3.071198
+  duration_ms: 2.950387
   type: 'test'
   ...
 # Subtest: monitor mode: dissolved entity raises the dissolved event
 ok 44 - monitor mode: dissolved entity raises the dissolved event
   ---
-  duration_ms: 0.846061
+  duration_ms: 0.594187
   type: 'test'
   ...
 # Subtest: invalid entries, unknown states and duplicates cost nothing
 ok 45 - invalid entries, unknown states and duplicates cost nothing
   ---
-  duration_ms: 0.984269
+  duration_ms: 0.708891
   type: 'test'
   ...
 # Subtest: not found is reported, not charged
 ok 46 - not found is reported, not charged
   ---
-  duration_ms: 0.73861
+  duration_ms: 0.513445
   type: 'test'
   ...
 # Subtest: blocked sources fail closed with an uncharged row
 ok 47 - blocked sources fail closed with an uncharged row
   ---
-  duration_ms: 0.75445
+  duration_ms: 0.550322
   type: 'test'
   ...
 # Subtest: name search returns scored candidates; monitor mode requires an id unless one exact match is auto-resolved
 ok 48 - name search returns scored candidates; monitor mode requires an id unless one exact match is auto-resolved
   ---
-  duration_ms: 2.163313
+  duration_ms: 1.76084
   type: 'test'
   ...
 # Subtest: active-list-only sources: a vanished entity becomes an inactive change; never-seen ids are not found
 ok 49 - active-list-only sources: a vanished entity becomes an inactive change; never-seen ids are not found
   ---
-  duration_ms: 0.604028
+  duration_ms: 0.631374
   type: 'test'
   ...
 # Subtest: maxChecks caps the run and says so
 ok 50 - maxChecks caps the run and says so
   ---
-  duration_ms: 0.608848
+  duration_ms: 0.64887
   type: 'test'
   ...
 # Subtest: a refused charge stops the run and does not update that entity's snapshot
 ok 51 - a refused charge stops the run and does not update that entity's snapshot
   ---
-  duration_ms: 0.734463
+  duration_ms: 0.612615
   type: 'test'
   ...
 # Subtest: end to end with the Connecticut adapter: a source-stated due date moving after a filing is reported
 ok 52 - end to end with the Connecticut adapter: a source-stated due date moving after a filing is reported
   ---
-  duration_ms: 1.934317
+  duration_ms: 1.994903
   type: 'test'
   ...
 1..52
@@ -323,4 +323,4 @@ ok 52 - end to end with the Connecticut adapter: a source-stated due date moving
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 143.111609
+# duration_ms 135.021106
