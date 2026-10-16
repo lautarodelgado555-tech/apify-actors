@@ -1,10 +1,10 @@
 {
   "data": {
-    "id": "JvzbWJMFuF4wxgc05",
+    "id": "G9wXWlwlbB7vTOozb",
     "actId": "CMZgu5pK5biEMTPVc",
     "userId": "ejg6JY7N3cozjC5Ny",
-    "startedAt": "2026-10-15T15:37:15.657Z",
-    "finishedAt": "2026-10-15T15:39:20.318Z",
+    "startedAt": "2026-10-16T15:24:08.765Z",
+    "finishedAt": "2026-10-16T15:24:55.996Z",
     "status": "SUCCEEDED",
     "statusMessage": "Finished! Total 10 requests: 10 succeeded, 0 failed.",
     "isStatusMessageTerminal": true,
@@ -17,43 +17,43 @@
       "migrationCount": 0,
       "rebootCount": 0,
       "restartCount": 0,
-      "durationMillis": 124454,
+      "durationMillis": 47099,
       "resurrectCount": 0,
-      "runTimeSecs": 124.454,
+      "runTimeSecs": 47.099,
       "metamorph": 0,
-      "computeUnits": 0.06914111111111111,
-      "memAvgBytes": 764831204.2531135,
-      "memMaxBytes": 936366080,
+      "computeUnits": 0.026166111111111112,
+      "memAvgBytes": 518924068.4254215,
+      "memMaxBytes": 884097024,
       "memCurrentBytes": 0,
-      "cpuAvgUsage": 19.324731231313553,
-      "cpuMaxUsage": 204.13619834710747,
+      "cpuAvgUsage": 41.64402155910651,
+      "cpuMaxUsage": 212.12328697850822,
       "cpuCurrentUsage": 0,
-      "netRxBytes": 2521168,
-      "netTxBytes": 295477
+      "netRxBytes": 2329701,
+      "netTxBytes": 188747
     },
     "options": {
       "build": "latest",
       "timeoutSecs": 900,
       "memoryMbytes": 2048,
-      "maxTotalChargeUsd": 4.417565,
+      "maxTotalChargeUsd": 4.396534,
       "maxItems": null,
       "isMaxTotalChargeUsdSetByUser": false,
       "diskMbytes": 4096
     },
-    "buildId": "mS1SFTln5o6PB78vx",
+    "buildId": "KG4N65BvnKCCviDdH",
     "exitCode": 0,
-    "defaultKeyValueStoreId": "WMqvgfAGsaE83poe5",
-    "defaultDatasetId": "Jv2CmwHriL80OLMkO",
-    "defaultRequestQueueId": "q9rkWjbHpEMnDbG5B",
+    "defaultKeyValueStoreId": "OwzZ9r7P2dcDpt3AK",
+    "defaultDatasetId": "662598KXO0KRWsgcc",
+    "defaultRequestQueueId": "UQOS8wzWQjYhMeBU7",
     "storageIds": {
       "keyValueStores": {
-        "default": "WMqvgfAGsaE83poe5"
+        "default": "OwzZ9r7P2dcDpt3AK"
       },
       "datasets": {
-        "default": "Jv2CmwHriL80OLMkO"
+        "default": "662598KXO0KRWsgcc"
       },
       "requestQueues": {
-        "default": "q9rkWjbHpEMnDbG5B"
+        "default": "UQOS8wzWQjYhMeBU7"
       }
     },
     "pricingInfo": {
@@ -81,43 +81,43 @@
     },
     "standby": null,
     "generalAccess": "FOLLOW_USER_SETTING",
-    "buildNumber": "0.1.10",
-    "containerUrl": "https://bdkogealwelb.runs.apify.net",
+    "buildNumber": "0.1.11",
+    "containerUrl": "https://hu2eegbrnpeg.runs.apify.net",
     "usage": {
-      "ACTOR_COMPUTE_UNITS": 0.06914111111111111,
+      "ACTOR_COMPUTE_UNITS": 0.026166111111111112,
       "DATASET_READS": 0,
       "DATASET_WRITES": 8,
       "KEY_VALUE_STORE_READS": 1,
-      "KEY_VALUE_STORE_WRITES": 8,
+      "KEY_VALUE_STORE_WRITES": 2,
       "KEY_VALUE_STORE_LISTS": 0,
       "REQUEST_QUEUE_READS": 10,
       "REQUEST_QUEUE_WRITES": 40,
-      "DATA_TRANSFER_INTERNAL_GBYTES": 0.0022550299763679504,
-      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.00019620731472969055,
+      "DATA_TRANSFER_INTERNAL_GBYTES": 0.0003062663599848747,
+      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.00014309026300907135,
       "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
       "PROXY_SERPS": 0,
       "PROXY_UNBLOCKER_UNITS": 0
     },
-    "usageTotalUsd": 0.012774238732301525,
+    "usageTotalUsd": 0.0013728701649771795,
     "usageUsd": {
-      "ACTOR_COMPUTE_UNITS": 0.013828222222222223,
+      "ACTOR_COMPUTE_UNITS": 0.0052332222222222224,
       "DATASET_READS": 0,
       "DATASET_WRITES": 0.00004,
       "KEY_VALUE_STORE_READS": 0.000005,
-      "KEY_VALUE_STORE_WRITES": 0.0004,
+      "KEY_VALUE_STORE_WRITES": 0.0001,
       "KEY_VALUE_STORE_LISTS": 0,
       "REQUEST_QUEUE_READS": 0.000039999999999999996,
       "REQUEST_QUEUE_WRITES": 0.0004,
-      "DATA_TRANSFER_INTERNAL_GBYTES": 0.00011275149881839752,
-      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.000039241462945938114,
+      "DATA_TRANSFER_INTERNAL_GBYTES": 0.000015313317999243736,
+      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.00002861805260181427,
       "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
       "PROXY_SERPS": 0,
       "PROXY_UNBLOCKER_UNITS": 0
     },
-    "consoleUrl": "https://console.apify.com/view/runs/JvzbWJMFuF4wxgc05",
+    "consoleUrl": "https://console.apify.com/view/runs/G9wXWlwlbB7vTOozb",
     "output": {
-      "entities": "https://api.apify.com/v2/datasets/Jv2CmwHriL80OLMkO/items?signature=MC4wLjFyYnNPOTZBMDlZeG5PNnJUQ3BVZw",
-      "entitiesCsv": "https://api.apify.com/v2/datasets/Jv2CmwHriL80OLMkO/items?format=csv&signature=MC4wLjFyYnNPOTZBMDlZeG5PNnJUQ3BVZw"
+      "entities": "https://api.apify.com/v2/datasets/662598KXO0KRWsgcc/items?signature=MC4wLjFDWWFaUWpiNWpOeW1lNXpJbm9XQw",
+      "entitiesCsv": "https://api.apify.com/v2/datasets/662598KXO0KRWsgcc/items?format=csv&signature=MC4wLjFDWWFaUWpiNWpOeW1lNXpJbm9XQw"
     }
   }
 }
