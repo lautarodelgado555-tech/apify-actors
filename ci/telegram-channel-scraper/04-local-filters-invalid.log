@@ -5,15 +5,15 @@
 [32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}[39m
 [33mWARN[39m  Skipped "https://t.me/+AbCdEfGh1234": private invite links are not supported (public channels only).
 [33mWARN[39m  Skipped "ab": not a valid public channel username.
-[33mWARN[39m  @BotFather: username belongs to a user or bot, not a public channel, nothing returned
-[32mINFO[39m  [Status message]: 3/6 channels done, 0 messages
 [33mWARN[39m  @zzq_nonexistent_98765: channel does not exist or has no public preview, nothing returned
+[32mINFO[39m  [Status message]: 3/6 channels done, 0 messages
+[33mWARN[39m  @BotFather: username belongs to a user or bot, not a public channel, nothing returned
 [32mINFO[39m  [Status message]: 4/6 channels done, 0 messages
 [32mINFO[39m  @telegram: 5 messages (1 page read)
 [32mINFO[39m  [Status message]: 5/6 channels done, 5 messages
 [32mINFO[39m  @tginfo: 5 messages (1 page read)
 [32mINFO[39m  [Status message]: 6/6 channels done, 10 messages
-[32mINFO[39m  Done in 1.3s: 10 messages from 2 channels. Requests: 6, retries: 0, rate-limited: 0, 0.4 MB.
-[32mINFO[39m  SUMMARY [{"input":"https://t.me/+AbCdEfGh1234","status":"private_invite"},{"input":"ab","status":"invalid_username"},{"input":"BotFather","username":"BotFather","status":"not_a_channel","messages":0,"pages":0,"scanned":0,"seconds":1,"detail":"BotFather ✔ (@BotFather)"},{"input":"zzq_nonexistent_98765","username":"zzq_nonexistent_98765","status":"not_found","messages":0,"pages":0,"scanned":0,"seconds":1},{"input":"telegram","username":"telegram","status":"ok","messages":5,"pages":1,"scanned":10,"seconds":1.1},{"input":"tginfo","username":"tginfo","status":"ok","messages":5,"pages":1,"scanned":5,"seconds":1.3}]
+[32mINFO[39m  Done in 1.2s: 10 messages from 2 channels. Requests: 6, retries: 0, rate-limited: 0, 0.4 MB.
+[32mINFO[39m  SUMMARY [{"input":"https://t.me/+AbCdEfGh1234","status":"private_invite"},{"input":"ab","status":"invalid_username"},{"input":"zzq_nonexistent_98765","username":"zzq_nonexistent_98765","status":"not_found","messages":0,"pages":0,"scanned":0,"seconds":1.1},{"input":"BotFather","username":"BotFather","status":"not_a_channel","messages":0,"pages":0,"scanned":0,"seconds":1.1,"detail":"BotFather ✔ (@BotFather)"},{"input":"telegram","username":"telegram","status":"ok","messages":5,"pages":1,"scanned":10,"seconds":1.1},{"input":"tginfo","username":"tginfo","status":"ok","messages":5,"pages":1,"scanned":5,"seconds":1.2}]
 [32mINFO[39m  [Status message]: 10 messages from 2 channels; 4 channel(s) unavailable (see SUMMARY)
 items: 10
