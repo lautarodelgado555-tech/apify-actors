@@ -91,8 +91,8 @@
     "language": "es_MX",
     "platform": "tiendanube",
     "engine": "classic",
-    "lastModified": "2026-10-14T23:15:43.000Z",
-    "scrapedAt": "2026-10-17T14:25:43.723Z"
+    "lastModified": "2026-10-15T23:41:13.000Z",
+    "scrapedAt": "2026-10-18T14:49:33.912Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/hilo-de-lana-mexicana-colores/",
@@ -1480,7 +1480,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-14T18:23:24.000Z",
-    "scrapedAt": "2026-10-17T14:25:44.204Z"
+    "scrapedAt": "2026-10-18T14:49:34.558Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/cesteria-basket-weaving-b9k4h/",
@@ -1653,7 +1653,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-14T21:45:43.000Z",
-    "scrapedAt": "2026-10-17T14:25:44.295Z"
+    "scrapedAt": "2026-10-18T14:49:34.649Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/lana-mexicana-en-crudo/",
@@ -1776,136 +1776,67 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-09T16:36:03.000Z",
-    "scrapedAt": "2026-10-17T14:25:44.545Z"
+    "scrapedAt": "2026-10-18T14:49:34.866Z"
   },
   {
-    "url": "https://peek-store.com/productos/tisha-bendiceme",
-    "productId": 321284040,
-    "name": "Tisha Bendíceme",
+    "url": "https://peek-store.com/productos/jersey-mexico-11crh",
+    "productId": 345418711,
+    "name": "Jersey México",
     "brand": null,
-    "description": "Icónica canción de Charles Ans ft Juaninacka perteneciente a su disco LADO A. Esta pieza fue creada para el rodaje del videoclip oficial y la trajimos disponible a la tienda para ustedes.",
+    "description": "Diseño exclusivo Anestesia x Peek 👁 200 piezas cada una enumerada con un número único. Incluye tote bag conmemorativa , sticker holografico y su certificado de autenticidad firmado por Charles ANS ✨️. coete japonés oversize y calidad premium. Envio gratis 📦",
     "categories": [
-      "By Charles Ans"
+      "By Charles Ans",
+      "Colabs by Peek",
+      "Exclusive Peek"
     ],
     "tags": [],
-    "price": 600,
+    "price": 2200,
     "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
+    "promotionalPrice": 1800,
+    "onSale": true,
     "discountPercent": null,
-    "priceMin": 600,
-    "priceMax": 600,
+    "priceMin": 2200,
+    "priceMax": 2200,
     "currency": "MXN",
     "installments": null,
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": 1,
+    "stockTotal": 111,
     "stockUnlimited": false,
     "sku": null,
     "variantCount": 2,
     "variants": [
       {
-        "id": 1424187492,
+        "id": 1528205448,
         "sku": null,
-        "price": 600,
+        "price": 2200,
         "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Color": "NEGRA"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/11-tisha-bendiceme-negra-3a26b8dc286167dc9d17699004798242-1024-1024.jpg"
-      },
-      {
-        "id": 1424187508,
-        "sku": null,
-        "price": 600,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
+        "promotionalPrice": 1800,
+        "stock": 35,
         "available": true,
         "attributes": {
-          "Color": "BLANCA"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-tisha-bendiceme-blanca-853285ae7d6f34e83517699004830053-1024-1024.jpg"
-      }
-    ],
-    "images": [
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-11-tisha-bendiceme-978ab1007c165652a417699004860046-1024-1024.jpg",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/11-tisha-bendiceme-negra-3a26b8dc286167dc9d17699004798242-1024-1024.jpg",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-11-tisha-bendiceme-e327aa60b3534b013b17699004897472-1024-1024.jpg",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-tisha-bendiceme-blanca-853285ae7d6f34e83517699004830053-1024-1024.jpg"
-    ],
-    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-11-tisha-bendiceme-978ab1007c165652a417699004860046-1024-1024.jpg",
-    "weightKg": null,
-    "storeName": "Peek Store",
-    "storeDomain": "peek-store.com",
-    "country": "MX",
-    "language": "es",
-    "platform": "tiendanube",
-    "engine": "next",
-    "lastModified": "2026-10-11T19:09:55.000Z",
-    "scrapedAt": "2026-10-17T14:25:45.220Z"
-  },
-  {
-    "url": "https://peek-store.com/productos/cd-cta-1pbh9",
-    "productId": 321285513,
-    "name": "CD CTA",
-    "brand": null,
-    "description": "CD físico original de CTA by Charles Ans",
-    "categories": [
-      "By Charles Ans"
-    ],
-    "tags": [],
-    "price": 350,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 350,
-    "priceMax": 450,
-    "currency": "MXN",
-    "installments": null,
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 15,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 2,
-    "variants": [
-      {
-        "id": 1424180496,
-        "sku": null,
-        "price": 450,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Con o Sin Firma": "Con Firma"
+          "Talla": "UNITALLA"
         },
         "image": null
       },
       {
-        "id": 1424180502,
+        "id": 1528574530,
         "sku": null,
-        "price": 350,
+        "price": 2200,
         "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 15,
+        "promotionalPrice": 1800,
+        "stock": 76,
         "available": true,
         "attributes": {
-          "Con o Sin Firma": "Sin Firma"
+          "Talla": "XXL"
         },
-        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/7-cd-cta-c9281989714ad00b1717698998781656-1024-1024.png"
+        "image": null
       }
     ],
     "images": [
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/6-cd-cta-5edb99f14cddc58b7517698998631688-1024-1024.png",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/7-cd-cta-c9281989714ad00b1717698998781656-1024-1024.png"
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000452663-659eea28b80e6408c017792975407443-1024-1024.jpg"
     ],
-    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/6-cd-cta-5edb99f14cddc58b7517698998631688-1024-1024.png",
+    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000452663-659eea28b80e6408c017792975407443-1024-1024.jpg",
     "weightKg": null,
     "storeName": "Peek Store",
     "storeDomain": "peek-store.com",
@@ -1913,67 +1844,103 @@
     "language": "es",
     "platform": "tiendanube",
     "engine": "next",
-    "lastModified": "2026-10-10T19:23:19.000Z",
-    "scrapedAt": "2026-10-17T14:25:45.583Z"
+    "lastModified": "2026-10-17T04:13:49.000Z",
+    "scrapedAt": "2026-10-18T14:49:35.780Z"
   },
   {
-    "url": "https://peek-store.com/productos/cd-lrds-p3r2q",
-    "productId": 321285761,
-    "name": "CD LRDS",
+    "url": "https://peek-store.com/productos/poster-serendipia-tu-y-yo",
+    "productId": 321284062,
+    "name": "Póster Serendipia “Tú y yo”",
     "brand": null,
-    "description": "CD físico original de LRDS by Charles Ans",
+    "description": "Póster tamaño carta con el arte del sencillo \"TÚ Y YO\" perteneciente al disco SERENDIPIA. (La impresión te llega sin marca de agua).",
     "categories": [
       "By Charles Ans"
     ],
     "tags": [],
-    "price": 350,
+    "price": 200,
     "compareAtPrice": null,
     "promotionalPrice": null,
     "onSale": false,
     "discountPercent": null,
-    "priceMin": 350,
+    "priceMin": 200,
+    "priceMax": 200,
+    "currency": "MXN",
+    "installments": null,
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 6,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1424167348,
+        "sku": null,
+        "price": 200,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 6,
+        "available": true,
+        "attributes": {},
+        "image": null
+      }
+    ],
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/34-poster-serendipia-tu-y-yo-c9dc4606d5d955955317699014060503-1024-1024.png"
+    ],
+    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/34-poster-serendipia-tu-y-yo-c9dc4606d5d955955317699014060503-1024-1024.png",
+    "weightKg": null,
+    "storeName": "Peek Store",
+    "storeDomain": "peek-store.com",
+    "country": "MX",
+    "language": "es",
+    "platform": "tiendanube",
+    "engine": "next",
+    "lastModified": "2026-10-15T13:42:10.000Z",
+    "scrapedAt": "2026-10-18T14:49:35.872Z"
+  },
+  {
+    "url": "https://peek-store.com/productos/cd-smile-1icsm",
+    "productId": 321284876,
+    "name": "CD SMILE",
+    "brand": null,
+    "description": "CD físico original de SMILE by Charles Ans",
+    "categories": [
+      "By Charles Ans"
+    ],
+    "tags": [],
+    "price": 450,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 450,
     "priceMax": 450,
     "currency": "MXN",
     "installments": null,
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": 17,
+    "stockTotal": 38,
     "stockUnlimited": false,
     "sku": null,
-    "variantCount": 2,
+    "variantCount": 1,
     "variants": [
       {
-        "id": 1424183290,
+        "id": 1424173745,
         "sku": null,
         "price": 450,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Con o Sin Firma": "Con Firma"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/8-cd-lrds-f4a868e3d50068a73417699003305283-1024-1024.png"
-      },
-      {
-        "id": 1424183293,
-        "sku": null,
-        "price": 350,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 17,
+        "stock": 38,
         "available": true,
-        "attributes": {
-          "Con o Sin Firma": "Sin Firma"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png"
+        "attributes": {},
+        "image": null
       }
     ],
     "images": [
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/8-cd-lrds-f4a868e3d50068a73417699003305283-1024-1024.png"
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/5-cd-smile-9bdb92b2ecfa7bb46217699002835817-1024-1024.jpg"
     ],
-    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png",
+    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/5-cd-smile-9bdb92b2ecfa7bb46217699002835817-1024-1024.jpg",
     "weightKg": null,
     "storeName": "Peek Store",
     "storeDomain": "peek-store.com",
@@ -1981,8 +1948,8 @@
     "language": "es",
     "platform": "tiendanube",
     "engine": "next",
-    "lastModified": "2026-10-10T19:23:19.000Z",
-    "scrapedAt": "2026-10-17T14:25:46.049Z"
+    "lastModified": "2026-10-15T13:42:10.000Z",
+    "scrapedAt": "2026-10-18T14:49:36.060Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/jueves-crochetero-after-office/",
@@ -2124,80 +2091,50 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-08T22:56:59.000Z",
-    "scrapedAt": "2026-10-17T14:25:46.184Z"
+    "scrapedAt": "2026-10-18T14:49:36.501Z"
   },
   {
-    "url": "https://peek-store.com/productos/classic-beanie-103fp",
-    "productId": 321290261,
-    "name": "CLASSIC BEANIE",
+    "url": "https://peek-store.com/productos/kit-libro-d-b-y-o-h",
+    "productId": 321284058,
+    "name": "Kit Libro D.B.Y.O.H.",
     "brand": null,
-    "description": "Beanie Peek bordado",
+    "description": "Libro escrito por Carlos Segura Ramirez, y arte de Ebeth Roldan Perez. Incluye: Carta de agradecimiento firmada por Charles Ans, el CD físico de DBYOH y la Ecobag exclusiva)",
     "categories": [
-      "Exclusive Peek"
+      "By Charles Ans"
     ],
     "tags": [],
-    "price": 350,
+    "price": 2000,
     "compareAtPrice": null,
     "promotionalPrice": null,
     "onSale": false,
     "discountPercent": null,
-    "priceMin": 350,
-    "priceMax": 350,
+    "priceMin": 2000,
+    "priceMax": 2000,
     "currency": "MXN",
     "installments": null,
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 23,
+    "availability": "OutOfStock",
+    "inStock": false,
+    "stockTotal": 0,
     "stockUnlimited": false,
     "sku": null,
-    "variantCount": 3,
+    "variantCount": 1,
     "variants": [
       {
-        "id": 1424233015,
+        "id": 1424167339,
         "sku": null,
-        "price": 350,
+        "price": 2000,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 4,
-        "available": true,
-        "attributes": {
-          "Color": "Negro"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/71classic-beanie-e02c46f1cf5ffe0a3217699060146822-1024-1024.webp"
-      },
-      {
-        "id": 1424233018,
-        "sku": null,
-        "price": 350,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 5,
-        "available": true,
-        "attributes": {
-          "Color": "Beige"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/72-classic-beanie-b96458377b7241788c17699060146246-1024-1024.webp"
-      },
-      {
-        "id": 1424233022,
-        "sku": null,
-        "price": 350,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 14,
-        "available": true,
-        "attributes": {
-          "Color": "Rosa"
-        },
+        "stock": 0,
+        "available": false,
+        "attributes": {},
         "image": null
       }
     ],
     "images": [
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/73-classic-beanie-34c9cbdfcd543feed117699060145827-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/72-classic-beanie-b96458377b7241788c17699060146246-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/71classic-beanie-e02c46f1cf5ffe0a3217699060146822-1024-1024.webp"
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/31-kit-libro-d-b-y-o-h-475b7634aaa0b1a38017699078677192-1024-1024.webp"
     ],
-    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/73-classic-beanie-34c9cbdfcd543feed117699060145827-1024-1024.webp",
+    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/31-kit-libro-d-b-y-o-h-475b7634aaa0b1a38017699078677192-1024-1024.webp",
     "weightKg": null,
     "storeName": "Peek Store",
     "storeDomain": "peek-store.com",
@@ -2205,8 +2142,8 @@
     "language": "es",
     "platform": "tiendanube",
     "engine": "next",
-    "lastModified": "2026-10-08T22:12:25.000Z",
-    "scrapedAt": "2026-10-17T14:25:46.385Z"
+    "lastModified": "2026-10-14T22:42:26.000Z",
+    "scrapedAt": "2026-10-18T14:49:36.567Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/experimentacion-textil-en-feria-textil-8ln27/",
@@ -2267,80 +2204,25 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-08T13:44:24.000Z",
-    "scrapedAt": "2026-10-17T14:25:46.531Z"
+    "scrapedAt": "2026-10-18T14:49:36.860Z"
   },
   {
-    "url": "https://peek-store.com/productos/milfs-day-camiseta",
-    "productId": 321284073,
-    "name": "Milf’s Day Camiseta",
+    "url": "https://peek-store.com/productos/tisha-bendiceme",
+    "productId": 321284040,
+    "name": "Tisha Bendíceme",
     "brand": null,
-    "description": "Camiseta manga larga con impresión enel frente , diseño: Celebrate Milf's Day Everyday. Unisex/ Unitalla oversize.",
-    "categories": [
-      "Exclusive Peek"
-    ],
-    "tags": [],
-    "price": 650,
-    "compareAtPrice": null,
-    "promotionalPrice": 552,
-    "onSale": true,
-    "discountPercent": null,
-    "priceMin": 650,
-    "priceMax": 650,
-    "currency": "MXN",
-    "installments": null,
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 10,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1424167361,
-        "sku": null,
-        "price": 650,
-        "compareAtPrice": null,
-        "promotionalPrice": 552,
-        "stock": 10,
-        "available": true,
-        "attributes": {},
-        "image": null
-      }
-    ],
-    "images": [
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/42-milfs-day-camiseta3-d831f2cca35c1c3f9a17699037395554-1024-1024.jpg",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/42-milfs-day-camiseta-7542619839a810720717699037395732-1024-1024.jpg",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/42-milfs-day-camiseta2-c0c29c203bf66d8c5817699037395726-1024-1024.jpg",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/42-milfs-day-camiseta1-fbd74c031402f06e5817699037387593-1024-1024.jpg"
-    ],
-    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/42-milfs-day-camiseta3-d831f2cca35c1c3f9a17699037395554-1024-1024.jpg",
-    "weightKg": null,
-    "storeName": "Peek Store",
-    "storeDomain": "peek-store.com",
-    "country": "MX",
-    "language": "es",
-    "platform": "tiendanube",
-    "engine": "next",
-    "lastModified": "2026-10-07T04:00:32.000Z",
-    "scrapedAt": "2026-10-17T14:25:47.296Z"
-  },
-  {
-    "url": "https://peek-store.com/productos/tisha-serendipia",
-    "productId": 321284054,
-    "name": "Tisha Serendipia.",
-    "brand": null,
-    "description": "Tisha oficial del proyecto discográfico SERENDIPIA, inspirada en el arte del disco.",
+    "description": "Icónica canción de Charles Ans ft Juaninacka perteneciente a su disco LADO A. Esta pieza fue creada para el rodaje del videoclip oficial y la trajimos disponible a la tienda para ustedes.",
     "categories": [
       "By Charles Ans"
     ],
     "tags": [],
-    "price": 580,
+    "price": 600,
     "compareAtPrice": null,
     "promotionalPrice": null,
     "onSale": false,
     "discountPercent": null,
-    "priceMin": 580,
-    "priceMax": 580,
+    "priceMin": 600,
+    "priceMax": 600,
     "currency": "MXN",
     "installments": null,
     "availability": "InStock",
@@ -2348,53 +2230,42 @@
     "stockTotal": 1,
     "stockUnlimited": false,
     "sku": null,
-    "variantCount": 3,
+    "variantCount": 2,
     "variants": [
       {
-        "id": 1514587077,
+        "id": 1424187492,
         "sku": null,
-        "price": 580,
+        "price": 600,
         "compareAtPrice": null,
         "promotionalPrice": null,
         "stock": 0,
         "available": false,
         "attributes": {
-          "Color": "AZUL"
+          "Color": "NEGRA"
         },
-        "image": null
+        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/11-tisha-bendiceme-negra-3a26b8dc286167dc9d17699004798242-1024-1024.jpg"
       },
       {
-        "id": 1514587078,
+        "id": 1424187508,
         "sku": null,
-        "price": 580,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Color": "GRIS"
-        },
-        "image": null
-      },
-      {
-        "id": 1514587079,
-        "sku": null,
-        "price": 580,
+        "price": 600,
         "compareAtPrice": null,
         "promotionalPrice": null,
         "stock": 1,
         "available": true,
         "attributes": {
-          "Color": "NEGRO"
+          "Color": "BLANCA"
         },
-        "image": null
+        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-tisha-bendiceme-blanca-853285ae7d6f34e83517699004830053-1024-1024.jpg"
       }
     ],
     "images": [
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/22-tisha-serendipia-8f7d74254a101d433217699009959706-1024-1024.jpg",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/22-tisha-serendipia-96dfda72d88d944c1617699009961627-1024-1024.jpg"
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-11-tisha-bendiceme-978ab1007c165652a417699004860046-1024-1024.jpg",
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/11-tisha-bendiceme-negra-3a26b8dc286167dc9d17699004798242-1024-1024.jpg",
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-11-tisha-bendiceme-e327aa60b3534b013b17699004897472-1024-1024.jpg",
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-tisha-bendiceme-blanca-853285ae7d6f34e83517699004830053-1024-1024.jpg"
     ],
-    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/22-tisha-serendipia-8f7d74254a101d433217699009959706-1024-1024.jpg",
+    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-11-tisha-bendiceme-978ab1007c165652a417699004860046-1024-1024.jpg",
     "weightKg": null,
     "storeName": "Peek Store",
     "storeDomain": "peek-store.com",
@@ -2402,7 +2273,75 @@
     "language": "es",
     "platform": "tiendanube",
     "engine": "next",
-    "lastModified": "2026-10-07T03:19:49.000Z",
-    "scrapedAt": "2026-10-17T14:25:47.604Z"
+    "lastModified": "2026-10-11T19:09:55.000Z",
+    "scrapedAt": "2026-10-18T14:49:37.379Z"
+  },
+  {
+    "url": "https://peek-store.com/productos/cd-cta-1pbh9",
+    "productId": 321285513,
+    "name": "CD CTA",
+    "brand": null,
+    "description": "CD físico original de CTA by Charles Ans",
+    "categories": [
+      "By Charles Ans"
+    ],
+    "tags": [],
+    "price": 350,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 350,
+    "priceMax": 450,
+    "currency": "MXN",
+    "installments": null,
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 15,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 2,
+    "variants": [
+      {
+        "id": 1424180496,
+        "sku": null,
+        "price": 450,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 0,
+        "available": false,
+        "attributes": {
+          "Con o Sin Firma": "Con Firma"
+        },
+        "image": null
+      },
+      {
+        "id": 1424180502,
+        "sku": null,
+        "price": 350,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 15,
+        "available": true,
+        "attributes": {
+          "Con o Sin Firma": "Sin Firma"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/7-cd-cta-c9281989714ad00b1717698998781656-1024-1024.png"
+      }
+    ],
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/6-cd-cta-5edb99f14cddc58b7517698998631688-1024-1024.png",
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/7-cd-cta-c9281989714ad00b1717698998781656-1024-1024.png"
+    ],
+    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/6-cd-cta-5edb99f14cddc58b7517698998631688-1024-1024.png",
+    "weightKg": null,
+    "storeName": "Peek Store",
+    "storeDomain": "peek-store.com",
+    "country": "MX",
+    "language": "es",
+    "platform": "tiendanube",
+    "engine": "next",
+    "lastModified": "2026-10-10T19:23:19.000Z",
+    "scrapedAt": "2026-10-18T14:49:37.764Z"
   }
 ]
