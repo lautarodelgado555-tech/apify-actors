@@ -7,7 +7,7 @@
 [32mINFO[39m  [Status message]: 1/2 channels done, 0 messages
 [32mINFO[39m  @contest: 0 messages (1 page read)
 [32mINFO[39m  [Status message]: 2/2 channels done, 0 messages
-[32mINFO[39m  Done in 1.3s: 0 messages from 2 channels. Requests: 2, retries: 0, rate-limited: 0, 0.3 MB.
-[32mINFO[39m  SUMMARY [{"input":"durov","username":"durov","status":"ok","messages":0,"pages":1,"scanned":20,"seconds":1.1,"previousLastId":552,"lastId":552},{"input":"contest","username":"contest","status":"ok","messages":0,"pages":1,"scanned":20,"seconds":1.2,"previousLastId":462,"lastId":462}]
+[32mINFO[39m  Done in 0.9s: 0 messages from 2 channels. Requests: 2, retries: 0, rate-limited: 0, 0.3 MB.
+[32mINFO[39m  SUMMARY [{"input":"durov","username":"durov","status":"ok","messages":0,"pages":1,"scanned":20,"seconds":0.8,"previousLastId":552,"lastId":552},{"input":"contest","username":"contest","status":"ok","messages":0,"pages":1,"scanned":20,"seconds":0.9,"previousLastId":462,"lastId":462}]
 [32mINFO[39m  [Status message]: 0 messages from 2 channels
 items: 0
