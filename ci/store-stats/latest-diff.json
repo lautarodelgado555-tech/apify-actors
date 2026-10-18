@@ -1,36 +1,36 @@
 {
-  "checkedAt": "2026-10-17T14:28:18.344Z",
-  "previousCheckedAt": "2026-10-16T15:36:19.918Z",
+  "checkedAt": "2026-10-18T14:53:14.283Z",
+  "previousCheckedAt": "2026-10-17T14:28:18.344Z",
   "changes": [
     {
       "actor": "florida-sunbiz-scraper",
       "field": "totalRuns",
-      "before": 12,
-      "after": 14
+      "before": 14,
+      "after": 16
     },
     {
       "actor": "georgia-sos-scraper",
       "field": "totalRuns",
-      "before": 55,
-      "after": 56
+      "before": 56,
+      "after": 57
     },
     {
       "actor": "telegram-channel-scraper",
       "field": "totalRuns",
-      "before": 15,
-      "after": 17
+      "before": 17,
+      "after": 18
     },
     {
       "actor": "tiendanube-scraper",
       "field": "totalRuns",
-      "before": 10,
-      "after": 17
+      "before": 17,
+      "after": 18
     },
     {
       "actor": "us-business-status-monitor",
       "field": "totalRuns",
-      "before": 9,
-      "after": 10
+      "before": 10,
+      "after": 11
     }
   ]
 }
