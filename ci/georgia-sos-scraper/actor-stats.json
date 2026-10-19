@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-19T17:44:19.873Z",
+  "name": "georgia-sos-scraper",
+  "isPublic": true,
+  "pricing": [
+    "PAY_PER_EVENT"
+  ],
+  "stats": {
+    "totalBuilds": 7,
+    "totalRuns": 58,
+    "totalUsers": 1,
+    "totalUsers7Days": 0,
+    "totalUsers30Days": 0,
+    "totalUsers90Days": 0,
+    "lastRunStartedAt": "2026-10-19T13:32:45.466Z",
+    "actorReviewCount": 0,
+    "actorReviewRating": 0,
+    "bookmarkCount": 0,
+    "publicActorRunStats30Days": {
+      "ABORTED": 0,
+      "FAILED": 0,
+      "SUCCEEDED": 34,
+      "TIMED-OUT": 0,
+      "TOTAL": 34
+    }
+  }
+}
