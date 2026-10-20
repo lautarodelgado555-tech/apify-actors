@@ -6,9 +6,9 @@ Hit:3 http://azure.archive.ubuntu.com/ubuntu noble InRelease
 Get:4 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
 Get:5 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
 Get:6 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease [126 kB]
-Get:7 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [618 kB]
+Get:7 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages [557 kB]
 Get:8 https://packages.microsoft.com/ubuntu/24.04/prod noble/main armhf Packages [12.4 kB]
-Get:9 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages [557 kB]
+Get:9 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [618 kB]
 Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1397 kB]
 Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [308 kB]
 Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1704 kB]
@@ -21,7 +21,7 @@ Get:18 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 Pack
 Get:19 http://azure.archive.ubuntu.com/ubuntu noble-security/universe Translation-en [246 kB]
 Get:20 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1713 kB]
 Get:21 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted Translation-en [392 kB]
-Fetched 12.5 MB in 2s (6770 kB/s)
+Fetched 12.5 MB in 1s (11.1 MB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -74,7 +74,6 @@ libxrandr2 is already the newest version (2:1.5.2-2build1).
 libxrandr2 set to manually installed.
 libxrender1 is already the newest version (1:0.9.10-1.1build1).
 libxrender1 set to manually installed.
-xvfb is already the newest version (2:21.1.12-1ubuntu1.8).
 fonts-noto-color-emoji is already the newest version (2.047-0ubuntu0.24.04.1).
 fonts-liberation is already the newest version (1:2.1.5-3).
 fonts-liberation set to manually installed.
@@ -84,12 +83,13 @@ The following additional packages will be installed:
   libswresample4 libtheora0 libtwolame0 libva-drm2 libva-x11-2 libva2
   libvdpau1 libvorbisenc2 libvpl2 libvpx9 libx264-164 libx265-199 libxvidcore4
   libzvbi-common libzvbi0t64 ocl-icd-libopencl1 xfonts-encodings xfonts-utils
+  xserver-common
 Suggested packages:
   libcuda1 libnvcuvid1 libnvidia-encode1 opus-tools librsvg2-bin speex
   opencl-icd
 Recommended packages:
   fonts-ipafont-mincho fonts-tlwg-loma librsvg2-common va-driver-all
-  | va-driver vdpau-driver-all | vdpau-driver
+  | va-driver vdpau-driver-all | vdpau-driver xfonts-base
 The following NEW packages will be installed:
   fonts-freefont-ttf fonts-ipafont-gothic fonts-tlwg-loma-otf fonts-unifont
   fonts-wqy-zenhei libavcodec60 libavutil58 libcodec2-1.2 libdav1d7 libgsm1
@@ -99,8 +99,10 @@ The following NEW packages will be installed:
   libx264-164 libx265-199 libxvidcore4 libzvbi-common libzvbi0t64
   ocl-icd-libopencl1 xfonts-cyrillic xfonts-encodings xfonts-scalable
   xfonts-utils
-0 upgraded, 40 newly installed, 0 to remove and 79 not upgraded.
-Need to get 48.8 MB of archives.
+The following packages will be upgraded:
+  xserver-common xvfb
+2 upgraded, 40 newly installed, 0 to remove and 80 not upgraded.
+Need to get 49.7 MB of archives.
 After this operation, 168 MB of additional disk space will be used.
 Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
 Get:2 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-ipafont-gothic all 00303-21ubuntu1 [3513 kB]
@@ -143,7 +145,9 @@ Get:38 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 xfonts-encodings 
 Get:39 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 xfonts-utils amd64 1:7.7+6build3 [94.4 kB]
 Get:40 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 xfonts-cyrillic all 1:1.0.5+nmu1 [384 kB]
 Get:41 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 xfonts-scalable all 1:1.0.3-1.3 [304 kB]
-Fetched 48.8 MB in 4s (13.2 MB/s)
+Get:42 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 xserver-common all 2:21.1.12-1ubuntu1.9 [35.0 kB]
+Get:43 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 xvfb amd64 2:21.1.12-1ubuntu1.9 [877 kB]
+Fetched 49.7 MB in 4s (12.5 MB/s)
 Selecting previously unselected package fonts-ipafont-gothic.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 203540 files and directories currently installed.)
 Preparing to unpack .../00-fonts-ipafont-gothic_00303-21ubuntu1_all.deb ...
@@ -265,6 +269,10 @@ Unpacking xfonts-cyrillic (1:1.0.5+nmu1) ...
 Selecting previously unselected package xfonts-scalable.
 Preparing to unpack .../39-xfonts-scalable_1%3a1.0.3-1.3_all.deb ...
 Unpacking xfonts-scalable (1:1.0.3-1.3) ...
+Preparing to unpack .../40-xserver-common_2%3a21.1.12-1ubuntu1.9_all.deb ...
+Unpacking xserver-common (2:21.1.12-1ubuntu1.9) over (2:21.1.12-1ubuntu1.8) ...
+Preparing to unpack .../41-xvfb_2%3a21.1.12-1ubuntu1.9_amd64.deb ...
+Unpacking xvfb (2:21.1.12-1ubuntu1.9) over (2:21.1.12-1ubuntu1.8) ...
 Setting up libhwy1t64:amd64 (1.0.7-8.1build1) ...
 Setting up libspeex1:amd64 (1.2.1-2ubuntu2.24.04.1) ...
 Setting up libshine3:amd64 (3.1.1-2build1) ...
@@ -294,12 +302,14 @@ update-alternatives: using /usr/share/fonts/opentype/ipafont-gothic/ipag.ttf to 
 Setting up ocl-icd-libopencl1:amd64 (2.3.2-1build1) ...
 Setting up libvdpau1:amd64 (1.5-2build1) ...
 Setting up libtheora0:amd64 (1.1.1+dfsg.1-16.1build3) ...
+Setting up xserver-common (2:21.1.12-1ubuntu1.9) ...
 Setting up libva-x11-2:amd64 (2.20.0-2ubuntu0.2) ...
 Setting up libzvbi-common (0.2.42-2) ...
 Setting up libmp3lame0:amd64 (3.100-6build1) ...
 Setting up libvorbisenc2:amd64 (1.3.7-1build3) ...
 Setting up fonts-unifont (1:15.1.01-1build1) ...
 Setting up libzvbi0t64:amd64 (0.2.42-2) ...
+Setting up xvfb (2:21.1.12-1ubuntu1.9) ...
 Setting up libavutil58:amd64 (7:6.1.1-3ubuntu5) ...
 Setting up xfonts-utils (1:7.7+6build3) ...
 Setting up libswresample4:amd64 (7:6.1.1-3ubuntu5) ...
