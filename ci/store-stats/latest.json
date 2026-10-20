@@ -1,23 +1,23 @@
 {
-  "checkedAt": "2026-10-19T17:47:52.490Z",
+  "checkedAt": "2026-10-20T15:51:08.456Z",
   "actors": {
     "florida-sunbiz-scraper": {
       "isPublic": true,
       "totalUsers": 2,
       "totalUsers7Days": 1,
       "totalUsers30Days": 1,
-      "totalRuns": 22,
-      "lastRunStartedAt": "2026-10-19T17:30:16.823Z",
+      "totalRuns": 24,
+      "lastRunStartedAt": "2026-10-20T15:40:47.165Z",
       "rating": 0,
       "reviews": 0
     },
     "georgia-sos-scraper": {
       "isPublic": true,
-      "totalUsers": 1,
-      "totalUsers7Days": 0,
-      "totalUsers30Days": 0,
-      "totalRuns": 59,
-      "lastRunStartedAt": "2026-10-19T17:44:20.219Z",
+      "totalUsers": 3,
+      "totalUsers7Days": 2,
+      "totalUsers30Days": 2,
+      "totalRuns": 60,
+      "lastRunStartedAt": "2026-10-20T13:38:44.015Z",
       "rating": 0,
       "reviews": 0
     },
@@ -33,21 +33,21 @@
     },
     "telegram-channel-scraper": {
       "isPublic": true,
-      "totalUsers": 2,
-      "totalUsers7Days": 1,
-      "totalUsers30Days": 1,
-      "totalRuns": 19,
-      "lastRunStartedAt": "2026-10-19T13:32:45.821Z",
+      "totalUsers": 1,
+      "totalUsers7Days": 0,
+      "totalUsers30Days": 0,
+      "totalRuns": 21,
+      "lastRunStartedAt": "2026-10-20T13:38:44.337Z",
       "rating": 0,
       "reviews": 0
     },
     "tiendanube-scraper": {
       "isPublic": true,
-      "totalUsers": 3,
-      "totalUsers7Days": 2,
-      "totalUsers30Days": 2,
-      "totalRuns": 19,
-      "lastRunStartedAt": "2026-10-19T13:32:45.735Z",
+      "totalUsers": 1,
+      "totalUsers7Days": 1,
+      "totalUsers30Days": 1,
+      "totalRuns": 21,
+      "lastRunStartedAt": "2026-10-20T13:38:44.151Z",
       "rating": 0,
       "reviews": 0
     },
@@ -56,8 +56,8 @@
       "totalUsers": 2,
       "totalUsers7Days": 1,
       "totalUsers30Days": 1,
-      "totalRuns": 12,
-      "lastRunStartedAt": "2026-10-19T13:32:45.365Z",
+      "totalRuns": 14,
+      "lastRunStartedAt": "2026-10-20T13:38:44.010Z",
       "rating": 0,
       "reviews": 0
     }
