@@ -55,7 +55,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:31:31.000Z",
-    "scrapedAt": "2026-10-20T15:50:37.125Z"
+    "scrapedAt": "2026-10-21T16:06:59.405Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/numbuzin-no-9-nad-retinol-volumetox-eye-cream-1s37v/",
@@ -113,7 +113,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:28:07.000Z",
-    "scrapedAt": "2026-10-20T15:50:37.186Z"
+    "scrapedAt": "2026-10-21T16:06:59.489Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/mixsoon-glacier-water-hyaluronic-acid-serum-n44hf/",
@@ -171,7 +171,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:24:36.000Z",
-    "scrapedAt": "2026-10-20T15:50:37.471Z"
+    "scrapedAt": "2026-10-21T16:06:59.868Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/vt-cosmetics-pdrn-reedle-shot-hair-ampoule-100dl-yhjc8/",
@@ -229,7 +229,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:21:05.000Z",
-    "scrapedAt": "2026-10-20T15:50:37.823Z"
+    "scrapedAt": "2026-10-21T16:07:00.243Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/purito-mighty-bamboo-panthenol-cream-3hr6e/",
@@ -287,7 +287,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:15:37.000Z",
-    "scrapedAt": "2026-10-20T15:50:38.114Z"
+    "scrapedAt": "2026-10-21T16:07:00.454Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/medicube-zero-pore-pad-1mzle/",
@@ -349,65 +349,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:12:00.000Z",
-    "scrapedAt": "2026-10-20T15:50:38.459Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/anua-rice-70-intensive-moisturizing-milk-qbxeo/",
-    "productId": 374699816,
-    "name": "Anua Rice 70 Intensive Moisturizing Milk",
-    "brand": "ANUA",
-    "description": "Anua Rice 70 Intensive Moisturizing Milk es una loción hidratante coreana de textura ligera tipo leche, formulada con 70% de agua de salvado de arroz (ANUA Rice Water+™), niacinamida y ceramidas. Está diseñada para hidratar en profundidad, iluminar la tez apagada y fortalecer la barrera cutánea, logrando un acabado tipo \"piel de cristal\" (glass skin) sin sensación pegajosa. 150ml",
-    "categories": [
-      "Marcas",
-      "K-Beauty"
-    ],
-    "tags": [],
-    "price": null,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": null,
-    "priceMax": null,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620591496,
-        "sku": null,
-        "price": null,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/anua-70-ec8ca74b9d1c3fadda17921776974919-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/anua-70-ec8ca74b9d1c3fadda17921776974919-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/anua-70-ec8ca74b9d1c3fadda17921776974919-1024-1024.webp",
-    "weightKg": 0.2,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-16T19:09:06.000Z",
-    "scrapedAt": "2026-10-20T15:50:38.906Z"
+    "scrapedAt": "2026-10-21T16:07:00.515Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-glow-1004-duo-5ldui/",
@@ -465,7 +407,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:04:39.000Z",
-    "scrapedAt": "2026-10-20T15:50:39.143Z"
+    "scrapedAt": "2026-10-21T16:07:01.165Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/anua-rice-70-intensive-moisturizing-milk-qbxeo/",
+    "productId": 374699816,
+    "name": "Anua Rice 70 Intensive Moisturizing Milk",
+    "brand": "ANUA",
+    "description": "Anua Rice 70 Intensive Moisturizing Milk es una loción hidratante coreana de textura ligera tipo leche, formulada con 70% de agua de salvado de arroz (ANUA Rice Water+™), niacinamida y ceramidas. Está diseñada para hidratar en profundidad, iluminar la tez apagada y fortalecer la barrera cutánea, logrando un acabado tipo \"piel de cristal\" (glass skin) sin sensación pegajosa. 150ml",
+    "categories": [
+      "Marcas",
+      "K-Beauty"
+    ],
+    "tags": [],
+    "price": null,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": null,
+    "priceMax": null,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620591496,
+        "sku": null,
+        "price": null,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/anua-70-ec8ca74b9d1c3fadda17921776974919-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/anua-70-ec8ca74b9d1c3fadda17921776974919-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/anua-70-ec8ca74b9d1c3fadda17921776974919-1024-1024.webp",
+    "weightKg": 0.2,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-16T19:09:06.000Z",
+    "scrapedAt": "2026-10-21T16:07:01.255Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-air-fit-suncream-light-1o8f6/",
@@ -523,7 +523,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:01:33.000Z",
-    "scrapedAt": "2026-10-20T15:50:39.552Z"
+    "scrapedAt": "2026-10-21T16:07:01.824Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/numbuzin-no-9-nad-trial-kit-for-anti-aging-firming-qel0y/",
@@ -581,7 +581,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:57:01.000Z",
-    "scrapedAt": "2026-10-20T15:50:39.755Z"
+    "scrapedAt": "2026-10-21T16:07:02.051Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/purito-oat-in-calming-gel-cream-39ab6/",
@@ -639,7 +639,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:49:05.000Z",
-    "scrapedAt": "2026-10-20T15:50:39.872Z"
+    "scrapedAt": "2026-10-21T16:07:02.521Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/shiseido-fino-premium-touch-hair-oil-1y7li/",
@@ -697,7 +697,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:42:40.000Z",
-    "scrapedAt": "2026-10-20T15:50:40.186Z"
+    "scrapedAt": "2026-10-21T16:07:02.739Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/dr-althea-345-relief-travel-kit-11r01/",
@@ -755,7 +755,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:34:20.000Z",
-    "scrapedAt": "2026-10-20T15:50:40.748Z"
+    "scrapedAt": "2026-10-21T16:07:03.110Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/dr-althea-345-relief-serum-145sn/",
@@ -813,7 +813,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:29:18.000Z",
-    "scrapedAt": "2026-10-20T15:50:41.102Z"
+    "scrapedAt": "2026-10-21T16:07:03.446Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/dr-althea-vitamin-c-boosting-serum-63-nfdxc/",
@@ -871,7 +871,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:24:46.000Z",
-    "scrapedAt": "2026-10-20T15:50:41.182Z"
+    "scrapedAt": "2026-10-21T16:07:03.758Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/medicube-kojic-acid-turmeric-vita-capsule-cream-m7sks/",
@@ -929,7 +929,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:11:49.000Z",
-    "scrapedAt": "2026-10-20T15:50:41.745Z"
+    "scrapedAt": "2026-10-21T16:07:04.063Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-treatment-rinse-lg6lu/",
@@ -987,7 +987,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:07:03.000Z",
-    "scrapedAt": "2026-10-20T15:50:41.862Z"
+    "scrapedAt": "2026-10-21T16:07:04.441Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-shampoo-151va/",
@@ -1045,7 +1045,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:02:41.000Z",
-    "scrapedAt": "2026-10-20T15:50:42.179Z"
+    "scrapedAt": "2026-10-21T16:07:04.763Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-hyalu-cica-moisture-cream-jno35/",
@@ -1106,65 +1106,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T03:42:37.000Z",
-    "scrapedAt": "2026-10-20T15:50:45.997Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/sephora-favorites-holiday-must-haves-makeup-skincare-value-set-1519b/",
-    "productId": 374563417,
-    "name": "Sephora Favorites – Holiday Must-Haves Makeup & Skincare Value Set",
-    "brand": "SEPHORA",
-    "description": "Set edición limitada de 9 productos que combina maquillaje, skincare y haircare de marcas top para un look radiante. 1 Glow Recipe Watermelon Glow PHA + BHA Pore-Tight Toner Mini (40 mL) 2 HUDA BEAUTY Easy Bake Setting Spray Mini (30 mL) 3 ILIA Limitless Lash Lengthening Mascara en After Midnight Mini (3 g) 4 MERIT Flush Balm Cream Blush en Postmodern Full size (9 g) 5 Sol de Janeiro Delícia Drench™ Deeply Moisturizing Body Butter Mini (75 mL) 6 Rare Beauty by Selena Gomez Soft Pinch Liquid Blush en Encourage Full size (7.5 mL) 7 Tatcha The Dewy Skin Cream Hydrating & Firming Moisturizer Mini (15 mL) 8 Fenty Beauty by Rihanna Gloss Bomb Stix en Is It Fu$$Y Full size (3.6 g) 9 Color Wow Dream Coat Supernatural Spray Mini (50 mL)",
-    "categories": [
-      "Marcas",
-      "Makeup / variado"
-    ],
-    "tags": [],
-    "price": null,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": null,
-    "priceMax": null,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620164037,
-        "sku": null,
-        "price": null,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-favorites-holiday-must-have-0a75d7d7c8342b9afb17921136966042-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-favorites-holiday-must-have-0a75d7d7c8342b9afb17921136966042-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-favorites-holiday-must-have-0a75d7d7c8342b9afb17921136966042-1024-1024.webp",
-    "weightKg": 0.3,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-16T01:22:22.000Z",
-    "scrapedAt": "2026-10-20T15:51:01.357Z"
+    "scrapedAt": "2026-10-21T16:07:08.590Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/color-wow-iconic-frizz-fighters-gift-set-1996i/",
@@ -1222,7 +1164,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T01:34:15.000Z",
-    "scrapedAt": "2026-10-20T15:51:01.467Z"
+    "scrapedAt": "2026-10-21T16:07:23.769Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/cozy-clean-makeup-value-set-1um2b/",
@@ -1280,17 +1222,17 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T01:06:58.000Z",
-    "scrapedAt": "2026-10-20T15:51:01.564Z"
+    "scrapedAt": "2026-10-21T16:07:23.924Z"
   },
   {
-    "url": "https://dailyskincaremx.com/productos/bath-body-works-champagne-toast-gentle-clean-foaming-hand-soap-2m8pk/",
-    "productId": 374557704,
-    "name": "Bath & Body Works CHAMPAGNE TOAST – Gentle & Clean Foaming Hand Soap",
-    "brand": "Bath &amp; Body Works ",
-    "description": "Jabón de manos espumoso con un aroma frutal, dulce y efervescente, descrito por la marca como \"un spritz afrutado, dulce y burbujeante\". Limpia eficazmente sin resecar, dejando las manos suaves y perfumadas con la celebración de una copa de champán. Salida Champán burbujeante + mandarina jugosa Corazón Nectarina + maracuyá + grosella negra + hibisco Fondo Azúcar + vainilla + almizcle + ciruelo Vitamina E: protege y suaviza Extracto de Mantequilla de Karité: hidrata y nutre Aloe Vera: calma e hidrata 259ml",
+    "url": "https://dailyskincaremx.com/productos/sephora-favorites-holiday-must-haves-makeup-skincare-value-set-1519b/",
+    "productId": 374563417,
+    "name": "Sephora Favorites – Holiday Must-Haves Makeup & Skincare Value Set",
+    "brand": "SEPHORA",
+    "description": "Set edición limitada de 9 productos que combina maquillaje, skincare y haircare de marcas top para un look radiante. 1 Glow Recipe Watermelon Glow PHA + BHA Pore-Tight Toner Mini (40 mL) 2 HUDA BEAUTY Easy Bake Setting Spray Mini (30 mL) 3 ILIA Limitless Lash Lengthening Mascara en After Midnight Mini (3 g) 4 MERIT Flush Balm Cream Blush en Postmodern Full size (9 g) 5 Sol de Janeiro Delícia Drench™ Deeply Moisturizing Body Butter Mini (75 mL) 6 Rare Beauty by Selena Gomez Soft Pinch Liquid Blush en Encourage Full size (7.5 mL) 7 Tatcha The Dewy Skin Cream Hydrating & Firming Moisturizer Mini (15 mL) 8 Fenty Beauty by Rihanna Gloss Bomb Stix en Is It Fu$$Y Full size (3.6 g) 9 Color Wow Dream Coat Supernatural Spray Mini (50 mL)",
     "categories": [
       "Marcas",
-      "Bath & Body Works"
+      "Makeup / variado"
     ],
     "tags": [],
     "price": null,
@@ -1309,27 +1251,27 @@
     },
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": 4,
+    "stockTotal": 1,
     "stockUnlimited": false,
     "sku": null,
     "variantCount": 1,
     "variants": [
       {
-        "id": 1620143347,
-        "sku": "",
+        "id": 1620164037,
+        "sku": null,
         "price": null,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 4,
+        "stock": 1,
         "available": true,
         "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-champagne-toast-9fbee5c1d0c7ac242c17921117472831-1024-1024.webp"
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-favorites-holiday-must-have-0a75d7d7c8342b9afb17921136966042-1024-1024.webp"
       }
     ],
     "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-champagne-toast-9fbee5c1d0c7ac242c17921117472831-1024-1024.webp"
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-favorites-holiday-must-have-0a75d7d7c8342b9afb17921136966042-1024-1024.webp"
     ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-champagne-toast-9fbee5c1d0c7ac242c17921117472831-1024-1024.webp",
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-favorites-holiday-must-have-0a75d7d7c8342b9afb17921136966042-1024-1024.webp",
     "weightKg": 0.3,
     "storeName": "Dailyskincaremx",
     "storeDomain": "dailyskincaremx.com",
@@ -1337,66 +1279,8 @@
     "language": "es_MX",
     "platform": "tiendanube",
     "engine": "classic",
-    "lastModified": "2026-10-16T00:40:49.000Z",
-    "scrapedAt": "2026-10-20T15:51:01.947Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/bath-body-works-wrapped-in-spice-gentle-clean-foaming-hand-soap-1s65f/",
-    "productId": 374556875,
-    "name": "Bath & Body Works WRAPPED IN SPICE – Gentle & Clean Foaming Hand Soap",
-    "brand": "Bath &amp; Body Works ",
-    "description": "Jabón de manos espumoso con un aroma dulce, amaderado y a té, descrito por la marca como \"un abrazo acogedor de té infusionado y maderas dulces\". Limpia eficazmente sin resecar, dejando las manos suaves y perfumadas con calidez otoñal. Salida Té infusionado (steeped tea) Corazón Maderas dulces (sweet woods) Fondo Especias cálidas Vitamina E: protege y suaviza Extracto de Mantequilla de Karité: hidrata y nutre Aloe Vera: calma e hidrata 259ml",
-    "categories": [
-      "Marcas",
-      "Bath & Body Works"
-    ],
-    "tags": [],
-    "price": null,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": null,
-    "priceMax": null,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 3,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620140466,
-        "sku": "",
-        "price": null,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-wrapped-in-spice-79bcc1661bf106a97b17921111855183-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-wrapped-in-spice-79bcc1661bf106a97b17921111855183-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-wrapped-in-spice-79bcc1661bf106a97b17921111855183-1024-1024.webp",
-    "weightKg": 0.3,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-16T00:33:38.000Z",
-    "scrapedAt": "2026-10-20T15:51:02.138Z"
+    "lastModified": "2026-10-16T01:22:22.000Z",
+    "scrapedAt": "2026-10-21T16:07:23.991Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-mahogany-taekwood-gentle-clean-foaming-hand-soap-1sk4a/",
@@ -1454,14 +1338,14 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:51:04.000Z",
-    "scrapedAt": "2026-10-20T15:51:02.182Z"
+    "scrapedAt": "2026-10-21T16:07:24.328Z"
   },
   {
-    "url": "https://dailyskincaremx.com/productos/bath-body-works-mahogany-teakwood-gentle-clean-foaming-hand-soap-4l475/",
-    "productId": 374554561,
-    "name": "Bath & Body Works MAHOGANY TEAKWOOD – Gentle & Clean Foaming Hand Soap",
+    "url": "https://dailyskincaremx.com/productos/bath-body-works-champagne-toast-gentle-clean-foaming-hand-soap-2m8pk/",
+    "productId": 374557704,
+    "name": "Bath & Body Works CHAMPAGNE TOAST – Gentle & Clean Foaming Hand Soap",
     "brand": "Bath &amp; Body Works ",
-    "description": "Jabón de manos espumoso suave con un aroma amaderado, cálido y misterioso, inspirado en un paseo por el bosque al atardecer. Limpia eficazmente sin resecar, dejando las manos suaves y perfumadas con la riqueza de la madera. Vitamina E: protege y suaviza Extracto de Mantequilla de Karité: hidrata y nutre Aloe Vera: calma e hidrata 259ml",
+    "description": "Jabón de manos espumoso con un aroma frutal, dulce y efervescente, descrito por la marca como \"un spritz afrutado, dulce y burbujeante\". Limpia eficazmente sin resecar, dejando las manos suaves y perfumadas con la celebración de una copa de champán. Salida Champán burbujeante + mandarina jugosa Corazón Nectarina + maracuyá + grosella negra + hibisco Fondo Azúcar + vainilla + almizcle + ciruelo Vitamina E: protege y suaviza Extracto de Mantequilla de Karité: hidrata y nutre Aloe Vera: calma e hidrata 259ml",
     "categories": [
       "Marcas",
       "Bath & Body Works"
@@ -1483,27 +1367,27 @@
     },
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": 2,
+    "stockTotal": 4,
     "stockUnlimited": false,
     "sku": null,
     "variantCount": 1,
     "variants": [
       {
-        "id": 1620135069,
+        "id": 1620143347,
         "sku": "",
         "price": null,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 2,
+        "stock": 4,
         "available": true,
         "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-mohagany-taekwood-e19c602b668d62955617921104151636-1024-1024.webp"
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-champagne-toast-9fbee5c1d0c7ac242c17921117472831-1024-1024.webp"
       }
     ],
     "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-mohagany-taekwood-e19c602b668d62955617921104151636-1024-1024.webp"
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-champagne-toast-9fbee5c1d0c7ac242c17921117472831-1024-1024.webp"
     ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-mohagany-taekwood-e19c602b668d62955617921104151636-1024-1024.webp",
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-champagne-toast-9fbee5c1d0c7ac242c17921117472831-1024-1024.webp",
     "weightKg": 0.3,
     "storeName": "Dailyskincaremx",
     "storeDomain": "dailyskincaremx.com",
@@ -1511,8 +1395,66 @@
     "language": "es_MX",
     "platform": "tiendanube",
     "engine": "classic",
-    "lastModified": "2026-10-16T00:22:24.000Z",
-    "scrapedAt": "2026-10-20T15:51:02.542Z"
+    "lastModified": "2026-10-16T00:40:49.000Z",
+    "scrapedAt": "2026-10-21T16:07:24.717Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/bath-body-works-wrapped-in-spice-gentle-clean-foaming-hand-soap-1s65f/",
+    "productId": 374556875,
+    "name": "Bath & Body Works WRAPPED IN SPICE – Gentle & Clean Foaming Hand Soap",
+    "brand": "Bath &amp; Body Works ",
+    "description": "Jabón de manos espumoso con un aroma dulce, amaderado y a té, descrito por la marca como \"un abrazo acogedor de té infusionado y maderas dulces\". Limpia eficazmente sin resecar, dejando las manos suaves y perfumadas con calidez otoñal. Salida Té infusionado (steeped tea) Corazón Maderas dulces (sweet woods) Fondo Especias cálidas Vitamina E: protege y suaviza Extracto de Mantequilla de Karité: hidrata y nutre Aloe Vera: calma e hidrata 259ml",
+    "categories": [
+      "Marcas",
+      "Bath & Body Works"
+    ],
+    "tags": [],
+    "price": null,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": null,
+    "priceMax": null,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 3,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620140466,
+        "sku": "",
+        "price": null,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 3,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-wrapped-in-spice-79bcc1661bf106a97b17921111855183-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-wrapped-in-spice-79bcc1661bf106a97b17921111855183-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-wrapped-in-spice-79bcc1661bf106a97b17921111855183-1024-1024.webp",
+    "weightKg": 0.3,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-16T00:33:38.000Z",
+    "scrapedAt": "2026-10-21T16:07:24.765Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-japanese-cherry-blossom-gentle-clean-foaming-hand-soap-ax43z/",
@@ -1570,7 +1512,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:28:07.000Z",
-    "scrapedAt": "2026-10-20T15:51:02.627Z"
+    "scrapedAt": "2026-10-21T16:07:24.907Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/bath-body-works-mahogany-teakwood-gentle-clean-foaming-hand-soap-4l475/",
+    "productId": 374554561,
+    "name": "Bath & Body Works MAHOGANY TEAKWOOD – Gentle & Clean Foaming Hand Soap",
+    "brand": "Bath &amp; Body Works ",
+    "description": "Jabón de manos espumoso suave con un aroma amaderado, cálido y misterioso, inspirado en un paseo por el bosque al atardecer. Limpia eficazmente sin resecar, dejando las manos suaves y perfumadas con la riqueza de la madera. Vitamina E: protege y suaviza Extracto de Mantequilla de Karité: hidrata y nutre Aloe Vera: calma e hidrata 259ml",
+    "categories": [
+      "Marcas",
+      "Bath & Body Works"
+    ],
+    "tags": [],
+    "price": null,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": null,
+    "priceMax": null,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 2,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620135069,
+        "sku": "",
+        "price": null,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 2,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-mohagany-taekwood-e19c602b668d62955617921104151636-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-mohagany-taekwood-e19c602b668d62955617921104151636-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-mohagany-taekwood-e19c602b668d62955617921104151636-1024-1024.webp",
+    "weightKg": 0.3,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-16T00:22:24.000Z",
+    "scrapedAt": "2026-10-21T16:07:25.111Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-strawberry-bite-gentle-clean-foaming-hand-soap-17je5/",
@@ -1628,7 +1628,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:20:57.000Z",
-    "scrapedAt": "2026-10-20T15:51:02.748Z"
+    "scrapedAt": "2026-10-21T16:07:25.295Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/moev-annurcatin-hair-tonic-1nsq3/",
@@ -1686,7 +1686,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:09:09.000Z",
-    "scrapedAt": "2026-10-20T15:51:03.176Z"
+    "scrapedAt": "2026-10-21T16:07:25.509Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/moev-annurcatin-treatment-1d9un/",
@@ -1744,65 +1744,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:03:55.000Z",
-    "scrapedAt": "2026-10-20T15:51:03.333Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-essence-1chrn/",
-    "productId": 374541929,
-    "name": "Elizavecca CER-100 Collagen Coating Hair A+ Muscle Essence",
-    "brand": "ELIZAVECCA",
-    "description": "Elizavecca CER-100 Collagen Coating Hair A+ Muscle EssenceEsencia capilar coreana sin enjuague de la línea CER-100, diseñada para reparar, fortalecer y suavizar el cabello dañado con un acabado brillante y sedoso. Colágeno Hidrolizado (1.1 ppm) Rellena las fisuras de la hebra capilar, fortalece y mejora la elasticidad Queratina Hidrolizada Repara la estructura interna del cabello Ceramida NP Sella y protege la cutícula Aceite de Argán Nutrición intensa, brillo y suavidad Aceite de Onagra (Evening Primrose) Ácidos grasos esenciales para la salud del cuero cabelludo Proteína de Avena Protege y fortalece Extracto de Tomillo Energiza y revitaliza el cabello Aceite de Manzanilla Calma y aporta luminosidad 150 ml",
-    "categories": [
-      "Marcas",
-      "Otras marcas"
-    ],
-    "tags": [],
-    "price": null,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": null,
-    "priceMax": null,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620094870,
-        "sku": null,
-        "price": null,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/elizavecca-cer-100-collagen-coating-hair-essence-c895da30928ebc023a17921070944415-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/elizavecca-cer-100-collagen-coating-hair-essence-c895da30928ebc023a17921070944415-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/elizavecca-cer-100-collagen-coating-hair-essence-c895da30928ebc023a17921070944415-1024-1024.webp",
-    "weightKg": 0.2,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-15T23:32:22.000Z",
-    "scrapedAt": "2026-10-20T15:51:03.407Z"
+    "scrapedAt": "2026-10-21T16:07:25.615Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/difeel-biotin-premium-hair-oil-1n3jk/",
@@ -1860,7 +1802,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:55:45.000Z",
-    "scrapedAt": "2026-10-20T15:51:03.564Z"
+    "scrapedAt": "2026-10-21T16:07:25.830Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-essence-1chrn/",
+    "productId": 374541929,
+    "name": "Elizavecca CER-100 Collagen Coating Hair A+ Muscle Essence",
+    "brand": "ELIZAVECCA",
+    "description": "Elizavecca CER-100 Collagen Coating Hair A+ Muscle EssenceEsencia capilar coreana sin enjuague de la línea CER-100, diseñada para reparar, fortalecer y suavizar el cabello dañado con un acabado brillante y sedoso. Colágeno Hidrolizado (1.1 ppm) Rellena las fisuras de la hebra capilar, fortalece y mejora la elasticidad Queratina Hidrolizada Repara la estructura interna del cabello Ceramida NP Sella y protege la cutícula Aceite de Argán Nutrición intensa, brillo y suavidad Aceite de Onagra (Evening Primrose) Ácidos grasos esenciales para la salud del cuero cabelludo Proteína de Avena Protege y fortalece Extracto de Tomillo Energiza y revitaliza el cabello Aceite de Manzanilla Calma y aporta luminosidad 150 ml",
+    "categories": [
+      "Marcas",
+      "Otras marcas"
+    ],
+    "tags": [],
+    "price": null,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": null,
+    "priceMax": null,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620094870,
+        "sku": null,
+        "price": null,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/elizavecca-cer-100-collagen-coating-hair-essence-c895da30928ebc023a17921070944415-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/elizavecca-cer-100-collagen-coating-hair-essence-c895da30928ebc023a17921070944415-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/elizavecca-cer-100-collagen-coating-hair-essence-c895da30928ebc023a17921070944415-1024-1024.webp",
+    "weightKg": 0.2,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-15T23:32:22.000Z",
+    "scrapedAt": "2026-10-21T16:07:25.985Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eqqualberry-glow-filter-vitamin-illuminating-serum-yodpt/",
@@ -1915,7 +1915,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:22:06.000Z",
-    "scrapedAt": "2026-10-20T15:51:03.599Z"
+    "scrapedAt": "2026-10-21T16:07:26.153Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/difeel-rosemary-mint-premium-hair-oil-infused-with-biotin-1maf9/",
@@ -1973,65 +1973,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:16:55.000Z",
-    "scrapedAt": "2026-10-20T15:51:04.048Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/the-ordinary-glycolic-acid-7-toning-solution-1xa43/",
-    "productId": 374536109,
-    "name": "The Ordinary Glycolic Acid 7% Toning Solution",
-    "brand": "The Ordinary",
-    "description": "The Ordinary Glycolic Acid 7% Toning Solution – Tónico exfoliante acuoso con 7% de ácido glicólico (AHA) para mejorar la textura, uniformar el tono y aumentar la luminosidad de la piel. Ácido Glicólico: exfolia la capa superficial de células muertas. Pimienta de Tasmania (Tasmannia Lanceolata): reduce la irritación asociada al uso de ácidos. Ginseng y Aloe Vera: luminosidad y efecto calmante. Aminoácidos (NMF): apoyan la hidratación natural de la piel. 240 ml",
-    "categories": [
-      "Marcas",
-      "The Ordinary"
-    ],
-    "tags": [],
-    "price": null,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": null,
-    "priceMax": null,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 5,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620071655,
-        "sku": null,
-        "price": null,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 5,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/the-ordinary-glycolic-acid-7-toning-solution-b2a47f531a2fb34f0417921047346206-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/the-ordinary-glycolic-acid-7-toning-solution-b2a47f531a2fb34f0417921047346206-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/the-ordinary-glycolic-acid-7-toning-solution-b2a47f531a2fb34f0417921047346206-1024-1024.webp",
-    "weightKg": 0.4,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-15T22:53:01.000Z",
-    "scrapedAt": "2026-10-20T15:51:04.202Z"
+    "scrapedAt": "2026-10-21T16:07:26.362Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/sephora-favorites-mini-holiday-must-haves-value-set-fferj/",
@@ -2089,7 +2031,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:10:51.000Z",
-    "scrapedAt": "2026-10-20T15:51:04.233Z"
+    "scrapedAt": "2026-10-21T16:07:26.442Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/loreal-paris-infallible-3-second-setting-mist-1jafb/",
@@ -2147,15 +2089,18 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:03:22.000Z",
-    "scrapedAt": "2026-10-20T15:51:04.405Z"
+    "scrapedAt": "2026-10-21T16:07:26.645Z"
   },
   {
-    "url": "https://dailyskincaremx.com/productos/natures-bounty-optimal-solutions-hair-skin-nails-gummies-lhpuw/",
-    "productId": 374531242,
-    "name": "Nature's Bounty Optimal Solutions – Hair, Skin & Nails Gummies",
-    "brand": null,
-    "description": "Nature's Bounty Optimal Solutions – Hair, Skin & Nails Gummies Deliciosas gomitas con sabor a fresa que contienen los nutrientes esenciales para apoyar la belleza natural desde adentro: Biotina (2,500 mcg): ayuda a mantener un cabello saludable y uñas sanas. Vitamina E (15 UI): contribuye a la salud de la piel. Vitamina C (15 mg): participa en la producción y formación de colágeno, base de una piel vibrante. 40 gomitas",
-    "categories": [],
+    "url": "https://dailyskincaremx.com/productos/the-ordinary-glycolic-acid-7-toning-solution-1xa43/",
+    "productId": 374536109,
+    "name": "The Ordinary Glycolic Acid 7% Toning Solution",
+    "brand": "The Ordinary",
+    "description": "The Ordinary Glycolic Acid 7% Toning Solution – Tónico exfoliante acuoso con 7% de ácido glicólico (AHA) para mejorar la textura, uniformar el tono y aumentar la luminosidad de la piel. Ácido Glicólico: exfolia la capa superficial de células muertas. Pimienta de Tasmania (Tasmannia Lanceolata): reduce la irritación asociada al uso de ácidos. Ginseng y Aloe Vera: luminosidad y efecto calmante. Aminoácidos (NMF): apoyan la hidratación natural de la piel. 240 ml",
+    "categories": [
+      "Marcas",
+      "The Ordinary"
+    ],
     "tags": [],
     "price": null,
     "compareAtPrice": null,
@@ -2173,36 +2118,36 @@
     },
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": 2,
+    "stockTotal": 5,
     "stockUnlimited": false,
     "sku": null,
     "variantCount": 1,
     "variants": [
       {
-        "id": 1620055107,
+        "id": 1620071655,
         "sku": null,
         "price": null,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 2,
+        "stock": 5,
         "available": true,
         "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/hair-skin-sails-40-gummies-d81f1e69de6588a2b917921032067339-1024-1024.webp"
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/the-ordinary-glycolic-acid-7-toning-solution-b2a47f531a2fb34f0417921047346206-1024-1024.webp"
       }
     ],
     "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/hair-skin-sails-40-gummies-d81f1e69de6588a2b917921032067339-1024-1024.webp"
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/the-ordinary-glycolic-acid-7-toning-solution-b2a47f531a2fb34f0417921047346206-1024-1024.webp"
     ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/hair-skin-sails-40-gummies-d81f1e69de6588a2b917921032067339-1024-1024.webp",
-    "weightKg": 0.3,
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/the-ordinary-glycolic-acid-7-toning-solution-b2a47f531a2fb34f0417921047346206-1024-1024.webp",
+    "weightKg": 0.4,
     "storeName": "Dailyskincaremx",
     "storeDomain": "dailyskincaremx.com",
     "country": "MX",
     "language": "es_MX",
     "platform": "tiendanube",
     "engine": "classic",
-    "lastModified": "2026-10-15T22:27:23.000Z",
-    "scrapedAt": "2026-10-20T15:51:05.707Z"
+    "lastModified": "2026-10-15T22:53:01.000Z",
+    "scrapedAt": "2026-10-21T16:07:26.764Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/natures-bounty-optimal-solutions-hair-skin-nails-gummies-advancded-1df5v/",
@@ -2257,6 +2202,61 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T22:28:21.000Z",
-    "scrapedAt": "2026-10-20T15:51:05.841Z"
+    "scrapedAt": "2026-10-21T16:07:27.831Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/natures-bounty-optimal-solutions-hair-skin-nails-gummies-lhpuw/",
+    "productId": 374531242,
+    "name": "Nature's Bounty Optimal Solutions – Hair, Skin & Nails Gummies",
+    "brand": null,
+    "description": "Nature's Bounty Optimal Solutions – Hair, Skin & Nails Gummies Deliciosas gomitas con sabor a fresa que contienen los nutrientes esenciales para apoyar la belleza natural desde adentro: Biotina (2,500 mcg): ayuda a mantener un cabello saludable y uñas sanas. Vitamina E (15 UI): contribuye a la salud de la piel. Vitamina C (15 mg): participa en la producción y formación de colágeno, base de una piel vibrante. 40 gomitas",
+    "categories": [],
+    "tags": [],
+    "price": null,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": null,
+    "priceMax": null,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 2,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620055107,
+        "sku": null,
+        "price": null,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 2,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/hair-skin-sails-40-gummies-d81f1e69de6588a2b917921032067339-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/hair-skin-sails-40-gummies-d81f1e69de6588a2b917921032067339-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/hair-skin-sails-40-gummies-d81f1e69de6588a2b917921032067339-1024-1024.webp",
+    "weightKg": 0.3,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-15T22:27:23.000Z",
+    "scrapedAt": "2026-10-21T16:07:27.964Z"
   }
 ]
