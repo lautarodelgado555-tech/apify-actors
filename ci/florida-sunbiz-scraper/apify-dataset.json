@@ -1,43 +1,6 @@
 [{
   "entityName": "ACME CORPORATION",
   "entityType": "Florida Profit Corporation",
-  "documentNumber": "112545",
-  "feiEin": "00-0000000",
-  "dateFiled": "12/20/1926",
-  "effectiveDate": null,
-  "state": "FL",
-  "status": "INACTIVE",
-  "lastEvent": "DISSOLVED BY PROCLAMATION",
-  "eventDateFiled": "11/23/1936",
-  "eventEffectiveDate": "NONE",
-  "principalAddress": null,
-  "principalAddressNotes": [],
-  "mailingAddress": null,
-  "mailingAddressNotes": [],
-  "registeredAgentName": "NONE",
-  "registeredAgentAddress": null,
-  "registeredAgentNotes": [],
-  "officerSectionTitle": "Officer/Director Detail",
-  "officers": [],
-  "annualReports": [],
-  "documents": [],
-  "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-112545-918af59c-789e-4606-9371-b8ff8235acb2&entityId=112545&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%201125450&ListNameOrder=ACME%201125450",
-  "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+1125450&aggregateId=domp-112545-918af59c-789e-4606-9371-b8ff8235acb2",
-  "lastAnnualReportYear": null,
-  "annualReportCurrent": null,
-  "annualReportStatus": "not_applicable_inactive",
-  "annualReportDueDate": null,
-  "lateFeeApplies": false,
-  "dissolutionDeadline": null,
-  "nextAnnualReportWindow": null,
-  "matchedName": null,
-  "searchType": "entityName",
-  "searchTerm": "Acme",
-  "scrapedAt": "2026-10-20T15:41:04.362Z"
-},
-{
-  "entityName": "ACME CORPORATION",
-  "entityType": "Florida Profit Corporation",
   "documentNumber": "143138",
   "feiEin": "00-0000000",
   "dateFiled": "07/20/1944",
@@ -86,7 +49,44 @@
   "matchedName": null,
   "searchType": "entityName",
   "searchTerm": "Acme",
-  "scrapedAt": "2026-10-20T15:41:04.886Z"
+  "scrapedAt": "2026-10-21T15:59:45.678Z"
+},
+{
+  "entityName": "ACME CORPORATION",
+  "entityType": "Florida Profit Corporation",
+  "documentNumber": "112545",
+  "feiEin": "00-0000000",
+  "dateFiled": "12/20/1926",
+  "effectiveDate": null,
+  "state": "FL",
+  "status": "INACTIVE",
+  "lastEvent": "DISSOLVED BY PROCLAMATION",
+  "eventDateFiled": "11/23/1936",
+  "eventEffectiveDate": "NONE",
+  "principalAddress": null,
+  "principalAddressNotes": [],
+  "mailingAddress": null,
+  "mailingAddressNotes": [],
+  "registeredAgentName": "NONE",
+  "registeredAgentAddress": null,
+  "registeredAgentNotes": [],
+  "officerSectionTitle": "Officer/Director Detail",
+  "officers": [],
+  "annualReports": [],
+  "documents": [],
+  "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-112545-918af59c-789e-4606-9371-b8ff8235acb2&entityId=112545&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%201125450&ListNameOrder=ACME%201125450",
+  "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+1125450&aggregateId=domp-112545-918af59c-789e-4606-9371-b8ff8235acb2",
+  "lastAnnualReportYear": null,
+  "annualReportCurrent": null,
+  "annualReportStatus": "not_applicable_inactive",
+  "annualReportDueDate": null,
+  "lateFeeApplies": false,
+  "dissolutionDeadline": null,
+  "nextAnnualReportWindow": null,
+  "matchedName": null,
+  "searchType": "entityName",
+  "searchTerm": "Acme",
+  "scrapedAt": "2026-10-21T15:59:46.133Z"
 },
 {
   "entityName": "THE ACME COMPANY",
@@ -123,7 +123,7 @@
   "matchedName": null,
   "searchType": "entityName",
   "searchTerm": "Acme",
-  "scrapedAt": "2026-10-20T15:41:05.753Z"
+  "scrapedAt": "2026-10-21T15:59:46.840Z"
 },
 {
   "entityName": "ACME, INC.",
@@ -184,7 +184,7 @@
   "matchedName": null,
   "searchType": "entityName",
   "searchTerm": "Acme",
-  "scrapedAt": "2026-10-20T15:41:06.292Z"
+  "scrapedAt": "2026-10-21T15:59:47.359Z"
 },
 {
   "entityName": "\"ACME\"",
@@ -221,7 +221,7 @@
   "matchedName": null,
   "searchType": "entityName",
   "searchTerm": "Acme",
-  "scrapedAt": "2026-10-20T15:41:08.663Z"
+  "scrapedAt": "2026-10-21T15:59:49.936Z"
 },
 {
   "entityName": "ACME COMPANY, L.C.",
@@ -324,7 +324,7 @@
   "matchedName": null,
   "searchType": "entityName",
   "searchTerm": "Acme",
-  "scrapedAt": "2026-10-20T15:41:09.971Z"
+  "scrapedAt": "2026-10-21T15:59:51.835Z"
 },
 {
   "entityName": "PUBLIX SUPER MARKETS, INC.",
@@ -803,7 +803,7 @@
   "matchedName": null,
   "searchType": "entityName",
   "searchTerm": "Publix Super Markets",
-  "scrapedAt": "2026-10-20T15:41:14.463Z"
+  "scrapedAt": "2026-10-21T15:59:55.732Z"
 },
 {
   "entityName": "PUBLIX SUPER MARKETS CHARITIES, INC.",
@@ -1052,5 +1052,5 @@
   "matchedName": null,
   "searchType": "entityName",
   "searchTerm": "Publix Super Markets",
-  "scrapedAt": "2026-10-20T15:41:18.170Z"
+  "scrapedAt": "2026-10-21T16:00:00.026Z"
 }]
