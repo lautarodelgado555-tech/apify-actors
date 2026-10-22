@@ -20,8 +20,8 @@
     "source": "Colorado Secretary of State via data.colorado.gov (Business Entities in Colorado)",
     "sourceUrl": "https://data.colorado.gov/resource/4ykn-tg5h.json?entityid=20171362116",
     "mode": "opendata",
-    "dataFreshness": "2026-10-21T11:25:17.000Z",
-    "checkedAt": "2026-10-21T17:04:50.689Z",
+    "dataFreshness": "2026-10-22T12:53:41.000Z",
+    "checkedAt": "2026-10-22T17:03:38.183Z",
     "details": {
       "entityTypeCode": "FPC",
       "jurisdictionOfFormation": "DE",
@@ -67,7 +67,7 @@
     "sourceUrl": "https://data.texas.gov/resource/9cir-efmm.json?taxpayer_number=32073591276",
     "mode": "opendata",
     "dataFreshness": "2026-10-17T10:35:29.000Z",
-    "checkedAt": "2026-10-21T17:04:50.689Z",
+    "checkedAt": "2026-10-22T17:03:38.183Z",
     "details": {
       "taxpayerNumber": "32073591276",
       "sosFileNumber": "0803562210",
@@ -119,7 +119,7 @@
     "sourceUrl": "https://data.ny.gov/resource/3gg2-jgnp.json?corpid_num=4667344&$order=date_filed%20desc%2Cfilm_num%20desc&$limit=1",
     "mode": "opendata",
     "dataFreshness": "2026-10-20T18:51:08.000Z",
-    "checkedAt": "2026-10-21T17:04:50.689Z",
+    "checkedAt": "2026-10-22T17:03:38.183Z",
     "details": {
       "jurisdiction": "New York",
       "county": "Queens",
@@ -165,8 +165,8 @@
     "source": "Connecticut Secretary of the State via data.ct.gov (Business Registry - Business Master)",
     "sourceUrl": "https://data.ct.gov/resource/n7gp-d28j.json?accountnumber=0074441",
     "mode": "opendata",
-    "dataFreshness": "2026-10-21T09:09:31.000Z",
-    "checkedAt": "2026-10-21T17:04:50.689Z",
+    "dataFreshness": "2026-10-22T08:58:34.000Z",
+    "checkedAt": "2026-10-22T17:03:38.183Z",
     "details": {
       "registryRecordId": "001t000000WmVHCAA3",
       "businessTypeCode": "Stock",
@@ -214,7 +214,7 @@
     "sourceUrl": "https://data.oregon.gov/resource/tckn-sxa6.json?registry_number=149629495",
     "mode": "opendata",
     "dataFreshness": "2026-10-20T13:54:57.000Z",
-    "checkedAt": "2026-10-21T17:04:50.689Z",
+    "checkedAt": "2026-10-22T17:03:38.183Z",
     "details": {
       "jurisdiction": "DE",
       "entityTypeCode": "FLLC"
@@ -258,8 +258,8 @@
     "source": "DC Department of Licensing and Consumer Protection via Open Data DC (Corporate Registration)",
     "sourceUrl": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Business_Licensing_and_Grants_WebMercator/FeatureServer/0/query?outFields=*&returnGeometry=false&f=json&where=FILE_NUMBER%3D'932195'",
     "mode": "opendata",
-    "dataFreshness": "2026-10-21T11:48:04.000Z",
-    "checkedAt": "2026-10-21T17:04:50.689Z",
+    "dataFreshness": "2026-10-22T11:48:06.000Z",
+    "checkedAt": "2026-10-22T17:03:38.183Z",
     "details": {
       "locale": "Foreign",
       "businessAddress": "7750 Wisconsin Avenue, Bethesda, MD 20814",
@@ -294,6 +294,6 @@
       "label": null
     },
     "charged": false,
-    "checkedAt": "2026-10-21T17:04:50.689Z"
+    "checkedAt": "2026-10-22T17:03:38.183Z"
   }
 ]
