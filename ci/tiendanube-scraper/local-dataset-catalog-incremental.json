@@ -1,64 +1,5 @@
 [
   {
-    "url": "https://cocora.mitiendanube.com/productos/aretes-paulina-gold-medium/",
-    "productId": 150797108,
-    "name": "Aretes Paulina Gold medium",
-    "brand": null,
-    "description": "Aretes dorados tejidos con balines Material: Goldfielf Color: Dorado Medida: 3cm de diámetro aprox Nota: El precio incluye los Aretes Paulina Gold medium. Los otros son usados como referentes",
-    "categories": [
-      "Aretes"
-    ],
-    "tags": [],
-    "price": 560,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 560,
-    "priceMax": 560,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 4,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 574353542,
-        "sku": null,
-        "price": 560,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 4,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024121-bfee75ddd4d45893ed16728902443059-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024121-bfee75ddd4d45893ed16728902443059-1024-1024.webp",
-      "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024-1111-e218aab42af37f6ef316728902446575-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024121-bfee75ddd4d45893ed16728902443059-1024-1024.webp",
-    "weightKg": 0.015,
-    "storeName": "Cocora",
-    "storeDomain": "cocora.mitiendanube.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2024-11-13T21:19:44.000Z",
-    "scrapedAt": "2026-10-21T16:06:47.014Z",
-    "changeType": "new"
-  },
-  {
     "url": "https://cocora.mitiendanube.com/productos/pulsera-cleo/",
     "productId": 150743673,
     "name": "Pulsera Cleo",
@@ -115,7 +56,66 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2024-11-11T22:13:55.000Z",
-    "scrapedAt": "2026-10-21T16:06:48.123Z",
+    "scrapedAt": "2026-10-22T16:01:30.069Z",
+    "changeType": "new"
+  },
+  {
+    "url": "https://cocora.mitiendanube.com/productos/aretes-paulina-gold-medium/",
+    "productId": 150797108,
+    "name": "Aretes Paulina Gold medium",
+    "brand": null,
+    "description": "Aretes dorados tejidos con balines Material: Goldfielf Color: Dorado Medida: 3cm de diámetro aprox Nota: El precio incluye los Aretes Paulina Gold medium. Los otros son usados como referentes",
+    "categories": [
+      "Aretes"
+    ],
+    "tags": [],
+    "price": 560,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 560,
+    "priceMax": 560,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 4,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 574353542,
+        "sku": null,
+        "price": 560,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 4,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024121-bfee75ddd4d45893ed16728902443059-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024121-bfee75ddd4d45893ed16728902443059-1024-1024.webp",
+      "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024-1111-e218aab42af37f6ef316728902446575-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/1024121-bfee75ddd4d45893ed16728902443059-1024-1024.webp",
+    "weightKg": 0.015,
+    "storeName": "Cocora",
+    "storeDomain": "cocora.mitiendanube.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2024-11-13T21:19:44.000Z",
+    "scrapedAt": "2026-10-22T16:01:30.146Z",
     "changeType": "new"
   },
   {
@@ -173,7 +173,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2024-06-04T15:51:38.000Z",
-    "scrapedAt": "2026-10-21T16:06:48.487Z",
+    "scrapedAt": "2026-10-22T16:01:30.747Z",
     "changeType": "new"
   }
 ]

@@ -55,7 +55,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:31:31.000Z",
-    "scrapedAt": "2026-10-21T16:06:59.405Z"
+    "scrapedAt": "2026-10-22T16:01:40.898Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/numbuzin-no-9-nad-retinol-volumetox-eye-cream-1s37v/",
@@ -113,7 +113,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:28:07.000Z",
-    "scrapedAt": "2026-10-21T16:06:59.489Z"
+    "scrapedAt": "2026-10-22T16:01:41.161Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/mixsoon-glacier-water-hyaluronic-acid-serum-n44hf/",
@@ -171,7 +171,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:24:36.000Z",
-    "scrapedAt": "2026-10-21T16:06:59.868Z"
+    "scrapedAt": "2026-10-22T16:01:41.481Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/vt-cosmetics-pdrn-reedle-shot-hair-ampoule-100dl-yhjc8/",
@@ -229,7 +229,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:21:05.000Z",
-    "scrapedAt": "2026-10-21T16:07:00.243Z"
+    "scrapedAt": "2026-10-22T16:01:41.799Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/purito-mighty-bamboo-panthenol-cream-3hr6e/",
@@ -287,7 +287,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:15:37.000Z",
-    "scrapedAt": "2026-10-21T16:07:00.454Z"
+    "scrapedAt": "2026-10-22T16:01:42.136Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/medicube-zero-pore-pad-1mzle/",
@@ -349,65 +349,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:12:00.000Z",
-    "scrapedAt": "2026-10-21T16:07:00.515Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-glow-1004-duo-5ldui/",
-    "productId": 374698445,
-    "name": "Skin1004 Madagascar Centella Glow 1004 Duo",
-    "brand": "SKIN1004",
-    "description": "Skin1004 Madagascar Centella Glow 1004 Duo es un set de 2 piezas que reúne los dos productos más icónicos de la línea Madagascar Centella de Skin1004: una rutina minimalista de protección + reparación para piel luminosa. 1 Madagascar Centella Probio-Cica Intensive Ampoule 50 ml Ampolla intensiva con Centella fermentada (ProBio-Cica), TECA, ceramida NP, niacinamida, pantenol y 3 tipos de ácido hialurónico. Calma, repara y fortalece la barrera. 2 Madagascar Centella Hyalu-Cica Water-Fit Sun Serum SPF50+ PA++++ 50 ml Sérum solar ultraligero con Centella, ácido hialurónico y 7 extractos de brotes. Protege UVA/UVB, hidrata y refresca.",
-    "categories": [
-      "Marcas",
-      "K-Beauty"
-    ],
-    "tags": [],
-    "price": null,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": null,
-    "priceMax": null,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620587315,
-        "sku": null,
-        "price": null,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/skin1004-madagascar-centella-1004-duo-0c17d7f3134fac694e17921774427829-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/skin1004-madagascar-centella-1004-duo-0c17d7f3134fac694e17921774427829-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/skin1004-madagascar-centella-1004-duo-0c17d7f3134fac694e17921774427829-1024-1024.webp",
-    "weightKg": 0.5,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-16T19:04:39.000Z",
-    "scrapedAt": "2026-10-21T16:07:01.165Z"
+    "scrapedAt": "2026-10-22T16:01:42.776Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/anua-rice-70-intensive-moisturizing-milk-qbxeo/",
@@ -465,7 +407,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:09:06.000Z",
-    "scrapedAt": "2026-10-21T16:07:01.255Z"
+    "scrapedAt": "2026-10-22T16:01:42.837Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-glow-1004-duo-5ldui/",
+    "productId": 374698445,
+    "name": "Skin1004 Madagascar Centella Glow 1004 Duo",
+    "brand": "SKIN1004",
+    "description": "Skin1004 Madagascar Centella Glow 1004 Duo es un set de 2 piezas que reúne los dos productos más icónicos de la línea Madagascar Centella de Skin1004: una rutina minimalista de protección + reparación para piel luminosa. 1 Madagascar Centella Probio-Cica Intensive Ampoule 50 ml Ampolla intensiva con Centella fermentada (ProBio-Cica), TECA, ceramida NP, niacinamida, pantenol y 3 tipos de ácido hialurónico. Calma, repara y fortalece la barrera. 2 Madagascar Centella Hyalu-Cica Water-Fit Sun Serum SPF50+ PA++++ 50 ml Sérum solar ultraligero con Centella, ácido hialurónico y 7 extractos de brotes. Protege UVA/UVB, hidrata y refresca.",
+    "categories": [
+      "Marcas",
+      "K-Beauty"
+    ],
+    "tags": [],
+    "price": null,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": null,
+    "priceMax": null,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620587315,
+        "sku": null,
+        "price": null,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/skin1004-madagascar-centella-1004-duo-0c17d7f3134fac694e17921774427829-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/skin1004-madagascar-centella-1004-duo-0c17d7f3134fac694e17921774427829-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/skin1004-madagascar-centella-1004-duo-0c17d7f3134fac694e17921774427829-1024-1024.webp",
+    "weightKg": 0.5,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-16T19:04:39.000Z",
+    "scrapedAt": "2026-10-22T16:01:43.404Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-air-fit-suncream-light-1o8f6/",
@@ -523,7 +523,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:01:33.000Z",
-    "scrapedAt": "2026-10-21T16:07:01.824Z"
+    "scrapedAt": "2026-10-22T16:01:43.512Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/numbuzin-no-9-nad-trial-kit-for-anti-aging-firming-qel0y/",
@@ -581,7 +581,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:57:01.000Z",
-    "scrapedAt": "2026-10-21T16:07:02.051Z"
+    "scrapedAt": "2026-10-22T16:01:43.794Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/purito-oat-in-calming-gel-cream-39ab6/",
@@ -639,7 +639,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:49:05.000Z",
-    "scrapedAt": "2026-10-21T16:07:02.521Z"
+    "scrapedAt": "2026-10-22T16:01:44.169Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/shiseido-fino-premium-touch-hair-oil-1y7li/",
@@ -697,7 +697,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:42:40.000Z",
-    "scrapedAt": "2026-10-21T16:07:02.739Z"
+    "scrapedAt": "2026-10-22T16:01:44.451Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/dr-althea-345-relief-travel-kit-11r01/",
@@ -755,7 +755,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:34:20.000Z",
-    "scrapedAt": "2026-10-21T16:07:03.110Z"
+    "scrapedAt": "2026-10-22T16:01:44.795Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/dr-althea-345-relief-serum-145sn/",
@@ -813,7 +813,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:29:18.000Z",
-    "scrapedAt": "2026-10-21T16:07:03.446Z"
+    "scrapedAt": "2026-10-22T16:01:45.121Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/dr-althea-vitamin-c-boosting-serum-63-nfdxc/",
@@ -871,7 +871,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:24:46.000Z",
-    "scrapedAt": "2026-10-21T16:07:03.758Z"
+    "scrapedAt": "2026-10-22T16:01:45.456Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/medicube-kojic-acid-turmeric-vita-capsule-cream-m7sks/",
@@ -929,7 +929,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:11:49.000Z",
-    "scrapedAt": "2026-10-21T16:07:04.063Z"
+    "scrapedAt": "2026-10-22T16:01:45.798Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-treatment-rinse-lg6lu/",
@@ -987,7 +987,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:07:03.000Z",
-    "scrapedAt": "2026-10-21T16:07:04.441Z"
+    "scrapedAt": "2026-10-22T16:01:46.123Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-shampoo-151va/",
@@ -1045,7 +1045,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:02:41.000Z",
-    "scrapedAt": "2026-10-21T16:07:04.763Z"
+    "scrapedAt": "2026-10-22T16:01:46.456Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-hyalu-cica-moisture-cream-jno35/",
@@ -1106,7 +1106,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T03:42:37.000Z",
-    "scrapedAt": "2026-10-21T16:07:08.590Z"
+    "scrapedAt": "2026-10-22T16:01:50.299Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/color-wow-iconic-frizz-fighters-gift-set-1996i/",
@@ -1164,65 +1164,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T01:34:15.000Z",
-    "scrapedAt": "2026-10-21T16:07:23.769Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/cozy-clean-makeup-value-set-1um2b/",
-    "productId": 374561356,
-    "name": "Cozy & Clean Makeup Value Set",
-    "brand": "SEPHORA",
-    "description": "Nueva versión justo lanzada (octubre 2026) enfocada en maquillaje clean con productos de Ciele, HAUS LABS by Lady Gaga, Kosas y más. 1 Ciele Prime & Protect SPF 30+ Smoothing Primer Deluxe (15 mL) 2 HAUS LABS by Lady Gaga Color Fuse Talc-Free Blush Powder en French Rosette Full size (5 g) 3 Kosas Soulgazer Lengthening Mascara + Lash Serum en Hypnotize Mini (6.5 mL) 4 LYS Beauty No Limits Cream Bronzer & Contour Stick en Courage Deluxe (2.5 g) 5 Saie Glowy Super Gel Multipurpose Illuminator en Sunglow Mini (15 mL) 6 Tower 28 Beauty SOS Spray Full size (30 mL) 7 Luna Daily The Mini Everywhere Spray-to-Wipe Hydrating Full size (30 mL)",
-    "categories": [
-      "Marcas",
-      "Makeup / variado"
-    ],
-    "tags": [],
-    "price": null,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": null,
-    "priceMax": null,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620157153,
-        "sku": null,
-        "price": null,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-favorites-cozy-clean-2026-f274ebe5ce60b6d19117921127666240-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-favorites-cozy-clean-2026-f274ebe5ce60b6d19117921127666240-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-favorites-cozy-clean-2026-f274ebe5ce60b6d19117921127666240-1024-1024.webp",
-    "weightKg": 0.3,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-16T01:06:58.000Z",
-    "scrapedAt": "2026-10-21T16:07:23.924Z"
+    "scrapedAt": "2026-10-22T16:02:05.452Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/sephora-favorites-holiday-must-haves-makeup-skincare-value-set-1519b/",
@@ -1280,7 +1222,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T01:22:22.000Z",
-    "scrapedAt": "2026-10-21T16:07:23.991Z"
+    "scrapedAt": "2026-10-22T16:02:05.660Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-mahogany-taekwood-gentle-clean-foaming-hand-soap-1sk4a/",
@@ -1338,7 +1280,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:51:04.000Z",
-    "scrapedAt": "2026-10-21T16:07:24.328Z"
+    "scrapedAt": "2026-10-22T16:02:06.031Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/cozy-clean-makeup-value-set-1um2b/",
+    "productId": 374561356,
+    "name": "Cozy & Clean Makeup Value Set",
+    "brand": "SEPHORA",
+    "description": "Nueva versión justo lanzada (octubre 2026) enfocada en maquillaje clean con productos de Ciele, HAUS LABS by Lady Gaga, Kosas y más. 1 Ciele Prime & Protect SPF 30+ Smoothing Primer Deluxe (15 mL) 2 HAUS LABS by Lady Gaga Color Fuse Talc-Free Blush Powder en French Rosette Full size (5 g) 3 Kosas Soulgazer Lengthening Mascara + Lash Serum en Hypnotize Mini (6.5 mL) 4 LYS Beauty No Limits Cream Bronzer & Contour Stick en Courage Deluxe (2.5 g) 5 Saie Glowy Super Gel Multipurpose Illuminator en Sunglow Mini (15 mL) 6 Tower 28 Beauty SOS Spray Full size (30 mL) 7 Luna Daily The Mini Everywhere Spray-to-Wipe Hydrating Full size (30 mL)",
+    "categories": [
+      "Marcas",
+      "Makeup / variado"
+    ],
+    "tags": [],
+    "price": null,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": null,
+    "priceMax": null,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620157153,
+        "sku": null,
+        "price": null,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-favorites-cozy-clean-2026-f274ebe5ce60b6d19117921127666240-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-favorites-cozy-clean-2026-f274ebe5ce60b6d19117921127666240-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-favorites-cozy-clean-2026-f274ebe5ce60b6d19117921127666240-1024-1024.webp",
+    "weightKg": 0.3,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-16T01:06:58.000Z",
+    "scrapedAt": "2026-10-22T16:02:06.175Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-champagne-toast-gentle-clean-foaming-hand-soap-2m8pk/",
@@ -1396,7 +1396,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:40:49.000Z",
-    "scrapedAt": "2026-10-21T16:07:24.717Z"
+    "scrapedAt": "2026-10-22T16:02:06.277Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-wrapped-in-spice-gentle-clean-foaming-hand-soap-1s65f/",
@@ -1454,7 +1454,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:33:38.000Z",
-    "scrapedAt": "2026-10-21T16:07:24.765Z"
+    "scrapedAt": "2026-10-22T16:02:06.425Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-japanese-cherry-blossom-gentle-clean-foaming-hand-soap-ax43z/",
@@ -1512,7 +1512,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:28:07.000Z",
-    "scrapedAt": "2026-10-21T16:07:24.907Z"
+    "scrapedAt": "2026-10-22T16:02:06.626Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-mahogany-teakwood-gentle-clean-foaming-hand-soap-4l475/",
@@ -1570,7 +1570,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:22:24.000Z",
-    "scrapedAt": "2026-10-21T16:07:25.111Z"
+    "scrapedAt": "2026-10-22T16:02:06.829Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-strawberry-bite-gentle-clean-foaming-hand-soap-17je5/",
@@ -1628,7 +1628,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:20:57.000Z",
-    "scrapedAt": "2026-10-21T16:07:25.295Z"
+    "scrapedAt": "2026-10-22T16:02:07.020Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/moev-annurcatin-hair-tonic-1nsq3/",
@@ -1686,7 +1686,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:09:09.000Z",
-    "scrapedAt": "2026-10-21T16:07:25.509Z"
+    "scrapedAt": "2026-10-22T16:02:07.161Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/moev-annurcatin-treatment-1d9un/",
@@ -1744,7 +1744,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:03:55.000Z",
-    "scrapedAt": "2026-10-21T16:07:25.615Z"
+    "scrapedAt": "2026-10-22T16:02:07.328Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/difeel-biotin-premium-hair-oil-1n3jk/",
@@ -1802,7 +1802,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:55:45.000Z",
-    "scrapedAt": "2026-10-21T16:07:25.830Z"
+    "scrapedAt": "2026-10-22T16:02:07.495Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-essence-1chrn/",
@@ -1860,7 +1860,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:32:22.000Z",
-    "scrapedAt": "2026-10-21T16:07:25.985Z"
+    "scrapedAt": "2026-10-22T16:02:07.659Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eqqualberry-glow-filter-vitamin-illuminating-serum-yodpt/",
@@ -1915,7 +1915,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:22:06.000Z",
-    "scrapedAt": "2026-10-21T16:07:26.153Z"
+    "scrapedAt": "2026-10-22T16:02:07.830Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/difeel-rosemary-mint-premium-hair-oil-infused-with-biotin-1maf9/",
@@ -1973,7 +1973,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:16:55.000Z",
-    "scrapedAt": "2026-10-21T16:07:26.362Z"
+    "scrapedAt": "2026-10-22T16:02:08.001Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/sephora-favorites-mini-holiday-must-haves-value-set-fferj/",
@@ -2031,7 +2031,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:10:51.000Z",
-    "scrapedAt": "2026-10-21T16:07:26.442Z"
+    "scrapedAt": "2026-10-22T16:02:08.175Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/loreal-paris-infallible-3-second-setting-mist-1jafb/",
@@ -2089,7 +2089,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:03:22.000Z",
-    "scrapedAt": "2026-10-21T16:07:26.645Z"
+    "scrapedAt": "2026-10-22T16:02:08.342Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/the-ordinary-glycolic-acid-7-toning-solution-1xa43/",
@@ -2147,7 +2147,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T22:53:01.000Z",
-    "scrapedAt": "2026-10-21T16:07:26.764Z"
+    "scrapedAt": "2026-10-22T16:02:08.509Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/natures-bounty-optimal-solutions-hair-skin-nails-gummies-advancded-1df5v/",
@@ -2202,7 +2202,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T22:28:21.000Z",
-    "scrapedAt": "2026-10-21T16:07:27.831Z"
+    "scrapedAt": "2026-10-22T16:02:09.496Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/natures-bounty-optimal-solutions-hair-skin-nails-gummies-lhpuw/",
@@ -2257,6 +2257,6 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T22:27:23.000Z",
-    "scrapedAt": "2026-10-21T16:07:27.964Z"
+    "scrapedAt": "2026-10-22T16:02:09.681Z"
   }
 ]

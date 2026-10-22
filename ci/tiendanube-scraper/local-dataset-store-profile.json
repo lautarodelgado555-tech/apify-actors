@@ -1,5 +1,37 @@
 [
   {
+    "url": "https://peek-store.com",
+    "domain": "peek-store.com",
+    "name": "Peek Store",
+    "platform": "tiendanube",
+    "country": "MX",
+    "currency": "MXN",
+    "language": "es",
+    "description": "Comprá productos de Peek Store por internet. Tenemos by charles ans, peek kiddos, colabs by peek, exclusive peek, accesorios peek y más. Hacé tu pedido y pagalo online",
+    "logo": "https://d1a9qnv764bsoo.cloudfront.net/stores/003/780/562/themes/common/logo-2354907205025270730-1770258092-1c452e891931f5851a7f31b95ef6c9a51770258092.png?0",
+    "emails": [
+      "peekstoremx@gmail.com"
+    ],
+    "phones": [],
+    "whatsapp": [
+      "+523315301476"
+    ],
+    "instagram": "https://instagram.com/peekstoremx",
+    "facebook": "https://www.facebook.com/share/1EJN3WwscS",
+    "tiktok": null,
+    "youtube": null,
+    "twitter": null,
+    "pinterest": null,
+    "linkedin": null,
+    "businessName": null,
+    "businessAddress": null,
+    "productCount": 49,
+    "lastProductUpdate": "2026-10-18T14:29:51.000Z",
+    "createdAt": "2023-10-01T02:18:01.000Z",
+    "engine": "next",
+    "scrapedAt": "2026-10-22T16:02:16.603Z"
+  },
+  {
     "url": "https://dailyskincaremx.com",
     "domain": "dailyskincaremx.com",
     "name": "Dailyskincaremx",
@@ -29,39 +61,7 @@
     "lastProductUpdate": "2026-10-16T19:31:31.000Z",
     "createdAt": null,
     "engine": "classic",
-    "scrapedAt": "2026-10-21T16:07:34.822Z"
-  },
-  {
-    "url": "https://peek-store.com",
-    "domain": "peek-store.com",
-    "name": "Peek Store",
-    "platform": "tiendanube",
-    "country": "MX",
-    "currency": "MXN",
-    "language": "es",
-    "description": "Comprá productos de Peek Store por internet. Tenemos by charles ans, peek kiddos, colabs by peek, exclusive peek, accesorios peek y más. Hacé tu pedido y pagalo online",
-    "logo": "https://d1a9qnv764bsoo.cloudfront.net/stores/003/780/562/themes/common/logo-2354907205025270730-1770258092-1c452e891931f5851a7f31b95ef6c9a51770258092.png?0",
-    "emails": [
-      "peekstoremx@gmail.com"
-    ],
-    "phones": [],
-    "whatsapp": [
-      "+523315301476"
-    ],
-    "instagram": "https://instagram.com/peekstoremx",
-    "facebook": "https://www.facebook.com/share/1EJN3WwscS",
-    "tiktok": null,
-    "youtube": null,
-    "twitter": null,
-    "pinterest": null,
-    "linkedin": null,
-    "businessName": null,
-    "businessAddress": null,
-    "productCount": 49,
-    "lastProductUpdate": "2026-10-17T04:13:49.000Z",
-    "createdAt": "2023-10-01T02:18:01.000Z",
-    "engine": "next",
-    "scrapedAt": "2026-10-21T16:07:35.191Z"
+    "scrapedAt": "2026-10-22T16:02:16.981Z"
   },
   {
     "url": "https://cocora.mitiendanube.com",
@@ -93,7 +93,7 @@
     "lastProductUpdate": "2024-11-13T21:19:44.000Z",
     "createdAt": null,
     "engine": "classic",
-    "scrapedAt": "2026-10-21T16:07:35.732Z"
+    "scrapedAt": "2026-10-22T16:02:17.574Z"
   },
   {
     "url": "https://www.vegpet.com.br",
@@ -122,9 +122,9 @@
     "businessName": null,
     "businessAddress": null,
     "productCount": 164,
-    "lastProductUpdate": "2026-10-21T00:26:24.000Z",
+    "lastProductUpdate": "2026-10-22T03:02:42.000Z",
     "createdAt": null,
     "engine": "classic",
-    "scrapedAt": "2026-10-21T16:07:36.181Z"
+    "scrapedAt": "2026-10-22T16:02:17.999Z"
   }
 ]
