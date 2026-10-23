@@ -20,8 +20,8 @@
     "source": "Colorado Secretary of State via data.colorado.gov (Business Entities in Colorado)",
     "sourceUrl": "https://data.colorado.gov/resource/4ykn-tg5h.json?entityid=20191893002",
     "mode": "opendata",
-    "dataFreshness": "2026-10-22T12:53:41.000Z",
-    "checkedAt": "2026-10-22T17:04:51.983Z",
+    "dataFreshness": "2026-10-23T11:15:45.000Z",
+    "checkedAt": "2026-10-23T16:56:34.802Z",
     "details": {
       "entityTypeCode": "DLLC",
       "jurisdictionOfFormation": "CO",
@@ -62,7 +62,7 @@
     "sourceUrl": "https://data.texas.gov/resource/9cir-efmm.json?taxpayer_number=32070357671",
     "mode": "opendata",
     "dataFreshness": "2026-10-17T10:35:29.000Z",
-    "checkedAt": "2026-10-22T17:04:51.983Z",
+    "checkedAt": "2026-10-23T16:56:34.802Z",
     "details": {
       "taxpayerNumber": "32070357671",
       "sosFileNumber": "0803287393",
@@ -108,8 +108,8 @@
     "source": "Connecticut Secretary of the State via data.ct.gov (Business Registry - Business Master)",
     "sourceUrl": "https://data.ct.gov/resource/n7gp-d28j.json?accountnumber=0074441",
     "mode": "opendata",
-    "dataFreshness": "2026-10-22T08:58:34.000Z",
-    "checkedAt": "2026-10-22T17:04:51.983Z",
+    "dataFreshness": "2026-10-23T08:31:10.000Z",
+    "checkedAt": "2026-10-23T16:56:34.802Z",
     "details": {
       "registryRecordId": "001t000000WmVHCAA3",
       "businessTypeCode": "Stock",
@@ -152,7 +152,7 @@
     "sourceUrl": "https://data.oregon.gov/resource/tckn-sxa6.json?registry_number=149629495",
     "mode": "opendata",
     "dataFreshness": "2026-10-20T13:54:57.000Z",
-    "checkedAt": "2026-10-22T17:04:51.983Z",
+    "checkedAt": "2026-10-23T16:56:34.802Z",
     "details": {
       "jurisdiction": "DE",
       "entityTypeCode": "FLLC"
@@ -181,7 +181,7 @@
       "label": "id never seen: not found"
     },
     "charged": false,
-    "checkedAt": "2026-10-22T17:04:51.983Z"
+    "checkedAt": "2026-10-23T16:56:34.802Z"
   },
   {
     "recordType": "entity-check",
@@ -205,7 +205,7 @@
     "sourceUrl": "https://data.texas.gov/resource/9cir-efmm.json?taxpayer_number=32036291840",
     "mode": "opendata",
     "dataFreshness": "2026-10-17T10:35:29.000Z",
-    "checkedAt": "2026-10-22T17:04:51.983Z",
+    "checkedAt": "2026-10-23T16:56:34.802Z",
     "details": {
       "taxpayerNumber": "32036291840",
       "sosFileNumber": "0010577711",
@@ -258,7 +258,7 @@
     "sourceUrl": "https://data.texas.gov/resource/9cir-efmm.json?taxpayer_number=13116785307",
     "mode": "opendata",
     "dataFreshness": "2026-10-17T10:35:29.000Z",
-    "checkedAt": "2026-10-22T17:04:51.983Z",
+    "checkedAt": "2026-10-23T16:56:34.802Z",
     "details": {
       "taxpayerNumber": "13116785307",
       "sosFileNumber": "0012767411",
