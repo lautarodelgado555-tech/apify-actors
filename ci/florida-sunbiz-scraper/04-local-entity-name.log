@@ -7,7 +7,7 @@
 [32mINFO[39m  "Publix Super Markets": 0 saved, 2 in flight (end of matches)
 [32mINFO[39m  "Acme": 0 saved, 6 in flight
 [32mINFO[39m [33m PlaywrightCrawler:[39m All requests from the queue have been processed, the crawler will shut down.
-[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":10,"requestsFailed":0,"retryHistogram":[10],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":1110,"requestsFinishedPerMinute":97,"requestsFailedPerMinute":0,"requestTotalDurationMillis":11104,"requestsTotal":10,"crawlerRuntimeMillis":6180}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":10,"requestsFailed":0,"retryHistogram":[10],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":1296,"requestsFinishedPerMinute":84,"requestsFailedPerMinute":0,"requestTotalDurationMillis":12959,"requestsTotal":10,"crawlerRuntimeMillis":7137}[39m
 [32mINFO[39m [33m PlaywrightCrawler:[39m Finished! Total 10 requests: 10 succeeded, 0 failed.[90m {"terminal":true}[39m
 [32mINFO[39m  Done. 8 entities saved for 2 search term(s).
 items: 8
