@@ -138,7 +138,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-20T22:22:36.000Z",
-    "scrapedAt": "2026-10-23T15:55:26.774Z"
+    "scrapedAt": "2026-10-24T14:53:54.819Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/hilo-de-lana-mexicana-colores/",
@@ -1526,7 +1526,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-20T20:59:59.000Z",
-    "scrapedAt": "2026-10-23T15:55:27.093Z"
+    "scrapedAt": "2026-10-24T14:53:55.142Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/macrame1/",
@@ -1612,7 +1612,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-20T20:02:10.000Z",
-    "scrapedAt": "2026-10-23T15:55:27.397Z"
+    "scrapedAt": "2026-10-24T14:53:55.951Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/taller-de-tejido-de-frazadas-xl/",
@@ -1852,75 +1852,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-20T17:17:10.000Z",
-    "scrapedAt": "2026-10-23T15:55:27.683Z"
-  },
-  {
-    "url": "https://peek-store.com/productos/cd-cta-1pbh9",
-    "productId": 321285513,
-    "name": "CD CTA",
-    "brand": null,
-    "description": "CD físico original de CTA by Charles Ans",
-    "categories": [
-      "By Charles Ans"
-    ],
-    "tags": [],
-    "price": 350,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 350,
-    "priceMax": 450,
-    "currency": "MXN",
-    "installments": null,
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 15,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 2,
-    "variants": [
-      {
-        "id": 1424180496,
-        "sku": null,
-        "price": 450,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Con o Sin Firma": "Con Firma"
-        },
-        "image": null
-      },
-      {
-        "id": 1424180502,
-        "sku": null,
-        "price": 350,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 15,
-        "available": true,
-        "attributes": {
-          "Con o Sin Firma": "Sin Firma"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/7-cd-cta-c9281989714ad00b1717698998781656-1024-1024.png"
-      }
-    ],
-    "images": [
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/6-cd-cta-5edb99f14cddc58b7517698998631688-1024-1024.png",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/7-cd-cta-c9281989714ad00b1717698998781656-1024-1024.png"
-    ],
-    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/6-cd-cta-5edb99f14cddc58b7517698998631688-1024-1024.png",
-    "weightKg": null,
-    "storeName": "Peek Store",
-    "storeDomain": "peek-store.com",
-    "country": "MX",
-    "language": "es",
-    "platform": "tiendanube",
-    "engine": "next",
-    "lastModified": "2026-10-10T19:23:19.000Z",
-    "scrapedAt": "2026-10-23T15:55:28.754Z"
+    "scrapedAt": "2026-10-24T14:53:56.191Z"
   },
   {
     "url": "https://peek-store.com/productos/tisha-bendiceme",
@@ -1990,7 +1922,75 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-10-11T19:09:55.000Z",
-    "scrapedAt": "2026-10-23T15:55:28.899Z"
+    "scrapedAt": "2026-10-24T14:53:56.488Z"
+  },
+  {
+    "url": "https://peek-store.com/productos/cd-cta-1pbh9",
+    "productId": 321285513,
+    "name": "CD CTA",
+    "brand": null,
+    "description": "CD físico original de CTA by Charles Ans",
+    "categories": [
+      "By Charles Ans"
+    ],
+    "tags": [],
+    "price": 350,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 350,
+    "priceMax": 450,
+    "currency": "MXN",
+    "installments": null,
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 15,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 2,
+    "variants": [
+      {
+        "id": 1424180496,
+        "sku": null,
+        "price": 450,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 0,
+        "available": false,
+        "attributes": {
+          "Con o Sin Firma": "Con Firma"
+        },
+        "image": null
+      },
+      {
+        "id": 1424180502,
+        "sku": null,
+        "price": 350,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 15,
+        "available": true,
+        "attributes": {
+          "Con o Sin Firma": "Sin Firma"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/7-cd-cta-c9281989714ad00b1717698998781656-1024-1024.png"
+      }
+    ],
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/6-cd-cta-5edb99f14cddc58b7517698998631688-1024-1024.png",
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/7-cd-cta-c9281989714ad00b1717698998781656-1024-1024.png"
+    ],
+    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/6-cd-cta-5edb99f14cddc58b7517698998631688-1024-1024.png",
+    "weightKg": null,
+    "storeName": "Peek Store",
+    "storeDomain": "peek-store.com",
+    "country": "MX",
+    "language": "es",
+    "platform": "tiendanube",
+    "engine": "next",
+    "lastModified": "2026-10-10T19:23:19.000Z",
+    "scrapedAt": "2026-10-24T14:53:56.702Z"
   },
   {
     "url": "https://peek-store.com/productos/cd-lrds-p3r2q",
@@ -2058,7 +2058,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-10-10T19:23:19.000Z",
-    "scrapedAt": "2026-10-23T15:55:28.974Z"
+    "scrapedAt": "2026-10-24T14:53:56.958Z"
   },
   {
     "url": "https://peek-store.com/productos/classic-beanie-103fp",
@@ -2140,7 +2140,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-10-08T22:12:25.000Z",
-    "scrapedAt": "2026-10-23T15:55:29.279Z"
+    "scrapedAt": "2026-10-24T14:53:57.390Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/lana-mexicana-en-crudo/",
@@ -2263,7 +2263,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-20T15:47:01.000Z",
-    "scrapedAt": "2026-10-23T15:55:29.445Z"
+    "scrapedAt": "2026-10-24T14:53:57.430Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/estampado-botanico-1cqxm/",
@@ -2325,7 +2325,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-20T15:26:48.000Z",
-    "scrapedAt": "2026-10-23T15:55:29.689Z"
+    "scrapedAt": "2026-10-24T14:53:58.299Z"
   },
   {
     "url": "https://peek-store.com/productos/milfs-day-camiseta",
@@ -2380,7 +2380,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-10-07T04:00:32.000Z",
-    "scrapedAt": "2026-10-23T15:55:30.314Z"
+    "scrapedAt": "2026-10-24T14:53:58.344Z"
   },
   {
     "url": "https://peek-store.com/productos/tisha-serendipia",
@@ -2461,6 +2461,6 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-10-07T03:19:49.000Z",
-    "scrapedAt": "2026-10-23T15:55:30.633Z"
+    "scrapedAt": "2026-10-24T14:53:58.656Z"
   }
 ]
