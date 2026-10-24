@@ -20,8 +20,8 @@
     "source": "Colorado Secretary of State via data.colorado.gov (Business Entities in Colorado)",
     "sourceUrl": "https://data.colorado.gov/resource/4ykn-tg5h.json?entityid=20241007271",
     "mode": "opendata",
-    "dataFreshness": "2026-10-23T11:15:45.000Z",
-    "checkedAt": "2026-10-23T16:56:25.481Z",
+    "dataFreshness": "2026-10-24T11:27:10.000Z",
+    "checkedAt": "2026-10-24T15:49:26.527Z",
     "details": {
       "entityTypeCode": "DLLC",
       "jurisdictionOfFormation": "CO",
@@ -61,8 +61,8 @@
     "source": "Colorado Secretary of State via data.colorado.gov (Business Entities in Colorado)",
     "sourceUrl": "https://data.colorado.gov/resource/4ykn-tg5h.json?entityid=20191893002",
     "mode": "opendata",
-    "dataFreshness": "2026-10-23T11:15:45.000Z",
-    "checkedAt": "2026-10-23T16:56:25.481Z",
+    "dataFreshness": "2026-10-24T11:27:10.000Z",
+    "checkedAt": "2026-10-24T15:49:26.527Z",
     "details": {
       "entityTypeCode": "DLLC",
       "jurisdictionOfFormation": "CO",
@@ -102,8 +102,8 @@
     "source": "Texas Comptroller of Public Accounts via data.texas.gov (Active Franchise Taxpayers)",
     "sourceUrl": "https://data.texas.gov/resource/9cir-efmm.json?taxpayer_number=32070357671",
     "mode": "opendata",
-    "dataFreshness": "2026-10-17T10:35:29.000Z",
-    "checkedAt": "2026-10-23T16:56:25.481Z",
+    "dataFreshness": "2026-10-24T08:26:58.000Z",
+    "checkedAt": "2026-10-24T15:49:26.527Z",
     "details": {
       "taxpayerNumber": "32070357671",
       "sosFileNumber": "0803287393",
@@ -150,7 +150,7 @@
     "sourceUrl": "https://data.ny.gov/resource/3gg2-jgnp.json?corpid_num=4809335&$order=date_filed%20desc%2Cfilm_num%20desc&$limit=1",
     "mode": "opendata",
     "dataFreshness": "2026-10-20T18:51:08.000Z",
-    "checkedAt": "2026-10-23T16:56:25.481Z",
+    "checkedAt": "2026-10-24T15:49:26.527Z",
     "details": {
       "jurisdiction": "Delaware",
       "county": "Albany",
@@ -191,8 +191,8 @@
     "source": "Connecticut Secretary of the State via data.ct.gov (Business Registry - Business Master)",
     "sourceUrl": "https://data.ct.gov/resource/n7gp-d28j.json?accountnumber=0074441",
     "mode": "opendata",
-    "dataFreshness": "2026-10-23T08:31:10.000Z",
-    "checkedAt": "2026-10-23T16:56:25.481Z",
+    "dataFreshness": "2026-10-24T08:43:59.000Z",
+    "checkedAt": "2026-10-24T15:49:26.527Z",
     "details": {
       "registryRecordId": "001t000000WmVHCAA3",
       "businessTypeCode": "Stock",
@@ -235,7 +235,7 @@
     "sourceUrl": "https://data.oregon.gov/resource/tckn-sxa6.json?registry_number=149629495",
     "mode": "opendata",
     "dataFreshness": "2026-10-20T13:54:57.000Z",
-    "checkedAt": "2026-10-23T16:56:25.481Z",
+    "checkedAt": "2026-10-24T15:49:26.527Z",
     "details": {
       "jurisdiction": "DE",
       "entityTypeCode": "FLLC"
@@ -275,7 +275,7 @@
     "sourceUrl": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Business_Licensing_and_Grants_WebMercator/FeatureServer/0/query?outFields=*&returnGeometry=false&f=json&where=FILE_NUMBER%3D'620118'",
     "mode": "opendata",
     "dataFreshness": "2026-10-23T11:47:54.000Z",
-    "checkedAt": "2026-10-23T16:56:25.481Z",
+    "checkedAt": "2026-10-24T15:49:26.527Z",
     "details": {
       "locale": "Domestic",
       "businessAddress": "3027 DAVENPORT ST. ,N.W., WASHINGTON, DC 20008",
@@ -305,7 +305,7 @@
       "label": "not found case"
     },
     "charged": false,
-    "checkedAt": "2026-10-23T16:56:25.481Z"
+    "checkedAt": "2026-10-24T15:49:26.527Z"
   },
   {
     "recordType": "lookup-error",
@@ -318,6 +318,6 @@
       "label": "unsupported state case"
     },
     "charged": false,
-    "checkedAt": "2026-10-23T16:56:25.481Z"
+    "checkedAt": "2026-10-24T15:49:26.527Z"
   }
 ]
