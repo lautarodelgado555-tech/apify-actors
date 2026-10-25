@@ -6,199 +6,199 @@ TAP version 13
 # Subtest: parseCount handles K / M suffixes and spaces
 ok 1 - parseCount handles K / M suffixes and spaces
   ---
-  duration_ms: 0.774309
+  duration_ms: 1.156226
   type: 'test'
   ...
 # Subtest: normalizeChannel accepts usernames and links, rejects private links and junk
 ok 2 - normalizeChannel accepts usernames and links, rejects private links and junk
   ---
-  duration_ms: 0.852275
+  duration_ms: 1.334034
   type: 'test'
   ...
 # Subtest: durov page: channel info, forwarded message, reactions, video, entities
 ok 3 - durov page: channel info, forwarded message, reactions, video, entities
   ---
-  duration_ms: 129.457587
+  duration_ms: 144.193508
   type: 'test'
   ...
 # Subtest: regular emoji reactions come with the emoji character
 ok 4 - regular emoji reactions come with the emoji character
   ---
-  duration_ms: 115.723857
+  duration_ms: 117.162072
   type: 'test'
   ...
 # Subtest: edited flag, link preview and views (contest)
 ok 5 - edited flag, link preview and views (contest)
   ---
-  duration_ms: 73.427121
+  duration_ms: 61.150628
   type: 'test'
   ...
 # Subtest: reply with quoted text and document (bbcrussian)
 ok 6 - reply with quoted text and document (bbcrussian)
   ---
-  duration_ms: 51.796192
+  duration_ms: 54.626449
   type: 'test'
   ...
 # Subtest: grouped photos and hashtags in a Russian channel
 ok 7 - grouped photos and hashtags in a Russian channel
   ---
-  duration_ms: 33.176582
+  duration_ms: 35.830962
   type: 'test'
   ...
 # Subtest: signature, inline buttons (tginfo)
 ok 8 - signature, inline buttons (tginfo)
   ---
-  duration_ms: 1.46285
+  duration_ms: 1.450308
   type: 'test'
   ...
 # Subtest: poll question, options, percentages and voters
 ok 9 - poll question, options, percentages and voters
   ---
-  duration_ms: 1.751099
+  duration_ms: 1.44454
   type: 'test'
   ...
 # Subtest: voice and round video metadata without downloading
 ok 10 - voice and round video metadata without downloading
   ---
-  duration_ms: 2.728078
+  duration_ms: 2.840136
   type: 'test'
   ...
 # Subtest: service messages are flagged
 ok 11 - service messages are flagged
   ---
-  duration_ms: 27.538071
+  duration_ms: 28.530418
   type: 'test'
   ...
 # Subtest: older page and channel with a page before
 ok 12 - older page and channel with a page before
   ---
-  duration_ms: 36.896502
+  duration_ms: 38.769625
   type: 'test'
   ...
 # Subtest: pages without messages
 ok 13 - pages without messages
   ---
-  duration_ms: 0.566321
+  duration_ms: 0.695474
   type: 'test'
   ...
 # Subtest: profile page classification
 ok 14 - profile page classification
   ---
-  duration_ms: 1.890465
+  duration_ms: 2.17072
   type: 'test'
   ...
 # Subtest: extractEntities finds links, mentions and hashtags
 ok 15 - extractEntities finds links, mentions and hashtags
   ---
-  duration_ms: 0.247176
+  duration_ms: 0.28584
   type: 'test'
   ...
 # Subtest: keyword and regex filters
 ok 16 - keyword and regex filters
   ---
-  duration_ms: 0.705076
+  duration_ms: 0.969306
   type: 'test'
   ...
 # Subtest: date inputs
 ok 17 - date inputs
   ---
-  duration_ms: 0.26909
+  duration_ms: 0.451328
   type: 'test'
   ...
 # Subtest: newest messages first, paginating backwards, stops at maxMessages
 ok 18 - newest messages first, paginating backwards, stops at maxMessages
   ---
-  duration_ms: 74.330678
+  duration_ms: 84.735578
   type: 'test'
   ...
 # Subtest: complete archive down to message 1 without duplicates, ends without extra requests
 ok 19 - complete archive down to message 1 without duplicates, ends without extra requests
   ---
-  duration_ms: 111.623202
+  duration_ms: 122.493824
   type: 'test'
   ...
 # Subtest: date window: dateFrom stops the walk early
 ok 20 - date window: dateFrom stops the walk early
   ---
-  duration_ms: 63.268312
+  duration_ms: 38.240651
   type: 'test'
   ...
 # Subtest: date window: dateTo jumps with a binary search instead of walking from the newest message
 ok 21 - date window: dateTo jumps with a binary search instead of walking from the newest message
   ---
-  duration_ms: 120.358602
+  duration_ms: 140.519896
   type: 'test'
   ...
 # Subtest: dateTo later than the newest message needs no search
 ok 22 - dateTo later than the newest message needs no search
   ---
-  duration_ms: 7.404328
+  duration_ms: 6.751545
   type: 'test'
   ...
 # Subtest: locateBefore returns the largest id whose preceding messages are within the date
 ok 23 - locateBefore returns the largest id whose preceding messages are within the date
   ---
-  duration_ms: 45.926673
+  duration_ms: 64.904159
   type: 'test'
   ...
 # Subtest: dateTo older than the whole channel yields nothing and is not an error
 ok 24 - dateTo older than the whole channel yields nothing and is not an error
   ---
-  duration_ms: 27.702538
+  duration_ms: 38.931263
   type: 'test'
   ...
 # Subtest: keyword filter applies while paginating; service messages skipped by default
 ok 25 - keyword filter applies while paginating; service messages skipped by default
   ---
-  duration_ms: 48.987274
+  duration_ms: 62.685878
   type: 'test'
   ...
 # Subtest: incremental: first run records the newest id, second run finds nothing new
 ok 26 - incremental: first run records the newest id, second run finds nothing new
   ---
-  duration_ms: 12.010513
+  duration_ms: 14.107778
   type: 'test'
   ...
 # Subtest: incremental: new messages are emitted oldest first and the pointer advances
 ok 27 - incremental: new messages are emitted oldest first and the pointer advances
   ---
-  duration_ms: 19.120904
+  duration_ms: 19.229068
   type: 'test'
   ...
 # Subtest: incremental: maxMessages smaller than the backlog continues exactly where it stopped
 ok 28 - incremental: maxMessages smaller than the backlog continues exactly where it stopped
   ---
-  duration_ms: 19.977104
+  duration_ms: 21.366659
   type: 'test'
   ...
 # Subtest: incremental: a charge limit stops emission and the pointer stays on the last emitted message
 ok 29 - incremental: a charge limit stops emission and the pointer stays on the last emitted message
   ---
-  duration_ms: 13.288229
+  duration_ms: 14.663152
   type: 'test'
   ...
 # Subtest: incremental pointer ignores filtered-out messages but never skips unseen ones
 ok 30 - incremental pointer ignores filtered-out messages but never skips unseen ones
   ---
-  duration_ms: 12.283337
+  duration_ms: 14.241708
   type: 'test'
   ...
 # Subtest: maxPages caps the walk and flags truncation
 ok 31 - maxPages caps the walk and flags truncation
   ---
-  duration_ms: 11.144899
+  duration_ms: 12.813654
   type: 'test'
   ...
 # Subtest: channels without a public preview are classified and produce nothing
 ok 32 - channels without a public preview are classified and produce nothing
   ---
-  duration_ms: 0.634031
+  duration_ms: 0.671909
   type: 'test'
   ...
 # Subtest: a channel that errors mid-way rejects (the caller reports it as failed and charges only emitted messages)
 ok 33 - a channel that errors mid-way rejects (the caller reports it as failed and charges only emitted messages)
   ---
-  duration_ms: 4.105773
+  duration_ms: 6.014212
   type: 'test'
   ...
 1..33
@@ -209,4 +209,4 @@ ok 33 - a channel that errors mid-way rejects (the caller reports it as failed a
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 742.208018
+# duration_ms 871.970021
