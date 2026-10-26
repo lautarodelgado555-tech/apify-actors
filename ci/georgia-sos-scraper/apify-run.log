@@ -1,0 +1,12 @@
+2026-10-26T17:37:25.530Z ACTOR: Pulling container image of build 74g50DrxmFaf7iGTx from registry.
+2026-10-26T17:37:34.797Z ACTOR: Creating container.
+2026-10-26T17:37:34.854Z ACTOR: Starting container.
+2026-10-26T17:37:34.855Z ACTOR: Running under "LIMITED_PERMISSIONS".
+2026-10-26T17:37:34.927Z Running on architecture: x86_64
+2026-10-26T17:37:34.928Z Will run command: xvfb-run -a -s "-ac -screen 0 1920x1080x24+32 -nolisten tcp" /bin/bash -o pipefail -c npm start --silent
+2026-10-26T17:37:35.719Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.4"}
+2026-10-26T17:37:35.803Z INFO  Free plan: results are capped at 10 per run. Upgrade to get more.
+2026-10-26T17:37:37.804Z INFO  Session ready (attempt 1, route: direct).
+2026-10-26T17:37:37.878Z INFO  "Delta Air Lines": 2 record(s) in 1 page(s).
+2026-10-26T17:37:38.473Z INFO  "Coca-Cola": 29 record(s) in 2 page(s).
+2026-10-26T17:37:39.188Z INFO  Done. 5 entities saved for 2 search term(s).
