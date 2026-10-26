@@ -6,145 +6,145 @@ TAP version 13
 # Subtest: normalizeInput accepts domains, store URLs and product URLs
 ok 1 - normalizeInput accepts domains, store URLs and product URLs
   ---
-  duration_ms: 1.547151
+  duration_ms: 2.372255
   type: 'test'
   ...
 # Subtest: normalizeInput rejects things that are not domains
 ok 2 - normalizeInput rejects things that are not domains
   ---
-  duration_ms: 0.191509
+  duration_ms: 0.263625
   type: 'test'
   ...
 # Subtest: parseSince understands ISO dates and relative values
 ok 3 - parseSince understands ISO dates and relative values
   ---
-  duration_ms: 0.186601
+  duration_ms: 0.295493
   type: 'test'
   ...
 # Subtest: text helpers
 ok 4 - text helpers
   ---
-  duration_ms: 0.700635
+  duration_ms: 1.051086
   type: 'test'
   ...
 # Subtest: robots.txt identifies the platform and lists the gzipped sitemap
 ok 5 - robots.txt identifies the platform and lists the gzipped sitemap
   ---
-  duration_ms: 0.297078
+  duration_ms: 0.483615
   type: 'test'
   ...
 # Subtest: sitemap: products, lastmod and images are extracted; non-product pages ignored
 ok 6 - sitemap: products, lastmod and images are extracted; non-product pages ignored
   ---
-  duration_ms: 0.734997
+  duration_ms: 1.196604
   type: 'test'
   ...
 # Subtest: sitemap: a real store sitemap carries lastmod and image:loc
 ok 7 - sitemap: a real store sitemap carries lastmod and image:loc
   ---
-  duration_ms: 1.394852
+  duration_ms: 2.350694
   type: 'test'
   ...
 # Subtest: sitemap: a truncated file still yields the complete entries and the blog link is not a product
 ok 8 - sitemap: a truncated file still yields the complete entries and the blog link is not a product
   ---
-  duration_ms: 0.376647
+  duration_ms: 0.642894
   type: 'test'
   ...
 # Subtest: sitemap index (real tiendanube.com file) is recognised
 ok 9 - sitemap index (real tiendanube.com file) is recognised
   ---
-  duration_ms: 0.345881
+  duration_ms: 0.594781
   type: 'test'
   ...
 # Subtest: stores list every language: one entry per slug
 ok 10 - stores list every language: one entry per slug
   ---
-  duration_ms: 0.257478
+  duration_ms: 0.425858
   type: 'test'
   ...
 # Subtest: classic product with a single variant (Cocora, MX)
 ok 11 - classic product with a single variant (Cocora, MX)
   ---
-  duration_ms: 48.345696
+  duration_ms: 73.819334
   type: 'test'
   ...
 # Subtest: classic product with option names and per-variant stock (Taller Textil, MX)
 ok 12 - classic product with option names and per-variant stock (Taller Textil, MX)
   ---
-  duration_ms: 37.525926
+  duration_ms: 55.10234
   type: 'test'
   ...
 # Subtest: classic product under a language prefix keeps tags and drops the generic breadcrumb level (EUR store)
 ok 13 - classic product under a language prefix keeps tags and drops the generic breadcrumb level (EUR store)
   ---
-  duration_ms: 11.615229
+  duration_ms: 23.481375
   type: 'test'
   ...
 # Subtest: Nuvemshop (Brazil) product: brand, SKU, installments
 ok 14 - Nuvemshop (Brazil) product: brand, SKU, installments
   ---
-  duration_ms: 29.120953
+  duration_ms: 40.760479
   type: 'test'
   ...
 # Subtest: a deleted product answers 200 with the 404 template and is not returned as a product
 ok 15 - a deleted product answers 200 with the 404 template and is not returned as a product
   ---
-  duration_ms: 0.80966
+  duration_ms: 1.335111
   type: 'test'
   ...
 # Subtest: next-generation storefront (Peek Store): product object comes from the RSC payload
 ok 16 - next-generation storefront (Peek Store): product object comes from the RSC payload
   ---
-  duration_ms: 3.044847
+  duration_ms: 4.906555
   type: 'test'
   ...
 # Subtest: pricing: compare-at price, discount and unlimited stock
 ok 17 - pricing: compare-at price, discount and unlimited stock
   ---
-  duration_ms: 0.132479
+  duration_ms: 0.194582
   type: 'test'
   ...
 # Subtest: generic JSON-LD fallback tolerates trailing commas
 ok 18 - generic JSON-LD fallback tolerates trailing commas
   ---
-  duration_ms: 0.515187
+  duration_ms: 0.72706
   type: 'test'
   ...
 # Subtest: fingerprint changes when the price or stock changes, not otherwise
 ok 19 - fingerprint changes when the price or stock changes, not otherwise
   ---
-  duration_ms: 43.199243
+  duration_ms: 70.708006
   type: 'test'
   ...
 # Subtest: catalog listing page: product links, one per slug
 ok 20 - catalog listing page: product links, one per slug
   ---
-  duration_ms: 28.249039
+  duration_ms: 28.729962
   type: 'test'
   ...
 # Subtest: platform detection
 ok 21 - platform detection
   ---
-  duration_ms: 1.820583
+  duration_ms: 2.88171
   type: 'test'
   ...
 # Subtest: store contacts from a classic storefront (home + contact page)
 ok 22 - store contacts from a classic storefront (home + contact page)
   ---
-  duration_ms: 50.449724
+  duration_ms: 89.789591
   type: 'test'
   ...
 # Subtest: store profile from a next-generation storefront uses the embedded store object
 ok 23 - store profile from a next-generation storefront uses the embedded store object
   ---
-  duration_ms: 45.377815
+  duration_ms: 104.049604
   type: 'test'
   ...
 # Subtest: incremental snapshot: new, unchanged and changed products
 ok 24 - incremental snapshot: new, unchanged and changed products
   ---
-  duration_ms: 20.478793
+  duration_ms: 12.407066
   type: 'test'
   ...
 1..24
@@ -155,4 +155,4 @@ ok 24 - incremental snapshot: new, unchanged and changed products
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 555.022813
+# duration_ms 813.096202
