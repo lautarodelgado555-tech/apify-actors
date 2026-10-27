@@ -3,9 +3,14 @@
 > node src/main.js
 
 [32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}[39m
-[32mINFO[39m  Session ready (attempt 1, route: direct).
-[33mWARN[39m  Cloudflare challenged /BusinessSearch (HTTP 403); opening a new session (1/4).
-[32mINFO[39m  Session ready (attempt 1, route: direct).
+[33mWARN[39m  Could not open the portal (attempt 1/8, route: direct): Cloudflare challenge on the home page
+[33mWARN[39m  Could not open the portal (attempt 2/8, route: direct): Cloudflare challenge on the home page
+[33mWARN[39m [33m ProxyConfiguration:[39m The "Proxy external access" feature isn't enabled for your account. Please upgrade your plan or contact support@apify.com
+[33mWARN[39m  Could not open the portal (attempt 3/8, route: residential): Residential proxy is not available for this account
+[33mWARN[39m [33m ProxyConfiguration:[39m The "Proxy external access" feature isn't enabled for your account. Please upgrade your plan or contact support@apify.com
+[33mWARN[39m  Could not open the portal (attempt 4/8, route: residential): Residential proxy is not available for this account
+[33mWARN[39m  Could not open the portal (attempt 5/8, route: user): Cloudflare challenge on the home page
+[32mINFO[39m  Session ready (attempt 6, route: direct).
 [32mINFO[39m  "H853425": 1 record(s) in 1 page(s).
 [32mINFO[39m  Done. 1 entities saved for 1 search term(s).
 items: 1
