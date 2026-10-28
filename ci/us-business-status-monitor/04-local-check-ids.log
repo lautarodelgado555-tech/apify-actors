@@ -2,7 +2,7 @@
 > us-business-status-monitor@0.1.0 start
 > node src/main.js
 
-[32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}[39m
+[32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.4"}[39m
 [32mINFO[39m  Free-plan allowance: at most 10 entity checks per run. Paid plans have no per-run cap other than "maxChecks".
 [32mINFO[39m  Mode "check", 9 watchlist entries. Supported states: CO, CT, DC, NY, OR, TX.
 [32mINFO[39m  7 check(s), 1 not found, 1 error(s)
