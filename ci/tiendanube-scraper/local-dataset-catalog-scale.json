@@ -58,7 +58,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-26T18:20:09.000Z",
-    "scrapedAt": "2026-10-27T16:51:55.787Z"
+    "scrapedAt": "2026-10-28T17:24:08.694Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/anua-pdrn-hyaluronic-acid-100-moisturizing-cream-1jo80/",
@@ -116,65 +116,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:31:31.000Z",
-    "scrapedAt": "2026-10-27T16:51:58.716Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/numbuzin-no-9-nad-retinol-volumetox-eye-cream-1s37v/",
-    "productId": 374705301,
-    "name": "Numbuzin No.9 NAD+ Retinol Volumetox Eye Cream",
-    "brand": "Numbuzin",
-    "description": "Numbuzin No.9 NAD+ Retinol Volumetox Eye Cream es una crema contorno de ojos coreana de Numbuzin de textura nacarada y sedosa (tipo crema-sérum), diseñada para reafirmar, rellenar visualmente y suavizar líneas finas en la zona ocular. 10ml",
-    "categories": [
-      "Marcas",
-      "K-Beauty"
-    ],
-    "tags": [],
-    "price": null,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": null,
-    "priceMax": null,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620616620,
-        "sku": null,
-        "price": null,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/numbuzin-aye-cream-733abd828a488af85817921788453950-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/numbuzin-aye-cream-733abd828a488af85817921788453950-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/numbuzin-aye-cream-733abd828a488af85817921788453950-1024-1024.webp",
-    "weightKg": 0.03,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-16T19:28:07.000Z",
-    "scrapedAt": "2026-10-27T16:51:58.790Z"
+    "scrapedAt": "2026-10-28T17:24:10.964Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/mixsoon-glacier-water-hyaluronic-acid-serum-n44hf/",
@@ -232,7 +174,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:24:36.000Z",
-    "scrapedAt": "2026-10-27T16:51:58.865Z"
+    "scrapedAt": "2026-10-28T17:24:11.560Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/numbuzin-no-9-nad-retinol-volumetox-eye-cream-1s37v/",
+    "productId": 374705301,
+    "name": "Numbuzin No.9 NAD+ Retinol Volumetox Eye Cream",
+    "brand": "Numbuzin",
+    "description": "Numbuzin No.9 NAD+ Retinol Volumetox Eye Cream es una crema contorno de ojos coreana de Numbuzin de textura nacarada y sedosa (tipo crema-sérum), diseñada para reafirmar, rellenar visualmente y suavizar líneas finas en la zona ocular. 10ml",
+    "categories": [
+      "Marcas",
+      "K-Beauty"
+    ],
+    "tags": [],
+    "price": null,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": null,
+    "priceMax": null,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620616620,
+        "sku": null,
+        "price": null,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/numbuzin-aye-cream-733abd828a488af85817921788453950-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/numbuzin-aye-cream-733abd828a488af85817921788453950-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/numbuzin-aye-cream-733abd828a488af85817921788453950-1024-1024.webp",
+    "weightKg": 0.03,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-16T19:28:07.000Z",
+    "scrapedAt": "2026-10-28T17:24:11.753Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/vt-cosmetics-pdrn-reedle-shot-hair-ampoule-100dl-yhjc8/",
@@ -290,7 +290,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:21:05.000Z",
-    "scrapedAt": "2026-10-27T16:51:59.079Z"
+    "scrapedAt": "2026-10-28T17:24:12.273Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/purito-mighty-bamboo-panthenol-cream-3hr6e/",
@@ -348,7 +348,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:15:37.000Z",
-    "scrapedAt": "2026-10-27T16:51:59.433Z"
+    "scrapedAt": "2026-10-28T17:24:12.640Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/anua-rice-70-intensive-moisturizing-milk-qbxeo/",
+    "productId": 374699816,
+    "name": "Anua Rice 70 Intensive Moisturizing Milk",
+    "brand": "ANUA",
+    "description": "Anua Rice 70 Intensive Moisturizing Milk es una loción hidratante coreana de textura ligera tipo leche, formulada con 70% de agua de salvado de arroz (ANUA Rice Water+™), niacinamida y ceramidas. Está diseñada para hidratar en profundidad, iluminar la tez apagada y fortalecer la barrera cutánea, logrando un acabado tipo \"piel de cristal\" (glass skin) sin sensación pegajosa. 150ml",
+    "categories": [
+      "Marcas",
+      "K-Beauty"
+    ],
+    "tags": [],
+    "price": null,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": null,
+    "priceMax": null,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620591496,
+        "sku": null,
+        "price": null,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/anua-70-ec8ca74b9d1c3fadda17921776974919-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/anua-70-ec8ca74b9d1c3fadda17921776974919-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/anua-70-ec8ca74b9d1c3fadda17921776974919-1024-1024.webp",
+    "weightKg": 0.2,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-16T19:09:06.000Z",
+    "scrapedAt": "2026-10-28T17:24:12.881Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/medicube-zero-pore-pad-1mzle/",
@@ -410,65 +468,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:12:00.000Z",
-    "scrapedAt": "2026-10-27T16:51:59.779Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/anua-rice-70-intensive-moisturizing-milk-qbxeo/",
-    "productId": 374699816,
-    "name": "Anua Rice 70 Intensive Moisturizing Milk",
-    "brand": "ANUA",
-    "description": "Anua Rice 70 Intensive Moisturizing Milk es una loción hidratante coreana de textura ligera tipo leche, formulada con 70% de agua de salvado de arroz (ANUA Rice Water+™), niacinamida y ceramidas. Está diseñada para hidratar en profundidad, iluminar la tez apagada y fortalecer la barrera cutánea, logrando un acabado tipo \"piel de cristal\" (glass skin) sin sensación pegajosa. 150ml",
-    "categories": [
-      "Marcas",
-      "K-Beauty"
-    ],
-    "tags": [],
-    "price": null,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": null,
-    "priceMax": null,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620591496,
-        "sku": null,
-        "price": null,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/anua-70-ec8ca74b9d1c3fadda17921776974919-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/anua-70-ec8ca74b9d1c3fadda17921776974919-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/anua-70-ec8ca74b9d1c3fadda17921776974919-1024-1024.webp",
-    "weightKg": 0.2,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-16T19:09:06.000Z",
-    "scrapedAt": "2026-10-27T16:52:00.091Z"
+    "scrapedAt": "2026-10-28T17:24:12.927Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-glow-1004-duo-5ldui/",
@@ -526,7 +526,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:04:39.000Z",
-    "scrapedAt": "2026-10-27T16:52:00.433Z"
+    "scrapedAt": "2026-10-28T17:24:13.296Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-air-fit-suncream-light-1o8f6/",
@@ -584,7 +584,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:01:33.000Z",
-    "scrapedAt": "2026-10-27T16:52:00.712Z"
+    "scrapedAt": "2026-10-28T17:24:13.994Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/numbuzin-no-9-nad-trial-kit-for-anti-aging-firming-qel0y/",
@@ -642,7 +642,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:57:01.000Z",
-    "scrapedAt": "2026-10-27T16:52:01.105Z"
+    "scrapedAt": "2026-10-28T17:24:14.234Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/purito-oat-in-calming-gel-cream-39ab6/",
@@ -700,65 +700,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:49:05.000Z",
-    "scrapedAt": "2026-10-27T16:52:01.399Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/shiseido-fino-premium-touch-hair-oil-1y7li/",
-    "productId": 374690255,
-    "name": "Shiseido Fino Premium Touch Hair Oil",
-    "brand": "Shiseido",
-    "description": "Shiseido Fino Premium Touch Hair Oil es un aceite capilar japonés de textura ligera diseñado para reparar cabello seco, dañado o con frizz. Su fórmula penetra en la fibra capilar sin dejar residuo graso, dejando un acabado sedoso con brillo espejo y aroma floral. 70ml",
-    "categories": [
-      "Marcas",
-      "K-Beauty"
-    ],
-    "tags": [],
-    "price": null,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": null,
-    "priceMax": null,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620565593,
-        "sku": null,
-        "price": null,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/shiseido-hair-oil-30af9383a6ff338ee017921761139538-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/shiseido-hair-oil-30af9383a6ff338ee017921761139538-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/shiseido-hair-oil-30af9383a6ff338ee017921761139538-1024-1024.webp",
-    "weightKg": 0.2,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-16T18:42:40.000Z",
-    "scrapedAt": "2026-10-27T16:52:01.773Z"
+    "scrapedAt": "2026-10-28T17:24:14.275Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/dr-althea-345-relief-travel-kit-11r01/",
@@ -816,17 +758,17 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:34:20.000Z",
-    "scrapedAt": "2026-10-27T16:52:02.457Z"
+    "scrapedAt": "2026-10-28T17:24:14.908Z"
   },
   {
-    "url": "https://dailyskincaremx.com/productos/dr-althea-vitamin-c-boosting-serum-63-nfdxc/",
-    "productId": 374685782,
-    "name": "Dr. Althea Vitamin C Boosting Serum 63%",
-    "brand": "Dr. Althea",
-    "description": "Dr. Althea Vitamin C Boosting Serum 63% es un sérum coreano iluminador y despigmentante de alta potencia, formulado para pieles sensibles. Su base es inusual: en lugar de agua, usa 63% de agua de Hippophae Rhamnoides (espino amarillo/sea buckthorn), naturalmente rica en vitamina C, E, carotenoides y omega-7. 30ml",
+    "url": "https://dailyskincaremx.com/productos/shiseido-fino-premium-touch-hair-oil-1y7li/",
+    "productId": 374690255,
+    "name": "Shiseido Fino Premium Touch Hair Oil",
+    "brand": "Shiseido",
+    "description": "Shiseido Fino Premium Touch Hair Oil es un aceite capilar japonés de textura ligera diseñado para reparar cabello seco, dañado o con frizz. Su fórmula penetra en la fibra capilar sin dejar residuo graso, dejando un acabado sedoso con brillo espejo y aroma floral. 70ml",
     "categories": [
       "Marcas",
-      "Otras marcas"
+      "K-Beauty"
     ],
     "tags": [],
     "price": null,
@@ -851,7 +793,7 @@
     "variantCount": 1,
     "variants": [
       {
-        "id": 1620547891,
+        "id": 1620565593,
         "sku": null,
         "price": null,
         "compareAtPrice": null,
@@ -859,22 +801,22 @@
         "stock": 1,
         "available": true,
         "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/dr-althea-vitamin-c-9f257bf835fa0f377117921750196217-1024-1024.webp"
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/shiseido-hair-oil-30af9383a6ff338ee017921761139538-1024-1024.webp"
       }
     ],
     "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/dr-althea-vitamin-c-9f257bf835fa0f377117921750196217-1024-1024.webp"
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/shiseido-hair-oil-30af9383a6ff338ee017921761139538-1024-1024.webp"
     ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/dr-althea-vitamin-c-9f257bf835fa0f377117921750196217-1024-1024.webp",
-    "weightKg": 0.06,
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/shiseido-hair-oil-30af9383a6ff338ee017921761139538-1024-1024.webp",
+    "weightKg": 0.2,
     "storeName": "Dailyskincaremx",
     "storeDomain": "dailyskincaremx.com",
     "country": "MX",
     "language": "es_MX",
     "platform": "tiendanube",
     "engine": "classic",
-    "lastModified": "2026-10-16T18:24:46.000Z",
-    "scrapedAt": "2026-10-27T16:52:02.694Z"
+    "lastModified": "2026-10-16T18:42:40.000Z",
+    "scrapedAt": "2026-10-28T17:24:14.948Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/dr-althea-345-relief-serum-145sn/",
@@ -932,7 +874,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:29:18.000Z",
-    "scrapedAt": "2026-10-27T16:52:02.763Z"
+    "scrapedAt": "2026-10-28T17:24:15.279Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/dr-althea-vitamin-c-boosting-serum-63-nfdxc/",
+    "productId": 374685782,
+    "name": "Dr. Althea Vitamin C Boosting Serum 63%",
+    "brand": "Dr. Althea",
+    "description": "Dr. Althea Vitamin C Boosting Serum 63% es un sérum coreano iluminador y despigmentante de alta potencia, formulado para pieles sensibles. Su base es inusual: en lugar de agua, usa 63% de agua de Hippophae Rhamnoides (espino amarillo/sea buckthorn), naturalmente rica en vitamina C, E, carotenoides y omega-7. 30ml",
+    "categories": [
+      "Marcas",
+      "Otras marcas"
+    ],
+    "tags": [],
+    "price": null,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": null,
+    "priceMax": null,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620547891,
+        "sku": null,
+        "price": null,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/dr-althea-vitamin-c-9f257bf835fa0f377117921750196217-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/dr-althea-vitamin-c-9f257bf835fa0f377117921750196217-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/dr-althea-vitamin-c-9f257bf835fa0f377117921750196217-1024-1024.webp",
+    "weightKg": 0.06,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-16T18:24:46.000Z",
+    "scrapedAt": "2026-10-28T17:24:15.633Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/medicube-kojic-acid-turmeric-vita-capsule-cream-m7sks/",
@@ -990,7 +990,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:11:49.000Z",
-    "scrapedAt": "2026-10-27T16:52:03.321Z"
+    "scrapedAt": "2026-10-28T17:24:15.869Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-treatment-rinse-lg6lu/",
@@ -1048,7 +1048,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:07:03.000Z",
-    "scrapedAt": "2026-10-27T16:52:03.685Z"
+    "scrapedAt": "2026-10-28T17:24:16.310Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-shampoo-151va/",
@@ -1106,7 +1106,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:02:41.000Z",
-    "scrapedAt": "2026-10-27T16:52:04.030Z"
+    "scrapedAt": "2026-10-28T17:24:16.601Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-hyalu-cica-moisture-cream-jno35/",
@@ -1167,7 +1167,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T03:42:37.000Z",
-    "scrapedAt": "2026-10-27T16:52:07.193Z"
+    "scrapedAt": "2026-10-28T17:24:20.458Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/color-wow-iconic-frizz-fighters-gift-set-1996i/",
@@ -1225,7 +1225,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T01:34:15.000Z",
-    "scrapedAt": "2026-10-27T16:52:37.702Z"
+    "scrapedAt": "2026-10-28T17:24:59.743Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/sephora-favorites-holiday-must-haves-makeup-skincare-value-set-1519b/",
@@ -1283,7 +1283,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T01:22:22.000Z",
-    "scrapedAt": "2026-10-27T16:52:38.609Z"
+    "scrapedAt": "2026-10-28T17:25:00.617Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/cozy-clean-makeup-value-set-1um2b/",
@@ -1341,7 +1341,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T01:06:58.000Z",
-    "scrapedAt": "2026-10-27T16:52:39.135Z"
+    "scrapedAt": "2026-10-28T17:25:01.869Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-mahogany-taekwood-gentle-clean-foaming-hand-soap-1sk4a/",
@@ -1399,7 +1399,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:51:04.000Z",
-    "scrapedAt": "2026-10-27T16:52:40.409Z"
+    "scrapedAt": "2026-10-28T17:25:02.708Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-champagne-toast-gentle-clean-foaming-hand-soap-2m8pk/",
@@ -1457,7 +1457,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:40:49.000Z",
-    "scrapedAt": "2026-10-27T16:52:41.281Z"
+    "scrapedAt": "2026-10-28T17:25:03.304Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-wrapped-in-spice-gentle-clean-foaming-hand-soap-1s65f/",
@@ -1515,7 +1515,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:33:38.000Z",
-    "scrapedAt": "2026-10-27T16:52:42.092Z"
+    "scrapedAt": "2026-10-28T17:25:04.150Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-japanese-cherry-blossom-gentle-clean-foaming-hand-soap-ax43z/",
@@ -1573,7 +1573,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:28:07.000Z",
-    "scrapedAt": "2026-10-27T16:52:43.053Z"
+    "scrapedAt": "2026-10-28T17:25:05.057Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-mahogany-teakwood-gentle-clean-foaming-hand-soap-4l475/",
@@ -1631,7 +1631,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:22:24.000Z",
-    "scrapedAt": "2026-10-27T16:52:43.889Z"
+    "scrapedAt": "2026-10-28T17:25:05.947Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-strawberry-bite-gentle-clean-foaming-hand-soap-17je5/",
@@ -1689,7 +1689,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:20:57.000Z",
-    "scrapedAt": "2026-10-27T16:52:44.786Z"
+    "scrapedAt": "2026-10-28T17:25:06.709Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/moev-annurcatin-hair-tonic-1nsq3/",
@@ -1747,7 +1747,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:09:09.000Z",
-    "scrapedAt": "2026-10-27T16:52:45.727Z"
+    "scrapedAt": "2026-10-28T17:25:07.423Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/moev-annurcatin-treatment-1d9un/",
@@ -1805,7 +1805,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:03:55.000Z",
-    "scrapedAt": "2026-10-27T16:52:46.649Z"
+    "scrapedAt": "2026-10-28T17:25:08.170Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/difeel-biotin-premium-hair-oil-1n3jk/",
@@ -1863,7 +1863,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:55:45.000Z",
-    "scrapedAt": "2026-10-27T16:52:47.522Z"
+    "scrapedAt": "2026-10-28T17:25:08.933Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-essence-1chrn/",
@@ -1921,7 +1921,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:32:22.000Z",
-    "scrapedAt": "2026-10-27T16:52:48.102Z"
+    "scrapedAt": "2026-10-28T17:25:09.664Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eqqualberry-glow-filter-vitamin-illuminating-serum-yodpt/",
@@ -1976,7 +1976,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:22:06.000Z",
-    "scrapedAt": "2026-10-27T16:52:49.360Z"
+    "scrapedAt": "2026-10-28T17:25:10.424Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/difeel-rosemary-mint-premium-hair-oil-infused-with-biotin-1maf9/",
@@ -2034,7 +2034,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:16:55.000Z",
-    "scrapedAt": "2026-10-27T16:52:50.225Z"
+    "scrapedAt": "2026-10-28T17:25:11.453Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/sephora-favorites-mini-holiday-must-haves-value-set-fferj/",
@@ -2092,7 +2092,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:10:51.000Z",
-    "scrapedAt": "2026-10-27T16:52:50.789Z"
+    "scrapedAt": "2026-10-28T17:25:12.169Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/loreal-paris-infallible-3-second-setting-mist-1jafb/",
@@ -2150,7 +2150,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:03:22.000Z",
-    "scrapedAt": "2026-10-27T16:52:51.982Z"
+    "scrapedAt": "2026-10-28T17:25:12.696Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/the-ordinary-glycolic-acid-7-toning-solution-1xa43/",
@@ -2208,6 +2208,6 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T22:53:01.000Z",
-    "scrapedAt": "2026-10-27T16:52:52.951Z"
+    "scrapedAt": "2026-10-28T17:25:13.715Z"
   }
 ]

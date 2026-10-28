@@ -2,15 +2,15 @@
 > tiendanube-scraper@0.1.0 start
 > node src/main.js
 
-[32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}[39m
+[32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.4"}[39m
 [33mWARN[39m  Skipping "no es un dominio": not a valid URL or domain.
 [32mINFO[39m  https://cocora.mitiendanube.com/productos/pulsera-baloon-mini/: 1 products found, examining 1.
 [32mINFO[39m  https://tallertextildoscoyotes.mitiendanube.com/productos/hilo-de-lana-50-gramos/: 1 products found, examining 1.
 [32mINFO[39m  https://cocora.mitiendanube.com/productos/pulsera-baloon-mini/: 1 saved, 0 unchanged, 0 skipped, 0 failed.
 [32mINFO[39m  [Status message]: 1 results so far
+[33mWARN[39m  esta-tienda-no-existe-zzqx.mitiendanube.com: not usable (store_not_found).
 [32mINFO[39m  https://tallertextildoscoyotes.mitiendanube.com/productos/hilo-de-lana-50-gramos/: 1 saved, 0 unchanged, 0 skipped, 0 failed.
 [32mINFO[39m  [Status message]: 2 results so far
-[33mWARN[39m  esta-tienda-no-existe-zzqx.mitiendanube.com: not usable (store_not_found).
 [33mWARN[39m  example.com: not usable (not_tiendanube).
 [32mINFO[39m  Done. 2 results from 4 input(s). Requests: 6 (0 throttled, 0 blocked).
 [32mINFO[39m  [Status message]: 2 results. 3 input(s) not usable: no es un dominio (invalid_input), esta-tienda-no-existe-zzqx.mitiendanube.com (store_not_found), example.com (not_tiendanube)
