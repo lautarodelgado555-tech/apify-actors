@@ -58,7 +58,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-26T18:20:09.000Z",
-    "scrapedAt": "2026-10-28T17:24:08.694Z"
+    "scrapedAt": "2026-10-29T17:32:27.226Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/anua-pdrn-hyaluronic-acid-100-moisturizing-cream-1jo80/",
@@ -116,65 +116,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:31:31.000Z",
-    "scrapedAt": "2026-10-28T17:24:10.964Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/mixsoon-glacier-water-hyaluronic-acid-serum-n44hf/",
-    "productId": 374704358,
-    "name": "Mixsoon Glacier Water Hyaluronic Acid Serum",
-    "brand": "MIXSOON",
-    "description": "Mixsoon Glacier Water Hyaluronic Acid Serum es un sérum hidratante coreano de Mixsoon con una fórmula ultra-minimalista (solo 4 ingredientes) basada en agua glaciar de Alaska y triple ácido hialurónico de distintos pesos moleculares. Es uno de los productos más vendidos de la marca. 30ml",
-    "categories": [
-      "Marcas",
-      "K-Beauty"
-    ],
-    "tags": [],
-    "price": null,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": null,
-    "priceMax": null,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620611520,
-        "sku": null,
-        "price": null,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/mixsoon-hyaluronic-serum-cad3e671cd956efa7817921786402256-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/mixsoon-hyaluronic-serum-cad3e671cd956efa7817921786402256-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/mixsoon-hyaluronic-serum-cad3e671cd956efa7817921786402256-1024-1024.webp",
-    "weightKg": 0.1,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-16T19:24:36.000Z",
-    "scrapedAt": "2026-10-28T17:24:11.560Z"
+    "scrapedAt": "2026-10-29T17:32:29.104Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/numbuzin-no-9-nad-retinol-volumetox-eye-cream-1s37v/",
@@ -232,7 +174,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:28:07.000Z",
-    "scrapedAt": "2026-10-28T17:24:11.753Z"
+    "scrapedAt": "2026-10-29T17:32:29.415Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/mixsoon-glacier-water-hyaluronic-acid-serum-n44hf/",
+    "productId": 374704358,
+    "name": "Mixsoon Glacier Water Hyaluronic Acid Serum",
+    "brand": "MIXSOON",
+    "description": "Mixsoon Glacier Water Hyaluronic Acid Serum es un sérum hidratante coreano de Mixsoon con una fórmula ultra-minimalista (solo 4 ingredientes) basada en agua glaciar de Alaska y triple ácido hialurónico de distintos pesos moleculares. Es uno de los productos más vendidos de la marca. 30ml",
+    "categories": [
+      "Marcas",
+      "K-Beauty"
+    ],
+    "tags": [],
+    "price": null,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": null,
+    "priceMax": null,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620611520,
+        "sku": null,
+        "price": null,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/mixsoon-hyaluronic-serum-cad3e671cd956efa7817921786402256-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/mixsoon-hyaluronic-serum-cad3e671cd956efa7817921786402256-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/mixsoon-hyaluronic-serum-cad3e671cd956efa7817921786402256-1024-1024.webp",
+    "weightKg": 0.1,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-16T19:24:36.000Z",
+    "scrapedAt": "2026-10-29T17:32:29.487Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/vt-cosmetics-pdrn-reedle-shot-hair-ampoule-100dl-yhjc8/",
@@ -290,7 +290,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:21:05.000Z",
-    "scrapedAt": "2026-10-28T17:24:12.273Z"
+    "scrapedAt": "2026-10-29T17:32:30.115Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/purito-mighty-bamboo-panthenol-cream-3hr6e/",
@@ -348,7 +348,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:15:37.000Z",
-    "scrapedAt": "2026-10-28T17:24:12.640Z"
+    "scrapedAt": "2026-10-29T17:32:30.418Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/anua-rice-70-intensive-moisturizing-milk-qbxeo/",
@@ -406,7 +406,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:09:06.000Z",
-    "scrapedAt": "2026-10-28T17:24:12.881Z"
+    "scrapedAt": "2026-10-29T17:32:30.670Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/medicube-zero-pore-pad-1mzle/",
@@ -468,7 +468,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:12:00.000Z",
-    "scrapedAt": "2026-10-28T17:24:12.927Z"
+    "scrapedAt": "2026-10-29T17:32:30.781Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-glow-1004-duo-5ldui/",
@@ -526,7 +526,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:04:39.000Z",
-    "scrapedAt": "2026-10-28T17:24:13.296Z"
+    "scrapedAt": "2026-10-29T17:32:31.400Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-air-fit-suncream-light-1o8f6/",
@@ -584,7 +584,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:01:33.000Z",
-    "scrapedAt": "2026-10-28T17:24:13.994Z"
+    "scrapedAt": "2026-10-29T17:32:31.871Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/numbuzin-no-9-nad-trial-kit-for-anti-aging-firming-qel0y/",
@@ -642,7 +642,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:57:01.000Z",
-    "scrapedAt": "2026-10-28T17:24:14.234Z"
+    "scrapedAt": "2026-10-29T17:32:32.113Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/purito-oat-in-calming-gel-cream-39ab6/",
@@ -700,65 +700,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:49:05.000Z",
-    "scrapedAt": "2026-10-28T17:24:14.275Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/dr-althea-345-relief-travel-kit-11r01/",
-    "productId": 374687889,
-    "name": "Dr. Althea 345 Relief Travel Kit",
-    "brand": "Dr. Althea",
-    "description": "Dr. Althea 345 Relief Travel Kit es un set de 3 pasos en formato de viaje de la línea 345 Relief, diseñado para calmar, hidratar y reparar la barrera cutánea en cualquier momento. 1 345 Relief Cream Mist 60 ml Bruma de doble capa (agua + crema) con extracto de arroz. Hidratación instantánea, calma enrojecimiento. Se puede usar durante el día cuando la piel se sienta seca. 2 345 Relief Serum 15 ml Sérum ligero de absorción rápida con tecnología de triple liposoma. Calma irritación, equilibra sebo/agua, repara barrera. 3 345 Relief Cream 15 ml Crema post-acné con Tea Tree Leaf Water y Ceramida NP. Sella la hidratación, alivia y suaviza",
-    "categories": [
-      "Marcas",
-      "K-Beauty"
-    ],
-    "tags": [],
-    "price": null,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": null,
-    "priceMax": null,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 2,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620557417,
-        "sku": null,
-        "price": null,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 2,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/dr-althea-travel-kit-52a61a3901caa0bf5d17921756230654-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/dr-althea-travel-kit-52a61a3901caa0bf5d17921756230654-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/dr-althea-travel-kit-52a61a3901caa0bf5d17921756230654-1024-1024.webp",
-    "weightKg": 0.5,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-16T18:34:20.000Z",
-    "scrapedAt": "2026-10-28T17:24:14.908Z"
+    "scrapedAt": "2026-10-29T17:32:32.170Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/shiseido-fino-premium-touch-hair-oil-1y7li/",
@@ -816,7 +758,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:42:40.000Z",
-    "scrapedAt": "2026-10-28T17:24:14.948Z"
+    "scrapedAt": "2026-10-29T17:32:32.608Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/dr-althea-345-relief-travel-kit-11r01/",
+    "productId": 374687889,
+    "name": "Dr. Althea 345 Relief Travel Kit",
+    "brand": "Dr. Althea",
+    "description": "Dr. Althea 345 Relief Travel Kit es un set de 3 pasos en formato de viaje de la línea 345 Relief, diseñado para calmar, hidratar y reparar la barrera cutánea en cualquier momento. 1 345 Relief Cream Mist 60 ml Bruma de doble capa (agua + crema) con extracto de arroz. Hidratación instantánea, calma enrojecimiento. Se puede usar durante el día cuando la piel se sienta seca. 2 345 Relief Serum 15 ml Sérum ligero de absorción rápida con tecnología de triple liposoma. Calma irritación, equilibra sebo/agua, repara barrera. 3 345 Relief Cream 15 ml Crema post-acné con Tea Tree Leaf Water y Ceramida NP. Sella la hidratación, alivia y suaviza",
+    "categories": [
+      "Marcas",
+      "K-Beauty"
+    ],
+    "tags": [],
+    "price": null,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": null,
+    "priceMax": null,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 2,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620557417,
+        "sku": null,
+        "price": null,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 2,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/dr-althea-travel-kit-52a61a3901caa0bf5d17921756230654-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/dr-althea-travel-kit-52a61a3901caa0bf5d17921756230654-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/dr-althea-travel-kit-52a61a3901caa0bf5d17921756230654-1024-1024.webp",
+    "weightKg": 0.5,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-16T18:34:20.000Z",
+    "scrapedAt": "2026-10-29T17:32:32.767Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/dr-althea-345-relief-serum-145sn/",
@@ -874,7 +874,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:29:18.000Z",
-    "scrapedAt": "2026-10-28T17:24:15.279Z"
+    "scrapedAt": "2026-10-29T17:32:33.311Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/dr-althea-vitamin-c-boosting-serum-63-nfdxc/",
@@ -932,7 +932,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:24:46.000Z",
-    "scrapedAt": "2026-10-28T17:24:15.633Z"
+    "scrapedAt": "2026-10-29T17:32:33.823Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/medicube-kojic-acid-turmeric-vita-capsule-cream-m7sks/",
@@ -990,7 +990,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:11:49.000Z",
-    "scrapedAt": "2026-10-28T17:24:15.869Z"
+    "scrapedAt": "2026-10-29T17:32:33.943Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-treatment-rinse-lg6lu/",
@@ -1048,7 +1048,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:07:03.000Z",
-    "scrapedAt": "2026-10-28T17:24:16.310Z"
+    "scrapedAt": "2026-10-29T17:32:34.214Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-shampoo-151va/",
@@ -1106,7 +1106,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:02:41.000Z",
-    "scrapedAt": "2026-10-28T17:24:16.601Z"
+    "scrapedAt": "2026-10-29T17:32:34.371Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-hyalu-cica-moisture-cream-jno35/",
@@ -1167,7 +1167,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T03:42:37.000Z",
-    "scrapedAt": "2026-10-28T17:24:20.458Z"
+    "scrapedAt": "2026-10-29T17:32:38.213Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/color-wow-iconic-frizz-fighters-gift-set-1996i/",
@@ -1225,7 +1225,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T01:34:15.000Z",
-    "scrapedAt": "2026-10-28T17:24:59.743Z"
+    "scrapedAt": "2026-10-29T17:33:15.719Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/sephora-favorites-holiday-must-haves-makeup-skincare-value-set-1519b/",
@@ -1283,7 +1283,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T01:22:22.000Z",
-    "scrapedAt": "2026-10-28T17:25:00.617Z"
+    "scrapedAt": "2026-10-29T17:33:16.509Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/cozy-clean-makeup-value-set-1um2b/",
@@ -1341,7 +1341,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T01:06:58.000Z",
-    "scrapedAt": "2026-10-28T17:25:01.869Z"
+    "scrapedAt": "2026-10-29T17:33:17.556Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-mahogany-taekwood-gentle-clean-foaming-hand-soap-1sk4a/",
@@ -1399,7 +1399,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:51:04.000Z",
-    "scrapedAt": "2026-10-28T17:25:02.708Z"
+    "scrapedAt": "2026-10-29T17:33:18.392Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-champagne-toast-gentle-clean-foaming-hand-soap-2m8pk/",
@@ -1457,7 +1457,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:40:49.000Z",
-    "scrapedAt": "2026-10-28T17:25:03.304Z"
+    "scrapedAt": "2026-10-29T17:33:19.237Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-wrapped-in-spice-gentle-clean-foaming-hand-soap-1s65f/",
@@ -1515,7 +1515,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:33:38.000Z",
-    "scrapedAt": "2026-10-28T17:25:04.150Z"
+    "scrapedAt": "2026-10-29T17:33:20.043Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-japanese-cherry-blossom-gentle-clean-foaming-hand-soap-ax43z/",
@@ -1573,7 +1573,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:28:07.000Z",
-    "scrapedAt": "2026-10-28T17:25:05.057Z"
+    "scrapedAt": "2026-10-29T17:33:20.710Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-mahogany-teakwood-gentle-clean-foaming-hand-soap-4l475/",
@@ -1631,7 +1631,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:22:24.000Z",
-    "scrapedAt": "2026-10-28T17:25:05.947Z"
+    "scrapedAt": "2026-10-29T17:33:21.603Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-strawberry-bite-gentle-clean-foaming-hand-soap-17je5/",
@@ -1689,7 +1689,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:20:57.000Z",
-    "scrapedAt": "2026-10-28T17:25:06.709Z"
+    "scrapedAt": "2026-10-29T17:33:22.573Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/moev-annurcatin-hair-tonic-1nsq3/",
@@ -1747,7 +1747,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:09:09.000Z",
-    "scrapedAt": "2026-10-28T17:25:07.423Z"
+    "scrapedAt": "2026-10-29T17:33:23.564Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/moev-annurcatin-treatment-1d9un/",
@@ -1805,7 +1805,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:03:55.000Z",
-    "scrapedAt": "2026-10-28T17:25:08.170Z"
+    "scrapedAt": "2026-10-29T17:33:24.331Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/difeel-biotin-premium-hair-oil-1n3jk/",
@@ -1863,7 +1863,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:55:45.000Z",
-    "scrapedAt": "2026-10-28T17:25:08.933Z"
+    "scrapedAt": "2026-10-29T17:33:24.788Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-essence-1chrn/",
@@ -1921,7 +1921,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:32:22.000Z",
-    "scrapedAt": "2026-10-28T17:25:09.664Z"
+    "scrapedAt": "2026-10-29T17:33:25.732Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eqqualberry-glow-filter-vitamin-illuminating-serum-yodpt/",
@@ -1976,7 +1976,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:22:06.000Z",
-    "scrapedAt": "2026-10-28T17:25:10.424Z"
+    "scrapedAt": "2026-10-29T17:33:26.579Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/difeel-rosemary-mint-premium-hair-oil-infused-with-biotin-1maf9/",
@@ -2034,7 +2034,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:16:55.000Z",
-    "scrapedAt": "2026-10-28T17:25:11.453Z"
+    "scrapedAt": "2026-10-29T17:33:27.231Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/sephora-favorites-mini-holiday-must-haves-value-set-fferj/",
@@ -2092,7 +2092,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:10:51.000Z",
-    "scrapedAt": "2026-10-28T17:25:12.169Z"
+    "scrapedAt": "2026-10-29T17:33:28.058Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/loreal-paris-infallible-3-second-setting-mist-1jafb/",
@@ -2150,7 +2150,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:03:22.000Z",
-    "scrapedAt": "2026-10-28T17:25:12.696Z"
+    "scrapedAt": "2026-10-29T17:33:28.525Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/the-ordinary-glycolic-acid-7-toning-solution-1xa43/",
@@ -2208,6 +2208,6 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T22:53:01.000Z",
-    "scrapedAt": "2026-10-28T17:25:13.715Z"
+    "scrapedAt": "2026-10-29T17:33:29.504Z"
   }
 ]
