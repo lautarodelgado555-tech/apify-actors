@@ -34,7 +34,7 @@
     "matchedName": null,
     "searchType": "entityName",
     "searchTerm": "Acme",
-    "scrapedAt": "2026-10-28T17:10:45.033Z"
+    "scrapedAt": "2026-10-29T17:26:04.745Z"
   },
   {
     "entityName": "ACME CORPORATION",
@@ -87,7 +87,7 @@
     "matchedName": null,
     "searchType": "entityName",
     "searchTerm": "Acme",
-    "scrapedAt": "2026-10-28T17:10:45.257Z"
+    "scrapedAt": "2026-10-29T17:26:04.964Z"
   },
   {
     "entityName": "THE ACME COMPANY",
@@ -124,105 +124,7 @@
     "matchedName": null,
     "searchType": "entityName",
     "searchTerm": "Acme",
-    "scrapedAt": "2026-10-28T17:10:45.700Z"
-  },
-  {
-    "entityName": "ACME, INC.",
-    "entityType": "Florida Profit Corporation",
-    "documentNumber": "454365",
-    "feiEin": "00-0000000",
-    "dateFiled": "06/07/1974",
-    "effectiveDate": null,
-    "state": "FL",
-    "status": "INACTIVE",
-    "lastEvent": "INVOLUNTARILY DISSOLVED",
-    "eventDateFiled": "12/16/1981",
-    "eventEffectiveDate": "NONE",
-    "principalAddress": "2330 S. HARBOUR CITY BLVD., MELBOURNE, FL 32901",
-    "principalAddressNotes": [],
-    "mailingAddress": "2330 S. HARBOUR CITY BLVD., MELBOURNE, FL 32901",
-    "mailingAddressNotes": [],
-    "registeredAgentName": "LISS, REUBEN",
-    "registeredAgentAddress": "2114 BARRACUDA AVE., MELBOURNE BEACH, FL 32951",
-    "registeredAgentNotes": [],
-    "officerSectionTitle": "Officer/Director Detail",
-    "officers": [
-      {
-        "title": "D",
-        "name": "LISS, REUBEN",
-        "address": "2114 BARRACUDA AVE., MELBOURNE BEACH, FL"
-      },
-      {
-        "title": "STD",
-        "name": "LISS, DOROTHY",
-        "address": "2114 BARRACUDA AVE., MELBOURNE BEACH, FL"
-      }
-    ],
-    "annualReports": [
-      {
-        "reportYear": 1978,
-        "filedDate": "07/21/1978"
-      },
-      {
-        "reportYear": 1979,
-        "filedDate": "08/01/1979"
-      },
-      {
-        "reportYear": 1980,
-        "filedDate": "10/31/1980"
-      }
-    ],
-    "documents": [],
-    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-454365-f7d2850f-4e56-49e8-9f12-5d3ef3c5e0dd&entityId=454365&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%204543650&ListNameOrder=ACME%201125450",
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+4543650&aggregateId=domp-454365-f7d2850f-4e56-49e8-9f12-5d3ef3c5e0dd",
-    "lastAnnualReportYear": 1980,
-    "annualReportCurrent": null,
-    "annualReportStatus": "not_applicable_inactive",
-    "annualReportDueDate": null,
-    "lateFeeApplies": false,
-    "dissolutionDeadline": null,
-    "nextAnnualReportWindow": null,
-    "matchedName": null,
-    "searchType": "entityName",
-    "searchTerm": "Acme",
-    "scrapedAt": "2026-10-28T17:10:45.961Z"
-  },
-  {
-    "entityName": "\"ACME\"",
-    "entityType": "Trademark",
-    "documentNumber": "903173",
-    "feiEin": null,
-    "dateFiled": "07/20/1960",
-    "effectiveDate": null,
-    "state": null,
-    "status": "INACTIVE",
-    "lastEvent": "EXPIRATION",
-    "eventDateFiled": "03/18/1972",
-    "eventEffectiveDate": "NONE",
-    "principalAddress": null,
-    "principalAddressNotes": [],
-    "mailingAddress": null,
-    "mailingAddressNotes": [],
-    "registeredAgentName": null,
-    "registeredAgentAddress": null,
-    "registeredAgentNotes": [],
-    "officerSectionTitle": null,
-    "officers": [],
-    "annualReports": [],
-    "documents": [],
-    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=trade-903173-68879238-671d-4758-83c9-ff67ffb29a50&entityId=903173&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%209031730&ListNameOrder=ACME%201125450",
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+9031730&aggregateId=trade-903173-68879238-671d-4758-83c9-ff67ffb29a50",
-    "lastAnnualReportYear": null,
-    "annualReportCurrent": null,
-    "annualReportStatus": "not_applicable_inactive",
-    "annualReportDueDate": null,
-    "lateFeeApplies": false,
-    "dissolutionDeadline": null,
-    "nextAnnualReportWindow": null,
-    "matchedName": null,
-    "searchType": "entityName",
-    "searchTerm": "Acme",
-    "scrapedAt": "2026-10-28T17:10:46.472Z"
+    "scrapedAt": "2026-10-29T17:26:05.579Z"
   },
   {
     "entityName": "PUBLIX SUPER MARKETS, INC.",
@@ -701,100 +603,58 @@
     "matchedName": null,
     "searchType": "entityName",
     "searchTerm": "Publix Super Markets",
-    "scrapedAt": "2026-10-28T17:10:46.744Z"
+    "scrapedAt": "2026-10-29T17:26:05.891Z"
   },
   {
-    "entityName": "ACME COMPANY, L.C.",
-    "entityType": "Florida Limited Liability Company",
-    "documentNumber": "L01000007905",
-    "feiEin": "59-3719148",
-    "dateFiled": "05/16/2001",
+    "entityName": "ACME, INC.",
+    "entityType": "Florida Profit Corporation",
+    "documentNumber": "454365",
+    "feiEin": "00-0000000",
+    "dateFiled": "06/07/1974",
     "effectiveDate": null,
     "state": "FL",
     "status": "INACTIVE",
-    "lastEvent": "ADMIN DISSOLUTION FOR ANNUAL REPORT",
-    "eventDateFiled": "09/25/2009",
+    "lastEvent": "INVOLUNTARILY DISSOLVED",
+    "eventDateFiled": "12/16/1981",
     "eventEffectiveDate": "NONE",
-    "principalAddress": "2167 FIFTH AVE NO, SAINT PETERSBURG, FL 33713",
-    "principalAddressNotes": [
-      "Changed: 06/04/2003"
-    ],
-    "mailingAddress": "2167 FIFTH AVE NO, SAINT PETERSBURG, FL 33713",
-    "mailingAddressNotes": [
-      "Changed: 06/04/2003"
-    ],
-    "registeredAgentName": "KNAUST, WARREN JESQ.",
-    "registeredAgentAddress": "2167 FIFTH AVE NO, SAINT PETERSBURG, FL 33713",
-    "registeredAgentNotes": [
-      "Address Changed: 06/04/2003"
-    ],
-    "officerSectionTitle": "Authorized Person(s) Detail",
+    "principalAddress": "2330 S. HARBOUR CITY BLVD., MELBOURNE, FL 32901",
+    "principalAddressNotes": [],
+    "mailingAddress": "2330 S. HARBOUR CITY BLVD., MELBOURNE, FL 32901",
+    "mailingAddressNotes": [],
+    "registeredAgentName": "LISS, REUBEN",
+    "registeredAgentAddress": "2114 BARRACUDA AVE., MELBOURNE BEACH, FL 32951",
+    "registeredAgentNotes": [],
+    "officerSectionTitle": "Officer/Director Detail",
     "officers": [
       {
-        "title": "MGRM",
-        "name": "DOLGIN, BRADLEY E",
-        "address": "P.O. BOX 55811, ST. PETERSBURG, FL 33732-5811"
+        "title": "D",
+        "name": "LISS, REUBEN",
+        "address": "2114 BARRACUDA AVE., MELBOURNE BEACH, FL"
+      },
+      {
+        "title": "STD",
+        "name": "LISS, DOROTHY",
+        "address": "2114 BARRACUDA AVE., MELBOURNE BEACH, FL"
       }
     ],
     "annualReports": [
       {
-        "reportYear": 2006,
-        "filedDate": "04/05/2006"
+        "reportYear": 1978,
+        "filedDate": "07/21/1978"
       },
       {
-        "reportYear": 2007,
-        "filedDate": "04/07/2007"
+        "reportYear": 1979,
+        "filedDate": "08/01/1979"
       },
       {
-        "reportYear": 2008,
-        "filedDate": "05/16/2008"
+        "reportYear": 1980,
+        "filedDate": "10/31/1980"
       }
     ],
-    "documents": [
-      {
-        "date": "05/16/2008",
-        "documentType": "ANNUAL REPORT",
-        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2008%5C0516%5C00706460.tif&documentNumber=L01000007905"
-      },
-      {
-        "date": "04/07/2007",
-        "documentType": "ANNUAL REPORT",
-        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2007%5C0409%5C50119435.tif&documentNumber=L01000007905"
-      },
-      {
-        "date": "04/05/2006",
-        "documentType": "ANNUAL REPORT",
-        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2006%5C0406%5C61311336.tif&documentNumber=L01000007905"
-      },
-      {
-        "date": "04/22/2005",
-        "documentType": "ANNUAL REPORT",
-        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2005%5C0428%5C275901E8.tif&documentNumber=L01000007905"
-      },
-      {
-        "date": "04/07/2004",
-        "documentType": "ANNUAL REPORT",
-        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2004%5C0409%5C12490D39.tif&documentNumber=L01000007905"
-      },
-      {
-        "date": "06/04/2003",
-        "documentType": "ANNUAL REPORT",
-        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR1%5C2003%5C0605%5C1288091A.tif&documentNumber=L01000007905"
-      },
-      {
-        "date": "03/29/2002",
-        "documentType": "ANNUAL REPORT",
-        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2002%5C0403%5C274408CD.tif&documentNumber=L01000007905"
-      },
-      {
-        "date": "05/16/2001",
-        "documentType": "Florida Limited Liabilites",
-        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2001%5C0531%5C80140288.tif&documentNumber=L01000007905"
-      }
-    ],
-    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=flal-l01000007905-dcb7e796-f4d4-455f-8d52-48906af36953&entityId=L01000007905&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%20L010000079050&ListNameOrder=ACME%201125450",
-    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+L010000079050&aggregateId=flal-l01000007905-dcb7e796-f4d4-455f-8d52-48906af36953",
-    "lastAnnualReportYear": 2008,
+    "documents": [],
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=domp-454365-f7d2850f-4e56-49e8-9f12-5d3ef3c5e0dd&entityId=454365&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%204543650&ListNameOrder=ACME%201125450",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+4543650&aggregateId=domp-454365-f7d2850f-4e56-49e8-9f12-5d3ef3c5e0dd",
+    "lastAnnualReportYear": 1980,
     "annualReportCurrent": null,
     "annualReportStatus": "not_applicable_inactive",
     "annualReportDueDate": null,
@@ -804,7 +664,7 @@
     "matchedName": null,
     "searchType": "entityName",
     "searchTerm": "Acme",
-    "scrapedAt": "2026-10-28T17:10:47.243Z"
+    "scrapedAt": "2026-10-29T17:26:06.468Z"
   },
   {
     "entityName": "PUBLIX SUPER MARKETS CHARITIES, INC.",
@@ -1053,6 +913,146 @@
     "matchedName": null,
     "searchType": "entityName",
     "searchTerm": "Publix Super Markets",
-    "scrapedAt": "2026-10-28T17:10:47.440Z"
+    "scrapedAt": "2026-10-29T17:26:06.804Z"
+  },
+  {
+    "entityName": "\"ACME\"",
+    "entityType": "Trademark",
+    "documentNumber": "903173",
+    "feiEin": null,
+    "dateFiled": "07/20/1960",
+    "effectiveDate": null,
+    "state": null,
+    "status": "INACTIVE",
+    "lastEvent": "EXPIRATION",
+    "eventDateFiled": "03/18/1972",
+    "eventEffectiveDate": "NONE",
+    "principalAddress": null,
+    "principalAddressNotes": [],
+    "mailingAddress": null,
+    "mailingAddressNotes": [],
+    "registeredAgentName": null,
+    "registeredAgentAddress": null,
+    "registeredAgentNotes": [],
+    "officerSectionTitle": null,
+    "officers": [],
+    "annualReports": [],
+    "documents": [],
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=trade-903173-68879238-671d-4758-83c9-ff67ffb29a50&entityId=903173&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%209031730&ListNameOrder=ACME%201125450",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+9031730&aggregateId=trade-903173-68879238-671d-4758-83c9-ff67ffb29a50",
+    "lastAnnualReportYear": null,
+    "annualReportCurrent": null,
+    "annualReportStatus": "not_applicable_inactive",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "dissolutionDeadline": null,
+    "nextAnnualReportWindow": null,
+    "matchedName": null,
+    "searchType": "entityName",
+    "searchTerm": "Acme",
+    "scrapedAt": "2026-10-29T17:26:07.412Z"
+  },
+  {
+    "entityName": "ACME COMPANY, L.C.",
+    "entityType": "Florida Limited Liability Company",
+    "documentNumber": "L01000007905",
+    "feiEin": "59-3719148",
+    "dateFiled": "05/16/2001",
+    "effectiveDate": null,
+    "state": "FL",
+    "status": "INACTIVE",
+    "lastEvent": "ADMIN DISSOLUTION FOR ANNUAL REPORT",
+    "eventDateFiled": "09/25/2009",
+    "eventEffectiveDate": "NONE",
+    "principalAddress": "2167 FIFTH AVE NO, SAINT PETERSBURG, FL 33713",
+    "principalAddressNotes": [
+      "Changed: 06/04/2003"
+    ],
+    "mailingAddress": "2167 FIFTH AVE NO, SAINT PETERSBURG, FL 33713",
+    "mailingAddressNotes": [
+      "Changed: 06/04/2003"
+    ],
+    "registeredAgentName": "KNAUST, WARREN JESQ.",
+    "registeredAgentAddress": "2167 FIFTH AVE NO, SAINT PETERSBURG, FL 33713",
+    "registeredAgentNotes": [
+      "Address Changed: 06/04/2003"
+    ],
+    "officerSectionTitle": "Authorized Person(s) Detail",
+    "officers": [
+      {
+        "title": "MGRM",
+        "name": "DOLGIN, BRADLEY E",
+        "address": "P.O. BOX 55811, ST. PETERSBURG, FL 33732-5811"
+      }
+    ],
+    "annualReports": [
+      {
+        "reportYear": 2006,
+        "filedDate": "04/05/2006"
+      },
+      {
+        "reportYear": 2007,
+        "filedDate": "04/07/2007"
+      },
+      {
+        "reportYear": 2008,
+        "filedDate": "05/16/2008"
+      }
+    ],
+    "documents": [
+      {
+        "date": "05/16/2008",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2008%5C0516%5C00706460.tif&documentNumber=L01000007905"
+      },
+      {
+        "date": "04/07/2007",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2007%5C0409%5C50119435.tif&documentNumber=L01000007905"
+      },
+      {
+        "date": "04/05/2006",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2006%5C0406%5C61311336.tif&documentNumber=L01000007905"
+      },
+      {
+        "date": "04/22/2005",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2005%5C0428%5C275901E8.tif&documentNumber=L01000007905"
+      },
+      {
+        "date": "04/07/2004",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2004%5C0409%5C12490D39.tif&documentNumber=L01000007905"
+      },
+      {
+        "date": "06/04/2003",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR1%5C2003%5C0605%5C1288091A.tif&documentNumber=L01000007905"
+      },
+      {
+        "date": "03/29/2002",
+        "documentType": "ANNUAL REPORT",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2002%5C0403%5C274408CD.tif&documentNumber=L01000007905"
+      },
+      {
+        "date": "05/16/2001",
+        "documentType": "Florida Limited Liabilites",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ConvertTiffToPDF?storagePath=COR%5C2001%5C0531%5C80140288.tif&documentNumber=L01000007905"
+      }
+    ],
+    "eventHistoryUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/EventHistory?aggregateId=flal-l01000007905-dcb7e796-f4d4-455f-8d52-48906af36953&entityId=L01000007905&CurrentPage=0&SearchTerm=Acme&InquiryType=EntityName&inquiryDirectionType=CurrentList&SearchNameOrder=ACME%20L010000079050&ListNameOrder=ACME%201125450",
+    "sunbizUrl": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=ACME+L010000079050&aggregateId=flal-l01000007905-dcb7e796-f4d4-455f-8d52-48906af36953",
+    "lastAnnualReportYear": 2008,
+    "annualReportCurrent": null,
+    "annualReportStatus": "not_applicable_inactive",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "dissolutionDeadline": null,
+    "nextAnnualReportWindow": null,
+    "matchedName": null,
+    "searchType": "entityName",
+    "searchTerm": "Acme",
+    "scrapedAt": "2026-10-29T17:26:07.515Z"
   }
 ]
