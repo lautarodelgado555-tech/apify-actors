@@ -6,7 +6,7 @@
 [32mINFO[39m [33m PlaywrightCrawler:[39m Starting the crawler.
 [32mINFO[39m  "Smith John": 0 saved, 4 in flight
 [32mINFO[39m [33m PlaywrightCrawler:[39m All requests from the queue have been processed, the crawler will shut down.
-[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":5,"requestsFailed":0,"retryHistogram":[5],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":1277,"requestsFinishedPerMinute":54,"requestsFailedPerMinute":0,"requestTotalDurationMillis":6383,"requestsTotal":5,"crawlerRuntimeMillis":5569}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":5,"requestsFailed":0,"retryHistogram":[5],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":1337,"requestsFinishedPerMinute":54,"requestsFailedPerMinute":0,"requestTotalDurationMillis":6684,"requestsTotal":5,"crawlerRuntimeMillis":5570}[39m
 [32mINFO[39m [33m PlaywrightCrawler:[39m Finished! Total 5 requests: 5 succeeded, 0 failed.[90m {"terminal":true}[39m
 [32mINFO[39m  Done. 4 entities saved for 1 search term(s).
 items: 4

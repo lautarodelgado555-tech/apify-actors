@@ -6,7 +6,7 @@
 [32mINFO[39m [33m PlaywrightCrawler:[39m Starting the crawler.
 [32mINFO[39m  "Acme": 5 saved, 0 in flight
 [32mINFO[39m [33m PlaywrightCrawler:[39m All requests from the queue have been processed, the crawler will shut down.
-[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":1,"requestsFailed":0,"retryHistogram":[1],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":2986,"requestsFinishedPerMinute":17,"requestsFailedPerMinute":0,"requestTotalDurationMillis":2986,"requestsTotal":1,"crawlerRuntimeMillis":3603}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":1,"requestsFailed":0,"retryHistogram":[1],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":3199,"requestsFinishedPerMinute":15,"requestsFailedPerMinute":0,"requestTotalDurationMillis":3199,"requestsTotal":1,"crawlerRuntimeMillis":3877}[39m
 [32mINFO[39m [33m PlaywrightCrawler:[39m Finished! Total 1 requests: 1 succeeded, 0 failed.[90m {"terminal":true}[39m
 [32mINFO[39m  Done. 5 entities saved for 1 search term(s).
 items: 5
