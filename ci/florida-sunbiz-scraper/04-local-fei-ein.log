@@ -6,7 +6,7 @@
 [32mINFO[39m [33m PlaywrightCrawler:[39m Starting the crawler.
 [32mINFO[39m  "47-5125953": 0 saved, 1 in flight (end of matches)
 [32mINFO[39m [33m PlaywrightCrawler:[39m All requests from the queue have been processed, the crawler will shut down.
-[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":2,"requestsFailed":0,"retryHistogram":[2],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":1767,"requestsFinishedPerMinute":29,"requestsFailedPerMinute":0,"requestTotalDurationMillis":3534,"requestsTotal":2,"crawlerRuntimeMillis":4183}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":2,"requestsFailed":0,"retryHistogram":[2],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":1362,"requestsFinishedPerMinute":36,"requestsFailedPerMinute":0,"requestTotalDurationMillis":2723,"requestsTotal":2,"crawlerRuntimeMillis":3335}[39m
 [32mINFO[39m [33m PlaywrightCrawler:[39m Finished! Total 2 requests: 2 succeeded, 0 failed.[90m {"terminal":true}[39m
 [32mINFO[39m  Done. 1 entities saved for 1 search term(s).
 items: 1

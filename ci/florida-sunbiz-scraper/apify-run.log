@@ -1,14 +1,18 @@
-2026-10-30T17:02:18.656Z ACTOR: Pulling container image of build dbWllxp1g9gZ84eTG from registry.
-2026-10-30T17:02:27.673Z ACTOR: Creating container.
-2026-10-30T17:02:27.733Z ACTOR: Starting container.
-2026-10-30T17:02:27.734Z ACTOR: Running under "LIMITED_PERMISSIONS".
-2026-10-30T17:02:27.795Z Running on architecture: x86_64
-2026-10-30T17:02:27.797Z Will run command: xvfb-run -a -s "-ac -screen 0 1920x1080x24+32 -nolisten tcp" /bin/bash -o pipefail -c npm start --silent
-2026-10-30T17:02:28.953Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.4"}
-2026-10-30T17:02:29.733Z INFO  PlaywrightCrawler: Starting the crawler.
-2026-10-30T17:02:33.014Z INFO  "Acme": 0 saved, 6 in flight
-2026-10-30T17:02:33.033Z INFO  "Publix Super Markets": 0 saved, 2 in flight (end of matches)
-2026-10-30T17:02:37.448Z INFO  PlaywrightCrawler: All requests from the queue have been processed, the crawler will shut down.
-2026-10-30T17:02:37.987Z INFO  PlaywrightCrawler: Final request statistics: {"requestsFinished":10,"requestsFailed":0,"retryHistogram":[10],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":1399,"requestsFinishedPerMinute":69,"requestsFailedPerMinute":0,"requestTotalDurationMillis":13987,"requestsTotal":10,"crawlerRuntimeMillis":8708}
-2026-10-30T17:02:37.988Z INFO  PlaywrightCrawler: Finished! Total 10 requests: 10 succeeded, 0 failed. {"terminal":true}
-2026-10-30T17:02:37.989Z INFO  Done. 8 entities saved for 2 search term(s).
+2026-10-31T16:07:00.285Z ACTOR: Pulling container image of build Uu6bqpq9gM3k9wPbd from registry.
+2026-10-31T16:07:10.092Z ACTOR: Creating container.
+2026-10-31T16:07:10.168Z ACTOR: Starting container.
+2026-10-31T16:07:10.169Z ACTOR: Running under "LIMITED_PERMISSIONS".
+2026-10-31T16:07:10.245Z Running on architecture: x86_64
+2026-10-31T16:07:10.245Z Will run command: xvfb-run -a -s "-ac -screen 0 1920x1080x24+32 -nolisten tcp" /bin/bash -o pipefail -c npm start --silent
+2026-10-31T16:07:11.452Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.4"}
+2026-10-31T16:07:12.109Z INFO  PlaywrightCrawler: Starting the crawler.
+2026-10-31T16:07:16.618Z WARN  PlaywrightCrawler: Reclaiming failed request back to the list or queue. Request blocked - received 403 status code.
+2026-10-31T16:07:16.619Z  {"id":"WodyHs6hoAaceir","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&inquiryDirectionType=ForwardList&searchNameOrder=ACME&SearchTerm=Acme","retryCount":1}
+2026-10-31T16:07:16.802Z WARN  PlaywrightCrawler: Reclaiming failed request back to the list or queue. Request blocked - received 403 status code.
+2026-10-31T16:07:16.805Z  {"id":"wFsmENOW5sgCOg1","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&inquiryDirectionType=ForwardList&searchNameOrder=PUBLIXSUPERMARKETS&SearchTerm=Publix+Super+Markets","retryCount":1}
+2026-10-31T16:07:23.578Z INFO  "Acme": 0 saved, 6 in flight
+2026-10-31T16:07:23.703Z INFO  "Publix Super Markets": 0 saved, 2 in flight (end of matches)
+2026-10-31T16:08:05.039Z INFO  PlaywrightCrawler: All requests from the queue have been processed, the crawler will shut down.
+2026-10-31T16:08:06.737Z INFO  PlaywrightCrawler: Final request statistics: {"requestsFinished":10,"requestsFailed":0,"retryHistogram":[8,2],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":6526,"requestsFinishedPerMinute":11,"requestsFailedPerMinute":0,"requestTotalDurationMillis":65257,"requestsTotal":10,"crawlerRuntimeMillis":54912}
+2026-10-31T16:08:06.738Z INFO  PlaywrightCrawler: Finished! Total 10 requests: 10 succeeded, 0 failed. {"terminal":true}
+2026-10-31T16:08:06.740Z INFO  Done. 8 entities saved for 2 search term(s).
