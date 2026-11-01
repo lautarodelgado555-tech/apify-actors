@@ -58,7 +58,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-26T18:20:09.000Z",
-    "scrapedAt": "2026-10-31T16:19:39.920Z"
+    "scrapedAt": "2026-11-01T17:15:09.158Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/anua-pdrn-hyaluronic-acid-100-moisturizing-cream-1jo80/",
@@ -116,7 +116,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:31:31.000Z",
-    "scrapedAt": "2026-10-31T16:19:42.194Z"
+    "scrapedAt": "2026-11-01T17:15:11.613Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/numbuzin-no-9-nad-retinol-volumetox-eye-cream-1s37v/",
@@ -174,7 +174,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:28:07.000Z",
-    "scrapedAt": "2026-10-31T16:19:42.802Z"
+    "scrapedAt": "2026-11-01T17:15:12.013Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/mixsoon-glacier-water-hyaluronic-acid-serum-n44hf/",
@@ -232,7 +232,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:24:36.000Z",
-    "scrapedAt": "2026-10-31T16:19:42.861Z"
+    "scrapedAt": "2026-11-01T17:15:12.245Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/vt-cosmetics-pdrn-reedle-shot-hair-ampoule-100dl-yhjc8/",
@@ -290,65 +290,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:21:05.000Z",
-    "scrapedAt": "2026-10-31T16:19:43.208Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/purito-mighty-bamboo-panthenol-cream-3hr6e/",
-    "productId": 374701659,
-    "name": "Purito Mighty Bamboo Panthenol Cream",
-    "brand": "PURITO",
-    "description": "Purito Mighty Bamboo Panthenol Cream es una crema hidratante coreana de Purito (anteriormente llamada B5 Panthenol Re-Barrier Cream) formulada con 10% de pantenol (Vitamina B5) y extracto de bambú de Damyang (3,497 ppm). Está diseñada para reparar y fortalecer la barrera cutánea, especialmente en pieles sensibles, reactivas o en recuperación post-acné. 100ml",
-    "categories": [
-      "Marcas",
-      "K-Beauty"
-    ],
-    "tags": [],
-    "price": null,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": null,
-    "priceMax": null,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620596431,
-        "sku": null,
-        "price": null,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/purito-tanthenol-cream-74663efea45a26bb3c17921780956682-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/purito-tanthenol-cream-74663efea45a26bb3c17921780956682-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/purito-tanthenol-cream-74663efea45a26bb3c17921780956682-1024-1024.webp",
-    "weightKg": 0.15,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-16T19:15:37.000Z",
-    "scrapedAt": "2026-10-31T16:19:43.621Z"
+    "scrapedAt": "2026-11-01T17:15:12.682Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/medicube-zero-pore-pad-1mzle/",
@@ -410,7 +352,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:12:00.000Z",
-    "scrapedAt": "2026-10-31T16:19:44.118Z"
+    "scrapedAt": "2026-11-01T17:15:12.942Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/purito-mighty-bamboo-panthenol-cream-3hr6e/",
+    "productId": 374701659,
+    "name": "Purito Mighty Bamboo Panthenol Cream",
+    "brand": "PURITO",
+    "description": "Purito Mighty Bamboo Panthenol Cream es una crema hidratante coreana de Purito (anteriormente llamada B5 Panthenol Re-Barrier Cream) formulada con 10% de pantenol (Vitamina B5) y extracto de bambú de Damyang (3,497 ppm). Está diseñada para reparar y fortalecer la barrera cutánea, especialmente en pieles sensibles, reactivas o en recuperación post-acné. 100ml",
+    "categories": [
+      "Marcas",
+      "K-Beauty"
+    ],
+    "tags": [],
+    "price": null,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": null,
+    "priceMax": null,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620596431,
+        "sku": null,
+        "price": null,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/purito-tanthenol-cream-74663efea45a26bb3c17921780956682-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/purito-tanthenol-cream-74663efea45a26bb3c17921780956682-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/purito-tanthenol-cream-74663efea45a26bb3c17921780956682-1024-1024.webp",
+    "weightKg": 0.15,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-16T19:15:37.000Z",
+    "scrapedAt": "2026-11-01T17:15:12.992Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/anua-rice-70-intensive-moisturizing-milk-qbxeo/",
@@ -468,7 +468,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:09:06.000Z",
-    "scrapedAt": "2026-10-31T16:19:44.468Z"
+    "scrapedAt": "2026-11-01T17:15:13.583Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-glow-1004-duo-5ldui/",
@@ -526,7 +526,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:04:39.000Z",
-    "scrapedAt": "2026-10-31T16:19:44.803Z"
+    "scrapedAt": "2026-11-01T17:15:13.947Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-air-fit-suncream-light-1o8f6/",
@@ -584,7 +584,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:01:33.000Z",
-    "scrapedAt": "2026-10-31T16:19:44.873Z"
+    "scrapedAt": "2026-11-01T17:15:14.332Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/numbuzin-no-9-nad-trial-kit-for-anti-aging-firming-qel0y/",
@@ -642,7 +642,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:57:01.000Z",
-    "scrapedAt": "2026-10-31T16:19:45.198Z"
+    "scrapedAt": "2026-11-01T17:15:14.570Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/purito-oat-in-calming-gel-cream-39ab6/",
@@ -700,7 +700,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:49:05.000Z",
-    "scrapedAt": "2026-10-31T16:19:45.725Z"
+    "scrapedAt": "2026-11-01T17:15:14.958Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/shiseido-fino-premium-touch-hair-oil-1y7li/",
@@ -758,7 +758,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:42:40.000Z",
-    "scrapedAt": "2026-10-31T16:19:45.879Z"
+    "scrapedAt": "2026-11-01T17:15:15.307Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/dr-althea-345-relief-travel-kit-11r01/",
@@ -816,7 +816,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:34:20.000Z",
-    "scrapedAt": "2026-10-31T16:19:46.189Z"
+    "scrapedAt": "2026-11-01T17:15:15.629Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/dr-althea-345-relief-serum-145sn/",
@@ -874,7 +874,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:29:18.000Z",
-    "scrapedAt": "2026-10-31T16:19:46.516Z"
+    "scrapedAt": "2026-11-01T17:15:15.970Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/dr-althea-vitamin-c-boosting-serum-63-nfdxc/",
@@ -932,7 +932,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:24:46.000Z",
-    "scrapedAt": "2026-10-31T16:19:46.849Z"
+    "scrapedAt": "2026-11-01T17:15:16.024Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/medicube-kojic-acid-turmeric-vita-capsule-cream-m7sks/",
@@ -990,7 +990,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:11:49.000Z",
-    "scrapedAt": "2026-10-31T16:19:47.486Z"
+    "scrapedAt": "2026-11-01T17:15:16.607Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-treatment-rinse-lg6lu/",
@@ -1048,7 +1048,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:07:03.000Z",
-    "scrapedAt": "2026-10-31T16:19:47.785Z"
+    "scrapedAt": "2026-11-01T17:15:16.992Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-shampoo-151va/",
@@ -1106,7 +1106,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T18:02:41.000Z",
-    "scrapedAt": "2026-10-31T16:19:48.099Z"
+    "scrapedAt": "2026-11-01T17:15:17.309Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-hyalu-cica-moisture-cream-jno35/",
@@ -1167,7 +1167,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T03:42:37.000Z",
-    "scrapedAt": "2026-10-31T16:19:51.571Z"
+    "scrapedAt": "2026-11-01T17:15:20.732Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/sephora-favorites-holiday-must-haves-makeup-skincare-value-set-1519b/",
@@ -1225,7 +1225,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T01:22:22.000Z",
-    "scrapedAt": "2026-10-31T16:20:06.066Z"
+    "scrapedAt": "2026-11-01T17:15:35.227Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/color-wow-iconic-frizz-fighters-gift-set-1996i/",
@@ -1283,7 +1283,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T01:34:15.000Z",
-    "scrapedAt": "2026-10-31T16:20:06.145Z"
+    "scrapedAt": "2026-11-01T17:15:35.296Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/cozy-clean-makeup-value-set-1um2b/",
@@ -1341,7 +1341,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T01:06:58.000Z",
-    "scrapedAt": "2026-10-31T16:20:06.246Z"
+    "scrapedAt": "2026-11-01T17:15:35.684Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-mahogany-taekwood-gentle-clean-foaming-hand-soap-1sk4a/",
@@ -1399,7 +1399,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:51:04.000Z",
-    "scrapedAt": "2026-10-31T16:20:06.413Z"
+    "scrapedAt": "2026-11-01T17:15:35.826Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-champagne-toast-gentle-clean-foaming-hand-soap-2m8pk/",
@@ -1457,7 +1457,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:40:49.000Z",
-    "scrapedAt": "2026-10-31T16:20:06.568Z"
+    "scrapedAt": "2026-11-01T17:15:36.017Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-wrapped-in-spice-gentle-clean-foaming-hand-soap-1s65f/",
@@ -1515,65 +1515,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:33:38.000Z",
-    "scrapedAt": "2026-10-31T16:20:06.768Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/bath-body-works-mahogany-teakwood-gentle-clean-foaming-hand-soap-4l475/",
-    "productId": 374554561,
-    "name": "Bath & Body Works MAHOGANY TEAKWOOD – Gentle & Clean Foaming Hand Soap",
-    "brand": "Bath &amp; Body Works ",
-    "description": "Jabón de manos espumoso suave con un aroma amaderado, cálido y misterioso, inspirado en un paseo por el bosque al atardecer. Limpia eficazmente sin resecar, dejando las manos suaves y perfumadas con la riqueza de la madera. Vitamina E: protege y suaviza Extracto de Mantequilla de Karité: hidrata y nutre Aloe Vera: calma e hidrata 259ml",
-    "categories": [
-      "Marcas",
-      "Bath & Body Works"
-    ],
-    "tags": [],
-    "price": null,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": null,
-    "priceMax": null,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 2,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620135069,
-        "sku": "",
-        "price": null,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 2,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-mohagany-taekwood-e19c602b668d62955617921104151636-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-mohagany-taekwood-e19c602b668d62955617921104151636-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-mohagany-taekwood-e19c602b668d62955617921104151636-1024-1024.webp",
-    "weightKg": 0.3,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-16T00:22:24.000Z",
-    "scrapedAt": "2026-10-31T16:20:07.062Z"
+    "scrapedAt": "2026-11-01T17:15:36.162Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-japanese-cherry-blossom-gentle-clean-foaming-hand-soap-ax43z/",
@@ -1631,14 +1573,14 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:28:07.000Z",
-    "scrapedAt": "2026-10-31T16:20:07.094Z"
+    "scrapedAt": "2026-11-01T17:15:36.368Z"
   },
   {
-    "url": "https://dailyskincaremx.com/productos/bath-body-works-strawberry-bite-gentle-clean-foaming-hand-soap-17je5/",
-    "productId": 374553804,
-    "name": "Bath & Body Works Strawberry Bite – Gentle & Clean Foaming Hand Soap",
+    "url": "https://dailyskincaremx.com/productos/bath-body-works-mahogany-teakwood-gentle-clean-foaming-hand-soap-4l475/",
+    "productId": 374554561,
+    "name": "Bath & Body Works MAHOGANY TEAKWOOD – Gentle & Clean Foaming Hand Soap",
     "brand": "Bath &amp; Body Works ",
-    "description": "Jabón de manos espumoso suave con notas de fresas jugosas, sandía crujiente y azúcar de rosas, que limpia eficazmente sin resecar, dejando las manos suaves y perfumadas como fruta de verano. Vitamina E: protege y suaviza Extracto de Mantequilla de Karité: hidrata y nutre Aloe Vera: calma e hidrata 259ml",
+    "description": "Jabón de manos espumoso suave con un aroma amaderado, cálido y misterioso, inspirado en un paseo por el bosque al atardecer. Limpia eficazmente sin resecar, dejando las manos suaves y perfumadas con la riqueza de la madera. Vitamina E: protege y suaviza Extracto de Mantequilla de Karité: hidrata y nutre Aloe Vera: calma e hidrata 259ml",
     "categories": [
       "Marcas",
       "Bath & Body Works"
@@ -1660,27 +1602,27 @@
     },
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": 3,
+    "stockTotal": 2,
     "stockUnlimited": false,
     "sku": null,
     "variantCount": 1,
     "variants": [
       {
-        "id": 1620133815,
-        "sku": null,
+        "id": 1620135069,
+        "sku": "",
         "price": null,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 3,
+        "stock": 2,
         "available": true,
         "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-strawberry-bite-c6786700e13677456517921099603341-1024-1024.webp"
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-mohagany-taekwood-e19c602b668d62955617921104151636-1024-1024.webp"
       }
     ],
     "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-strawberry-bite-c6786700e13677456517921099603341-1024-1024.webp"
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-mohagany-taekwood-e19c602b668d62955617921104151636-1024-1024.webp"
     ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-strawberry-bite-c6786700e13677456517921099603341-1024-1024.webp",
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-mohagany-taekwood-e19c602b668d62955617921104151636-1024-1024.webp",
     "weightKg": 0.3,
     "storeName": "Dailyskincaremx",
     "storeDomain": "dailyskincaremx.com",
@@ -1688,8 +1630,8 @@
     "language": "es_MX",
     "platform": "tiendanube",
     "engine": "classic",
-    "lastModified": "2026-10-16T00:20:57.000Z",
-    "scrapedAt": "2026-10-31T16:20:07.232Z"
+    "lastModified": "2026-10-16T00:22:24.000Z",
+    "scrapedAt": "2026-11-01T17:15:36.542Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/moev-annurcatin-hair-tonic-1nsq3/",
@@ -1747,7 +1689,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:09:09.000Z",
-    "scrapedAt": "2026-10-31T16:20:07.378Z"
+    "scrapedAt": "2026-11-01T17:15:36.580Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/bath-body-works-strawberry-bite-gentle-clean-foaming-hand-soap-17je5/",
+    "productId": 374553804,
+    "name": "Bath & Body Works Strawberry Bite – Gentle & Clean Foaming Hand Soap",
+    "brand": "Bath &amp; Body Works ",
+    "description": "Jabón de manos espumoso suave con notas de fresas jugosas, sandía crujiente y azúcar de rosas, que limpia eficazmente sin resecar, dejando las manos suaves y perfumadas como fruta de verano. Vitamina E: protege y suaviza Extracto de Mantequilla de Karité: hidrata y nutre Aloe Vera: calma e hidrata 259ml",
+    "categories": [
+      "Marcas",
+      "Bath & Body Works"
+    ],
+    "tags": [],
+    "price": null,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": null,
+    "priceMax": null,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 3,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620133815,
+        "sku": null,
+        "price": null,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 3,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-strawberry-bite-c6786700e13677456517921099603341-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-strawberry-bite-c6786700e13677456517921099603341-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-strawberry-bite-c6786700e13677456517921099603341-1024-1024.webp",
+    "weightKg": 0.3,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-16T00:20:57.000Z",
+    "scrapedAt": "2026-11-01T17:15:36.704Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/moev-annurcatin-treatment-1d9un/",
@@ -1805,7 +1805,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T00:03:55.000Z",
-    "scrapedAt": "2026-10-31T16:20:07.576Z"
+    "scrapedAt": "2026-11-01T17:15:37.050Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/difeel-biotin-premium-hair-oil-1n3jk/",
@@ -1863,62 +1863,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:55:45.000Z",
-    "scrapedAt": "2026-10-31T16:20:07.707Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/eqqualberry-glow-filter-vitamin-illuminating-serum-yodpt/",
-    "productId": 374540487,
-    "name": "EQQUALBERRY Glow Filter – Vitamin Illuminating Serum",
-    "brand": "EQQUALBERRY",
-    "description": "EQQUALBERRY Glow Filter – Vitamin Illuminating Serum – Sérum iluminador coreano de alta concentración que actúa sobre las manchas oscuras y el tono desigual de la piel, con una fórmula suave apta incluso para pieles sensibles. Acerola al 40% (400,000 ppm) Fuente natural de Vitamina C — 8x más que el limón, 127x más que la manzana Niacinamida 4% Ilumina, unifica tono, minimiza poros y fortalece la barrera cutánea Arbutina Previene la formación de manchas y atenúa la pigmentación existente Ácido Tranexámico (TXA) Combate manchas oscuras en múltiples etapas 30 ml",
-    "categories": [],
-    "tags": [],
-    "price": null,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": null,
-    "priceMax": null,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 2,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620088817,
-        "sku": null,
-        "price": null,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 2,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/equalberry-serum-vitamin-a12dbcde530cb9d81917921064762661-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/equalberry-serum-vitamin-a12dbcde530cb9d81917921064762661-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/equalberry-serum-vitamin-a12dbcde530cb9d81917921064762661-1024-1024.webp",
-    "weightKg": 0.05,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-15T23:22:06.000Z",
-    "scrapedAt": "2026-10-31T16:20:08.061Z"
+    "scrapedAt": "2026-11-01T17:15:37.153Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-essence-1chrn/",
@@ -1976,7 +1921,62 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:32:22.000Z",
-    "scrapedAt": "2026-10-31T16:20:08.167Z"
+    "scrapedAt": "2026-11-01T17:15:37.366Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/eqqualberry-glow-filter-vitamin-illuminating-serum-yodpt/",
+    "productId": 374540487,
+    "name": "EQQUALBERRY Glow Filter – Vitamin Illuminating Serum",
+    "brand": "EQQUALBERRY",
+    "description": "EQQUALBERRY Glow Filter – Vitamin Illuminating Serum – Sérum iluminador coreano de alta concentración que actúa sobre las manchas oscuras y el tono desigual de la piel, con una fórmula suave apta incluso para pieles sensibles. Acerola al 40% (400,000 ppm) Fuente natural de Vitamina C — 8x más que el limón, 127x más que la manzana Niacinamida 4% Ilumina, unifica tono, minimiza poros y fortalece la barrera cutánea Arbutina Previene la formación de manchas y atenúa la pigmentación existente Ácido Tranexámico (TXA) Combate manchas oscuras en múltiples etapas 30 ml",
+    "categories": [],
+    "tags": [],
+    "price": null,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": null,
+    "priceMax": null,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 2,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620088817,
+        "sku": null,
+        "price": null,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 2,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/equalberry-serum-vitamin-a12dbcde530cb9d81917921064762661-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/equalberry-serum-vitamin-a12dbcde530cb9d81917921064762661-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/equalberry-serum-vitamin-a12dbcde530cb9d81917921064762661-1024-1024.webp",
+    "weightKg": 0.05,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-15T23:22:06.000Z",
+    "scrapedAt": "2026-11-01T17:15:37.578Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/difeel-rosemary-mint-premium-hair-oil-infused-with-biotin-1maf9/",
@@ -2034,65 +2034,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:16:55.000Z",
-    "scrapedAt": "2026-10-31T16:20:08.230Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/sephora-favorites-mini-holiday-must-haves-value-set-fferj/",
-    "productId": 374538929,
-    "name": "Sephora Favorites – Mini Holiday Must-Haves Value Set",
-    "brand": "SEPHORA",
-    "description": "Set edición limitada de 5 piezas con esenciales de maquillaje y skincare en tamaños de viaje, perfecto para llevar contigo. 1 Benefit Cosmetics 24-HR Brow Setter Clear Brow Gel con efecto laminación Mini (3.5 mL) 2 LANEIGE Glaze Craze Tinted Polypeptide Lip Serum en Strawberry Sprinkles Full size (12 g) 3 Peace Out Skincare Salicylic Acid & Hydrocolloid Acne Healing Pimple Patches (10 dots) Mini 4 Rare Beauty by Selena Gomez Soft Pinch Liquid Blush Mini (3.2 mL) 5 Yves Saint Laurent Lash Latex Sculpting & Lengthening Mascara en Sculpted Black Deluxe (2 mL)",
-    "categories": [
-      "Marcas",
-      "Otras marcas"
-    ],
-    "tags": [],
-    "price": null,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": null,
-    "priceMax": null,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620083352,
-        "sku": null,
-        "price": null,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-favorites-must-have-values-4d03d49d5ed361170117921057939711-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-favorites-must-have-values-4d03d49d5ed361170117921057939711-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-favorites-must-have-values-4d03d49d5ed361170117921057939711-1024-1024.webp",
-    "weightKg": 0.3,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-15T23:10:51.000Z",
-    "scrapedAt": "2026-10-31T16:20:08.393Z"
+    "scrapedAt": "2026-11-01T17:15:37.669Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/the-ordinary-glycolic-acid-7-toning-solution-1xa43/",
@@ -2150,7 +2092,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T22:53:01.000Z",
-    "scrapedAt": "2026-10-31T16:20:08.736Z"
+    "scrapedAt": "2026-11-01T17:15:37.840Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/sephora-favorites-mini-holiday-must-haves-value-set-fferj/",
+    "productId": 374538929,
+    "name": "Sephora Favorites – Mini Holiday Must-Haves Value Set",
+    "brand": "SEPHORA",
+    "description": "Set edición limitada de 5 piezas con esenciales de maquillaje y skincare en tamaños de viaje, perfecto para llevar contigo. 1 Benefit Cosmetics 24-HR Brow Setter Clear Brow Gel con efecto laminación Mini (3.5 mL) 2 LANEIGE Glaze Craze Tinted Polypeptide Lip Serum en Strawberry Sprinkles Full size (12 g) 3 Peace Out Skincare Salicylic Acid & Hydrocolloid Acne Healing Pimple Patches (10 dots) Mini 4 Rare Beauty by Selena Gomez Soft Pinch Liquid Blush Mini (3.2 mL) 5 Yves Saint Laurent Lash Latex Sculpting & Lengthening Mascara en Sculpted Black Deluxe (2 mL)",
+    "categories": [
+      "Marcas",
+      "Otras marcas"
+    ],
+    "tags": [],
+    "price": null,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": null,
+    "priceMax": null,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620083352,
+        "sku": null,
+        "price": null,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-favorites-must-have-values-4d03d49d5ed361170117921057939711-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-favorites-must-have-values-4d03d49d5ed361170117921057939711-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/sephora-favorites-must-have-values-4d03d49d5ed361170117921057939711-1024-1024.webp",
+    "weightKg": 0.3,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-15T23:10:51.000Z",
+    "scrapedAt": "2026-11-01T17:15:37.882Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/loreal-paris-infallible-3-second-setting-mist-1jafb/",
@@ -2208,6 +2208,6 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T23:03:22.000Z",
-    "scrapedAt": "2026-10-31T16:20:08.821Z"
+    "scrapedAt": "2026-11-01T17:15:38.021Z"
   }
 ]
