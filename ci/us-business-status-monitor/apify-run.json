@@ -1,0 +1,131 @@
+{
+  "data": {
+    "id": "Avcb4zBAxXUpDdyKu",
+    "actId": "969kXcZRR2fVat2GC",
+    "userId": "ejg6JY7N3cozjC5Ny",
+    "startedAt": "2026-11-02T21:41:46.312Z",
+    "finishedAt": "2026-11-02T21:41:49.762Z",
+    "status": "SUCCEEDED",
+    "statusMessage": "4 check(s), 0 entities changed, 0 new baseline(s), 0 not found, 0 error(s)",
+    "isStatusMessageTerminal": null,
+    "meta": {
+      "origin": "API",
+      "userAgent": "curl/8.18.0"
+    },
+    "stats": {
+      "inputBodyLen": 292,
+      "migrationCount": 0,
+      "rebootCount": 0,
+      "restartCount": 0,
+      "durationMillis": 3298,
+      "resurrectCount": 0,
+      "runTimeSecs": 3.298,
+      "metamorph": 0,
+      "computeUnits": 0.0018322222222222223,
+      "memAvgBytes": 53809646.21572213,
+      "memMaxBytes": 72777728,
+      "memCurrentBytes": 0,
+      "cpuAvgUsage": 31.07800795429993,
+      "cpuMaxUsage": 63.909125717932355,
+      "cpuCurrentUsage": 0,
+      "netRxBytes": 96936,
+      "netTxBytes": 32731
+    },
+    "options": {
+      "build": "latest",
+      "timeoutSecs": 900,
+      "memoryMbytes": 2048,
+      "maxTotalChargeUsd": 4.153992,
+      "maxItems": null,
+      "isMaxTotalChargeUsdSetByUser": false,
+      "diskMbytes": 4096
+    },
+    "buildId": "xXmIlUuX3ah3cG2zJ",
+    "exitCode": 0,
+    "defaultKeyValueStoreId": "cmTvR4rd2gymQhxiB",
+    "defaultDatasetId": "HCuHNQuNRWIYE7NDc",
+    "defaultRequestQueueId": "BbaX3Zv0onZOEzyzn",
+    "storageIds": {
+      "keyValueStores": {
+        "default": "cmTvR4rd2gymQhxiB"
+      },
+      "datasets": {
+        "default": "HCuHNQuNRWIYE7NDc"
+      },
+      "requestQueues": {
+        "default": "BbaX3Zv0onZOEzyzn"
+      }
+    },
+    "pricingInfo": {
+      "pricingModel": "PAY_PER_EVENT",
+      "createdAt": "2026-10-14T02:20:24.009Z",
+      "startedAt": "2026-10-14T02:20:24.009Z",
+      "apifyMarginPercentage": 0.2,
+      "pricingPerEvent": {
+        "actorChargeEvents": {
+          "entity-check": {
+            "eventTitle": "Normalized entity check",
+            "eventDescription": "One entity returned with canonical status, good standing and annual report due date (name searches charge once per candidate returned).",
+            "isPrimaryEvent": true,
+            "eventPriceUsd": 0.02
+          },
+          "change-alert": {
+            "eventTitle": "Change alert",
+            "eventDescription": "One alert per monitored entity whose status, good standing or annual report due date changed since the previous run (all of its changes are bundled in one alert).",
+            "eventPriceUsd": 0.01
+          }
+        }
+      }
+    },
+    "chargedEventCounts": {
+      "entity-check": 4,
+      "change-alert": 0
+    },
+    "platformUsageBillingModel": "USER",
+    "accountedChargedEventCounts": {
+      "entity-check": 0,
+      "change-alert": 0
+    },
+    "standby": null,
+    "generalAccess": "FOLLOW_USER_SETTING",
+    "buildNumber": "0.1.9",
+    "containerUrl": "https://toxkacvmknp8.runs.apify.net",
+    "usage": {
+      "ACTOR_COMPUTE_UNITS": 0.0018322222222222223,
+      "DATASET_READS": 0,
+      "DATASET_WRITES": 4,
+      "KEY_VALUE_STORE_READS": 5,
+      "KEY_VALUE_STORE_WRITES": 6,
+      "KEY_VALUE_STORE_LISTS": 0,
+      "REQUEST_QUEUE_READS": 0,
+      "REQUEST_QUEUE_WRITES": 0,
+      "DATA_TRANSFER_INTERNAL_GBYTES": 0.0000317087396979332,
+      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.000019511207938194275,
+      "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
+      "PROXY_SERPS": 0,
+      "PROXY_UNBLOCKER_UNITS": 0
+    },
+    "usageTotalUsd": 0.0007169321230169799,
+    "usageUsd": {
+      "ACTOR_COMPUTE_UNITS": 0.00036644444444444447,
+      "DATASET_READS": 0,
+      "DATASET_WRITES": 0.00002,
+      "KEY_VALUE_STORE_READS": 0.000025,
+      "KEY_VALUE_STORE_WRITES": 0.00030000000000000003,
+      "KEY_VALUE_STORE_LISTS": 0,
+      "REQUEST_QUEUE_READS": 0,
+      "REQUEST_QUEUE_WRITES": 0,
+      "DATA_TRANSFER_INTERNAL_GBYTES": 0.00000158543698489666,
+      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.000003902241587638855,
+      "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
+      "PROXY_SERPS": 0,
+      "PROXY_UNBLOCKER_UNITS": 0
+    },
+    "consoleUrl": "https://console.apify.com/view/runs/Avcb4zBAxXUpDdyKu",
+    "output": {
+      "results": "https://api.apify.com/v2/datasets/HCuHNQuNRWIYE7NDc/items?signature=MC4wLkZwVFhRZ25maDJLN3FMcDVmb3dP",
+      "resultsCsv": "https://api.apify.com/v2/datasets/HCuHNQuNRWIYE7NDc/items?format=csv&signature=MC4wLkZwVFhRZ25maDJLN3FMcDVmb3dP",
+      "summary": "https://api.apify.com/v2/key-value-stores/cmTvR4rd2gymQhxiB/records/OUTPUT?signature=M7FT6O13CZbNx7ZGYuTk"
+    }
+  }
+}
