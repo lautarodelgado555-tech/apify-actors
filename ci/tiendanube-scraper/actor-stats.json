@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-11-02T20:54:26.349Z",
+  "name": "tiendanube-scraper",
+  "isPublic": true,
+  "pricing": [
+    "PAY_PER_EVENT"
+  ],
+  "stats": {
+    "totalBuilds": 9,
+    "totalRuns": 59,
+    "totalUsers": 5,
+    "totalUsers7Days": 1,
+    "totalUsers30Days": 2,
+    "totalUsers90Days": 2,
+    "lastRunStartedAt": "2026-11-02T15:12:04.021Z",
+    "actorReviewCount": 0,
+    "actorReviewRating": 0,
+    "bookmarkCount": 0,
+    "publicActorRunStats30Days": {
+      "ABORTED": 0,
+      "FAILED": 3,
+      "SUCCEEDED": 48,
+      "TIMED-OUT": 0,
+      "TOTAL": 51
+    }
+  }
+}
