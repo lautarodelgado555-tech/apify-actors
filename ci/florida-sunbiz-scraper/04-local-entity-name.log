@@ -4,51 +4,10 @@
 
 [32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.4"}[39m
 [32mINFO[39m [33m PlaywrightCrawler:[39m Starting the crawler.
-[32mINFO[39m [33m PlaywrightCrawler:Statistics:[39m PlaywrightCrawler request statistics:[90m {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":60140,"retryHistogram":[]}[39m
-[32mINFO[39m [33m PlaywrightCrawler:AutoscaledPool:[39m state[90m {"currentConcurrency":2,"desiredConcurrency":4,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}[39m
-[33mWARN[39m [33m PlaywrightCrawler:[39m Reclaiming failed request back to the list or queue. page.goto: Timeout 60000ms exceeded.
-Call log:
-  - navigating to "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&inquiryDirectionType=ForwardList&searchNameOrder=ACME&SearchTerm=Acme", waiting until "load"
-
-[90m {"id":"WodyHs6hoAaceir","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&inquiryDirectionType=ForwardList&searchNameOrder=ACME&SearchTerm=Acme","retryCount":1}[39m
-[33mWARN[39m [33m PlaywrightCrawler:[39m Reclaiming failed request back to the list or queue. page.goto: Timeout 60000ms exceeded.
-Call log:
-  - navigating to "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&inquiryDirectionType=ForwardList&searchNameOrder=PUBLIXSUPERMARKETS&SearchTerm=Publix+Super+Markets", waiting until "load"
-
-[90m {"id":"wFsmENOW5sgCOg1","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&inquiryDirectionType=ForwardList&searchNameOrder=PUBLIXSUPERMARKETS&SearchTerm=Publix+Super+Markets","retryCount":1}[39m
-[32mINFO[39m [33m PlaywrightCrawler:Statistics:[39m PlaywrightCrawler request statistics:[90m {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":120140,"retryHistogram":[]}[39m
-[32mINFO[39m  No results for "Acme"
-[33mWARN[39m [33m PlaywrightCrawler:[39m Reclaiming failed request back to the list or queue. page.goto: Timeout 60000ms exceeded.
-Call log:
-  - navigating to "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&inquiryDirectionType=ForwardList&searchNameOrder=PUBLIXSUPERMARKETS&SearchTerm=Publix+Super+Markets", waiting until "load"
-
-[90m {"id":"wFsmENOW5sgCOg1","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&inquiryDirectionType=ForwardList&searchNameOrder=PUBLIXSUPERMARKETS&SearchTerm=Publix+Super+Markets","retryCount":2}[39m
-[32mINFO[39m [33m PlaywrightCrawler:AutoscaledPool:[39m state[90m {"currentConcurrency":1,"desiredConcurrency":4,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}[39m
-[32mINFO[39m [33m PlaywrightCrawler:Statistics:[39m PlaywrightCrawler request statistics:[90m {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":59913,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":59913,"requestsTotal":1,"crawlerRuntimeMillis":180142,"retryHistogram":[null,1]}[39m
-[33mWARN[39m [33m PlaywrightCrawler:[39m Reclaiming failed request back to the list or queue. page.goto: Timeout 60000ms exceeded.
-Call log:
-  - navigating to "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&inquiryDirectionType=ForwardList&searchNameOrder=PUBLIXSUPERMARKETS&SearchTerm=Publix+Super+Markets", waiting until "load"
-
-[90m {"id":"wFsmENOW5sgCOg1","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&inquiryDirectionType=ForwardList&searchNameOrder=PUBLIXSUPERMARKETS&SearchTerm=Publix+Super+Markets","retryCount":3}[39m
-[32mINFO[39m [33m PlaywrightCrawler:AutoscaledPool:[39m state[90m {"currentConcurrency":1,"desiredConcurrency":4,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}[39m
-[32mINFO[39m [33m PlaywrightCrawler:Statistics:[39m PlaywrightCrawler request statistics:[90m {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":59913,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":59913,"requestsTotal":1,"crawlerRuntimeMillis":240142,"retryHistogram":[null,1]}[39m
-[31mERROR[39m[33m PlaywrightCrawler:[39m Request failed and reached maximum retries. page.goto: Timeout 60000ms exceeded.
-Call log:
-  - navigating to "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&inquiryDirectionType=ForwardList&searchNameOrder=PUBLIXSUPERMARKETS&SearchTerm=Publix+Super+Markets", waiting until "load"
-
-    at gotoExtended (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/node_modules/@crawlee/playwright/internals/utils/playwright-utils.js:168:17)
-    at PlaywrightCrawler._navigationHandler (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/node_modules/@crawlee/playwright/internals/playwright-crawler.js:123:52)
-    at PlaywrightCrawler._handleNavigation (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/node_modules/@crawlee/browser/internals/browser-crawler.js:344:52)
-    at async PlaywrightCrawler._runRequestHandler (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/node_modules/@crawlee/browser/internals/browser-crawler.js:268:13)
-    at async PlaywrightCrawler._runRequestHandler (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/node_modules/@crawlee/playwright/internals/playwright-crawler.js:120:9)
-    at async wrap (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/node_modules/@crawlee/basic/node_modules/@apify/timeout/cjs/index.cjs:56:21)[90m {"id":"wFsmENOW5sgCOg1","url":"https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&inquiryDirectionType=ForwardList&searchNameOrder=PUBLIXSUPERMARKETS&SearchTerm=Publix+Super+Markets","method":"GET","uniqueKey":"list:entityName:publix super markets"}[39m
-[31mERROR[39m Giving up on https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&inquiryDirectionType=ForwardList&searchNameOrder=PUBLIXSUPERMARKETS&SearchTerm=Publix+Super+Markets: page.goto: Timeout 60000ms exceeded.
-Call log:
-  - navigating to "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?InquiryType=EntityName&inquiryDirectionType=ForwardList&searchNameOrder=PUBLIXSUPERMARKETS&SearchTerm=Publix+Super+Markets", waiting until "load"
-
+[32mINFO[39m  "Publix Super Markets": 0 saved, 2 in flight (end of matches)
+[32mINFO[39m  "Acme": 0 saved, 6 in flight
 [32mINFO[39m [33m PlaywrightCrawler:[39m All requests from the queue have been processed, the crawler will shut down.
-[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":1,"requestsFailed":1,"retryHistogram":[null,1,null,1],"requestAvgFailedDurationMillis":61759,"requestAvgFinishedDurationMillis":59913,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":121672,"requestsTotal":2,"crawlerRuntimeMillis":244850}[39m
-[32mINFO[39m [33m PlaywrightCrawler:[39m Error analysis:[90m {"totalErrors":1,"uniqueErrors":1,"mostCommonErrors":["1x: page.goto: Timeout 60000ms exceeded. (/home/runner/work/apify-actors/apify-actors/actors/florida-sunbiz-scraper/node_modules/@crawlee/playwright/internals/utils/playwright-utils.js:168:17)"]}[39m
-[32mINFO[39m [33m PlaywrightCrawler:[39m Finished! Total 2 requests: 1 succeeded, 1 failed.[90m {"terminal":true}[39m
-[32mINFO[39m  Done. 0 entities saved for 2 search term(s).
-items: 0
+[32mINFO[39m [33m PlaywrightCrawler:[39m Final request statistics:[90m {"requestsFinished":10,"requestsFailed":0,"retryHistogram":[10],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":1366,"requestsFinishedPerMinute":80,"requestsFailedPerMinute":0,"requestTotalDurationMillis":13657,"requestsTotal":10,"crawlerRuntimeMillis":7488}[39m
+[32mINFO[39m [33m PlaywrightCrawler:[39m Finished! Total 10 requests: 10 succeeded, 0 failed.[90m {"terminal":true}[39m
+[32mINFO[39m  Done. 8 entities saved for 2 search term(s).
+items: 8
