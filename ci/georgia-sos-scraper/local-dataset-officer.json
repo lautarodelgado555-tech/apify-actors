@@ -1,1 +1,149 @@
-[]
+[
+  {
+    "controlNumber": "14087446",
+    "name": "20 W. Duffy Condominium Association, Inc.",
+    "entityType": "Domestic Nonprofit Corporation",
+    "status": "Active/Compliance",
+    "active": true,
+    "goodStanding": true,
+    "statusNormalized": "active_good_standing",
+    "formationDate": "2014-09-08",
+    "jurisdiction": "Georgia",
+    "purpose": null,
+    "naicsCode": null,
+    "naicsSubCode": null,
+    "dissolvedDate": null,
+    "principalAddress": "20 W. Duffy Street, Unit C, Savannah, GA, 31401, USA",
+    "registeredAgentName": "Melanie Orsini",
+    "registeredAgentAddress": "821 E 71st St, Savannah, GA, 31405, USA",
+    "registeredAgentCounty": "Chatham",
+    "officers": [
+      {
+        "name": "Melanie Orsini",
+        "title": "CFO",
+        "address": "20 W. Duffy Street, Unit C, Savannah, GA, 31401, USA"
+      },
+      {
+        "name": "Ridley Stallings",
+        "title": "Secretary",
+        "address": "20 W. Duffy Street, Unit A, Savannah, GA, 31401, USA"
+      },
+      {
+        "name": "Sebastian Orsini",
+        "title": "CEO",
+        "address": "20 W Duffy Street, Unit C, Savannah, GA, 31401, USA"
+      }
+    ],
+    "lastAnnualReportYear": 2026,
+    "annualReportCurrent": true,
+    "annualReportStatus": "filed",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "lateFeeUsd": null,
+    "portalOwesAnnualRegistration": false,
+    "nextAnnualReportWindow": "2027-01-01",
+    "portalBusinessId": "1979216",
+    "sourceUrl": "https://ecorp.sos.ga.gov/BusinessSearch",
+    "searchType": "officer",
+    "searchTerm": "Bastian",
+    "scrapedAt": "2026-11-03T18:38:58.001Z"
+  },
+  {
+    "controlNumber": "10028514",
+    "name": "3 Badge Beverage Corporation",
+    "entityType": "Foreign Profit Corporation",
+    "status": "Active/Compliance",
+    "active": true,
+    "goodStanding": true,
+    "statusNormalized": "active_good_standing",
+    "formationDate": "2010-04-13",
+    "jurisdiction": "California",
+    "purpose": null,
+    "naicsCode": null,
+    "naicsSubCode": null,
+    "dissolvedDate": null,
+    "principalAddress": "32 Patten Street, Sonoma, CA, 95476, USA",
+    "registeredAgentName": "ULTIMATE DISTRIBUTORS, INC.",
+    "registeredAgentAddress": "1376 Hills Place, Atlanta, GA, 30318, USA",
+    "registeredAgentCounty": "Fulton",
+    "officers": [
+      {
+        "name": "August David Sebastiani",
+        "title": "CEO",
+        "address": "32 Patten Street, Sonoma, CA, 95476, USA"
+      },
+      {
+        "name": "EMILIA Coakley",
+        "title": "Secretary",
+        "address": "32 Patten Street, Sonoma, CA, 95476, USA"
+      },
+      {
+        "name": "KEITH CASALE",
+        "title": "CFO",
+        "address": "32 Patten Street, Sonoma, CA, 95476, USA"
+      }
+    ],
+    "lastAnnualReportYear": 2026,
+    "annualReportCurrent": true,
+    "annualReportStatus": "filed",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "lateFeeUsd": null,
+    "portalOwesAnnualRegistration": false,
+    "nextAnnualReportWindow": "2027-01-01",
+    "portalBusinessId": "1527139",
+    "sourceUrl": "https://ecorp.sos.ga.gov/BusinessSearch",
+    "searchType": "officer",
+    "searchTerm": "Bastian",
+    "scrapedAt": "2026-11-03T18:38:58.094Z"
+  },
+  {
+    "controlNumber": "14053798",
+    "name": "ACSJ & ASSOCIATES, INC",
+    "entityType": "Domestic Profit Corporation",
+    "status": "Active/Compliance",
+    "active": true,
+    "goodStanding": true,
+    "statusNormalized": "active_good_standing",
+    "formationDate": "2014-05-27",
+    "jurisdiction": "Georgia",
+    "purpose": null,
+    "naicsCode": null,
+    "naicsSubCode": null,
+    "dissolvedDate": null,
+    "principalAddress": "2211 old norcross rd, suite C3, LAWRENCEVILLE, GA, 30044, USA",
+    "registeredAgentName": "ALEXANDER SANABRIA",
+    "registeredAgentAddress": "2211 OLD NORCROSS RD, STE C3, LAWRENCEVILLE, GA, 30044, USA",
+    "registeredAgentCounty": "Gwinnett",
+    "officers": [
+      {
+        "name": "Alexander Sanabria",
+        "title": "CEO",
+        "address": "2211 OLD NORCROSS RD, STE C3, lawrenceville, GA, 30044, USA"
+      },
+      {
+        "name": "CLAUDIA P SANABRIA",
+        "title": "CFO",
+        "address": "2211 OLD NORCROSS RD, lawrenceville, GA, 30044, USA"
+      },
+      {
+        "name": "Sebastian Sanabria",
+        "title": "Secretary",
+        "address": "2211 old norcross rd, suite c3, lawrenceville, GA, 30044, USA"
+      }
+    ],
+    "lastAnnualReportYear": 2027,
+    "annualReportCurrent": true,
+    "annualReportStatus": "filed",
+    "annualReportDueDate": null,
+    "lateFeeApplies": false,
+    "lateFeeUsd": null,
+    "portalOwesAnnualRegistration": false,
+    "nextAnnualReportWindow": "2027-01-01",
+    "portalBusinessId": "1945571",
+    "sourceUrl": "https://ecorp.sos.ga.gov/BusinessSearch",
+    "searchType": "officer",
+    "searchTerm": "Bastian",
+    "scrapedAt": "2026-11-03T18:38:58.169Z"
+  }
+]
