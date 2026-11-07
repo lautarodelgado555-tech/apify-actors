@@ -20,8 +20,8 @@
     "source": "Colorado Secretary of State via data.colorado.gov (Business Entities in Colorado)",
     "sourceUrl": "https://data.colorado.gov/resource/4ykn-tg5h.json?entityid=20191893002",
     "mode": "opendata",
-    "dataFreshness": "2026-11-06T12:33:11.000Z",
-    "checkedAt": "2026-11-06T19:16:03.458Z",
+    "dataFreshness": "2026-11-07T12:43:35.000Z",
+    "checkedAt": "2026-11-07T17:43:01.863Z",
     "details": {
       "entityTypeCode": "DLLC",
       "jurisdictionOfFormation": "CO",
@@ -61,8 +61,8 @@
     "source": "Texas Comptroller of Public Accounts via data.texas.gov (Active Franchise Taxpayers)",
     "sourceUrl": "https://data.texas.gov/resource/9cir-efmm.json?taxpayer_number=32070357671",
     "mode": "opendata",
-    "dataFreshness": "2026-10-31T08:32:11.000Z",
-    "checkedAt": "2026-11-06T19:16:03.458Z",
+    "dataFreshness": "2026-11-07T09:43:08.000Z",
+    "checkedAt": "2026-11-07T17:43:01.863Z",
     "details": {
       "taxpayerNumber": "32070357671",
       "sosFileNumber": "0803287393",
@@ -108,8 +108,8 @@
     "source": "Connecticut Secretary of the State via data.ct.gov (Business Registry - Business Master)",
     "sourceUrl": "https://data.ct.gov/resource/n7gp-d28j.json?accountnumber=0074441",
     "mode": "opendata",
-    "dataFreshness": "2026-11-06T09:41:48.000Z",
-    "checkedAt": "2026-11-06T19:16:03.458Z",
+    "dataFreshness": "2026-11-07T09:34:19.000Z",
+    "checkedAt": "2026-11-07T17:43:01.863Z",
     "details": {
       "registryRecordId": "001t000000WmVHCAA3",
       "businessTypeCode": "Stock",
@@ -152,7 +152,7 @@
     "sourceUrl": "https://data.oregon.gov/resource/tckn-sxa6.json?registry_number=149629495",
     "mode": "opendata",
     "dataFreshness": "2026-11-03T14:46:47.000Z",
-    "checkedAt": "2026-11-06T19:16:03.458Z",
+    "checkedAt": "2026-11-07T17:43:01.863Z",
     "details": {
       "jurisdiction": "DE",
       "entityTypeCode": "FLLC"
@@ -181,7 +181,7 @@
       "label": "id never seen: not found"
     },
     "charged": false,
-    "checkedAt": "2026-11-06T19:16:03.458Z"
+    "checkedAt": "2026-11-07T17:43:01.863Z"
   },
   {
     "recordType": "entity-check",
@@ -204,8 +204,8 @@
     "source": "Texas Comptroller of Public Accounts via data.texas.gov (Active Franchise Taxpayers)",
     "sourceUrl": "https://data.texas.gov/resource/9cir-efmm.json?taxpayer_number=32036291840",
     "mode": "opendata",
-    "dataFreshness": "2026-10-31T08:32:11.000Z",
-    "checkedAt": "2026-11-06T19:16:03.458Z",
+    "dataFreshness": "2026-11-07T09:43:08.000Z",
+    "checkedAt": "2026-11-07T17:43:01.863Z",
     "details": {
       "taxpayerNumber": "32036291840",
       "sosFileNumber": "0010577711",
@@ -257,8 +257,8 @@
     "source": "Texas Comptroller of Public Accounts via data.texas.gov (Active Franchise Taxpayers)",
     "sourceUrl": "https://data.texas.gov/resource/9cir-efmm.json?taxpayer_number=13116785307",
     "mode": "opendata",
-    "dataFreshness": "2026-10-31T08:32:11.000Z",
-    "checkedAt": "2026-11-06T19:16:03.458Z",
+    "dataFreshness": "2026-11-07T09:43:08.000Z",
+    "checkedAt": "2026-11-07T17:43:01.863Z",
     "details": {
       "taxpayerNumber": "13116785307",
       "sosFileNumber": "0012767411",
