@@ -6,79 +6,79 @@ TAP version 13
 # Subtest: search body matches the portal form
 ok 1 - search body matches the portal form
   ---
-  duration_ms: 1.556141
+  duration_ms: 1.284971
   type: 'test'
   ...
 # Subtest: name search results
 ok 2 - name search results
   ---
-  duration_ms: 16.183774
+  duration_ms: 15.088948
   type: 'test'
   ...
 # Subtest: paged results report page and totals
 ok 3 - paged results report page and totals
   ---
-  duration_ms: 22.878693
+  duration_ms: 20.05135
   type: 'test'
   ...
 # Subtest: control number, agent, officer and llc results
 ok 4 - control number, agent, officer and llc results
   ---
-  duration_ms: 16.017003
+  duration_ms: 12.702077
   type: 'test'
   ...
 # Subtest: no results
 ok 5 - no results
   ---
-  duration_ms: 2.068194
+  duration_ms: 1.820529
   type: 'test'
   ...
 # Subtest: challenge page is recognised
 ok 6 - challenge page is recognised
   ---
-  duration_ms: 0.38662
+  duration_ms: 0.395509
   type: 'test'
   ...
 # Subtest: detail page of a foreign corporation with officers
 ok 7 - detail page of a foreign corporation with officers
   ---
-  duration_ms: 5.66741
+  duration_ms: 4.177885
   type: 'test'
   ...
 # Subtest: detail page of a new LLC has no officers and no annual registration yet
 ok 8 - detail page of a new LLC has no officers and no annual registration yet
   ---
-  duration_ms: 3.767535
+  duration_ms: 5.965435
   type: 'test'
   ...
 # Subtest: detail page of an administratively dissolved corporation
 ok 9 - detail page of an administratively dissolved corporation
   ---
-  duration_ms: 4.291273
+  duration_ms: 3.171308
   type: 'test'
   ...
 # Subtest: other entity types parse
 ok 10 - other entity types parse
   ---
-  duration_ms: 10.611394
+  duration_ms: 9.90162
   type: 'test'
   ...
 # Subtest: filing history and annual registrations
 ok 11 - filing history and annual registrations
   ---
-  duration_ms: 13.498302
+  duration_ms: 11.438917
   type: 'test'
   ...
 # Subtest: status vocabulary
 ok 12 - status vocabulary
   ---
-  duration_ms: 0.378034
+  duration_ms: 0.399805
   type: 'test'
   ...
 # Subtest: annual report status
 ok 13 - annual report status
   ---
-  duration_ms: 0.979454
+  duration_ms: 1.04912
   type: 'test'
   ...
 1..13
@@ -89,4 +89,4 @@ ok 13 - annual report status
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 335.00895
+# duration_ms 270.047427
