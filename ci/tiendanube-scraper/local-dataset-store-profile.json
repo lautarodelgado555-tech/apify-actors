@@ -1,37 +1,5 @@
 [
   {
-    "url": "https://dailyskincaremx.com",
-    "domain": "dailyskincaremx.com",
-    "name": "Dailyskincaremx",
-    "platform": "tiendanube",
-    "country": "MX",
-    "currency": "MXN",
-    "language": "es_MX",
-    "description": "Skincare y belleza",
-    "logo": "https://dcdn-us.mitiendanube.com/stores/001/934/203/themes/common/logo-8395862390041294209-1775788826-12ee86a03fe7b2ad1eb710873e1acce21775788826.png?0",
-    "emails": [],
-    "phones": [
-      "7714253186"
-    ],
-    "whatsapp": [
-      "+527714253186"
-    ],
-    "instagram": "https://instagram.com/dailyskincare.mx",
-    "facebook": "https://www.facebook.com/Daily-Skincare-Mx-100907369012570",
-    "tiktok": null,
-    "youtube": null,
-    "twitter": null,
-    "pinterest": null,
-    "linkedin": null,
-    "businessName": null,
-    "businessAddress": null,
-    "productCount": 391,
-    "lastProductUpdate": "2026-10-26T18:20:09.000Z",
-    "createdAt": null,
-    "engine": "classic",
-    "scrapedAt": "2026-11-06T18:28:35.604Z"
-  },
-  {
     "url": "https://peek-store.com",
     "domain": "peek-store.com",
     "name": "Peek Store",
@@ -61,7 +29,39 @@
     "lastProductUpdate": "2026-11-01T23:41:55.000Z",
     "createdAt": "2023-10-01T02:18:01.000Z",
     "engine": "next",
-    "scrapedAt": "2026-11-06T18:28:36.264Z"
+    "scrapedAt": "2026-11-07T17:00:06.768Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com",
+    "domain": "dailyskincaremx.com",
+    "name": "Dailyskincaremx",
+    "platform": "tiendanube",
+    "country": "MX",
+    "currency": "MXN",
+    "language": "es_MX",
+    "description": "Skincare y belleza",
+    "logo": "https://dcdn-us.mitiendanube.com/stores/001/934/203/themes/common/logo-8395862390041294209-1775788826-12ee86a03fe7b2ad1eb710873e1acce21775788826.png?0",
+    "emails": [],
+    "phones": [
+      "7714253186"
+    ],
+    "whatsapp": [
+      "+527714253186"
+    ],
+    "instagram": "https://instagram.com/dailyskincare.mx",
+    "facebook": "https://www.facebook.com/Daily-Skincare-Mx-100907369012570",
+    "tiktok": null,
+    "youtube": null,
+    "twitter": null,
+    "pinterest": null,
+    "linkedin": null,
+    "businessName": null,
+    "businessAddress": null,
+    "productCount": 391,
+    "lastProductUpdate": "2026-10-26T18:20:09.000Z",
+    "createdAt": null,
+    "engine": "classic",
+    "scrapedAt": "2026-11-07T17:00:07.428Z"
   },
   {
     "url": "https://cocora.mitiendanube.com",
@@ -93,7 +93,7 @@
     "lastProductUpdate": "2024-11-13T21:19:44.000Z",
     "createdAt": null,
     "engine": "classic",
-    "scrapedAt": "2026-11-06T18:28:36.447Z"
+    "scrapedAt": "2026-11-07T17:00:07.707Z"
   },
   {
     "url": "https://www.vegpet.com.br",
@@ -122,9 +122,9 @@
     "businessName": null,
     "businessAddress": null,
     "productCount": 164,
-    "lastProductUpdate": "2026-11-06T02:23:19.000Z",
+    "lastProductUpdate": "2026-11-07T02:12:30.000Z",
     "createdAt": null,
     "engine": "classic",
-    "scrapedAt": "2026-11-06T18:28:37.040Z"
+    "scrapedAt": "2026-11-07T17:00:08.181Z"
   }
 ]
