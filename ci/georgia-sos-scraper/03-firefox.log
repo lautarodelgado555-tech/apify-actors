@@ -1,13 +1,13 @@
 Installing dependencies...
 Switching to root user to install dependencies...
 Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
-Get:6 https://packages.microsoft.com/ubuntu/26.04/prod resolute InRelease [3964 B]
+Get:3 https://packages.microsoft.com/ubuntu/26.04/prod resolute InRelease [3964 B]
 Hit:2 http://azure.archive.ubuntu.com/ubuntu resolute InRelease
-Get:3 http://azure.archive.ubuntu.com/ubuntu resolute-updates InRelease [137 kB]
-Get:4 http://azure.archive.ubuntu.com/ubuntu resolute-backports InRelease [137 kB]
-Get:5 http://azure.archive.ubuntu.com/ubuntu resolute-security InRelease [137 kB]
-Get:7 https://packages.microsoft.com/ubuntu/26.04/prod resolute/main amd64 Packages [149 kB]
-Get:8 https://packages.microsoft.com/ubuntu/26.04/prod resolute/main arm64 Packages [136 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu resolute-updates InRelease [137 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu resolute-backports InRelease [137 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu resolute-security InRelease [137 kB]
+Get:7 https://packages.microsoft.com/ubuntu/26.04/prod resolute/main arm64 Packages [136 kB]
+Get:8 https://packages.microsoft.com/ubuntu/26.04/prod resolute/main amd64 Packages [149 kB]
 Get:9 http://azure.archive.ubuntu.com/ubuntu resolute-updates/main amd64v3 Packages [845 kB]
 Get:10 http://azure.archive.ubuntu.com/ubuntu resolute-updates/main Translation-en [192 kB]
 Get:11 http://azure.archive.ubuntu.com/ubuntu resolute-updates/universe amd64v3 Packages [377 kB]
@@ -20,7 +20,7 @@ Get:17 http://azure.archive.ubuntu.com/ubuntu resolute-security/universe amd64v3
 Get:18 http://azure.archive.ubuntu.com/ubuntu resolute-security/universe Translation-en [68.7 kB]
 Get:19 http://azure.archive.ubuntu.com/ubuntu resolute-security/restricted amd64v3 Packages [529 kB]
 Get:20 http://azure.archive.ubuntu.com/ubuntu resolute-security/restricted Translation-en [108 kB]
-Fetched 4644 kB in 0s (10.8 MB/s)
+Fetched 4644 kB in 0s (11.9 MB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -141,7 +141,7 @@ Get:37 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 xfonts-encod
 Get:38 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 xfonts-utils amd64 1:7.7+7build1 [97.3 kB]
 Get:39 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 xfonts-cyrillic all 1:1.0.5+nmu1build1 [384 kB]
 Get:40 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 xfonts-scalable all 1:1.0.3-1.3build1 [304 kB]
-Fetched 54.4 MB in 5s (11.4 MB/s)
+Fetched 54.4 MB in 2s (34.7 MB/s)
 Selecting previously unselected package fonts-ipafont-gothic.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 213197 files and directories currently installed.)
 Preparing to unpack .../00-fonts-ipafont-gothic_00303-23ubuntu1_all.deb ...
