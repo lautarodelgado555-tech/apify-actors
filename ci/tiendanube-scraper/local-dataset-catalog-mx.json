@@ -1,180 +1,5 @@
 [
   {
-    "url": "https://peek-store.com/productos/tisha-serendipia",
-    "productId": 321284054,
-    "name": "Tisha Serendipia.",
-    "brand": null,
-    "description": "Tisha oficial del proyecto discográfico SERENDIPIA, inspirada en el arte del disco.",
-    "categories": [
-      "By Charles Ans"
-    ],
-    "tags": [],
-    "price": 580,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 580,
-    "priceMax": 580,
-    "currency": "MXN",
-    "installments": null,
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1514587078,
-        "sku": null,
-        "price": 580,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {
-          "Color": "GRIS XXXL"
-        },
-        "image": null
-      }
-    ],
-    "images": [
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/22-tisha-serendipia-8f7d74254a101d433217699009959706-1024-1024.jpg",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/22-tisha-serendipia-96dfda72d88d944c1617699009961627-1024-1024.jpg"
-    ],
-    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/22-tisha-serendipia-8f7d74254a101d433217699009959706-1024-1024.jpg",
-    "weightKg": null,
-    "storeName": "Peek Store",
-    "storeDomain": "peek-store.com",
-    "country": "MX",
-    "language": "es",
-    "platform": "tiendanube",
-    "engine": "next",
-    "lastModified": "2026-11-06T17:59:38.000Z",
-    "scrapedAt": "2026-11-07T16:59:25.992Z"
-  },
-  {
-    "url": "https://peek-store.com/productos/tisha-gpt-septiembre-e37rv",
-    "productId": 371605300,
-    "name": "Tisha negra GPT Septiembre",
-    "brand": null,
-    "description": "Last chance! Icónica pieza de las fechas en Septimebre de la gira Gracias Por Tanto Tour de Charles Ans. Inventario Sold out en eventos! Últimas piezas para compra en línea ❤️",
-    "categories": [
-      "By Charles Ans"
-    ],
-    "tags": [],
-    "price": 850,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 850,
-    "priceMax": 850,
-    "currency": "MXN",
-    "installments": null,
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 8,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 2,
-    "variants": [
-      {
-        "id": 1610800003,
-        "sku": null,
-        "price": 850,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Talla": "Unitalla"
-        },
-        "image": null
-      },
-      {
-        "id": 1610800004,
-        "sku": null,
-        "price": 850,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 8,
-        "available": true,
-        "attributes": {
-          "Talla": "XXL"
-        },
-        "image": null
-      }
-    ],
-    "images": [
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000534171-3865d94ff8655f41b917909662270334-1024-1024.jpg",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000534173-c3c48859137b0f7cfa17909662341754-1024-1024.jpg"
-    ],
-    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000534171-3865d94ff8655f41b917909662270334-1024-1024.jpg",
-    "weightKg": null,
-    "storeName": "Peek Store",
-    "storeDomain": "peek-store.com",
-    "country": "MX",
-    "language": "es",
-    "platform": "tiendanube",
-    "engine": "next",
-    "lastModified": "2026-11-01T23:41:55.000Z",
-    "scrapedAt": "2026-11-07T16:59:26.602Z"
-  },
-  {
-    "url": "https://peek-store.com/productos/cd-smile-1icsm",
-    "productId": 321284876,
-    "name": "CD SMILE",
-    "brand": null,
-    "description": "CD físico original de SMILE by Charles Ans",
-    "categories": [
-      "By Charles Ans"
-    ],
-    "tags": [],
-    "price": 450,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 450,
-    "priceMax": 450,
-    "currency": "MXN",
-    "installments": null,
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 35,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1424173745,
-        "sku": null,
-        "price": 450,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 35,
-        "available": true,
-        "attributes": {},
-        "image": null
-      }
-    ],
-    "images": [
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/5-cd-smile-9bdb92b2ecfa7bb46217699002835817-1024-1024.jpg"
-    ],
-    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/5-cd-smile-9bdb92b2ecfa7bb46217699002835817-1024-1024.jpg",
-    "weightKg": null,
-    "storeName": "Peek Store",
-    "storeDomain": "peek-store.com",
-    "country": "MX",
-    "language": "es",
-    "platform": "tiendanube",
-    "engine": "next",
-    "lastModified": "2026-10-31T21:49:21.000Z",
-    "scrapedAt": "2026-11-07T16:59:26.615Z"
-  },
-  {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/lana-mexicana-en-crudo/",
     "productId": 71001017,
     "name": "Lana Mexicana en crudo",
@@ -295,7 +120,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-02T20:38:16.000Z",
-    "scrapedAt": "2026-11-07T16:59:27.027Z"
+    "scrapedAt": "2026-11-08T17:14:50.971Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/telar-para-cintas-inkle-loom/",
@@ -359,7 +184,180 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-01T22:51:26.000Z",
-    "scrapedAt": "2026-11-07T16:59:27.323Z"
+    "scrapedAt": "2026-11-08T17:14:51.194Z"
+  },
+  {
+    "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/cesteria-basket-weaving-b9k4h/",
+    "productId": 291792321,
+    "name": "Cestería Libre",
+    "brand": null,
+    "description": "Cesteríapor Adriana Villanueva Ya está abierta la Temporada de Cestería en este 2026 🍃 este taller será un espacio donde cada asistente marcará su ruta de aprendizaje, podrás elegir la técnica/material que quieras experimentar: mimbre, palma, sudanesa, con estructuras y/o contemporánea, por esta razón la nombramos taller de Cesteria Libre. La temporada será de septiembre a noviembre puedes pagar por sesión o por paquete de sesiones que podrás tomar en un período de 3 meses. Una vez hecha tu compra te contactaremos para que agendes las sesiones de tu clase.Este taller es de mucha experimentación, textura y buena onda ☕️✨ En la galería de fotos les compartimos las fotos de los tejidos de los alumn@s del taller, cualquier duda escríbanme. Aquí les dejo los links con el contenido de los talleresCesteria en MimbreCesteria en PalmaCesteria SudanesaCesteria ContemporáneaCesteria AplicadaCesteria con estructuras¿Quién puede tomar el taller?Este taller es para tod@s l@s interesados en experimentar y aplicar técnicas tradicionales a tejidos contemporáneos. Fechas 2026Grupo A- sábados del 5 de septiembre al 28 de noviembre de 10 am a 2 pmExcepto estos sábados: 14 de noviembre Grupo B- miércoles del 2 de septiembre al 25 de noviembre de 10 am a 2 pmExcepto el miércoles 16 de septiembre Materiales Los materiales textiles incluidos: mimbre, palma, hilos y cordones de diferentes grosores.(sólo en el aso de que quieras tejer sobre una estructura de metal o madera, tú deberás de traerla)Materiales que el alumn@ deberá de traer: tijeras, cutter, esponja, atomizador y mandil *en talleres no hay cambios ni devoluciones LugarTaller Textil Dos CoyotesLic. Julián Grajales Robles 16Col. Del Valle NorteCdmx",
+    "categories": [
+      "Talleres Presenciales",
+      "CALENDARIO 2026",
+      "Enero"
+    ],
+    "tags": [],
+    "price": 500,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 500,
+    "priceMax": 4320,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": null,
+    "stockUnlimited": true,
+    "sku": null,
+    "variantCount": 8,
+    "variants": [
+      {
+        "id": 1559635845,
+        "sku": null,
+        "price": 500,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": null,
+        "available": true,
+        "attributes": {
+          "Sesiones": "1  sesión",
+          "Grupo": "Grupo A"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/dbe25523-dc1f-45cf-a941-8f860ee6ca2e-cbd5264229e540e96317569232649450-1024-1024.jpeg"
+      },
+      {
+        "id": 1559635846,
+        "sku": null,
+        "price": 500,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": null,
+        "available": true,
+        "attributes": {
+          "Sesiones": "1  sesión",
+          "Grupo": "Grupo B"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/dbe25523-dc1f-45cf-a941-8f860ee6ca2e-cbd5264229e540e96317569232649450-1024-1024.jpeg"
+      },
+      {
+        "id": 1559635847,
+        "sku": null,
+        "price": 1800,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": null,
+        "available": true,
+        "attributes": {
+          "Sesiones": "4 sesiones",
+          "Grupo": "Grupo A"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9635-4e08bbad9d21dcf5ec17585126642516-1024-1024.webp"
+      },
+      {
+        "id": 1559635848,
+        "sku": null,
+        "price": 1800,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": null,
+        "available": true,
+        "attributes": {
+          "Sesiones": "4 sesiones",
+          "Grupo": "Grupo B"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9635-4e08bbad9d21dcf5ec17585126642516-1024-1024.webp"
+      },
+      {
+        "id": 1559635849,
+        "sku": null,
+        "price": 3200,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": null,
+        "available": true,
+        "attributes": {
+          "Sesiones": "8 sesiones",
+          "Grupo": "Grupo A"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_5587-e1860b740ca89bf78817585126631917-1024-1024.webp"
+      },
+      {
+        "id": 1559635850,
+        "sku": null,
+        "price": 3200,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": null,
+        "available": true,
+        "attributes": {
+          "Sesiones": "8 sesiones",
+          "Grupo": "Grupo B"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_5587-e1860b740ca89bf78817585126631917-1024-1024.webp"
+      },
+      {
+        "id": 1559635851,
+        "sku": null,
+        "price": 4320,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": null,
+        "available": true,
+        "attributes": {
+          "Sesiones": "12 sesiones",
+          "Grupo": "Grupo A"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9929-09aadd224a06b2f5b517585126632417-1024-1024.webp"
+      },
+      {
+        "id": 1559635853,
+        "sku": null,
+        "price": 4320,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": null,
+        "available": true,
+        "attributes": {
+          "Sesiones": "12 sesiones",
+          "Grupo": "Grupo B"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9929-09aadd224a06b2f5b517585126632417-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9346-a21e718c0d9fc63d4c17585126641187-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9635-4e08bbad9d21dcf5ec17585126642516-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/dbe25523-dc1f-45cf-a941-8f860ee6ca2e-cbd5264229e540e96317569232649450-1024-1024.jpeg",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9929-09aadd224a06b2f5b517585126632417-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0551-9873b7cd837b6b932617585126638231-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0642-b5da60fdbf9b33f66617585126637696-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_3096-4041ad763f05cd730f17569232823894-1024-1024.jpeg",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9144-eadc39f600b41570e217585126644367-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9633-05c16a8a6f841f018d17585126638528-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_5587-e1860b740ca89bf78817585126631917-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9631-5e0dae79af4534f6f417585126623787-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9271-f8df619b0c381967f817585126639772-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_1136-4c9d9942338bf989f417569232684756-1024-1024.jpeg",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/4cfb000a-9cb4-48eb-8e85-4c7716634fb9-8b0d46734a9222de5517569232778058-1024-1024.jpeg"
+    ],
+    "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9346-a21e718c0d9fc63d4c17585126641187-1024-1024.webp",
+    "weightKg": null,
+    "storeName": "Taller Textil Dos Coyotes",
+    "storeDomain": "tallertextildoscoyotes.mitiendanube.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-31T16:38:14.000Z",
+    "scrapedAt": "2026-11-08T17:14:51.871Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/taller-de-tejido-de-frazadas-xl/",
@@ -599,180 +597,182 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-01T22:51:17.000Z",
-    "scrapedAt": "2026-11-07T16:59:27.645Z"
+    "scrapedAt": "2026-11-08T17:14:51.959Z"
   },
   {
-    "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/cesteria-basket-weaving-b9k4h/",
-    "productId": 291792321,
-    "name": "Cestería Libre",
+    "url": "https://peek-store.com/productos/tisha-serendipia",
+    "productId": 321284054,
+    "name": "Tisha Serendipia.",
     "brand": null,
-    "description": "Cesteríapor Adriana Villanueva Ya está abierta la Temporada de Cestería en este 2026 🍃 este taller será un espacio donde cada asistente marcará su ruta de aprendizaje, podrás elegir la técnica/material que quieras experimentar: mimbre, palma, sudanesa, con estructuras y/o contemporánea, por esta razón la nombramos taller de Cesteria Libre. La temporada será de septiembre a noviembre puedes pagar por sesión o por paquete de sesiones que podrás tomar en un período de 3 meses. Una vez hecha tu compra te contactaremos para que agendes las sesiones de tu clase.Este taller es de mucha experimentación, textura y buena onda ☕️✨ En la galería de fotos les compartimos las fotos de los tejidos de los alumn@s del taller, cualquier duda escríbanme. Aquí les dejo los links con el contenido de los talleresCesteria en MimbreCesteria en PalmaCesteria SudanesaCesteria ContemporáneaCesteria AplicadaCesteria con estructuras¿Quién puede tomar el taller?Este taller es para tod@s l@s interesados en experimentar y aplicar técnicas tradicionales a tejidos contemporáneos. Fechas 2026Grupo A- sábados del 5 de septiembre al 28 de noviembre de 10 am a 2 pmExcepto estos sábados: 14 de noviembre Grupo B- miércoles del 2 de septiembre al 25 de noviembre de 10 am a 2 pmExcepto el miércoles 16 de septiembre Materiales Los materiales textiles incluidos: mimbre, palma, hilos y cordones de diferentes grosores.(sólo en el aso de que quieras tejer sobre una estructura de metal o madera, tú deberás de traerla)Materiales que el alumn@ deberá de traer: tijeras, cutter, esponja, atomizador y mandil *en talleres no hay cambios ni devoluciones LugarTaller Textil Dos CoyotesLic. Julián Grajales Robles 16Col. Del Valle NorteCdmx",
+    "description": "Tisha oficial del proyecto discográfico SERENDIPIA, inspirada en el arte del disco.",
     "categories": [
-      "Talleres Presenciales",
-      "CALENDARIO 2026",
-      "Enero"
+      "By Charles Ans"
     ],
     "tags": [],
-    "price": 500,
+    "price": 580,
     "compareAtPrice": null,
     "promotionalPrice": null,
     "onSale": false,
     "discountPercent": null,
-    "priceMin": 500,
-    "priceMax": 4320,
+    "priceMin": 580,
+    "priceMax": 580,
     "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
+    "installments": null,
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": null,
-    "stockUnlimited": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
     "sku": null,
-    "variantCount": 8,
+    "variantCount": 1,
     "variants": [
       {
-        "id": 1559635845,
+        "id": 1514587078,
         "sku": null,
-        "price": 500,
+        "price": 580,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": null,
+        "stock": 1,
         "available": true,
         "attributes": {
-          "Sesiones": "1  sesión",
-          "Grupo": "Grupo A"
+          "Color": "GRIS XXXL"
         },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/dbe25523-dc1f-45cf-a941-8f860ee6ca2e-cbd5264229e540e96317569232649450-1024-1024.jpeg"
-      },
-      {
-        "id": 1559635846,
-        "sku": null,
-        "price": 500,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": null,
-        "available": true,
-        "attributes": {
-          "Sesiones": "1  sesión",
-          "Grupo": "Grupo B"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/dbe25523-dc1f-45cf-a941-8f860ee6ca2e-cbd5264229e540e96317569232649450-1024-1024.jpeg"
-      },
-      {
-        "id": 1559635847,
-        "sku": null,
-        "price": 1800,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": null,
-        "available": true,
-        "attributes": {
-          "Sesiones": "4 sesiones",
-          "Grupo": "Grupo A"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9635-4e08bbad9d21dcf5ec17585126642516-1024-1024.webp"
-      },
-      {
-        "id": 1559635848,
-        "sku": null,
-        "price": 1800,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": null,
-        "available": true,
-        "attributes": {
-          "Sesiones": "4 sesiones",
-          "Grupo": "Grupo B"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9635-4e08bbad9d21dcf5ec17585126642516-1024-1024.webp"
-      },
-      {
-        "id": 1559635849,
-        "sku": null,
-        "price": 3200,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": null,
-        "available": true,
-        "attributes": {
-          "Sesiones": "8 sesiones",
-          "Grupo": "Grupo A"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_5587-e1860b740ca89bf78817585126631917-1024-1024.webp"
-      },
-      {
-        "id": 1559635850,
-        "sku": null,
-        "price": 3200,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": null,
-        "available": true,
-        "attributes": {
-          "Sesiones": "8 sesiones",
-          "Grupo": "Grupo B"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_5587-e1860b740ca89bf78817585126631917-1024-1024.webp"
-      },
-      {
-        "id": 1559635851,
-        "sku": null,
-        "price": 4320,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": null,
-        "available": true,
-        "attributes": {
-          "Sesiones": "12 sesiones",
-          "Grupo": "Grupo A"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9929-09aadd224a06b2f5b517585126632417-1024-1024.webp"
-      },
-      {
-        "id": 1559635853,
-        "sku": null,
-        "price": 4320,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": null,
-        "available": true,
-        "attributes": {
-          "Sesiones": "12 sesiones",
-          "Grupo": "Grupo B"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9929-09aadd224a06b2f5b517585126632417-1024-1024.webp"
+        "image": null
       }
     ],
     "images": [
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9346-a21e718c0d9fc63d4c17585126641187-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9635-4e08bbad9d21dcf5ec17585126642516-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/dbe25523-dc1f-45cf-a941-8f860ee6ca2e-cbd5264229e540e96317569232649450-1024-1024.jpeg",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9929-09aadd224a06b2f5b517585126632417-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0551-9873b7cd837b6b932617585126638231-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0642-b5da60fdbf9b33f66617585126637696-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_3096-4041ad763f05cd730f17569232823894-1024-1024.jpeg",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9144-eadc39f600b41570e217585126644367-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9633-05c16a8a6f841f018d17585126638528-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_5587-e1860b740ca89bf78817585126631917-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9631-5e0dae79af4534f6f417585126623787-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9271-f8df619b0c381967f817585126639772-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_1136-4c9d9942338bf989f417569232684756-1024-1024.jpeg",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/4cfb000a-9cb4-48eb-8e85-4c7716634fb9-8b0d46734a9222de5517569232778058-1024-1024.jpeg"
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/22-tisha-serendipia-8f7d74254a101d433217699009959706-1024-1024.jpg",
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/22-tisha-serendipia-96dfda72d88d944c1617699009961627-1024-1024.jpg"
     ],
-    "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9346-a21e718c0d9fc63d4c17585126641187-1024-1024.webp",
+    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/22-tisha-serendipia-8f7d74254a101d433217699009959706-1024-1024.jpg",
     "weightKg": null,
-    "storeName": "Taller Textil Dos Coyotes",
-    "storeDomain": "tallertextildoscoyotes.mitiendanube.com",
+    "storeName": "Peek Store",
+    "storeDomain": "peek-store.com",
     "country": "MX",
-    "language": "es_MX",
+    "language": "es",
     "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-31T16:38:14.000Z",
-    "scrapedAt": "2026-11-07T16:59:27.971Z"
+    "engine": "next",
+    "lastModified": "2026-11-06T17:59:38.000Z",
+    "scrapedAt": "2026-11-08T17:14:52.521Z"
+  },
+  {
+    "url": "https://peek-store.com/productos/tisha-gpt-septiembre-e37rv",
+    "productId": 371605300,
+    "name": "Tisha negra GPT Septiembre",
+    "brand": null,
+    "description": "Last chance! Icónica pieza de las fechas en Septimebre de la gira Gracias Por Tanto Tour de Charles Ans. Inventario Sold out en eventos! Últimas piezas para compra en línea ❤️",
+    "categories": [
+      "By Charles Ans"
+    ],
+    "tags": [],
+    "price": 850,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 850,
+    "priceMax": 850,
+    "currency": "MXN",
+    "installments": null,
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 8,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 2,
+    "variants": [
+      {
+        "id": 1610800003,
+        "sku": null,
+        "price": 850,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 0,
+        "available": false,
+        "attributes": {
+          "Talla": "Unitalla"
+        },
+        "image": null
+      },
+      {
+        "id": 1610800004,
+        "sku": null,
+        "price": 850,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 8,
+        "available": true,
+        "attributes": {
+          "Talla": "XXL"
+        },
+        "image": null
+      }
+    ],
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000534171-3865d94ff8655f41b917909662270334-1024-1024.jpg",
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000534173-c3c48859137b0f7cfa17909662341754-1024-1024.jpg"
+    ],
+    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000534171-3865d94ff8655f41b917909662270334-1024-1024.jpg",
+    "weightKg": null,
+    "storeName": "Peek Store",
+    "storeDomain": "peek-store.com",
+    "country": "MX",
+    "language": "es",
+    "platform": "tiendanube",
+    "engine": "next",
+    "lastModified": "2026-11-01T23:41:55.000Z",
+    "scrapedAt": "2026-11-08T17:14:52.679Z"
+  },
+  {
+    "url": "https://peek-store.com/productos/cd-smile-1icsm",
+    "productId": 321284876,
+    "name": "CD SMILE",
+    "brand": null,
+    "description": "CD físico original de SMILE by Charles Ans",
+    "categories": [
+      "By Charles Ans"
+    ],
+    "tags": [],
+    "price": 450,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 450,
+    "priceMax": 450,
+    "currency": "MXN",
+    "installments": null,
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 35,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1424173745,
+        "sku": null,
+        "price": 450,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 35,
+        "available": true,
+        "attributes": {},
+        "image": null
+      }
+    ],
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/5-cd-smile-9bdb92b2ecfa7bb46217699002835817-1024-1024.jpg"
+    ],
+    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/5-cd-smile-9bdb92b2ecfa7bb46217699002835817-1024-1024.jpg",
+    "weightKg": null,
+    "storeName": "Peek Store",
+    "storeDomain": "peek-store.com",
+    "country": "MX",
+    "language": "es",
+    "platform": "tiendanube",
+    "engine": "next",
+    "lastModified": "2026-10-31T21:49:21.000Z",
+    "scrapedAt": "2026-11-08T17:14:53.054Z"
   },
   {
     "url": "https://peek-store.com/productos/ateb-peek-kiddos-collection-cnenc",
@@ -853,7 +853,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-10-21T17:58:04.000Z",
-    "scrapedAt": "2026-11-07T16:59:28.501Z"
+    "scrapedAt": "2026-11-08T17:14:53.372Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/macrame1/",
@@ -939,76 +939,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-31T04:35:43.000Z",
-    "scrapedAt": "2026-11-07T16:59:28.862Z"
-  },
-  {
-    "url": "https://peek-store.com/productos/jersey-mexico-11crh",
-    "productId": 345418711,
-    "name": "Jersey México",
-    "brand": null,
-    "description": "Diseño exclusivo Anestesia x Peek 👁 200 piezas cada una enumerada con un número único. Incluye tote bag conmemorativa , sticker holografico y su certificado de autenticidad firmado por Charles ANS ✨️. coete japonés oversize y calidad premium. Envio gratis 📦",
-    "categories": [
-      "By Charles Ans",
-      "Colabs by Peek",
-      "Exclusive Peek"
-    ],
-    "tags": [],
-    "price": 2200,
-    "compareAtPrice": null,
-    "promotionalPrice": 1800,
-    "onSale": true,
-    "discountPercent": null,
-    "priceMin": 2200,
-    "priceMax": 2200,
-    "currency": "MXN",
-    "installments": null,
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 111,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 2,
-    "variants": [
-      {
-        "id": 1528205448,
-        "sku": null,
-        "price": 2200,
-        "compareAtPrice": null,
-        "promotionalPrice": 1800,
-        "stock": 35,
-        "available": true,
-        "attributes": {
-          "Talla": "UNITALLA"
-        },
-        "image": null
-      },
-      {
-        "id": 1528574530,
-        "sku": null,
-        "price": 2200,
-        "compareAtPrice": null,
-        "promotionalPrice": 1800,
-        "stock": 76,
-        "available": true,
-        "attributes": {
-          "Talla": "XXL"
-        },
-        "image": null
-      }
-    ],
-    "images": [
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000452663-659eea28b80e6408c017792975407443-1024-1024.jpg"
-    ],
-    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000452663-659eea28b80e6408c017792975407443-1024-1024.jpg",
-    "weightKg": null,
-    "storeName": "Peek Store",
-    "storeDomain": "peek-store.com",
-    "country": "MX",
-    "language": "es",
-    "platform": "tiendanube",
-    "engine": "next",
-    "lastModified": "2026-10-17T04:13:49.000Z",
-    "scrapedAt": "2026-11-07T16:59:28.870Z"
+    "scrapedAt": "2026-11-08T17:14:53.487Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/lunes-de-tejido/",
@@ -1344,6 +1275,127 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-26T20:58:45.000Z",
-    "scrapedAt": "2026-11-07T16:59:29.318Z"
+    "scrapedAt": "2026-11-08T17:14:53.831Z"
+  },
+  {
+    "url": "https://peek-store.com/productos/jersey-mexico-11crh",
+    "productId": 345418711,
+    "name": "Jersey México",
+    "brand": null,
+    "description": "Diseño exclusivo Anestesia x Peek 👁 200 piezas cada una enumerada con un número único. Incluye tote bag conmemorativa , sticker holografico y su certificado de autenticidad firmado por Charles ANS ✨️. coete japonés oversize y calidad premium. Envio gratis 📦",
+    "categories": [
+      "By Charles Ans",
+      "Colabs by Peek",
+      "Exclusive Peek"
+    ],
+    "tags": [],
+    "price": 2200,
+    "compareAtPrice": null,
+    "promotionalPrice": 1800,
+    "onSale": true,
+    "discountPercent": null,
+    "priceMin": 2200,
+    "priceMax": 2200,
+    "currency": "MXN",
+    "installments": null,
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 111,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 2,
+    "variants": [
+      {
+        "id": 1528205448,
+        "sku": null,
+        "price": 2200,
+        "compareAtPrice": null,
+        "promotionalPrice": 1800,
+        "stock": 35,
+        "available": true,
+        "attributes": {
+          "Talla": "UNITALLA"
+        },
+        "image": null
+      },
+      {
+        "id": 1528574530,
+        "sku": null,
+        "price": 2200,
+        "compareAtPrice": null,
+        "promotionalPrice": 1800,
+        "stock": 76,
+        "available": true,
+        "attributes": {
+          "Talla": "XXL"
+        },
+        "image": null
+      }
+    ],
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000452663-659eea28b80e6408c017792975407443-1024-1024.jpg"
+    ],
+    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000452663-659eea28b80e6408c017792975407443-1024-1024.jpg",
+    "weightKg": null,
+    "storeName": "Peek Store",
+    "storeDomain": "peek-store.com",
+    "country": "MX",
+    "language": "es",
+    "platform": "tiendanube",
+    "engine": "next",
+    "lastModified": "2026-10-17T04:13:49.000Z",
+    "scrapedAt": "2026-11-08T17:14:54.343Z"
+  },
+  {
+    "url": "https://peek-store.com/productos/poster-serendipia-tu-y-yo",
+    "productId": 321284062,
+    "name": "Póster Serendipia “Tú y yo”",
+    "brand": null,
+    "description": "Póster tamaño carta con el arte del sencillo \"TÚ Y YO\" perteneciente al disco SERENDIPIA. (La impresión te llega sin marca de agua).",
+    "categories": [
+      "By Charles Ans"
+    ],
+    "tags": [],
+    "price": 200,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 200,
+    "priceMax": 200,
+    "currency": "MXN",
+    "installments": null,
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 6,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1424167348,
+        "sku": null,
+        "price": 200,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 6,
+        "available": true,
+        "attributes": {},
+        "image": null
+      }
+    ],
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/34-poster-serendipia-tu-y-yo-c9dc4606d5d955955317699014060503-1024-1024.png"
+    ],
+    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/34-poster-serendipia-tu-y-yo-c9dc4606d5d955955317699014060503-1024-1024.png",
+    "weightKg": null,
+    "storeName": "Peek Store",
+    "storeDomain": "peek-store.com",
+    "country": "MX",
+    "language": "es",
+    "platform": "tiendanube",
+    "engine": "next",
+    "lastModified": "2026-10-15T13:42:10.000Z",
+    "scrapedAt": "2026-11-08T17:14:54.760Z"
   }
 ]
