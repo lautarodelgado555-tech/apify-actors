@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-11-09T21:38:50.797Z",
+  "name": "telegram-channel-scraper",
+  "isPublic": true,
+  "pricing": [
+    "PAY_PER_EVENT",
+    "PAY_PER_EVENT"
+  ],
+  "stats": {
+    "totalBuilds": 16,
+    "totalRuns": 46,
+    "totalUsers": 3,
+    "totalUsers7Days": 1,
+    "totalUsers30Days": 1,
+    "totalUsers90Days": 1,
+    "lastRunStartedAt": "2026-11-09T14:32:33.522Z",
+    "actorReviewCount": 0,
+    "actorReviewRating": 0,
+    "bookmarkCount": 0,
+    "publicActorRunStats30Days": {
+      "ABORTED": 0,
+      "FAILED": 0,
+      "SUCCEEDED": 31,
+      "TIMED-OUT": 0,
+      "TOTAL": 31
+    }
+  }
+}
