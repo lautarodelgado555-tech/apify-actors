@@ -1,0 +1,86 @@
+npm warn deprecated lodash.isequal@4.5.0: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
+
+added 265 packages in 10s
+
+78 packages are looking for funding
+  run `npm fund` for details
+Info: Apify collects telemetry data about general usage of Apify CLI to help us improve the product.
+This feature is enabled by default, and you can disable it by setting the "APIFY_CLI_DISABLE_TELEMETRY" environment variable to "1", or by running "apify telemetry disable".
+You can find more information about our telemetry in https://docs.apify.com/cli/docs/telemetry.
+Info: Deploying Actor 'us-business-status-monitor' to Apify.
+Run: Updated version 0.1 for Actor us-business-status-monitor.
+Run: Building Actor us-business-status-monitor
+2026-11-09T22:16:46.235Z ACTOR: Selected directory: .
+2026-11-09T22:16:46.237Z ACTOR: Found input schema referenced from .actor/actor.json
+2026-11-09T22:16:46.790Z ACTOR: Found output schema referenced from .actor/actor.json
+2026-11-09T22:16:46.797Z ACTOR: Found dataset schema referenced from .actor/actor.json
+2026-11-09T22:16:46.816Z ACTOR: Using minMemoryMbytes: 256
+2026-11-09T22:16:46.817Z ACTOR: Using maxMemoryMbytes: 4096
+2026-11-09T22:16:46.824Z ACTOR: Extracting Actor documentation from README.md
+2026-11-09T22:16:46.826Z ACTOR: Building container image (cache enabled).
+2026-11-09T22:16:47.071Z #1 [internal] load build definition from Dockerfile
+2026-11-09T22:16:47.073Z #1 transferring dockerfile: 430B done
+2026-11-09T22:16:47.074Z #1 DONE 0.0s
+2026-11-09T22:16:47.077Z #2 DONE 0.0s
+2026-11-09T22:16:47.079Z #3 resolve image config for docker-image://docker.io/docker/dockerfile:1
+2026-11-09T22:16:47.080Z #3 DONE 0.2s
+2026-11-09T22:16:47.286Z #4 docker-image://docker.io/docker/dockerfile:1@sha256:4edf897a3ffa55b89f906fc8cc78afdb3f1834cc9c7083565e611a8a7d5fe99e
+2026-11-09T22:16:47.288Z #4 resolve docker.io/docker/dockerfile:1@sha256:4edf897a3ffa55b89f906fc8cc78afdb3f1834cc9c7083565e611a8a7d5fe99e 0.0s done
+2026-11-09T22:16:47.289Z #4 CACHED
+2026-11-09T22:16:47.293Z #5 DONE 0.0s
+2026-11-09T22:16:47.294Z #6 [internal] load metadata for docker.io/apify/actor-node:22
+2026-11-09T22:16:47.296Z #6 DONE 0.1s
+2026-11-09T22:16:47.452Z #7 [internal] load .dockerignore
+2026-11-09T22:16:47.454Z #7 transferring context: 82B done
+2026-11-09T22:16:47.455Z #7 DONE 0.0s
+2026-11-09T22:16:47.997Z #8 importing cache manifest from s3:9215527662362718568
+2026-11-09T22:16:48.181Z #8 DONE 0.1s
+2026-11-09T22:16:48.183Z #9 [1/4] FROM docker.io/apify/actor-node:22@sha256:dae092a0d4e124df6349941c61866c1e2ad2adb539d1e23921ad89e4d2ec28d5
+2026-11-09T22:16:48.187Z #9 resolve docker.io/apify/actor-node:22@sha256:dae092a0d4e124df6349941c61866c1e2ad2adb539d1e23921ad89e4d2ec28d5 0.0s done
+2026-11-09T22:16:48.190Z #9 DONE 0.0s
+2026-11-09T22:16:48.191Z #10 [internal] load build context
+2026-11-09T22:16:48.193Z #10 transferring context: 221.51kB done
+2026-11-09T22:16:48.194Z #10 DONE 0.0s
+2026-11-09T22:16:48.196Z #11 [2/4] COPY --chown=myuser package*.json ./
+2026-11-09T22:16:48.198Z #11 CACHED
+2026-11-09T22:16:48.200Z #12 [3/4] RUN npm --quiet set progress=false     && npm install --omit=dev --omit=optional     && echo "Installed NPM packages:"     && (npm list --omit=dev --all || true)     && echo "Node.js version:"     && node --version     && echo "NPM version:"     && npm --version
+2026-11-09T22:16:48.201Z #12 CACHED
+2026-11-09T22:16:48.203Z #13 [4/4] COPY --chown=myuser . ./
+2026-11-09T22:16:48.204Z #13 CACHED
+2026-11-09T22:16:48.293Z #14 [auth] sharing credentials for 031263542130.dkr.ecr.us-east-1.amazonaws.com
+2026-11-09T22:16:48.295Z #14 DONE 0.0s
+2026-11-09T22:16:48.296Z #13 [4/4] COPY --chown=myuser . ./
+2026-11-09T22:16:48.417Z #13 sha256:0bd8b9932a345b4ed167263f365745a1502fc13f54c3acef1281ddd0cffba70a 22.28kB / 22.28kB 0.1s done
+2026-11-09T22:16:48.618Z #13 sha256:88855884b8fadc7962d526afc408a63ed1537fdef978a913b9ac03c412920dbf 84.47kB / 84.47kB 0.2s done
+2026-11-09T22:16:48.619Z #13 sha256:3d4cce6bf8ed4b4c25f409d22f6850b546bfd3372c0cf21e444399c070d06006 7.81MB / 7.81MB 0.1s done
+2026-11-09T22:16:48.621Z #13 DONE 0.3s
+2026-11-09T22:16:48.622Z #15 exporting cache to Amazon S3
+2026-11-09T22:16:48.624Z #15 preparing build cache for export 0.1s done
+2026-11-09T22:16:48.625Z #15 sending cache export 0.3s done
+2026-11-09T22:16:48.627Z #15 DONE 0.4s
+2026-11-09T22:16:48.628Z ACTOR: Pushing container image to repository.
+2026-11-09T22:16:48.629Z #16 exporting to image
+2026-11-09T22:16:48.631Z #16 exporting layers done
+2026-11-09T22:16:48.632Z #16 exporting manifest sha256:670945bac4c4ac99d5efcacb8668603c2b535064ed0d2b8b6776e0b8e3417c3f 0.0s done
+2026-11-09T22:16:48.634Z #16 exporting config sha256:b1e0f312e05cd886e008d90b49565d6e1eaea80731b65bb03a2756c534507889 0.0s done
+2026-11-09T22:16:48.635Z #16 pushing layers
+2026-11-09T22:16:48.831Z #16 pushing layers 0.6s done
+2026-11-09T22:16:48.832Z #16 pushing manifest for 031263542130.dkr.ecr.us-east-1.amazonaws.com/act-builds-prod-00401:SpDjhl5prG9SWg80g@sha256:670945bac4c4ac99d5efcacb8668603c2b535064ed0d2b8b6776e0b8e3417c3f
+2026-11-09T22:16:49.055Z #16 pushing manifest for 031263542130.dkr.ecr.us-east-1.amazonaws.com/act-builds-prod-00401:SpDjhl5prG9SWg80g@sha256:670945bac4c4ac99d5efcacb8668603c2b535064ed0d2b8b6776e0b8e3417c3f 0.2s done
+2026-11-09T22:16:49.056Z #16 DONE 0.9s
+2026-11-09T22:16:49.127Z ACTOR: Build finished.
+Run: Applying build tag "latest"...
+Apify push result: SUCCEEDED
+
+Upload: SUCCEEDED
+Build: SUCCEEDED
+Actor ID: 969kXcZRR2fVat2GC
+Build ID: SpDjhl5prG9SWg80g
+Build number: 0.1.10
+
+Actor URL: https://console.apify.com/actors/969kXcZRR2fVat2GC
+Build URL: https://console.apify.com/actors/969kXcZRR2fVat2GC/builds/0.1.10
+configuring lautarodelgado~us-business-status-monitor
+ok defaultRunOptions={"build":"latest","timeoutSecs":3600,"memoryMbytes":2048}
+saved build log SpDjhl5prG9SWg80g (61 lines)
+stats {"totalBuilds":10,"totalRuns":36,"totalUsers":2,"totalUsers7Days":1,"totalUsers30Days":1,"totalUsers90Days":1,"lastRunStartedAt":"2026-11-09T14:32:33.018Z","actorReviewCount":0,"actorReviewRating":0,"bookmarkCount":0,"publicActorRunStats30Days":{"ABORTED":0,"FAILED":0,"SUCCEEDED":27,"TIMED-OUT":0,"TOTAL":27}}
