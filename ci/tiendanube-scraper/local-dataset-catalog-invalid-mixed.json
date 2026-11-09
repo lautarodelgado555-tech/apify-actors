@@ -1,62 +1,5 @@
 [
   {
-    "url": "https://cocora.mitiendanube.com/productos/pulsera-baloon-mini/",
-    "productId": 150739149,
-    "name": "Pulsera Baloon Mini",
-    "brand": null,
-    "description": "Pulsera de balines mini dorada Color: Dorado Material: Goldfield",
-    "categories": [
-      "Pulseras"
-    ],
-    "tags": [],
-    "price": 400,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 400,
-    "priceMax": 400,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 4,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 574242407,
-        "sku": null,
-        "price": 400,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 4,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/10241-c4718fb0599e76389816728732134732-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/10241-c4718fb0599e76389816728732134732-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/10241-c4718fb0599e76389816728732134732-1024-1024.webp",
-    "weightKg": 0.015,
-    "storeName": "Cocora",
-    "storeDomain": "cocora.mitiendanube.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": null,
-    "scrapedAt": "2026-11-08T17:14:47.538Z"
-  },
-  {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/hilo-de-lana-50-gramos/",
     "productId": 70340049,
     "name": "Hilo de lana - 50 gramos",
@@ -187,6 +130,63 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": null,
-    "scrapedAt": "2026-11-08T17:14:47.982Z"
+    "scrapedAt": "2026-11-09T21:38:05.685Z"
+  },
+  {
+    "url": "https://cocora.mitiendanube.com/productos/pulsera-baloon-mini/",
+    "productId": 150739149,
+    "name": "Pulsera Baloon Mini",
+    "brand": null,
+    "description": "Pulsera de balines mini dorada Color: Dorado Material: Goldfield",
+    "categories": [
+      "Pulseras"
+    ],
+    "tags": [],
+    "price": 400,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 400,
+    "priceMax": 400,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 4,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 574242407,
+        "sku": null,
+        "price": 400,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 4,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/10241-c4718fb0599e76389816728732134732-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/10241-c4718fb0599e76389816728732134732-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/002/364/194/products/10241-c4718fb0599e76389816728732134732-1024-1024.webp",
+    "weightKg": 0.015,
+    "storeName": "Cocora",
+    "storeDomain": "cocora.mitiendanube.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": null,
+    "scrapedAt": "2026-11-09T21:38:05.748Z"
   }
 ]
