@@ -1,23 +1,23 @@
 {
-  "checkedAt": "2026-11-09T21:38:58.948Z",
+  "checkedAt": "2026-11-10T18:53:29.242Z",
   "actors": {
     "florida-sunbiz-scraper": {
       "isPublic": true,
       "totalUsers": 2,
       "totalUsers7Days": 0,
       "totalUsers30Days": 0,
-      "totalRuns": 65,
-      "lastRunStartedAt": "2026-11-09T21:27:47.533Z",
+      "totalRuns": 67,
+      "lastRunStartedAt": "2026-11-10T18:41:49.268Z",
       "rating": 0,
       "reviews": 0
     },
     "georgia-sos-scraper": {
       "isPublic": true,
       "totalUsers": 5,
-      "totalUsers7Days": 1,
+      "totalUsers7Days": 0,
       "totalUsers30Days": 3,
-      "totalRuns": 87,
-      "lastRunStartedAt": "2026-11-09T14:32:32.989Z",
+      "totalRuns": 89,
+      "lastRunStartedAt": "2026-11-10T14:34:32.216Z",
       "rating": 0,
       "reviews": 0
     },
@@ -33,11 +33,11 @@
     },
     "telegram-channel-scraper": {
       "isPublic": true,
-      "totalUsers": 3,
-      "totalUsers7Days": 1,
-      "totalUsers30Days": 1,
-      "totalRuns": 47,
-      "lastRunStartedAt": "2026-11-09T21:38:51.309Z",
+      "totalUsers": 4,
+      "totalUsers7Days": 0,
+      "totalUsers30Days": 2,
+      "totalRuns": 49,
+      "lastRunStartedAt": "2026-11-10T14:34:32.731Z",
       "rating": 0,
       "reviews": 0
     },
@@ -46,8 +46,8 @@
       "totalUsers": 7,
       "totalUsers7Days": 0,
       "totalUsers30Days": 2,
-      "totalRuns": 70,
-      "lastRunStartedAt": "2026-11-09T17:29:14.561Z",
+      "totalRuns": 72,
+      "lastRunStartedAt": "2026-11-10T14:34:32.946Z",
       "rating": 0,
       "reviews": 0
     },
@@ -56,8 +56,8 @@
       "totalUsers": 2,
       "totalUsers7Days": 1,
       "totalUsers30Days": 1,
-      "totalRuns": 36,
-      "lastRunStartedAt": "2026-11-09T14:32:33.018Z",
+      "totalRuns": 38,
+      "lastRunStartedAt": "2026-11-10T14:34:32.265Z",
       "rating": 0,
       "reviews": 0
     }
