@@ -7,7 +7,7 @@
     "url": "https://t.me/telegram/460",
     "date": "2026-08-26T19:12:34.000Z",
     "text": "For all the info from today's update and a look back at 13 years of Telegram features — check out our blog:\nhttps://telegram.org/blog/welcome-messages-buttons-TG-13\n\nAugust Features\n1 • 2 • 3 • 4 • 5 • More",
-    "views": 2420000,
+    "views": 2440000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -21,7 +21,7 @@
       "siteName": "Telegram",
       "title": "Welcome Messages, Buttons in Messages and Signed Gifts",
       "description": "Introducing Welcome Messages to greet new members of groups or channels, Buttons in Messages to make any text interactive, Inline Documents in Messages and much more.",
-      "imageUrl": "https://cdn4.telesco.pe/file/UTJGCjjaMZZNOaPMKDR4KnPrD1qzfRtsaqhIJS9UPD27d2qZFDooEQRGBN830aeCgLJG8MoVgYLoMNxLbUb7oMBMhHZiBxnjVgeYyXr4nXq224txSEYLCuvXO2QM7B24w7CvuvKJ_zcc6qAQIOHTYIQPwIt_fCLg7q56HY4s_TkR7Cs66rkRwApy79x_N8EkWUgKqPJAi6MlYMdWqaT9mGdzmUkjYGmi3FEBhE1s-K_k7SBT0BDOw8fM4WhzOdqGVMWssIq_0sCwkbRxQoEu9r5QtEERvVR9cUoyNo9SPbIwyETP9GzL9JR7_TJNC5UJTRThcODHOXFvE_9HTQdXgQ.jpg"
+      "imageUrl": "https://cdn4.telesco.pe/file/vNT0kC9OKBzlnGE9jqUHsHeLB8kpBjIrjdCAEIXMfld9qdfYUvU_b4o27fyHmJJLKVgNf2KyqoiRtvkhoX7vpKOpBfhRHQ6PAa0pL0qdCWCtDlgEm1xASgg-X9Uop4Wbv8EzSnfs8VEI1UVvFDFGx3DgOpuiQHeh5uGz8Z9crPGWANELfx3qBlh1zg99VbQWK4vs-Rx-fO2quf8GPwk4AfP_NazMwXcAvdT6I4uKX361Qm6QAjf__FuFVX30p3deVIQIR21SHEj1xdQ-_M0LecqaPIfFDFaIuSENQ1Z5KUjMhuZEUapCj-ZelxzwpYl_OJ_9hVECCqHpUY5HqDClww.jpg"
     },
     "media": [],
     "mediaTypes": [],
@@ -37,7 +37,111 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:58.872Z"
+    "scrapedAt": "2026-11-10T18:50:29.072Z"
+  },
+  {
+    "channel": "durov",
+    "channelTitle": "Pavel Durov",
+    "channelSubscribers": 10100000,
+    "messageId": 554,
+    "url": "https://t.me/durov/554",
+    "date": "2026-11-10T12:59:06.000Z",
+    "text": "Any Telegram message can now become an app.\n\n⚡️ Downloads instantly (just 4 KB)\n🎨 Interactive and natively rendered\n💸 Payments and viral mechanics built in\n\n🛠 Build your own. More info and docs for devs: https://t.me/BotNews/122",
+    "views": 552000,
+    "reactions": [
+      {
+        "emoji": "⭐",
+        "count": 2070,
+        "paid": true
+      },
+      {
+        "emoji": null,
+        "count": 10700,
+        "customEmojiId": "5399847211989246390"
+      },
+      {
+        "emoji": null,
+        "count": 3680,
+        "customEmojiId": "5936157098181135162"
+      },
+      {
+        "emoji": null,
+        "count": 2910,
+        "customEmojiId": "5373223594484587136"
+      }
+    ],
+    "reactionsTotal": 19360,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": "Pavel Durov",
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://cdn4.telesco.pe/file/95159a98b7.mp4?token=lVjnMRU7mk8EDS6E_k42ln8iwQhxreA-HDE6aaLyuu1ucNbpc-ZpgHWskII71v5Q2P4Y2tgfQovF3kfuBiLBtE8Hvc1jECwNOznnPmN6fQ0QaPEd5x5H82hSH8p_p9YYdmiXfRCmA7BfuMAfFOQw_qeGZrIFScMP9gGmliu89ZauxZyFPFIuOWaoN-KhOU_LFt6X1Z7kB-QK1aOtDxXkseuXvPFm-Q1C6kb6_Q1VkDmk_yXGslQtk1fKohjv4IWtMK-3cfr3hfZ_1cMupSuevGtPEpNcr9kZLLJp_lYWV5jRRH8G96cab8b9Il-yiHgvOK-n3lVMNaRdu1SRBJDh7g",
+        "thumbnailUrl": "https://cdn4.telesco.pe/file/SUHUSCedk45FccMBvxmwfdojQy0CqU07ODYyO8WcKFQ4ktDqA69bI1hJUqsQIXPw88b1JFZabSa5eWBW6IeqM8D36mR1qld0f2KRvVZq3ck0kVkHl5Ox4QKvQC_BYsZgQsfn4eF6VUqJA5tVVhxckw1J8cQBCi10Mjpw79uacdsQallijZojz15lSGckVgV4vjWsFAw_FX4duGkOP1yEcahxQttD-cWiJqHkML6jCjrxqDmlASMsIguMWuBtpUE3MfPD4GwfE0yLiX86zhuuxqGLnYfdpTSPqvTkkhUXsfJyQf6iu6SiEJqrbPVES7p5Rmzowf9RsNj5xn1rsm8k2Q",
+        "duration": null,
+        "messageUrl": "https://t.me/durov/554"
+      }
+    ],
+    "mediaTypes": [
+      "video"
+    ],
+    "poll": null,
+    "html": "Any Telegram message can now become an app.<br><br>⚡️ Downloads instantly (just 4 KB)<br>🎨 Interactive and natively rendered<br>💸 Payments and viral mechanics built in<br><br>🛠 Build your own. More info and docs for devs: <a href=\"https://t.me/BotNews/122\">https://t.me/BotNews/122</a>",
+    "links": [
+      "https://t.me/BotNews/122"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.146Z"
+  },
+  {
+    "channel": "telegram",
+    "channelTitle": "Telegram News",
+    "channelSubscribers": 9150000,
+    "messageId": 459,
+    "url": "https://t.me/telegram/459",
+    "date": "2026-08-26T19:12:24.000Z",
+    "text": "Signed Gifts. You can now add your signature and a comment to gifts you buy via the gift marketplace.\n\nAugust Features\n1 • 2 • 3 • 4 • 5 • More",
+    "views": 2160000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://cdn1.telesco.pe/file/6efb59a075.mp4?token=XELYjHwk1upm9ATTLD-Wmzswc-1HRPGnmtxa4VYXdPxOLEETzVHQGjjpId8lKKD3pHmvTrJCidzfQXizzi5DJtAZNr5AMdmIDeyH_UfnxPQumFdsrCQWxi-2Di88jZQpToLHXJR0ic3EldL2UR8nq5bcOuQMw6sL3c08RzIlzESFtvatSORMBi7kz-GrilLlpZB0w-fTVJgt-Ygf8o8JutNV0t66_jlvDzs3OZHd1-MygBd_gVPK6Nk3GG-g0D6FPON5spm8t6FVbiGD9F-68X4mjco216ShTo0OtFv2fap2hQqAwHByCkaRGzWoFtdTHyXDpk3fFDDxINESbq8UZA",
+        "thumbnailUrl": "https://cdn1.telesco.pe/file/FxHXepN-BOjWS8YUg9EhY3kq58CWHEhA_IM7Z3cvETyXRRluVMdPmekriXbw5ZD6YRrU-lgeSZHZXO-FlJukd3gQXI-oFam6-kIN8JMGeTwtHZkGGuronWDQJkZP2H9tkXGI6GS4NrMh9mw18IUkfvXPkoomO-DLGoUQQcDtNKiQXHfggE1Z25-YPh3Cte2ynsO-_y6aw0r86rhngKTzERKFXReuNJZ0qh-EAJbVQlEU0Y6NqvAJQU4aAnHg5LfToYHD-TAgiAsybS1cLv2VGLQCWtAE9xNLZ2XcJ1nag6o9wiT47qbRbyfdUMgp5Z0NBeMB0Ibyi5HRaX2k6TTxAQ",
+        "duration": "0:12",
+        "messageUrl": "https://t.me/telegram/459"
+      }
+    ],
+    "mediaTypes": [
+      "video"
+    ],
+    "poll": null,
+    "html": "<b>Signed Gifts.</b> You can now add <b>your signature</b> and a comment to gifts you buy via the <a href=\"https://t.me/telegram/382\">gift marketplace</a>.<br><br>August Features<br><a href=\"https://t.me/telegram/455\">1</a> •&nbsp;<a href=\"https://t.me/telegram/456\">2</a> •&nbsp;<a href=\"https://t.me/telegram/457\">3</a> •&nbsp;<a href=\"https://t.me/telegram/458\">4</a> •&nbsp;<b>5</b> •&nbsp;<a href=\"https://t.me/telegram/460\">More</a>",
+    "links": [
+      "https://t.me/telegram/382",
+      "https://t.me/telegram/455",
+      "https://t.me/telegram/456",
+      "https://t.me/telegram/457",
+      "https://t.me/telegram/458",
+      "https://t.me/telegram/460"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.152Z"
   },
   {
     "channel": "contest",
@@ -64,7 +168,7 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:58.997Z"
+    "scrapedAt": "2026-11-10T18:50:29.215Z"
   },
   {
     "channel": "durov",
@@ -74,30 +178,30 @@
     "url": "https://t.me/durov/553",
     "date": "2026-11-09T13:00:39.000Z",
     "text": "700K+ self-custodial wallets created on Telegram in the last 48 hours alone.\n\n🦠 Adoption spreads virally. A wallet activates the moment someone receives Grams.\n\n💪 The crypto revolution is going strong.",
-    "views": 574000,
+    "views": 889000,
     "reactions": [
       {
         "emoji": "⭐",
-        "count": 14800,
+        "count": 16000,
         "paid": true
       },
       {
         "emoji": null,
-        "count": 15600,
+        "count": 19300,
         "customEmojiId": "5399847211989246390"
       },
       {
         "emoji": null,
-        "count": 4910,
+        "count": 5960,
         "customEmojiId": "5936157098181135162"
       },
       {
         "emoji": null,
-        "count": 4000,
+        "count": 4860,
         "customEmojiId": "5373223594484587136"
       }
     ],
-    "reactionsTotal": 39310,
+    "reactionsTotal": 46120,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Pavel Durov",
@@ -108,7 +212,7 @@
     "media": [
       {
         "type": "photo",
-        "url": "https://cdn4.telesco.pe/file/bge3VLstoSlfg86m3B0-dvZH8vOgLYtEN7z7nNTKwOWD5pbDMGjJSx9ZUNHs7s7r1g2rCZTGvmboU4NZ5G6C-WA0SRRhjwuwVSOyaot8sly6HjQVYGfqUXa4SrUIXSVrsNAt4LjUhYgT0WOShStXXNum1yZKrTKU2MVc7b8HWnThfL6KpQTarbzgi-aIbO43anLFofm85t-3iiSqBaK88MyMGlSu3prdSMM_9Z03NGRT4eiL8tKbVjHPP0mhiZzJCQ6CISOcrqAUrKieeHcQy-i321kJkaF0e7S5Mip5qkMuYYNClRk5RXVFI76pRfCNlDGFlqlwmUzWfU4u0B0SdA.jpg",
+        "url": "https://cdn4.telesco.pe/file/hc6uK8EVgu5brXDDRBj_1fxlF5vSl-YSpCXy4C7umvg7CukJFwN5QdddVaWnC4A5BRwaabwrfpClaqSXDmuEGydSMqVmkDMG85NsSUK_niuWvCzT-VUUFCJhVNuhKv8LDSokQNnbGW6zZRKWDEY9coP-3mlMgGzdERFOa-3updqKxjWZKOSlRXC2o0I4z2CoRrOmiQACyPy_PRb7IKzpfmcsPCuj4VtldGP5rffgNRxWKUMdCqls7Yx9bb1HhScfROUuzN1AoqOKrLFdiQWbj44o32_lpAIqqXZpgQMjDGM19QA84gnuRUKmg07mWug8ug0DDdH9z09g9baW9C5TEA.jpg",
         "messageUrl": "https://t.me/durov/553"
       }
     ],
@@ -122,17 +226,17 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.076Z"
+    "scrapedAt": "2026-11-10T18:50:29.216Z"
   },
   {
     "channel": "telegram",
     "channelTitle": "Telegram News",
     "channelSubscribers": 9150000,
-    "messageId": 459,
-    "url": "https://t.me/telegram/459",
-    "date": "2026-08-26T19:12:24.000Z",
-    "text": "Signed Gifts. You can now add your signature and a comment to gifts you buy via the gift marketplace.\n\nAugust Features\n1 • 2 • 3 • 4 • 5 • More",
-    "views": 2140000,
+    "messageId": 458,
+    "url": "https://t.me/telegram/458",
+    "date": "2026-08-26T19:12:04.000Z",
+    "text": "Placeholders for App Updates. If a user with an outdated app encounters a new feature, they can now instantly tap to download the latest update.\n\nAugust Features\n1 • 2 • 3 • 4 • 5 • More",
+    "views": 1330000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -144,29 +248,26 @@
     "linkPreview": null,
     "media": [
       {
-        "type": "video",
-        "url": "https://cdn1.telesco.pe/file/6efb59a075.mp4?token=b5UlrD872y6GOErmNV_h0niHbZ62XdeMr4jZiBwbQu805F2RHjPgv4_jfrRkoP9eaPfkEkpHCQwEKGJAJhmPGhCNxtBAy_vdpyMM3AEfd0vvCC6P0wSp32_BI63C9aX5ZKXfPEY75YaOWGs9lP7UalSYVz8WDOnJeMvH6N9SIbxgvDdE9PldaQ5GY0IZpA3YCmGdIX7de5s7RH55wo1OBPv4eaJ3XPW60IxZMTNN2JzpZHhDJ-TMNv8F7FsULkWUGUw0Y6-1QDiKZn4y3YMas6JX7hkwnVOw_AHHc0l46yp_gKGQDCOnvbCxOgH3QX3RH666l5C62R5GMHmlYrTgSg",
-        "thumbnailUrl": "https://cdn1.telesco.pe/file/hcJbGvy0rYc8GCqDef_B-dCUdb-yCz5Ee0fv454aDwaMwke5kX_yeVsjTUjPIPg_w0k06sGpmYZFglH_dUYCMTNi0zC4dugIRRiU3Y-y1swIIaeg3WKii3mFdnrzPM_DNFl9a5DQ37XlBZZdUHLcHiF7Ol87lElW-GaFFC9kVT-9Omy4S9ck1aVAvkLqPFzoQ5kPR6yEAFA1EBGGEGktjGLAf5vxnOv8Ge6hFRfV9Jbd6ZDYLlyUICL5SaM0Y-2TN-VuIP53GK0h6fmKh6CO0meI1paJKf2sotukaUznff3kHdsJcLO-Msg0HuJchfTdqvw16nPWP55_bnlzhE9efA",
-        "duration": "0:12",
-        "messageUrl": "https://t.me/telegram/459"
+        "type": "photo",
+        "url": "https://cdn1.telesco.pe/file/dFuiksiaZN07Q6JGhN-NM4DCT6Z3eAtshMZKilfuN4yJc60tQzz_BSsN6VDTYQCoWiIKN-j717O1nzJgX7102S8sseWJNW0uUxq6rZ_Zq21GYRtiFCil5mIK_fINseREk79eBWgmzJ5xedqRuYxZLxzctgBlHkch06WEMKjZ3HH408gKvoebobmjLpG4EJ-u2ou2645a3rzJNVoosmz_5ru2L2PIZGJArZZ6P6i_wu-VdHC_b0MkmW5gmkEKj7xz6bY5ZP5y_i6hU4TB-zCRGz49GlZKHVa_NNfCTqgCP1pb2q2hKmdo7XvIQ0Qv1HFfgcxU6rZ06gCbF2jg3lgACA.jpg",
+        "messageUrl": "https://t.me/telegram/458"
       }
     ],
     "mediaTypes": [
-      "video"
+      "photo"
     ],
     "poll": null,
-    "html": "<b>Signed Gifts.</b> You can now add <b>your signature</b> and a comment to gifts you buy via the <a href=\"https://t.me/telegram/382\">gift marketplace</a>.<br><br>August Features<br><a href=\"https://t.me/telegram/455\">1</a> •&nbsp;<a href=\"https://t.me/telegram/456\">2</a> •&nbsp;<a href=\"https://t.me/telegram/457\">3</a> •&nbsp;<a href=\"https://t.me/telegram/458\">4</a> •&nbsp;<b>5</b> •&nbsp;<a href=\"https://t.me/telegram/460\">More</a>",
+    "html": "<b>Placeholders for App Updates.</b> If a user with an <b>outdated app</b> encounters a new feature, they can now <b>instantly tap</b> to download the latest update.<br><br>August Features<br><a href=\"https://t.me/telegram/455\">1</a> •&nbsp;<a href=\"https://t.me/telegram/456\">2</a> •&nbsp;<a href=\"https://t.me/telegram/457\">3</a> •&nbsp;<b>4</b> •&nbsp;<a href=\"https://t.me/telegram/459\">5</a> •&nbsp;<a href=\"https://t.me/telegram/460\">More</a>",
     "links": [
-      "https://t.me/telegram/382",
       "https://t.me/telegram/455",
       "https://t.me/telegram/456",
       "https://t.me/telegram/457",
-      "https://t.me/telegram/458",
+      "https://t.me/telegram/459",
       "https://t.me/telegram/460"
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.076Z"
+    "scrapedAt": "2026-11-10T18:50:29.217Z"
   },
   {
     "channel": "contest",
@@ -176,7 +277,7 @@
     "url": "https://t.me/contest/461",
     "date": "2026-08-31T19:08:23.000Z",
     "text": "🏆 Digital Freedom Contest: Results\n\n🍆 Our judges have completed their evaluation and are pleased to confirm that the entire prize pool of $200,000 has been distributed.\n\n🫠 With several hundred winners, we are now completing the technical formalities and will update you in this channel and on contest.com within the next few days.\n\n💸 Stay tuned for updates, and congratulations to all the winners.",
-    "views": 156000,
+    "views": 157000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -195,48 +296,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.077Z"
-  },
-  {
-    "channel": "telegram",
-    "channelTitle": "Telegram News",
-    "channelSubscribers": 9150000,
-    "messageId": 458,
-    "url": "https://t.me/telegram/458",
-    "date": "2026-08-26T19:12:04.000Z",
-    "text": "Placeholders for App Updates. If a user with an outdated app encounters a new feature, they can now instantly tap to download the latest update.\n\nAugust Features\n1 • 2 • 3 • 4 • 5 • More",
-    "views": 1320000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [
-      {
-        "type": "photo",
-        "url": "https://cdn1.telesco.pe/file/RReLN1DO7S7zHvo3ZoSsaHfrqMahnbS92Pr15PiejWNFRGrSWwYd49eb82Wr7m0hzBl3-5-V776PslJ99sBaoTh81OvafitJsrZF6UHMPcmS5OK0lPLSYFTgIpVw7K46k38IJCQ1XPf0a8naRbVBOQahpEgv2Ok9qAFYVkyIxMUVzP5plsmCrSD9zL8SF815wTugoodjocHoJeg0qD818CMwMBJD63VvAuiYgvHevO9NgEUznuXf0rd0OY8jdHEpJaZijvLlr47ICK2JTUyCqp4z3XujP1CSjm6CURbxHfnjceohSRtHOjTiQ3yD-2vC3A-EIUr36fwge0zuYWfZfA.jpg",
-        "messageUrl": "https://t.me/telegram/458"
-      }
-    ],
-    "mediaTypes": [
-      "photo"
-    ],
-    "poll": null,
-    "html": "<b>Placeholders for App Updates.</b> If a user with an <b>outdated app</b> encounters a new feature, they can now <b>instantly tap</b> to download the latest update.<br><br>August Features<br><a href=\"https://t.me/telegram/455\">1</a> •&nbsp;<a href=\"https://t.me/telegram/456\">2</a> •&nbsp;<a href=\"https://t.me/telegram/457\">3</a> •&nbsp;<b>4</b> •&nbsp;<a href=\"https://t.me/telegram/459\">5</a> •&nbsp;<a href=\"https://t.me/telegram/460\">More</a>",
-    "links": [
-      "https://t.me/telegram/455",
-      "https://t.me/telegram/456",
-      "https://t.me/telegram/457",
-      "https://t.me/telegram/459",
-      "https://t.me/telegram/460"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.078Z"
+    "scrapedAt": "2026-11-10T18:50:29.217Z"
   },
   {
     "channel": "durov",
@@ -246,7 +306,7 @@
     "url": "https://t.me/durov/552",
     "date": "2026-10-11T14:52:40.000Z",
     "text": "✨ Designers × AI\n\n🆕 The mockup era is over. Today’s AI tools give every designer a superpower: you can now craft your ideas, not just draw them.\n\nThe gap between “what if…?” and “look, it works!” has never been smaller, and that changed how we build features in Telegram.\n\nMessage @designers to submit your concepts.\n\n✔️ We accept\n– Working, ready-to-implement code\n complemented by\n– A demo video of your feature in action\n\n🗑 We no longer accept\n– Static mockups\n– Demo videos with no code behind them\n– Text-only concepts\n\nNo coding background? Curiosity, attention to detail and a good prompt will take you far.\n\nThe future of design isn’t drawn – it’s built.\n\n🚀 Let's build it together!\n\n(An example of what is possible by our iOS designer – this is a ready to use implementation not a motion video.) 👇",
-    "views": 2670000,
+    "views": 2900000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -255,21 +315,21 @@
       },
       {
         "emoji": null,
-        "count": 20400,
+        "count": 20800,
         "customEmojiId": "5936157098181135162"
       },
       {
         "emoji": null,
-        "count": 8680,
+        "count": 8840,
         "customEmojiId": "5399847211989246390"
       },
       {
         "emoji": null,
-        "count": 6870,
+        "count": 7000,
         "customEmojiId": "5373223594484587136"
       }
     ],
-    "reactionsTotal": 46850,
+    "reactionsTotal": 47540,
     "forwardedFrom": {
       "name": null,
       "url": null,
@@ -285,7 +345,7 @@
       {
         "type": "video",
         "url": null,
-        "thumbnailUrl": "https://cdn4.telesco.pe/file/E22fRJ-zY1kHBKt8IFVngVgh694n_petLTWDG_O2BDO9ItJyagQZntBhYBMi2OtjeNjZiXY09nD_NYw6V4B4ubOgll5qQmIFnV1mTn1DAea4cmYnDp9M8X6Eb2XMkwSWLkYpRr8INcGeUoEg3tzo1yRHGeMIdpnWQiN6JuYN8kc1I0dW_7BO18U9YGrDanI-HFfa58m02EoEmkVTjd3MTTQddHTTTbEht3h7ZQzxxR0Exx06JRWim8o31FS4SUwkmSU3Anc6o1cCWtmuTekg7hfDyqIeXzBkhXIOo1EfjkyBXBObSF7cSZMiSMB6rpOCHR3LdAAGDXBeQ0zK0mjGVw",
+        "thumbnailUrl": "https://cdn4.telesco.pe/file/JN1Cvut-e_9RRg-5zTgupTnG_tANP7fEQZ1E5cYi1wHCgpZpQv8lufDI4DSgPFi32Z8ds8hc0qFrumMaEgMGPrEZn6y6ZKRBSXO4Jrp_UFjEGKHW-G30DlDcusZQ8QAi3NbSA2kHvL__aZjypLAqOj2tIx1Qb44e_3Sud9qvv3-3budDcObvqmjqVehkykQ2eqBuJ5omQxmPCtL9mlOSY-gQYWRcE-9OTGFW8GX0ZkSJ9ztUK5io93DvoO2DahoFDYfhl9M16VqFc4o1WSDzLEqnHRemNORZkiRkdQePD1kXtj04HNY03Y7Tl9x38Oft_nHPjTZOTgf_qCGyj_zLcQ",
         "duration": "1:15",
         "messageUrl": "https://t.me/durov/552"
       }
@@ -300,7 +360,49 @@
       "@designers"
     ],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.079Z"
+    "scrapedAt": "2026-11-10T18:50:29.218Z"
+  },
+  {
+    "channel": "telegram",
+    "channelTitle": "Telegram News",
+    "channelSubscribers": 9150000,
+    "messageId": 457,
+    "url": "https://t.me/telegram/457",
+    "date": "2026-08-26T19:11:54.000Z",
+    "text": "Inline Documents. The rich text editor now supports inline documents, files and music anywhere in your text.\n\nAugust Features\n1 • 2 • 3 • 4 • 5 • More",
+    "views": 1170000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://cdn1.telesco.pe/file/vRANrCXheAS8olFGQ95SglLCybVnTJA0fWd64ushImgFOezbYXAxRffJN033N5cHONLgHIVUNnB7ZdSdndH_XiYEiVUeNCfIcrhi10JN-g8HkQ3zLvfhW92gnX_bTBCNxGkLKBH3_G_Adtcwh3MoKy8bewEFLh7MAbqUNkfbTkwrXrgUehDss2K6Z8JwcN0K2_xxD_AjfZy36qOlU79-rU3_OOnKtTuSJMXYI-0A20PoP66ORmR8G6_h31BrCVeG8I8cttCKxk6TZDNyc6Pbyk6M2WAmaqv8nutoyyPezOeuw_San0Cz-rtL2YgxZXBi_6CerAD0XXHbbTAR_n8IfA.jpg",
+        "messageUrl": "https://t.me/telegram/457"
+      }
+    ],
+    "mediaTypes": [
+      "photo"
+    ],
+    "poll": null,
+    "html": "<b>Inline Documents.</b> The <a href=\"https://t.me/telegram/450\">rich text editor</a> now supports <b>inline documents</b>, files and <b>music</b> anywhere in your text.<br><br>August Features<br><a href=\"https://t.me/telegram/455\">1</a> •&nbsp;<a href=\"https://t.me/telegram/456\">2</a> •&nbsp;<b>3</b> •&nbsp;<a href=\"https://t.me/telegram/458\">4</a> •&nbsp;<a href=\"https://t.me/telegram/459\">5</a> •&nbsp;<a href=\"https://t.me/telegram/460\">More</a>",
+    "links": [
+      "https://t.me/telegram/450",
+      "https://t.me/telegram/455",
+      "https://t.me/telegram/456",
+      "https://t.me/telegram/458",
+      "https://t.me/telegram/459",
+      "https://t.me/telegram/460"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.219Z"
   },
   {
     "channel": "contest",
@@ -310,7 +412,7 @@
     "url": "https://t.me/contest/460",
     "date": "2026-08-31T12:51:46.000Z",
     "text": "🏆 Design Contest 2026, Round 2: Results\n\n😲 90% of eligible winners from Round 1 decided to continue making Telegram better and suggested a bunch of meaningful improvements to further polish the apps.\n\n🤲 Thank you all for your efforts – this steady pace and persistence are what set you apart, and it's what we value at Telegram. Keep going!\n\n💡 Now meet the winners and their inventive ideas:\n\n1st PLACE\n🥇 Brave Flamingo | Open Channel – $2,300\n🥇 Desert Bass | Open Channel – $2,200\n🥇 Sexy Leopard | Open Channel – $2,100\n🥇 Strict Crow | Open Channel – $2,000\n\n2nd PLACE\n🥈 Eager Duck | Open Channel – $1,500\n🥈 Humble Cockroach | Open Channel – $1,300\n🥈 Sunny Mink | Open Channel – $1,300\n🥈 Caring Eagle | Open Channel – $1,300\n🥈 Crazy Gnat | Open Channel – $1,200\n\n3rd PLACE\n🥉 Cuddly Turtle | Open Channel – $1,000\n🥉 Noble Swallow | Open Channel – $1,000\n🥉 Merry Bat | Open Channel – $900\n🥉 Shiny Fish | Open Channel – $900\n🥉 Mighty Crab | Open Channel – $900\n\n4th PLACE\n🎖 Nimble Kitten | Open Channel – $700\n🎖 Gifted Puma | Open Channel – $700\n🎖 Nimble Sheep | Open Channel – $400\n🎖 Mighty Falcon | Open Channel – $300\n\nCongratulations to the winners! Stay tuned for more contests and have a great week ahead!",
-    "views": 272000,
+    "views": 274000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -366,49 +468,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.080Z"
-  },
-  {
-    "channel": "telegram",
-    "channelTitle": "Telegram News",
-    "channelSubscribers": 9150000,
-    "messageId": 457,
-    "url": "https://t.me/telegram/457",
-    "date": "2026-08-26T19:11:54.000Z",
-    "text": "Inline Documents. The rich text editor now supports inline documents, files and music anywhere in your text.\n\nAugust Features\n1 • 2 • 3 • 4 • 5 • More",
-    "views": 1160000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [
-      {
-        "type": "photo",
-        "url": "https://cdn1.telesco.pe/file/Lg6ASRhNyxCd9G7bagsV1oCwfpe2RGuPdjuZ46ATMQHTTa4kX9DCrPlwlFc0fACnNfu95vbpjTnW1FTLcJkwYxty0ZpOXWj95p7QnHj5tQ9jcG7oXdh_yNwiSV6aEbksTqN8DlEaz65uoKwcMocaSRuxRdHQ26XgZTfYGZXKkDfyPe0MKl2gcR0jTONQVDbFFQg_SJ_-eMLJ73FjAu0vtDJUira8czHlRqLAW-i_J-w212Jt9o_3YcVRkmJTo4oqv3KfBB0UtBMXVYySjbYBIfMiS5SS6W8VxE6TL8D8FL6LE1_Q1nBg9fIAzPxfooE8ZxUsrZMkcx-EddP5XakSfw.jpg",
-        "messageUrl": "https://t.me/telegram/457"
-      }
-    ],
-    "mediaTypes": [
-      "photo"
-    ],
-    "poll": null,
-    "html": "<b>Inline Documents.</b> The <a href=\"https://t.me/telegram/450\">rich text editor</a> now supports <b>inline documents</b>, files and <b>music</b> anywhere in your text.<br><br>August Features<br><a href=\"https://t.me/telegram/455\">1</a> •&nbsp;<a href=\"https://t.me/telegram/456\">2</a> •&nbsp;<b>3</b> •&nbsp;<a href=\"https://t.me/telegram/458\">4</a> •&nbsp;<a href=\"https://t.me/telegram/459\">5</a> •&nbsp;<a href=\"https://t.me/telegram/460\">More</a>",
-    "links": [
-      "https://t.me/telegram/450",
-      "https://t.me/telegram/455",
-      "https://t.me/telegram/456",
-      "https://t.me/telegram/458",
-      "https://t.me/telegram/459",
-      "https://t.me/telegram/460"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.081Z"
+    "scrapedAt": "2026-11-10T18:50:29.219Z"
   },
   {
     "channel": "durov",
@@ -418,7 +478,7 @@
     "url": "https://t.me/durov/551",
     "date": "2026-10-10T14:22:43.000Z",
     "text": "💸 If your wallet doesn’t look like this, don’t even bother sending me money for my  birthday! 🎂",
-    "views": 2480000,
+    "views": 2620000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -427,21 +487,21 @@
       },
       {
         "emoji": null,
-        "count": 39900,
+        "count": 40400,
         "customEmojiId": "5936157098181135162"
       },
       {
         "emoji": null,
-        "count": 13500,
+        "count": 13700,
         "customEmojiId": "5373223594484587136"
       },
       {
         "emoji": null,
-        "count": 10300,
+        "count": 10400,
         "customEmojiId": "5399847211989246390"
       }
     ],
-    "reactionsTotal": 124100,
+    "reactionsTotal": 124900,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Pavel Durov",
@@ -452,8 +512,8 @@
     "media": [
       {
         "type": "video",
-        "url": "https://cdn4.telesco.pe/file/f4b10a0c75.mp4?token=gLoNWPo_DsfbFpTUqsu-lxKO7E4-gYZQDVO2itNilQAIMz8C5WKww4lBYGuNJppuENnIflRDCfG8cqB12An5MgYgpg4hg8378PyUOd0ZIAvvgrBa0NdhFxlt_ZGmwnVWBIzqeW-Au-I_oTetsHR3RVv6aOjDIIb3OHytmPk3Q2n3Cvj5CYmZBe7raB0cAw041G7UIRaaiqLAa3Upt33e5HuSDtcjB_AnclZHgpF1gHUAEV0pa9d2Hzp1KdVniWPBEQnxn39ei2UpmU3vepHp97PPVTbHgSjpovYysbnnmzA3v_zx67FJ65R_ypyi_FX5q-_wDlOujyLZbOH-PNnBp4WOpGPPJgrUDPjvR3m_yJOfwRxPGsEpzEljmzYPM_ib305LxFaLPd8quvZ40nG9StDJNw4Nax8aoRuL-b8n-6oBPvwGr8dv3EhiyaKqNfG_gV9yGSa5ZYGah72x-eD3NdPOT5KFLz0rHzzCgVpF21iBWL2Mh-pu7emhKtuQ6RrzYc-exPxNBiFoTJJ4PSz4BcA7I0RbPUvvLPVvJS478EhQjqh_St8RHpk-3Wpaz8lMgpmY2V0l6NDEKTgkiX0IrwOxzwQ6jsb7EQRO3f6H6YGX2g2aDZYSErWvG97giqxzjDm64dEXG5M0_9VmmbDUMpm4EEasNpxSft6FvnJPxA8",
-        "thumbnailUrl": "https://cdn4.telesco.pe/file/gIJYNCOVkUN5xSiIdJc54DLXivpZU1LNMXaL-W04ICqViPbpyCkzlJJtvW9vXJp4jAGxBfeuJ7_9Wvkfkno_iIUdlwHCsPpQKXAfk0Q2_gMrfyUr6P5pN72oSSZip7exwXHNJPrVfntxHd89hNoXTkehufs2Dw2ZvXnDmj2FvE23Lc9DX5km-InMMRyrPbk9t8Y-0gS-Cv12o0B68yYe-BBeYOgndEQWczWKPQFmmJSFRS4ilu1vATt5xcDbfRxLLYgTCyutNwqJIOBt3RZTz3g_bAKpfR2e565ov5-ytyArFC6xyliJKd4liaXi26U8OT4m_zZe_9vVEyTZDdFutA",
+        "url": "https://cdn4.telesco.pe/file/f4b10a0c75.mp4?token=oFyImL_LBZ8IsCsogc6w7eyskX50uzioZf_Q05TJUWFws-e6HJwAtAUG9VAUmM9atempSIzq7v8RyRzryMmOqPhwzykMXq_rH3LEvODvoH29_rvAJTOUnqOVusG5eS6FyAjPpBd0AsMAmskcsuDqgG_XgVm90AEef_7nXX2eEoq3xgll1Vu2jxUOCV8bgEZKb_MACAzYLFF2CPoS_Jj2RQGh7N2NOiZ9jhhi38k2pz36-dqtQPcdRfc8Y4ay45Y6IQXDZKyqR5jnd3H4UeBrrBXreuGDz8zWpdg3IjtG4rkl0rCr47IMHORmRByjHWpmdzPLt8h8-NRTJgQqg5Xx_YWOpGPPJgrUDPjvR3m_yJOfwRxPGsEpzEljmzYPM_ib305LxFaLPd8quvZ40nG9StDJNw4Nax8aoRuL-b8n-6oBPvwGr8dv3EhiyaKqNfG_gV9yGSa5ZYGah72x-eD3NdPOT5KFLz0rHzzCgVpF21iBWL2Mh-pu7emhKtuQ6RrzYc-exPxNBiFoTJJ4PSz4BcA7I0RbPUvvLPVvJS478EhQjqh_St8RHpk-3Wpaz8lMgpmY2V0l6NDEKTgkiX0IrwOxzwQ6jsb7EQRO3f6H6YGX2g2aDZYSErWvG97giqxzjDm64dEXG5M0_9VmmbDUMpm4EEasNpxSft6FvnJPxA8",
+        "thumbnailUrl": "https://cdn4.telesco.pe/file/ExwP083n7N0m8FTxA5JvP7PN9eUgTcGbCNzUKZjjOI-d7D1_dksux38MjbmQUbTxK_0qk_YxKHr4zjEXkfg3ot7lCuSwUYfhL1EotHaxvkwn1aROzcq3bHn8gHfgNlNrEKmu3E_fFGf2aSp0Pjbr80TT6Sqb4eqROhLWcT5iT0Ddpc5fKQEnG1w_87ahhyfTlR_6Cb8J-7TNKXd8JmzVkHdmCG66BJlxGwcz79ALaxT2bd9c4yF-afg6GiqIh_kiIAMACzkw5eK5OyGS1QjRdQcZYAD7MKAe-5gTdMOL1uwLNPukyImysaXzia2SiOTQq5dAvJOesRkNVIESi8BHIA",
         "duration": null,
         "messageUrl": "https://t.me/durov/551"
       }
@@ -466,7 +526,50 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.081Z"
+    "scrapedAt": "2026-11-10T18:50:29.220Z"
+  },
+  {
+    "channel": "telegram",
+    "channelTitle": "Telegram News",
+    "channelSubscribers": 9150000,
+    "messageId": 456,
+    "url": "https://t.me/telegram/456",
+    "date": "2026-08-26T19:11:39.000Z",
+    "text": "Buttons Inside Messages. Developers are now able to put multiple buttons inside a message and create custom flows.\n\nAugust Features\n1 • 2 • 3 • 4 • 5 • More",
+    "views": 1240000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://cdn1.telesco.pe/file/72caa72e9c.mp4?token=DUHHcq1J3Lj6WtgcLGNOspJqrk02iL4cLDcFzCpDDbzAQLi_tCR9j01R4lclGra8A_89CNp8g0Djh-8KmItMA7WIcAvvkLSXhQBAIGEeOBt7C4u0ShIE65rHeG0AfaVqnnolLi5DAvbyoMHYASsKmDh2jbieFocO2i5BJCWy5mWiOlvBCV0I2S1JiQ_ClWXKwxMohLE-0cUok52LYug9gey-iR-QBDRfixHG64EvrvbTQXTjBDn_HJh0g7DuopkF3-1N3CnLiBcxrVHsVWq8HD_Eo53owVXN_Om7vD3NS0b3XruvnKZJewXCAPjJ2fv2_8-z4WT6_pV-oOR1X0qo6Q",
+        "thumbnailUrl": "https://cdn1.telesco.pe/file/DIVVB8XCiuHlRDF4Wmvyb-LaTwhurjomPETxJUqlcE02SB1xGkMQeNQ9onvgOgWMOurtzlP6PvQF_lKjfDyaEJDuXUZqLdtN74kE9_8DAkoprz2MpBQd1Fr_ZsS5Xuku-rXtvVmGSKzSiRkgWOFx7H3p_o803eyv_G4cS3efXH5c53AGulBk5p4Z_Rbbw29qUH5SD7sOkvCdy5_argPRxVXcg9QDDSsgi9S1rCSzGTAnyDtSu2q_ztKhO94JGZi-r3IVCz_tTDmt6zc_fWWWFPwxUytPQVWLP1THal7HUbOiIe3OvTr3cWzglDPRdxAiwwZaQVnQavB_rfmDIueGzw",
+        "duration": "0:10",
+        "messageUrl": "https://t.me/telegram/456"
+      }
+    ],
+    "mediaTypes": [
+      "video"
+    ],
+    "poll": null,
+    "html": "<b>Buttons Inside Messages.</b> Developers are now able to put <b>multiple buttons</b> inside a message and create <b>custom flows</b>.<br><br>August Features<br><a href=\"https://t.me/telegram/455\">1</a> •&nbsp;<b>2</b> •&nbsp;<a href=\"https://t.me/telegram/457\">3</a> •&nbsp;<a href=\"https://t.me/telegram/458\">4</a> •&nbsp;<a href=\"https://t.me/telegram/459\">5</a> •&nbsp;<a href=\"https://t.me/telegram/460\">More</a>",
+    "links": [
+      "https://t.me/telegram/455",
+      "https://t.me/telegram/457",
+      "https://t.me/telegram/458",
+      "https://t.me/telegram/459",
+      "https://t.me/telegram/460"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.221Z"
   },
   {
     "channel": "contest",
@@ -476,7 +579,7 @@
     "url": "https://t.me/contest/459",
     "date": "2026-07-16T20:26:48.000Z",
     "text": "Digital Freedom Contest: Submissions\n\n👏 We would like to thank each contestant for their input – you are all amazing! More than 1,000 links were submitted, already drawing over 67.2M views. That is the population of a large country – reached, thanks to you, with the idea of digital freedom.\n\n🎬 We will open all submissions on contest.com in the coming days – watch for a separate announcement here. Judging is already underway; results are expected by the end of August.\n\n❗ If you have not yet edited your video's caption on the external platform or updated your bio (on TikTok, Instagram, X, YouTube or Snap) to include your @username  or t.me/username, please do so immediately. This is the only way we can verify that you are the author of the submitted video.",
-    "views": 233000,
+    "views": 234000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -498,50 +601,7 @@
       "@username"
     ],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.082Z"
-  },
-  {
-    "channel": "telegram",
-    "channelTitle": "Telegram News",
-    "channelSubscribers": 9150000,
-    "messageId": 456,
-    "url": "https://t.me/telegram/456",
-    "date": "2026-08-26T19:11:39.000Z",
-    "text": "Buttons Inside Messages. Developers are now able to put multiple buttons inside a message and create custom flows.\n\nAugust Features\n1 • 2 • 3 • 4 • 5 • More",
-    "views": 1230000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [
-      {
-        "type": "video",
-        "url": "https://cdn1.telesco.pe/file/72caa72e9c.mp4?token=VIbDS0NVF7bi0IayxKJqSCEiWdBu2IAY8l4wlgVQNPHUoIXH8-uIlDI8hyB4RSnfnFQMGd6R9sR03DwGHtHanvZZsmTIkg9Qjmm-hWDkXUb5ZvtjAq076lqAV5yTQWZF4-U5yk6VXFs0fh8dWV2MqJJEecYEJbvgazux9iZ2uWivpOcvyEXvWoXPbA5ywUDCBQ4arf-XAxs23M2oSrmnwz-siihVXbhcfqqPcnZrf5lDNY1dbLkPTd9qIil_bjD_UDIQD2n2BU7Hv08gPlMwUuFgj9A88meKYfIZxK-H8m_spOfXV051aYdyM4Cf-GdhtvNIcJB6JfUO4qsl0ROCPQ",
-        "thumbnailUrl": "https://cdn1.telesco.pe/file/CQBuP23WUEWj2kd8CRjoSRRBPAuiw1kaVDWJIPjZG9jhCIfitL8OxRtVkwNU0nUwidoUiW9WvXdqtJOZhuzse0C41fnjnWSeR5jBLv-gUUVRc_8ENtTH52LRMHcL9u03IIhW13mW26XtvhY63a_mUp9DMWpNTtIoc5zzcaVeZzJnx5SnHquCeNL6nsK9I3xmD_LW2LEzloGEWmiTWJbsinsEhvuMmm_HdwimbH9pg7XfsC6eMDBsEtTaeKGdHjJ6p7EkJ2SrdNbDMMVc1xMnO989qesdOwUdF1aimOffX61CnJlU-226r4E56N1Oo4G1rauIKb_BmTaJmoneuHhLNg",
-        "duration": "0:10",
-        "messageUrl": "https://t.me/telegram/456"
-      }
-    ],
-    "mediaTypes": [
-      "video"
-    ],
-    "poll": null,
-    "html": "<b>Buttons Inside Messages.</b> Developers are now able to put <b>multiple buttons</b> inside a message and create <b>custom flows</b>.<br><br>August Features<br><a href=\"https://t.me/telegram/455\">1</a> •&nbsp;<b>2</b> •&nbsp;<a href=\"https://t.me/telegram/457\">3</a> •&nbsp;<a href=\"https://t.me/telegram/458\">4</a> •&nbsp;<a href=\"https://t.me/telegram/459\">5</a> •&nbsp;<a href=\"https://t.me/telegram/460\">More</a>",
-    "links": [
-      "https://t.me/telegram/455",
-      "https://t.me/telegram/457",
-      "https://t.me/telegram/458",
-      "https://t.me/telegram/459",
-      "https://t.me/telegram/460"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.084Z"
+    "scrapedAt": "2026-11-10T18:50:29.221Z"
   },
   {
     "channel": "durov",
@@ -551,7 +611,7 @@
     "url": "https://t.me/durov/548",
     "date": "2026-09-11T16:04:02.000Z",
     "text": "🤝 Telegram has become the sponsor of Codeforces — the largest competitive programming platform in the world.\n\n ⚡CodeForces organizes over 100 coding contests every year and has 4 million contestants signed up.\n\n🌱 Since 2010, I've supported Codeforces through the companies I started.\n\n🆙 But this year will be special. Its founder Mike wants to bring Codeforces to the next level — and we'll be happy to help him do that 🤝",
-    "views": 4430000,
+    "views": 4540000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -560,7 +620,7 @@
       },
       {
         "emoji": null,
-        "count": 37200,
+        "count": 37300,
         "customEmojiId": "5399847211989246390"
       },
       {
@@ -574,7 +634,7 @@
         "customEmojiId": "5373223594484587136"
       }
     ],
-    "reactionsTotal": 80300,
+    "reactionsTotal": 80400,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Pavel Durov",
@@ -586,7 +646,7 @@
       "siteName": "Codeforces",
       "title": "Telegram Returns as Title Sponsor of Codeforces!",
       "description": "Hi, Codeforces!",
-      "imageUrl": "https://cdn4.telesco.pe/file/lOh67gWNNr3VT3VXqJmNr1kgXOUz7IBTMhDnf7qbdm0Zp3jWakvMA-AwqFbUR2OsYmA30T0XO4wwiuBSuqbSq6TYKFb8iQWkPy2Ah2rgHph2Gt7yiVF25-LIRFce-RAY3DZAjtBaieUEl1SQTCymqfB3inBT3UB5K0IAuIXjAti1g6kT-_l4KH_Dfm-A2F1CkYpAmxgIKa67MGkR4J_EZrm-91NsTtkl78pVd2p9J31rfC5de_-Sqt9YV7Maq_spusLluq1izW8pK_lR1_ziqeTFx0mw5zMHPMAYJYMZIMbWKfKLw0ilBBWpQ2qNKJ08RaQFoPH5-nF_bsZcRvtsgg.jpg"
+      "imageUrl": "https://cdn4.telesco.pe/file/BKHE5GBq4k60yJ4qCw8-SwrgyyiGxdaw-gGB7si3e0mhf8V-_IoJ4rx1W7ZWqrUsttr_i5HPWRe4ThnxWvw1CBDEsa7goSrPNxZm_XqQlGEJPW7uJIlwN6EBcAzr3ZpANQApssTDC1om-G-W3NaeiYcYs3UGUvxbBZX3CyyxUjh4508bx6yjm1ZjYySh_6PcX_KHVSbN59TpiAYK8zO1FOnDlrEzIa_IyoPuNGi0s9UtpctbgbUuWlo_47DOSnDMy4jyILWRnWq0x_-MNMWTutogSAvmOzjtJixFGy8Ex1idWjjF9EFSFaTr1bRsuiHMxixyzETd65Cu2RxgP5lWjQ.jpg"
     },
     "media": [],
     "mediaTypes": [],
@@ -597,40 +657,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.084Z"
-  },
-  {
-    "channel": "contest",
-    "channelTitle": "Telegram Contests",
-    "channelSubscribers": 297000,
-    "messageId": 458,
-    "url": "https://t.me/contest/458",
-    "date": "2026-07-13T16:20:34.000Z",
-    "text": "ContestBot is now ready to accept submissions for the Digital Freedom Contest.\n\nStart the bot, choose “Digital Freedom Contest”, answer the bot’s questions, then send:\n– A link(s) to your video(s) on TikTok, Instagram, YouTube, Snapchat Spotlights or X.\n\nUsername Verification: Remember to include your Telegram @username in the caption of your video on the external platform. If you cannot edit the caption, your Telegram @username must be visible in your bio or About section on the external platform.\n\n⚠️ Important: If you're submitting more than one video, put all links in a single message, separated by line breaks.\n\nNote: We will automatically discard videos that gained fewer than 10,000 views by the deadline or that did not meet the username verification criteria.",
-    "views": 214000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [],
-    "mediaTypes": [],
-    "poll": null,
-    "html": "<a href=\"https://t.me/contestbot\">ContestBot</a> is now ready to accept submissions for the <a href=\"https://t.me/contest/456\">Digital Freedom Contest</a>. <br><br>Start the bot, choose “Digital Freedom Contest”, answer the bot’s questions, then send:<br>– A link(s) to your video(s) on TikTok, Instagram, YouTube, Snapchat Spotlights or X.<br><br><b>Username Verification: </b>Remember to include <a href=\"https://t.me/TelegramTips/44\">your Telegram @username</a> in the caption of your video on the external platform. If you cannot edit the caption, <a href=\"https://t.me/TelegramTips/44\">your Telegram @username</a> must be visible in your bio or About section on the external platform.<br><br><blockquote><b>⚠️ Important:</b> If you're submitting <b>more than one video</b>, put all links in a <b>single message</b>, separated by line breaks.</blockquote><br><br><i>Note: We will automatically discard videos that gained fewer than 10,000 views by the deadline or that did not meet the username verification criteria.</i>",
-    "links": [
-      "https://t.me/contestbot",
-      "https://t.me/contest/456",
-      "https://t.me/TelegramTips/44"
-    ],
-    "mentions": [
-      "@username"
-    ],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.085Z"
+    "scrapedAt": "2026-11-10T18:50:29.222Z"
   },
   {
     "channel": "telegram",
@@ -673,7 +700,40 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.086Z"
+    "scrapedAt": "2026-11-10T18:50:29.222Z"
+  },
+  {
+    "channel": "contest",
+    "channelTitle": "Telegram Contests",
+    "channelSubscribers": 297000,
+    "messageId": 458,
+    "url": "https://t.me/contest/458",
+    "date": "2026-07-13T16:20:34.000Z",
+    "text": "ContestBot is now ready to accept submissions for the Digital Freedom Contest.\n\nStart the bot, choose “Digital Freedom Contest”, answer the bot’s questions, then send:\n– A link(s) to your video(s) on TikTok, Instagram, YouTube, Snapchat Spotlights or X.\n\nUsername Verification: Remember to include your Telegram @username in the caption of your video on the external platform. If you cannot edit the caption, your Telegram @username must be visible in your bio or About section on the external platform.\n\n⚠️ Important: If you're submitting more than one video, put all links in a single message, separated by line breaks.\n\nNote: We will automatically discard videos that gained fewer than 10,000 views by the deadline or that did not meet the username verification criteria.",
+    "views": 215000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [],
+    "mediaTypes": [],
+    "poll": null,
+    "html": "<a href=\"https://t.me/contestbot\">ContestBot</a> is now ready to accept submissions for the <a href=\"https://t.me/contest/456\">Digital Freedom Contest</a>. <br><br>Start the bot, choose “Digital Freedom Contest”, answer the bot’s questions, then send:<br>– A link(s) to your video(s) on TikTok, Instagram, YouTube, Snapchat Spotlights or X.<br><br><b>Username Verification: </b>Remember to include <a href=\"https://t.me/TelegramTips/44\">your Telegram @username</a> in the caption of your video on the external platform. If you cannot edit the caption, <a href=\"https://t.me/TelegramTips/44\">your Telegram @username</a> must be visible in your bio or About section on the external platform.<br><br><blockquote><b>⚠️ Important:</b> If you're submitting <b>more than one video</b>, put all links in a <b>single message</b>, separated by line breaks.</blockquote><br><br><i>Note: We will automatically discard videos that gained fewer than 10,000 views by the deadline or that did not meet the username verification criteria.</i>",
+    "links": [
+      "https://t.me/contestbot",
+      "https://t.me/contest/456",
+      "https://t.me/TelegramTips/44"
+    ],
+    "mentions": [
+      "@username"
+    ],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.223Z"
   },
   {
     "channel": "durov",
@@ -683,7 +743,7 @@
     "url": "https://t.me/durov/547",
     "date": "2026-09-06T17:40:39.000Z",
     "text": "💸 In just one month, Telegram has awarded over $2,222,000 to some of the brightest minds on our planet.\n\n🎨 This week alone we distributed $222,000 among the winners of our two latest competitions — the Design Contest and the Digital Freedom Contest.\n\nOn top of that, over the past month we awarded prizes worth more than $2 million to the winners of the 2026 International Olympiads in Informatics and AI.\n\nWe're proud to support the best! 🎁",
-    "views": 4400000,
+    "views": 4470000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -692,21 +752,21 @@
       },
       {
         "emoji": null,
-        "count": 29400,
+        "count": 29500,
         "customEmojiId": "5399847211989246390"
       },
       {
         "emoji": null,
-        "count": 8800,
+        "count": 8830,
         "customEmojiId": "5936157098181135162"
       },
       {
         "emoji": null,
-        "count": 8180,
+        "count": 8190,
         "customEmojiId": "5373223594484587136"
       }
     ],
-    "reactionsTotal": 54930,
+    "reactionsTotal": 55070,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Pavel Durov",
@@ -733,7 +793,46 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.087Z"
+    "scrapedAt": "2026-11-10T18:50:29.223Z"
+  },
+  {
+    "channel": "telegram",
+    "channelTitle": "Telegram News",
+    "channelSubscribers": 9150000,
+    "messageId": 454,
+    "url": "https://t.me/telegram/454",
+    "date": "2026-07-19T17:58:20.000Z",
+    "text": "For all the details on these new features, check out our blog:\nhttps://telegram.org/blog/communities-editor-invisible-messages\n\nJuly Features\n1 • 2 • 3 • 4 • More",
+    "views": 2670000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": {
+      "url": "https://telegram.org/blog/communities-editor-invisible-messages",
+      "siteName": "Telegram",
+      "title": "Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs",
+      "description": "Introducing a rich text editor to format and generate text, Telegram Communities linking together several groups, channels and bots, ephemeral bot messages in groups, search for over 350 million GIFs and much more.",
+      "imageUrl": "https://cdn4.telesco.pe/file/eUHpWeRrgnfo1qfT9KT8kgLJEF5ywrTivdggJB9bLQ1V73EIo9Ny2Ex4KxGZj137rA05Eo7SWbW-WRm56VW-SOXUSzjKj-8pHWMa-kxPjTAAHm_hsQFQkp05F7lC6oCz60IFOZB6va552DA9Wpl29Oj71Fw8n2hwJ4_wAjLzTQOI9g5szryZlsAFBcwZ5Xn62He8Xv2EDpf6LX1dzWeKyaKpTa44u6B95_0S8gmC73l-P9lBljekkm2b67KdGl1IAEqIGX53yxvyViLvqyS2F8ANInLIqQCKk_a89Iy4jowMkbLjbMTsaK7OiLxuuNN6q5YJ_yu55gmuJRxDaCieBA.jpg"
+    },
+    "media": [],
+    "mediaTypes": [],
+    "poll": null,
+    "html": "For all the details on these new features, check out our blog:<br><a href=\"https://telegram.org/blog/communities-editor-invisible-messages\">https://telegram.org/blog/communities-editor-invisible-messages</a><br><br>July Features<br><a href=\"https://t.me/telegram/450\">1</a> • <a href=\"https://t.me/telegram/451\">2</a> •&nbsp;<a href=\"https://t.me/telegram/452\">3</a> •&nbsp;<a href=\"https://t.me/telegram/453\">4</a> •&nbsp;<b>More</b>",
+    "links": [
+      "https://telegram.org/blog/communities-editor-invisible-messages",
+      "https://t.me/telegram/450",
+      "https://t.me/telegram/451",
+      "https://t.me/telegram/452",
+      "https://t.me/telegram/453"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.224Z"
   },
   {
     "channel": "contest",
@@ -765,46 +864,7 @@
       "@username"
     ],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.087Z"
-  },
-  {
-    "channel": "telegram",
-    "channelTitle": "Telegram News",
-    "channelSubscribers": 9150000,
-    "messageId": 454,
-    "url": "https://t.me/telegram/454",
-    "date": "2026-07-19T17:58:20.000Z",
-    "text": "For all the details on these new features, check out our blog:\nhttps://telegram.org/blog/communities-editor-invisible-messages\n\nJuly Features\n1 • 2 • 3 • 4 • More",
-    "views": 2670000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": {
-      "url": "https://telegram.org/blog/communities-editor-invisible-messages",
-      "siteName": "Telegram",
-      "title": "Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs",
-      "description": "Introducing a rich text editor to format and generate text, Telegram Communities linking together several groups, channels and bots, ephemeral bot messages in groups, search for over 350 million GIFs and much more.",
-      "imageUrl": "https://cdn4.telesco.pe/file/MjtZae2SW3t_Oolru3v8QBIz3uQBlvokiPkfeJFfPpBKnNxhQf57MaQiqYsy9jLh89CzO-E8vYz_vYafppalXP6RTaylHtOS09N-Zgl6-MmEYX1V5CPdUAfh9MWnRDADlKP8TtnAPENKlnwldOevydVu47mdg1iDFBZHSeet5tncnM62pVZK9j0KYleIvUP5GSOnMMJ0gievacP4yvh433A-AasWKfbYhtXgbwzsUC5AGrecAiDd1dJ49bmkxEKTMIYwDKVMh_ixxEhyagLUk775Ti4g8IBKQMxdQxiKLaoBuEb6qY0ZIbszXiyRHbsNEY0BkVUA9YESqEA3xyNkjg.jpg"
-    },
-    "media": [],
-    "mediaTypes": [],
-    "poll": null,
-    "html": "For all the details on these new features, check out our blog:<br><a href=\"https://telegram.org/blog/communities-editor-invisible-messages\">https://telegram.org/blog/communities-editor-invisible-messages</a><br><br>July Features<br><a href=\"https://t.me/telegram/450\">1</a> • <a href=\"https://t.me/telegram/451\">2</a> •&nbsp;<a href=\"https://t.me/telegram/452\">3</a> •&nbsp;<a href=\"https://t.me/telegram/453\">4</a> •&nbsp;<b>More</b>",
-    "links": [
-      "https://telegram.org/blog/communities-editor-invisible-messages",
-      "https://t.me/telegram/450",
-      "https://t.me/telegram/451",
-      "https://t.me/telegram/452",
-      "https://t.me/telegram/453"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.088Z"
+    "scrapedAt": "2026-11-10T18:50:29.224Z"
   },
   {
     "channel": "durov",
@@ -814,7 +874,7 @@
     "url": "https://t.me/durov/546",
     "date": "2026-08-31T16:30:15.000Z",
     "text": "🏳️ Gram Wallet in Telegram is ready and is now accessible to a select group of users.\n\n🤩 We'll be gradually rolling it out to our billion+ users over the next couple of weeks.\n\n⚡️ Thanks to the validators who approved the smart contract that powers it, future upgrades of the wallet won't require painful migrations.\n\nThis is just one of the innovations we've built to make non-custodial wallets usable ✨",
-    "views": 4400000,
+    "views": 4440000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -823,21 +883,21 @@
       },
       {
         "emoji": null,
-        "count": 28600,
+        "count": 28700,
         "customEmojiId": "5399847211989246390"
       },
       {
         "emoji": null,
-        "count": 9420,
+        "count": 9440,
         "customEmojiId": "5373223594484587136"
       },
       {
         "emoji": null,
-        "count": 7550,
+        "count": 7560,
         "customEmojiId": "5936157098181135162"
       }
     ],
-    "reactionsTotal": 81270,
+    "reactionsTotal": 81400,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Pavel Durov",
@@ -862,7 +922,49 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.088Z"
+    "scrapedAt": "2026-11-10T18:50:29.224Z"
+  },
+  {
+    "channel": "telegram",
+    "channelTitle": "Telegram News",
+    "channelSubscribers": 9150000,
+    "messageId": 453,
+    "url": "https://t.me/telegram/453",
+    "date": "2026-07-19T17:58:17.000Z",
+    "text": "350 Million GIFs. The GIF panel now contains over 350 million GIFs in 36 languages.\n\nYour Telegram GIF searches are entirely private and do not rely on any third parties.\n\nJuly Features\n1 • 2 • 3 • 4 • More",
+    "views": 2070000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://cdn1.telesco.pe/file/e07208aa9b.mp4?token=RrObu5JyL0pBYc4k5AMPuxntAaS1B-pwvs-XoWopHwoBzFRQC7I29ynLDoitF9nUeScU-kG0lTeUVoLTt76H0CpPuwIsx0ovfY9dj7HLPvmpt_bnQLikAg6WbFTrwJlnsnJevFFkUfwkTVMaMqn2ukFyQ8JogeykUKDLmMRwXWuaS2dBGMDFSOTGwVw0sWoB5_G4EFXi54S4RE7pnaMFdKI6D7SRtym4ymMyzoWOSpA-ytoB6ducH1GvEAZfmZhw0UqOpv8Z3vuf2mlaich7XGvwcK9N86ZIOYq2J-5GA4JCpoYVsJ4ySNYPSGb87tQ-194WE7CBAAPgPe6SANiv9Q",
+        "thumbnailUrl": "https://cdn1.telesco.pe/file/p-VUAkL58JZY1ldl6N9gaHio0jpPeV_H3avIQMmusccaCt76dA578ciuEaT6ceYK8NCCm8wQlDCVi6YX-2Bq5SJjRZyqsfjSJ6vTTxPBInLm7EO92m-bQB5ei8-CQ3_Rc-R4r-K5jaiHjz57i_jr7B0ScqAimXd87BeRI3-wRTpilVMhHX0Rs-UESH4DcLb2QBjGy0Yf_ysRvUvBnhbH-Gdv3RkCoXDaXmww7_GLcLKegBwKY7NChT11oLjIv_g67W0Sq5MOcMZaJT_0nbIzu6NXyl6BacoY2H8929NP7CPpfrWUyBW72-ToIiaAnPuA5lz49enXXaboLG-v_3TlKQ",
+        "duration": "0:09",
+        "messageUrl": "https://t.me/telegram/453"
+      }
+    ],
+    "mediaTypes": [
+      "video"
+    ],
+    "poll": null,
+    "html": "<b>350 Million GIFs.</b> The GIF panel now contains over 350 million GIFs <b>in 36 languages</b>.<br><br>Your Telegram GIF searches are <b>entirely private</b> and <b>do not rely</b> on any third parties.<br><br>July Features<br><a href=\"https://t.me/telegram/450\">1</a> • <a href=\"https://t.me/telegram/451\">2</a> •&nbsp;<a href=\"https://t.me/telegram/452\">3</a> •&nbsp;<b>4</b> •&nbsp;<a href=\"https://t.me/telegram/454\">More</a>",
+    "links": [
+      "https://t.me/telegram/450",
+      "https://t.me/telegram/451",
+      "https://t.me/telegram/452",
+      "https://t.me/telegram/454"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.225Z"
   },
   {
     "channel": "contest",
@@ -886,7 +988,7 @@
       "siteName": "YouTube",
       "title": "Pavel Durov | Communication Technology and the Struggle for Freedom",
       "description": "He built platforms to protect speech when speaking freely became dangerous.\n\nAt the Oslo Freedom Forum, Pavel Durov shares how Telegram emerged from a commitment to free expression and why defending digital freedom is central to protecting human rights today.…",
-      "imageUrl": "https://cdn4.telesco.pe/file/qUJMhnk2oTWZjxcQY4FQsV8vqBtehb1vTvq1wB0tthVTdRjwwFG1FuC9weLQ2n2UBOBuFSbOYcgsfIJu5L9_69vA52tElgZqcIE18RUPEYNm8Nf80c9DKZvjiPA7ninlJz-_hjGZEkwVbAXDvah4lHxCQCtp_A5yD8Mn7g7EU8g-24NV33MV8ZN4PoiP6BgD3UcDFUxCZAHUzhLUu0u6mxSTSdLB4tf_teegm39P6aJqwdfcsj6tcOUJtQrDTukoBJlD0EFFHvYMFiPrgE59X31OELLSTEZculDMj0GQWgp38HZT1mcy9azBY831sh2k02PCMfEOXEdu3XfVqh_KYw.jpg"
+      "imageUrl": "https://cdn4.telesco.pe/file/AHFCB7fbxthhk1AcJJICUX9c6p1SakGgfOllYexy-ajc24Pq2mZ_IdK8ArC63Op1L-j8-wDeWYgam4TX4XomZq6uoEgsNXQy_U6meApmNdJblMoPdEAtnNTR_Dt-8fruo7znzjZaM7IZUeguFGJhCmPjlnZ1Gl4mo6juIdJB9NaOWque_d7h6dFqlhp5FNQmt2Th71zjofMLLyXRpc7Houx6COE8Yxpcke3IiEaSSxNnAR25Hbb8KGM8CAoMdu3uLd6312j2qeQrCjsf7HClCrQIsaNP_eFuLxtdurKm8mUvuAlvtIXAwA5xE8n0pk1NFlF0vRiO4G0NrCkuTq_-bg.jpg"
     },
     "media": [],
     "mediaTypes": [],
@@ -898,49 +1000,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.089Z"
-  },
-  {
-    "channel": "telegram",
-    "channelTitle": "Telegram News",
-    "channelSubscribers": 9150000,
-    "messageId": 453,
-    "url": "https://t.me/telegram/453",
-    "date": "2026-07-19T17:58:17.000Z",
-    "text": "350 Million GIFs. The GIF panel now contains over 350 million GIFs in 36 languages.\n\nYour Telegram GIF searches are entirely private and do not rely on any third parties.\n\nJuly Features\n1 • 2 • 3 • 4 • More",
-    "views": 2070000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [
-      {
-        "type": "video",
-        "url": "https://cdn1.telesco.pe/file/e07208aa9b.mp4?token=Lf3id-eLubbeP3VKGPUvd88Ysb6lnoAa3aDwgDa8hZ31znMjkRPJe-hoPS5raM81x7wYsKqhKH35TS0tSjG0N8JDhZP1vSaXCfv0DJaF20G81Vi0y2z9ax1CvZlU_xP4w13IC6WlsLSsjAgTiH0e0x5E0G6kpO8JVo1xhI9Sbz1l76WSe9zErVuyi6BQF4E6MTuB0rin7MO3rRd4nrpw2OXFB5DMQcHITQHefmhj2J_ve-KogUwWue6l5J-F6DzCHsxl0yRx_UTTSkN6NUviGkzURBrDoGGdmcPASTuiwlVPzDi2rSH67QQEmYWl4zpTfAuW6reQOimnL80uPVysZQ",
-        "thumbnailUrl": "https://cdn1.telesco.pe/file/KnsSNZhMYld-fWg2nBQ5dbXilc81CmRqPttqAmgtdiRmZ0sNFVy1IcF4WQel_wYNnaSr_5t07wxSag8SHXMHUN2fZhfxBVGvZDtbAq6Vk-iKf2lwrjEcdZ6gsTwAWV-jAWUkrbyYNRO7v7sfqf8NZtmqlPYRmC6ufIZnX6rXu_VK7o_jxY6rbQPN_tu2H3Gb-uqpoLk3xPzDfObjI8HEHWUDCBEZH4k3wJwr4uT5fIFaEXdh90dQDsVujiHcFen0yIA7Ko9nwv0nauKb7IndaU07-WK7B5pwtmYloy4GOaelwhZ3tBkCgfXiTnm7W7qGxtQVZ3b2vTg7Ut6KHAHx0Q",
-        "duration": "0:09",
-        "messageUrl": "https://t.me/telegram/453"
-      }
-    ],
-    "mediaTypes": [
-      "video"
-    ],
-    "poll": null,
-    "html": "<b>350 Million GIFs.</b> The GIF panel now contains over 350 million GIFs <b>in 36 languages</b>.<br><br>Your Telegram GIF searches are <b>entirely private</b> and <b>do not rely</b> on any third parties.<br><br>July Features<br><a href=\"https://t.me/telegram/450\">1</a> • <a href=\"https://t.me/telegram/451\">2</a> •&nbsp;<a href=\"https://t.me/telegram/452\">3</a> •&nbsp;<b>4</b> •&nbsp;<a href=\"https://t.me/telegram/454\">More</a>",
-    "links": [
-      "https://t.me/telegram/450",
-      "https://t.me/telegram/451",
-      "https://t.me/telegram/452",
-      "https://t.me/telegram/454"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.090Z"
+    "scrapedAt": "2026-11-10T18:50:29.225Z"
   },
   {
     "channel": "durov",
@@ -950,7 +1010,7 @@
     "url": "https://t.me/durov/545",
     "date": "2026-08-30T09:10:19.000Z",
     "text": "A high-school student just made $20,000 from a Telegram Gift.\n\nJonathan He, an IOI gold medalist ranked #7 in the world, sold his Algorithm Cup — an NFT we gave to the top young coders this month — for 💎 15,000 Grams.\n\nHappy for him. It's a meaningful sum for someone still in school, and I suspect a small fraction of what he'll go on to build.\n\n20 years ago, $20K was enough for me to launch my first company. Within months, it had reached 1M users and raised $12M at a $60M valuation. 💸\n\nI hope some of this year's winners put their Grams to similar use! 📈",
-    "views": 3310000,
+    "views": 3390000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -992,7 +1052,47 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.090Z"
+    "scrapedAt": "2026-11-10T18:50:29.226Z"
+  },
+  {
+    "channel": "telegram",
+    "channelTitle": "Telegram News",
+    "channelSubscribers": 9150000,
+    "messageId": 452,
+    "url": "https://t.me/telegram/452",
+    "date": "2026-07-19T17:57:31.000Z",
+    "text": "Ephemeral Bot Messages. You can now send private commands to bots in group chats and receive replies that are only visible to you.\n\nJuly Features\n1 • 2 • 3 • 4 • More",
+    "views": 1450000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://cdn1.telesco.pe/file/HG8cqqW_l4ASqudL4wAw7GQjsvLxMsJSMHHiS4Gj51p6wAWuttPIHOL_VjgIUTkLr4wYXtKwf08PvoNTO-4hDuS2ZJztzMncTKlmOVr6N0PNgZ6ULCikbKAgpMgeeojNZx1j1DKrfMQ34lwV9YpIFl1DS2Jca6lKtrecqcF1wDsnfRZm4Wch86uQ2-tBH0BM8-pptASj3Q4O0YFGUY3KBEPhOfOdsIMQ58OFola3ynKztvMIc0MfW7KjgwrTxte-Vx9iAkrfZRmPPzXVPbeN9zFWvQeKUdftcg7fySwHQCW9iwnKQMtBCimxL6JEVp7grD8LiRTk6kG6s1xTvQiEPg.jpg",
+        "messageUrl": "https://t.me/telegram/452"
+      }
+    ],
+    "mediaTypes": [
+      "photo"
+    ],
+    "poll": null,
+    "html": "<b>Ephemeral Bot Messages.</b> You can now send <b>private commands</b> to bots in group chats and receive replies that are <b>only visible to you</b>.<br><br>July Features<br><a href=\"https://t.me/telegram/450\">1</a> • <a href=\"https://t.me/telegram/451\">2</a> •&nbsp;<b>3</b> •&nbsp;<a href=\"https://t.me/telegram/453\">4</a> •&nbsp;<a href=\"https://t.me/telegram/454\">More</a>",
+    "links": [
+      "https://t.me/telegram/450",
+      "https://t.me/telegram/451",
+      "https://t.me/telegram/453",
+      "https://t.me/telegram/454"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.226Z"
   },
   {
     "channel": "contest",
@@ -1022,47 +1122,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.091Z"
-  },
-  {
-    "channel": "telegram",
-    "channelTitle": "Telegram News",
-    "channelSubscribers": 9150000,
-    "messageId": 452,
-    "url": "https://t.me/telegram/452",
-    "date": "2026-07-19T17:57:31.000Z",
-    "text": "Ephemeral Bot Messages. You can now send private commands to bots in group chats and receive replies that are only visible to you.\n\nJuly Features\n1 • 2 • 3 • 4 • More",
-    "views": 1450000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [
-      {
-        "type": "photo",
-        "url": "https://cdn1.telesco.pe/file/Lah1gXagqswxGuIFsUnxKKtNkDHsIHVBByf4YH3FdlJ7bD69vg38pUz7uBl5Jy3Zy1MEk0-EzDEcb0ZuvBS8HL7cSrLTvqYpBgcFC_Z_VY-hRhFpzrOCXEbXEuqQDhj3W2evj3l_au72hOHQ6QPlNsE7IA3A7zr0SB4BIJr4dy_sL3-R1cFJvzI7JgFYFz92gTIMcWNRweF4wX4ZmfPOpDJ1z4YwrkCtEELTzw0FDcYfD535tsyxbYGGc6PnqHWeiHe42ZpWb5qiz1Sg6Gt2evS2Dlj887ovQTVeniE8OGAsqJx5rXiogCIWcvOrOnWbS1gO2pB4ewS9S17l5LR0Nw.jpg",
-        "messageUrl": "https://t.me/telegram/452"
-      }
-    ],
-    "mediaTypes": [
-      "photo"
-    ],
-    "poll": null,
-    "html": "<b>Ephemeral Bot Messages.</b> You can now send <b>private commands</b> to bots in group chats and receive replies that are <b>only visible to you</b>.<br><br>July Features<br><a href=\"https://t.me/telegram/450\">1</a> • <a href=\"https://t.me/telegram/451\">2</a> •&nbsp;<b>3</b> •&nbsp;<a href=\"https://t.me/telegram/453\">4</a> •&nbsp;<a href=\"https://t.me/telegram/454\">More</a>",
-    "links": [
-      "https://t.me/telegram/450",
-      "https://t.me/telegram/451",
-      "https://t.me/telegram/453",
-      "https://t.me/telegram/454"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.091Z"
+    "scrapedAt": "2026-11-10T18:50:29.227Z"
   },
   {
     "channel": "durov",
@@ -1072,7 +1132,7 @@
     "url": "https://t.me/durov/544",
     "date": "2026-08-24T21:21:51.000Z",
     "text": "🚨 Two years ago, I was detained in Paris by police for 3 days — the longest they can hold someone before charging them.\n\nIn an unprecedented move, French authorities accused the head of a major platform of crimes committed by its users.\n\nThat investigation is still ongoing, although it makes less sense with each passing year.\n\nWhy?\n\nBecause we now have extensive evidence that Telegram was neither worse than other popular platforms at moderation, nor the worst at cooperating with authorities.\n\nSo why was Telegram singled out?\n\nOver the last two years, we have seen a pattern emerge in multiple countries: Telegram is quietly pressured to grant political favors — such as illegal censorship or surveillance. When we refuse, local media and “non-governmental” organizations launch orchestrated campaigns portraying Telegram as a cesspool of crime, from child pornography to terrorism.\n\nOur moderation is no worse than that of other major platforms. Yet these campaigns instill the idea that Telegram should be persecuted or restricted.\n\nSuddenly, officials start caring about crime and protecting children — but only on platforms that reject their secret political demands. Platforms that accept such deals get away with almost anything — including literally selling ads promoting child pornography.\n\nIs the French investigation against me political? It certainly fits the pattern we see elsewhere, mostly in authoritarian countries. And it definitely raises questions.\n\nIn time, this investigation may itself be investigated — especially now that Macron’s war against free speech is facing pushback. This month, France’s Constitutional Council struck down his social media ban for children under 15 on freedom-of-expression grounds.\n\nIn the end, freedom and truth will prevail ✊",
-    "views": 4040000,
+    "views": 4080000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -1081,7 +1141,7 @@
       },
       {
         "emoji": null,
-        "count": 41000,
+        "count": 41100,
         "customEmojiId": "5373223594484587136"
       },
       {
@@ -1091,11 +1151,11 @@
       },
       {
         "emoji": null,
-        "count": 11300,
+        "count": 11400,
         "customEmojiId": "5936157098181135162"
       }
     ],
-    "reactionsTotal": 84100,
+    "reactionsTotal": 84300,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Pavel Durov",
@@ -1107,7 +1167,7 @@
       "siteName": "France 24",
       "title": "France's top court blocks Macron's social media ban for under-15s",
       "description": "France's constitutional council struck down a proposed ban on social media for children under 15 on Friday, citing freedom of expression. President Emmanuel Macron tasked Prime Minister Sébastien Lecornu…",
-      "imageUrl": "https://cdn4.telesco.pe/file/NdjdaBkyB5_i4oKYhkLYmV_bqUGaU_xLEmZ0uprmp449PirfoJyq-P8w1py3n-2xiQUlmV9UJgSAcsMjyZ13eil79fjO4g6uDZl8sBMI1TY8zlKDxgVqInVQigFHuP-OCSnp5t0tNfxvtP8KNCZ_p7VvWvFkkUFPKlGTaq1zCRT1cObGnuohbrHyisldy77hw3OBescWETC0EibRLYA2WM9Oucl-QojKLF4JD8NgEjNTHHZff0HBxv2jUXwn_hbuV-diSgOOvJxve3x9wmY2_WCyedmjPwwJPv_oq4zXGdxuVsAWVH54lJ-mlWn4Wx48WH11MW1F6AuGI_3qEEvZ4w.jpg"
+      "imageUrl": "https://cdn4.telesco.pe/file/AkvvQESmtxhvG4_hJ2F2_JXx6wn6KRkGsgYGFS-UVgeLjiaF-qfyNte7rjJdRFJ260WbmtKWOSdEInWOUNYb99JfzudzasSDd0NWRmmAlzVBWJcaM805T8nY-8OgRcfkDP3gRDMyZpJhl8Q-Yc9BfSQtnqeQ6FbxxXFUHxsN0u5D-CqipwSB2nhwBV8GGhgUVy0YzB6xIZExDlGNvVWhf5GJ1uHWo3d7mxB7m37HUxmSz51Y-lmantbVONhXS-NO3H3D0b5iBOQO4j5WRlS9dOhF0LHkBwq6Zp1yWmFsjbpe5tgYN3Jrvkx7OWEIkm2bvqrOgVon934zGdHt9WlHlg.jpg"
     },
     "media": [],
     "mediaTypes": [],
@@ -1122,7 +1182,49 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.092Z"
+    "scrapedAt": "2026-11-10T18:50:29.227Z"
+  },
+  {
+    "channel": "telegram",
+    "channelTitle": "Telegram News",
+    "channelSubscribers": 9150000,
+    "messageId": 451,
+    "url": "https://t.me/telegram/451",
+    "date": "2026-07-19T17:57:29.000Z",
+    "text": "Telegram Communities. Several groups, channels and bots can now be linked together in a single community, where members can view and join other chats instantly.\n\nJuly Features\n1 • 2 • 3 • 4 • More",
+    "views": 1500000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://cdn1.telesco.pe/file/6ca2d20645.mp4?token=FNmKqtpfbXn-iJVpPNIITu4HM6bNS-puzz3JPkmkGgYM0QNhvuBty1SA_Q0fPIRm-GzRuJxpbSN6BZ7BSPyWKadHYMpbQKRrFs3ZNeYQoJvcPtyvjsH87FbnCPMD-9OEE14WSoBfVLZdPU1pkBXbHZRMxpbCWQNVUYZctkjScltPupSGlC-StvhmjO9hRYNJ5paB4zieAAm9pM2swdnkzDEoBufXlRiplEcrll-5lQ8JLCaWuqFtiCdmVcGccQlyQD-8IU_nce-dTVQm8d2uWJeHZy4lhWF__Rjr_bTeSaAF4mvcITa8y-ASAYqaa7q4if7KnqwDmUGkEvrz7taC2Yi-rc8JTn60jg3WQw8tSra5FJxajnlRbgTcvWPed9A7hoA88mFEYCu96vjiXAEZIAWkQueE-1qfgrnZIiKZoOLSGAUdxqESUh_wv6CWr27chfsCsgVoKSxYSAmHOwd9qM7iqlPdgl1WkxUyV4FV1b61Q8iTvryYmw13wykAZmAL84M8Ol7JirvcyAAKeOKp5D_ZEhqwoY_cuXrmIQkPFgzhCGz6UMwuTUnj_s4PDZe4dZ6NOvNp-dJRftmQqnzb8PDbBsTnn49KDphInnbCV3xZTrl6vLoFMz2QYxq3AZWfks8FtguR1kxPhFOt7Z_JSDXnBAlnUdZaDVx7DBCB7MQ",
+        "thumbnailUrl": "https://cdn1.telesco.pe/file/MBjF2yIRZapeIgWX70qNnbZZ8cR3z36jAyoxkFYeN6bSSNGB0udIJOH-iXYo9voBMYGMIXDE7-Xq3qe3R0SY-nufEFqEOe7YlhUQGwTyx4LhvdbH0wQ-wXLOwuVkuVcBgj6d8HQw-yhfmlBfHqIiQ0ucU4ioX3Uy7vhcmapcR7ijyKgv0ugicf0aRKO8KRJ17aR5QU_fe5wi3y0FyXr6hOWevDLBpuaGHRZrZir7KT70Mvv7bTM7RBMEQMKzUVqrVthQfFCUfnNqKkQQdNX4JtWsrZ4i4DU--oCt4VHrnIT3ux2sAXQxjGJc1pVcFxFUYnmDGe6uzkSQkyS6EI-eUQ",
+        "duration": "0:18",
+        "messageUrl": "https://t.me/telegram/451"
+      }
+    ],
+    "mediaTypes": [
+      "video"
+    ],
+    "poll": null,
+    "html": "<b>Telegram Communities.</b> Several groups, channels and bots can now be <b>linked together</b> in a single community, where members can view and <b>join other chats</b> instantly.<br><br>July Features<br><a href=\"https://t.me/telegram/450\">1</a> • <b>2</b> •&nbsp;<a href=\"https://t.me/telegram/452\">3</a> •&nbsp;<a href=\"https://t.me/telegram/453\">4</a> •&nbsp;<a href=\"https://t.me/telegram/454\">More</a>",
+    "links": [
+      "https://t.me/telegram/450",
+      "https://t.me/telegram/452",
+      "https://t.me/telegram/453",
+      "https://t.me/telegram/454"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.228Z"
   },
   {
     "channel": "contest",
@@ -1227,49 +1329,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.092Z"
-  },
-  {
-    "channel": "telegram",
-    "channelTitle": "Telegram News",
-    "channelSubscribers": 9150000,
-    "messageId": 451,
-    "url": "https://t.me/telegram/451",
-    "date": "2026-07-19T17:57:29.000Z",
-    "text": "Telegram Communities. Several groups, channels and bots can now be linked together in a single community, where members can view and join other chats instantly.\n\nJuly Features\n1 • 2 • 3 • 4 • More",
-    "views": 1500000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [
-      {
-        "type": "video",
-        "url": "https://cdn1.telesco.pe/file/6ca2d20645.mp4?token=Hw497-8YevkBiJ4Cb-U7-V5HKyg2TD68wzjrIdapLTRS-uuVU63_6BYirEYn851IzzJpfsESobyurSMOQ4aceGLzgEeWKVThqeVuwPi_ODtuG-HZdTR97-h10eBZ6679kqoEzhIP0IHMj17HIRrwjpAn6Ku7lQpKhHVyq2xROIeIWXeMiw6yZehWrNvtXX3x9p1MO2bVbaEdZa3g3EIwJR2nlIh8wqqRYtemhbt54wXjmLSg3kHaqtaaCwC2RHKDqN8k4bukLR57fzPMoEJ6HAGxSUgljaAgZkaD0ZBDUktEqVjvSrUQaG5jwnFv10HPEAGWFRlq6cT1AmIRCF-VODzoLYYGMqknLXWitR9ENcuYlvuH2_duRcW1gSNrDutwJRiNb4oohoOr2QiJZhWoYyGpijaw_6z9cGAq5qraeb67jIHbQJRGf3qFSIx1nXYKlYBH2IGEFbmyeDQT784STQ5YPI-eEt4U2NpNTzs5qqOhyJVQlX8AwFaoOXyE8JMF1U5N6F2kgYRk9lSL-fG7i4rS94h3rQJ8XKuOf9GXGF6tJT-wZRWgCS1AQJnzDxJQ0sz9GR52DM9Ho7mOsVJxsH0JrprSkZ-jLGCuNWz4izHcr0djjMAgjRxHVogYUkwXcmv5R27x7EdgEMGthHOr_gJwSqXM3BRMKCcD7HrBjy0",
-        "thumbnailUrl": "https://cdn1.telesco.pe/file/OA28l3AEvKIL_y2EHs76e59HG_ndvZJOQ5pIIDklzyXIoxtw3S7K5pu4ROIu2gMsoH0Rq-6kmvysvnJbn89r6Viju0feJjiPPm7NPkcArvgIAwfkPQJGA8OGgofviF9dZs3y2Rgoui9FgS1lKAUD-pL_mMLvKIRBL3keWLtFdAO-yZpca9sVpNzH0HqyoH-vJyZFQRD-ERlfeX7pCoDYeEcTfCSohZ3Hdt5vWZY3IhjKoSC8YCatnLvYdUkrOD97GE-X4Y8hhtJqbC5s3OnmpeEonVi5MAlupdwj0Tqq3IDzqtDZWDhwJalo4ksDx_5OPtmQJ0fw7FHzm5_XtUyhOw",
-        "duration": "0:18",
-        "messageUrl": "https://t.me/telegram/451"
-      }
-    ],
-    "mediaTypes": [
-      "video"
-    ],
-    "poll": null,
-    "html": "<b>Telegram Communities.</b> Several groups, channels and bots can now be <b>linked together</b> in a single community, where members can view and <b>join other chats</b> instantly.<br><br>July Features<br><a href=\"https://t.me/telegram/450\">1</a> • <b>2</b> •&nbsp;<a href=\"https://t.me/telegram/452\">3</a> •&nbsp;<a href=\"https://t.me/telegram/453\">4</a> •&nbsp;<a href=\"https://t.me/telegram/454\">More</a>",
-    "links": [
-      "https://t.me/telegram/450",
-      "https://t.me/telegram/452",
-      "https://t.me/telegram/453",
-      "https://t.me/telegram/454"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.093Z"
+    "scrapedAt": "2026-11-10T18:50:29.228Z"
   },
   {
     "channel": "durov",
@@ -1279,7 +1339,7 @@
     "url": "https://t.me/durov/543",
     "date": "2026-08-18T17:37:31.000Z",
     "text": "💎 Telegram has applied for the .gram domain zone.\n\nIf the application is approved by ICANN, a billion Telegram users could get their own second-level domains.\n\n🖥 For example, @durov would get durov.gram, and @monk would get  monk.gram.\n\nUsers would be able to set up their interactive websites hosted by Telegram — just by typing one prompt ✨",
-    "views": 4190000,
+    "views": 4210000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -1298,11 +1358,11 @@
       },
       {
         "emoji": null,
-        "count": 15000,
+        "count": 15100,
         "customEmojiId": "5936157098181135162"
       }
     ],
-    "reactionsTotal": 113700,
+    "reactionsTotal": 113800,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Pavel Durov",
@@ -1320,7 +1380,49 @@
       "@monk"
     ],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.093Z"
+    "scrapedAt": "2026-11-10T18:50:29.228Z"
+  },
+  {
+    "channel": "telegram",
+    "channelTitle": "Telegram News",
+    "channelSubscribers": 9150000,
+    "messageId": 450,
+    "url": "https://t.me/telegram/450",
+    "date": "2026-07-19T17:57:15.000Z",
+    "text": "⭐️ Rich Text Editor. You can now create articles and long posts in a visual editor that supports dozens of formatting options and allows you to generate text with privacy-conscious AI tools.\n\nJuly Features\n1 • 2 • 3 • 4 • More",
+    "views": 1360000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://cdn1.telesco.pe/file/9998a6a814.mp4?token=HvwlIaox_ZqMIas-ZyFItdON_OCnXH6Q8hup6o7U1GdFrtrqlbmeEqpvFpjic-ur990luGlquwp7bXKyAwGT1eRXNHpGnBEVv8j4roEtl7jEtQyBBEL5r76vz2N7CYhSVe43iR__rjF6bRS_hYXm2jPBBpS__i4YB6Lm7D7gflxTfGTI1JwHBY7IoRUMxmNqXKMtt6G9f3b6cmgw6mogWxJeBe_bZLzanzWXdaYcw4-3wTScBmWfqWBIrfw4MIDevN9d8yDY-1Fo8tTc6zyzyzbSzvtSBA1n73PAlsRVmkJqmsAxeR08nZ8-CmwV40ZkVbFrV4NF3CXuv-I1RGEMdQ",
+        "thumbnailUrl": "https://cdn1.telesco.pe/file/JJzuKmUON-iPaSrOkQsoxW6gE2CBn5Ys1AQKCCA3q3ji6fbC43_BT95Y7BEI9_AJ-1KYtbHEBNlINbBb5KVZ2KQT4CBmWdcPGuraajvDDH7E-V0WI4izsHugRPUdRIGMI1l327RjPr-cwW5OBPdniVDwHi4z3vBd15BjXhCEIab9qWVmXQde4SkzgkyfHhZdWVdwByX6kQKzV48NHr_fAA6vqK1yRbw2XZylpz6dXtDzBRZ9vhSh1s_7i2H3zaMX_7Jq3nKp9pZlZFfaFwfC5te0_riq2ga5dzy5Sj5t2_ABe5p-HkDU3OXSrAhpSMpgIVwft_nvQZSolt27dXDnFg",
+        "duration": "0:14",
+        "messageUrl": "https://t.me/telegram/450"
+      }
+    ],
+    "mediaTypes": [
+      "video"
+    ],
+    "poll": null,
+    "html": "⭐️ <b>Rich Text Editor.</b> You can now create articles and long posts in a <b>visual editor</b> that supports <b>dozens of formatting options</b> and allows you to <b>generate text</b> with privacy-conscious AI tools.<br><br>July Features<br><b>1</b> • <a href=\"https://t.me/telegram/451\">2</a> •&nbsp;<a href=\"https://t.me/telegram/452\">3</a> •&nbsp;<a href=\"https://t.me/telegram/453\">4</a> •&nbsp;<a href=\"https://t.me/telegram/454\">More</a>",
+    "links": [
+      "https://t.me/telegram/451",
+      "https://t.me/telegram/452",
+      "https://t.me/telegram/453",
+      "https://t.me/telegram/454"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.229Z"
   },
   {
     "channel": "contest",
@@ -1419,49 +1521,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.094Z"
-  },
-  {
-    "channel": "telegram",
-    "channelTitle": "Telegram News",
-    "channelSubscribers": 9150000,
-    "messageId": 450,
-    "url": "https://t.me/telegram/450",
-    "date": "2026-07-19T17:57:15.000Z",
-    "text": "⭐️ Rich Text Editor. You can now create articles and long posts in a visual editor that supports dozens of formatting options and allows you to generate text with privacy-conscious AI tools.\n\nJuly Features\n1 • 2 • 3 • 4 • More",
-    "views": 1360000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [
-      {
-        "type": "video",
-        "url": "https://cdn1.telesco.pe/file/9998a6a814.mp4?token=cEUS8uF6jzT4rhsbHUOCO7WcVMe8eJa3bT0HGypvtj6dDHhA3Id0ehYKKYurQpO769uYvUJPlpBXOyiruE7oBYQtYyol96-aZ8dLW8a4Iv2D2wErzBu-clJMjCBDtZdRtC2Id94hNTi-8AdkvVKBbVBZdh6ChfOO1p1imsjoar_tuPmssH57nFr1WK6vdwYfoBh9Md8Eb3t1ThrF14g51ujhdEhvF9iIEEAYY9MFthvmBN7_zTJgnXx2HqIWfMVKwk-_KngKkcdVVk2Q_Lh-ATFd4cSacUOlbi6LJa8fUk0T6wmczgLdJU8zclCsh-ZFB3gfBVIBZtqYm3sWl1H04Q",
-        "thumbnailUrl": "https://cdn1.telesco.pe/file/kvR45VItpIz0NhL1OeWS4FNcdj9puuI9TaLDqj5l3IWVIMbZQdN1TnReCVqFN18nN4ptkrppXFQxbeBB5SQhyTLksXTJy0Tb3uQdiUqHFZGiiKiJ5NR2DXpvoLA-esbqofXFBv8MswGtCNS-MPppf5BpAUC_XnBi1xbDtcxUnBnBMCu9hYxwA9OSwnKHKxRR7VrDPCGNlwRap4kqpY9-3bgzfC5aVRcI_pwqxYFg7xakDFLH6obWYtrerWzYtzYU-FjYAJ1Cf8H9TVwDDb_ZqVqeidV1BQLH_qUd1TTmVWHyUrFybnlQxuMLVjG3hNN8zuTCTHVBJ0TPf2nIqT_dwA",
-        "duration": "0:14",
-        "messageUrl": "https://t.me/telegram/450"
-      }
-    ],
-    "mediaTypes": [
-      "video"
-    ],
-    "poll": null,
-    "html": "⭐️ <b>Rich Text Editor.</b> You can now create articles and long posts in a <b>visual editor</b> that supports <b>dozens of formatting options</b> and allows you to <b>generate text</b> with privacy-conscious AI tools.<br><br>July Features<br><b>1</b> • <a href=\"https://t.me/telegram/451\">2</a> •&nbsp;<a href=\"https://t.me/telegram/452\">3</a> •&nbsp;<a href=\"https://t.me/telegram/453\">4</a> •&nbsp;<a href=\"https://t.me/telegram/454\">More</a>",
-    "links": [
-      "https://t.me/telegram/451",
-      "https://t.me/telegram/452",
-      "https://t.me/telegram/453",
-      "https://t.me/telegram/454"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.095Z"
+    "scrapedAt": "2026-11-10T18:50:29.229Z"
   },
   {
     "channel": "durov",
@@ -1471,7 +1531,7 @@
     "url": "https://t.me/durov/542",
     "date": "2026-08-15T13:29:20.000Z",
     "text": "🏆 The International Olympiad in Informatics (IOI) ends today.\n\n🇷🇺Students from Moscow and St. Petersburg won 2🥇gold and 2🥈silver medals — well done, Vladislav Zhiganov (#2 overall!), Maksim Kravchenko, Sergei Mukhanov and Vladimir Zvezdin!\n\n🇺🇦Ukraine won 3 medals: 🥇 gold for Vladyslav Khalin, and 2🥈 silver for Illia Shevchenko and Daria Perekopska 💪\n\n🇧🇾 Belarus took 1🥇gold and 1🥈silver, won by Kiryl Kardash and Fiodar Sashko, plus two bronze medals from their teammates.\n\n🇰🇿Kazakhstan did well too, winning 1🥇gold and 3🥈silver medals to finish in the top five as a team, while Maksim Tsoy came #5 overall.\n\n🇰🇬Kyrgyzstan picked up 2🥈 silver and 2🥉 bronze medals! 🤝\n\n🇺🇿Uzbekistan, the host country, put on a great showing: 1🥈 silver for Jakhonali Khaydaraliyev and 3🥉bronze medals.\n\n🇨🇳The strongest results of all, though, came from China 👏\n\nAt today's award ceremony, the IOI organizers are giving the 188 Algorithm Cups 🎁🎁🎁 to the winners. The organizers of the sister olympiad, IOAI, are sending the 220 Intelligence Cups 🏆🏆🏆 to their winners remotely.\n\nThese are the only digital collectibles Telegram has issued this year, so they could end up worth much more than the guaranteed $1,000 for gold.\n\nWe're proud to support the brightest young programmers of our time 🧠",
-    "views": 4440000,
+    "views": 4460000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -1513,7 +1573,45 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.095Z"
+    "scrapedAt": "2026-11-10T18:50:29.230Z"
+  },
+  {
+    "channel": "telegram",
+    "channelTitle": "Telegram News",
+    "channelSubscribers": 9150000,
+    "messageId": 449,
+    "url": "https://t.me/telegram/449",
+    "date": "2026-06-18T14:36:06.000Z",
+    "text": "For all the features from this update, like links in poll options, support for .md files and new browser settings – check out the full blog:\nhttps://telegram.org/blog/watch-apps-and-more\n\nJune Features\n1 • 2 • 3 • More",
+    "views": 2590000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": {
+      "url": "https://telegram.org/blog/watch-apps-and-more",
+      "siteName": "Telegram",
+      "title": "Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More",
+      "description": "Today’s update brings Telegram to Apple Watch and Android smartwatches, adds filthy rich text for bots, lets AI admins screen new group members, and introduces smarter polls, browser controls, and much more.",
+      "imageUrl": "https://cdn4.telesco.pe/file/HcHxu8w_Cf2vE3vp7KgAMxHHWSYORQtvVJKeVHJkvI6vF_2CYVi6g2HT-IyhKHlDrgXx-blnKEZLacoZAPtJXrqdyqI-lbvdflseqQk56N4hkE1xezsYIpXs5uSqt7M1v7kuZ36VBapXMXoXg1k1gYKJzYn2jqFsMQBK4ApavJ_apm-138S6hoCmRhlyWBHAwDBl-7I0x4kmP8wLIFd9UpAW5QCyKP1trb0qH2KHmhp0qyJtG2N-hBce4DFHGT3SOWASdGVjjsN1dHtIzhdBbq5hM3vnd8MON4BdgWAq95KBOPX1-VQDzyIqDcRRo0PYFpVMOXb6npEL5LtiYyvgUw.jpg"
+    },
+    "media": [],
+    "mediaTypes": [],
+    "poll": null,
+    "html": "For all the features from this update, like <b>links in poll options</b>, support for <b>.md files</b> and new <b>browser settings</b> –&nbsp;check out the full blog:<br><a href=\"https://telegram.org/blog/watch-apps-and-more\">https://telegram.org/blog/watch-apps-and-more</a><br><br>June Features<br><a href=\"https://t.me/telegram/446\">1</a> •&nbsp;<a href=\"https://t.me/telegram/447\">2</a> •&nbsp;<a href=\"https://t.me/telegram/448\">3</a> • <b>More</b>",
+    "links": [
+      "https://telegram.org/blog/watch-apps-and-more",
+      "https://t.me/telegram/446",
+      "https://t.me/telegram/447",
+      "https://t.me/telegram/448"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.230Z"
   },
   {
     "channel": "contest",
@@ -1557,45 +1655,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.096Z"
-  },
-  {
-    "channel": "telegram",
-    "channelTitle": "Telegram News",
-    "channelSubscribers": 9150000,
-    "messageId": 449,
-    "url": "https://t.me/telegram/449",
-    "date": "2026-06-18T14:36:06.000Z",
-    "text": "For all the features from this update, like links in poll options, support for .md files and new browser settings – check out the full blog:\nhttps://telegram.org/blog/watch-apps-and-more\n\nJune Features\n1 • 2 • 3 • More",
-    "views": 2590000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": {
-      "url": "https://telegram.org/blog/watch-apps-and-more",
-      "siteName": "Telegram",
-      "title": "Smartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More",
-      "description": "Today’s update brings Telegram to Apple Watch and Android smartwatches, adds filthy rich text for bots, lets AI admins screen new group members, and introduces smarter polls, browser controls, and much more.",
-      "imageUrl": "https://cdn4.telesco.pe/file/HcHxu8w_Cf2vE3vp7KgAMxHHWSYORQtvVJKeVHJkvI6vF_2CYVi6g2HT-IyhKHlDrgXx-blnKEZLacoZAPtJXrqdyqI-lbvdflseqQk56N4hkE1xezsYIpXs5uSqt7M1v7kuZ36VBapXMXoXg1k1gYKJzYn2jqFsMQBK4ApavJ_apm-138S6hoCmRhlyWBHAwDBl-7I0x4kmP8wLIFd9UpAW5QCyKP1trb0qH2KHmhp0qyJtG2N-hBce4DFHGT3SOWASdGVjjsN1dHtIzhdBbq5hM3vnd8MON4BdgWAq95KBOPX1-VQDzyIqDcRRo0PYFpVMOXb6npEL5LtiYyvgUw.jpg"
-    },
-    "media": [],
-    "mediaTypes": [],
-    "poll": null,
-    "html": "For all the features from this update, like <b>links in poll options</b>, support for <b>.md files</b> and new <b>browser settings</b> –&nbsp;check out the full blog:<br><a href=\"https://telegram.org/blog/watch-apps-and-more\">https://telegram.org/blog/watch-apps-and-more</a><br><br>June Features<br><a href=\"https://t.me/telegram/446\">1</a> •&nbsp;<a href=\"https://t.me/telegram/447\">2</a> •&nbsp;<a href=\"https://t.me/telegram/448\">3</a> • <b>More</b>",
-    "links": [
-      "https://telegram.org/blog/watch-apps-and-more",
-      "https://t.me/telegram/446",
-      "https://t.me/telegram/447",
-      "https://t.me/telegram/448"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.097Z"
+    "scrapedAt": "2026-11-10T18:50:29.230Z"
   },
   {
     "channel": "durov",
@@ -1605,7 +1665,7 @@
     "url": "https://t.me/durov/541",
     "date": "2026-08-14T13:49:28.000Z",
     "text": "1️⃣3️⃣ Telegram turns 13 today.\n\nFor over half that time — the past 7,5 years — it's been one of the 10 most downloaded mobile apps in the world.\n\nA whole generation has grown up with it 💪\n\n🎂 Happy birthday, Telegram!",
-    "views": 7510000,
+    "views": 7550000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -1643,92 +1703,7 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.097Z"
-  },
-  {
-    "channel": "contest",
-    "channelTitle": "Telegram Contests",
-    "channelSubscribers": 297000,
-    "messageId": 451,
-    "url": "https://t.me/contest/451",
-    "date": "2026-05-08T21:32:18.000Z",
-    "text": "🏆 Design Contest 2026, Round 2\n\nDeadline: 23:59 Dubai time @ May 17, 2026\nWho can participate: only those who secured 🥈2nd or 🥉3rd places in Round 1.\n\n📱 Telegram announces an express round of the Design Contest for selected winners of our previous competition.\n\nThe Task:\nIdentify weak spots in existing features of our official apps (Android, iOS, Telegram Desktop) and propose improvements – fixing the flaws and making the target features more elegant, convenient, simple, clear, or even more modern.\n\nContest Requirements:\n\n1. You may submit up to 2 features.\n\n2. Submissions must be in Before / After format.\n\n3. Static only mockups are acceptable when no animation changes are involved.\n\n4. Anything is within the scope – copy, spacing, colors, visuals – as long as the change noticeably improves the user experience.\n\nStandout submissions will receive additional reward of up to $1,000 per each feature you improve. The best of you may get a chance to join the Telegram Team.\n\nSubmissions:\nWe will publish instructions how to submit your work closer to the deadline.",
-    "views": 330000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": true,
-    "linkPreview": null,
-    "media": [],
-    "mediaTypes": [],
-    "poll": null,
-    "html": "🏆<b> Design Contest 2026, Round 2</b><br><br><b>Deadline:</b> 23:59 Dubai time @ May 17, 2026<br><b>Who can participate:</b> only those who secured 🥈2nd or 🥉3rd places in <a href=\"https://t.me/contest/449\">Round 1</a>.<br> <br>📱 <b>Telegram</b> announces an <i>express round</i> of the Design Contest for <b>selected winners</b> of our <a href=\"https://t.me/contest/449\">previous competition</a>.<br><br><b>The Task:</b><br>Identify weak spots in <b>existing features</b> of our official apps (Android, iOS, Telegram Desktop) and propose improvements – fixing the flaws and making the target features more elegant, convenient, simple, clear, or even more modern.<br><br><b>Contest Requirements:</b><br><br><b>1. </b>You may submit up to <b>2 features</b>.<br><br><b>2. </b>Submissions must be in <b>Before / After</b> format.<br><br><b>3.</b> Static only mockups are acceptable when no animation changes are involved.<br><br><b>4.</b> Anything is within the scope – copy, spacing, colors, visuals – as long as the change <b>noticeably</b> improves the user experience.<br><br><blockquote>Standout submissions will receive additional reward of up to <b>$1,000</b> per each feature you improve. The best of you may get a chance to join the <b>Telegram Team</b>.</blockquote><br><br><b>Submissions:</b><br>We will publish instructions how to submit your work closer to the deadline.",
-    "links": [
-      "https://t.me/contest/449"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.098Z"
-  },
-  {
-    "channel": "durov",
-    "channelTitle": "Pavel Durov",
-    "channelSubscribers": 10100000,
-    "messageId": 540,
-    "url": "https://t.me/durov/540",
-    "date": "2026-08-10T09:29:58.000Z",
-    "text": "🇺🇿 The 2026 International Olympiad in Informatics starts today in Tashkent.\n\n🏆 The IOI is the ultimate coding competition for high-school students. Years ago, many members of the Telegram team won medals there.\n\n🤝 To support the best young programmers in the world, Telegram will award the 235 winners exclusive digital collectibles — Algorithm Cups — worth at least $117,000 in total.\n\n🕌 It’s fitting that IOI is hosted in Uzbekistan — the homeland of Al-Khwarizmi, the father of algebra whose name became the word “algorithm.\"\n\nLet the best algorithm win! 💪",
-    "views": 4860000,
-    "reactions": [
-      {
-        "emoji": "⭐",
-        "count": 9130,
-        "paid": true
-      },
-      {
-        "emoji": null,
-        "count": 42900,
-        "customEmojiId": "5373223594484587136"
-      },
-      {
-        "emoji": null,
-        "count": 15700,
-        "customEmojiId": "5399847211989246390"
-      },
-      {
-        "emoji": null,
-        "count": 10100,
-        "customEmojiId": "5936157098181135162"
-      }
-    ],
-    "reactionsTotal": 77830,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": "Pavel Durov",
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [
-      {
-        "type": "photo",
-        "url": "https://cdn4.telesco.pe/file/MsZuUxHHFc0D8GeBEQimOLmvCpm_r2akcpM4xs9AqzY7PpHgc64Dck4LmV_ku_nRYo7xID7Z9aXMcaOiWi06wQMJDaoZdGmX5QmkoPO6JjQ6F8s3ShFK4Tcir0dxpFh99zwk6Ju359c9BktSaBw2x3F6XeB9jzQq0IrfTTQbFroJASy7uxdaHEKheF7kAWzNVO0kQDI0l8uAqgBUO2TtanRZ5mzBFH11nuz-YTUoR2YzRtxgJSJ4KBHnx2J4OVcfcqODx0eD7FMANKJkItOecPa7x8N1ONu4_9SBmQiALcX_7dbysDe8MkFUZWBCG7OMr1O8uXXqoEqVpxx5f8_gGw.jpg",
-        "messageUrl": "https://t.me/durov/540"
-      }
-    ],
-    "mediaTypes": [
-      "photo"
-    ],
-    "poll": null,
-    "html": "🇺🇿 The 2026 International Olympiad in Informatics starts today in Tashkent.<br><br>🏆 The <b>IOI</b> is the ultimate coding competition for high-school students. Years ago, many members of the Telegram team won medals there. <br><br>🤝 To support the best young programmers in the world, Telegram will award the <b>235</b> winners exclusive digital collectibles — <b>Algorithm Cups </b>— worth at least <b>$117,000</b> in total.<br><br>🕌 It’s fitting that IOI is hosted in Uzbekistan — the homeland of Al-Khwarizmi, the father of algebra whose name became the word “algorithm.\"<br><br>Let the best algorithm win! 💪",
-    "links": [],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.099Z"
+    "scrapedAt": "2026-11-10T18:50:29.231Z"
   },
   {
     "channel": "telegram",
@@ -1751,8 +1726,8 @@
     "media": [
       {
         "type": "video",
-        "url": "https://cdn1.telesco.pe/file/a97abce758.mp4?token=FUTcizfpIRbVD8N8ptBR_y5x0W5z1-ssI2Lh85ndxjUoG0TW3TU1augRaOSjiRzvxO4T4A29YG0x6FQg0MsChg4zW7CAitE-9b7vuEiGH55-i0ajueYA2RLfo28XktSedIkCMHoe3n0fB8VmDO4RZF3j8CO9Xc8adnux3VVaUC7fEctPtIH0u1YQkMgUjGUesU5-Z-ToegKMJ1qlz_BUQhOLK9DcddDY7ZmmjlxDq8upqLUpUy16SUsAvS2ojSfbn0t9cEWc0vtc8k8s3toXbanUmGK8Z_nrR162v986mIMpaYlH9Fx3eyFaoIK-Q8blb-T5MQ3qjRvShBDhuWVqAg",
-        "thumbnailUrl": "https://cdn1.telesco.pe/file/ivzhy2uGxfMV6QVaJAprxLrMu2PPeM_nM1NK5q8do5gvTKUXHPC1lNw-k_8g3ZnZtNJ3aZ-OKb7_uVMKwVyU0HY6hDiAcqcfaRcdkjFE6wycK55MJkpAF6QFbBKWGL6OUv5UUGK5uXD7K9WHpqnwZHzm9d-X-w4Ui2Axy2AgQ2mwVX7frAXwJZFmo8tr7YAdKH89juIINPI5bF1TdL6aVZQq1Rdkjlyg8ovrFzaWWfEeF1E3qicjEkjUcP4nP_Rg9KINqOCFZN_ZK6USKj9FTcdxIfGiGukriAIHrWPU8jnFZlD566Hm6oJiF-V_G2_StGXOGGUXLr2RKsChOIA3VQ",
+        "url": "https://cdn1.telesco.pe/file/a97abce758.mp4?token=AY9YIIk53rR2H_CG_N9SAL5SyfFjZaX3wKZ4e_66XAw6OKZHYvkXjxHBx0m06q42xeYAih_lBDGf6WuadhXknhoLDUyVJVLE8o4XDzXBFIruFbzP6Gzq-tjOMReiKVorR3n3mD9AcYBcY378yB4xWh_fkf1_1lRyhu6Cdb-y_NnGxcNWeAnwBmq-KVOZA8anFa9UmJpaiQFIzddH95R8rTz-f8GH4WVlzaYiLDzSZbEUnflg0Ghhxn-cYpFS36eE7KxbP11qPczZHOmdCRg2XOnRqhMrwzFMI9uv634Mpl5VzTz5iPKx1TC_II5BDN5Lokcf5SRP7o87jzrHAaFNpw",
+        "thumbnailUrl": "https://cdn1.telesco.pe/file/kOSBcEnQzNgddZzQs4ut7uKO7iZaM8T8M4LkST24kjLOphrlIOtaKUVzXLD8RAqogKu4jMPPp-dnHw1URlT5VFsiXURPBWHofKpcYyTkUf9l38ZdWQIpAZ36Ru7__REzuYEzPUd-qU6GTxl6ALq2zkcrHRWrwSal7_rSp62u4bhIybg7YsLLtH0myWjUSidJ_ZXKBtC0Gr9c-Bf6rjscjNqiLwANtYZ9dcEz0KybcTRD5y65LCMT2zlLz_2yU0H_UWS3U4mw7UwawpkrN75MWU1NwxgcV9U0HekpHATwHFNKLROHDXMX4-Jt9g2gg3fkVRaQYR1clz9hIjXUA4iMrg",
         "duration": "0:11",
         "messageUrl": "https://t.me/telegram/448"
       }
@@ -1769,7 +1744,133 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.105Z"
+    "scrapedAt": "2026-11-10T18:50:29.231Z"
+  },
+  {
+    "channel": "contest",
+    "channelTitle": "Telegram Contests",
+    "channelSubscribers": 297000,
+    "messageId": 451,
+    "url": "https://t.me/contest/451",
+    "date": "2026-05-08T21:32:18.000Z",
+    "text": "🏆 Design Contest 2026, Round 2\n\nDeadline: 23:59 Dubai time @ May 17, 2026\nWho can participate: only those who secured 🥈2nd or 🥉3rd places in Round 1.\n\n📱 Telegram announces an express round of the Design Contest for selected winners of our previous competition.\n\nThe Task:\nIdentify weak spots in existing features of our official apps (Android, iOS, Telegram Desktop) and propose improvements – fixing the flaws and making the target features more elegant, convenient, simple, clear, or even more modern.\n\nContest Requirements:\n\n1. You may submit up to 2 features.\n\n2. Submissions must be in Before / After format.\n\n3. Static only mockups are acceptable when no animation changes are involved.\n\n4. Anything is within the scope – copy, spacing, colors, visuals – as long as the change noticeably improves the user experience.\n\nStandout submissions will receive additional reward of up to $1,000 per each feature you improve. The best of you may get a chance to join the Telegram Team.\n\nSubmissions:\nWe will publish instructions how to submit your work closer to the deadline.",
+    "views": 331000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": true,
+    "linkPreview": null,
+    "media": [],
+    "mediaTypes": [],
+    "poll": null,
+    "html": "🏆<b> Design Contest 2026, Round 2</b><br><br><b>Deadline:</b> 23:59 Dubai time @ May 17, 2026<br><b>Who can participate:</b> only those who secured 🥈2nd or 🥉3rd places in <a href=\"https://t.me/contest/449\">Round 1</a>.<br> <br>📱 <b>Telegram</b> announces an <i>express round</i> of the Design Contest for <b>selected winners</b> of our <a href=\"https://t.me/contest/449\">previous competition</a>.<br><br><b>The Task:</b><br>Identify weak spots in <b>existing features</b> of our official apps (Android, iOS, Telegram Desktop) and propose improvements – fixing the flaws and making the target features more elegant, convenient, simple, clear, or even more modern.<br><br><b>Contest Requirements:</b><br><br><b>1. </b>You may submit up to <b>2 features</b>.<br><br><b>2. </b>Submissions must be in <b>Before / After</b> format.<br><br><b>3.</b> Static only mockups are acceptable when no animation changes are involved.<br><br><b>4.</b> Anything is within the scope – copy, spacing, colors, visuals – as long as the change <b>noticeably</b> improves the user experience.<br><br><blockquote>Standout submissions will receive additional reward of up to <b>$1,000</b> per each feature you improve. The best of you may get a chance to join the <b>Telegram Team</b>.</blockquote><br><br><b>Submissions:</b><br>We will publish instructions how to submit your work closer to the deadline.",
+    "links": [
+      "https://t.me/contest/449"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.232Z"
+  },
+  {
+    "channel": "durov",
+    "channelTitle": "Pavel Durov",
+    "channelSubscribers": 10100000,
+    "messageId": 540,
+    "url": "https://t.me/durov/540",
+    "date": "2026-08-10T09:29:58.000Z",
+    "text": "🇺🇿 The 2026 International Olympiad in Informatics starts today in Tashkent.\n\n🏆 The IOI is the ultimate coding competition for high-school students. Years ago, many members of the Telegram team won medals there.\n\n🤝 To support the best young programmers in the world, Telegram will award the 235 winners exclusive digital collectibles — Algorithm Cups — worth at least $117,000 in total.\n\n🕌 It’s fitting that IOI is hosted in Uzbekistan — the homeland of Al-Khwarizmi, the father of algebra whose name became the word “algorithm.\"\n\nLet the best algorithm win! 💪",
+    "views": 4960000,
+    "reactions": [
+      {
+        "emoji": "⭐",
+        "count": 9140,
+        "paid": true
+      },
+      {
+        "emoji": null,
+        "count": 42900,
+        "customEmojiId": "5373223594484587136"
+      },
+      {
+        "emoji": null,
+        "count": 15700,
+        "customEmojiId": "5399847211989246390"
+      },
+      {
+        "emoji": null,
+        "count": 10200,
+        "customEmojiId": "5936157098181135162"
+      }
+    ],
+    "reactionsTotal": 77940,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": "Pavel Durov",
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://cdn4.telesco.pe/file/h_Cy0pB8sFYIWICtwmVf-6SmTABtCsKeteXJcMiWG8CbrdxJZtomd_8VjzNlwLU9ZARkaIB_0HnFGxMhUzX2srw0hEKJHniXrc5B9h5BxStNamwD6DCOSphiUsPFOejDh_e7v-CQKam7KN1AK1m8za4xBtwIrN5sLPSqvA34n7xrIba7f4EbYMKm_CenPPhJiAC2a11uHg4PIZjLMcELKOxEwlxem43QQOi-FJmR8wuwaQPtBgRy2xdKz1rKsBbDY7qOku-5LthH7xV7t6Kh4fKntNoT8uLeGEHUk7TvYVbAoCei6T82N40zi5Nubj19VoRnFsG6BFhU2ieJWYPR5A.jpg",
+        "messageUrl": "https://t.me/durov/540"
+      }
+    ],
+    "mediaTypes": [
+      "photo"
+    ],
+    "poll": null,
+    "html": "🇺🇿 The 2026 International Olympiad in Informatics starts today in Tashkent.<br><br>🏆 The <b>IOI</b> is the ultimate coding competition for high-school students. Years ago, many members of the Telegram team won medals there. <br><br>🤝 To support the best young programmers in the world, Telegram will award the <b>235</b> winners exclusive digital collectibles — <b>Algorithm Cups </b>— worth at least <b>$117,000</b> in total.<br><br>🕌 It’s fitting that IOI is hosted in Uzbekistan — the homeland of Al-Khwarizmi, the father of algebra whose name became the word “algorithm.\"<br><br>Let the best algorithm win! 💪",
+    "links": [],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.232Z"
+  },
+  {
+    "channel": "telegram",
+    "channelTitle": "Telegram News",
+    "channelSubscribers": 9150000,
+    "messageId": 447,
+    "url": "https://t.me/telegram/447",
+    "date": "2026-06-18T14:35:36.000Z",
+    "text": "Rich Text Formatting for Bots. Telegram bots and AI agents now have access to nearly 100 text formats – like headers, tables, math or code formatting and more.\n\nJune Features\n1 • 2 • 3 • More",
+    "views": 1850000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://cdn1.telesco.pe/file/02d669b4f7.mp4?token=XMwEE3sACmZbhiJ8mSZtZ9CtTwMtOLG6-pKFoWtvv52pIMxo6Jr0oYe8WObhBPGxnRE0OQvRO07fyp3bZUckEIlmxi5pGCVDh9ub7wadZ5rMipo-kzSVcu4BHff14Zj1UJjLBNCkaitY2VuwVL0gPTSpCoS89H84Xr6rU6PG6AuqoOEMQLOU9MEB8o8jPclNZAKR9tv3ne0UrXglOdCoJAPJtoHA4rgHkZQ5ciMFCjCS8ssK4ummNSIcu2p8bXwbrfONtNoKQXdOWnKTJmwhxFfTkV1T74OPD_rwHoA37S0SZc5eiANFh1OA_q2hWlqzErQClUpc6nCWbjEf7ZsVdA",
+        "thumbnailUrl": "https://cdn1.telesco.pe/file/Q-5cP1rvcCM4XUpdUHyK0xr4F6t9E7jJTw9dVBO2JIjJhHSRPj-JKgxeZOq_b5EFki_ig5uOL0iP231rUNFSS9gZ6sHbrx4s7iIEdmaA-3QIYszezHj_e5CnshxsJ_zG9MqXmEvtqmg2em084xbJ_25rQGxR8LTZJRB3XlSs_fqGZHdCbOPAYF0d3UDyjIINuUNy73zJzh6Z09iEKBsR3lm__yD3ujmciwnxKsvG1W0RtTOVMZxVo1C-kIIIi2Aowpt54qm2wZpi453vw_hVeg3MvwS7GnI0LtnS4OVbU9V6HtkIpGDhRg-F0VGbYMGMmsLETJcohe688tcGRMNQOA",
+        "duration": "0:15",
+        "messageUrl": "https://t.me/telegram/447"
+      }
+    ],
+    "mediaTypes": [
+      "video"
+    ],
+    "poll": null,
+    "html": "<b>Rich Text Formatting for Bots.</b> Telegram bots and AI agents now have access to <b>nearly 100 text formats</b> –&nbsp;like headers, tables, math or code formatting and more.<br><br>June Features<br><a href=\"https://t.me/telegram/446\">1</a> •&nbsp;<b>2</b> •&nbsp;<a href=\"https://t.me/telegram/448\">3</a> • <a href=\"https://t.me/telegram/449\">More</a>",
+    "links": [
+      "https://t.me/telegram/446",
+      "https://t.me/telegram/448",
+      "https://t.me/telegram/449"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.232Z"
   },
   {
     "channel": "contest",
@@ -1846,7 +1947,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.105Z"
+    "scrapedAt": "2026-11-10T18:50:29.233Z"
   },
   {
     "channel": "durov",
@@ -1856,7 +1957,7 @@
     "url": "https://t.me/durov/539",
     "date": "2026-08-08T21:11:14.000Z",
     "text": "🏆 The International Olympiad in AI finished yesterday in Astana.\n\n🇷🇺 The Russian team took first place in the team competition, and Artem Gorokhov from my home city won the individual event. Well done! 💪\n\n🇰🇿 I'm equally happy for the host country, Kazakhstan, whose Dauzhan Beketov took the second-highest individual score.👏\n\n📩We're in touch with the organizers to deliver the winners' prizes from Telegram ($106,500+) securely next week.\n\nCongratulations to all the winners! 🏆",
-    "views": 3730000,
+    "views": 3770000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -1875,11 +1976,11 @@
       },
       {
         "emoji": null,
-        "count": 9140,
+        "count": 9150,
         "customEmojiId": "5936157098181135162"
       }
     ],
-    "reactionsTotal": 70530,
+    "reactionsTotal": 70540,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Pavel Durov",
@@ -1891,7 +1992,7 @@
       "siteName": "Telegram",
       "title": "Pavel Durov",
       "description": "🧠 The 2026 International Olympiad in Artificial Intelligence starts today.\n\nAs a token of support for those who will reinvent our civilization, we'll issue 🏆 240 exclusive Intelligence Cups to the winners.\n\n💵 We guarantee minimum buyback prices ($1,000 per…",
-      "imageUrl": "https://cdn4.telesco.pe/file/Doi4WZX2GK8z9Ln2IZdma93nj8faj_43zvcGNeyQy8TmAfIE4iQ8ba-eDYEPaMo5XtLgd6SWFWd-dZYDn502G3c6aeK6OS_nofxlucaIh9Ksjp13yGjaYI2u9UWS96XiYnr2TRt9g_ekxG7w2SUCWR2t6D84DIZdD_f1AnZlIgP8oGecxsSnUhWHXacUcHvOImVfiDKZPYlsROfkynVt_QoU7p4zqv4Bgcjjy8jrLedZl1OrYkBBml48xW9FKf-Nvin2mHQ4KmI8UJkilXEBjwLbtDO8Ekg5RQHNKDiJ-QN31JgAqjL22RBGJkHxSWunTIdxByLWc1wms20Cmm8fGA.jpg"
+      "imageUrl": "https://cdn4.telesco.pe/file/Vw9qNUn6NvGA2lvbY6JCy7uECLTIo7iHDGxa1aiNrzE7g9_8JVDjA0a3RkBOD1Pf6ZePYbcJEbUMd_c6xhLrkCvDvDAHfK9LPn_wQFkgIoleTMyjQVnalzkHAdQd9b2NqpKc12SHQHTx12y_BjtU62Z5JataSZXJsdlE7WGi924FnKMZsu1OPR9usSHKW5-SCD0zEgeNOtQbrHEE4Tide9mtu3MepbXCS2d7ITUC8zUe7cLif0Vz1jlaTPJdLvHftquJB2wcFwHVaRteb51fdMCoiyEIhw26o3ekMZ_1WBma6n0NOkbO0cCUmCyYQZUzg3baMY0bP7jNedQzx5_71w.jpg"
     },
     "media": [],
     "mediaTypes": [],
@@ -1904,17 +2005,17 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.106Z"
+    "scrapedAt": "2026-11-10T18:50:29.233Z"
   },
   {
     "channel": "telegram",
     "channelTitle": "Telegram News",
     "channelSubscribers": 9150000,
-    "messageId": 447,
-    "url": "https://t.me/telegram/447",
-    "date": "2026-06-18T14:35:36.000Z",
-    "text": "Rich Text Formatting for Bots. Telegram bots and AI agents now have access to nearly 100 text formats – like headers, tables, math or code formatting and more.\n\nJune Features\n1 • 2 • 3 • More",
-    "views": 1850000,
+    "messageId": 446,
+    "url": "https://t.me/telegram/446",
+    "date": "2026-06-18T14:34:18.000Z",
+    "text": "Watch Apps. Telegram is now available on Apple and Android smartwatches.\n\nSend messages, manage your chats and more without your phone nearby.\n\nJune Features\n1 • 2 • 3 • More",
+    "views": 1760000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -1927,25 +2028,25 @@
     "media": [
       {
         "type": "video",
-        "url": "https://cdn1.telesco.pe/file/02d669b4f7.mp4?token=YbtXxFo8INxv3Xa8ltAaMtWgh1HpY_48681q-CocYwi-GRPQa8scHKYGS8TRs7hk7VOOx0VcB64moZrrrv10M_H66EjhVNZY1pO7m1O_Cpto1DLCM1iqObXc79JNFcL57lVLwLWB3B2KCc4VLkzCunK-pQAgP6cp_torLwpjsbbWchhV9mC7KwlZ0v1iuOCau2NvTHWLxsLNxyq4CyE1_YVF1cUt58xM3NlZi028WbrfRmIg-9H8EIGhAp3ua4vft3lRxnJqg5gRNoC8ErT5hpmHT9WZPqppXT42y3NrcDC4csGEuMyl79oRPcHh9PlDJLeZwKKsCg672J_rP14z2g",
-        "thumbnailUrl": "https://cdn1.telesco.pe/file/bemqufzEdfWSpxPV2q_s4nerwr3MJSUJ8ITNs2KXFPvC55Ivqyfvk3hdBBxLpOPgbX7j9R5tujsmFZnRUVEXIS2_QTGgD38bhgUpJxruveUBiZefYjkCrEbGSKTEr9fnGGcUfX_CubTVQ3OsMtOtpAPaeGoO5Y4jP8QOpw7OqMk5ry8BYFu8lnAEM4s4BowdsJ2BjP9IxscuHpkS9-UscgzUoJafTnzlEMnwMxL1SEQpNTO87LoCneoR57t06CF66BHBnUupeToG5XLZlAfV-Yn06eF5q6RohQcCZiFMZUrhSeCvWHBA_Ajn1fngXyWUrAAhf8ZGXVi9mHx_nK0OCg",
-        "duration": "0:15",
-        "messageUrl": "https://t.me/telegram/447"
+        "url": "https://cdn1.telesco.pe/file/c71750f6fa.mp4?token=txfjXgAbYy1O7XnpJ2DekfqePpbdtIiTWB2QScbiXMgTB-JqbHRDVjegvh0GOl3hz9za1N9xZKoQOyJhwzNYv_aoV-6VtkeGkTVeDE7oyB41jDVT-HS5OPT27sx_YJuHA725HYOYule6D9p5LONg7wC9OBv_CqYuh8zGNaPf071sLueZX9RtFHpZgrLX_dD028iBQrdj8UlozJIWtw-gJJXhbtdkxvzfbcTM9BjF_Dp3gUo6tVGd7nt0L9mHwLFw0aLjrYFnZXbLLqrPa6fqrvA0ITrRvFmYMKcyEYOa4X-p6SNLa66f3VRDkH1H1OPCt7Vonf5cIXTg0hSyeJ_WZA",
+        "thumbnailUrl": "https://cdn1.telesco.pe/file/LInVnLUo0QZdBZDw2hA_68yyzUSEaZc1kb--Yl11BPl2JE42p0ChAh6y4zeaXu9jLRKR8rJIGEBy5wHJhi3x_iyijO-BQXMxiHs6dZ_H3O4oWL0Czkz6QEiZBD9ZRSz_xEiY-jPYJyIbn-LWkFVL0EPEZ3aPxL7HfBzYFZgWvaT5F5vg8XV9b835yoArGFdJMuz36H4mqxX_lrOtdHHlxIzeUi3vdYxcTfOWi5YqZbUxrIx7KKXM6tpDdUcCXCk1Id9AFGBK4Po38wkS4QE1fAoHu-u1I4OPKEupTpLqRFXLIeTpVpUBk2eso3kyrhX5ZosJeWIvtMLhk_ciSu92Sw",
+        "duration": "0:13",
+        "messageUrl": "https://t.me/telegram/446"
       }
     ],
     "mediaTypes": [
       "video"
     ],
     "poll": null,
-    "html": "<b>Rich Text Formatting for Bots.</b> Telegram bots and AI agents now have access to <b>nearly 100 text formats</b> –&nbsp;like headers, tables, math or code formatting and more.<br><br>June Features<br><a href=\"https://t.me/telegram/446\">1</a> •&nbsp;<b>2</b> •&nbsp;<a href=\"https://t.me/telegram/448\">3</a> • <a href=\"https://t.me/telegram/449\">More</a>",
+    "html": "<b>Watch Apps.</b> Telegram is now available on <b>Apple and Android smartwatches</b>.<br><br>Send messages, manage your chats and more <b>without your phone nearby</b>.<br><br>June Features<br><b>1</b> •&nbsp;<a href=\"https://t.me/telegram/447\">2</a> •&nbsp;<a href=\"https://t.me/telegram/448\">3</a> • <a href=\"https://t.me/telegram/449\">More</a>",
     "links": [
-      "https://t.me/telegram/446",
+      "https://t.me/telegram/447",
       "https://t.me/telegram/448",
       "https://t.me/telegram/449"
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.109Z"
+    "scrapedAt": "2026-11-10T18:50:29.234Z"
   },
   {
     "channel": "contest",
@@ -2013,7 +2114,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.109Z"
+    "scrapedAt": "2026-11-10T18:50:29.234Z"
   },
   {
     "channel": "durov",
@@ -2023,7 +2124,7 @@
     "url": "https://t.me/durov/538",
     "date": "2026-08-04T15:20:04.000Z",
     "text": "Last night, Apple briefly removed Telegram from the App Store because a single user had planted illegal pornographic content in a public group chat.\n\n⬅️ Telegram was restored within hours. But I want to explain what happened — to warn other app developers and help protect online communities from similar attacks.\n\n🧹Because Telegram quickly removes illegal content from public groups using all kinds of moderation tools, the attacker had to resort to a technical trick. He inserted AI-modified illegal content by editing an old message in an active group chat. As a result, the content was effectively hidden from the group’s members, preventing them from seeing and promptly reporting it.\n\n💰  The attacker was a takedown extortionist: someone who demands ransom from group owners in exchange for not targeting their communities. These extortionists use automated accounts  to plant illegal content in public groups and then report it directly to Apple, attempting to trigger the removal of legitimate communities whose owners refused to pay them.\n\n🤝 From a practical standpoint, illegal pornographic content in Telegram’s public groups is not a systemic problem. Our moderation is effective. The fact that attackers must resort to backdated, effectively invisible content and other technical tricks proves this.\n\n⚠️ However, there are two important lessons here for app developers and online communities:\n\n— Extortionists have found a way to manipulate Apple into overreacting. Apple removed Telegram from the App Store before contacting us. This creates a potential systemic risk for every mobile app that hosts user-generated content. If an app used by more than a billion people can be removed from the App Store without prior warning, any app can be.\n\n— The tactics used by takedown extortionists are evolving, putting communities across social platforms at risk. Telegram has extensive experience identifying the tricks used by coordinated reporting gangs and protecting legitimate communities (even when doing so risks our own app being temporarily removed from the App Store). Other platforms may not be equally prepared.\n\nStay vigilant! ☝️",
-    "views": 4600000,
+    "views": 4620000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -2058,7 +2159,7 @@
       "siteName": "Telegram",
       "title": "Telegram Safety Overview",
       "description": "Discover how Telegram enforces safety through proactive moderation, AI tools, user reports, and collaborations with global organizations. Explore efforts against CSAM, terrorism, and illegal content with ongoing transparency.",
-      "imageUrl": "https://cdn4.telesco.pe/file/Bm5ZlmyjW_QBmYLeTiieDACTCIXq9774GL4JMHqluLOfKEpRw74l-q6hCEv7cBKqBE7Y9ZvGsq0Oitw4EQaKyuPesqVLnSwXYDScZWH2Zn9aebmxKeW3rm9bizbBvwjY9MSwQkrE4UHnQHXC37wZiakwGHaF_QfXwU6Q5Qs8bLwGyXbKX-oJyfjKFr_OGiYZ0tspW1Ii3vm_-mu-gBfdxiy9fnWY_jwbYA5L5vVO6vuWYuThQj0qws7eHNir7BmIQYyopYKG3OH-VgjhaNyppdoRviBZu9TiZG7STgShUKtshKYNGYQ9qyTRbZKF6TK3MFUfluKJYJ-Z8FHPDNcueQ.jpg"
+      "imageUrl": "https://cdn4.telesco.pe/file/FYNR-5FE3G5lYp7LLPQVvcvbf8wdK5FuByxlG8UnshYRzwhlXHOXGv6lrbSIK6GxNhqDwXt0J6K-wUjBK3APDXCFtWmW10Gc8FIVZzpBAq07R6zUZyIDILTdXoNi5l0PU6FQb1CgDAr-717IfKRvx5fGHo0yagCFZZ_57rPwRrW3p6WHkeZ9Oms58EuKUBBk9HTclc4Cou-6GE9XRQVsS81AFw0QAZvn59xmDDwAQTZ_TROMt5R2fPD-gaELhEqcBrmDDyet-NDI9bBzEPL-WfbIVRjvP1m7c6gr51MzvExjSWTAYWW_8iZ340D7UFHrk6l3tjBIx3tlvta1EEonZg.jpg"
     },
     "media": [],
     "mediaTypes": [],
@@ -2069,7 +2170,47 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.110Z"
+    "scrapedAt": "2026-11-10T18:50:29.235Z"
+  },
+  {
+    "channel": "telegram",
+    "channelTitle": "Telegram News",
+    "channelSubscribers": 9150000,
+    "messageId": 445,
+    "url": "https://t.me/telegram/445",
+    "date": "2026-05-14T16:09:50.000Z",
+    "text": "For all the features from this update, like statistics and custom limits for polls, streaming text for bots, silent scheduled messages and more – check out the full blog:\nhttps://telegram.org/blog/ai-bot-revolution-11-new-features\n\nMay Features\n1 • 2 • 3 • 4 • 5 • More",
+    "views": 3120000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": {
+      "url": "https://telegram.org/blog/ai-bot-revolution-11-new-features",
+      "siteName": "Telegram",
+      "title": "Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji & Sticker Search and Much More",
+      "description": "Telegram adds over 10 new features, including ways for users to access AI services from any chat, automate their inbox with bots, create custom styles in the AI text editor, set limits and view statistics for polls — and much more.",
+      "imageUrl": "https://cdn4.telesco.pe/file/r_r3cHOQmxZ29K0wCketX-p_suSgn3kL35tQmpR6o4nqjkC-S6dr43xh4TsDVfBtrvHk4LgT9MAJD5nSpzA8xTevF5dmtWG2oOVwEiGuQw792lh7TUcUghQgeatAVWVrIhuDyzdvBmSm4ETMWdCQ_cdr3I73tZkCnsBfrQS3m5TOrzoVUQec9TjjwOa446ZvSEcHO3ai-iVC8C_jjzev1CKAcAYXg1eLTtVQKjjLxT3Z2uunwdebEdgvrG_yPBvHfvkqYKbHH_e_QFmIQTQtY851zU4Rw2PRlBFrJ4ge-eW3FIVp95iHC4etoIlrY-u6wJsfo6DFUwdckyfStNsGpQ.jpg"
+    },
+    "media": [],
+    "mediaTypes": [],
+    "poll": null,
+    "html": "For all the features from this update, like <b>statistics</b> and <b>custom limits</b> for polls, <b>streaming text</b> for bots, <b>silent scheduled messages</b> and more –&nbsp;check out the full blog:<br><a href=\"https://telegram.org/blog/ai-bot-revolution-11-new-features\">https://telegram.org/blog/ai-bot-revolution-11-new-features</a><br><br>May Features<br><a href=\"https://t.me/telegram/440\">1</a> • <a href=\"https://t.me/telegram/441\">2</a> •&nbsp;<a href=\"https://t.me/telegram/442\">3</a> • <a href=\"https://t.me/telegram/443\">4</a> •&nbsp;<a href=\"https://t.me/telegram/444\">5</a> •&nbsp;<b>More</b>",
+    "links": [
+      "https://telegram.org/blog/ai-bot-revolution-11-new-features",
+      "https://t.me/telegram/440",
+      "https://t.me/telegram/441",
+      "https://t.me/telegram/442",
+      "https://t.me/telegram/443",
+      "https://t.me/telegram/444"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.235Z"
   },
   {
     "channel": "contest",
@@ -2101,48 +2242,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.111Z"
-  },
-  {
-    "channel": "telegram",
-    "channelTitle": "Telegram News",
-    "channelSubscribers": 9150000,
-    "messageId": 446,
-    "url": "https://t.me/telegram/446",
-    "date": "2026-06-18T14:34:18.000Z",
-    "text": "Watch Apps. Telegram is now available on Apple and Android smartwatches.\n\nSend messages, manage your chats and more without your phone nearby.\n\nJune Features\n1 • 2 • 3 • More",
-    "views": 1760000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [
-      {
-        "type": "video",
-        "url": "https://cdn1.telesco.pe/file/c71750f6fa.mp4?token=svJscU4g5TiwKfPjoSBwTpsSlPNvgeEmIzJt93MjkRSJM843nORrsrqH_TKdK8Qc34pc4ahp3Jq2miOlL_RU2rLDHBtFJaj0uCt1iU2asr3U5RqbJdKDmmykHGdA2UKre8ZsRpIRnOFQbYe8JxHSiLuWhI2fZLAXaX2xL1P4Tg8x-hsWc_TP0AqKhw1jyb0WmaK6Uo7RVMzyXJL7luAEOkrdergjjc-_whoZ8ptCiRbZu1QrghTleNuuigaGyfGgFPoNvI0q2n7uZpNOwv1vbbpX8fQ2sQQUz6LIPBciqUsZkrLIiDGYGTrG3NyymG_S_PElNEovFZRNmV7I0LYHOw",
-        "thumbnailUrl": "https://cdn1.telesco.pe/file/L1JWWeTZtzWIczoSyrJ7ypUJdhXdDbsrRF2cDSovT4c8U5FifslvZ6wm0DrXmTYCe_7gMpMYQV3CSuQkq6w-aBkNsmdYFcqKZXCMyZfWmtVWO5oUBZz6a2QttFWPOu_TEjYgpLQ57eygLONTizYxZauqgu7g9g9pP4LB2G20DU0P-WebSbQqHhXUElAyvy-Z-C0hmOIUu-2ZixxjxJ6RCmgQ82opillfY8Uf2EBTtWJvkeNU8UsJLIj9CjgXIMc541UvylnOy8V5jpCCAB_naU2hZSvSgWFRbefmCfvMfhfKAiEcRjtGsEsJFiQel_dbMOdNCLICo1nwVlMeiyARiw",
-        "duration": "0:13",
-        "messageUrl": "https://t.me/telegram/446"
-      }
-    ],
-    "mediaTypes": [
-      "video"
-    ],
-    "poll": null,
-    "html": "<b>Watch Apps.</b> Telegram is now available on <b>Apple and Android smartwatches</b>.<br><br>Send messages, manage your chats and more <b>without your phone nearby</b>.<br><br>June Features<br><b>1</b> •&nbsp;<a href=\"https://t.me/telegram/447\">2</a> •&nbsp;<a href=\"https://t.me/telegram/448\">3</a> • <a href=\"https://t.me/telegram/449\">More</a>",
-    "links": [
-      "https://t.me/telegram/447",
-      "https://t.me/telegram/448",
-      "https://t.me/telegram/449"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.111Z"
+    "scrapedAt": "2026-11-10T18:50:29.236Z"
   },
   {
     "channel": "durov",
@@ -2152,7 +2252,7 @@
     "url": "https://t.me/durov/537",
     "date": "2026-08-03T07:19:56.000Z",
     "text": "🧠 The 2026 International Olympiad in Artificial Intelligence starts today.\n\nAs a token of support for those who will reinvent our civilization, we'll issue 🏆 240 exclusive Intelligence Cups to the winners.\n\n💵 We guarantee minimum buyback prices ($1,000 per Gold Cup, etc.), but the cups' limited supply may make them worth much more on the secondary market.\n\nGood luck, AI coders! 🍀",
-    "views": 4030000,
+    "views": 4050000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -2171,11 +2271,11 @@
       },
       {
         "emoji": null,
-        "count": 9110,
+        "count": 9120,
         "customEmojiId": "5373223594484587136"
       }
     ],
-    "reactionsTotal": 75710,
+    "reactionsTotal": 75720,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Pavel Durov",
@@ -2186,7 +2286,7 @@
     "media": [
       {
         "type": "photo",
-        "url": "https://cdn4.telesco.pe/file/NDdi7OOBjKhM9Q3QUaRZ6bVJkYvwik_ZGlSvM59oOJ8esUFzPnLns604G455VlAEMQKXtgfrjgCSYOhffIPQR6gYEM5sZ927vFLFwtbgnromvUtmCTUxjigzvhmDUKQrFUHuvpCbACAY-Ca3e16WTYWppHB6RqOkzAciTKlE7WVbB8lCrevZS0IfzJ1nHURtmuRfNwP4VTcDAL02dBmT57NYsbZ4Xzq6yAYtFvvZuao85LeZ2VOlOgLd2TCHYL3eY2fY-CRGbpn70YWGetReg3_B-NrK4jvG3_WLn5sA3jglVqEEbGPnvg75gbB_I38w0igZ8mVvfQVYMoMcPVyIgA.jpg",
+        "url": "https://cdn4.telesco.pe/file/A2-k4yLFbsE3IhPHNi1NEj-nx1cwRJDzICKu2d-VRQom9D8AYpKhNUaB0LsltSuvsJoO89wShuBt1bhqGhejTxVykatOyeXTrNEyBv6dVLWDeyjHs1VhAUBcSoeY7No95tEQWos995mJLo0kOCSO3tyK1hANLKCadO7alyhi_tSwP1AcPtJAPdDoe_ovZ1BI0WLwDFFWJYUxXOqh6iJb8aJTJ-MuFxX-AXR5sSqqqWsFhZCu4LtX5FccctW0tYt8W7Xs6TfzLYDmLbLOeHY_9Lsm-9iPj8LZwl_JThAjILp7J12S53O4By7mhY4VN-eVOnzRblmoL_neh-f0tzWqyw.jpg",
         "messageUrl": "https://t.me/durov/537"
       }
     ],
@@ -2198,7 +2298,50 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.112Z"
+    "scrapedAt": "2026-11-10T18:50:29.236Z"
+  },
+  {
+    "channel": "telegram",
+    "channelTitle": "Telegram News",
+    "channelSubscribers": 9150000,
+    "messageId": 444,
+    "url": "https://t.me/telegram/444",
+    "date": "2026-05-14T16:09:39.000Z",
+    "text": "Expanded Emoji and Sticker Search. Over 100 million emoji and stickers can now be found via the search function in the sticker panel.\n\nMay Features\n1 • 2 • 3 • 4 • 5 • More",
+    "views": 2140000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://cdn1.telesco.pe/file/0273105fd2.mp4?token=QNFIc9o4Uzu0WsKm2rIBivXFy2cx_GpV3MvrKPs6A2FOT0e5KuzoNhtba7D3gGwlM-_Y8Kl6JPFrJCUjXw76WIAHur8YbHEx5URAbsonn1IiAftRrTpeT3xGRbA135IjBdzb2_0HG-rXMWnYjzuFyXYqKOa-lDUCgpHZTctpjKj4cklwB4cQFHxz0rufFHyfhqGYi7iSgWCHXore6O9_gQXniHby0gB_NGhqR8WlOVk7QvGlhDsHpcyRYaHkB5JVozgg683uL-OFzG6Mkl7ygO5u8imDHPRdiiTRWS6n5xuaShMpTWJ724NmbAOiN-0a0exUAz08zXOX9OuOAh_0uQ",
+        "thumbnailUrl": "https://cdn1.telesco.pe/file/QIzeG7jLxlKMiFPtIQG9WKfe2Vv3HulHtK2KBF48pKlz9-ope_7aHLxgRtzdeDO5nR1jrObKpNow-gaag6kYCC9drYfFVCLEYjIWYY-wyK1mv4EZ5XptfWvirF6uLhDQNqfZjYh55G2qwJ9thivxrqlu1GL2kX4wf-SjF-EFSve4yK9XPlMOh_Y2lTnwZ9xhmhsvSKwaZYXQhnmB26b473ClRztTagWQDaQ-W5L3QlGVqQKfgWFU2wZ5GKROWG4eSwrYW4uVT5lLTJeNYjHQzLxCbSX6HeG9jhPnPK2ljHdSPJi8A_Y0E-5UOI-7M3-Tcgy3k_vK1b3Poid55rBDvg",
+        "duration": "0:14",
+        "messageUrl": "https://t.me/telegram/444"
+      }
+    ],
+    "mediaTypes": [
+      "video"
+    ],
+    "poll": null,
+    "html": "<b>Expanded Emoji and Sticker Search.</b> Over <b>100 million</b> emoji and stickers can now be found via the <b>search function</b> in the sticker panel.<br><br>May Features<br><a href=\"https://t.me/telegram/440\">1</a> • <a href=\"https://t.me/telegram/441\">2</a> •&nbsp;<a href=\"https://t.me/telegram/442\">3</a> • <a href=\"https://t.me/telegram/443\">4</a> •&nbsp;<b>5</b> •&nbsp;<a href=\"https://t.me/telegram/445\">More</a>",
+    "links": [
+      "https://t.me/telegram/440",
+      "https://t.me/telegram/441",
+      "https://t.me/telegram/442",
+      "https://t.me/telegram/443",
+      "https://t.me/telegram/445"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.236Z"
   },
   {
     "channel": "contest",
@@ -2228,47 +2371,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.113Z"
-  },
-  {
-    "channel": "telegram",
-    "channelTitle": "Telegram News",
-    "channelSubscribers": 9150000,
-    "messageId": 445,
-    "url": "https://t.me/telegram/445",
-    "date": "2026-05-14T16:09:50.000Z",
-    "text": "For all the features from this update, like statistics and custom limits for polls, streaming text for bots, silent scheduled messages and more – check out the full blog:\nhttps://telegram.org/blog/ai-bot-revolution-11-new-features\n\nMay Features\n1 • 2 • 3 • 4 • 5 • More",
-    "views": 3120000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": {
-      "url": "https://telegram.org/blog/ai-bot-revolution-11-new-features",
-      "siteName": "Telegram",
-      "title": "Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji & Sticker Search and Much More",
-      "description": "Telegram adds over 10 new features, including ways for users to access AI services from any chat, automate their inbox with bots, create custom styles in the AI text editor, set limits and view statistics for polls — and much more.",
-      "imageUrl": "https://cdn4.telesco.pe/file/tStFvZ5LeLFivz6Q_UsE2u4yMnwuqLKfMWEcsB5I45eFRDr4gydA7feaE3lOBp4NFtANoU7EdbkWBayudQLuz8_0Zcx47MCG28SO1oSf4o8hFCjzm81zUGIDIy3-QsaAjgpEBkifUbLGCRDxFyU9pWJ6NCExTSsLzW3x7h6Sup8VYEvHvT2dxo7qTlZBZUPLVZ00i6iNVqx0jIbXO-5F8lXKiBtYg9saeMf1aA-HDl16eM_gFxlVLYZT-heqVEYrtL49lBaUVz6iqUapr8c-j3UzdRzMxBjpltG-FIla3CodcB7wLmhO63HqmlTMZ-0MCx5F2dULH2nryw1AwAnXYA.jpg"
-    },
-    "media": [],
-    "mediaTypes": [],
-    "poll": null,
-    "html": "For all the features from this update, like <b>statistics</b> and <b>custom limits</b> for polls, <b>streaming text</b> for bots, <b>silent scheduled messages</b> and more –&nbsp;check out the full blog:<br><a href=\"https://telegram.org/blog/ai-bot-revolution-11-new-features\">https://telegram.org/blog/ai-bot-revolution-11-new-features</a><br><br>May Features<br><a href=\"https://t.me/telegram/440\">1</a> • <a href=\"https://t.me/telegram/441\">2</a> •&nbsp;<a href=\"https://t.me/telegram/442\">3</a> • <a href=\"https://t.me/telegram/443\">4</a> •&nbsp;<a href=\"https://t.me/telegram/444\">5</a> •&nbsp;<b>More</b>",
-    "links": [
-      "https://telegram.org/blog/ai-bot-revolution-11-new-features",
-      "https://t.me/telegram/440",
-      "https://t.me/telegram/441",
-      "https://t.me/telegram/442",
-      "https://t.me/telegram/443",
-      "https://t.me/telegram/444"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.113Z"
+    "scrapedAt": "2026-11-10T18:50:29.237Z"
   },
   {
     "channel": "durov",
@@ -2278,7 +2381,7 @@
     "url": "https://t.me/durov/536",
     "date": "2026-07-30T16:55:01.000Z",
     "text": "🇦🇫😈",
-    "views": 6330000,
+    "views": 6340000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -2292,7 +2395,7 @@
       },
       {
         "emoji": null,
-        "count": 69900,
+        "count": 70000,
         "customEmojiId": "5399847211989246390"
       },
       {
@@ -2301,7 +2404,7 @@
         "customEmojiId": "5936157098181135162"
       }
     ],
-    "reactionsTotal": 454400,
+    "reactionsTotal": 454500,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Pavel Durov",
@@ -2312,7 +2415,7 @@
     "media": [
       {
         "type": "photo",
-        "url": "https://cdn4.telesco.pe/file/XiR7WLjmW5DMA6B9EFxK_1jPYUBr3xB5umJjFmm6xFxwZF7mBLWgQL-vMKh8yC0wUu0sU4qKYq5-DBvn5FeMFZVxCaJWmnmTDKm0Aq1WrjBL-VJOYstMiMcxN5oUQAKDMBZSXqcse0MeAFLrB1wtRWj7gr1vK0cLLgyAdqRYIWkRAjpZYRO6aNMUrp8T5AP0ZoGN6i_NiLp4H80X_t4tOu0GMIc9xDIU7_nw3zDVuAk4vJIMtS5lkYGJOBCvs9C74-6K6F6QORc-Dwlus1IolmbIuV4BDFG7Lx3z8EkPrGVHyPy9pAE0ITd2HS7Ne3B7nevBpFmsrkhNs4rD2dSfRQ.jpg",
+        "url": "https://cdn4.telesco.pe/file/W0gyGR3iQVX3m21_CmFYchebjCEgkD2OkO9kQCHXf-APkwkcsDuwYYoI2ybBQVY0WsnqXCtKXOcVGmdETXOPVSKG8OWONL1ffM887dz9VPQOWL74fBETJale643PYQmZ0wTgTmb8fmHemBjawoZJux-NlRm4nO1QZelA5CqjFkj60iZGas4Yj__BIBA5RuUbZAkk21aoWbqbQxGywmUMXvRYcdsmN1X0s_6QHHc2mwc9Srx0CuJEYU55jE7Yy0swktVWrQdqWxIdOJFYeHcXLK2NIlrt-ZKIa1f3Ibvi4elXLbrG5NbSra4pfPhkUxKM6dSr1elObA9WG_92_mbo1A.jpg",
         "messageUrl": "https://t.me/durov/536"
       }
     ],
@@ -2324,7 +2427,51 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.114Z"
+    "scrapedAt": "2026-11-10T18:50:29.237Z"
+  },
+  {
+    "channel": "telegram",
+    "channelTitle": "Telegram News",
+    "channelSubscribers": 9150000,
+    "messageId": 443,
+    "url": "https://t.me/telegram/443",
+    "date": "2026-05-14T16:09:19.000Z",
+    "text": "Custom AI Styles. The text editor allows anyone to use their own prompts to build unique styles.\n\nEach custom style has a shareable link so others users can add it to their editor.\n\nMay Features\n1 • 2 • 3 • 4 • 5 • More",
+    "views": 1840000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://cdn1.telesco.pe/file/7fde212b67.mp4?token=U4A2k9USd_nZ0ZM6SFTr1AAmvjno5U__Piywy30-_pCIaw3u3ryD50GTiryC2YqdGa6mW91Dsm3ZA7KP1ncnJwQh-OqXehHqX1jKsje-oRiK_ga1V267i0xpqJP8LwGXnluzfm3mUfLJ14ssylEWNQnnxsRiym2Qhw28pib7v6waa2jsuNfL53huXyOgWhxz2KRyMvLxBZsoJa-M6mM-NOXLJ0YU0fM0Gj0iNKOCuOtpYMMop7FqSaKQkTlXZnztcQaYqReyLCXCJS_w-VTckY33bkiay9-qeP5FiYNlAPLPfVmNJ2ufCeu7GHzDy4KK5JZ8swnx70CHMNSMdb2emg",
+        "thumbnailUrl": "https://cdn1.telesco.pe/file/SgRkXX_mXt4GwgDQibeqhdXddxScSvPQsuM7dRXHn2ko6WW0fjWKYeUa4Kbl1k32x_Ho2FiCgOgQ5Y-Fn4H0GASlZycjwk-jPGoMT_wHNv51JBgMYj6MRX7GEqwnM7ECZVjjA5ad744gTJ6HIbF-ozAYhPriOPLJ4ErYTAVvqQ9T5hV08HXzf8314rjSD9xP8Ydu5PUtWyliKf-h4cjTqYlK_mBS_B3g2TfYEJOvVfy3hEPzezKSUncV2c1ZFdCnvX0F273KmJVWF3cyJORBN2aRHfSaBQAIdCgnWYJtEFEg3dZmzh-ebUCPWeMIiVDBVylLPiT75fYmeFIKuJ_xSg",
+        "duration": "0:16",
+        "messageUrl": "https://t.me/telegram/443"
+      }
+    ],
+    "mediaTypes": [
+      "video"
+    ],
+    "poll": null,
+    "html": "<b>Custom AI Styles.</b> The <a href=\"https://t.me/telegram/435\">text editor</a> allows anyone to use <b>their own prompts</b> to build <b>unique styles</b>.<br><br>Each custom style has a <b>shareable link</b> so others users can add it to their editor.<br><br>May Features<br><a href=\"https://t.me/telegram/440\">1</a> • <a href=\"https://t.me/telegram/441\">2</a> •&nbsp;<a href=\"https://t.me/telegram/442\">3</a> • <b>4</b> •&nbsp;<a href=\"https://t.me/telegram/444\">5</a> •&nbsp;<a href=\"https://t.me/telegram/445\">More</a>",
+    "links": [
+      "https://t.me/telegram/435",
+      "https://t.me/telegram/440",
+      "https://t.me/telegram/441",
+      "https://t.me/telegram/442",
+      "https://t.me/telegram/444",
+      "https://t.me/telegram/445"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.238Z"
   },
   {
     "channel": "contest",
@@ -2377,50 +2524,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.114Z"
-  },
-  {
-    "channel": "telegram",
-    "channelTitle": "Telegram News",
-    "channelSubscribers": 9150000,
-    "messageId": 444,
-    "url": "https://t.me/telegram/444",
-    "date": "2026-05-14T16:09:39.000Z",
-    "text": "Expanded Emoji and Sticker Search. Over 100 million emoji and stickers can now be found via the search function in the sticker panel.\n\nMay Features\n1 • 2 • 3 • 4 • 5 • More",
-    "views": 2140000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [
-      {
-        "type": "video",
-        "url": "https://cdn1.telesco.pe/file/0273105fd2.mp4?token=DuZ2-V96MhU19dxlxuZ7SPzKnNLsH3pm6RnsTNILMbIaa7iDJ5K_caijmmTSf1jggWeqXqO7scSTEwIXH0Ii8frFgcKjsEDwVpIQR8M3YfgotHyTfUJyPfPnMX65DYHnMEW5rKN6ev7LOVRPXkUSrUAho1BU-NhnQwNpGYzQJwzaG-MwBNP_2tm-vU4QKRgTSqSmHB0KVQSDmVStNM3U5uM7bRZa6AhimexEzlaE2qZM1TZ-XST_M8m_ExMiPL68ecT1jQjEW0UTa2y8_4aA8IEZv6yxLwrAo4qZfqAGLEtfAJLVCnIJSxNDIN5BSowjYdoYAUG4bWk-42Lw9OSDBg",
-        "thumbnailUrl": "https://cdn1.telesco.pe/file/qvHZvqwNtsnxBCGyR7Phm9V_kPA8Jo8JYYsPoYjq57QbjEfUD6fvx-oyN1w3GB5wluSdH9eN34HZgrNj0p7KGzyPbCcjaov63DaZ9NlqYM5nAt2q9DniEmllqx5vu45X-IOJjJh__8he_BU2Lvoc0IbKbhCvY1MnrcbU8ZtLE37tCjKuuvAx1i75nqymzUAdoSOVx1O-TjiCjx_n83G--YkXE_vS_dPvhFHKdHwl8GieglcQ_NGsQsNnHbVm6yIAum3dKC7NwGB4oD01emVCbAuoJZ8Rttm6bo4OpOV3RZmnwnrzqriCksskISFAeuvYebvfMgHakoT_VS5JhzBbYQ",
-        "duration": "0:14",
-        "messageUrl": "https://t.me/telegram/444"
-      }
-    ],
-    "mediaTypes": [
-      "video"
-    ],
-    "poll": null,
-    "html": "<b>Expanded Emoji and Sticker Search.</b> Over <b>100 million</b> emoji and stickers can now be found via the <b>search function</b> in the sticker panel.<br><br>May Features<br><a href=\"https://t.me/telegram/440\">1</a> • <a href=\"https://t.me/telegram/441\">2</a> •&nbsp;<a href=\"https://t.me/telegram/442\">3</a> • <a href=\"https://t.me/telegram/443\">4</a> •&nbsp;<b>5</b> •&nbsp;<a href=\"https://t.me/telegram/445\">More</a>",
-    "links": [
-      "https://t.me/telegram/440",
-      "https://t.me/telegram/441",
-      "https://t.me/telegram/442",
-      "https://t.me/telegram/443",
-      "https://t.me/telegram/445"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.115Z"
+    "scrapedAt": "2026-11-10T18:50:29.238Z"
   },
   {
     "channel": "durov",
@@ -2430,7 +2534,7 @@
     "url": "https://t.me/durov/535",
     "date": "2026-07-30T16:52:37.000Z",
     "text": "💣 Russia has designated me as a “terrorist” for refusing its demands for mass surveillance and censorship on Telegram.\n\nUnder Russian law, I’m banned from “publishing information on the Internet” 😌\n\nRussian officials have clearly got confused about who can ban whom from the Internet  😉",
-    "views": 6120000,
+    "views": 6130000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -2444,7 +2548,7 @@
       },
       {
         "emoji": null,
-        "count": 51700,
+        "count": 51800,
         "customEmojiId": "5399847211989246390"
       },
       {
@@ -2453,7 +2557,7 @@
         "customEmojiId": "5936157098181135162"
       }
     ],
-    "reactionsTotal": 309000,
+    "reactionsTotal": 309100,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Pavel Durov",
@@ -2468,161 +2572,7 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.115Z"
-  },
-  {
-    "channel": "contest",
-    "channelTitle": "Telegram Contests",
-    "channelSubscribers": 297000,
-    "messageId": 445,
-    "url": "https://t.me/contest/445",
-    "date": "2026-01-12T08:27:12.000Z",
-    "text": "Contest for Artists: Submissions\n\nWe received 196 submissions for the Telegram Contest for Artists.\n\nEveryone is welcome to view the submissions while the Telegram judges conduct their own checks.",
-    "views": 348000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [],
-    "mediaTypes": [],
-    "poll": null,
-    "html": "<b>Contest for Artists: Submissions</b><br><br>We received <b>196</b> <a href=\"https://contest.com/artists\">submissions</a> for the <a href=\"https://t.me/contest/433\">Telegram Contest for Artists</a>.<br><br><b>Everyone</b> is welcome to view the submissions while the Telegram judges conduct their own checks.",
-    "links": [
-      "https://contest.com/artists",
-      "https://t.me/contest/433"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.117Z"
-  },
-  {
-    "channel": "telegram",
-    "channelTitle": "Telegram News",
-    "channelSubscribers": 9150000,
-    "messageId": 443,
-    "url": "https://t.me/telegram/443",
-    "date": "2026-05-14T16:09:19.000Z",
-    "text": "Custom AI Styles. The text editor allows anyone to use their own prompts to build unique styles.\n\nEach custom style has a shareable link so others users can add it to their editor.\n\nMay Features\n1 • 2 • 3 • 4 • 5 • More",
-    "views": 1830000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [
-      {
-        "type": "video",
-        "url": "https://cdn1.telesco.pe/file/7fde212b67.mp4?token=cyogO5oYwP8enuwpeqJPxCF2Tpb4BooMGptdjlvKoq7qBe4-yezIYhdVxrNbHY_G8PxZxO-zWalZXP9ZOFtjyTvO9YfNPeTwiRBjcct9qZG6sF7TvBEM7VuMa5xPqibMYX6BXCadE9R0dKjJZ5paod6xqBawkkQ7cOGkZ12tBjsuGxlvVD5aJDE2Hoyoyj3yv_ohuUWC3bmrza7VSt_bBSDCg8qYmGlyatdUR0gMZUpk3rDtr6e2BndDMiOtfxj6DFVOyXeaWQxhFCsF7bLbMC4yyhQsx8j-o6O4V1tE8pktKL8Hu0Gz6v_LGWYt17FamFI8-CXbK6g2LxJtkdk0TQ",
-        "thumbnailUrl": "https://cdn1.telesco.pe/file/HZjSwASljMK5Frl0IjbLKuHXW8ccni57wT9zJarJsfTkCsXLv3-Q5ed1SdOXR_ZyXIkshvEbVGOxaU08LmgSZStNjkc0Pm6Rwo-id69UwuJ3NhsWPTZuvxBGGSYh0k0hgUnekjz6WyS6NUVSDUSJrnDR94MKo10JeNtppIUw7KnnpHxxExBNr4HadXq_MOJ4SLJV5RYstxpitw2nbze83p0Y-00kmXO7cMXWwdKHFndQPROEz9czlgMjBsGjROeOv1eNV6igveBOim7-4P-eJqZJlCEU-XnN7WtcTVo0O_Sni5FtbMDDcCWyldm-rVKxvk6b5fgvh0JmiI4MJFLE4A",
-        "duration": "0:16",
-        "messageUrl": "https://t.me/telegram/443"
-      }
-    ],
-    "mediaTypes": [
-      "video"
-    ],
-    "poll": null,
-    "html": "<b>Custom AI Styles.</b> The <a href=\"https://t.me/telegram/435\">text editor</a> allows anyone to use <b>their own prompts</b> to build <b>unique styles</b>.<br><br>Each custom style has a <b>shareable link</b> so others users can add it to their editor.<br><br>May Features<br><a href=\"https://t.me/telegram/440\">1</a> • <a href=\"https://t.me/telegram/441\">2</a> •&nbsp;<a href=\"https://t.me/telegram/442\">3</a> • <b>4</b> •&nbsp;<a href=\"https://t.me/telegram/444\">5</a> •&nbsp;<a href=\"https://t.me/telegram/445\">More</a>",
-    "links": [
-      "https://t.me/telegram/435",
-      "https://t.me/telegram/440",
-      "https://t.me/telegram/441",
-      "https://t.me/telegram/442",
-      "https://t.me/telegram/444",
-      "https://t.me/telegram/445"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.118Z"
-  },
-  {
-    "channel": "durov",
-    "channelTitle": "Pavel Durov",
-    "channelSubscribers": 10100000,
-    "messageId": 534,
-    "url": "https://t.me/durov/534",
-    "date": "2026-07-23T15:15:33.000Z",
-    "text": "🇬🇪 Very impressed with Georgia.\n\n🏔 The country is known for its warm people, ancient culture, local food and epic landscapes.\n\nBut it doesn’t stop there.\n\n📈 Thanks to its government’s business-friendly policies, Georgia is becoming a major business hub.\n\n❎️ The country’s economy doubled in 5 years and is still growing by 8% a year.\n\n💼 International tech companies pay 0% corporate tax and just 5% on dividends and salaries.\n\nGeorgia is seriously underrated as a place to visit and do business.\n\nI'll be back very soon! ✈️",
-    "views": 6810000,
-    "reactions": [
-      {
-        "emoji": "⭐",
-        "count": 10000,
-        "paid": true
-      },
-      {
-        "emoji": null,
-        "count": 85800,
-        "customEmojiId": "5399847211989246390"
-      },
-      {
-        "emoji": null,
-        "count": 23400,
-        "customEmojiId": "5936157098181135162"
-      },
-      {
-        "emoji": null,
-        "count": 21700,
-        "customEmojiId": "5373223594484587136"
-      }
-    ],
-    "reactionsTotal": 140900,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": "Pavel Durov",
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [],
-    "mediaTypes": [],
-    "poll": null,
-    "html": "🇬🇪 Very impressed with Georgia.<br><br>🏔 The country is known for its warm people, ancient culture, local food and epic landscapes. <br><br>But it doesn’t stop there.<br><br>📈 Thanks to its government’s business-friendly policies, Georgia is becoming a <b>major business hub</b>.<br><br>❎️ The country’s economy <b>doubled</b> in <b>5 years</b> and is still growing by <b>8% a yea</b>r.<br><br>💼 International tech companies pay <b>0%</b> corporate tax and just <b>5% on dividends</b> and salaries.<br><br>Georgia is seriously underrated as a place to visit and do business.<br><br>I'll be back very soon! ✈️",
-    "links": [],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.118Z"
-  },
-  {
-    "channel": "contest",
-    "channelTitle": "Telegram Contests",
-    "channelSubscribers": 297000,
-    "messageId": 444,
-    "url": "https://t.me/contest/444",
-    "date": "2025-12-31T14:11:01.000Z",
-    "text": "🚨 Last Call\n\nThe deadline is in less than 6 hours.\n\nStart uploading your work now. A submission is considered successful only after the archive has been fully uploaded.\n\nDo not postpone your submission until the very last moment.\n\nLate submissions will not be accepted.",
-    "views": 387000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": {
-      "messageId": 443,
-      "url": "https://t.me/contest/443",
-      "author": "Telegram Contests",
-      "text": "ContestBot is now ready to accept submissions for the Telegram Contest for Artists.  1. Check Submission Guidelines.   2. Start the bot, choose “Contest for Artists”, answer the bot’s questions, then send: – A link to either a private or public channel.  –…"
-    },
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [],
-    "mediaTypes": [],
-    "poll": null,
-    "html": "🚨 <b>Last Call</b> <br><br>The deadline is in <b>less</b> than <b>6 hours</b>.<br><br>Start uploading your work <b>now</b>. A submission is considered successful only after the archive has been fully uploaded.<br><br><b>Do not postpone</b> your submission until the very last moment. <br><br><b>Late submissions will not be accepted.</b>",
-    "links": [],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.119Z"
+    "scrapedAt": "2026-11-10T18:50:29.238Z"
   },
   {
     "channel": "telegram",
@@ -2665,7 +2615,160 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.119Z"
+    "scrapedAt": "2026-11-10T18:50:29.239Z"
+  },
+  {
+    "channel": "contest",
+    "channelTitle": "Telegram Contests",
+    "channelSubscribers": 297000,
+    "messageId": 445,
+    "url": "https://t.me/contest/445",
+    "date": "2026-01-12T08:27:12.000Z",
+    "text": "Contest for Artists: Submissions\n\nWe received 196 submissions for the Telegram Contest for Artists.\n\nEveryone is welcome to view the submissions while the Telegram judges conduct their own checks.",
+    "views": 348000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [],
+    "mediaTypes": [],
+    "poll": null,
+    "html": "<b>Contest for Artists: Submissions</b><br><br>We received <b>196</b> <a href=\"https://contest.com/artists\">submissions</a> for the <a href=\"https://t.me/contest/433\">Telegram Contest for Artists</a>.<br><br><b>Everyone</b> is welcome to view the submissions while the Telegram judges conduct their own checks.",
+    "links": [
+      "https://contest.com/artists",
+      "https://t.me/contest/433"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.239Z"
+  },
+  {
+    "channel": "durov",
+    "channelTitle": "Pavel Durov",
+    "channelSubscribers": 10100000,
+    "messageId": 534,
+    "url": "https://t.me/durov/534",
+    "date": "2026-07-23T15:15:33.000Z",
+    "text": "🇬🇪 Very impressed with Georgia.\n\n🏔 The country is known for its warm people, ancient culture, local food and epic landscapes.\n\nBut it doesn’t stop there.\n\n📈 Thanks to its government’s business-friendly policies, Georgia is becoming a major business hub.\n\n❎️ The country’s economy doubled in 5 years and is still growing by 8% a year.\n\n💼 International tech companies pay 0% corporate tax and just 5% on dividends and salaries.\n\nGeorgia is seriously underrated as a place to visit and do business.\n\nI'll be back very soon! ✈️",
+    "views": 6820000,
+    "reactions": [
+      {
+        "emoji": "⭐",
+        "count": 10000,
+        "paid": true
+      },
+      {
+        "emoji": null,
+        "count": 85800,
+        "customEmojiId": "5399847211989246390"
+      },
+      {
+        "emoji": null,
+        "count": 23400,
+        "customEmojiId": "5936157098181135162"
+      },
+      {
+        "emoji": null,
+        "count": 21700,
+        "customEmojiId": "5373223594484587136"
+      }
+    ],
+    "reactionsTotal": 140900,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": "Pavel Durov",
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [],
+    "mediaTypes": [],
+    "poll": null,
+    "html": "🇬🇪 Very impressed with Georgia.<br><br>🏔 The country is known for its warm people, ancient culture, local food and epic landscapes. <br><br>But it doesn’t stop there.<br><br>📈 Thanks to its government’s business-friendly policies, Georgia is becoming a <b>major business hub</b>.<br><br>❎️ The country’s economy <b>doubled</b> in <b>5 years</b> and is still growing by <b>8% a yea</b>r.<br><br>💼 International tech companies pay <b>0%</b> corporate tax and just <b>5% on dividends</b> and salaries.<br><br>Georgia is seriously underrated as a place to visit and do business.<br><br>I'll be back very soon! ✈️",
+    "links": [],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.239Z"
+  },
+  {
+    "channel": "telegram",
+    "channelTitle": "Telegram News",
+    "channelSubscribers": 9150000,
+    "messageId": 441,
+    "url": "https://t.me/telegram/441",
+    "date": "2026-05-14T16:08:31.000Z",
+    "text": "Bot-to-Bot Communication. Bots are now able to respond to other bots, not just users.\n\nAI enthusiasts can utilize this to create custom workflows with autonomous agents.\n\nMay Features\n1 • 2 • 3 • 4 • 5 • More",
+    "views": 1670000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://cdn1.telesco.pe/file/c01503a63e.mp4?token=u0ugq_7k0qQ7Cd4l4wy4BvWEP9Rxdvh3Ll03y6hwSext265pACF_F100OtBrwY8DVWcckw7sgLVfrTV7Fzpr7t3WZyC_dY9U2ukV93xdZq2xdC17YkTUpTW_xS4NLeMEvGC-7i0sh5qUby9Jcc9arD_qkaha24V74eS9VE2cMbcJo1aey5YDzULRNUOfkS7KTn7aGx5uBwcOEKTL82xrMS2BHLVs6g8LXPrZKHNb_lcMsgMv1Eof5XhWyH6JPmGSjUfGStnXjBliK0Q4P0vsWaC9o73dZYQ62zZay9lkAr4hS4aDSNAVXa-LijrL7cBQE4mwB8RRRn-YPaaKLKeXmA",
+        "thumbnailUrl": "https://cdn1.telesco.pe/file/DEXuHBBQbKueowNbVMnXoyUei98V5iUYH7-RPgxWwdcqwrr3ihs_EUgYSbo_ZkshaAn9W5qmYIeHQtug6f5dv3prCyRVIq7Y-tH8aX2ZvLQ6fxtRxpvm2FzWj_x4-LIE7sEYC5yvWF8ryWtVnP7c98x7gzPTrCkeWUuUrlV79KIGzFO6WHI4-PFNFeVfmzA0DcoBy7KdnOHG7gfsMX_nVzKHRd0PC4tHp-w5qMqSampkFAGzMWjlVkxbtFGydM2M445KxzBtenP5RgetGY1D4D1g4FQ8kr8eDqhtMQ8wibmKX74Nn_ot7r9xLioXNUysPqBv4bba_Ts5wLqkJ5wL9g",
+        "duration": "0:06",
+        "messageUrl": "https://t.me/telegram/441"
+      }
+    ],
+    "mediaTypes": [
+      "video"
+    ],
+    "poll": null,
+    "html": "<b>Bot-to-Bot Communication.</b> Bots are now able to respond to <b>other bots</b>, not just users.<br><br>AI enthusiasts can utilize this to create <b>custom workflows</b> with <b>autonomous agents</b>.<br><br>May Features<br><a href=\"https://t.me/telegram/440\">1</a> • <b>2</b> •&nbsp;<a href=\"https://t.me/telegram/442\">3</a> • <a href=\"https://t.me/telegram/443\">4</a> •&nbsp;<a href=\"https://t.me/telegram/444\">5</a> •&nbsp;<a href=\"https://t.me/telegram/445\">More</a>",
+    "links": [
+      "https://t.me/telegram/440",
+      "https://t.me/telegram/442",
+      "https://t.me/telegram/443",
+      "https://t.me/telegram/444",
+      "https://t.me/telegram/445"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.240Z"
+  },
+  {
+    "channel": "contest",
+    "channelTitle": "Telegram Contests",
+    "channelSubscribers": 297000,
+    "messageId": 444,
+    "url": "https://t.me/contest/444",
+    "date": "2025-12-31T14:11:01.000Z",
+    "text": "🚨 Last Call\n\nThe deadline is in less than 6 hours.\n\nStart uploading your work now. A submission is considered successful only after the archive has been fully uploaded.\n\nDo not postpone your submission until the very last moment.\n\nLate submissions will not be accepted.",
+    "views": 388000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": {
+      "messageId": 443,
+      "url": "https://t.me/contest/443",
+      "author": "Telegram Contests",
+      "text": "ContestBot is now ready to accept submissions for the Telegram Contest for Artists.  1. Check Submission Guidelines.   2. Start the bot, choose “Contest for Artists”, answer the bot’s questions, then send: – A link to either a private or public channel.  –…"
+    },
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [],
+    "mediaTypes": [],
+    "poll": null,
+    "html": "🚨 <b>Last Call</b> <br><br>The deadline is in <b>less</b> than <b>6 hours</b>.<br><br>Start uploading your work <b>now</b>. A submission is considered successful only after the archive has been fully uploaded.<br><br><b>Do not postpone</b> your submission until the very last moment. <br><br><b>Late submissions will not be accepted.</b>",
+    "links": [],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.240Z"
   },
   {
     "channel": "durov",
@@ -2675,7 +2778,7 @@
     "url": "https://t.me/durov/533",
     "date": "2026-07-21T14:36:55.000Z",
     "text": "🌍 This summer will see the largest rollout of a non-custodial crypto wallet in human history.\n\n⚡️Instant zero-fee crypto transactions for over a billion users are about to become reality.\n\n💎 We're bringing a native non-custodial Gram wallet to every Telegram app! 🏳️",
-    "views": 7110000,
+    "views": 7130000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -2713,7 +2816,7 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.120Z"
+    "scrapedAt": "2026-11-10T18:50:29.240Z"
   },
   {
     "channel": "contest",
@@ -2745,17 +2848,17 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.120Z"
+    "scrapedAt": "2026-11-10T18:50:29.242Z"
   },
   {
-    "channel": "telegram",
-    "channelTitle": "Telegram News",
-    "channelSubscribers": 9150000,
-    "messageId": 441,
-    "url": "https://t.me/telegram/441",
-    "date": "2026-05-14T16:08:31.000Z",
-    "text": "Bot-to-Bot Communication. Bots are now able to respond to other bots, not just users.\n\nAI enthusiasts can utilize this to create custom workflows with autonomous agents.\n\nMay Features\n1 • 2 • 3 • 4 • 5 • More",
-    "views": 1670000,
+    "channel": "contest",
+    "channelTitle": "Telegram Contests",
+    "channelSubscribers": 297000,
+    "messageId": 442,
+    "url": "https://t.me/contest/442",
+    "date": "2025-12-29T09:40:12.000Z",
+    "text": "Telegram Contest for Artists: Submissions\n\nYour submissions will have two core parts:\n\n1. A Telegram channel – where you post:\n– All gift models you created, one by one as separate stickers (please combine them into a single sticker pack with the help of @stickers). Should you be unable to meet the requirements for animation artwork, post a video recording instead.\n\n2. A .zip archive – which must contain:\n– Your static models as .png + .ai files\nor\n– Your animated models as .tgs + .aep files\nor both\n\nNote: Your channel may stay private until the deadline. Make sure you assign it a username after the deadline while not revoking the original private link you will be submitting. There is no need to upload archives from step 2 to the channel.\n\n===\n\nℹ️ We will announce SEPARATELY once @ContestBot will be ready to accept your submissions. In the meantime make sure you will have your channels and archives prepared.",
+    "views": 343000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -2765,30 +2868,19 @@
     "isService": false,
     "edited": false,
     "linkPreview": null,
-    "media": [
-      {
-        "type": "video",
-        "url": "https://cdn1.telesco.pe/file/c01503a63e.mp4?token=UD2xQq6OSLXcofO6qnc9uTZW5rUJa_vSQ_dWmVl9ZTtD6h6C2sFmPvTdlsHGuM6-3kALFwWBNUA9BAQ4uzYakyM3-gvxIaKcBKaeQxDQqtWyedb5GPAgxFnDa-fRiwmBJj8kk8pta2OuH3wSX7eou_FRXdURo3tTIrBPbuxG_zWAAkuVdayI-Nqr_EYakPcEQR4hp5HTWZrxQI53B9sK-io1tA6g8j9AcRAdfs8AqsDBD1i_H5p5gHJpYhA5HYwQRgDy-Wh02eEWqU1Bikt3O4j6wd3Ri0splluzwmyJVnRiSzfHobmOODplyPiixAXa40jXilgr38mo-x3FjYfr8Q",
-        "thumbnailUrl": "https://cdn1.telesco.pe/file/AF30yUOlVcEZUoRsnRl-7ntHPrsjvX-sbhzXY6OWRoTlLfYmfTlOuHH3vvFqoo-mSj5gdHnY41wZHn6eev0nh--oWbusWmXTNi5APa1q6tIdeXeNo47V4aVbS42m2liNh0s03UxtHXbxRRalWFzZ1Ffcc22vsjlushwuqMZPiMRUx6Aevbz7lue7ZT6V6xlMyB5Kv26NCrIQBVUU721AojUzdOMJN6a5L4bzkb4ocsWLukwtnfV9mt1_FH26iuxfdI8Vzjj-OhAGub_4D0vIhY5-vzsRDu0oMExn3lg_fyJ6e8qWuui33uPDNPkfPDeNM1R0VYEyX3sriLEGP8zaQA",
-        "duration": "0:06",
-        "messageUrl": "https://t.me/telegram/441"
-      }
-    ],
-    "mediaTypes": [
-      "video"
-    ],
+    "media": [],
+    "mediaTypes": [],
     "poll": null,
-    "html": "<b>Bot-to-Bot Communication.</b> Bots are now able to respond to <b>other bots</b>, not just users.<br><br>AI enthusiasts can utilize this to create <b>custom workflows</b> with <b>autonomous agents</b>.<br><br>May Features<br><a href=\"https://t.me/telegram/440\">1</a> • <b>2</b> •&nbsp;<a href=\"https://t.me/telegram/442\">3</a> • <a href=\"https://t.me/telegram/443\">4</a> •&nbsp;<a href=\"https://t.me/telegram/444\">5</a> •&nbsp;<a href=\"https://t.me/telegram/445\">More</a>",
+    "html": "<b>Telegram Contest for Artists: Submissions</b><br><br>Your submissions will have two core parts:<br><br><b>1. A Telegram channel – where you post:</b><br>– All gift models you created, one by one as separate stickers (please combine them into a single sticker pack with the help of <a href=\"https://t.me/stickers\">@stickers</a>). Should you be unable to meet the <a href=\"https://core.telegram.org/stickers#animated-stickers-and-emoji\">requirements</a> for animation artwork, post a video recording instead.<br><br><b>2. A .zip archive – which must contain:</b><br>– Your static models as <b>.png + .ai</b> files<br><i>or</i><br>– Your animated models as <b>.tgs + .aep</b> files<br><i>or both</i><br><br><i>Note: Your channel may stay private until the deadline. Make sure you assign it a username after the deadline while not revoking the original private link you will be submitting. There is no need to upload archives from step 2 to the channel.</i><br><br>===<br><br>ℹ️ <b>We will announce SEPARATELY once </b><a href=\"https://t.me/ContestBot\"><b>@ContestBot</b></a><b> will be ready to accept your submissions. In the meantime make sure you will have your channels and archives prepared.</b>",
     "links": [
-      "https://t.me/telegram/440",
-      "https://t.me/telegram/442",
-      "https://t.me/telegram/443",
-      "https://t.me/telegram/444",
-      "https://t.me/telegram/445"
+      "https://core.telegram.org/stickers#animated-stickers-and-emoji"
     ],
-    "mentions": [],
+    "mentions": [
+      "@stickers",
+      "@ContestBot"
+    ],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.120Z"
+    "scrapedAt": "2026-11-10T18:50:29.551Z"
   },
   {
     "channel": "durov",
@@ -2798,7 +2890,7 @@
     "url": "https://t.me/durov/532",
     "date": "2026-07-19T21:45:01.000Z",
     "text": "🎠 Telegram now supports carousels\n\nOne small step for messaging, one giant leap toward turning cat photos into keynote presentations. 😺",
-    "views": 6610000,
+    "views": 6620000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -2846,39 +2938,7 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.121Z"
-  },
-  {
-    "channel": "contest",
-    "channelTitle": "Telegram Contests",
-    "channelSubscribers": 297000,
-    "messageId": 442,
-    "url": "https://t.me/contest/442",
-    "date": "2025-12-29T09:40:12.000Z",
-    "text": "Telegram Contest for Artists: Submissions\n\nYour submissions will have two core parts:\n\n1. A Telegram channel – where you post:\n– All gift models you created, one by one as separate stickers (please combine them into a single sticker pack with the help of @stickers). Should you be unable to meet the requirements for animation artwork, post a video recording instead.\n\n2. A .zip archive – which must contain:\n– Your static models as .png + .ai files\nor\n– Your animated models as .tgs + .aep files\nor both\n\nNote: Your channel may stay private until the deadline. Make sure you assign it a username after the deadline while not revoking the original private link you will be submitting. There is no need to upload archives from step 2 to the channel.\n\n===\n\nℹ️ We will announce SEPARATELY once @ContestBot will be ready to accept your submissions. In the meantime make sure you will have your channels and archives prepared.",
-    "views": 343000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [],
-    "mediaTypes": [],
-    "poll": null,
-    "html": "<b>Telegram Contest for Artists: Submissions</b><br><br>Your submissions will have two core parts:<br><br><b>1. A Telegram channel – where you post:</b><br>– All gift models you created, one by one as separate stickers (please combine them into a single sticker pack with the help of <a href=\"https://t.me/stickers\">@stickers</a>). Should you be unable to meet the <a href=\"https://core.telegram.org/stickers#animated-stickers-and-emoji\">requirements</a> for animation artwork, post a video recording instead.<br><br><b>2. A .zip archive – which must contain:</b><br>– Your static models as <b>.png + .ai</b> files<br><i>or</i><br>– Your animated models as <b>.tgs + .aep</b> files<br><i>or both</i><br><br><i>Note: Your channel may stay private until the deadline. Make sure you assign it a username after the deadline while not revoking the original private link you will be submitting. There is no need to upload archives from step 2 to the channel.</i><br><br>===<br><br>ℹ️ <b>We will announce SEPARATELY once </b><a href=\"https://t.me/ContestBot\"><b>@ContestBot</b></a><b> will be ready to accept your submissions. In the meantime make sure you will have your channels and archives prepared.</b>",
-    "links": [
-      "https://core.telegram.org/stickers#animated-stickers-and-emoji"
-    ],
-    "mentions": [
-      "@stickers",
-      "@ContestBot"
-    ],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.431Z"
+    "scrapedAt": "2026-11-10T18:50:29.586Z"
   },
   {
     "channel": "contest",
@@ -2909,7 +2969,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.435Z"
+    "scrapedAt": "2026-11-10T18:50:29.587Z"
   },
   {
     "channel": "telegram",
@@ -2932,8 +2992,8 @@
     "media": [
       {
         "type": "video",
-        "url": "https://cdn1.telesco.pe/file/bd37eb87ef.mp4?token=rSxsq0V2cQrP41JC-HgloJX9YqqnubArycnRCWEcccZsYj88u83ZTzwIpgQgpalUQjctmsIFOHe7F7HzpLh-KhzLH3_tvsXWv1IBxEBGmy8yf-lIeS_IdXzFQ65xwQsUwzbdtc-cHfPKyCJDsoOkvT0f8ObV_SnL4AeBM-RpRrN9A1OLlz7u12XJDpVSXDjym_Ch9b20JvynAynQAD9iJa6u3NmBiwLmfmM2R1q-XKasvQHBXXziVdjKmsQwHV8Njzj-8Mef_RaMy4c6Xy2rWHAFHo8bA-yYccP-QQbPq6mGugLtUTpHHhG9bpRs_Ewvsz8sY3SQcfIJ0EHCT3aZzw",
-        "thumbnailUrl": "https://cdn1.telesco.pe/file/Nifus0iCu4OUDO9ciIjZBMhq4oqB-g2hDEmQ3lsb4JRZNamUWTL_aVSNHEiuDn2hpr_OnuQ2TYf6PVrvMzZ8UtC4c0aLygNk1c_MtHS4-soloMRlb1w8l18nAeOriSJ7PWxXn10HbxdmAr1LoeG2VNqgTfX88cJEnhx0eJLxC9_wMrSD8khVfpY-D4AbUHc6LLDh0PkkmwzwEJSmfPgiqMr9CoNa0qioRUGNxq-C1N4Pw9PS9wYaftdlvdeT7TkjwmZinVJkPJNezpexGKCh7FHXNMq4YWQ3RJa089XlUoG25pWxgXHkFQ6v1mlZkDC6sngpFsmI-X9-WZP2WVXcsQ",
+        "url": "https://cdn1.telesco.pe/file/bd37eb87ef.mp4?token=R3GCEBmSWBXAOvermiQLihyTrgPGxHPDCXVRaYlicF-QQnlqi9oYPYzjKTIq61Dnf6AyNULDWbpydHl-Chls96xKxP4Cell7pBPx9OrMsCLQSYqr4KUZ-aL4Eu5RFK9gN34K1lsPGgCuwtYnZ-GttLE6WoxhVPhsZMkdBCv9XVIMGFz2FQR_stP-GTrHvxKsr2QpvbbrrzpZVvf5NgaIKornxN091SP9XJgqGMjMRqp_yaDBBm-NPYF2deIKiWawyR8lvazqQZ7nS0KDvkoxbtAweHF8AZHXOvNI3qH7IS378yDNKF2w04EEiyxShHjDgWaD3XLifOSnLbyjVxrT5g",
+        "thumbnailUrl": "https://cdn1.telesco.pe/file/MzNHLMOzBDpbPwPaKKl5vUD_T8buTU8klkfgXtkaU-hbv7yWGEru-5xTAZZre7JqZ-7XQleNX9yI8_-yx-N9HI9eSbBffv5ll_-4uDv3geT8hzZMVV-s9_YUhzxsggjtnvhpAyRhK_H7Ox4ysZ7hqTzqHRkjY_WHiy2ZFrsZJ0CEFYuX2p8v0I3aHoTMAfDBJWWBy9MWHZUdlrA9XpFP3vY9se_HMYOXZ4ue3rBQASX94uskoVfym3XrC8zOhYQryi9hk8aSP_2C-yky7oqtiQAGkCl0VULNUqtPBSKi-f_DwVpOAd-w9P5q_Z9Nph-ofVqC4LHvBYqujlEXWfZUyQ",
         "duration": "0:07",
         "messageUrl": "https://t.me/telegram/440"
       }
@@ -2952,7 +3012,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.477Z"
+    "scrapedAt": "2026-11-10T18:50:29.614Z"
   },
   {
     "channel": "durov",
@@ -3020,7 +3080,7 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.524Z"
+    "scrapedAt": "2026-11-10T18:50:29.614Z"
   },
   {
     "channel": "contest",
@@ -3030,7 +3090,7 @@
     "url": "https://t.me/contest/440",
     "date": "2025-12-22T17:06:52.000Z",
     "text": "Design Contest 2025: Submissions\n\nWe received 192 submissions for the Design Contest.\n\nEveryone is welcome to view the submissions while the Telegram judges conduct their own checks.",
-    "views": 196000,
+    "views": 197000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -3050,7 +3110,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.528Z"
+    "scrapedAt": "2026-11-10T18:50:29.615Z"
   },
   {
     "channel": "telegram",
@@ -3074,7 +3134,7 @@
       "siteName": "Telegram",
       "title": "AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More",
       "description": "In today's update we introduce an AI Editor that can translate, transform, or fix your text in just two taps, new features for Polls like attaching media and suggesting new responses for active polls, support for Live and Motion Photos in all apps, bots that…",
-      "imageUrl": "https://cdn4.telesco.pe/file/KlPl3qCP8_9HaRpzLiyw2eXwqdRrwl0UYLtd_wR8YlPUtc8lJffYbx8yz87zw7xTlo03h7GGxghWvjSTFFJKprtsr3FB6jlr2SE0zYdVgX_I3aRBD1xsUlqI6_CQaZppIM0PFn0vJCUlQ0YZUikZBRAIFhGF7ImQ9jUkqq1PbCgVYXa0K5puRZvhs-n6Jjo62J86Wq8oaAp0u5yx3fzWWEWtrl65pOhRJr6cEVIjYU-8vcsTHmwOXKxromTRUb7oJnJo6-HqwqqaEiElHO6pWrdQkObhB9mRAPGOrsmpwpnqfjNgrzP9mV6KCMt1AROCFAoPVtmS_HozsTIjJDEZzw.jpg"
+      "imageUrl": "https://cdn4.telesco.pe/file/VWH_XbUIzOPKwWU5XDLP8Os5SUCAzJZt1C5n_84s3msw9OArFR39uI2UYqP2pbTK8n6aMaiSr_Tl7A1dDsNWi3fAfIJLKuRZeMZ5rv_LWokY62Zm_YJZ3Udc2RxMZZaHeNbHhBV30kzy-tTnLZsfU0npH9ggG6zfLagTLf-a5OfoZPEF3yH6J-T1eY9kS_SjKSL6LfyHqPOEdwOFZHVZ0Gn3AP7x-OwYV-bMn9rR-7xyVWi_NbFQ41j68f0fTtaUnRYHdYwUPZfy7WoU7QsbMWWvSJRZ6zYaq6svAYnyHfiys-tFhFI_PbqzjyS7rkZ9Sn-HfNU8kdrpfYRIerGJDA.jpg"
     },
     "media": [],
     "mediaTypes": [],
@@ -3094,7 +3154,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.529Z"
+    "scrapedAt": "2026-11-10T18:50:29.615Z"
   },
   {
     "channel": "durov",
@@ -3104,7 +3164,7 @@
     "url": "https://t.me/durov/529",
     "date": "2026-06-16T15:05:29.000Z",
     "text": "🚫 India’s IT ministry banned Telegram for one week because some users shared leaked exam questions.\n\nThis punishes 150 million ordinary Telegram users in India — not the insiders who leaked the exam materials.\n\nAnd the ban hasn't stopped anything. The leaks just moved to other apps.\n\n🛡 We’ve done a lot to help fix the problem — even though its source is not Telegram.\n\nOver the past few weeks, we removed hundreds of channels sharing leaked exam materials and related scams in India.\n\nWe’ve also been making the “edited” label more visible to prevent backdating scams.\n\n🏳️ Telegram is a force for good. Banning it — even temporarily — is a mistake.",
-    "views": 9880000,
+    "views": 9890000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -3152,7 +3212,7 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.529Z"
+    "scrapedAt": "2026-11-10T18:50:29.616Z"
   },
   {
     "channel": "contest",
@@ -3162,7 +3222,7 @@
     "url": "https://t.me/contest/439",
     "date": "2025-12-15T14:16:00.000Z",
     "text": "ContestBot is now ready to accept submissions for the Design Contest 2025.\n\n1. Check Submission Guidelines.\n\n2. Start the bot, choose “Design Contest 2025”, answer the bot’s questions, then send:\n– A link to either a private or public channel.\n– A .zip archive.\n\nNote: Your channel may stay private until the deadline. Make sure you assign it a username after the deadline. We will discard private channels from the evaluation.",
-    "views": 270000,
+    "views": 271000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -3184,7 +3244,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.534Z"
+    "scrapedAt": "2026-11-10T18:50:29.616Z"
   },
   {
     "channel": "telegram",
@@ -3207,8 +3267,8 @@
     "media": [
       {
         "type": "video",
-        "url": "https://cdn1.telesco.pe/file/9f455034e0.mp4?token=oaBmPr1YIeARW_EcqFdUhgugCxfSaR6NrvGaqcbkZuP9suxxvKBxZ-QIja3dAEPUa8Hc96O4aWQ6tO1CD9ATDs3NC7DKmAK8X8_QsXsIlKjbaMTlDfJNxK0UqmYpWiAqQFynNTrXHhe04Eiq-NK0VJaJ_YywJ-OoacY-GQVAcEzpNb5yWipOz9ai0X0SwrXJFOv9mssmWXJhXCzh9c9KYiHb-ZgW55hPbid79D-F68FyS3Rhdt9H2TY-U9ofHQCTuG4DZ-7nQXMKgCytRyWFXI-cGLnBJCVxc9JLXChAfGboR_guLiLt5euXrLNFq9ELGBW1eEs7XJG6XpEZKFhBIw",
-        "thumbnailUrl": "https://cdn1.telesco.pe/file/QRSfziHBj8N8m-xEV56lYRnBkYD1auqvxbZ1XtcChc1Jsi4x0FCad0KZkQqkDKuSWXpgxqjaePseBQySgAIYqiTucW3Qam-jobn73d4WyyU8DilSX5-5GeFteX1evU7Zg6cuQA1uKyZQsVDrzSR8CGh46SM6YG8uKjuZSjG_DZNgXiAKOyeuKTK_w8toSCX_eVmyV0nUgPms58DCUm_WO9kPLgq2bIl7MZP11S8ozSZr6yZjPMOPrdAj2XJMAMk3KjuP2Qvh7GfqwzJB_35U6dvah6XwlLjVRYr2AS3xq2FHzoyo1dLc9wcRpWB2xj47WjrbeyYmyXViwwIcKNzh2Q",
+        "url": "https://cdn1.telesco.pe/file/9f455034e0.mp4?token=ZvSbO2djvj5ONZGNk3FWVEbuncnXyRA645vtAB3yXxr0Qv3OSDb7h9U4b-lBe_5Hu71AKgPftIRZK2N5O5pHMCrY94_NmGIflfaS-HuSUSQOj_RSCYpGjde4JMs1dxElPuQOmdOtO85OQ_Xg9DEA7fy_D50QxWzCT9359qXMZuRKcQZoEvquTLb4BWYloyucKSPQTLQDubJKblfzT_WEyk1ftWBe6zwtG51O_A1XT3Bcksshax7ozNuJ61-FxxPZ7eNF0tKXmjG7PKyqVUKmgT7allsCmsFaGvUZ4tBJIXoykm6tb0rZ4KsTqVQOld5c2mQE4-3fuC9I7NR2F6Uxsw",
+        "thumbnailUrl": "https://cdn1.telesco.pe/file/TiZDmL6SY3wrBtCfYtcrIPU8SGAJ4sK7Ps7cLQWic_80kGDLPZUyFtFprP6GikfIrMhJ7x8FStnlrVljdTeSn58P3eHtLCYM53RCsYDG9GWo3sspksTuxsLWxF8BQ3G8IplhqXorQmQ0Yz1qH2FItrBCC7XW6QV_jFtRNJALQXuT8BgNR3CzGpcmEn3QMMpA6HEe4DkGDPtDh1Gu6NXMoXXSE6E8kgey3s1vVsZb-ckTOVr3FGAOIiEHMFaVbGFIddMYgKF5IPUo_wE71hUIrymrw9uOwp3KCROpu79svAsSAkJ6MF7R4CpB2NWNMtdLVC7k1ZDHLyH6TItzLMiatQ",
         "duration": "0:12",
         "messageUrl": "https://t.me/telegram/438"
       }
@@ -3232,7 +3292,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.535Z"
+    "scrapedAt": "2026-11-10T18:50:29.617Z"
   },
   {
     "channel": "durov",
@@ -3271,11 +3331,11 @@
       },
       {
         "emoji": null,
-        "count": 809,
+        "count": 811,
         "customEmojiId": "5373223594484587136"
       }
     ],
-    "reactionsTotal": 233909,
+    "reactionsTotal": 233911,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Pavel Durov",
@@ -3293,7 +3353,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.535Z"
+    "scrapedAt": "2026-11-10T18:50:29.617Z"
   },
   {
     "channel": "contest",
@@ -3320,54 +3380,7 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.538Z"
-  },
-  {
-    "channel": "telegram",
-    "channelTitle": "Telegram News",
-    "channelSubscribers": 9150000,
-    "messageId": 437,
-    "url": "https://t.me/telegram/437",
-    "date": "2026-04-09T07:02:22.000Z",
-    "text": "Live and Motion Photos. Telegram now natively supports Live and Motion Photos.\n\nAndroid and iOS users can send animated images right from their camera – which are viewable in any app.\n\nMarch Features\n1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • More",
-    "views": 1490000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [
-      {
-        "type": "video",
-        "url": "https://cdn1.telesco.pe/file/8654f8c669.mp4?token=vx1s_fUBaE6T_mg-7ccqxs6zqfVObcwilUgjbfa58H-J00ch1ZkUNNe0USJemU3vfRxRrNdRUvGLzMcgwbCmIHs59Okg09jS8RoT9MQOIZzQ0m3FNosTsnpE0e_DAymFxpAc4L42fNXEn9UyElGTXR7CdIvvjITJSZdgSjor5vV1HgXypGbzfnDssXga0k4PwUYhxUg0t1Kmf7NsDxfkISArl-Sy3mYHbyqRDCSH1iG85y1hCmiVu8EFp6hCxeUZJ_Wmsdg5SwQxYizinLaH2kDoBFu65zwlUoK6BpXO9sJHDLegxrvYf7o7r8Tu1K7mjjqdLVRl02Ls3wG2wdyNuA",
-        "thumbnailUrl": "https://cdn1.telesco.pe/file/X67pqwMdAZR90XNQ2s4iYm3_marRrweFLsZ3Ry7U9yihsmwuMtSyoxZBXhHQba326pKzAeRvw9RGKCKlkgLoX-k1c6060neEy0oIh7GBDiNCYZYfDSMYSjP30EOpy7Os9RHC5LoboGjFaaqj9Z3X9R_uyCiJ61CKH5VXt3QqS6yzLevdW4idOF-UGgEShhDuylLsEgGR-DUOZul72P3dJx23IFHKfvgFF_6f047914rMIf4EMDuIo6x1Bw8IMrqmq9iwXIUaY2neB79--mRDpqSA9d8ZhIucpCC9xFMCCInBz7F2AREBnKD5vsI4puhhjiKT5lIEf8rnaALJEHAQAA",
-        "duration": "0:10",
-        "messageUrl": "https://t.me/telegram/437"
-      }
-    ],
-    "mediaTypes": [
-      "video"
-    ],
-    "poll": null,
-    "html": "<b>Live and Motion Photos.</b> Telegram now <b>natively supports</b> Live and Motion Photos.<br><br>Android and iOS users can send <b>animated images</b> right from their camera –&nbsp;which are viewable in <b>any app</b>.<br><br>March Features<br><a href=\"https://t.me/telegram/429\">1</a> • <a href=\"https://t.me/telegram/430\">2</a> •&nbsp;<a href=\"https://t.me/telegram/431\">3</a> •&nbsp;<a href=\"https://t.me/telegram/432\">4</a> •&nbsp;<a href=\"https://t.me/telegram/433\">5</a> • <a href=\"https://t.me/telegram/434\">6</a> • <a href=\"https://t.me/telegram/435\">7</a> • <b>8</b> • <a href=\"https://t.me/telegram/437\">9</a> • <a href=\"https://t.me/telegram/438\">More</a>",
-    "links": [
-      "https://t.me/telegram/429",
-      "https://t.me/telegram/430",
-      "https://t.me/telegram/431",
-      "https://t.me/telegram/432",
-      "https://t.me/telegram/433",
-      "https://t.me/telegram/434",
-      "https://t.me/telegram/435",
-      "https://t.me/telegram/437",
-      "https://t.me/telegram/438"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.539Z"
+    "scrapedAt": "2026-11-10T18:50:29.618Z"
   },
   {
     "channel": "durov",
@@ -3406,11 +3419,11 @@
       },
       {
         "emoji": null,
-        "count": 520,
+        "count": 521,
         "customEmojiId": "5373223594484587136"
       }
     ],
-    "reactionsTotal": 521020,
+    "reactionsTotal": 521021,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Pavel Durov",
@@ -3430,7 +3443,54 @@
       "@contest"
     ],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.540Z"
+    "scrapedAt": "2026-11-10T18:50:29.618Z"
+  },
+  {
+    "channel": "telegram",
+    "channelTitle": "Telegram News",
+    "channelSubscribers": 9150000,
+    "messageId": 437,
+    "url": "https://t.me/telegram/437",
+    "date": "2026-04-09T07:02:22.000Z",
+    "text": "Live and Motion Photos. Telegram now natively supports Live and Motion Photos.\n\nAndroid and iOS users can send animated images right from their camera – which are viewable in any app.\n\nMarch Features\n1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • More",
+    "views": 1490000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://cdn1.telesco.pe/file/8654f8c669.mp4?token=t9TtZ0i_KTkyONzI4iTiIAqDEsM3LDoc2AuBgSjNRg8F4UMnjyCRIajbMt5M_CmG7VXmypLsK_Z-bVcgr3iD0DgcQLi59aa0ipJmzOvbqkfc4aOD1hjnZTIXjBE8_VwRc49rRaahKZ_fGsd0jRpvWnI-gspBiDpQsKl-dIOZ6ge39myXMSiDFcJqLOQLWWFAfnRWXevuxvRvD1ncaiA-VKgQr4kbVIW8ta-EA8865_Uug_fZ-19vEKpm1-Xiwiks0_zA2PCcX1zSOUvH42PJkytdjNAM-tPystJnjLZhAA_Ed3Q9sHMPsPSQGTidDkSEQLsSV33pjKSF0k_tswA_3g",
+        "thumbnailUrl": "https://cdn1.telesco.pe/file/Ku7C6oZccAiJeuaR04K3VNNUFqIrSF_8gBbKwHU8Sn_sO0dgclV81PyHTUhbvr3qJo9lfXUKQ7qE5mAoQd60-SG680VgrhbBvNYoahdsO0Y1yPM_1itYx7imODk7XLOvYEuGBJcMgBwT632E1XajgXkENAPaSAO4rp6cUNLIkD89XqZhMwnpDJncnCVyT6o8db20zNaDlZNJkspE78aSX0SH1M61EM4iv2tyzYU2S3fbL9nb7mJGk6frCcs08NtD-OGCJsI2PD9N76O41irVAjXZPbCn5WYXSNUEFCPSi_S3fweHf2fiVzpz70eeZO7HZYvOYmVF0TLr1RMOOJrKSg",
+        "duration": "0:10",
+        "messageUrl": "https://t.me/telegram/437"
+      }
+    ],
+    "mediaTypes": [
+      "video"
+    ],
+    "poll": null,
+    "html": "<b>Live and Motion Photos.</b> Telegram now <b>natively supports</b> Live and Motion Photos.<br><br>Android and iOS users can send <b>animated images</b> right from their camera –&nbsp;which are viewable in <b>any app</b>.<br><br>March Features<br><a href=\"https://t.me/telegram/429\">1</a> • <a href=\"https://t.me/telegram/430\">2</a> •&nbsp;<a href=\"https://t.me/telegram/431\">3</a> •&nbsp;<a href=\"https://t.me/telegram/432\">4</a> •&nbsp;<a href=\"https://t.me/telegram/433\">5</a> • <a href=\"https://t.me/telegram/434\">6</a> • <a href=\"https://t.me/telegram/435\">7</a> • <b>8</b> • <a href=\"https://t.me/telegram/437\">9</a> • <a href=\"https://t.me/telegram/438\">More</a>",
+    "links": [
+      "https://t.me/telegram/429",
+      "https://t.me/telegram/430",
+      "https://t.me/telegram/431",
+      "https://t.me/telegram/432",
+      "https://t.me/telegram/433",
+      "https://t.me/telegram/434",
+      "https://t.me/telegram/435",
+      "https://t.me/telegram/437",
+      "https://t.me/telegram/438"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:29.618Z"
   },
   {
     "channel": "telegram",
@@ -3453,8 +3513,8 @@
     "media": [
       {
         "type": "video",
-        "url": "https://cdn1.telesco.pe/file/fed01155c6.mp4?token=ATEvGMcGOIkD37zwv2imnV-o0gjAbFpSr7re1DoHqTLKfMKQUfpYF4rAfA8wPCPJPAsdLa5KjXdTnwbEQcfQuhIJ1CjmJZRYHDdkHB4K7JpOn14NqegKHyA9aOIQ_Pux6Bjqhf56sj1J5oYoo4dbKGeRYnF9kS9S0CYyykVzq0mvmKL7OBe8UP7Z_IR-D3lpL99GF270dV5tYy-8odH2_V_Q9DEkztUgQTamo86-Z7QXxhN0ml-GI1z6xpZgvZGI9ndn2JD1NxC7U0NVklmiuydgKRMxDxtU8Ft5R6A42WVzXTPOeSB-8-QDPqPAyukpHbszsnH9YVpqVgu_g-lLAQ",
-        "thumbnailUrl": "https://cdn1.telesco.pe/file/j7UNqjzuRP3NHt7LMtQpgMpBUgia_Wm15EEk6v9XcFqlcyBdhfufexiB3E3054wv_xNJktGu26_qv8X8S3D-UxcD3roILiCKLxgEdI1rPVrMFgumqyDIxLNsFOci9by22fsx4c3gqQ_hZJeBIfxltH2fMnF5uJvoat__YRAbv4E4NPTildqYz09IPfs3dcHTfABfM995KQ1LjbtiDGWsgtd-ZgIy35-nhACgqzyFHmtlZ3WGcF9EVSKBSln1-br38WJDO-mNkaYCHk1qDWpmqDeWln-aOITBLykxR68Ajthr5nbu2yTdgB4fjmsUIFNhIlbhkDvySaYMTM4AsWE60g",
+        "url": "https://cdn1.telesco.pe/file/fed01155c6.mp4?token=uA5uC4UaciyX2AdpfJyVZIpyawz4CIcGfpLhszrCdr-5Ia5TZdVHwT0A5hKUsxjSN95gFJfNz3jref9giP2G9swkfGMmvwjVfVGYFuSLNF3mSxJi8J6PJkPr7F1bQt8CqSO7sikgqJNKpKhiGenmPFYUQHd_kZHKGWZUJQSI1XONYWoC5giP-o_e7Z74KHBofR2lI4ExgBnrxC82yLVrqYiOBKD6RQmlmOJMsPUP7ZTRT-XnRWICMkyUel33GnT_Pga-A3C71q9lkJ2QgRgBNHXUWiNnidXnN0lbIWRatITjQGSWcKrpVN7nx-RVVKzG3PsOAMydi7pEXYud3ak9Zw",
+        "thumbnailUrl": "https://cdn1.telesco.pe/file/s_804Vo8sC2LSoX3QvsbiAsNzggCsvQw3Bf3FT1lvOoj3uSoHpp2SnY7oUZ6m1P1_OlvnVh9Rx-W_xd5Hp50wNCa1VCGkxaM1K_w_hHpAGvCh_cqTy_B9ooJjaMsrKpXN-7ZlEgz7XVxK5WdHvT3ejOL1XNUfwIYSsAWiMJ5blBUgRULUI6NceQmBzQL3oEWF1n9XmR_6ASiONOMT62f7NJX0Fa0S86yllUiAELN2ukW4J2UQ_9Qx6qT6BJdqzh8oYGyFIqWotux_zttQfI94cKqy1Qgpe1UU2I81uJzfoMHUjLDSQw6KYhCapc5aIjJi3aSoSdJg1JcfWbi02goAw",
         "duration": "0:20",
         "messageUrl": "https://t.me/telegram/436"
       }
@@ -3478,76 +3538,6 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.546Z"
-  },
-  {
-    "channel": "durov",
-    "channelTitle": "Pavel Durov",
-    "channelSubscribers": 10100000,
-    "messageId": 526,
-    "url": "https://t.me/durov/526",
-    "date": "2026-06-13T20:15:20.000Z",
-    "text": "🖥 Don't be surprised if you see tables, nested lists, inline media, formulas, headers and more in Telegram messages.\n\n📖 We now support rich formatting for all chatbots.\n\n🔨 Start building! Docs for chatbot devs →",
-    "views": 23200000,
-    "reactions": [
-      {
-        "emoji": "⭐",
-        "count": 5980,
-        "paid": true
-      },
-      {
-        "emoji": null,
-        "count": 46000,
-        "customEmojiId": "5465587407350942612"
-      },
-      {
-        "emoji": null,
-        "count": 20200,
-        "customEmojiId": "5265077361648368841"
-      },
-      {
-        "emoji": null,
-        "count": 17200,
-        "customEmojiId": "5399847211989246390"
-      },
-      {
-        "emoji": null,
-        "count": 6060,
-        "customEmojiId": "5936157098181135162"
-      },
-      {
-        "emoji": null,
-        "count": 382,
-        "customEmojiId": "5373223594484587136"
-      }
-    ],
-    "reactionsTotal": 95822,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": "Pavel Durov",
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [
-      {
-        "type": "video",
-        "url": "https://cdn4.telesco.pe/file/1fd3fed61d.mp4?token=oCc3xWgNlUJPuCoLE9qVkh1n_k1QIODbtdEsfPaFCjpY17mIfcNs5KEmdLw2eiL_roozmlkwIGlek8NERowLgPrA8yJaL8ofSowxTL12wtEm1OoYfexEf_oNOWCurutRoaa9B0s__xZzZtF4Lw2AuC65lTTBHyuICE6yvEQLi9VY77YXN5kEbDQuivIGUfcMkNqaIm4kKNQWuCvU2gliN2578myTjtkg08u9WJ0sDiOrev961bsYkjuALyN1qKSj3xgZFkR5bWGPuJmneUs_9ZgFb-6IN9wuj5aV5hsmV4jnjxJJMzmogHpbdZtHzWA82l4ILBm1nc_x2rb7HwoKBQ",
-        "thumbnailUrl": "https://cdn4.telesco.pe/file/vIKRFtkSVzjWCl3ZVRr0NHqVqCk1HF53lmyBGQCu0eHNKg3dDs96YN8Ww0WVswZbPtHWZgmoG6I2Fm4_C4aoAq5Mpj5pHqriw_QGh-4GVeOoTUGXiADF6tCqWwZTZLpZfBJoMwbje-AlVD0FZNHBmMLKUAdeJ_ZPVwGI65OFfV46x4WwEXjsfOPjQvhKKj9yUt77Xtl9HaD7dWxnEBemzA7PAPIcsgtn4uGjbZz20kIUOWm0vyzPlazYzeq9rw2q4SOZjVODqmNQr8OehzWi3qZ2Rgp7vjyh7iNsspqJvlHCB-rPv4mT-HKRdEt-0eG1ipJ4ATWmzN4pkaWI4H3r-g",
-        "duration": null,
-        "messageUrl": "https://t.me/durov/526"
-      }
-    ],
-    "mediaTypes": [
-      "video"
-    ],
-    "poll": null,
-    "html": "🖥 Don't be surprised if you see tables, nested lists, inline media, formulas, headers and more in Telegram messages.<br><br>📖 We now support rich formatting for all chatbots.<br><br>🔨 Start building! <a href=\"https://core.telegram.org/bots/api#rich-message-formatting-options\">Docs for chatbot devs →</a>",
-    "links": [
-      "https://core.telegram.org/bots/api#rich-message-formatting-options"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:37:59.548Z"
+    "scrapedAt": "2026-11-10T18:50:29.620Z"
   }
 ]

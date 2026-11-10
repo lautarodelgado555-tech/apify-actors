@@ -1,5 +1,65 @@
 [
   {
+    "channel": "durov",
+    "channelTitle": "Pavel Durov",
+    "channelSubscribers": 10100000,
+    "messageId": 554,
+    "url": "https://t.me/durov/554",
+    "date": "2026-11-10T12:59:06.000Z",
+    "text": "Any Telegram message can now become an app.\n\n⚡️ Downloads instantly (just 4 KB)\n🎨 Interactive and natively rendered\n💸 Payments and viral mechanics built in\n\n🛠 Build your own. More info and docs for devs: https://t.me/BotNews/122",
+    "views": 553000,
+    "reactions": [
+      {
+        "emoji": "⭐",
+        "count": 2070,
+        "paid": true
+      },
+      {
+        "emoji": null,
+        "count": 10700,
+        "customEmojiId": "5399847211989246390"
+      },
+      {
+        "emoji": null,
+        "count": 3690,
+        "customEmojiId": "5936157098181135162"
+      },
+      {
+        "emoji": null,
+        "count": 2910,
+        "customEmojiId": "5373223594484587136"
+      }
+    ],
+    "reactionsTotal": 19370,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": "Pavel Durov",
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://cdn4.telesco.pe/file/95159a98b7.mp4?token=lVjnMRU7mk8EDS6E_k42ln8iwQhxreA-HDE6aaLyuu1ucNbpc-ZpgHWskII71v5Q2P4Y2tgfQovF3kfuBiLBtE8Hvc1jECwNOznnPmN6fQ0QaPEd5x5H82hSH8p_p9YYdmiXfRCmA7BfuMAfFOQw_qeGZrIFScMP9gGmliu89ZauxZyFPFIuOWaoN-KhOU_LFt6X1Z7kB-QK1aOtDxXkseuXvPFm-Q1C6kb6_Q1VkDmk_yXGslQtk1fKohjv4IWtMK-3cfr3hfZ_1cMupSuevGtPEpNcr9kZLLJp_lYWV5jRRH8G96cab8b9Il-yiHgvOK-n3lVMNaRdu1SRBJDh7g",
+        "thumbnailUrl": "https://cdn4.telesco.pe/file/SUHUSCedk45FccMBvxmwfdojQy0CqU07ODYyO8WcKFQ4ktDqA69bI1hJUqsQIXPw88b1JFZabSa5eWBW6IeqM8D36mR1qld0f2KRvVZq3ck0kVkHl5Ox4QKvQC_BYsZgQsfn4eF6VUqJA5tVVhxckw1J8cQBCi10Mjpw79uacdsQallijZojz15lSGckVgV4vjWsFAw_FX4duGkOP1yEcahxQttD-cWiJqHkML6jCjrxqDmlASMsIguMWuBtpUE3MfPD4GwfE0yLiX86zhuuxqGLnYfdpTSPqvTkkhUXsfJyQf6iu6SiEJqrbPVES7p5Rmzowf9RsNj5xn1rsm8k2Q",
+        "duration": null,
+        "messageUrl": "https://t.me/durov/554"
+      }
+    ],
+    "mediaTypes": [
+      "video"
+    ],
+    "poll": null,
+    "html": "Any Telegram message can now become an app.<br><br>⚡️ Downloads instantly (just 4 KB)<br>🎨 Interactive and natively rendered<br>💸 Payments and viral mechanics built in<br><br>🛠 Build your own. More info and docs for devs: <a href=\"https://t.me/BotNews/122\">https://t.me/BotNews/122</a>",
+    "links": [
+      "https://t.me/BotNews/122"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-10T18:50:58.256Z"
+  },
+  {
     "channel": "contest",
     "channelTitle": "Telegram Contests",
     "channelSubscribers": 297000,
@@ -24,7 +84,7 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:38:28.962Z"
+    "scrapedAt": "2026-11-10T18:50:58.342Z"
   },
   {
     "channel": "durov",
@@ -34,30 +94,30 @@
     "url": "https://t.me/durov/553",
     "date": "2026-11-09T13:00:39.000Z",
     "text": "700K+ self-custodial wallets created on Telegram in the last 48 hours alone.\n\n🦠 Adoption spreads virally. A wallet activates the moment someone receives Grams.\n\n💪 The crypto revolution is going strong.",
-    "views": 574000,
+    "views": 889000,
     "reactions": [
       {
         "emoji": "⭐",
-        "count": 14800,
+        "count": 16000,
         "paid": true
       },
       {
         "emoji": null,
-        "count": 15600,
+        "count": 19300,
         "customEmojiId": "5399847211989246390"
       },
       {
         "emoji": null,
-        "count": 4910,
+        "count": 5960,
         "customEmojiId": "5936157098181135162"
       },
       {
         "emoji": null,
-        "count": 4000,
+        "count": 4860,
         "customEmojiId": "5373223594484587136"
       }
     ],
-    "reactionsTotal": 39310,
+    "reactionsTotal": 46120,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Pavel Durov",
@@ -68,7 +128,7 @@
     "media": [
       {
         "type": "photo",
-        "url": "https://cdn4.telesco.pe/file/bge3VLstoSlfg86m3B0-dvZH8vOgLYtEN7z7nNTKwOWD5pbDMGjJSx9ZUNHs7s7r1g2rCZTGvmboU4NZ5G6C-WA0SRRhjwuwVSOyaot8sly6HjQVYGfqUXa4SrUIXSVrsNAt4LjUhYgT0WOShStXXNum1yZKrTKU2MVc7b8HWnThfL6KpQTarbzgi-aIbO43anLFofm85t-3iiSqBaK88MyMGlSu3prdSMM_9Z03NGRT4eiL8tKbVjHPP0mhiZzJCQ6CISOcrqAUrKieeHcQy-i321kJkaF0e7S5Mip5qkMuYYNClRk5RXVFI76pRfCNlDGFlqlwmUzWfU4u0B0SdA.jpg",
+        "url": "https://cdn4.telesco.pe/file/hc6uK8EVgu5brXDDRBj_1fxlF5vSl-YSpCXy4C7umvg7CukJFwN5QdddVaWnC4A5BRwaabwrfpClaqSXDmuEGydSMqVmkDMG85NsSUK_niuWvCzT-VUUFCJhVNuhKv8LDSokQNnbGW6zZRKWDEY9coP-3mlMgGzdERFOa-3updqKxjWZKOSlRXC2o0I4z2CoRrOmiQACyPy_PRb7IKzpfmcsPCuj4VtldGP5rffgNRxWKUMdCqls7Yx9bb1HhScfROUuzN1AoqOKrLFdiQWbj44o32_lpAIqqXZpgQMjDGM19QA84gnuRUKmg07mWug8ug0DDdH9z09g9baW9C5TEA.jpg",
         "messageUrl": "https://t.me/durov/553"
       }
     ],
@@ -82,7 +142,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:38:29.063Z"
+    "scrapedAt": "2026-11-10T18:50:58.344Z"
   },
   {
     "channel": "contest",
@@ -92,7 +152,7 @@
     "url": "https://t.me/contest/461",
     "date": "2026-08-31T19:08:23.000Z",
     "text": "🏆 Digital Freedom Contest: Results\n\n🍆 Our judges have completed their evaluation and are pleased to confirm that the entire prize pool of $200,000 has been distributed.\n\n🫠 With several hundred winners, we are now completing the technical formalities and will update you in this channel and on contest.com within the next few days.\n\n💸 Stay tuned for updates, and congratulations to all the winners.",
-    "views": 156000,
+    "views": 157000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -111,7 +171,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:38:29.066Z"
+    "scrapedAt": "2026-11-10T18:50:58.345Z"
   },
   {
     "channel": "durov",
@@ -121,7 +181,7 @@
     "url": "https://t.me/durov/552",
     "date": "2026-10-11T14:52:40.000Z",
     "text": "✨ Designers × AI\n\n🆕 The mockup era is over. Today’s AI tools give every designer a superpower: you can now craft your ideas, not just draw them.\n\nThe gap between “what if…?” and “look, it works!” has never been smaller, and that changed how we build features in Telegram.\n\nMessage @designers to submit your concepts.\n\n✔️ We accept\n– Working, ready-to-implement code\n complemented by\n– A demo video of your feature in action\n\n🗑 We no longer accept\n– Static mockups\n– Demo videos with no code behind them\n– Text-only concepts\n\nNo coding background? Curiosity, attention to detail and a good prompt will take you far.\n\nThe future of design isn’t drawn – it’s built.\n\n🚀 Let's build it together!\n\n(An example of what is possible by our iOS designer – this is a ready to use implementation not a motion video.) 👇",
-    "views": 2670000,
+    "views": 2900000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -130,21 +190,21 @@
       },
       {
         "emoji": null,
-        "count": 20400,
+        "count": 20800,
         "customEmojiId": "5936157098181135162"
       },
       {
         "emoji": null,
-        "count": 8680,
+        "count": 8840,
         "customEmojiId": "5399847211989246390"
       },
       {
         "emoji": null,
-        "count": 6870,
+        "count": 7010,
         "customEmojiId": "5373223594484587136"
       }
     ],
-    "reactionsTotal": 46850,
+    "reactionsTotal": 47550,
     "forwardedFrom": {
       "name": null,
       "url": null,
@@ -160,7 +220,7 @@
       {
         "type": "video",
         "url": null,
-        "thumbnailUrl": "https://cdn4.telesco.pe/file/E22fRJ-zY1kHBKt8IFVngVgh694n_petLTWDG_O2BDO9ItJyagQZntBhYBMi2OtjeNjZiXY09nD_NYw6V4B4ubOgll5qQmIFnV1mTn1DAea4cmYnDp9M8X6Eb2XMkwSWLkYpRr8INcGeUoEg3tzo1yRHGeMIdpnWQiN6JuYN8kc1I0dW_7BO18U9YGrDanI-HFfa58m02EoEmkVTjd3MTTQddHTTTbEht3h7ZQzxxR0Exx06JRWim8o31FS4SUwkmSU3Anc6o1cCWtmuTekg7hfDyqIeXzBkhXIOo1EfjkyBXBObSF7cSZMiSMB6rpOCHR3LdAAGDXBeQ0zK0mjGVw",
+        "thumbnailUrl": "https://cdn4.telesco.pe/file/JN1Cvut-e_9RRg-5zTgupTnG_tANP7fEQZ1E5cYi1wHCgpZpQv8lufDI4DSgPFi32Z8ds8hc0qFrumMaEgMGPrEZn6y6ZKRBSXO4Jrp_UFjEGKHW-G30DlDcusZQ8QAi3NbSA2kHvL__aZjypLAqOj2tIx1Qb44e_3Sud9qvv3-3budDcObvqmjqVehkykQ2eqBuJ5omQxmPCtL9mlOSY-gQYWRcE-9OTGFW8GX0ZkSJ9ztUK5io93DvoO2DahoFDYfhl9M16VqFc4o1WSDzLEqnHRemNORZkiRkdQePD1kXtj04HNY03Y7Tl9x38Oft_nHPjTZOTgf_qCGyj_zLcQ",
         "duration": "1:15",
         "messageUrl": "https://t.me/durov/552"
       }
@@ -175,7 +235,7 @@
       "@designers"
     ],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:38:29.066Z"
+    "scrapedAt": "2026-11-10T18:50:58.346Z"
   },
   {
     "channel": "contest",
@@ -185,7 +245,7 @@
     "url": "https://t.me/contest/460",
     "date": "2026-08-31T12:51:46.000Z",
     "text": "🏆 Design Contest 2026, Round 2: Results\n\n😲 90% of eligible winners from Round 1 decided to continue making Telegram better and suggested a bunch of meaningful improvements to further polish the apps.\n\n🤲 Thank you all for your efforts – this steady pace and persistence are what set you apart, and it's what we value at Telegram. Keep going!\n\n💡 Now meet the winners and their inventive ideas:\n\n1st PLACE\n🥇 Brave Flamingo | Open Channel – $2,300\n🥇 Desert Bass | Open Channel – $2,200\n🥇 Sexy Leopard | Open Channel – $2,100\n🥇 Strict Crow | Open Channel – $2,000\n\n2nd PLACE\n🥈 Eager Duck | Open Channel – $1,500\n🥈 Humble Cockroach | Open Channel – $1,300\n🥈 Sunny Mink | Open Channel – $1,300\n🥈 Caring Eagle | Open Channel – $1,300\n🥈 Crazy Gnat | Open Channel – $1,200\n\n3rd PLACE\n🥉 Cuddly Turtle | Open Channel – $1,000\n🥉 Noble Swallow | Open Channel – $1,000\n🥉 Merry Bat | Open Channel – $900\n🥉 Shiny Fish | Open Channel – $900\n🥉 Mighty Crab | Open Channel – $900\n\n4th PLACE\n🎖 Nimble Kitten | Open Channel – $700\n🎖 Gifted Puma | Open Channel – $700\n🎖 Nimble Sheep | Open Channel – $400\n🎖 Mighty Falcon | Open Channel – $300\n\nCongratulations to the winners! Stay tuned for more contests and have a great week ahead!",
-    "views": 272000,
+    "views": 274000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -241,7 +301,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:38:29.068Z"
+    "scrapedAt": "2026-11-10T18:50:58.346Z"
   },
   {
     "channel": "durov",
@@ -251,7 +311,7 @@
     "url": "https://t.me/durov/551",
     "date": "2026-10-10T14:22:43.000Z",
     "text": "💸 If your wallet doesn’t look like this, don’t even bother sending me money for my  birthday! 🎂",
-    "views": 2480000,
+    "views": 2620000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -260,21 +320,21 @@
       },
       {
         "emoji": null,
-        "count": 39900,
+        "count": 40400,
         "customEmojiId": "5936157098181135162"
       },
       {
         "emoji": null,
-        "count": 13500,
+        "count": 13700,
         "customEmojiId": "5373223594484587136"
       },
       {
         "emoji": null,
-        "count": 10300,
+        "count": 10400,
         "customEmojiId": "5399847211989246390"
       }
     ],
-    "reactionsTotal": 124100,
+    "reactionsTotal": 124900,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Pavel Durov",
@@ -285,8 +345,8 @@
     "media": [
       {
         "type": "video",
-        "url": "https://cdn4.telesco.pe/file/f4b10a0c75.mp4?token=gLoNWPo_DsfbFpTUqsu-lxKO7E4-gYZQDVO2itNilQAIMz8C5WKww4lBYGuNJppuENnIflRDCfG8cqB12An5MgYgpg4hg8378PyUOd0ZIAvvgrBa0NdhFxlt_ZGmwnVWBIzqeW-Au-I_oTetsHR3RVv6aOjDIIb3OHytmPk3Q2n3Cvj5CYmZBe7raB0cAw041G7UIRaaiqLAa3Upt33e5HuSDtcjB_AnclZHgpF1gHUAEV0pa9d2Hzp1KdVniWPBEQnxn39ei2UpmU3vepHp97PPVTbHgSjpovYysbnnmzA3v_zx67FJ65R_ypyi_FX5q-_wDlOujyLZbOH-PNnBp4WOpGPPJgrUDPjvR3m_yJOfwRxPGsEpzEljmzYPM_ib305LxFaLPd8quvZ40nG9StDJNw4Nax8aoRuL-b8n-6oBPvwGr8dv3EhiyaKqNfG_gV9yGSa5ZYGah72x-eD3NdPOT5KFLz0rHzzCgVpF21iBWL2Mh-pu7emhKtuQ6RrzYc-exPxNBiFoTJJ4PSz4BcA7I0RbPUvvLPVvJS478EhQjqh_St8RHpk-3Wpaz8lMgpmY2V0l6NDEKTgkiX0IrwOxzwQ6jsb7EQRO3f6H6YGX2g2aDZYSErWvG97giqxzjDm64dEXG5M0_9VmmbDUMpm4EEasNpxSft6FvnJPxA8",
-        "thumbnailUrl": "https://cdn4.telesco.pe/file/gIJYNCOVkUN5xSiIdJc54DLXivpZU1LNMXaL-W04ICqViPbpyCkzlJJtvW9vXJp4jAGxBfeuJ7_9Wvkfkno_iIUdlwHCsPpQKXAfk0Q2_gMrfyUr6P5pN72oSSZip7exwXHNJPrVfntxHd89hNoXTkehufs2Dw2ZvXnDmj2FvE23Lc9DX5km-InMMRyrPbk9t8Y-0gS-Cv12o0B68yYe-BBeYOgndEQWczWKPQFmmJSFRS4ilu1vATt5xcDbfRxLLYgTCyutNwqJIOBt3RZTz3g_bAKpfR2e565ov5-ytyArFC6xyliJKd4liaXi26U8OT4m_zZe_9vVEyTZDdFutA",
+        "url": "https://cdn4.telesco.pe/file/f4b10a0c75.mp4?token=oFyImL_LBZ8IsCsogc6w7eyskX50uzioZf_Q05TJUWFws-e6HJwAtAUG9VAUmM9atempSIzq7v8RyRzryMmOqPhwzykMXq_rH3LEvODvoH29_rvAJTOUnqOVusG5eS6FyAjPpBd0AsMAmskcsuDqgG_XgVm90AEef_7nXX2eEoq3xgll1Vu2jxUOCV8bgEZKb_MACAzYLFF2CPoS_Jj2RQGh7N2NOiZ9jhhi38k2pz36-dqtQPcdRfc8Y4ay45Y6IQXDZKyqR5jnd3H4UeBrrBXreuGDz8zWpdg3IjtG4rkl0rCr47IMHORmRByjHWpmdzPLt8h8-NRTJgQqg5Xx_YWOpGPPJgrUDPjvR3m_yJOfwRxPGsEpzEljmzYPM_ib305LxFaLPd8quvZ40nG9StDJNw4Nax8aoRuL-b8n-6oBPvwGr8dv3EhiyaKqNfG_gV9yGSa5ZYGah72x-eD3NdPOT5KFLz0rHzzCgVpF21iBWL2Mh-pu7emhKtuQ6RrzYc-exPxNBiFoTJJ4PSz4BcA7I0RbPUvvLPVvJS478EhQjqh_St8RHpk-3Wpaz8lMgpmY2V0l6NDEKTgkiX0IrwOxzwQ6jsb7EQRO3f6H6YGX2g2aDZYSErWvG97giqxzjDm64dEXG5M0_9VmmbDUMpm4EEasNpxSft6FvnJPxA8",
+        "thumbnailUrl": "https://cdn4.telesco.pe/file/ExwP083n7N0m8FTxA5JvP7PN9eUgTcGbCNzUKZjjOI-d7D1_dksux38MjbmQUbTxK_0qk_YxKHr4zjEXkfg3ot7lCuSwUYfhL1EotHaxvkwn1aROzcq3bHn8gHfgNlNrEKmu3E_fFGf2aSp0Pjbr80TT6Sqb4eqROhLWcT5iT0Ddpc5fKQEnG1w_87ahhyfTlR_6Cb8J-7TNKXd8JmzVkHdmCG66BJlxGwcz79ALaxT2bd9c4yF-afg6GiqIh_kiIAMACzkw5eK5OyGS1QjRdQcZYAD7MKAe-5gTdMOL1uwLNPukyImysaXzia2SiOTQq5dAvJOesRkNVIESi8BHIA",
         "duration": null,
         "messageUrl": "https://t.me/durov/551"
       }
@@ -299,7 +359,7 @@
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:38:29.068Z"
+    "scrapedAt": "2026-11-10T18:50:58.347Z"
   },
   {
     "channel": "contest",
@@ -309,7 +369,7 @@
     "url": "https://t.me/contest/459",
     "date": "2026-07-16T20:26:48.000Z",
     "text": "Digital Freedom Contest: Submissions\n\n👏 We would like to thank each contestant for their input – you are all amazing! More than 1,000 links were submitted, already drawing over 67.2M views. That is the population of a large country – reached, thanks to you, with the idea of digital freedom.\n\n🎬 We will open all submissions on contest.com in the coming days – watch for a separate announcement here. Judging is already underway; results are expected by the end of August.\n\n❗ If you have not yet edited your video's caption on the external platform or updated your bio (on TikTok, Instagram, X, YouTube or Snap) to include your @username  or t.me/username, please do so immediately. This is the only way we can verify that you are the author of the submitted video.",
-    "views": 233000,
+    "views": 234000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -331,7 +391,7 @@
       "@username"
     ],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:38:29.069Z"
+    "scrapedAt": "2026-11-10T18:50:58.347Z"
   },
   {
     "channel": "durov",
@@ -341,7 +401,7 @@
     "url": "https://t.me/durov/548",
     "date": "2026-09-11T16:04:02.000Z",
     "text": "🤝 Telegram has become the sponsor of Codeforces — the largest competitive programming platform in the world.\n\n ⚡CodeForces organizes over 100 coding contests every year and has 4 million contestants signed up.\n\n🌱 Since 2010, I've supported Codeforces through the companies I started.\n\n🆙 But this year will be special. Its founder Mike wants to bring Codeforces to the next level — and we'll be happy to help him do that 🤝",
-    "views": 4430000,
+    "views": 4540000,
     "reactions": [
       {
         "emoji": "⭐",
@@ -350,7 +410,7 @@
       },
       {
         "emoji": null,
-        "count": 37200,
+        "count": 37300,
         "customEmojiId": "5399847211989246390"
       },
       {
@@ -364,7 +424,7 @@
         "customEmojiId": "5373223594484587136"
       }
     ],
-    "reactionsTotal": 80300,
+    "reactionsTotal": 80400,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Pavel Durov",
@@ -376,7 +436,7 @@
       "siteName": "Codeforces",
       "title": "Telegram Returns as Title Sponsor of Codeforces!",
       "description": "Hi, Codeforces!",
-      "imageUrl": "https://cdn4.telesco.pe/file/lOh67gWNNr3VT3VXqJmNr1kgXOUz7IBTMhDnf7qbdm0Zp3jWakvMA-AwqFbUR2OsYmA30T0XO4wwiuBSuqbSq6TYKFb8iQWkPy2Ah2rgHph2Gt7yiVF25-LIRFce-RAY3DZAjtBaieUEl1SQTCymqfB3inBT3UB5K0IAuIXjAti1g6kT-_l4KH_Dfm-A2F1CkYpAmxgIKa67MGkR4J_EZrm-91NsTtkl78pVd2p9J31rfC5de_-Sqt9YV7Maq_spusLluq1izW8pK_lR1_ziqeTFx0mw5zMHPMAYJYMZIMbWKfKLw0ilBBWpQ2qNKJ08RaQFoPH5-nF_bsZcRvtsgg.jpg"
+      "imageUrl": "https://cdn4.telesco.pe/file/BKHE5GBq4k60yJ4qCw8-SwrgyyiGxdaw-gGB7si3e0mhf8V-_IoJ4rx1W7ZWqrUsttr_i5HPWRe4ThnxWvw1CBDEsa7goSrPNxZm_XqQlGEJPW7uJIlwN6EBcAzr3ZpANQApssTDC1om-G-W3NaeiYcYs3UGUvxbBZX3CyyxUjh4508bx6yjm1ZjYySh_6PcX_KHVSbN59TpiAYK8zO1FOnDlrEzIa_IyoPuNGi0s9UtpctbgbUuWlo_47DOSnDMy4jyILWRnWq0x_-MNMWTutogSAvmOzjtJixFGy8Ex1idWjjF9EFSFaTr1bRsuiHMxixyzETd65Cu2RxgP5lWjQ.jpg"
     },
     "media": [],
     "mediaTypes": [],
@@ -387,7 +447,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:38:29.070Z"
+    "scrapedAt": "2026-11-10T18:50:58.348Z"
   },
   {
     "channel": "contest",
@@ -397,7 +457,7 @@
     "url": "https://t.me/contest/458",
     "date": "2026-07-13T16:20:34.000Z",
     "text": "ContestBot is now ready to accept submissions for the Digital Freedom Contest.\n\nStart the bot, choose “Digital Freedom Contest”, answer the bot’s questions, then send:\n– A link(s) to your video(s) on TikTok, Instagram, YouTube, Snapchat Spotlights or X.\n\nUsername Verification: Remember to include your Telegram @username in the caption of your video on the external platform. If you cannot edit the caption, your Telegram @username must be visible in your bio or About section on the external platform.\n\n⚠️ Important: If you're submitting more than one video, put all links in a single message, separated by line breaks.\n\nNote: We will automatically discard videos that gained fewer than 10,000 views by the deadline or that did not meet the username verification criteria.",
-    "views": 214000,
+    "views": 215000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -420,66 +480,6 @@
       "@username"
     ],
     "hashtags": [],
-    "scrapedAt": "2026-11-09T21:38:29.071Z"
-  },
-  {
-    "channel": "durov",
-    "channelTitle": "Pavel Durov",
-    "channelSubscribers": 10100000,
-    "messageId": 547,
-    "url": "https://t.me/durov/547",
-    "date": "2026-09-06T17:40:39.000Z",
-    "text": "💸 In just one month, Telegram has awarded over $2,222,000 to some of the brightest minds on our planet.\n\n🎨 This week alone we distributed $222,000 among the winners of our two latest competitions — the Design Contest and the Digital Freedom Contest.\n\nOn top of that, over the past month we awarded prizes worth more than $2 million to the winners of the 2026 International Olympiads in Informatics and AI.\n\nWe're proud to support the best! 🎁",
-    "views": 4400000,
-    "reactions": [
-      {
-        "emoji": "⭐",
-        "count": 8550,
-        "paid": true
-      },
-      {
-        "emoji": null,
-        "count": 29400,
-        "customEmojiId": "5399847211989246390"
-      },
-      {
-        "emoji": null,
-        "count": 8800,
-        "customEmojiId": "5936157098181135162"
-      },
-      {
-        "emoji": null,
-        "count": 8180,
-        "customEmojiId": "5373223594484587136"
-      }
-    ],
-    "reactionsTotal": 54930,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": "Pavel Durov",
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": {
-      "url": "https://t.me/contest/460",
-      "siteName": "Telegram",
-      "title": "Telegram Contests",
-      "description": "🏆 Design Contest 2026, Round 2: Results\n\n😲 90% of eligible winners from Round 1 decided to continue making Telegram better and suggested a bunch of meaningful improvements to further polish the apps.\n\n🤲 Thank you all for your efforts – this steady pace and…",
-      "imageUrl": null
-    },
-    "media": [],
-    "mediaTypes": [],
-    "poll": null,
-    "html": "💸 In just one month, Telegram has awarded over <b>$2,222,000</b> to some of the brightest minds on our planet.<br><br>🎨 This week alone we distributed <b>$222,000 </b>among the winners of our two latest competitions — the <a href=\"https://t.me/contest/460\">Design Contest</a> and the <a href=\"https://t.me/contest/462\">Digital Freedom Contest</a>.<br><br>On top of that, over the past month we awarded prizes <a href=\"https://t.me/transferintelligencecups/688\">worth more</a> than <b>$2 million</b> to the winners of the 2026 International Olympiads in <a href=\"https://t.me/durov/542\">Informatics</a> and <a href=\"https://t.me/durov/537\">AI</a>.<br><br>We're proud to support the best! 🎁",
-    "links": [
-      "https://t.me/contest/460",
-      "https://t.me/contest/462",
-      "https://t.me/transferintelligencecups/688",
-      "https://t.me/durov/542",
-      "https://t.me/durov/537"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-09T21:38:29.071Z"
+    "scrapedAt": "2026-11-10T18:50:58.349Z"
   }
 ]
