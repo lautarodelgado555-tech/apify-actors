@@ -26,7 +26,7 @@
     },
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": 133,
+    "stockTotal": 127,
     "stockUnlimited": false,
     "sku": null,
     "variantCount": 93,
@@ -37,7 +37,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 6,
+        "stock": 5,
         "available": true,
         "attributes": {
           "Color": "Azul marino",
@@ -331,7 +331,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 2,
+        "stock": 1,
         "available": true,
         "attributes": {
           "Color": "Rosa mexicano",
@@ -387,8 +387,8 @@
         "price": 180,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
+        "stock": 0,
+        "available": false,
         "attributes": {
           "Color": "zanahoria",
           "formato": "250 gramos"
@@ -583,7 +583,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 5,
+        "stock": 4,
         "available": true,
         "attributes": {
           "Color": "Negro",
@@ -667,7 +667,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 3,
+        "stock": 2,
         "available": true,
         "attributes": {
           "Color": "Verde Bandera",
@@ -793,7 +793,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 2,
+        "stock": 1,
         "available": true,
         "attributes": {
           "Color": "Mostaza",
@@ -1385,7 +1385,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-09T16:36:03.000Z",
-    "scrapedAt": "2026-11-10T18:49:47.495Z"
+    "scrapedAt": "2026-11-11T18:52:38.080Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/lana-mexicana-en-crudo/",
@@ -1414,7 +1414,7 @@
     },
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": 4,
+    "stockTotal": 3,
     "stockUnlimited": false,
     "sku": null,
     "variantCount": 5,
@@ -1425,7 +1425,7 @@
         "price": 250,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 3,
+        "stock": 2,
         "available": true,
         "attributes": {
           "Tipo de Hilo": "Crudo 2-3 mm"
@@ -1508,7 +1508,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-09T16:36:03.000Z",
-    "scrapedAt": "2026-11-10T18:49:47.679Z"
+    "scrapedAt": "2026-11-11T18:52:38.298Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/jueves-crochetero-after-office/",
@@ -1650,7 +1650,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-08T22:56:59.000Z",
-    "scrapedAt": "2026-11-10T18:49:48.003Z"
+    "scrapedAt": "2026-11-11T18:52:38.633Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/taller-de-experimentacion-textil/",
@@ -1745,7 +1745,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-08T13:45:54.000Z",
-    "scrapedAt": "2026-11-10T18:49:48.293Z"
+    "scrapedAt": "2026-11-11T18:52:38.982Z"
   },
   {
     "url": "https://peek-store.com/productos/tisha-serendipia",
@@ -1800,7 +1800,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-11-06T17:59:38.000Z",
-    "scrapedAt": "2026-11-10T18:49:49.113Z"
+    "scrapedAt": "2026-11-11T18:52:39.621Z"
   },
   {
     "url": "https://peek-store.com/productos/tisha-gpt-septiembre-e37rv",
@@ -1868,7 +1868,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-11-01T23:41:55.000Z",
-    "scrapedAt": "2026-11-10T18:49:49.219Z"
+    "scrapedAt": "2026-11-11T18:52:39.920Z"
   },
   {
     "url": "https://peek-store.com/productos/cd-smile-1icsm",
@@ -1891,7 +1891,7 @@
     "installments": null,
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": 35,
+    "stockTotal": 34,
     "stockUnlimited": false,
     "sku": null,
     "variantCount": 1,
@@ -1902,7 +1902,7 @@
         "price": 450,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 35,
+        "stock": 34,
         "available": true,
         "attributes": {},
         "image": null
@@ -1919,8 +1919,8 @@
     "language": "es",
     "platform": "tiendanube",
     "engine": "next",
-    "lastModified": "2026-10-31T21:49:21.000Z",
-    "scrapedAt": "2026-11-10T18:49:49.812Z"
+    "lastModified": "2026-11-11T02:18:51.000Z",
+    "scrapedAt": "2026-11-11T18:52:40.174Z"
   },
   {
     "url": "https://peek-store.com/productos/ateb-peek-kiddos-collection-cnenc",
@@ -2001,7 +2001,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-10-21T17:58:04.000Z",
-    "scrapedAt": "2026-11-10T18:49:49.868Z"
+    "scrapedAt": "2026-11-11T18:52:40.471Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/experimentacion-textil-en-feria-textil-8ln27/",
@@ -2062,7 +2062,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-08T13:44:24.000Z",
-    "scrapedAt": "2026-11-10T18:49:49.959Z"
+    "scrapedAt": "2026-11-11T18:52:40.600Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/estampado-botanico-1cqxm/",
@@ -2124,7 +2124,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-08T13:43:58.000Z",
-    "scrapedAt": "2026-11-10T18:49:50.777Z"
+    "scrapedAt": "2026-11-11T18:52:41.453Z"
   },
   {
     "url": "https://peek-store.com/productos/jersey-mexico-11crh",
@@ -2193,7 +2193,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-10-17T04:13:49.000Z",
-    "scrapedAt": "2026-11-10T18:49:50.826Z"
+    "scrapedAt": "2026-11-11T18:52:41.466Z"
   },
   {
     "url": "https://peek-store.com/productos/poster-serendipia-tu-y-yo",
@@ -2245,6 +2245,6 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-10-15T13:42:10.000Z",
-    "scrapedAt": "2026-11-10T18:49:51.160Z"
+    "scrapedAt": "2026-11-11T18:52:41.897Z"
   }
 ]
