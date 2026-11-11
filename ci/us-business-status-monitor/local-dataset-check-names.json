@@ -20,8 +20,8 @@
     "source": "Colorado Secretary of State via data.colorado.gov (Business Entities in Colorado)",
     "sourceUrl": "https://data.colorado.gov/resource/4ykn-tg5h.json?entityid=20171362116",
     "mode": "opendata",
-    "dataFreshness": "2026-11-10T12:29:36.000Z",
-    "checkedAt": "2026-11-10T19:37:45.052Z",
+    "dataFreshness": "2026-11-11T12:15:14.000Z",
+    "checkedAt": "2026-11-11T19:32:30.361Z",
     "details": {
       "entityTypeCode": "FPC",
       "jurisdictionOfFormation": "DE",
@@ -67,7 +67,7 @@
     "sourceUrl": "https://data.texas.gov/resource/9cir-efmm.json?taxpayer_number=32073591276",
     "mode": "opendata",
     "dataFreshness": "2026-11-07T09:43:08.000Z",
-    "checkedAt": "2026-11-10T19:37:45.052Z",
+    "checkedAt": "2026-11-11T19:32:30.361Z",
     "details": {
       "taxpayerNumber": "32073591276",
       "sosFileNumber": "0803562210",
@@ -119,7 +119,7 @@
     "sourceUrl": "https://data.ny.gov/resource/3gg2-jgnp.json?corpid_num=4667344&$order=date_filed%20desc%2Cfilm_num%20desc&$limit=1",
     "mode": "opendata",
     "dataFreshness": "2026-11-10T19:17:57.000Z",
-    "checkedAt": "2026-11-10T19:37:45.052Z",
+    "checkedAt": "2026-11-11T19:32:30.361Z",
     "details": {
       "jurisdiction": "New York",
       "county": "Queens",
@@ -151,7 +151,7 @@
     "name": "STANLEY BLACK & DECKER, INC.",
     "entityType": "Domestic stock corporation",
     "statusRaw": "Active",
-    "statusDetail": null,
+    "statusDetail": "Annual report due",
     "status": "active",
     "goodStanding": true,
     "formationDate": "1901-06-04",
@@ -165,8 +165,8 @@
     "source": "Connecticut Secretary of the State via data.ct.gov (Business Registry - Business Master)",
     "sourceUrl": "https://data.ct.gov/resource/n7gp-d28j.json?accountnumber=0074441",
     "mode": "opendata",
-    "dataFreshness": "2026-11-10T09:30:01.000Z",
-    "checkedAt": "2026-11-10T19:37:45.052Z",
+    "dataFreshness": "2026-11-11T10:59:09.000Z",
+    "checkedAt": "2026-11-11T19:32:30.361Z",
     "details": {
       "registryRecordId": "001t000000WmVHCAA3",
       "businessTypeCode": "Stock",
@@ -214,7 +214,7 @@
     "sourceUrl": "https://data.oregon.gov/resource/tckn-sxa6.json?registry_number=149629495",
     "mode": "opendata",
     "dataFreshness": "2026-11-10T16:44:08.000Z",
-    "checkedAt": "2026-11-10T19:37:45.052Z",
+    "checkedAt": "2026-11-11T19:32:30.361Z",
     "details": {
       "jurisdiction": "DE",
       "entityTypeCode": "FLLC"
@@ -258,8 +258,8 @@
     "source": "DC Department of Licensing and Consumer Protection via Open Data DC (Corporate Registration)",
     "sourceUrl": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Business_Licensing_and_Grants_WebMercator/FeatureServer/0/query?outFields=*&returnGeometry=false&f=json&where=FILE_NUMBER%3D'932195'",
     "mode": "opendata",
-    "dataFreshness": "2026-11-10T12:48:09.000Z",
-    "checkedAt": "2026-11-10T19:37:45.052Z",
+    "dataFreshness": "2026-11-11T12:47:57.000Z",
+    "checkedAt": "2026-11-11T19:32:30.361Z",
     "details": {
       "locale": "Foreign",
       "businessAddress": "7750 Wisconsin Avenue, Bethesda, MD 20814",
@@ -294,6 +294,6 @@
       "label": null
     },
     "charged": false,
-    "checkedAt": "2026-11-10T19:37:45.052Z"
+    "checkedAt": "2026-11-11T19:32:30.361Z"
   }
 ]
