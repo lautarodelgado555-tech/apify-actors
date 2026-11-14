@@ -21,7 +21,7 @@
     "sourceUrl": "https://data.colorado.gov/resource/4ykn-tg5h.json?entityid=20241007271",
     "mode": "opendata",
     "dataFreshness": "2026-11-13T12:17:23.000Z",
-    "checkedAt": "2026-11-13T19:32:27.613Z",
+    "checkedAt": "2026-11-14T17:55:18.951Z",
     "details": {
       "entityTypeCode": "DLLC",
       "jurisdictionOfFormation": "CO",
@@ -62,7 +62,7 @@
     "sourceUrl": "https://data.colorado.gov/resource/4ykn-tg5h.json?entityid=20191893002",
     "mode": "opendata",
     "dataFreshness": "2026-11-13T12:17:23.000Z",
-    "checkedAt": "2026-11-13T19:32:27.613Z",
+    "checkedAt": "2026-11-14T17:55:18.951Z",
     "details": {
       "entityTypeCode": "DLLC",
       "jurisdictionOfFormation": "CO",
@@ -102,8 +102,8 @@
     "source": "Texas Comptroller of Public Accounts via data.texas.gov (Active Franchise Taxpayers)",
     "sourceUrl": "https://data.texas.gov/resource/9cir-efmm.json?taxpayer_number=32070357671",
     "mode": "opendata",
-    "dataFreshness": "2026-11-07T09:43:08.000Z",
-    "checkedAt": "2026-11-13T19:32:27.613Z",
+    "dataFreshness": "2026-11-14T11:44:17.000Z",
+    "checkedAt": "2026-11-14T17:55:18.951Z",
     "details": {
       "taxpayerNumber": "32070357671",
       "sosFileNumber": "0803287393",
@@ -150,7 +150,7 @@
     "sourceUrl": "https://data.ny.gov/resource/3gg2-jgnp.json?corpid_num=4809335&$order=date_filed%20desc%2Cfilm_num%20desc&$limit=1",
     "mode": "opendata",
     "dataFreshness": "2026-11-10T19:17:57.000Z",
-    "checkedAt": "2026-11-13T19:32:27.613Z",
+    "checkedAt": "2026-11-14T17:55:18.951Z",
     "details": {
       "jurisdiction": "Delaware",
       "county": "Albany",
@@ -191,8 +191,8 @@
     "source": "Connecticut Secretary of the State via data.ct.gov (Business Registry - Business Master)",
     "sourceUrl": "https://data.ct.gov/resource/n7gp-d28j.json?accountnumber=0074441",
     "mode": "opendata",
-    "dataFreshness": "2026-11-13T10:12:02.000Z",
-    "checkedAt": "2026-11-13T19:32:27.613Z",
+    "dataFreshness": "2026-11-14T09:45:48.000Z",
+    "checkedAt": "2026-11-14T17:55:18.951Z",
     "details": {
       "registryRecordId": "001t000000WmVHCAA3",
       "businessTypeCode": "Stock",
@@ -235,7 +235,7 @@
     "sourceUrl": "https://data.oregon.gov/resource/tckn-sxa6.json?registry_number=149629495",
     "mode": "opendata",
     "dataFreshness": "2026-11-10T16:44:08.000Z",
-    "checkedAt": "2026-11-13T19:32:27.613Z",
+    "checkedAt": "2026-11-14T17:55:18.951Z",
     "details": {
       "jurisdiction": "DE",
       "entityTypeCode": "FLLC"
@@ -275,7 +275,7 @@
     "sourceUrl": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Business_Licensing_and_Grants_WebMercator/FeatureServer/0/query?outFields=*&returnGeometry=false&f=json&where=FILE_NUMBER%3D'620118'",
     "mode": "opendata",
     "dataFreshness": "2026-11-13T12:48:20.000Z",
-    "checkedAt": "2026-11-13T19:32:27.613Z",
+    "checkedAt": "2026-11-14T17:55:18.951Z",
     "details": {
       "locale": "Domestic",
       "businessAddress": "3027 DAVENPORT ST. ,N.W., WASHINGTON, DC 20008",
@@ -305,7 +305,7 @@
       "label": "not found case"
     },
     "charged": false,
-    "checkedAt": "2026-11-13T19:32:27.613Z"
+    "checkedAt": "2026-11-14T17:55:18.951Z"
   },
   {
     "recordType": "lookup-error",
@@ -318,6 +318,6 @@
       "label": "unsupported state case"
     },
     "charged": false,
-    "checkedAt": "2026-11-13T19:32:27.613Z"
+    "checkedAt": "2026-11-14T17:55:18.951Z"
   }
 ]
