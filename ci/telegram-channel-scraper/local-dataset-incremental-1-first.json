@@ -3,34 +3,144 @@
     "channel": "durov",
     "channelTitle": "Pavel Durov",
     "channelSubscribers": 10000000,
-    "messageId": 560,
-    "url": "https://t.me/durov/560",
-    "date": "2026-11-13T16:02:27.000Z",
-    "text": "Re alleged RCE in new TG Android/Windows widgets:\n\nThe issue doesn’t exist.\n\nNo one could be hacked just by receiving a message.\n\nYou had to actively start a third-party service first.\n\n✅ Even that is fully patched server-side.\n\nThink otherwise? Go hack my account: t.me/monk 🍿",
-    "views": 379000,
+    "messageId": 561,
+    "url": "https://t.me/durov/561",
+    "date": "2026-11-14T09:29:21.000Z",
+    "text": "Nvidia’s board was right to fire Jensen.\n\nHe was married.\n\nMeaning he signed an exclusive contract with a 50% exit penalty for a service with no uptime guarantee.\n\nHow can you trust a guy who’d sign a deal like that to run a company? 👉\n\nThey should have fired him at the altar.",
+    "views": 596000,
     "reactions": [
       {
         "emoji": "⭐",
-        "count": 3360,
+        "count": 5810,
         "paid": true
       },
       {
         "emoji": null,
-        "count": 9180,
-        "customEmojiId": "5399847211989246390"
-      },
-      {
-        "emoji": null,
-        "count": 3350,
+        "count": 68000,
         "customEmojiId": "5373223594484587136"
       },
       {
         "emoji": null,
-        "count": 2900,
+        "count": 13800,
+        "customEmojiId": "5936157098181135162"
+      },
+      {
+        "emoji": null,
+        "count": 7100,
+        "customEmojiId": "5399847211989246390"
+      }
+    ],
+    "reactionsTotal": 94710,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": "Pavel Durov",
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [],
+    "mediaTypes": [],
+    "poll": null,
+    "html": "Nvidia’s board was right to fire Jensen.<br><br>He was married.<br><br>Meaning he signed an exclusive contract with a 50% exit penalty for a service with no uptime guarantee. <br><br>How can you trust a guy who’d sign a deal like that to run a company? 👉 <br><br>They should have fired him at the altar.",
+    "links": [],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-14T17:19:18.176Z"
+  },
+  {
+    "channel": "contest",
+    "channelTitle": "Telegram Contests",
+    "channelSubscribers": 296000,
+    "messageId": 463,
+    "url": "https://t.me/contest/463",
+    "date": "2026-11-11T20:52:39.000Z",
+    "text": "💲2️⃣0️⃣0️⃣🔣0️⃣0️⃣0️⃣\n(Two hundred thousand dollars) for content creators.\n\nThe Boss approved a new series of contests for content creators. Details later this month.",
+    "views": 55500,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": {
+      "url": "https://t.me/durov",
+      "siteName": "Telegram",
+      "title": "Pavel Durov",
+      "description": "Founder of Telegram.",
+      "imageUrl": "https://cdn4.telesco.pe/file/hq7kRL6354zXbcKBZGkVmazKWuEmSH4jexsm8eio5NGEFxJ_MA9xf0BpyjB9V8o98KRM2Uv72sYGID34JA34hebHaMeTPzV-eOb73v4nPbK20K_jsivPwZjRK00MmO6-P3jxWepdrgXfv3WMdbbUy7JR7lY8SPb9Giv5nILqdM32S3vKG0Yj-y0D4DBe2j-dTSvrLRSAvIVchG7DgzjNGhicyQVCwejqjYz3yzxGfWbCDkP0w3Qm1U2maM5GbB6EOXQTMRF-e4x8oVTyb1BQOpjhxLFwkDuIBB8oiivo82d_fvbIJKdjiNUqQBihsfV5BhxBwJC6nNDYTqr0ZAhavw.jpg"
+    },
+    "media": [],
+    "mediaTypes": [],
+    "poll": null,
+    "html": "💲2️⃣0️⃣0️⃣🔣0️⃣0️⃣0️⃣ <br><i>(Two hundred thousand dollars)</i> for content creators.<br><br><a href=\"http://t.me/durov\">The Boss</a> approved a <b>new series</b> of contests for <b>content creators</b>. Details later <b>this month</b>.",
+    "links": [
+      "http://t.me/durov"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-14T17:19:18.237Z"
+  },
+  {
+    "channel": "contest",
+    "channelTitle": "Telegram Contests",
+    "channelSubscribers": 296000,
+    "messageId": 462,
+    "url": "https://t.me/contest/462",
+    "date": "2026-09-06T13:41:41.000Z",
+    "text": null,
+    "views": 210000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [],
+    "mediaTypes": [],
+    "poll": null,
+    "html": null,
+    "links": [],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-14T17:19:18.240Z"
+  },
+  {
+    "channel": "durov",
+    "channelTitle": "Pavel Durov",
+    "channelSubscribers": 10000000,
+    "messageId": 560,
+    "url": "https://t.me/durov/560",
+    "date": "2026-11-13T16:02:27.000Z",
+    "text": "Re alleged RCE in new TG Android/Windows widgets:\n\nThe issue doesn’t exist.\n\nNo one could be hacked just by receiving a message.\n\nYou had to actively start a third-party service first.\n\n✅ Even that is fully patched server-side.\n\nThink otherwise? Go hack my account: t.me/monk 🍿",
+    "views": 844000,
+    "reactions": [
+      {
+        "emoji": "⭐",
+        "count": 5110,
+        "paid": true
+      },
+      {
+        "emoji": null,
+        "count": 15900,
+        "customEmojiId": "5399847211989246390"
+      },
+      {
+        "emoji": null,
+        "count": 5550,
+        "customEmojiId": "5373223594484587136"
+      },
+      {
+        "emoji": null,
+        "count": 4810,
         "customEmojiId": "5936157098181135162"
       }
     ],
-    "reactionsTotal": 18790,
+    "reactionsTotal": 31370,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Pavel Durov",
@@ -48,181 +158,7 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-13T18:47:54.764Z"
-  },
-  {
-    "channel": "contest",
-    "channelTitle": "Telegram Contests",
-    "channelSubscribers": 296000,
-    "messageId": 463,
-    "url": "https://t.me/contest/463",
-    "date": "2026-11-11T20:52:39.000Z",
-    "text": "💲2️⃣0️⃣0️⃣🔣0️⃣0️⃣0️⃣\n(Two hundred thousand dollars) for content creators.\n\nThe Boss approved a new series of contests for content creators. Details later this month.",
-    "views": 52900,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": {
-      "url": "https://t.me/durov",
-      "siteName": "Telegram",
-      "title": "Pavel Durov",
-      "description": "Founder of Telegram.",
-      "imageUrl": "https://cdn4.telesco.pe/file/Ro1gL4kwlOcEZ8S0y_AEiPwzQIgeB0ZpJjcGLvn1nCu5q6k72brxqMZfG1PlGT37sVZYoXJk6NXTs8XtilxGgzfbkc9P4Oy6xJ3cfa9fOrMuPJe2qf0ImZUgKeP4zi3Zmkv0lsAxjwO040efXZie6Afuqx9bzUUvJW1mU-h68o18kSen0dU16HrlPzJ_KO6An7fkWz3vuexl82YnZpcP1aJre8S9b8xlr8uFTCwZBhsAOEtHYw6rPrfSkRTzyeedod6Xhog-tzSt8qGt3CHHH_DdZog_kQeM47zYahQP9yE1m94-xrQf19s17tHnbKOcKfQ7agOx53ME04pkoymiCQ.jpg"
-    },
-    "media": [],
-    "mediaTypes": [],
-    "poll": null,
-    "html": "💲2️⃣0️⃣0️⃣🔣0️⃣0️⃣0️⃣ <br><i>(Two hundred thousand dollars)</i> for content creators.<br><br><a href=\"http://t.me/durov\">The Boss</a> approved a <b>new series</b> of contests for <b>content creators</b>. Details later <b>this month</b>.",
-    "links": [
-      "http://t.me/durov"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-13T18:47:54.876Z"
-  },
-  {
-    "channel": "durov",
-    "channelTitle": "Pavel Durov",
-    "channelSubscribers": 10000000,
-    "messageId": 559,
-    "url": "https://t.me/durov/559",
-    "date": "2026-11-13T09:29:23.000Z",
-    "text": "🤦‍♀️ Jensen made a rookie mistake. He had a board.\n\nIn 2014, my board kicked me out for saying no to spies.\n\nIn 2026, Jensen’s board kicked him out for saying yes to one.\n\n🤨 So the board gets you either way.\n\nFounders — don’t have a board. Be the board 😏",
-    "views": 765000,
-    "reactions": [
-      {
-        "emoji": "⭐",
-        "count": 4460,
-        "paid": true
-      },
-      {
-        "emoji": null,
-        "count": 33300,
-        "customEmojiId": "5399847211989246390"
-      },
-      {
-        "emoji": null,
-        "count": 11200,
-        "customEmojiId": "5373223594484587136"
-      },
-      {
-        "emoji": null,
-        "count": 8240,
-        "customEmojiId": "5936157098181135162"
-      }
-    ],
-    "reactionsTotal": 57200,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": "Pavel Durov",
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [],
-    "mediaTypes": [],
-    "poll": null,
-    "html": "🤦‍♀️ <a href=\"https://t.me/walt_news/921\">Jensen</a> made a rookie mistake. He had a board.<br><br>In 2014, my board <a href=\"https://www.themoscowtimes.com/2014/04/22/vkontakte-founder-pavel-durov-learns-hes-been-fired-through-media-a34425\">kicked me out</a> for saying no to spies.<br><br>In 2026, Jensen’s board kicked him out for saying yes to one.<br><br>🤨 So the board gets you either way.<br><br>Founders — don’t have a board. Be the board 😏",
-    "links": [
-      "https://t.me/walt_news/921",
-      "https://www.themoscowtimes.com/2014/04/22/vkontakte-founder-pavel-durov-learns-hes-been-fired-through-media-a34425"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-13T18:47:54.881Z"
-  },
-  {
-    "channel": "contest",
-    "channelTitle": "Telegram Contests",
-    "channelSubscribers": 296000,
-    "messageId": 462,
-    "url": "https://t.me/contest/462",
-    "date": "2026-09-06T13:41:41.000Z",
-    "text": null,
-    "views": 208000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [],
-    "mediaTypes": [],
-    "poll": null,
-    "html": null,
-    "links": [],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-13T18:47:54.881Z"
-  },
-  {
-    "channel": "durov",
-    "channelTitle": "Pavel Durov",
-    "channelSubscribers": 10000000,
-    "messageId": 558,
-    "url": "https://t.me/durov/558",
-    "date": "2026-11-12T13:24:25.000Z",
-    "text": "CORRECTION: Spy agencies are trying after all.\n\nI checked my IG DMs: hundreds of very interested “models” 🤌\n\n🤌 But Instagram? In 2026? Send me NFTs and Grams on Telegram like professionals.\n\nDMs are cheap. Grams hold their value. 💎",
-    "views": 995000,
-    "reactions": [
-      {
-        "emoji": "⭐",
-        "count": 4900,
-        "paid": true
-      },
-      {
-        "emoji": null,
-        "count": 20200,
-        "customEmojiId": "5399847211989246390"
-      },
-      {
-        "emoji": null,
-        "count": 7100,
-        "customEmojiId": "5936157098181135162"
-      },
-      {
-        "emoji": null,
-        "count": 5790,
-        "customEmojiId": "5373223594484587136"
-      }
-    ],
-    "reactionsTotal": 37990,
-    "forwardedFrom": null,
-    "replyTo": {
-      "messageId": 557,
-      "url": "https://t.me/durov/557",
-      "author": "Pavel Durov",
-      "text": "😐 Unfair that CEOs who aren’t into Asian girls get fewer dating options from spy agencies.   👀 Where are the French/Russian/Iranian honeypots? Not one spy girl sent my way. Are they even trying? 🤷‍♀️  🌈 France is excused — their decision-makers aren’t into…"
-    },
-    "author": "Pavel Durov",
-    "viaBot": null,
-    "isService": false,
-    "edited": true,
-    "linkPreview": null,
-    "media": [
-      {
-        "type": "photo",
-        "url": "https://cdn4.telesco.pe/file/kTyb4o4AAAb4gsUEeLIcZqe5_VpLpiyqheZYopPd1kFZJ9HzgLOeF-CJ_P-5Vbx93vD4SvOdsT-9I9DAy3Gj9rsJTWNo55Ldha1eiiEEHa4kQ0Ey23Y4S3l8jbvJZ-kba7awKfk82HU878Fm4exMkjkDdvn2dvr2Vy2nbmZ7ERM2DzVNbzcgAEeRG9ero4wZftkFRyMumXIJDg3IlGTJysdWKEwlKjgUZkWWjKtq3_U6MjqroDQWesv9IZhlQDICZJGZ2u8Mw1QYi5VInpXbnnFLxaWiOFgWIUxYS2j4IShhBzd7OoPrEGEvcSFpw6TkOTs6s-d1sjdBoKChCOcnjw.jpg",
-        "messageUrl": "https://t.me/durov/558"
-      }
-    ],
-    "mediaTypes": [
-      "photo"
-    ],
-    "poll": null,
-    "html": "<b>CORRECTION</b>: Spy agencies are trying after all. <br><br>I checked my IG DMs: hundreds of very interested “models” 🤌<br><br>🤌 But Instagram? In 2026? Send me NFTs and Grams on Telegram like professionals. <br><br>DMs are cheap. Grams hold their value. 💎",
-    "links": [],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-13T18:47:54.883Z"
+    "scrapedAt": "2026-11-14T17:19:18.241Z"
   },
   {
     "channel": "contest",
@@ -232,7 +168,7 @@
     "url": "https://t.me/contest/461",
     "date": "2026-08-31T19:08:23.000Z",
     "text": "🏆 Digital Freedom Contest: Results\n\n🍆 Our judges have completed their evaluation and are pleased to confirm that the entire prize pool of $200,000 has been distributed.\n\n🫠 With several hundred winners, we are now completing the technical formalities and will update you in this channel and on contest.com within the next few days.\n\n💸 Stay tuned for updates, and congratulations to all the winners.",
-    "views": 179000,
+    "views": 181000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -251,40 +187,40 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-13T18:47:54.883Z"
+    "scrapedAt": "2026-11-14T17:19:18.241Z"
   },
   {
     "channel": "durov",
     "channelTitle": "Pavel Durov",
     "channelSubscribers": 10000000,
-    "messageId": 557,
-    "url": "https://t.me/durov/557",
-    "date": "2026-11-11T20:27:00.000Z",
-    "text": "😐 Unfair that CEOs who aren’t into Asian girls get fewer dating options from spy agencies.\n\n👀 Where are the French/Russian/Iranian honeypots? Not one spy girl sent my way. Are they even trying? 🤷‍♀️\n\n🌈 France is excused — their decision-makers aren’t into girls. Everyone else: try harder! 🤨",
-    "views": 1250000,
+    "messageId": 559,
+    "url": "https://t.me/durov/559",
+    "date": "2026-11-13T09:29:23.000Z",
+    "text": "🤦‍♀️ Jensen made a rookie mistake. He had a board.\n\nIn 2014, my board kicked me out for saying no to spies.\n\nIn 2026, Jensen’s board kicked him out for saying yes to one.\n\n🤨 So the board gets you either way.\n\nFounders — don’t have a board. Be the board 😏",
+    "views": 1060000,
     "reactions": [
       {
         "emoji": "⭐",
-        "count": 5970,
+        "count": 4550,
         "paid": true
       },
       {
         "emoji": null,
-        "count": 42500,
+        "count": 38100,
         "customEmojiId": "5399847211989246390"
       },
       {
         "emoji": null,
-        "count": 18400,
+        "count": 12500,
         "customEmojiId": "5373223594484587136"
       },
       {
         "emoji": null,
-        "count": 13500,
+        "count": 9230,
         "customEmojiId": "5936157098181135162"
       }
     ],
-    "reactionsTotal": 80370,
+    "reactionsTotal": 64380,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Pavel Durov",
@@ -295,13 +231,14 @@
     "media": [],
     "mediaTypes": [],
     "poll": null,
-    "html": "😐 Unfair that CEOs who aren’t into <a href=\"https://t.me/cointelegraph/73166\">Asian girls</a> get fewer dating options from spy agencies. <br><br>👀 Where are the French/Russian/Iranian honeypots? Not one spy girl sent my way. Are they even trying? 🤷‍♀️<br><br>🌈 France is excused — their decision-makers aren’t into girls. Everyone else: try harder! 🤨",
+    "html": "🤦‍♀️ <a href=\"https://t.me/walt_news/921\">Jensen</a> made a rookie mistake. He had a board.<br><br>In 2014, my board <a href=\"https://www.themoscowtimes.com/2014/04/22/vkontakte-founder-pavel-durov-learns-hes-been-fired-through-media-a34425\">kicked me out</a> for saying no to spies.<br><br>In 2026, Jensen’s board kicked him out for saying yes to one.<br><br>🤨 So the board gets you either way.<br><br>Founders — don’t have a board. Be the board 😏",
     "links": [
-      "https://t.me/cointelegraph/73166"
+      "https://t.me/walt_news/921",
+      "https://www.themoscowtimes.com/2014/04/22/vkontakte-founder-pavel-durov-learns-hes-been-fired-through-media-a34425"
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-13T18:47:54.884Z"
+    "scrapedAt": "2026-11-14T17:19:18.241Z"
   },
   {
     "channel": "contest",
@@ -311,7 +248,7 @@
     "url": "https://t.me/contest/460",
     "date": "2026-08-31T12:51:46.000Z",
     "text": "🏆 Design Contest 2026, Round 2: Results\n\n😲 90% of eligible winners from Round 1 decided to continue making Telegram better and suggested a bunch of meaningful improvements to further polish the apps.\n\n🤲 Thank you all for your efforts – this steady pace and persistence are what set you apart, and it's what we value at Telegram. Keep going!\n\n💡 Now meet the winners and their inventive ideas:\n\n1st PLACE\n🥇 Brave Flamingo | Open Channel – $2,300\n🥇 Desert Bass | Open Channel – $2,200\n🥇 Sexy Leopard | Open Channel – $2,100\n🥇 Strict Crow | Open Channel – $2,000\n\n2nd PLACE\n🥈 Eager Duck | Open Channel – $1,500\n🥈 Humble Cockroach | Open Channel – $1,300\n🥈 Sunny Mink | Open Channel – $1,300\n🥈 Caring Eagle | Open Channel – $1,300\n🥈 Crazy Gnat | Open Channel – $1,200\n\n3rd PLACE\n🥉 Cuddly Turtle | Open Channel – $1,000\n🥉 Noble Swallow | Open Channel – $1,000\n🥉 Merry Bat | Open Channel – $900\n🥉 Shiny Fish | Open Channel – $900\n🥉 Mighty Crab | Open Channel – $900\n\n4th PLACE\n🎖 Nimble Kitten | Open Channel – $700\n🎖 Gifted Puma | Open Channel – $700\n🎖 Nimble Sheep | Open Channel – $400\n🎖 Mighty Falcon | Open Channel – $300\n\nCongratulations to the winners! Stay tuned for more contests and have a great week ahead!",
-    "views": 296000,
+    "views": 297000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -367,42 +304,47 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-13T18:47:54.885Z"
+    "scrapedAt": "2026-11-14T17:19:18.242Z"
   },
   {
     "channel": "durov",
     "channelTitle": "Pavel Durov",
     "channelSubscribers": 10000000,
-    "messageId": 556,
-    "url": "https://t.me/durov/556",
-    "date": "2026-11-11T12:27:06.000Z",
-    "text": "👛 Over 1 million self-custodial Gram wallets activated on Telegram in the last 48 hours alone.\n\n🥇 Gram is today’s #1 gainer among the top 100 coins by market cap, +14% in 24 hours.",
-    "views": 1190000,
+    "messageId": 558,
+    "url": "https://t.me/durov/558",
+    "date": "2026-11-12T13:24:25.000Z",
+    "text": "CORRECTION: Spy agencies are trying after all.\n\nI checked my IG DMs: hundreds of very interested “models” 🤌\n\n🤌 But Instagram? In 2026? Send me NFTs and Grams on Telegram like professionals.\n\nDMs are cheap. Grams hold their value. 💎",
+    "views": 1170000,
     "reactions": [
       {
         "emoji": "⭐",
-        "count": 6060,
+        "count": 4920,
         "paid": true
       },
       {
         "emoji": null,
-        "count": 17000,
-        "customEmojiId": "5373223594484587136"
-      },
-      {
-        "emoji": null,
-        "count": 6710,
+        "count": 21500,
         "customEmojiId": "5399847211989246390"
       },
       {
         "emoji": null,
-        "count": 4870,
+        "count": 7510,
         "customEmojiId": "5936157098181135162"
+      },
+      {
+        "emoji": null,
+        "count": 6160,
+        "customEmojiId": "5373223594484587136"
       }
     ],
-    "reactionsTotal": 34640,
+    "reactionsTotal": 40090,
     "forwardedFrom": null,
-    "replyTo": null,
+    "replyTo": {
+      "messageId": 557,
+      "url": "https://t.me/durov/557",
+      "author": "Pavel Durov",
+      "text": "😐 Unfair that CEOs who aren’t into Asian girls get fewer dating options from spy agencies.   👀 Where are the French/Russian/Iranian honeypots? Not one spy girl sent my way. Are they even trying? 🤷‍♀️  🌈 France is excused — their decision-makers aren’t into…"
+    },
     "author": "Pavel Durov",
     "viaBot": null,
     "isService": false,
@@ -411,19 +353,19 @@
     "media": [
       {
         "type": "photo",
-        "url": "https://cdn4.telesco.pe/file/lXS7IvH6xBSRzn9J-V2XKgC35ua039LgxEV2eFyCuli8rPTXgCRdXRwbO015iNXrp3lz8AVI5FCeJcbQCJZUpxw8P5BPsXVPhlAfh5CEJ39SUds_OWb9DyZP94oIm6rbWistz0DM-xvDqeAm-CXFE7lH99pcywSBYcbRKunbgdWK3GBhM7DdFNbZz3MPfNarhwrc9fz8NzDoLzvNQsNPb6SoDNewfOp2ySbUvPCFnQO9EjEZVDAN2kYfm6tdj2j1d7jAKqojLf8momIYPQjmzUpmG_TC2Hb4MW74sVAAzht0prVz_a5xnzIcUZ5q0Vf0Jc-vq6P6WX5Z5NKSZoFqKA.jpg",
-        "messageUrl": "https://t.me/durov/556"
+        "url": "https://cdn4.telesco.pe/file/N6x3iDj4OCfkpfwAA4NkLT2OXW1lxLb8mnM0BbA7RCjTsXBgLHc5e3Y1r-WYInZkvpUVrqRFSCUo2syC1cuKL53f3eIFV3NT6_r54kHX5NTPdtrYzQTDhoCECa_jW3VAG7Qxiy5M8DmRcMwjFh6PCm2jkYkphM_j5WlAjDwBovXg4BHhh_RB9s-Waj5PqxXkLyPeiWMX5gF3FkKsxyaCPNK-1evhd7JYTOTBRlBNhKghZCM0ATDFkaiADOhodfEu0p-LThlEf-QCx_eSQs1Dl8cZsZ70nxgI38th4k3hxPyKvqOORoNCd1Sc9w3cdUod2ntQ8smCiz7Op65UBKaXkg.jpg",
+        "messageUrl": "https://t.me/durov/558"
       }
     ],
     "mediaTypes": [
       "photo"
     ],
     "poll": null,
-    "html": "👛 Over <b>1</b> <b>million</b> self-custodial Gram wallets activated on Telegram in the <b>last</b> <b>48 hours alone</b>.<br><br>🥇 <b>Gram</b> is today’s <b>#1 gainer</b> among the top <b>100 coins</b> by market cap, +<b>14%</b> in <b>24 hours</b>.",
+    "html": "<b>CORRECTION</b>: Spy agencies are trying after all. <br><br>I checked my IG DMs: hundreds of very interested “models” 🤌<br><br>🤌 But Instagram? In 2026? Send me NFTs and Grams on Telegram like professionals. <br><br>DMs are cheap. Grams hold their value. 💎",
     "links": [],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-13T18:47:54.886Z"
+    "scrapedAt": "2026-11-14T17:19:18.242Z"
   },
   {
     "channel": "contest",
@@ -455,6 +397,56 @@
       "@username"
     ],
     "hashtags": [],
-    "scrapedAt": "2026-11-13T18:47:54.886Z"
+    "scrapedAt": "2026-11-14T17:19:18.243Z"
+  },
+  {
+    "channel": "durov",
+    "channelTitle": "Pavel Durov",
+    "channelSubscribers": 10000000,
+    "messageId": 557,
+    "url": "https://t.me/durov/557",
+    "date": "2026-11-11T20:27:00.000Z",
+    "text": "😐 Unfair that CEOs who aren’t into Asian girls get fewer dating options from spy agencies.\n\n👀 Where are the French/Russian/Iranian honeypots? Not one spy girl sent my way. Are they even trying? 🤷‍♀️\n\n🌈 France is excused — their decision-makers aren’t into girls. Everyone else: try harder! 🤨",
+    "views": 1360000,
+    "reactions": [
+      {
+        "emoji": "⭐",
+        "count": 5990,
+        "paid": true
+      },
+      {
+        "emoji": null,
+        "count": 43900,
+        "customEmojiId": "5399847211989246390"
+      },
+      {
+        "emoji": null,
+        "count": 18900,
+        "customEmojiId": "5373223594484587136"
+      },
+      {
+        "emoji": null,
+        "count": 13900,
+        "customEmojiId": "5936157098181135162"
+      }
+    ],
+    "reactionsTotal": 82690,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": "Pavel Durov",
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [],
+    "mediaTypes": [],
+    "poll": null,
+    "html": "😐 Unfair that CEOs who aren’t into <a href=\"https://t.me/cointelegraph/73166\">Asian girls</a> get fewer dating options from spy agencies. <br><br>👀 Where are the French/Russian/Iranian honeypots? Not one spy girl sent my way. Are they even trying? 🤷‍♀️<br><br>🌈 France is excused — their decision-makers aren’t into girls. Everyone else: try harder! 🤨",
+    "links": [
+      "https://t.me/cointelegraph/73166"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-14T17:19:18.243Z"
   }
 ]
