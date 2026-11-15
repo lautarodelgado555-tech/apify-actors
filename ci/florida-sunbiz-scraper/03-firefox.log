@@ -1,24 +1,20 @@
 Installing dependencies...
 Switching to root user to install dependencies...
-Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
-Hit:2 http://azure.archive.ubuntu.com/ubuntu resolute InRelease
-Get:3 http://azure.archive.ubuntu.com/ubuntu resolute-updates InRelease [137 kB]
-Get:6 https://packages.microsoft.com/ubuntu/26.04/prod resolute InRelease [3964 B]
-Get:4 http://azure.archive.ubuntu.com/ubuntu resolute-backports InRelease [137 kB]
-Get:5 http://azure.archive.ubuntu.com/ubuntu resolute-security InRelease [137 kB]
+Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [152 B]
+Get:5 https://packages.microsoft.com/ubuntu/26.04/prod resolute InRelease [3964 B]
+Hit:2 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute InRelease
+Get:6 https://packages.microsoft.com/ubuntu/26.04/prod resolute/main arm64 Packages [143 kB]
+Get:3 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-updates InRelease [137 kB]
 Get:7 https://packages.microsoft.com/ubuntu/26.04/prod resolute/main amd64 Packages [158 kB]
-Get:8 http://azure.archive.ubuntu.com/ubuntu resolute-updates/main amd64v3 Packages [869 kB]
-Get:12 https://packages.microsoft.com/ubuntu/26.04/prod resolute/main arm64 Packages [143 kB]
-Get:9 http://azure.archive.ubuntu.com/ubuntu resolute-updates/main Translation-en [195 kB]
-Get:10 http://azure.archive.ubuntu.com/ubuntu resolute-updates/universe amd64v3 Packages [390 kB]
-Get:11 http://azure.archive.ubuntu.com/ubuntu resolute-updates/universe Translation-en [122 kB]
-Get:13 http://azure.archive.ubuntu.com/ubuntu resolute-security/main amd64v3 Packages [718 kB]
-Get:14 http://azure.archive.ubuntu.com/ubuntu resolute-security/main Translation-en [157 kB]
-Get:15 http://azure.archive.ubuntu.com/ubuntu resolute-security/universe amd64v3 Packages [220 kB]
-Get:16 http://azure.archive.ubuntu.com/ubuntu resolute-security/universe Translation-en [72.5 kB]
-Get:17 http://azure.archive.ubuntu.com/ubuntu resolute-security/restricted amd64v3 Packages [590 kB]
-Get:18 http://azure.archive.ubuntu.com/ubuntu resolute-security/restricted Translation-en [122 kB]
-Fetched 4172 kB in 0s (14.0 MB/s)
+Get:8 http://security.ubuntu.com/ubuntu resolute-security InRelease [137 kB]
+Get:4 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-backports InRelease [137 kB]
+Get:9 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-updates/main amd64v3 Packages [869 kB]
+Get:10 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-updates/main Translation-en [195 kB]
+Get:11 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-updates/universe amd64v3 Packages [390 kB]
+Get:12 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-updates/universe Translation-en [122 kB]
+Get:13 http://security.ubuntu.com/ubuntu resolute-security/main amd64v3 Packages [718 kB]
+Get:14 http://security.ubuntu.com/ubuntu resolute-security/universe amd64v3 Packages [220 kB]
+Fetched 3231 kB in 2s (1815 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -96,52 +92,52 @@ The following NEW packages will be installed:
   libx264-165 libx265-215 libxvidcore4 libzvbi-common libzvbi0t64
   ocl-icd-libopencl1 xfonts-cyrillic xfonts-encodings xfonts-scalable
   xfonts-utils
-0 upgraded, 39 newly installed, 0 to remove and 24 not upgraded.
+0 upgraded, 39 newly installed, 0 to remove and 16 not upgraded.
 Need to get 54.4 MB of archives.
 After this operation, 173 MB of additional disk space will be used.
-Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
-Get:2 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 fonts-ipafont-gothic all 00303-23ubuntu1 [3703 kB]
-Get:3 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 fonts-freefont-ttf all 20211204+svn4273-4build1 [5656 kB]
-Get:4 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 fonts-tlwg-loma-otf all 1:0.7.3-1build1 [106 kB]
-Get:5 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 fonts-unifont all 1:16.0.04-1build1 [3169 kB]
-Get:6 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 fonts-wqy-zenhei all 0.9.45-8build1 [7863 kB]
-Get:7 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 libva2 amd64 2.23.0-1ubuntu1 [77.0 kB]
-Get:8 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 libva-drm2 amd64 2.23.0-1ubuntu1 [7126 B]
-Get:9 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libva-x11-2 amd64 2.23.0-1ubuntu1 [12.2 kB]
-Get:10 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 libvdpau1 amd64 1.5-4 [27.7 kB]
-Get:11 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libvpl2 amd64 1:2.16.0-1 [135 kB]
-Get:12 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 ocl-icd-libopencl1 amd64 2.3.4-1 [41.0 kB]
-Get:13 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libavutil60 amd64 7:8.0.1-3ubuntu2 [485 kB]
-Get:14 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libcodec2-1.2 amd64 1.2.0-4 [9016 kB]
-Get:15 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libdav1d7 amd64 1.5.3-1 [561 kB]
-Get:16 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libgsm1 amd64 1.0.23-2 [30.2 kB]
-Get:17 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 libmpg123-0t64 amd64 1.33.3-2 [180 kB]
-Get:18 http://azure.archive.ubuntu.com/ubuntu resolute-updates/main amd64v3 libmp3lame0 amd64 3.101~svn6525+dfsg-2ubuntu0.1 [123 kB]
-Get:19 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 libopus0 amd64 1.6.1-1 [3557 kB]
-Get:20 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 librav1e0.8 amd64 0.8.1-7 [1062 kB]
-Get:21 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libshine3 amd64 3.1.1-3build1 [24.9 kB]
-Get:22 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 libspeex1 amd64 1.2.1-3build1 [65.0 kB]
-Get:23 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libsvtav1enc2 amd64 2.3.0+dfsg-1build1 [2782 kB]
-Get:24 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libsoxr0 amd64 0.1.3-4.1 [82.0 kB]
-Get:25 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libswresample6 amd64 7:8.0.1-3ubuntu2 [80.9 kB]
-Get:26 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 libtheoradec2 amd64 1.2.0+dfsg-6 [56.5 kB]
-Get:27 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 libtheoraenc2 amd64 1.2.0+dfsg-6 [108 kB]
-Get:28 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 libtwolame0 amd64 0.4.0-2build4 [53.3 kB]
-Get:29 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 libvorbisenc2 amd64 1.3.7-3build2 [79.9 kB]
-Get:30 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 libvpx12 amd64 1.16.0-3 [1257 kB]
-Get:31 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libx264-165 amd64 2:0.165.3222+gitb35605ac-3build1 [610 kB]
-Get:32 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libx265-215 amd64 4.1-4 [1321 kB]
-Get:33 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libxvidcore4 amd64 2:1.3.7-3 [221 kB]
-Get:34 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libzvbi-common all 0.2.44-1ubuntu2 [43.0 kB]
-Get:35 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libzvbi0t64 amd64 0.2.44-1ubuntu2 [266 kB]
-Get:36 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libavcodec62 amd64 7:8.0.1-3ubuntu2 [10.2 MB]
-Get:37 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 xfonts-encodings all 1:1.0.5-0ubuntu3 [576 kB]
-Get:38 http://azure.archive.ubuntu.com/ubuntu resolute/main amd64v3 xfonts-utils amd64 1:7.7+7build1 [97.3 kB]
-Get:39 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 xfonts-cyrillic all 1:1.0.5+nmu1build1 [384 kB]
-Get:40 http://azure.archive.ubuntu.com/ubuntu resolute/universe amd64v3 xfonts-scalable all 1:1.0.3-1.3build1 [304 kB]
-Fetched 54.4 MB in 5s (11.6 MB/s)
+Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [152 B]
+Get:2 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 fonts-ipafont-gothic all 00303-23ubuntu1 [3703 kB]
+Get:3 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 fonts-freefont-ttf all 20211204+svn4273-4build1 [5656 kB]
+Get:4 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 fonts-tlwg-loma-otf all 1:0.7.3-1build1 [106 kB]
+Get:5 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 fonts-unifont all 1:16.0.04-1build1 [3169 kB]
+Get:6 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 fonts-wqy-zenhei all 0.9.45-8build1 [7863 kB]
+Get:7 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 libva2 amd64 2.23.0-1ubuntu1 [77.0 kB]
+Get:8 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 libva-drm2 amd64 2.23.0-1ubuntu1 [7126 B]
+Get:9 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libva-x11-2 amd64 2.23.0-1ubuntu1 [12.2 kB]
+Get:10 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 libvdpau1 amd64 1.5-4 [27.7 kB]
+Get:11 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libvpl2 amd64 1:2.16.0-1 [135 kB]
+Get:12 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 ocl-icd-libopencl1 amd64 2.3.4-1 [41.0 kB]
+Get:13 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libavutil60 amd64 7:8.0.1-3ubuntu2 [485 kB]
+Get:14 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libcodec2-1.2 amd64 1.2.0-4 [9016 kB]
+Get:15 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libdav1d7 amd64 1.5.3-1 [561 kB]
+Get:16 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libgsm1 amd64 1.0.23-2 [30.2 kB]
+Get:17 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 libmpg123-0t64 amd64 1.33.3-2 [180 kB]
+Get:18 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-updates/main amd64v3 libmp3lame0 amd64 3.101~svn6525+dfsg-2ubuntu0.1 [123 kB]
+Get:19 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 libopus0 amd64 1.6.1-1 [3557 kB]
+Get:20 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 librav1e0.8 amd64 0.8.1-7 [1062 kB]
+Get:21 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libshine3 amd64 3.1.1-3build1 [24.9 kB]
+Get:22 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 libspeex1 amd64 1.2.1-3build1 [65.0 kB]
+Get:23 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libsvtav1enc2 amd64 2.3.0+dfsg-1build1 [2782 kB]
+Get:24 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libsoxr0 amd64 0.1.3-4.1 [82.0 kB]
+Get:25 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libswresample6 amd64 7:8.0.1-3ubuntu2 [80.9 kB]
+Get:26 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 libtheoradec2 amd64 1.2.0+dfsg-6 [56.5 kB]
+Get:27 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 libtheoraenc2 amd64 1.2.0+dfsg-6 [108 kB]
+Get:28 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 libtwolame0 amd64 0.4.0-2build4 [53.3 kB]
+Get:29 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 libvorbisenc2 amd64 1.3.7-3build2 [79.9 kB]
+Get:30 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 libvpx12 amd64 1.16.0-3 [1257 kB]
+Get:31 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libx264-165 amd64 2:0.165.3222+gitb35605ac-3build1 [610 kB]
+Get:32 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libx265-215 amd64 4.1-4 [1321 kB]
+Get:33 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libxvidcore4 amd64 2:1.3.7-3 [221 kB]
+Get:34 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libzvbi-common all 0.2.44-1ubuntu2 [43.0 kB]
+Get:35 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libzvbi0t64 amd64 0.2.44-1ubuntu2 [266 kB]
+Get:36 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libavcodec62 amd64 7:8.0.1-3ubuntu2 [10.2 MB]
+Get:37 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 xfonts-encodings all 1:1.0.5-0ubuntu3 [576 kB]
+Get:38 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 xfonts-utils amd64 1:7.7+7build1 [97.3 kB]
+Get:39 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 xfonts-cyrillic all 1:1.0.5+nmu1build1 [384 kB]
+Get:40 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 xfonts-scalable all 1:1.0.3-1.3build1 [304 kB]
+Fetched 54.4 MB in 5s (12.0 MB/s)
 Selecting previously unselected package fonts-ipafont-gothic.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 213946 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 213647 files and directories currently installed.)
 Preparing to unpack .../00-fonts-ipafont-gothic_00303-23ubuntu1_all.deb ...
 Unpacking fonts-ipafont-gothic (00303-23ubuntu1) ...
 Selecting previously unselected package fonts-freefont-ttf.
