@@ -1,26 +1,26 @@
 {
-  "checkedAt": "2026-11-15T17:44:29.732Z",
+  "checkedAt": "2026-11-16T21:02:53.866Z",
   "name": "florida-sunbiz-scraper",
   "isPublic": true,
   "pricing": [
     "PAY_PER_EVENT"
   ],
   "stats": {
-    "totalBuilds": 41,
-    "totalRuns": 75,
+    "totalBuilds": 42,
+    "totalRuns": 77,
     "totalUsers": 2,
     "totalUsers7Days": 0,
     "totalUsers30Days": 0,
     "totalUsers90Days": 0,
-    "lastRunStartedAt": "2026-11-15T00:44:32.303Z",
+    "lastRunStartedAt": "2026-11-16T00:46:32.968Z",
     "actorReviewCount": 0,
     "actorReviewRating": 0,
     "bookmarkCount": 0,
     "publicActorRunStats30Days": {
       "ABORTED": 1,
       "FAILED": 0,
-      "SUCCEEDED": 32,
-      "TIMED-OUT": 1,
+      "SUCCEEDED": 33,
+      "TIMED-OUT": 0,
       "TOTAL": 34
     }
   }
