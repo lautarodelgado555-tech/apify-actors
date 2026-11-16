@@ -1385,7 +1385,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-09T16:36:03.000Z",
-    "scrapedAt": "2026-11-15T17:59:11.589Z"
+    "scrapedAt": "2026-11-16T21:14:17.195Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/lana-mexicana-en-crudo/",
@@ -1508,102 +1508,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-09T16:36:03.000Z",
-    "scrapedAt": "2026-11-15T17:59:11.851Z"
-  },
-  {
-    "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/taller-de-experimentacion-textil/",
-    "productId": 212491321,
-    "name": "Taller de Experimentación Textil - Sábados",
-    "brand": null,
-    "description": "Taller de Experimentación Textil Este taller será los sábados y está a cargo de la artista textil Karla Belinda Amezcua, fundadora del taller y excelente maestra. Durante el taller aprenderás varias técnicas de tejido que te servirán de base para empezar a crear tus ideas en hilos, conocerás la técnica de tejido en telar de bastidor, entre otras técnicas textiles fuera del telar que te permitirán crear textiles tridimensionales. Entre los objetivos principales del taller es la exploración de la forma a través del tejido y la sensibilización de materiales que desemboquen una creación artística que podrás usarlo para decoración o moda. En este taller tú eliges la ruta de tu aprendizaje, realizarás un muestrario con los principales nudos con diferentes tipos de hilo. En las siguientes sesiones realizarás el proyecto que tú elijas. ¿Quien puede tomar el taller?Este espacio de experimentación es para todxs lxs interesadxs en experimentar con textiles, no necesitas conocimientos previos. En las sesiones de tejido conviven principiantes y avanzados.- Materiales Tenemos una caja de textura con materiales de distintas fibras e hilaturas que está disponible para todo el grupo, sólo en caso de tener un proyecto que requiera material en especifico o diferente a los que tenemos disponibles deberás traerlo.Fechas5 sesiones - sábados 17, 24, 31 de octubre, 1 y 21 de noviembre Horariode 3 pm a 6 pm Si quieres ver la información del taller entre semana da click en este link LUNES DE TEJIDO",
-    "categories": [
-      "Talleres Presenciales",
-      "CALENDARIO 2026",
-      "Octubre"
-    ],
-    "tags": [],
-    "price": 2000,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 2000,
-    "priceMax": 3000,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 3,
-      "maxInterestFreeInstallments": 3,
-      "interestFreeInstallmentValue": 666.67,
-      "processor": "Pago Nube"
-    },
-    "availability": "OutOfStock",
-    "inStock": false,
-    "stockTotal": 0,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 2,
-    "variants": [
-      {
-        "id": 1585253317,
-        "sku": null,
-        "price": 2000,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Telar": "Telar Chico"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9505-010ca59285fd4235c517156504516125-1024-1024.webp"
-      },
-      {
-        "id": 1585253318,
-        "sku": null,
-        "price": 3000,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Telar": "Telar Grande"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/c15ed5c3-7dde-44a3-9cab-066ee283312b-b5ac2eadaa47e0588917156505411489-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/c15ed5c3-7dde-44a3-9cab-066ee283312b-b5ac2eadaa47e0588917156505411489-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0043-9fb548abc25e6af3e317156504513338-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0084-620c9f6a2ff56d7fc417156504526638-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0040-6c11e6038a31996a0117156504501273-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9682-40402a1b879051744d17156504526616-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9683-27e3f06f655eb8c1a317156504515850-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9622-1e5d67fb5130d1849117156504489240-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9624-0853657e808b53070517156504481452-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9620-9c97b8cf0d13043ff817156504502617-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9505-010ca59285fd4235c517156504516125-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9503-da951d95e7bfbddf6617156504513044-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9339-f51b50c124175fd6f717156504494350-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9039-e73f0928352765988a17156505484441-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_8205-342503a2bf483c665c17156505489202-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_7524-6372c8939d1603e8b817156505469580-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_7389-2bc93dd2b7f08b637017156505398181-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_4706-936da28e5e4d8ea21217156505425700-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_1433-89dec74ece357e7d0417156505502777-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_8599-689826e01465a8573d17156505496104-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/7df928ec-6456-4a28-85df-cd8504e60c6e-f5423530c7b3a1ad5217156505336089-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_4692-e252c76e530c183e1017156505497912-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_3306-2675a37e55c72a7c4717156505499894-1024-1024.webp"
-    ],
-    "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/c15ed5c3-7dde-44a3-9cab-066ee283312b-b5ac2eadaa47e0588917156505411489-1024-1024.webp",
-    "weightKg": null,
-    "storeName": "Taller Textil Dos Coyotes",
-    "storeDomain": "tallertextildoscoyotes.mitiendanube.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-08T13:45:54.000Z",
-    "scrapedAt": "2026-11-15T17:59:12.525Z"
+    "scrapedAt": "2026-11-16T21:14:17.441Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/jueves-crochetero-after-office/",
@@ -1745,7 +1650,102 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-08T22:56:59.000Z",
-    "scrapedAt": "2026-11-15T17:59:12.560Z"
+    "scrapedAt": "2026-11-16T21:14:17.776Z"
+  },
+  {
+    "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/taller-de-experimentacion-textil/",
+    "productId": 212491321,
+    "name": "Taller de Experimentación Textil - Sábados",
+    "brand": null,
+    "description": "Taller de Experimentación Textil Este taller será los sábados y está a cargo de la artista textil Karla Belinda Amezcua, fundadora del taller y excelente maestra. Durante el taller aprenderás varias técnicas de tejido que te servirán de base para empezar a crear tus ideas en hilos, conocerás la técnica de tejido en telar de bastidor, entre otras técnicas textiles fuera del telar que te permitirán crear textiles tridimensionales. Entre los objetivos principales del taller es la exploración de la forma a través del tejido y la sensibilización de materiales que desemboquen una creación artística que podrás usarlo para decoración o moda. En este taller tú eliges la ruta de tu aprendizaje, realizarás un muestrario con los principales nudos con diferentes tipos de hilo. En las siguientes sesiones realizarás el proyecto que tú elijas. ¿Quien puede tomar el taller?Este espacio de experimentación es para todxs lxs interesadxs en experimentar con textiles, no necesitas conocimientos previos. En las sesiones de tejido conviven principiantes y avanzados.- Materiales Tenemos una caja de textura con materiales de distintas fibras e hilaturas que está disponible para todo el grupo, sólo en caso de tener un proyecto que requiera material en especifico o diferente a los que tenemos disponibles deberás traerlo.Fechas5 sesiones - sábados 17, 24, 31 de octubre, 1 y 21 de noviembre Horariode 3 pm a 6 pm Si quieres ver la información del taller entre semana da click en este link LUNES DE TEJIDO",
+    "categories": [
+      "Talleres Presenciales",
+      "CALENDARIO 2026",
+      "Octubre"
+    ],
+    "tags": [],
+    "price": 2000,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 2000,
+    "priceMax": 3000,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 3,
+      "maxInterestFreeInstallments": 3,
+      "interestFreeInstallmentValue": 666.67,
+      "processor": "Pago Nube"
+    },
+    "availability": "OutOfStock",
+    "inStock": false,
+    "stockTotal": 0,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 2,
+    "variants": [
+      {
+        "id": 1585253317,
+        "sku": null,
+        "price": 2000,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 0,
+        "available": false,
+        "attributes": {
+          "Telar": "Telar Chico"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9505-010ca59285fd4235c517156504516125-1024-1024.webp"
+      },
+      {
+        "id": 1585253318,
+        "sku": null,
+        "price": 3000,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 0,
+        "available": false,
+        "attributes": {
+          "Telar": "Telar Grande"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/c15ed5c3-7dde-44a3-9cab-066ee283312b-b5ac2eadaa47e0588917156505411489-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/c15ed5c3-7dde-44a3-9cab-066ee283312b-b5ac2eadaa47e0588917156505411489-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0043-9fb548abc25e6af3e317156504513338-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0084-620c9f6a2ff56d7fc417156504526638-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0040-6c11e6038a31996a0117156504501273-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9682-40402a1b879051744d17156504526616-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9683-27e3f06f655eb8c1a317156504515850-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9622-1e5d67fb5130d1849117156504489240-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9624-0853657e808b53070517156504481452-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9620-9c97b8cf0d13043ff817156504502617-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9505-010ca59285fd4235c517156504516125-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9503-da951d95e7bfbddf6617156504513044-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9339-f51b50c124175fd6f717156504494350-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9039-e73f0928352765988a17156505484441-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_8205-342503a2bf483c665c17156505489202-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_7524-6372c8939d1603e8b817156505469580-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_7389-2bc93dd2b7f08b637017156505398181-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_4706-936da28e5e4d8ea21217156505425700-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_1433-89dec74ece357e7d0417156505502777-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_8599-689826e01465a8573d17156505496104-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/7df928ec-6456-4a28-85df-cd8504e60c6e-f5423530c7b3a1ad5217156505336089-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_4692-e252c76e530c183e1017156505497912-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_3306-2675a37e55c72a7c4717156505499894-1024-1024.webp"
+    ],
+    "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/c15ed5c3-7dde-44a3-9cab-066ee283312b-b5ac2eadaa47e0588917156505411489-1024-1024.webp",
+    "weightKg": null,
+    "storeName": "Taller Textil Dos Coyotes",
+    "storeDomain": "tallertextildoscoyotes.mitiendanube.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-08T13:45:54.000Z",
+    "scrapedAt": "2026-11-16T21:14:18.093Z"
   },
   {
     "url": "https://peek-store.com/productos/tisha-serendipia",
@@ -1800,7 +1800,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-11-06T17:59:38.000Z",
-    "scrapedAt": "2026-11-15T17:59:13.200Z"
+    "scrapedAt": "2026-11-16T21:14:18.682Z"
   },
   {
     "url": "https://peek-store.com/productos/tisha-gpt-septiembre-e37rv",
@@ -1868,7 +1868,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-11-01T23:41:55.000Z",
-    "scrapedAt": "2026-11-15T17:59:13.365Z"
+    "scrapedAt": "2026-11-16T21:14:19.076Z"
   },
   {
     "url": "https://peek-store.com/productos/cd-smile-1icsm",
@@ -1920,7 +1920,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-11-11T02:18:51.000Z",
-    "scrapedAt": "2026-11-15T17:59:13.695Z"
+    "scrapedAt": "2026-11-16T21:14:19.369Z"
   },
   {
     "url": "https://peek-store.com/productos/ateb-peek-kiddos-collection-cnenc",
@@ -2001,7 +2001,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-10-21T17:58:04.000Z",
-    "scrapedAt": "2026-11-15T17:59:14.013Z"
+    "scrapedAt": "2026-11-16T21:14:19.701Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/experimentacion-textil-en-feria-textil-8ln27/",
@@ -2062,7 +2062,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-08T13:44:24.000Z",
-    "scrapedAt": "2026-11-15T17:59:14.156Z"
+    "scrapedAt": "2026-11-16T21:14:19.803Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/estampado-botanico-1cqxm/",
@@ -2124,7 +2124,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-08T13:43:58.000Z",
-    "scrapedAt": "2026-11-15T17:59:14.980Z"
+    "scrapedAt": "2026-11-16T21:14:20.516Z"
   },
   {
     "url": "https://peek-store.com/productos/jersey-mexico-11crh",
@@ -2193,7 +2193,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-11-13T05:21:42.000Z",
-    "scrapedAt": "2026-11-15T17:59:15.022Z"
+    "scrapedAt": "2026-11-16T21:14:20.646Z"
   },
   {
     "url": "https://peek-store.com/productos/poster-serendipia-tu-y-yo",
@@ -2245,6 +2245,6 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-10-15T13:42:10.000Z",
-    "scrapedAt": "2026-11-15T17:59:15.338Z"
+    "scrapedAt": "2026-11-16T21:14:20.957Z"
   }
 ]

@@ -1,0 +1,131 @@
+{
+  "data": {
+    "id": "DprM31IIsnC2Skc5I",
+    "actId": "fiq7WRxAoyDviwTXP",
+    "userId": "ejg6JY7N3cozjC5Ny",
+    "startedAt": "2026-11-16T21:15:29.966Z",
+    "finishedAt": "2026-11-16T21:15:38.491Z",
+    "status": "SUCCEEDED",
+    "statusMessage": "10 results",
+    "isStatusMessageTerminal": true,
+    "meta": {
+      "origin": "API",
+      "userAgent": "curl/8.18.0"
+    },
+    "stats": {
+      "inputBodyLen": 267,
+      "migrationCount": 0,
+      "rebootCount": 0,
+      "restartCount": 0,
+      "durationMillis": 8391,
+      "resurrectCount": 0,
+      "runTimeSecs": 8.391,
+      "metamorph": 0,
+      "computeUnits": 0.004661666666666666,
+      "memAvgBytes": 113606487.34709932,
+      "memMaxBytes": 187469824,
+      "memCurrentBytes": 0,
+      "cpuAvgUsage": 30.357540815633595,
+      "cpuMaxUsage": 80.27079264935135,
+      "cpuCurrentUsage": 0,
+      "netRxBytes": 1320037,
+      "netTxBytes": 66478
+    },
+    "options": {
+      "build": "latest",
+      "timeoutSecs": 900,
+      "memoryMbytes": 2048,
+      "maxTotalChargeUsd": 4.965044,
+      "maxItems": null,
+      "isMaxTotalChargeUsdSetByUser": false,
+      "diskMbytes": 4096
+    },
+    "buildId": "4gyRgXEeGcNf778e0",
+    "exitCode": 0,
+    "defaultKeyValueStoreId": "zIzKZTyMSvD65Z8A0",
+    "defaultDatasetId": "T0wnDAYSBz6ORg0IE",
+    "defaultRequestQueueId": "ssab6bS8QF8bALy2g",
+    "storageIds": {
+      "keyValueStores": {
+        "default": "zIzKZTyMSvD65Z8A0"
+      },
+      "datasets": {
+        "default": "T0wnDAYSBz6ORg0IE"
+      },
+      "requestQueues": {
+        "default": "ssab6bS8QF8bALy2g"
+      }
+    },
+    "pricingInfo": {
+      "pricingModel": "PAY_PER_EVENT",
+      "createdAt": "2026-10-14T02:03:05.589Z",
+      "startedAt": "2026-10-14T02:03:05.589Z",
+      "apifyMarginPercentage": 0.2,
+      "pricingPerEvent": {
+        "actorChargeEvents": {
+          "product": {
+            "eventTitle": "Product",
+            "eventDescription": "One product returned with price, variants, stock, images and categories (in incremental mode only new or changed products are returned and charged).",
+            "isPrimaryEvent": true,
+            "eventPriceUsd": 0.001
+          },
+          "store": {
+            "eventTitle": "Store profile",
+            "eventDescription": "One store profile returned with country, currency, public contacts, social links and product count.",
+            "eventPriceUsd": 0.005
+          }
+        }
+      }
+    },
+    "chargedEventCounts": {
+      "product": 10,
+      "store": 0
+    },
+    "platformUsageBillingModel": "USER",
+    "accountedChargedEventCounts": {
+      "product": 0,
+      "store": 0
+    },
+    "standby": null,
+    "generalAccess": "FOLLOW_USER_SETTING",
+    "buildNumber": "0.1.11",
+    "containerUrl": "https://vdwioky9vd2p.runs.apify.net",
+    "usage": {
+      "ACTOR_COMPUTE_UNITS": 0.004661666666666666,
+      "DATASET_READS": 0,
+      "DATASET_WRITES": 10,
+      "KEY_VALUE_STORE_READS": 1,
+      "KEY_VALUE_STORE_WRITES": 3,
+      "KEY_VALUE_STORE_LISTS": 0,
+      "REQUEST_QUEUE_READS": 0,
+      "REQUEST_QUEUE_WRITES": 0,
+      "DATA_TRANSFER_INTERNAL_GBYTES": 0.00002727936953306198,
+      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.000046523287892341614,
+      "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
+      "PROXY_SERPS": 0,
+      "PROXY_UNBLOCKER_UNITS": 0
+    },
+    "usageTotalUsd": 0.0011480019593884548,
+    "usageUsd": {
+      "ACTOR_COMPUTE_UNITS": 0.0009323333333333333,
+      "DATASET_READS": 0,
+      "DATASET_WRITES": 0.00005,
+      "KEY_VALUE_STORE_READS": 0.000005,
+      "KEY_VALUE_STORE_WRITES": 0.00015000000000000001,
+      "KEY_VALUE_STORE_LISTS": 0,
+      "REQUEST_QUEUE_READS": 0,
+      "REQUEST_QUEUE_WRITES": 0,
+      "DATA_TRANSFER_INTERNAL_GBYTES": 0.0000013639684766530992,
+      "DATA_TRANSFER_EXTERNAL_GBYTES": 0.000009304657578468324,
+      "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
+      "PROXY_SERPS": 0,
+      "PROXY_UNBLOCKER_UNITS": 0
+    },
+    "consoleUrl": "https://console.apify.com/view/runs/DprM31IIsnC2Skc5I",
+    "output": {
+      "results": "https://api.apify.com/v2/datasets/T0wnDAYSBz6ORg0IE/items?signature=MC4wLmp0ZEhONFVEMFZuYXFjU2xiM2tv",
+      "resultsCsv": "https://api.apify.com/v2/datasets/T0wnDAYSBz6ORg0IE/items?format=csv&signature=MC4wLmp0ZEhONFVEMFZuYXFjU2xiM2tv",
+      "summary": "https://api.apify.com/v2/key-value-stores/zIzKZTyMSvD65Z8A0/records/OUTPUT?signature=FWgT7XysfmTukGGXwS5P"
+    }
+  }
+}
