@@ -1,0 +1,464 @@
+npm warn deprecated lodash.isequal@4.5.0: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
+
+added 266 packages in 9s
+
+78 packages are looking for funding
+  run `npm fund` for details
+Info: Apify collects telemetry data about general usage of Apify CLI to help us improve the product.
+This feature is enabled by default, and you can disable it by setting the "APIFY_CLI_DISABLE_TELEMETRY" environment variable to "1", or by running "apify telemetry disable".
+You can find more information about our telemetry in https://docs.apify.com/cli/docs/telemetry.
+Info: Deploying Actor 'georgia-sos-scraper' to Apify.
+Run: Updated version 0.1 for Actor georgia-sos-scraper.
+Run: Building Actor georgia-sos-scraper
+2026-11-16T21:14:44.865Z ACTOR: Selected directory: .
+2026-11-16T21:14:44.872Z ACTOR: Found input schema referenced from .actor/actor.json
+2026-11-16T21:14:45.661Z ACTOR: Found output schema referenced from .actor/actor.json
+2026-11-16T21:14:45.673Z ACTOR: Found dataset schema referenced from .actor/actor.json
+2026-11-16T21:14:45.737Z ACTOR: Using minMemoryMbytes: 1024
+2026-11-16T21:14:45.740Z ACTOR: Using maxMemoryMbytes: 4096
+2026-11-16T21:14:45.742Z ACTOR: Extracting Actor documentation from README.md
+2026-11-16T21:14:45.744Z ACTOR: Building container image (cache enabled).
+2026-11-16T21:14:46.026Z #1 [internal] load build definition from Dockerfile
+2026-11-16T21:14:46.028Z #1 transferring dockerfile: 456B done
+2026-11-16T21:14:46.030Z #1 DONE 0.0s
+2026-11-16T21:14:46.034Z #2 DONE 0.0s
+2026-11-16T21:14:46.036Z #3 resolve image config for docker-image://docker.io/docker/dockerfile:1
+2026-11-16T21:14:46.039Z #3 DONE 0.2s
+2026-11-16T21:14:46.267Z #4 docker-image://docker.io/docker/dockerfile:1@sha256:4edf897a3ffa55b89f906fc8cc78afdb3f1834cc9c7083565e611a8a7d5fe99e
+2026-11-16T21:14:46.269Z #4 resolve docker.io/docker/dockerfile:1@sha256:4edf897a3ffa55b89f906fc8cc78afdb3f1834cc9c7083565e611a8a7d5fe99e 0.0s done
+2026-11-16T21:14:46.272Z #4 CACHED
+2026-11-16T21:14:46.282Z #5 DONE 0.0s
+2026-11-16T21:14:46.284Z #6 [internal] load metadata for docker.io/apify/actor-node-playwright-firefox:22-1.64.0
+2026-11-16T21:14:46.483Z #6 DONE 0.4s
+2026-11-16T21:14:46.644Z #7 [internal] load .dockerignore
+2026-11-16T21:14:46.651Z #7 transferring context: 82B done
+2026-11-16T21:14:46.654Z #7 DONE 0.0s
+2026-11-16T21:14:46.656Z #8 importing cache manifest from s3:13223431219191615362
+2026-11-16T21:14:46.658Z #8 DONE 0.1s
+2026-11-16T21:14:46.662Z #9 [1/4] FROM docker.io/apify/actor-node-playwright-firefox:22-1.64.0@sha256:04082cd48f0215d5eeb6e7e4e5409f6e5dbefce0ac19c9136925a348dddb3529
+2026-11-16T21:14:46.664Z #9 resolve docker.io/apify/actor-node-playwright-firefox:22-1.64.0@sha256:04082cd48f0215d5eeb6e7e4e5409f6e5dbefce0ac19c9136925a348dddb3529 0.0s done
+2026-11-16T21:14:46.719Z #9 DONE 0.2s
+2026-11-16T21:14:46.721Z #10 [internal] load build context
+2026-11-16T21:14:46.723Z #10 transferring context: 139.55kB done
+2026-11-16T21:14:46.725Z #10 DONE 0.0s
+2026-11-16T21:14:46.822Z #9 [1/4] FROM docker.io/apify/actor-node-playwright-firefox:22-1.64.0@sha256:04082cd48f0215d5eeb6e7e4e5409f6e5dbefce0ac19c9136925a348dddb3529
+2026-11-16T21:14:46.824Z #9 sha256:78a17391b414308d2f5fbaa57f4b16fba0c5213be24858ffb42a16337364c8f4 168B / 168B 0.1s done
+2026-11-16T21:14:46.826Z #9 sha256:b1975696206f53acfaf852fffe1d2ab4b30cca6dcb56fef60807762b8a641cfd 2.27kB / 2.27kB 0.1s done
+2026-11-16T21:14:46.942Z #9 sha256:c6834af1ca8a8cc48006715e67d6c7f3c92cc7d3254c8a58701639c35547738c 900B / 900B 0.0s done
+2026-11-16T21:14:46.944Z #9 extracting sha256:c6834af1ca8a8cc48006715e67d6c7f3c92cc7d3254c8a58701639c35547738c 0.0s done
+2026-11-16T21:14:46.947Z #9 sha256:40ab1ac209ae07a9005646d73459755e56f218c73be66e2e41fda60e6afa6503 2.10MB / 101.04MB 0.2s
+2026-11-16T21:14:46.948Z #9 sha256:f9ccef05497d896000f5066054c6b5194adbe96a4929402b1f1813ed09cf254d 1.05MB / 350.96MB 0.2s
+2026-11-16T21:14:46.950Z #9 sha256:dbfdeb3dc148c1f771d7677b7b44804138b529cd4c3cf934eaba6e309acca68d 1.91MB / 1.91MB 0.1s done
+2026-11-16T21:14:47.054Z #9 sha256:40ab1ac209ae07a9005646d73459755e56f218c73be66e2e41fda60e6afa6503 16.78MB / 101.04MB 0.3s
+2026-11-16T21:14:47.056Z #9 extracting sha256:dbfdeb3dc148c1f771d7677b7b44804138b529cd4c3cf934eaba6e309acca68d
+2026-11-16T21:14:47.181Z #9 sha256:40ab1ac209ae07a9005646d73459755e56f218c73be66e2e41fda60e6afa6503 32.51MB / 101.04MB 0.5s
+2026-11-16T21:14:47.184Z #9 extracting sha256:dbfdeb3dc148c1f771d7677b7b44804138b529cd4c3cf934eaba6e309acca68d 0.1s done
+2026-11-16T21:14:47.331Z #9 sha256:40ab1ac209ae07a9005646d73459755e56f218c73be66e2e41fda60e6afa6503 50.33MB / 101.04MB 0.6s
+2026-11-16T21:14:47.398Z #9 sha256:f9ccef05497d896000f5066054c6b5194adbe96a4929402b1f1813ed09cf254d 32.51MB / 350.96MB 0.5s
+2026-11-16T21:14:47.481Z #9 sha256:40ab1ac209ae07a9005646d73459755e56f218c73be66e2e41fda60e6afa6503 62.91MB / 101.04MB 0.8s
+2026-11-16T21:14:47.483Z #9 sha256:f9ccef05497d896000f5066054c6b5194adbe96a4929402b1f1813ed09cf254d 50.33MB / 350.96MB 0.6s
+2026-11-16T21:14:47.647Z #9 sha256:40ab1ac209ae07a9005646d73459755e56f218c73be66e2e41fda60e6afa6503 75.50MB / 101.04MB 0.9s
+2026-11-16T21:14:47.782Z #9 sha256:40ab1ac209ae07a9005646d73459755e56f218c73be66e2e41fda60e6afa6503 98.57MB / 101.04MB 1.1s
+2026-11-16T21:14:47.784Z #9 sha256:f9ccef05497d896000f5066054c6b5194adbe96a4929402b1f1813ed09cf254d 80.74MB / 350.96MB 0.9s
+2026-11-16T21:14:47.954Z #9 sha256:40ab1ac209ae07a9005646d73459755e56f218c73be66e2e41fda60e6afa6503 101.04MB / 101.04MB 1.1s done
+2026-11-16T21:14:47.956Z #9 sha256:f9ccef05497d896000f5066054c6b5194adbe96a4929402b1f1813ed09cf254d 117.44MB / 350.96MB 1.2s
+2026-11-16T21:14:48.406Z #9 sha256:f9ccef05497d896000f5066054c6b5194adbe96a4929402b1f1813ed09cf254d 150.99MB / 350.96MB 1.7s
+2026-11-16T21:14:48.854Z #9 sha256:f9ccef05497d896000f5066054c6b5194adbe96a4929402b1f1813ed09cf254d 184.55MB / 350.96MB 2.1s
+2026-11-16T21:14:49.032Z #9 sha256:f9ccef05497d896000f5066054c6b5194adbe96a4929402b1f1813ed09cf254d 206.57MB / 350.96MB 2.3s
+2026-11-16T21:14:49.304Z #9 sha256:f9ccef05497d896000f5066054c6b5194adbe96a4929402b1f1813ed09cf254d 227.54MB / 350.96MB 2.6s
+2026-11-16T21:14:49.604Z #9 sha256:f9ccef05497d896000f5066054c6b5194adbe96a4929402b1f1813ed09cf254d 251.66MB / 350.96MB 2.9s
+2026-11-16T21:14:49.904Z #9 sha256:f9ccef05497d896000f5066054c6b5194adbe96a4929402b1f1813ed09cf254d 285.21MB / 350.96MB 3.2s
+2026-11-16T21:14:50.204Z #9 sha256:f9ccef05497d896000f5066054c6b5194adbe96a4929402b1f1813ed09cf254d 318.77MB / 350.96MB 3.5s
+2026-11-16T21:14:50.644Z #9 sha256:f9ccef05497d896000f5066054c6b5194adbe96a4929402b1f1813ed09cf254d 350.96MB / 350.96MB 3.9s done
+2026-11-16T21:14:50.795Z #9 extracting sha256:f9ccef05497d896000f5066054c6b5194adbe96a4929402b1f1813ed09cf254d
+2026-11-16T21:14:56.150Z #9 extracting sha256:f9ccef05497d896000f5066054c6b5194adbe96a4929402b1f1813ed09cf254d 5.5s done
+2026-11-16T21:14:56.152Z #9 DONE 9.6s
+2026-11-16T21:14:56.429Z #9 [1/4] FROM docker.io/apify/actor-node-playwright-firefox:22-1.64.0@sha256:04082cd48f0215d5eeb6e7e4e5409f6e5dbefce0ac19c9136925a348dddb3529
+2026-11-16T21:14:56.434Z #9 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0.0s done
+2026-11-16T21:14:56.439Z #9 extracting sha256:b1975696206f53acfaf852fffe1d2ab4b30cca6dcb56fef60807762b8a641cfd 0.0s done
+2026-11-16T21:14:56.443Z #9 extracting sha256:78a17391b414308d2f5fbaa57f4b16fba0c5213be24858ffb42a16337364c8f4 0.0s done
+2026-11-16T21:14:56.445Z #9 extracting sha256:40ab1ac209ae07a9005646d73459755e56f218c73be66e2e41fda60e6afa6503
+2026-11-16T21:14:58.673Z #9 extracting sha256:40ab1ac209ae07a9005646d73459755e56f218c73be66e2e41fda60e6afa6503 2.4s done
+2026-11-16T21:14:58.679Z #9 DONE 12.0s
+2026-11-16T21:14:58.761Z #11 [2/4] COPY --chown=myuser package*.json ./
+2026-11-16T21:14:59.265Z #11 DONE 0.6s
+2026-11-16T21:14:59.351Z #12 [3/4] RUN npm --quiet set progress=false     && npm install --omit=dev --omit=optional     && echo "Installed NPM packages:"     && (npm list --omit=dev --all || true)     && echo "Node.js version:"     && node --version     && echo "NPM version:"     && npm --version
+2026-11-16T21:15:16.359Z #12 17.16
+2026-11-16T21:15:16.361Z #12 17.16 added 7 packages, removed 165 packages, changed 31 packages, and audited 198 packages in 17s
+2026-11-16T21:15:16.562Z #12 17.16
+2026-11-16T21:15:16.564Z #12 17.16 61 packages are looking for funding
+2026-11-16T21:15:16.566Z #12 17.16   run `npm fund` for details
+2026-11-16T21:15:16.569Z #12 17.20
+2026-11-16T21:15:16.585Z #12 17.20 10 vulnerabilities (3 moderate, 7 high)
+2026-11-16T21:15:16.588Z #12 17.20
+2026-11-16T21:15:16.682Z #12 17.20 To address issues that do not require attention, run:
+2026-11-16T21:15:16.704Z #12 17.20   npm audit fix
+2026-11-16T21:15:16.707Z #12 17.20
+2026-11-16T21:15:16.710Z #12 17.20 To address all issues (including breaking changes), run:
+2026-11-16T21:15:16.712Z #12 17.20   npm audit fix --force
+2026-11-16T21:15:16.715Z #12 17.20
+2026-11-16T21:15:16.717Z #12 17.20 Run `npm audit` for details.
+2026-11-16T21:15:16.719Z #12 17.21 Installed NPM packages:
+2026-11-16T21:15:17.038Z #12 17.82 georgia-sos-scraper@0.1.0 /home/myuser
+2026-11-16T21:15:17.041Z #12 17.82 +-- apify@3.7.2
+2026-11-16T21:15:17.130Z #12 17.82 | +-- @apify/consts@2.58.1
+2026-11-16T21:15:17.132Z #12 17.82 | +-- @apify/input_secrets@1.2.60
+2026-11-16T21:15:17.135Z #12 17.82 | | +-- @apify/log@2.5.54 deduped
+2026-11-16T21:15:17.137Z #12 17.82 | | +-- @apify/utilities@2.35.11 deduped
+2026-11-16T21:15:17.139Z #12 17.82 | | `-- ow@0.28.2 deduped
+2026-11-16T21:15:17.141Z #12 17.82 | +-- @apify/log@2.5.54
+2026-11-16T21:15:17.143Z #12 17.82 | | +-- @apify/consts@2.58.1 deduped
+2026-11-16T21:15:17.145Z #12 17.82 | | `-- ansi-colors@4.1.3
+2026-11-16T21:15:17.147Z #12 17.82 | +-- @apify/timeout@0.3.5
+2026-11-16T21:15:17.149Z #12 17.82 | +-- @apify/utilities@2.35.11
+2026-11-16T21:15:17.151Z #12 17.82 | | +-- @apify/consts@2.58.1 deduped
+2026-11-16T21:15:17.153Z #12 17.82 | | `-- @apify/log@2.5.54 deduped
+2026-11-16T21:15:17.155Z #12 17.82 | +-- @crawlee/core@3.18.2
+2026-11-16T21:15:17.157Z #12 17.82 | | +-- @apify/consts@2.58.1 deduped
+2026-11-16T21:15:17.159Z #12 17.82 | | +-- @apify/datastructures@2.0.6
+2026-11-16T21:15:17.161Z #12 17.82 | | +-- @apify/log@2.5.54 deduped
+2026-11-16T21:15:17.164Z #12 17.82 | | +-- @apify/pseudo_url@2.0.95
+2026-11-16T21:15:17.166Z #12 17.82 | | | `-- @apify/log@2.5.54 deduped
+2026-11-16T21:15:17.169Z #12 17.82 | | +-- @apify/timeout@0.4.14
+2026-11-16T21:15:17.171Z #12 17.82 | | +-- @apify/utilities@2.35.11 deduped
+2026-11-16T21:15:17.173Z #12 17.82 | | +-- @crawlee/memory-storage@3.18.2
+2026-11-16T21:15:17.175Z #12 17.82 | | | +-- @apify/log@2.5.54 deduped
+2026-11-16T21:15:17.177Z #12 17.82 | | | +-- @crawlee/types@3.18.2 deduped
+2026-11-16T21:15:17.180Z #12 17.82 | | | +-- @sapphire/async-queue@1.5.5 deduped
+2026-11-16T21:15:17.182Z #12 17.82 | | | +-- @sapphire/shapeshift@3.9.7
+2026-11-16T21:15:17.184Z #12 17.82 | | | | +-- fast-deep-equal@3.1.3
+2026-11-16T21:15:17.186Z #12 17.82 | | | | `-- lodash@4.18.1
+2026-11-16T21:15:17.188Z #12 17.82 | | | +-- content-type@1.0.5 deduped
+2026-11-16T21:15:17.190Z #12 17.82 | | | +-- fs-extra@11.4.1 deduped
+2026-11-16T21:15:17.192Z #12 17.82 | | | +-- json5@2.2.3 deduped
+2026-11-16T21:15:17.194Z #12 17.82 | | | +-- mime-types@2.1.35
+2026-11-16T21:15:17.196Z #12 17.82 | | | | `-- mime-db@1.52.0
+2026-11-16T21:15:17.198Z #12 17.82 | | | +-- p-limit@3.1.0
+2026-11-16T21:15:17.200Z #12 17.82 | | | | `-- yocto-queue@0.1.0
+2026-11-16T21:15:17.203Z #12 17.82 | | | +-- proper-lockfile@4.1.2
+2026-11-16T21:15:17.205Z #12 17.82 | | | | +-- graceful-fs@4.2.11 deduped
+2026-11-16T21:15:17.208Z #12 17.82 | | | | +-- retry@0.12.0
+2026-11-16T21:15:17.210Z #12 17.82 | | | | `-- signal-exit@3.0.7
+2026-11-16T21:15:17.212Z #12 17.82 | | | `-- tslib@2.8.1 deduped
+2026-11-16T21:15:17.214Z #12 17.82 | | +-- @crawlee/types@3.18.2 deduped
+2026-11-16T21:15:17.215Z #12 17.82 | | +-- @crawlee/utils@3.18.2 deduped
+2026-11-16T21:15:17.218Z #12 17.82 | | +-- @sapphire/async-queue@1.5.5
+2026-11-16T21:15:17.220Z #12 17.82 | | +-- @standard-schema/spec@1.1.0
+2026-11-16T21:15:17.222Z #12 17.82 | | +-- @vladfrangu/async_event_emitter@2.4.7
+2026-11-16T21:15:17.224Z #12 17.82 | | +-- csv-stringify@6.9.0
+2026-11-16T21:15:17.228Z #12 17.82 | | +-- fs-extra@11.4.1 deduped
+2026-11-16T21:15:17.235Z #12 17.82 | | +-- got-scraping@4.2.2
+2026-11-16T21:15:17.237Z #12 17.82 | | | +-- got@14.6.6
+2026-11-16T21:15:17.240Z #12 17.82 | | | | +-- @sindresorhus/is@7.2.0
+2026-11-16T21:15:17.242Z #12 17.82 | | | | +-- byte-counter@0.1.0
+2026-11-16T21:15:17.244Z #12 17.82 | | | | +-- cacheable-lookup@7.0.0
+2026-11-16T21:15:17.246Z #12 17.82 | | | | +-- cacheable-request@13.0.19
+2026-11-16T21:15:17.248Z #12 17.82 | | | | | +-- @types/http-cache-semantics@4.2.0
+2026-11-16T21:15:17.250Z #12 17.82 | | | | | +-- get-stream@9.0.1
+2026-11-16T21:15:17.252Z #12 17.82 | | | | | | +-- @sec-ant/readable-stream@0.4.1
+2026-11-16T21:15:17.254Z #12 17.82 | | | | | | `-- is-stream@4.0.1
+2026-11-16T21:15:17.256Z #12 17.82 | | | | | +-- http-cache-semantics@4.3.0
+2026-11-16T21:15:17.258Z #12 17.82 | | | | | +-- keyv@5.6.0 deduped
+2026-11-16T21:15:17.260Z #12 17.82 | | | | | +-- mimic-response@4.0.0 deduped
+2026-11-16T21:15:17.262Z #12 17.82 | | | | | +-- normalize-url@8.1.1
+2026-11-16T21:15:17.264Z #12 17.82 | | | | | `-- responselike@4.0.2 deduped
+2026-11-16T21:15:17.266Z #12 17.82 | | | | +-- decompress-response@10.0.0
+2026-11-16T21:15:17.268Z #12 17.82 | | | | | `-- mimic-response@4.0.0 deduped
+2026-11-16T21:15:17.270Z #12 17.82 | | | | +-- form-data-encoder@4.1.0
+2026-11-16T21:15:17.272Z #12 17.82 | | | | +-- http2-wrapper@2.2.1 deduped
+2026-11-16T21:15:17.274Z #12 17.82 | | | | +-- keyv@5.6.0
+2026-11-16T21:15:17.276Z #12 17.82 | | | | | `-- @keyv/serialize@1.1.1
+2026-11-16T21:15:17.278Z #12 17.82 | | | | +-- lowercase-keys@3.0.0
+2026-11-16T21:15:17.281Z #12 17.82 | | | | +-- p-cancelable@4.0.1
+2026-11-16T21:15:17.283Z #12 17.82 | | | | +-- responselike@4.0.2
+2026-11-16T21:15:17.285Z #12 17.82 | | | | | `-- lowercase-keys@3.0.0 deduped
+2026-11-16T21:15:17.287Z #12 17.82 | | | | `-- type-fest@4.41.0 deduped
+2026-11-16T21:15:17.289Z #12 17.82 | | | +-- header-generator@2.1.88
+2026-11-16T21:15:17.291Z #12 17.82 | | | | +-- browserslist@4.29.3
+2026-11-16T21:15:17.293Z #12 17.82 | | | | | +-- baseline-browser-mapping@2.11.28
+2026-11-16T21:15:17.295Z #12 17.82 | | | | | +-- caniuse-lite@1.0.30001816
+2026-11-16T21:15:17.297Z #12 17.82 | | | | | +-- electron-to-chromium@1.5.454
+2026-11-16T21:15:17.299Z #12 17.82 | | | | | +-- node-releases@2.0.58
+2026-11-16T21:15:17.301Z #12 17.82 | | | | | `-- update-browserslist-db@1.3.4
+2026-11-16T21:15:17.303Z #12 17.82 | | | | |   +-- browserslist@4.29.3 deduped
+2026-11-16T21:15:17.305Z #12 17.82 | | | | |   +-- escalade@3.2.0
+2026-11-16T21:15:17.307Z #12 17.82 | | | | |   `-- picocolors@1.1.1
+2026-11-16T21:15:17.308Z #12 17.82 | | | | +-- generative-bayesian-network@2.1.88
+2026-11-16T21:15:17.311Z #12 17.82 | | | | | +-- adm-zip@0.6.1
+2026-11-16T21:15:17.313Z #12 17.82 | | | | | `-- tslib@2.8.1 deduped
+2026-11-16T21:15:17.315Z #12 17.82 | | | | +-- ow@0.28.2 deduped
+2026-11-16T21:15:17.316Z #12 17.82 | | | | `-- tslib@2.8.1 deduped
+2026-11-16T21:15:17.318Z #12 17.82 | | | +-- http2-wrapper@2.2.1
+2026-11-16T21:15:17.320Z #12 17.82 | | | | +-- quick-lru@5.1.1
+2026-11-16T21:15:17.322Z #12 17.82 | | | | `-- resolve-alpn@1.2.1
+2026-11-16T21:15:17.324Z #12 17.82 | | | +-- mimic-response@4.0.0
+2026-11-16T21:15:17.326Z #12 17.82 | | | +-- ow@1.1.1
+2026-11-16T21:15:17.328Z #12 17.82 | | | | +-- @sindresorhus/is@5.6.0
+2026-11-16T21:15:17.332Z #12 17.82 | | | | +-- callsites@4.2.0
+2026-11-16T21:15:17.338Z #12 17.82 | | | | +-- dot-prop@7.2.0
+2026-11-16T21:15:17.342Z #12 17.82 | | | | | `-- type-fest@2.19.0
+2026-11-16T21:15:17.344Z #12 17.82 | | | | +-- lodash.isequal@4.5.0 deduped
+2026-11-16T21:15:17.346Z #12 17.82 | | | | `-- vali-date@1.0.0 deduped
+2026-11-16T21:15:17.348Z #12 17.82 | | | +-- quick-lru@7.3.0
+2026-11-16T21:15:17.350Z #12 17.82 | | | `-- tslib@2.8.1 deduped
+2026-11-16T21:15:17.353Z #12 17.82 | | +-- json5@2.2.3
+2026-11-16T21:15:17.355Z #12 17.82 | | +-- minimatch@9.0.9
+2026-11-16T21:15:17.357Z #12 17.82 | | | `-- brace-expansion@2.1.7
+2026-11-16T21:15:17.359Z #12 17.82 | | |   `-- balanced-match@1.0.2
+2026-11-16T21:15:17.361Z #12 17.82 | | +-- ow@0.28.2 deduped
+2026-11-16T21:15:17.363Z #12 17.82 | | +-- stream-json@3.7.0
+2026-11-16T21:15:17.365Z #12 17.82 | | | `-- stream-chain@4.2.6
+2026-11-16T21:15:17.368Z #12 17.82 | | +-- tldts@7.4.18
+2026-11-16T21:15:17.370Z #12 17.82 | | | `-- tldts-core@7.4.18
+2026-11-16T21:15:17.373Z #12 17.82 | | +-- tough-cookie@6.0.2
+2026-11-16T21:15:17.375Z #12 17.82 | | | `-- tldts@7.4.18 deduped
+2026-11-16T21:15:17.378Z #12 17.82 | | +-- tslib@2.8.1 deduped
+2026-11-16T21:15:17.381Z #12 17.82 | | `-- type-fest@4.41.0
+2026-11-16T21:15:17.383Z #12 17.82 | +-- @crawlee/types@3.18.2
+2026-11-16T21:15:17.385Z #12 17.82 | | `-- tslib@2.8.1 deduped
+2026-11-16T21:15:17.387Z #12 17.82 | +-- @crawlee/utils@3.18.2
+2026-11-16T21:15:17.389Z #12 17.82 | | +-- @apify/log@2.5.54 deduped
+2026-11-16T21:15:17.391Z #12 17.82 | | +-- @apify/ps-tree@1.2.0
+2026-11-16T21:15:17.393Z #12 17.82 | | | `-- event-stream@3.3.4
+2026-11-16T21:15:17.395Z #12 17.82 | | |   +-- duplexer@0.1.2
+2026-11-16T21:15:17.397Z #12 17.82 | | |   +-- from@0.1.7
+2026-11-16T21:15:17.399Z #12 17.82 | | |   +-- map-stream@0.1.0
+2026-11-16T21:15:17.401Z #12 17.82 | | |   +-- pause-stream@0.0.11
+2026-11-16T21:15:17.403Z #12 17.82 | | |   | `-- through@2.3.8 deduped
+2026-11-16T21:15:17.406Z #12 17.82 | | |   +-- split@0.3.3
+2026-11-16T21:15:17.408Z #12 17.82 | | |   | `-- through@2.3.8 deduped
+2026-11-16T21:15:17.410Z #12 17.82 | | |   +-- stream-combiner@0.0.4
+2026-11-16T21:15:17.412Z #12 17.82 | | |   | `-- duplexer@0.1.2 deduped
+2026-11-16T21:15:17.415Z #12 17.82 | | |   `-- through@2.3.8
+2026-11-16T21:15:17.417Z #12 17.82 | | +-- @crawlee/types@3.18.2 deduped
+2026-11-16T21:15:17.420Z #12 17.82 | | +-- @types/sax@1.2.7
+2026-11-16T21:15:17.430Z #12 17.82 | | | `-- @types/node@26.6.5
+2026-11-16T21:15:17.454Z #12 17.82 | | |   `-- undici-types@8.9.0
+2026-11-16T21:15:17.492Z #12 17.82 | | +-- cheerio@1.0.0-rc.12
+2026-11-16T21:15:17.496Z #12 17.82 | | | +-- cheerio-select@2.1.0 deduped
+2026-11-16T21:15:17.499Z #12 17.82 | | | +-- dom-serializer@2.0.0 deduped
+2026-11-16T21:15:17.505Z #12 17.82 | | | +-- domhandler@5.0.3 deduped
+2026-11-16T21:15:17.507Z #12 17.82 | | | +-- domutils@3.2.2 deduped
+2026-11-16T21:15:17.509Z #12 17.82 | | | +-- htmlparser2@8.0.2
+2026-11-16T21:15:17.511Z #12 17.82 | | | | +-- domelementtype@2.3.0 deduped
+2026-11-16T21:15:17.513Z #12 17.82 | | | | +-- domhandler@5.0.3 deduped
+2026-11-16T21:15:17.515Z #12 17.82 | | | | +-- domutils@3.2.2 deduped
+2026-11-16T21:15:17.517Z #12 17.82 | | | | `-- entities@4.5.0 deduped
+2026-11-16T21:15:17.519Z #12 17.82 | | | +-- parse5-htmlparser2-tree-adapter@7.1.0 deduped
+2026-11-16T21:15:17.521Z #12 17.82 | | | `-- parse5@7.3.0 deduped
+2026-11-16T21:15:17.523Z #12 17.82 | | +-- file-type@21.3.4
+2026-11-16T21:15:17.527Z #12 17.82 | | | | +-- debug@4.4.3 deduped
+2026-11-16T21:15:17.531Z #12 17.82 | | | +-- strtok3@10.5.0
+2026-11-16T21:15:17.537Z #12 17.82 | | | | +-- @borewit/text-codec@0.2.2
+2026-11-16T21:15:17.542Z #12 17.82 | | | | `-- ieee754@1.2.1
+2026-11-16T21:15:17.544Z #12 17.82 | | | `-- uint8array-extras@1.6.0
+2026-11-16T21:15:17.546Z #12 17.82 | | +-- got-scraping@4.2.2 deduped
+2026-11-16T21:15:17.555Z #12 17.82 | | +-- ow@0.28.2 deduped
+2026-11-16T21:15:17.559Z #12 17.82 | | +-- robots-parser@3.0.1
+2026-11-16T21:15:17.561Z #12 17.82 | | +-- sax@1.6.1
+2026-11-16T21:15:17.563Z #12 17.82 | | +-- tldts@7.4.18 deduped
+2026-11-16T21:15:17.565Z #12 17.82 | | +-- tslib@2.8.1 deduped
+2026-11-16T21:15:17.567Z #12 17.82 | | `-- whatwg-mimetype@4.0.0 deduped
+2026-11-16T21:15:17.569Z #12 17.82 | +-- apify-client@2.25.0
+2026-11-16T21:15:17.572Z #12 17.82 | | +-- @apify/consts@2.58.1 deduped
+2026-11-16T21:15:17.574Z #12 17.82 | | +-- @apify/log@2.5.54 deduped
+2026-11-16T21:15:17.576Z #12 17.82 | | +-- @apify/utilities@2.35.11 deduped
+2026-11-16T21:15:17.578Z #12 17.82 | | +-- @crawlee/types@3.18.2 deduped
+2026-11-16T21:15:17.581Z #12 17.82 | | +-- ansi-colors@4.1.3 deduped
+2026-11-16T21:15:17.583Z #12 17.82 | | +-- async-retry@1.3.3
+2026-11-16T21:15:17.585Z #12 17.82 | | | `-- retry@0.13.1
+2026-11-16T21:15:17.588Z #12 17.82 | | +-- axios@1.20.0
+2026-11-16T21:15:17.590Z #12 17.82 | | | +-- follow-redirects@1.16.1
+2026-11-16T21:15:17.592Z #12 17.82 | | | +-- form-data@4.0.6
+2026-11-16T21:15:17.594Z #12 17.82 | | | | +-- asynckit@0.4.0
+2026-11-16T21:15:17.663Z #12 17.82 | | | | +-- combined-stream@1.0.8
+2026-11-16T21:15:17.666Z #12 17.82 | | | | | `-- delayed-stream@1.0.0
+2026-11-16T21:15:17.668Z #12 17.82 | | | | +-- es-set-tostringtag@2.1.0
+2026-11-16T21:15:17.670Z #12 17.82 | | | | | +-- es-errors@1.3.0
+2026-11-16T21:15:17.672Z #12 17.82 | | | | | +-- get-intrinsic@1.3.0
+2026-11-16T21:15:17.674Z #12 17.82 | | | | | | +-- call-bind-apply-helpers@1.0.2
+2026-11-16T21:15:17.676Z #12 17.82 | | | | | | | +-- es-errors@1.3.0 deduped
+2026-11-16T21:15:17.678Z #12 17.82 | | | | | | | `-- function-bind@1.1.2 deduped
+2026-11-16T21:15:17.680Z #12 17.82 | | | | | | +-- es-define-property@1.0.1
+2026-11-16T21:15:17.683Z #12 17.82 | | | | | | +-- es-errors@1.3.0 deduped
+2026-11-16T21:15:17.685Z #12 17.82 | | | | | | +-- es-object-atoms@1.1.2
+2026-11-16T21:15:17.687Z #12 17.82 | | | | | | | `-- es-errors@1.3.0 deduped
+2026-11-16T21:15:17.689Z #12 17.82 | | | | | | +-- function-bind@1.1.2 deduped
+2026-11-16T21:15:17.691Z #12 17.82 | | | | | | +-- get-proto@1.0.1
+2026-11-16T21:15:17.693Z #12 17.82 | | | | | | | +-- dunder-proto@1.0.1
+2026-11-16T21:15:17.695Z #12 17.82 | | | | | | | | +-- call-bind-apply-helpers@1.0.2 deduped
+2026-11-16T21:15:17.697Z #12 17.82 | | | | | | | | +-- es-errors@1.3.0 deduped
+2026-11-16T21:15:17.701Z #12 17.82 | | | | | | | | `-- gopd@1.2.0 deduped
+2026-11-16T21:15:17.703Z #12 17.82 | | | | | | | `-- es-object-atoms@1.1.2 deduped
+2026-11-16T21:15:17.705Z #12 17.82 | | | | | | +-- gopd@1.2.0
+2026-11-16T21:15:17.707Z #12 17.82 | | | | | | +-- has-symbols@1.1.0
+2026-11-16T21:15:17.709Z #12 17.82 | | | | | | +-- hasown@2.0.4 deduped
+2026-11-16T21:15:17.711Z #12 17.82 | | | | | | `-- math-intrinsics@1.1.0
+2026-11-16T21:15:17.713Z #12 17.82 | | | | | +-- has-tostringtag@1.0.2
+2026-11-16T21:15:17.715Z #12 17.82 | | | | | | `-- has-symbols@1.1.0 deduped
+2026-11-16T21:15:17.717Z #12 17.82 | | | | | `-- hasown@2.0.4 deduped
+2026-11-16T21:15:17.719Z #12 17.82 | | | | +-- hasown@2.0.4
+2026-11-16T21:15:17.721Z #12 17.82 | | | | | `-- function-bind@1.1.2
+2026-11-16T21:15:17.723Z #12 17.82 | | | | `-- mime-types@2.1.35 deduped
+2026-11-16T21:15:17.725Z #12 17.82 | | | +-- https-proxy-agent@5.0.1
+2026-11-16T21:15:17.727Z #12 17.82 | | | | +-- agent-base@6.0.2
+2026-11-16T21:15:17.729Z #12 17.82 | | | | | `-- debug@4.4.3 deduped
+2026-11-16T21:15:17.731Z #12 17.82 | | | | `-- debug@4.4.3 deduped
+2026-11-16T21:15:17.733Z #12 17.82 | | | `-- proxy-from-env@2.1.0
+2026-11-16T21:15:17.735Z #12 17.82 | | +-- content-type@1.0.5
+2026-11-16T21:15:17.737Z #12 17.82 | | +-- ow@0.28.2 deduped
+2026-11-16T21:15:17.739Z #12 17.82 | | +-- proxy-agent@6.5.0
+2026-11-16T21:15:17.741Z #12 17.82 | | | +-- agent-base@7.1.4
+2026-11-16T21:15:17.743Z #12 17.82 | | | +-- debug@4.4.3
+2026-11-16T21:15:17.745Z #12 17.82 | | | | `-- ms@2.1.3
+2026-11-16T21:15:17.747Z #12 17.82 | | | +-- http-proxy-agent@7.0.2
+2026-11-16T21:15:17.749Z #12 17.82 | | | | +-- agent-base@7.1.4
+2026-11-16T21:15:17.751Z #12 17.82 | | | | `-- debug@4.4.3 deduped
+2026-11-16T21:15:17.753Z #12 17.82 | | | +-- https-proxy-agent@7.0.6
+2026-11-16T21:15:17.755Z #12 17.82 | | | | +-- agent-base@7.1.4 deduped
+2026-11-16T21:15:17.759Z #12 17.82 | | | | `-- debug@4.4.3 deduped
+2026-11-16T21:15:17.773Z #12 17.82 | | | +-- lru-cache@7.18.3
+2026-11-16T21:15:17.775Z #12 17.82 | | | +-- pac-proxy-agent@7.2.0
+2026-11-16T21:15:17.777Z #12 17.82 | | | | +-- @tootallnate/quickjs-emscripten@0.23.0
+2026-11-16T21:15:17.780Z #12 17.82 | | | | +-- agent-base@7.1.4
+2026-11-16T21:15:17.782Z #12 17.82 | | | | +-- debug@4.4.3 deduped
+2026-11-16T21:15:17.784Z #12 17.82 | | | | +-- get-uri@6.0.5
+2026-11-16T21:15:17.786Z #12 17.82 | | | | | +-- basic-ftp@5.3.1
+2026-11-16T21:15:17.788Z #12 17.82 | | | | | +-- data-uri-to-buffer@6.0.2
+2026-11-16T21:15:17.791Z #12 17.82 | | | | | `-- debug@4.4.3 deduped
+2026-11-16T21:15:17.793Z #12 17.82 | | | | +-- http-proxy-agent@7.0.2 deduped
+2026-11-16T21:15:17.795Z #12 17.82 | | | | +-- https-proxy-agent@7.0.6
+2026-11-16T21:15:17.797Z #12 17.82 | | | | | +-- agent-base@7.1.4 deduped
+2026-11-16T21:15:17.799Z #12 17.82 | | | | | `-- debug@4.4.3 deduped
+2026-11-16T21:15:17.801Z #12 17.82 | | | | +-- pac-resolver@7.0.1
+2026-11-16T21:15:17.803Z #12 17.82 | | | | | +-- degenerator@5.0.1
+2026-11-16T21:15:17.805Z #12 17.82 | | | | | | +-- ast-types@0.13.4
+2026-11-16T21:15:17.807Z #12 17.82 | | | | | | | `-- tslib@2.8.1 deduped
+2026-11-16T21:15:17.809Z #12 17.82 | | | | | | +-- escodegen@2.1.0
+2026-11-16T21:15:17.811Z #12 17.82 | | | | | | | +-- esprima@4.0.1 deduped
+2026-11-16T21:15:17.813Z #12 17.82 | | | | | | | +-- estraverse@5.3.0
+2026-11-16T21:15:17.815Z #12 17.82 | | | | | | | +-- esutils@2.0.3
+2026-11-16T21:15:17.817Z #12 17.82 | | | | | | | `-- UNMET OPTIONAL DEPENDENCY source-map@~0.6.1
+2026-11-16T21:15:17.819Z #12 17.82 | | | | | | `-- esprima@4.0.1
+2026-11-16T21:15:17.821Z #12 17.82 | | | | | `-- netmask@2.1.1
+2026-11-16T21:15:17.823Z #12 17.82 | | | | `-- socks-proxy-agent@8.0.5 deduped
+2026-11-16T21:15:17.825Z #12 17.82 | | | +-- proxy-from-env@1.1.0
+2026-11-16T21:15:17.827Z #12 17.82 | | | `-- socks-proxy-agent@8.0.5
+2026-11-16T21:15:17.829Z #12 17.82 | | |   +-- agent-base@7.1.4
+2026-11-16T21:15:17.831Z #12 17.82 | | |   +-- debug@4.4.3 deduped
+2026-11-16T21:15:17.833Z #12 17.82 | | |   `-- socks@2.8.10
+2026-11-16T21:15:17.835Z #12 17.82 | | |     +-- ip-address@10.7.4
+2026-11-16T21:15:17.837Z #12 17.82 | | |     `-- smart-buffer@4.2.0
+2026-11-16T21:15:17.839Z #12 17.82 | | +-- tslib@2.8.1 deduped
+2026-11-16T21:15:17.908Z #12 17.82 | | `-- type-fest@4.41.0 deduped
+2026-11-16T21:15:17.912Z #12 17.82 | +-- fs-extra@11.4.1
+2026-11-16T21:15:17.916Z #12 17.82 | | +-- graceful-fs@4.2.11
+2026-11-16T21:15:17.917Z #12 17.82 | | +-- jsonfile@6.2.1
+2026-11-16T21:15:17.919Z #12 17.82 | | | +-- graceful-fs@4.2.11 deduped
+2026-11-16T21:15:17.923Z #12 17.82 | | | `-- universalify@2.0.1 deduped
+2026-11-16T21:15:17.925Z #12 17.82 | | `-- universalify@2.0.1
+2026-11-16T21:15:17.927Z #12 17.82 | +-- ow@0.28.2
+2026-11-16T21:15:17.929Z #12 17.82 | | +-- @sindresorhus/is@4.6.0
+2026-11-16T21:15:17.931Z #12 17.82 | | +-- callsites@3.1.0
+2026-11-16T21:15:17.933Z #12 17.82 | | +-- dot-prop@6.0.1
+2026-11-16T21:15:17.936Z #12 17.82 | | | `-- is-obj@2.0.0
+2026-11-16T21:15:17.938Z #12 17.82 | | +-- lodash.isequal@4.5.0
+2026-11-16T21:15:17.940Z #12 17.82 | | `-- vali-date@1.0.0
+2026-11-16T21:15:17.942Z #12 17.82 | +-- semver@7.8.5
+2026-11-16T21:15:17.945Z #12 17.82 | +-- tslib@2.8.1
+2026-11-16T21:15:17.947Z #12 17.82 | `-- ws@8.22.0
+2026-11-16T21:15:17.949Z #12 17.82 |   +-- UNMET OPTIONAL DEPENDENCY bufferutil@^4.0.1
+2026-11-16T21:15:17.951Z #12 17.82 |   `-- UNMET OPTIONAL DEPENDENCY utf-8-validate@>=5.0.2
+2026-11-16T21:15:17.954Z #12 17.82 +-- cheerio@1.2.0
+2026-11-16T21:15:17.956Z #12 17.82 | +-- cheerio-select@2.1.0
+2026-11-16T21:15:17.958Z #12 17.82 | | +-- boolbase@1.0.0
+2026-11-16T21:15:17.960Z #12 17.82 | | +-- css-select@5.2.2
+2026-11-16T21:15:17.962Z #12 17.82 | | | +-- boolbase@1.0.0 deduped
+2026-11-16T21:15:17.964Z #12 17.82 | | | +-- css-what@6.2.2 deduped
+2026-11-16T21:15:17.966Z #12 17.82 | | | +-- domhandler@5.0.3 deduped
+2026-11-16T21:15:17.968Z #12 17.82 | | | +-- domutils@3.2.2 deduped
+2026-11-16T21:15:17.970Z #12 17.82 | | | `-- nth-check@2.1.1
+2026-11-16T21:15:17.972Z #12 17.82 | | |   `-- boolbase@1.0.0 deduped
+2026-11-16T21:15:17.974Z #12 17.82 | | +-- css-what@6.2.2
+2026-11-16T21:15:17.976Z #12 17.82 | | +-- domelementtype@2.3.0
+2026-11-16T21:15:17.978Z #12 17.82 | | +-- domhandler@5.0.3 deduped
+2026-11-16T21:15:17.981Z #12 17.82 | | `-- domutils@3.2.2 deduped
+2026-11-16T21:15:17.983Z #12 17.82 | +-- dom-serializer@2.0.0
+2026-11-16T21:15:17.985Z #12 17.82 | | +-- domelementtype@2.3.0 deduped
+2026-11-16T21:15:17.988Z #12 17.82 | | +-- domhandler@5.0.3 deduped
+2026-11-16T21:15:17.990Z #12 17.82 | | `-- entities@4.5.0
+2026-11-16T21:15:17.992Z #12 17.82 | +-- domhandler@5.0.3
+2026-11-16T21:15:17.994Z #12 17.82 | | `-- domelementtype@2.3.0 deduped
+2026-11-16T21:15:17.996Z #12 17.82 | +-- domutils@3.2.2
+2026-11-16T21:15:17.998Z #12 17.82 | | +-- dom-serializer@2.0.0 deduped
+2026-11-16T21:15:18.000Z #12 17.82 | | +-- domelementtype@2.3.0 deduped
+2026-11-16T21:15:18.004Z #12 17.82 | | `-- domhandler@5.0.3 deduped
+2026-11-16T21:15:18.006Z #12 17.82 | +-- encoding-sniffer@0.2.1
+2026-11-16T21:15:18.008Z #12 17.82 | | +-- iconv-lite@0.6.3
+2026-11-16T21:15:18.014Z #12 17.82 | | | `-- safer-buffer@2.1.2
+2026-11-16T21:15:18.017Z #12 17.82 | | `-- whatwg-encoding@3.1.1
+2026-11-16T21:15:18.019Z #12 17.82 | |   `-- iconv-lite@0.6.3 deduped
+2026-11-16T21:15:18.021Z #12 17.82 | +-- htmlparser2@10.1.0
+2026-11-16T21:15:18.023Z #12 17.82 | | +-- domelementtype@2.3.0 deduped
+2026-11-16T21:15:18.025Z #12 17.82 | | +-- domhandler@5.0.3 deduped
+2026-11-16T21:15:18.027Z #12 17.82 | | +-- domutils@3.2.2 deduped
+2026-11-16T21:15:18.029Z #12 17.82 | | `-- entities@7.0.1
+2026-11-16T21:15:18.031Z #12 17.82 | +-- parse5-htmlparser2-tree-adapter@7.1.0
+2026-11-16T21:15:18.033Z #12 17.82 | | +-- domhandler@5.0.3 deduped
+2026-11-16T21:15:18.035Z #12 17.82 | | `-- parse5@7.3.0 deduped
+2026-11-16T21:15:18.037Z #12 17.82 | +-- parse5-parser-stream@7.1.2
+2026-11-16T21:15:18.039Z #12 17.82 | | `-- parse5@7.3.0 deduped
+2026-11-16T21:15:18.041Z #12 17.82 | +-- parse5@7.3.0
+2026-11-16T21:15:18.043Z #12 17.82 | | `-- entities@6.0.1
+2026-11-16T21:15:18.105Z #12 17.82 | +-- undici@7.30.0
+2026-11-16T21:15:18.108Z #12 17.82 | `-- whatwg-mimetype@4.0.0
+2026-11-16T21:15:18.110Z #12 17.82 `-- playwright@1.64.0
+2026-11-16T21:15:18.112Z #12 17.82   `-- playwright-core@1.64.0
+2026-11-16T21:15:18.115Z #12 17.82
+2026-11-16T21:15:18.121Z #12 17.83 Node.js version:
+2026-11-16T21:15:18.123Z #12 17.84 v22.23.5
+2026-11-16T21:15:18.125Z #12 17.84 NPM version:
+2026-11-16T21:15:18.127Z #12 17.94 10.9.9
+2026-11-16T21:15:18.129Z #12 DONE 18.2s
+2026-11-16T21:15:18.131Z #13 [4/4] COPY --chown=myuser . ./
+2026-11-16T21:15:18.133Z #13 DONE 0.1s
+2026-11-16T21:15:18.135Z ACTOR: Pushing container image to repository.
+2026-11-16T21:15:18.137Z #14 exporting to image
+2026-11-16T21:15:18.139Z #14 exporting layers
+2026-11-16T21:15:20.123Z #14 exporting layers 2.6s done
+2026-11-16T21:15:20.250Z #14 ...
+2026-11-16T21:15:20.254Z #15 [auth] sharing credentials for 031263542130.dkr.ecr.us-east-1.amazonaws.com
+2026-11-16T21:15:20.267Z #15 DONE 0.0s
+2026-11-16T21:15:20.289Z #14 exporting to image
+2026-11-16T21:15:20.331Z #14 exporting manifest sha256:1bda572ae116207bc373219cae1210f21689e223fc1f74c22950da26eef9d9e6 0.0s done
+2026-11-16T21:15:20.354Z #14 exporting config sha256:67035fb4da05ea17026d46aae98294c57902c3c6009b209e7ae4fe5f3f84bc07 0.0s done
+2026-11-16T21:15:20.428Z #14 pushing layers
+2026-11-16T21:15:20.622Z #14 ...
+2026-11-16T21:15:20.630Z #16 exporting cache to Amazon S3
+2026-11-16T21:15:20.634Z #16 preparing build cache for export 0.0s done
+2026-11-16T21:15:20.637Z #16 sending cache export 0.2s done
+2026-11-16T21:15:20.639Z #16 writing layer sha256:0d80b33be52b556958cc925b342f723063e4d89568bf24529337f6f368f09510 0.2s done
+2026-11-16T21:15:20.643Z #16 writing layer sha256:5077f462cf5f205ea955d83425622426ffee10a1a70cc99d54c734cf03d344c6 0.0s done
+2026-11-16T21:15:20.645Z #16 writing layer sha256:bc900170d1619ab0ba86416536c2073bf6acd204bf576934a60d0f45ae50ba4a 0.1s done
+2026-11-16T21:15:20.647Z #16 DONE 0.3s
+2026-11-16T21:15:20.701Z #14 exporting to image
+2026-11-16T21:15:20.704Z #14 pushing layers 0.6s done
+2026-11-16T21:15:20.706Z #14 pushing manifest for 031263542130.dkr.ecr.us-east-1.amazonaws.com/act-builds-prod-00405:jCo4t5SR4iGZrjhX7@sha256:1bda572ae116207bc373219cae1210f21689e223fc1f74c22950da26eef9d9e6
+2026-11-16T21:15:20.960Z #14 pushing manifest for 031263542130.dkr.ecr.us-east-1.amazonaws.com/act-builds-prod-00405:jCo4t5SR4iGZrjhX7@sha256:1bda572ae116207bc373219cae1210f21689e223fc1f74c22950da26eef9d9e6 0.3s done
+2026-11-16T21:15:20.963Z #14 DONE 3.4s
+2026-11-16T21:15:21.072Z ACTOR: Build finished.
+Run: Applying build tag "latest"...
+Apify push result: SUCCEEDED
+
+Upload: SUCCEEDED
+Build: SUCCEEDED
+Actor ID: K00frZ6BNGl5gHKPc
+Build ID: jCo4t5SR4iGZrjhX7
+Build number: 0.1.11
+
+Actor URL: https://console.apify.com/actors/K00frZ6BNGl5gHKPc
+Build URL: https://console.apify.com/actors/K00frZ6BNGl5gHKPc/builds/0.1.11
+configuring lautarodelgado~georgia-sos-scraper
+ok defaultRunOptions={"build":"latest","timeoutSecs":3600,"memoryMbytes":2048}
+saved build log jCo4t5SR4iGZrjhX7 (444 lines)
+stats {"totalBuilds":11,"totalRuns":100,"totalUsers":5,"totalUsers7Days":0,"totalUsers30Days":3,"totalUsers90Days":3,"lastRunStartedAt":"2026-11-16T14:54:39.041Z","actorReviewCount":0,"actorReviewRating":0,"bookmarkCount":0,"publicActorRunStats30Days":{"ABORTED":0,"FAILED":4,"SUCCEEDED":36,"TIMED-OUT":0,"TOTAL":40}}
