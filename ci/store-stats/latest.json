@@ -1,23 +1,23 @@
 {
-  "checkedAt": "2026-11-16T21:16:33.905Z",
+  "checkedAt": "2026-11-17T20:04:02.909Z",
   "actors": {
     "florida-sunbiz-scraper": {
       "isPublic": true,
       "totalUsers": 2,
       "totalUsers7Days": 0,
       "totalUsers30Days": 0,
-      "totalRuns": 78,
-      "lastRunStartedAt": "2026-11-16T21:02:54.333Z",
+      "totalRuns": 80,
+      "lastRunStartedAt": "2026-11-17T19:52:53.482Z",
       "rating": 0,
       "reviews": 0
     },
     "georgia-sos-scraper": {
       "isPublic": true,
-      "totalUsers": 5,
-      "totalUsers7Days": 0,
-      "totalUsers30Days": 3,
-      "totalRuns": 101,
-      "lastRunStartedAt": "2026-11-16T21:15:22.671Z",
+      "totalUsers": 6,
+      "totalUsers7Days": 1,
+      "totalUsers30Days": 2,
+      "totalRuns": 102,
+      "lastRunStartedAt": "2026-11-17T14:56:43.565Z",
       "rating": 0,
       "reviews": 0
     },
@@ -33,21 +33,21 @@
     },
     "telegram-channel-scraper": {
       "isPublic": true,
-      "totalUsers": 4,
+      "totalUsers": 5,
       "totalUsers7Days": 0,
       "totalUsers30Days": 2,
-      "totalRuns": 55,
-      "lastRunStartedAt": "2026-11-16T21:15:59.188Z",
+      "totalRuns": 56,
+      "lastRunStartedAt": "2026-11-17T14:56:44.043Z",
       "rating": 0,
       "reviews": 0
     },
     "tiendanube-scraper": {
       "isPublic": true,
-      "totalUsers": 7,
+      "totalUsers": 8,
       "totalUsers7Days": 1,
-      "totalUsers30Days": 2,
-      "totalRuns": 80,
-      "lastRunStartedAt": "2026-11-16T21:15:29.966Z",
+      "totalUsers30Days": 3,
+      "totalRuns": 82,
+      "lastRunStartedAt": "2026-11-17T14:58:31.903Z",
       "rating": 0,
       "reviews": 0
     },
@@ -56,8 +56,8 @@
       "totalUsers": 2,
       "totalUsers7Days": 1,
       "totalUsers30Days": 1,
-      "totalRuns": 43,
-      "lastRunStartedAt": "2026-11-16T14:54:39.009Z",
+      "totalRuns": 45,
+      "lastRunStartedAt": "2026-11-17T14:56:43.575Z",
       "rating": 0,
       "reviews": 0
     }
