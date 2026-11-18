@@ -1,66 +1,36 @@
 {
-  "checkedAt": "2026-11-17T20:04:02.909Z",
-  "previousCheckedAt": "2026-11-16T21:16:33.905Z",
+  "checkedAt": "2026-11-18T19:38:16.052Z",
+  "previousCheckedAt": "2026-11-17T20:04:02.909Z",
   "changes": [
     {
       "actor": "florida-sunbiz-scraper",
       "field": "totalRuns",
-      "before": 78,
-      "after": 80
-    },
-    {
-      "actor": "georgia-sos-scraper",
-      "field": "totalUsers",
-      "before": 5,
-      "after": 6
-    },
-    {
-      "actor": "georgia-sos-scraper",
-      "field": "totalUsers30Days",
-      "before": 3,
-      "after": 2
-    },
-    {
-      "actor": "georgia-sos-scraper",
-      "field": "totalRuns",
-      "before": 101,
-      "after": 102
-    },
-    {
-      "actor": "telegram-channel-scraper",
-      "field": "totalUsers",
-      "before": 4,
-      "after": 5
-    },
-    {
-      "actor": "telegram-channel-scraper",
-      "field": "totalRuns",
-      "before": 55,
-      "after": 56
-    },
-    {
-      "actor": "tiendanube-scraper",
-      "field": "totalUsers",
-      "before": 7,
-      "after": 8
-    },
-    {
-      "actor": "tiendanube-scraper",
-      "field": "totalUsers30Days",
-      "before": 2,
-      "after": 3
-    },
-    {
-      "actor": "tiendanube-scraper",
-      "field": "totalRuns",
       "before": 80,
-      "after": 82
+      "after": 81
+    },
+    {
+      "actor": "georgia-sos-scraper",
+      "field": "totalRuns",
+      "before": 102,
+      "after": 103
+    },
+    {
+      "actor": "telegram-channel-scraper",
+      "field": "totalRuns",
+      "before": 56,
+      "after": 57
+    },
+    {
+      "actor": "tiendanube-scraper",
+      "field": "totalRuns",
+      "before": 82,
+      "after": 83
     },
     {
       "actor": "us-business-status-monitor",
       "field": "totalRuns",
-      "before": 43,
-      "after": 45
+      "before": 45,
+      "after": 46
     }
   ]
 }
