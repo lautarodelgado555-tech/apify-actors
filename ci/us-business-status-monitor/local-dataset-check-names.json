@@ -20,8 +20,8 @@
     "source": "Colorado Secretary of State via data.colorado.gov (Business Entities in Colorado)",
     "sourceUrl": "https://data.colorado.gov/resource/4ykn-tg5h.json?entityid=20171362116",
     "mode": "opendata",
-    "dataFreshness": "2026-11-17T12:19:00.000Z",
-    "checkedAt": "2026-11-17T20:47:07.627Z",
+    "dataFreshness": "2026-11-18T13:17:58.000Z",
+    "checkedAt": "2026-11-18T20:23:16.038Z",
     "details": {
       "entityTypeCode": "FPC",
       "jurisdictionOfFormation": "DE",
@@ -67,7 +67,7 @@
     "sourceUrl": "https://data.texas.gov/resource/9cir-efmm.json?taxpayer_number=32073591276",
     "mode": "opendata",
     "dataFreshness": "2026-11-14T11:44:17.000Z",
-    "checkedAt": "2026-11-17T20:47:07.627Z",
+    "checkedAt": "2026-11-18T20:23:16.038Z",
     "details": {
       "taxpayerNumber": "32073591276",
       "sosFileNumber": "0803562210",
@@ -98,51 +98,17 @@
     "needsEntityId": false
   },
   {
-    "recordType": "entity-check",
-    "state": "NY",
-    "entityId": "4667344",
-    "name": "GOOGLE CAR SERVICE, INC",
-    "entityType": "DOMESTIC BUSINESS CORPORATION",
-    "statusRaw": "Active",
-    "statusDetail": "last filing code 04DB",
-    "status": "active",
-    "goodStanding": null,
-    "formationDate": "2014-11-17",
-    "statusDate": "2026-10-29",
-    "annualReportDue": null,
-    "annualReportDueBasis": null,
-    "annualReportDueNote": "New York files a biennial statement; the open data does not publish its due date.",
-    "lastReportFiled": null,
-    "registeredAgent": "INCORP SERVICES, INC.",
-    "registeredAgentAddress": "ONE COMMERCE PLAZA, 99 WASHINGTON AVE SUITE 805-A, ALBANY, NEW YORK 122102822",
-    "source": "New York Department of State via data.ny.gov (Active Corporations + Entity Status History)",
-    "sourceUrl": "https://data.ny.gov/resource/3gg2-jgnp.json?corpid_num=4667344&$order=date_filed%20desc%2Cfilm_num%20desc&$limit=1",
-    "mode": "opendata",
-    "dataFreshness": "2026-11-10T19:17:57.000Z",
-    "checkedAt": "2026-11-17T20:47:07.627Z",
-    "details": {
-      "jurisdiction": "New York",
-      "county": "Queens",
-      "dosProcessName": "INCORP SERVICES, INC.",
-      "listedAsActive": true
-    },
+    "recordType": "not-found",
+    "code": "NOT_FOUND",
+    "message": "No entity matching \"Google Car Service\" in NY. Nothing was charged.",
     "query": {
       "state": "NY",
       "id": null,
       "name": "Google Car Service",
       "label": null
     },
-    "monitored": false,
-    "firstSeen": null,
-    "previousCheckedAt": null,
-    "changed": false,
-    "changeTypes": [],
-    "changes": [],
-    "matchScore": 0.95,
-    "matchType": "exact-ignoring-legal-suffix",
-    "candidateRank": 1,
-    "resolvedFromName": false,
-    "needsEntityId": false
+    "charged": false,
+    "checkedAt": "2026-11-18T20:23:16.038Z"
   },
   {
     "recordType": "entity-check",
@@ -165,8 +131,8 @@
     "source": "Connecticut Secretary of the State via data.ct.gov (Business Registry - Business Master)",
     "sourceUrl": "https://data.ct.gov/resource/n7gp-d28j.json?accountnumber=0074441",
     "mode": "opendata",
-    "dataFreshness": "2026-11-17T18:00:44.000Z",
-    "checkedAt": "2026-11-17T20:47:07.627Z",
+    "dataFreshness": "2026-11-18T09:44:10.000Z",
+    "checkedAt": "2026-11-18T20:23:16.038Z",
     "details": {
       "registryRecordId": "001t000000WmVHCAA3",
       "businessTypeCode": "Stock",
@@ -214,7 +180,7 @@
     "sourceUrl": "https://data.oregon.gov/resource/tckn-sxa6.json?registry_number=149629495",
     "mode": "opendata",
     "dataFreshness": "2026-11-17T15:44:54.000Z",
-    "checkedAt": "2026-11-17T20:47:07.627Z",
+    "checkedAt": "2026-11-18T20:23:16.038Z",
     "details": {
       "jurisdiction": "DE",
       "entityTypeCode": "FLLC"
@@ -258,8 +224,8 @@
     "source": "DC Department of Licensing and Consumer Protection via Open Data DC (Corporate Registration)",
     "sourceUrl": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Business_Licensing_and_Grants_WebMercator/FeatureServer/0/query?outFields=*&returnGeometry=false&f=json&where=FILE_NUMBER%3D'932195'",
     "mode": "opendata",
-    "dataFreshness": "2026-11-17T12:47:58.000Z",
-    "checkedAt": "2026-11-17T20:47:07.627Z",
+    "dataFreshness": "2026-11-18T12:47:56.000Z",
+    "checkedAt": "2026-11-18T20:23:16.038Z",
     "details": {
       "locale": "Foreign",
       "businessAddress": "7750 Wisconsin Avenue, Bethesda, MD 20814",
@@ -294,6 +260,6 @@
       "label": null
     },
     "charged": false,
-    "checkedAt": "2026-11-17T20:47:07.627Z"
+    "checkedAt": "2026-11-18T20:23:16.038Z"
   }
 ]
