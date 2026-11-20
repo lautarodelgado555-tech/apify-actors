@@ -3,8 +3,7 @@
 > node src/main.js
 
 [32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.4"}[39m
-[33mWARN[39m  Could not open the portal (attempt 1/8, route: direct): Cloudflare challenge on the home page
-[32mINFO[39m  Session ready (attempt 2, route: direct).
+[32mINFO[39m  Session ready (attempt 1, route: direct).
 [32mINFO[39m  "Delta Air Lines": 2 record(s) in 1 page(s).
 [32mINFO[39m  "Coca-Cola": 29 record(s) in 2 page(s).
 [32mINFO[39m  Done. 5 entities saved for 2 search term(s).
