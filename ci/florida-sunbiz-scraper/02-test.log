@@ -6,25 +6,25 @@ TAP version 13
 # Subtest: search results list
 ok 1 - search results list
   ---
-  duration_ms: 24.211911
+  duration_ms: 24.459794
   type: 'test'
   ...
 # Subtest: detail page
 ok 2 - detail page
   ---
-  duration_ms: 17.808658
+  duration_ms: 19.309848
   type: 'test'
   ...
 # Subtest: annual report status
 ok 3 - annual report status
   ---
-  duration_ms: 10.24513
+  duration_ms: 10.083881
   type: 'test'
   ...
 # Subtest: helpers
 ok 4 - helpers
   ---
-  duration_ms: 0.68633
+  duration_ms: 0.699649
   type: 'test'
   ...
 1..4
@@ -35,4 +35,4 @@ ok 4 - helpers
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 237.93292
+# duration_ms 246.640471

@@ -1,14 +1,14 @@
-2026-11-19T19:31:10.586Z ACTOR: Pulling container image of build nXc0dlGBd8phKfU8J from registry.
-2026-11-19T19:31:19.525Z ACTOR: Creating container.
-2026-11-19T19:31:19.579Z ACTOR: Starting container.
-2026-11-19T19:31:19.580Z ACTOR: Running under "LIMITED_PERMISSIONS".
-2026-11-19T19:31:19.634Z Running on architecture: x86_64
-2026-11-19T19:31:19.635Z Will run command: xvfb-run -a -s "-ac -screen 0 1920x1080x24+32 -nolisten tcp" /bin/bash -o pipefail -c npm start --silent
-2026-11-19T19:31:21.280Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.5"}
-2026-11-19T19:31:21.908Z INFO  PlaywrightCrawler: Starting the crawler.
-2026-11-19T19:31:26.927Z INFO  "Acme": 0 saved, 6 in flight
-2026-11-19T19:31:26.928Z INFO  "Publix Super Markets": 0 saved, 2 in flight (end of matches)
-2026-11-19T19:31:45.003Z INFO  PlaywrightCrawler: All requests from the queue have been processed, the crawler will shut down.
-2026-11-19T19:31:46.584Z INFO  PlaywrightCrawler: Final request statistics: {"requestsFinished":10,"requestsFailed":0,"retryHistogram":[10],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":3134,"requestsFinishedPerMinute":24,"requestsFailedPerMinute":0,"requestTotalDurationMillis":31336,"requestsTotal":10,"crawlerRuntimeMillis":24979}
-2026-11-19T19:31:46.585Z INFO  PlaywrightCrawler: Finished! Total 10 requests: 10 succeeded, 0 failed. {"terminal":true}
-2026-11-19T19:31:46.586Z INFO  Done. 8 entities saved for 2 search term(s).
+2026-11-20T19:07:38.873Z ACTOR: Pulling container image of build Lip8590h7wWRH9iij from registry.
+2026-11-20T19:07:48.723Z ACTOR: Creating container.
+2026-11-20T19:07:48.779Z ACTOR: Starting container.
+2026-11-20T19:07:48.780Z ACTOR: Running under "LIMITED_PERMISSIONS".
+2026-11-20T19:07:48.844Z Running on architecture: x86_64
+2026-11-20T19:07:48.845Z Will run command: xvfb-run -a -s "-ac -screen 0 1920x1080x24+32 -nolisten tcp" /bin/bash -o pipefail -c npm start --silent
+2026-11-20T19:07:49.952Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.5"}
+2026-11-20T19:07:50.515Z INFO  PlaywrightCrawler: Starting the crawler.
+2026-11-20T19:08:05.517Z INFO  "Publix Super Markets": 0 saved, 2 in flight (end of matches)
+2026-11-20T19:08:07.018Z INFO  "Acme": 0 saved, 6 in flight
+2026-11-20T19:08:45.452Z INFO  PlaywrightCrawler: All requests from the queue have been processed, the crawler will shut down.
+2026-11-20T19:08:47.019Z INFO  PlaywrightCrawler: Final request statistics: {"requestsFinished":10,"requestsFailed":0,"retryHistogram":[10],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":11716,"requestsFinishedPerMinute":11,"requestsFailedPerMinute":0,"requestTotalDurationMillis":117156,"requestsTotal":10,"crawlerRuntimeMillis":56794}
+2026-11-20T19:08:47.020Z INFO  PlaywrightCrawler: Finished! Total 10 requests: 10 succeeded, 0 failed. {"terminal":true}
+2026-11-20T19:08:47.022Z INFO  Done. 8 entities saved for 2 search term(s).
