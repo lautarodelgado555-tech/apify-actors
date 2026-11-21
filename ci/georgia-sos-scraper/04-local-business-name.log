@@ -2,7 +2,7 @@
 > georgia-sos-scraper@0.1.0 start
 > node src/main.js
 
-[32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.4"}[39m
+[32mINFO[39m  System info[90m {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.5"}[39m
 [32mINFO[39m  Session ready (attempt 1, route: direct).
 [32mINFO[39m  "Delta Air Lines": 2 record(s) in 1 page(s).
 [32mINFO[39m  "Coca-Cola": 29 record(s) in 2 page(s).
