@@ -20,8 +20,8 @@
     "source": "Colorado Secretary of State via data.colorado.gov (Business Entities in Colorado)",
     "sourceUrl": "https://data.colorado.gov/resource/4ykn-tg5h.json?entityid=20171362116",
     "mode": "opendata",
-    "dataFreshness": "2026-11-20T12:14:52.000Z",
-    "checkedAt": "2026-11-20T19:58:23.772Z",
+    "dataFreshness": "2026-11-21T12:23:36.000Z",
+    "checkedAt": "2026-11-21T19:04:14.858Z",
     "details": {
       "entityTypeCode": "FPC",
       "jurisdictionOfFormation": "DE",
@@ -66,8 +66,8 @@
     "source": "Texas Comptroller of Public Accounts via data.texas.gov (Active Franchise Taxpayers)",
     "sourceUrl": "https://data.texas.gov/resource/9cir-efmm.json?taxpayer_number=32073591276",
     "mode": "opendata",
-    "dataFreshness": "2026-11-14T11:44:17.000Z",
-    "checkedAt": "2026-11-20T19:58:23.772Z",
+    "dataFreshness": "2026-11-21T11:28:59.000Z",
+    "checkedAt": "2026-11-21T19:04:14.858Z",
     "details": {
       "taxpayerNumber": "32073591276",
       "sosFileNumber": "0803562210",
@@ -108,7 +108,7 @@
       "label": null
     },
     "charged": false,
-    "checkedAt": "2026-11-20T19:58:23.772Z"
+    "checkedAt": "2026-11-21T19:04:14.858Z"
   },
   {
     "recordType": "entity-check",
@@ -131,8 +131,8 @@
     "source": "Connecticut Secretary of the State via data.ct.gov (Business Registry - Business Master)",
     "sourceUrl": "https://data.ct.gov/resource/n7gp-d28j.json?accountnumber=0074441",
     "mode": "opendata",
-    "dataFreshness": "2026-11-20T09:30:59.000Z",
-    "checkedAt": "2026-11-20T19:58:23.772Z",
+    "dataFreshness": "2026-11-21T10:12:20.000Z",
+    "checkedAt": "2026-11-21T19:04:14.858Z",
     "details": {
       "registryRecordId": "001t000000WmVHCAA3",
       "businessTypeCode": "Stock",
@@ -180,7 +180,7 @@
     "sourceUrl": "https://data.oregon.gov/resource/tckn-sxa6.json?registry_number=149629495",
     "mode": "opendata",
     "dataFreshness": "2026-11-17T15:44:54.000Z",
-    "checkedAt": "2026-11-20T19:58:23.772Z",
+    "checkedAt": "2026-11-21T19:04:14.858Z",
     "details": {
       "jurisdiction": "DE",
       "entityTypeCode": "FLLC"
@@ -225,7 +225,7 @@
     "sourceUrl": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Business_Licensing_and_Grants_WebMercator/FeatureServer/0/query?outFields=*&returnGeometry=false&f=json&where=FILE_NUMBER%3D'932195'",
     "mode": "opendata",
     "dataFreshness": "2026-11-20T12:47:55.000Z",
-    "checkedAt": "2026-11-20T19:58:23.772Z",
+    "checkedAt": "2026-11-21T19:04:14.858Z",
     "details": {
       "locale": "Foreign",
       "businessAddress": "7750 Wisconsin Avenue, Bethesda, MD 20814",
@@ -260,6 +260,6 @@
       "label": null
     },
     "charged": false,
-    "checkedAt": "2026-11-20T19:58:23.772Z"
+    "checkedAt": "2026-11-21T19:04:14.858Z"
   }
 ]
