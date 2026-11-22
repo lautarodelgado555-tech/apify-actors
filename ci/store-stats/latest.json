@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-11-21T18:16:58.037Z",
+  "checkedAt": "2026-11-22T18:40:30.210Z",
   "actors": {
     "florida-sunbiz-scraper": {
       "isPublic": true,
       "totalUsers": 2,
       "totalUsers7Days": 0,
       "totalUsers30Days": 0,
-      "totalRuns": 88,
-      "lastRunStartedAt": "2026-11-21T17:59:42.224Z",
+      "totalRuns": 90,
+      "lastRunStartedAt": "2026-11-22T18:32:05.912Z",
       "rating": 0,
       "reviews": 0
     },
@@ -16,8 +16,8 @@
       "totalUsers": 6,
       "totalUsers7Days": 1,
       "totalUsers30Days": 2,
-      "totalRuns": 106,
-      "lastRunStartedAt": "2026-11-21T15:08:36.589Z",
+      "totalRuns": 107,
+      "lastRunStartedAt": "2026-11-22T15:10:36.915Z",
       "rating": 0,
       "reviews": 0
     },
@@ -36,18 +36,18 @@
       "totalUsers": 5,
       "totalUsers7Days": 0,
       "totalUsers30Days": 2,
-      "totalRuns": 60,
-      "lastRunStartedAt": "2026-11-21T15:08:37.728Z",
+      "totalRuns": 61,
+      "lastRunStartedAt": "2026-11-22T15:10:37.621Z",
       "rating": 0,
       "reviews": 0
     },
     "tiendanube-scraper": {
       "isPublic": true,
-      "totalUsers": 9,
+      "totalUsers": 10,
       "totalUsers7Days": 2,
       "totalUsers30Days": 4,
-      "totalRuns": 89,
-      "lastRunStartedAt": "2026-11-21T15:08:37.990Z",
+      "totalRuns": 112,
+      "lastRunStartedAt": "2026-11-22T15:10:37.804Z",
       "rating": 0,
       "reviews": 0
     },
@@ -56,8 +56,8 @@
       "totalUsers": 2,
       "totalUsers7Days": 1,
       "totalUsers30Days": 1,
-      "totalRuns": 49,
-      "lastRunStartedAt": "2026-11-21T15:08:36.637Z",
+      "totalRuns": 50,
+      "lastRunStartedAt": "2026-11-22T15:10:36.957Z",
       "rating": 0,
       "reviews": 0
     }
