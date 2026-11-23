@@ -2,12 +2,12 @@
   {
     "channel": "telegram",
     "channelTitle": "Telegram News",
-    "channelSubscribers": 9070000,
+    "channelSubscribers": 9060000,
     "messageId": 460,
     "url": "https://t.me/telegram/460",
     "date": "2026-08-26T19:12:34.000Z",
     "text": "For all the info from today's update and a look back at 13 years of Telegram features — check out our blog:\nhttps://telegram.org/blog/welcome-messages-buttons-TG-13\n\nAugust Features\n1 • 2 • 3 • 4 • 5 • More",
-    "views": 2720000,
+    "views": 2740000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -21,7 +21,7 @@
       "siteName": "Telegram",
       "title": "Welcome Messages, Buttons in Messages and Signed Gifts",
       "description": "Introducing Welcome Messages to greet new members of groups or channels, Buttons in Messages to make any text interactive, Inline Documents in Messages and much more.",
-      "imageUrl": "https://cdn4.telesco.pe/file/Y_UJ1d6DM-PGKJgvPFhLvus7D_Ores3OnBFzyrI5iDaqLibpe9OrUsAA9ZUAPH89XMQqw8wD2N-f-MdUY5TTUuI2II4POBl_yv67A2qYP3vVbDdV1Q3EaQriJTsoyZ7vYl51zMyz7HvJDq3Zgp39lSXxWy1-8FNwN6ORMRZ0bJgIwJSZ8g3fFzC0--DJyoSTVZy3mzTHd-AEYosJ62sLRODA4v_LAHoagc0SQYjlDtZe56BhkEcWnIRRxARcxT1LYc_b3LOOhM-df_AnTOxyAS6FRCxweWzgayjh7M9BdOqXNT0ippZhUnPjdGeO1LTubjrDT1Mxoqcc6Z3vxgJ22g.jpg"
+      "imageUrl": "https://cdn4.telesco.pe/file/ED5xaP3qF7_hbVwNRIXiBlTGzGS4ho8sHyCNnVRYW6YNELG4LOPZxLVNN1cMfdzRPKBnxE2nEQD0hfq9H21OxNliILpH0Ew-3omCO4DkRka40p6nwEvBfdyZQKEy2oqMgR0uaX-oUaVBbzqRUHGMRvabuiy6WKtMIreguwxFjrq6m0eF9pZmedc-DxonFZ1V2Ytl3SVj2Ia769F5BHqTQ19ScoAAbZMPjO2HfK9HPHei8hSjpwJwfAgjeVSY9b4KeemXJ_Liyb51SSou4zwr-88WOZ6oLwzatsU34UM6MJfKpYQAr9oEoD8fagcCdTkDwdo_V3_SBdK-xb7AOlUJHg.jpg"
     },
     "media": [],
     "mediaTypes": [],
@@ -37,7 +37,171 @@
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-22T18:39:40.368Z"
+    "scrapedAt": "2026-11-23T22:55:58.062Z"
+  },
+  {
+    "channel": "telegram",
+    "channelTitle": "Telegram News",
+    "channelSubscribers": 9060000,
+    "messageId": 458,
+    "url": "https://t.me/telegram/458",
+    "date": "2026-08-26T19:12:04.000Z",
+    "text": "Placeholders for App Updates. If a user with an outdated app encounters a new feature, they can now instantly tap to download the latest update.\n\nAugust Features\n1 • 2 • 3 • 4 • 5 • More",
+    "views": 1490000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://cdn1.telesco.pe/file/o-m6ZGdPRTgHvIe1Y2ZtZjYVH9C7_CbEOEdniCfBCDtbuB59BqUSMYQ_Zre3SAQQf3wEfUz5ES9gwaW8TGooUGNwe5t7CNATYFttAIW_yp0oK2SkfxkbElPYAGPUJKHKZDFpfa9jIcwAKIPPIrFR1kDqUmRYmt5ZTVBzPyBLQ5cT6OJqTsJLY7TWYG1FCpUd7_Nl7JQHE3FUKdKd7ZNMv4xshIQo6r-iCd8ZOKyRj-ixfRqbaO8i8byys5xjU8QmfRf1Lep8s-5dS-iFchx0S2b20_7xUNFnIxYysBVItAZ6PD5E4R47D1MtaoHC2PWfPDpHGGrS6q1rA9m0ST52nQ.jpg",
+        "messageUrl": "https://t.me/telegram/458"
+      }
+    ],
+    "mediaTypes": [
+      "photo"
+    ],
+    "poll": null,
+    "html": "<b>Placeholders for App Updates.</b> If a user with an <b>outdated app</b> encounters a new feature, they can now <b>instantly tap</b> to download the latest update.<br><br>August Features<br><a href=\"https://t.me/telegram/455\">1</a> •&nbsp;<a href=\"https://t.me/telegram/456\">2</a> •&nbsp;<a href=\"https://t.me/telegram/457\">3</a> •&nbsp;<b>4</b> •&nbsp;<a href=\"https://t.me/telegram/459\">5</a> •&nbsp;<a href=\"https://t.me/telegram/460\">More</a>",
+    "links": [
+      "https://t.me/telegram/455",
+      "https://t.me/telegram/456",
+      "https://t.me/telegram/457",
+      "https://t.me/telegram/459",
+      "https://t.me/telegram/460"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-23T22:55:58.081Z"
+  },
+  {
+    "channel": "tginfo",
+    "channelTitle": "Telegram Info",
+    "channelSubscribers": 84000,
+    "messageId": 4462,
+    "url": "https://t.me/tginfo/4462",
+    "date": "2026-11-23T13:19:02.000Z",
+    "text": "Bot API обновился до версии 10.5\n\nTelegram продолжает расширять автономность ботов и инструменты для работы с их интерфейсом: свежее обновление снимает необходимость в ручной настройке части параметров, упрощает онбординг пользователей в личных чатах и делает расширенное форматирование ещё гибче.\n\nНастройки ботов\n • Боты теперь могут полностью автоматизировать собственную настройку — от параметров приватности в группах до включения взаимодействия между ботами. Ранее подобные режимы приходилось активировать вручную через @BotFather.\n • Разработчики могут выбирать способ получения callback-запросов из сообщений, включая возможность получать идентификаторы инлайн-сообщений (inline message ID) даже за пределами инлайн-режима.\n\nЛичные чаты\n • Владельцы ботов получили возможность приглашать до 10 пользователей одновременно по специальным ссылкам — это заметно упрощает подключение команды или группы тестировщиков.\n • За каждого приглашённого пользователя бот получает служебное сообщение и может сразу отправить ему приветствие.\n • Боты теперь могут отображать темы в боковой панели для более удобной навигации.\n\nРасширенные сообщения (Rich Messages)\n • Сворачиваемые цитаты теперь поддерживают любые блоки расширенного форматирования, включая таблицы и медиафайлы. Напомним, изучить устройство сообщений с различными видами расширенного форматирования можно в интерактивном демо @RichTextDemoBot.\n\nПолный список изменений — на официальном сайте.\n\n#BotAPI",
+    "views": 7050,
+    "reactions": [
+      {
+        "emoji": "👍",
+        "count": 67
+      },
+      {
+        "emoji": "👏",
+        "count": 21
+      },
+      {
+        "emoji": "🎉",
+        "count": 9
+      },
+      {
+        "emoji": "👎",
+        "count": 5
+      },
+      {
+        "emoji": "😍",
+        "count": 5
+      },
+      {
+        "emoji": "🥰",
+        "count": 4
+      },
+      {
+        "emoji": "😱",
+        "count": 3
+      },
+      {
+        "emoji": "🤡",
+        "count": 2
+      },
+      {
+        "emoji": "🍾",
+        "count": 2
+      },
+      {
+        "emoji": "🆒",
+        "count": 2
+      }
+    ],
+    "reactionsTotal": 120,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": "Sominemo",
+    "viaBot": null,
+    "isService": false,
+    "edited": true,
+    "linkPreview": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://cdn4.telesco.pe/file/NU-rPVKn-s4kiAZTeT3B6u7t4w-HG7ePtVR8_OOW-yJGOfp9bidAfj1TLy5y6OR0WA8wjr7RoF2ZMqFfnrykbJSiZsQs_ozFTa72Y_-s2R57-sgsWKimgrTJNDgi7nEtPBtiqC2933VkLSTdyJYtBlRfira4JbN_sHnSVXnUVjDhnFIwEBV8h82Q0__a8km57NxKNquvORzeXxk00996RQ9IsL35MByrQA8Vu67mkCkia3F0c_QkTKsd71gdYvKwIW4JMv6hmLIwK40rlmXeVX5yvCxTM2mY3KyYzbVM4JI66CnuyP6ZrR55YiTukTupGITXe4pToPy2pBIIZhaqhw.jpg",
+        "messageUrl": "https://t.me/tginfo/4462"
+      }
+    ],
+    "mediaTypes": [
+      "photo"
+    ],
+    "poll": null,
+    "html": "<b>Bot API обновился до версии 10.5</b><br><br>Telegram продолжает расширять автономность ботов и инструменты для работы с их интерфейсом: свежее обновление снимает необходимость в ручной настройке части параметров, упрощает онбординг пользователей в личных чатах и делает расширенное форматирование ещё гибче.<br><br><b>Настройки ботов</b><br> • Боты теперь могут полностью автоматизировать собственную настройку — от параметров приватности в группах до включения <a href=\"https://t.me/tginfo/4403\">взаимодействия между ботами</a>. Ранее подобные режимы приходилось активировать вручную через <a href=\"https://t.me/BotFather\">@BotFather</a>.<br> • Разработчики могут выбирать способ получения callback-запросов из сообщений, включая возможность получать идентификаторы инлайн-сообщений (inline message ID) даже за пределами инлайн-режима.<br><br><b>Личные чаты</b><br> • Владельцы ботов получили возможность приглашать до 10 пользователей одновременно по специальным ссылкам — это заметно упрощает подключение команды или группы тестировщиков.<br> • За каждого приглашённого пользователя бот получает служебное сообщение и может сразу отправить ему приветствие.<br> • Боты теперь могут отображать темы в боковой панели для более удобной навигации.<br><br><b>Расширенные сообщения (Rich Messages)</b><br> • Сворачиваемые цитаты теперь поддерживают любые блоки расширенного форматирования, включая таблицы и медиафайлы. Напомним, изучить устройство сообщений с различными видами расширенного форматирования можно в интерактивном демо <a href=\"https://t.me/RichTextDemoBot\">@RichTextDemoBot</a>.<br><br>Полный список изменений — <a href=\"https://core.telegram.org/bots/api-changelog#november-22-2026\"><u>на официальном сайте</u></a>.<br><br><a href=\"?q=%23BotAPI\">#BotAPI</a>",
+    "links": [
+      "https://t.me/tginfo/4403",
+      "https://core.telegram.org/bots/api-changelog#november-22-2026"
+    ],
+    "mentions": [
+      "@BotFather",
+      "@RichTextDemoBot"
+    ],
+    "hashtags": [
+      "#BotAPI"
+    ],
+    "scrapedAt": "2026-11-23T22:55:58.201Z"
+  },
+  {
+    "channel": "telegram",
+    "channelTitle": "Telegram News",
+    "channelSubscribers": 9060000,
+    "messageId": 454,
+    "url": "https://t.me/telegram/454",
+    "date": "2026-07-19T17:58:20.000Z",
+    "text": "For all the details on these new features, check out our blog:\nhttps://telegram.org/blog/communities-editor-invisible-messages\n\nJuly Features\n1 • 2 • 3 • 4 • More",
+    "views": 2740000,
+    "reactions": [],
+    "reactionsTotal": 0,
+    "forwardedFrom": null,
+    "replyTo": null,
+    "author": null,
+    "viaBot": null,
+    "isService": false,
+    "edited": false,
+    "linkPreview": {
+      "url": "https://telegram.org/blog/communities-editor-invisible-messages",
+      "siteName": "Telegram",
+      "title": "Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs",
+      "description": "Introducing a rich text editor to format and generate text, Telegram Communities linking together several groups, channels and bots, ephemeral bot messages in groups, search for over 350 million GIFs and much more.",
+      "imageUrl": "https://cdn4.telesco.pe/file/SbD0PMBiGhezdSWmd6JPGcTElwc0pdTSPJfhLvP-QnszgEOlIe6fBkKqHH4DqHtfA6VY83OQBEt1pQ_hetj6ECJvIMmm7Z1i9gL9pShDIvzMh6AJ6sUy4CcYcOi0zV_QzViTSZ80yspZckz879mpOFUy2oKJzfKia4bOp1P6ygLC1d-Vmz4Qs887Uch0MQ68nrjurypgsQwMC2DV3y9tr6avkwQ7YYTFL79JViTt8WJTns-D9QHf0203PfBfyW8kDeHi64iA6hAuwnaYqEmO6ekwp4pGHWVHRHuiXXyvc2748spSMmYmjtAKIEPCebwua7Y0iBAz7zfWHLC_24tr_g.jpg"
+    },
+    "media": [],
+    "mediaTypes": [],
+    "poll": null,
+    "html": "For all the details on these new features, check out our blog:<br><a href=\"https://telegram.org/blog/communities-editor-invisible-messages\">https://telegram.org/blog/communities-editor-invisible-messages</a><br><br>July Features<br><a href=\"https://t.me/telegram/450\">1</a> • <a href=\"https://t.me/telegram/451\">2</a> •&nbsp;<a href=\"https://t.me/telegram/452\">3</a> •&nbsp;<a href=\"https://t.me/telegram/453\">4</a> •&nbsp;<b>More</b>",
+    "links": [
+      "https://telegram.org/blog/communities-editor-invisible-messages",
+      "https://t.me/telegram/450",
+      "https://t.me/telegram/451",
+      "https://t.me/telegram/452",
+      "https://t.me/telegram/453"
+    ],
+    "mentions": [],
+    "hashtags": [],
+    "scrapedAt": "2026-11-23T22:55:58.203Z"
   },
   {
     "channel": "tginfo",
@@ -47,42 +211,59 @@
     "url": "https://t.me/tginfo/4461",
     "date": "2026-11-22T16:35:20.000Z",
     "text": "Telegram для Android и iOS обновились до версии 13.3\n\nРассказываем, какие новшества стали доступны пользователям во втором по счёту ноябрьском обновлении мессенджера:\n\n • Голосовой ввод сообщений: Приложения научились преобразовывать вашу речь в текст непосредственно во время записи аудиосообщения — в режиме диктовки распознанные слова появляются прямо в поле ввода сообщения. Получившийся результат можно отредактировать перед отправкой, а также перефразировать под выбранный стиль через встроенный ИИ.\n\nЧтобы воспользоваться функцией транскрибации, необходимо начать запись голосового сообщения, а затем провести пальцем от кнопки микрофона к значку в виде замочка (на Android) или к появившейся иконке «→A» (на iOS). А в чатах, где получатель запретил отправлять ему голосовые и видеосообщения, режим диктовки будет доступен автоматически.\n\nОбработка аудио может выполняться непосредственно на устройстве, без отправки записи на сервер. В качестве резервного варианта доступна система распознавания речи от Google — это полезно в тех случаях, когда встроенные языковые модели, предустановленные для автономной работы функции, не поддерживают определённые языки.\n\n • «Живые субтитры» в групповых звонках: Добавлена функция, которая в реальном времени распознаёт речь и выводит её в виде текста прямо на экран группового звонка или видеочата (кроме зашифрованных звонков тет-а-тет). Для обработки голоса применяются те же технологии, что и при транскрибации записываемых аудиосообщений.\n\nАвтоматические субтитры отключены в звонках по умолчанию. Чтобы их активировать, нужно открыть меню опций на экране вызова и выбрать «Live Captions».\n\n⭐ Все вышеупомянутые функции доступны только пользователям с активной подпиской Telegram Premium.\n\n • Непрочитанные чаты в папке: Теперь вы можете активировать фильтр, который временно скроет все просмотренные переписки внутри выбранной папки, оставив на виду только чаты с новыми сообщениями.\n\nПрочитанные диалоги будут автоматически исчезать из этого списка, но никуда не денутся из самой вкладки — вернуть полный список можно в любой момент.\n\nПрочие нововведения\n • Переработан дизайн профилей пользователей, групп и каналов — сейчас его можно активировать только в меню отладки (на iOS).\n • Добавлена возможность автоматически переводить набранный текст через ИИ-редактор для конкретного чата и в режиме реального времени.\n • Добавлены временные метки для слов и символов в локальных расшифровках голосовых сообщений (на Android).\n\nСкачать обновление\n • Android: Google Play, APK с официального сайта или верифицированного канала.\n • iOS: App Store.\n\n#обновление #Android #iOS",
-    "views": 5850,
+    "views": 11400,
     "reactions": [
       {
+        "emoji": "⭐",
+        "count": 1,
+        "paid": true
+      },
+      {
         "emoji": "👍",
-        "count": 76
+        "count": 135
       },
       {
         "emoji": "🤡",
-        "count": 23
+        "count": 34
       },
       {
         "emoji": "👏",
-        "count": 11
+        "count": 30
       },
       {
         "emoji": "🎉",
-        "count": 10
-      },
-      {
-        "emoji": "👎",
-        "count": 5
-      },
-      {
-        "emoji": "🆒",
-        "count": 5
+        "count": 21
       },
       {
         "emoji": "😍",
-        "count": 3
+        "count": 8
+      },
+      {
+        "emoji": "🆒",
+        "count": 8
+      },
+      {
+        "emoji": "👎",
+        "count": 7
       },
       {
         "emoji": "🤬",
-        "count": 1
+        "count": 7
+      },
+      {
+        "emoji": "🥰",
+        "count": 4
+      },
+      {
+        "emoji": "🍾",
+        "count": 3
+      },
+      {
+        "emoji": "😱",
+        "count": 2
       }
     ],
-    "reactionsTotal": 134,
+    "reactionsTotal": 260,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Полян",
@@ -93,7 +274,7 @@
     "media": [
       {
         "type": "photo",
-        "url": "https://cdn4.telesco.pe/file/sDiqfxaBdVaVeXNXUx5G3IDr-yyB_ujrlO8jGXvKaYDm_VSlMB0I_MsV8ZWuao_I7MHxC74JumdG5XwBOORNxsLois4pMujFu8CzS5rDJPahugm_vpimvnRDREuyqkGyhVClLiULIyGfJJi8TSH6hQ51WNaJzGDH5xfwpXp7En122dvC2RGae_1tHj2kikDRTx8H8qLyofW3bsWR5jUH7NZjU3oM_hkdEunuw7tuChEIiFXCLbr1qaESrdFQyxftDmsefAjsBp0mTWtZ7LX-c8YPopEPxN1E2IlU67-sfnVzwC0DfT5MG0ZDWFEAB10GyESbH_WIDIIG-1M2L4TS4w.jpg",
+        "url": "https://cdn4.telesco.pe/file/B1XJohsqkaBzod4D8nWHwJMm8rCjjKwtyOyq1QHTuPPIxNX65cAiG-cQDDc4PnX7z3AfwI0z-B8rX0CF-svecskS6TdlpPW5Zs87XOf2u937M6TgBBO-RFtVJA8_37y09B8aMueNS6kBQ1sn50C4kZM74uc6-OPv--eQCcSh0RdWw69eP5V2FyAkIn9lKIXiviD65xTpU5kJjaDC7nBPmOH6oqizWHDWYH2hfIwtqIqEpWEBBhlRY0pzwNZWHyBu3mIdrLHFhQMSCYBR0KR0w93mFjRO2KxmZOiXJfaUFNVFjTheXL7x0FUIwgEeodzEwqsLbiIi6oTRp8HWwwyB0A.jpg",
         "messageUrl": "https://t.me/tginfo/4461"
       }
     ],
@@ -120,17 +301,17 @@
       "#Android",
       "#iOS"
     ],
-    "scrapedAt": "2026-11-22T18:39:40.469Z"
+    "scrapedAt": "2026-11-23T22:55:58.203Z"
   },
   {
     "channel": "telegram",
     "channelTitle": "Telegram News",
-    "channelSubscribers": 9070000,
-    "messageId": 458,
-    "url": "https://t.me/telegram/458",
-    "date": "2026-08-26T19:12:04.000Z",
-    "text": "Placeholders for App Updates. If a user with an outdated app encounters a new feature, they can now instantly tap to download the latest update.\n\nAugust Features\n1 • 2 • 3 • 4 • 5 • More",
-    "views": 1470000,
+    "channelSubscribers": 9060000,
+    "messageId": 453,
+    "url": "https://t.me/telegram/453",
+    "date": "2026-07-19T17:58:17.000Z",
+    "text": "350 Million GIFs. The GIF panel now contains over 350 million GIFs in 36 languages.\n\nYour Telegram GIF searches are entirely private and do not rely on any third parties.\n\nJuly Features\n1 • 2 • 3 • 4 • More",
+    "views": 2130000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -142,26 +323,27 @@
     "linkPreview": null,
     "media": [
       {
-        "type": "photo",
-        "url": "https://cdn1.telesco.pe/file/tluf9Y3dxAQ3_449WRBXwHoD-XFsHXCo6JrHV9c4O0h7oUU8sKr7sE3aMZ_wW_RnP_9TFloBnrpyb7H-tOGQQCbXp36kj5Wi5kF_ygPE4KyTJsX1KFj-4-Dt1ey6RD6nS9_kPjiGkctGTcZoPn9gb7B30JrPmVWL62jtPrYhNnsFA6_PXnz9sjDMdVJbMIAcIMGkRaHhTXGv0SUVGu61QNfz_qzDa1RvZsljTzqe2OD9LfnxYeH-0xdoJnKR9g3ga7VnGHk9elXT_sHRkF-HgV_7K7z5AktCkfpGN5OS_xzRnDHt0QvlDKVx80s49Bwda1B9pSQNzA-cfD--6koblg.jpg",
-        "messageUrl": "https://t.me/telegram/458"
+        "type": "video",
+        "url": "https://cdn1.telesco.pe/file/e07208aa9b.mp4?token=KwBepd4xPeGK1W8GTQu-sKIihkS6vQ3Lentu_onrKYZ_Bxvx7Bxgx3-6tVBCTHYK2psitsadDOt9i3aL974RKWbDb_DCvkxZgpysA65wPSoXcR_5OZgRDuMZB4bueMynguSIkDdhqI-LlBYLyCH8fRPFlnF4KRB7jdkuLzlZJqgSXRrHT-mPfJPO-D0xxfT8ddQ0-QzKJGUtzaSP1_Bn25ySwgLeMbkXBR7z5njXEkaXqea38m4uQwbXZugcH3mjUDmJDTcw0uyGLdzXh1AuOLgjttpj3xgmDULb6jGMAyITX0MhkdEIRWe8Jb5hO5YfYE6ICs1yLSj-iQGVX0zKfg",
+        "thumbnailUrl": "https://cdn1.telesco.pe/file/OvYiVpoGjEPlX3BBnv-LJiM1LIiN5al4qr7zmmpuRD8HakfnuibKLQj44_eHCSGZuZ05Y1496lKrhGBFhiqsxvb8XW7eNIUTi3H2dBe4Zr9lgs0nmq1Xibl31CibPRkxmqgOfsNnlRgBEGuNjSc1p7ePUv9xXX7omfKqlunflp0v1KipvA_KW900rUo9RWzGrUzUmh4XP29dKsCqfPYj9eAMY6IJ2swTDGzkUXUJzIu29_3_FsMV5tAoMjr6C85mwtek6uLNfU38ehsngBYAJ9FMbPabwfUi8N_qgTRTFpbRhk-fHzdSFGGpaf8cbkEaYY-dHoXfcp7oIqj9ZQl54g",
+        "duration": "0:09",
+        "messageUrl": "https://t.me/telegram/453"
       }
     ],
     "mediaTypes": [
-      "photo"
+      "video"
     ],
     "poll": null,
-    "html": "<b>Placeholders for App Updates.</b> If a user with an <b>outdated app</b> encounters a new feature, they can now <b>instantly tap</b> to download the latest update.<br><br>August Features<br><a href=\"https://t.me/telegram/455\">1</a> •&nbsp;<a href=\"https://t.me/telegram/456\">2</a> •&nbsp;<a href=\"https://t.me/telegram/457\">3</a> •&nbsp;<b>4</b> •&nbsp;<a href=\"https://t.me/telegram/459\">5</a> •&nbsp;<a href=\"https://t.me/telegram/460\">More</a>",
+    "html": "<b>350 Million GIFs.</b> The GIF panel now contains over 350 million GIFs <b>in 36 languages</b>.<br><br>Your Telegram GIF searches are <b>entirely private</b> and <b>do not rely</b> on any third parties.<br><br>July Features<br><a href=\"https://t.me/telegram/450\">1</a> • <a href=\"https://t.me/telegram/451\">2</a> •&nbsp;<a href=\"https://t.me/telegram/452\">3</a> •&nbsp;<b>4</b> •&nbsp;<a href=\"https://t.me/telegram/454\">More</a>",
     "links": [
-      "https://t.me/telegram/455",
-      "https://t.me/telegram/456",
-      "https://t.me/telegram/457",
-      "https://t.me/telegram/459",
-      "https://t.me/telegram/460"
+      "https://t.me/telegram/450",
+      "https://t.me/telegram/451",
+      "https://t.me/telegram/452",
+      "https://t.me/telegram/454"
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-22T18:39:40.471Z"
+    "scrapedAt": "2026-11-23T22:55:58.205Z"
   },
   {
     "channel": "tginfo",
@@ -171,50 +353,54 @@
     "url": "https://t.me/tginfo/4460",
     "date": "2026-11-22T09:18:50.000Z",
     "text": "Сбои при отправке изображений в высоком качестве\n\nПользователи Telegram на разных платформах сообщают о неполадках при отправке картинок в высоком качестве (режим «HD»). Проблема начала проявляться с ночи 22 ноября.\n\nСбой воспроизводится нестабильно: одно и то же изображение может успешно отправиться с одного раза и выдать ошибку при следующей попытке или наоборот.\n\nВ разных клиентах проблема проявляется по-разному:\n • В Telegram Desktop появляется уведомление об ошибке IMAGE_PROCESS_FAILED.\n • В мобильных приложениях индикатор загрузки зависает на 100%, либо отображается индикатор ошибки отправки.\n\nПоскольку сбой возник одновременно на разных платформах и в независимых друг от друга клиентах, редакция @tginfo полагает, что причина кроется на стороне серверов Telegram.\n\nВременное решение: отключить опцию отправки фото в высоком качестве (HD) или использовать опцию «отправить как файл».\n\n#сбои",
-    "views": 9920,
+    "views": 12800,
     "reactions": [
       {
         "emoji": "👍",
-        "count": 93
+        "count": 111
       },
       {
         "emoji": "🤬",
-        "count": 30
+        "count": 33
       },
       {
         "emoji": "🤡",
-        "count": 20
-      },
-      {
-        "emoji": "👏",
-        "count": 13
+        "count": 23
       },
       {
         "emoji": "😱",
-        "count": 13
+        "count": 19
       },
       {
-        "emoji": "🎉",
-        "count": 5
+        "emoji": "👏",
+        "count": 14
       },
       {
         "emoji": "😍",
-        "count": 5
+        "count": 7
+      },
+      {
+        "emoji": "🎉",
+        "count": 6
       },
       {
         "emoji": "🍾",
-        "count": 2
+        "count": 3
       },
       {
         "emoji": "🆒",
-        "count": 2
+        "count": 3
       },
       {
         "emoji": "🥰",
+        "count": 2
+      },
+      {
+        "emoji": "👎",
         "count": 1
       }
     ],
-    "reactionsTotal": 184,
+    "reactionsTotal": 222,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Sominemo",
@@ -225,7 +411,7 @@
     "media": [
       {
         "type": "photo",
-        "url": "https://cdn4.telesco.pe/file/WmDgwI4JmeIRBWFih-rvSLVKpkRhvU3tJVKcjlgl3k-sT8LSktRqxY8DWDUdUVo7gyV-UqvXwgqw5fG9x7XbsFhXAv6NNFFXHZh4Tpc3p2keiZr8QOaA_PT_VCf45bBMSwv8H_qMLNHoFqfk4nHMXRKhSDq-5TqrQojrRStEuqA3SR2s8f5AMNFpevBLwft3uZs1CQfQEhiiLLKE-DpLBojqoYG_Gs0AoVpHBV7Kj0l-0gDCheX2k0OgTMZwbvUs8QW3C4Dz2RM_ZzTX8-9gYOpbRvYkfX_3PLY3ERgLj1_T3n_6uDtx-moAouQAW7I2ZX_FKdOaJZ45TzhGuCxaTg.jpg",
+        "url": "https://cdn4.telesco.pe/file/jp1SuJwB2qWNiPoTERj0-fmXSknHuB6g8BoqshaQh8eHwrEVOxtsnFNxOB-qUKn0EJv7ef2-a0VOJihWaB0CmS1N_ACe3BZJHFfBDUlZEThG05SI9FdXlx2Gi2oB1yP0bn30HXvqN2r2bsC-XqlrkESfrRpn0CmT0JXXtQWCnfb9pIpkwoy_mrNiLgm6yfkuV6SBIHRNftB3gl4ccG0zKPN84DAZiLEQ5DBNZcPMaM8pP2j3_qk0AmRVPjsFXLedj2V1Zz9WogVISY1IMuo8m-xvqsTp9GKqAC6-qAKyI8Kms-BgGC12-52ZjI3uoAHqhEDNsSlICL9vAVFgsqh4Hw.jpg",
         "messageUrl": "https://t.me/tginfo/4460"
       }
     ],
@@ -241,17 +427,17 @@
     "hashtags": [
       "#сбои"
     ],
-    "scrapedAt": "2026-11-22T18:39:40.472Z"
+    "scrapedAt": "2026-11-23T22:55:58.205Z"
   },
   {
     "channel": "telegram",
     "channelTitle": "Telegram News",
-    "channelSubscribers": 9070000,
-    "messageId": 454,
-    "url": "https://t.me/telegram/454",
-    "date": "2026-07-19T17:58:20.000Z",
-    "text": "For all the details on these new features, check out our blog:\nhttps://telegram.org/blog/communities-editor-invisible-messages\n\nJuly Features\n1 • 2 • 3 • 4 • More",
-    "views": 2740000,
+    "channelSubscribers": 9060000,
+    "messageId": 451,
+    "url": "https://t.me/telegram/451",
+    "date": "2026-07-19T17:57:29.000Z",
+    "text": "Telegram Communities. Several groups, channels and bots can now be linked together in a single community, where members can view and join other chats instantly.\n\nJuly Features\n1 • 2 • 3 • 4 • More",
+    "views": 1550000,
     "reactions": [],
     "reactionsTotal": 0,
     "forwardedFrom": null,
@@ -260,27 +446,30 @@
     "viaBot": null,
     "isService": false,
     "edited": false,
-    "linkPreview": {
-      "url": "https://telegram.org/blog/communities-editor-invisible-messages",
-      "siteName": "Telegram",
-      "title": "Rich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs",
-      "description": "Introducing a rich text editor to format and generate text, Telegram Communities linking together several groups, channels and bots, ephemeral bot messages in groups, search for over 350 million GIFs and much more.",
-      "imageUrl": "https://cdn4.telesco.pe/file/Etg3KQYaIzY4pXfTjIeTGPQk5PkvtfbuN0N0jFluUhwYJE9COOnzqwy0nrSx7BDvISaNCFP2MZvgzPApqzeoU9fY6I9kAdy5lgzaXH2vZC2wS_kwHh5iIxBooBWShQGQf2noeYe3sIhy835ACAatJN1ZUff6qfV4Ff96eKOTqmftAqfoPxTWF55hJw1BwIDjqOPDTdIxRiKACEAqi7VvrJclB9y5vChRDG6asUBXnmZFmLeN6zfDYdQivxrLpwCqHOFbLT1_Db12TohX4uQYPVw54-ts6BXaVRrW6EnrruH17BIsEtsN94xyB9jV425_ZcOUvPe_H9G9npj0DxCFMA.jpg"
-    },
-    "media": [],
-    "mediaTypes": [],
+    "linkPreview": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://cdn1.telesco.pe/file/6ca2d20645.mp4?token=pqRKWodTZQHFkWdza0fEGpWC3IPOGnm74V2efVjM2qC-uVHwNBs5yXz9BX_0UQxChAKHaVFJzu1ddm_VYQalwujGPIXpdwvCbdXssCfXxjMhckrEYG3tbHVnBDWkfAhsbLXB27r1A6zjOpJOeqod_XS35gBWI5ccRgOBOj9Qvn1BOMh4F1AlcxsE0akZsdk3fWXDNxF8srMo-V2E_9r4xKz0Fzxe62Klb4oh49e267f7y8rHpqbT1phMcVWx927btY-VwqtLJYs0Ub8rBBk0PK0j0n1GSAzkiPk3Lc-7JnSoJeykrlZAhiUVUCQwjat23EHgP-AxUOKKo0E2PT27gzzoLYYGMqknLXWitR9ENcuYlvuH2_duRcW1gSNrDutwJRiNb4oohoOr2QiJZhWoYyGpijaw_6z9cGAq5qraeb67jIHbQJRGf3qFSIx1nXYKlYBH2IGEFbmyeDQT784STQ5YPI-eEt4U2NpNTzs5qqOhyJVQlX8AwFaoOXyE8JMF1U5N6F2kgYRk9lSL-fG7i4rS94h3rQJ8XKuOf9GXGF6tJT-wZRWgCS1AQJnzDxJQ0sz9GR52DM9Ho7mOsVJxsH0JrprSkZ-jLGCuNWz4izHcr0djjMAgjRxHVogYUkwXcmv5R27x7EdgEMGthHOr_gJwSqXM3BRMKCcD7HrBjy0",
+        "thumbnailUrl": "https://cdn1.telesco.pe/file/jqikg0HWEdizgKUuSIwU2jen8g7_RrWsay_ngrota-V864K1pvgON83mxP50qXoFoXuCSOj4zTbFTGwvdSpurZMwhL0gK5OoyzG0teUgEikDYzyQgexJU7Bm0WG4pW3iTtg_Z7YM_pXYaSfOaKkcfuRV-n0OXkZ3BxwjbSZJ6G1DTTZKuVn8hNzhOeNF4h-05-lbjT038KrKoxilm_OPS1ODsUyv6zTYLCTHnRav-x8STOCrE2U6GeR7vNpj_ls4LV3IKpwGCBu-3JgVUtYN1rT3502wJL8N6pxVnecvhA_z4HsnqFQ_e4tV8PY6pvIWDX3KBrMMlKTsYW7iC_F4Kw",
+        "duration": "0:18",
+        "messageUrl": "https://t.me/telegram/451"
+      }
+    ],
+    "mediaTypes": [
+      "video"
+    ],
     "poll": null,
-    "html": "For all the details on these new features, check out our blog:<br><a href=\"https://telegram.org/blog/communities-editor-invisible-messages\">https://telegram.org/blog/communities-editor-invisible-messages</a><br><br>July Features<br><a href=\"https://t.me/telegram/450\">1</a> • <a href=\"https://t.me/telegram/451\">2</a> •&nbsp;<a href=\"https://t.me/telegram/452\">3</a> •&nbsp;<a href=\"https://t.me/telegram/453\">4</a> •&nbsp;<b>More</b>",
+    "html": "<b>Telegram Communities.</b> Several groups, channels and bots can now be <b>linked together</b> in a single community, where members can view and <b>join other chats</b> instantly.<br><br>July Features<br><a href=\"https://t.me/telegram/450\">1</a> • <b>2</b> •&nbsp;<a href=\"https://t.me/telegram/452\">3</a> •&nbsp;<a href=\"https://t.me/telegram/453\">4</a> •&nbsp;<a href=\"https://t.me/telegram/454\">More</a>",
     "links": [
-      "https://telegram.org/blog/communities-editor-invisible-messages",
       "https://t.me/telegram/450",
-      "https://t.me/telegram/451",
       "https://t.me/telegram/452",
-      "https://t.me/telegram/453"
+      "https://t.me/telegram/453",
+      "https://t.me/telegram/454"
     ],
     "mentions": [],
     "hashtags": [],
-    "scrapedAt": "2026-11-22T18:39:40.473Z"
+    "scrapedAt": "2026-11-23T22:55:58.206Z"
   },
   {
     "channel": "tginfo",
@@ -290,7 +479,7 @@
     "url": "https://t.me/tginfo/4459",
     "date": "2026-11-19T15:38:04.000Z",
     "text": "В Telegram для macOS появились скрытые чаты\n\nВ Beta-версии Telegram для macOS под номером 13.2 (283584) появилась экспериментальная функция «Hidden Chats», позволяющая скрывать переписки с помощью секретной фразы.\n\nДля её активации необходимо задать фразу длиной не менее восьми символов в разделе «Конфиденциальность и безопасность» → «Hidden Chats». В дальнейшем ввод этой фразы в строку поиска Telegram открывает отдельное пространство со скрытыми чатами.\n\nСкрытые переписки исчезают из общего списка, папок, поиска и уведомлений, а входящие звонки от их участников автоматически отклоняются. Пользователь может создать несколько таких пространств с разными секретными фразами.\n\nСкрытое пространство автоматически закрывается при блокировке экрана Mac, переходе компьютера в спящий режим или после пяти минут бездействия. Также его можно закрыть вручную сочетанием клавиш ⌘L.\n\nДополнительное исследование сборки показало, что Telegram изменил предупреждение о потере секретной фразы. Теперь мессенджер указывает, что даже выход из аккаунта и повторная авторизация не помогут восстановить доступ к скрытому пространству.\n\nОграничения безопасности\n\nФункция работает только на том Mac, где была настроена. На других устройствах переписки остаются доступными в обычном режиме.\n\nКроме того, скрытие потенциально можно обойти через автоматическую авторизацию в Telegram Web. При переходе по ссылке на веб-версию из разблокированного клиента браузер может автоматически войти в аккаунт и предоставить доступ ко всем перепискам без знания секретной фразы. Об особенностях такой авторизации @tginfo рассказывал ещё в 2023 году.\n\nТаким образом, «Hidden Chats» следует рассматривать как способ скрыть переписки от посторонних взглядов, а не как полноценный механизм защиты аккаунта.\n\n#macOS #beta",
-    "views": 14100,
+    "views": 16600,
     "reactions": [
       {
         "emoji": "⭐",
@@ -299,11 +488,11 @@
       },
       {
         "emoji": "👍",
-        "count": 151
+        "count": 157
       },
       {
         "emoji": "👏",
-        "count": 45
+        "count": 44
       },
       {
         "emoji": "🤡",
@@ -326,11 +515,11 @@
         "count": 8
       },
       {
-        "emoji": "👎",
-        "count": 5
+        "emoji": "😱",
+        "count": 6
       },
       {
-        "emoji": "😱",
+        "emoji": "👎",
         "count": 5
       },
       {
@@ -342,7 +531,7 @@
         "count": 3
       }
     ],
-    "reactionsTotal": 295,
+    "reactionsTotal": 301,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Antonio Marreti",
@@ -353,7 +542,7 @@
     "media": [
       {
         "type": "photo",
-        "url": "https://cdn4.telesco.pe/file/VzK_VTmziAy7sOZ1FxotwTnxFXrhH_wt9IU9qKsUqZHoffM0XDN0V_owBz0blHtm2myK4fP-yBVa0TGE4DFJ-eGH8tOwInuHhEnyp5Ht7K6rk95dqqzCnL6nh88zIn-4XsTpP255otYHH-uIo0SgehXVLTkEa2upK9XSkd7E4polLH-Ycyjsj6Efc06Fv5yJTSg9Wv5CY2-CuzgcCmPioDnLrQd1bI71PfIELtW800T2efaLd5vM1N3nvB3ppHP2no8ADXV8JE8xrBPUacwSL0dPBTW4e9XwHjycnZbovzV4k0R-Yb0l7r0FNJMCCckHneDGNCrvm1KGgO1AhKi2Mw.jpg",
+        "url": "https://cdn4.telesco.pe/file/XAH7ga9bIn6AURDfmuE3t2fhrmg3CF7F_kYkJl8aJgrPucoxRtIB-XxgjsLAyeELaDqHLCydmUgUDg1LSDvLJapGdVbIIbIU_TwJ1R-1zZLEr4i-K_UxFV6uKFHJoWpSlNZhVzVogWroIkKMjDqDzxysPsdJ8143NfXL-sLgyRb4WVwkikp2SoBjCJNItWH3-J0eYF3OB1NSjM4-hajiI3BRW_IlOnD_UULzJKKRKf4JQBqwmz7KihdnaPOzbZzJC6uPgyOkut5ax0UCDrkOdgZHB9Vvr37aZFZ2UIuq4nGWEXSYcPZscHKMqMa2sXPo7H_7toq9HLKDUuvtmsLqTQ.jpg",
         "messageUrl": "https://t.me/tginfo/4459"
       }
     ],
@@ -372,49 +561,7 @@
       "#macOS",
       "#beta"
     ],
-    "scrapedAt": "2026-11-22T18:39:40.473Z"
-  },
-  {
-    "channel": "telegram",
-    "channelTitle": "Telegram News",
-    "channelSubscribers": 9070000,
-    "messageId": 453,
-    "url": "https://t.me/telegram/453",
-    "date": "2026-07-19T17:58:17.000Z",
-    "text": "350 Million GIFs. The GIF panel now contains over 350 million GIFs in 36 languages.\n\nYour Telegram GIF searches are entirely private and do not rely on any third parties.\n\nJuly Features\n1 • 2 • 3 • 4 • More",
-    "views": 2120000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [
-      {
-        "type": "video",
-        "url": "https://cdn1.telesco.pe/file/e07208aa9b.mp4?token=C10k-tB3ohyfTcAtTjxOloQd6_JJegSv_3-NLmV-LtaYwOMSHM3eSxqAldB5aMnhrT55qz02tUIniLV1UB-W5qKOpL1HKytAXGYKjs_emhqeXsYIcz-HE6EsIn8h-2WkGD83eCEEa8VW8aIn94tc6lPee4IFuitzvTfBXUGo6iSSI46CvZadhcS7V2YSMZ1-5hc5lgd-xAeflDKvR5IXvRxUoKcu9m8M4IqPJPez-G7IDjKTKAwQHcYdbw58sIdJSkJ0x9T1hbtokSoQwGcaVdhxYKBzYUF8GrjRqtUMR0YEIeNOpGp1WTlpLbTDS-m__h9VI0R-FC663_DLbAstWw",
-        "thumbnailUrl": "https://cdn1.telesco.pe/file/Ijcx7doJBkOkH1yKG6CJ8BR2hyKq1kaAXQpPN63c27Y4gb7jtAobyEH051SLeh-84TsO8k_xouSR-tgCbge1pj16kkAYnrDkIA7vR280XwcZZecrnOYtXrJaaOdHYNvWNlXsz1kvNT3AROlCYohopsapW-0CFbHtzRN4uukaDK0Tq5D8kIa5pEi6cgI52iI66j5IkrwY58y5mTxzjFaeCUhclULR2auiIXkdCmfuq_57jKyJjLg1abJfzUclupoX2OrmjiVc8SUdnm0kuSuH5IfWOndQ-EWJHMu39XejcAHHXsXtlvge44ffv3EBwqsgnkG73F7um5CqYZrDJ_80vQ",
-        "duration": "0:09",
-        "messageUrl": "https://t.me/telegram/453"
-      }
-    ],
-    "mediaTypes": [
-      "video"
-    ],
-    "poll": null,
-    "html": "<b>350 Million GIFs.</b> The GIF panel now contains over 350 million GIFs <b>in 36 languages</b>.<br><br>Your Telegram GIF searches are <b>entirely private</b> and <b>do not rely</b> on any third parties.<br><br>July Features<br><a href=\"https://t.me/telegram/450\">1</a> • <a href=\"https://t.me/telegram/451\">2</a> •&nbsp;<a href=\"https://t.me/telegram/452\">3</a> •&nbsp;<b>4</b> •&nbsp;<a href=\"https://t.me/telegram/454\">More</a>",
-    "links": [
-      "https://t.me/telegram/450",
-      "https://t.me/telegram/451",
-      "https://t.me/telegram/452",
-      "https://t.me/telegram/454"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-22T18:39:40.474Z"
+    "scrapedAt": "2026-11-23T22:55:58.207Z"
   },
   {
     "channel": "tginfo",
@@ -424,7 +571,7 @@
     "url": "https://t.me/tginfo/4458",
     "date": "2026-11-19T09:54:15.000Z",
     "text": "Telegram готовит проверку SIM-карт для пользователей из Индии\n\nВ Beta-версии Telegram для iOS под номером 13.3 (37593) обнаружен экспериментальный механизм проверки наличия активной SIM-карты, соответствующей номеру телефона пользователя.\n\nДля этого Telegram использует новый системный API от Apple, доступный начиная с iOS 27. Он позволяет приложению с разрешения пользователя запросить у операционной системы информацию о наличии на устройстве активного мобильного тарифа для указанного номера. Он был разработан специально под новый закон Индии и работает только для номеров из этой страны.\n\nВ коде также обнаружены диагностические сообщения для различных результатов проверки: успешного подтверждения, отсутствия подходящего тарифа, отказа в разрешении и невозможности определить состояние SIM-карты.\n\nПричина появления функции\n\nВ ноябре 2025 года Министерство телекоммуникаций Индии обязало Telegram, WhatsApp, Signal и ряд других мессенджеров обеспечить постоянную привязку аккаунтов с индийскими номерами к активным SIM-картам на устройствах пользователей.\n\nПо замыслу властей, это должно затруднить использование мессенджеров мошенниками, которые продолжают работать с индийскими номерами после извлечения или отключения соответствующих SIM-карт.\n\nСрок выполнения требований позднее перенесли на 31 декабря 2026 года.\n\nСейчас в Telegram обнаружен только диагностический механизм проверки. Пока неизвестно, когда он начнёт использоваться в обычном интерфейсе и какие ограничения будут применяться при отсутствии соответствующей SIM-карты.\n\n#iOS #beta #Индия",
-    "views": 15900,
+    "views": 17700,
     "reactions": [
       {
         "emoji": "⭐",
@@ -437,7 +584,7 @@
       },
       {
         "emoji": "👍",
-        "count": 62
+        "count": 65
       },
       {
         "emoji": "🤡",
@@ -445,23 +592,23 @@
       },
       {
         "emoji": "😱",
-        "count": 13
+        "count": 14
+      },
+      {
+        "emoji": "👏",
+        "count": 9
+      },
+      {
+        "emoji": "🎉",
+        "count": 9
       },
       {
         "emoji": "😍",
         "count": 9
       },
       {
-        "emoji": "👏",
-        "count": 8
-      },
-      {
-        "emoji": "🎉",
-        "count": 8
-      },
-      {
         "emoji": "🍾",
-        "count": 8
+        "count": 9
       },
       {
         "emoji": "🥰",
@@ -476,7 +623,7 @@
         "count": 4
       }
     ],
-    "reactionsTotal": 291,
+    "reactionsTotal": 298,
     "forwardedFrom": null,
     "replyTo": null,
     "author": "Antonio Marreti",
@@ -487,7 +634,7 @@
     "media": [
       {
         "type": "photo",
-        "url": "https://cdn4.telesco.pe/file/toVMDZQTcCuv_5FsA3v9sGs01LF60SziBTgx9KmBSwdmJ-Q_yrt9nhBWhkN5r0fCyR0GbE7Ve0VX6LF9H3LDX_s8CFKTHME29ArMxNd7aNKlTfzvrqDFRMuqi6_5NJv3csE4SBaaysfAhHVYMtZkbiWclaDyQuPI2mmd2nvstXaN_EAkNrD6cEvAiuFO8a4IBANzfdxrAPi2EhUYllQFGZ2EBi0Q_q3z7u5UJqzuu_eQdoMyp3G8ZYlgDaZJFJ2FpKXoOEYsgMS3KXWhsneKbeskRdSUg6D6GmqMJedwxW4tBRBUOAX-rJIs0hzlWOURQwoeaf8T3vfA71wlcXX7NA.jpg",
+        "url": "https://cdn4.telesco.pe/file/nhchxT1CKXCGuqihd4c_5uGRyj4fg87zBltXK0mvH7C7Ghgjv2HnBO0OQMQirNFgTE9ZulvZ1hErzbkCrY_p_IEqze5FI1r3JpH-5_G_mPFjyISfkF4Al1858RjpVikD-b9iHn5_KOs5TsWfCCB1Xr4PH7NidBMnsvDHDZUJ2938f7amAvxMgDOt0Z9ZW7iNoDPthMXe2KMH-r7nzUklwUo6KbN-TXOE0XQwKrUAluI9MWqBkkypuS45captYgJpqA2gUMljn-dzfYiTkjaAq8PwepdLMwnoJyaAjnLGuxQV98sMFpm6KTI8AkBtE_XJAyn6HGBmpAMYTPe42v8DmA.jpg",
         "messageUrl": "https://t.me/tginfo/4458"
       }
     ],
@@ -505,150 +652,6 @@
       "#beta",
       "#Индия"
     ],
-    "scrapedAt": "2026-11-22T18:39:40.475Z"
-  },
-  {
-    "channel": "telegram",
-    "channelTitle": "Telegram News",
-    "channelSubscribers": 9070000,
-    "messageId": 451,
-    "url": "https://t.me/telegram/451",
-    "date": "2026-07-19T17:57:29.000Z",
-    "text": "Telegram Communities. Several groups, channels and bots can now be linked together in a single community, where members can view and join other chats instantly.\n\nJuly Features\n1 • 2 • 3 • 4 • More",
-    "views": 1540000,
-    "reactions": [],
-    "reactionsTotal": 0,
-    "forwardedFrom": null,
-    "replyTo": null,
-    "author": null,
-    "viaBot": null,
-    "isService": false,
-    "edited": false,
-    "linkPreview": null,
-    "media": [
-      {
-        "type": "video",
-        "url": "https://cdn1.telesco.pe/file/6ca2d20645.mp4?token=ZeOE1af3B_4a3EksORTFR_2wvskSW8eYOamq7qONPWlgMLi2pF6nS_GaQgeM1mAe3z2u0pVKBLTvQa1aUrSnaPjHaiOtVbgntaMupMpwtgu3FjV54pmaNQEZU_Jjc84goH7brALQ4HGVSDMWd9jM8CwYzZm8RzMuSYKmRX2iVwSXq9l4F4Qe7PZVTrsj9tNQoVa-KOF-yVoc1RN1sYXlCsuOsUHcRbXBgrRBjjGsWV6Bw2nkNwXWoB-U8I7E2HBwF38R6A4GNfhzpRwGZMR--HzrKQzy4o0QeVglHK8V84J50bwf1wzUbKWLEf3YsseMeKks75XYHBl99JlKUZ6nhDzoLYYGMqknLXWitR9ENcuYlvuH2_duRcW1gSNrDutwJRiNb4oohoOr2QiJZhWoYyGpijaw_6z9cGAq5qraeb67jIHbQJRGf3qFSIx1nXYKlYBH2IGEFbmyeDQT784STQ5YPI-eEt4U2NpNTzs5qqOhyJVQlX8AwFaoOXyE8JMF1U5N6F2kgYRk9lSL-fG7i4rS94h3rQJ8XKuOf9GXGF6tJT-wZRWgCS1AQJnzDxJQ0sz9GR52DM9Ho7mOsVJxsH0JrprSkZ-jLGCuNWz4izHcr0djjMAgjRxHVogYUkwXcmv5R27x7EdgEMGthHOr_gJwSqXM3BRMKCcD7HrBjy0",
-        "thumbnailUrl": "https://cdn1.telesco.pe/file/uswE0LFt562CLdFJmCaAtHBoBG8nurH_yPdnbKCXDPzK-GjIbMxR_sBughAes3B1EuKcOI1hlXJZ5l6bYxy3qy5i3jG9fQddhyEWCG4Wpz_UnyiXDYzUGGbBfd4QDHJaD9Kgb1eL_m54owZ4sA4IKdBsoBOUNi7OJT0nAtEo3Hk7YcfKygu9P0BRt4ToKgh4WE2DGA3EWEtqKAeIepFfgFvhEID3mSugTeyt3RnkisTq_bg7vWyDaLkeBWGQ16nGO3tMCSRm9hhaGpywPyZFXb7yUpeIL36PJnT_rOW52z2q98yVIw1Y-UxXWjQrGfkbOJ7E_pchfA8VocdEoTUcqw",
-        "duration": "0:18",
-        "messageUrl": "https://t.me/telegram/451"
-      }
-    ],
-    "mediaTypes": [
-      "video"
-    ],
-    "poll": null,
-    "html": "<b>Telegram Communities.</b> Several groups, channels and bots can now be <b>linked together</b> in a single community, where members can view and <b>join other chats</b> instantly.<br><br>July Features<br><a href=\"https://t.me/telegram/450\">1</a> • <b>2</b> •&nbsp;<a href=\"https://t.me/telegram/452\">3</a> •&nbsp;<a href=\"https://t.me/telegram/453\">4</a> •&nbsp;<a href=\"https://t.me/telegram/454\">More</a>",
-    "links": [
-      "https://t.me/telegram/450",
-      "https://t.me/telegram/452",
-      "https://t.me/telegram/453",
-      "https://t.me/telegram/454"
-    ],
-    "mentions": [],
-    "hashtags": [],
-    "scrapedAt": "2026-11-22T18:39:40.476Z"
-  },
-  {
-    "channel": "tginfo",
-    "channelTitle": "Telegram Info",
-    "channelSubscribers": 84000,
-    "messageId": 4457,
-    "url": "https://t.me/tginfo/4457",
-    "date": "2026-11-17T14:44:14.000Z",
-    "text": "Telegram усиливает контроль за платежами в ботах и мини-приложениях\n\nКанал TBetaLeak опубликовал текст уведомления, в котором Telegram предупреждает разработчиков о продолжающихся проверках способов оплаты цифровых товаров и услуг.\n\nКомпания напоминает, что любые цифровые товары и услуги должны оплачиваться исключительно через Telegram Stars. Это касается в том числе подписок, платных инструментов, доступа к ИИ-моделям и кредитов для их использования.\n\nДля криптовалютных операций, не связанных с хранением, обменом или свопами, допускается использование только GRAM.\n\nБоты и мини-приложения, принимающие оплату цифровых товаров в обход Stars, могут быть заблокированы без предупреждения. Telegram подчёркивает, что дополнительных уведомлений не будет.\n\nИстория вопроса\n\n • Требование использовать Stars действует с мая 2024 года, а уже в июне Telegram блокировал ботов за его нарушение.\n\n • При этом редакция @tginfo ранее обращала внимание на недостатки такой системы: невыгодные условия конвертации звёзд и сложности с легальным оформлением доходов, поскольку выплаты разработчикам осуществляются в криптовалюте.\n\nВ сообществе также обсуждается предположение, что усиление контроля за платежами может быть связано с попыткой стимулировать спрос на GRAM и поддержать его курс в рамках инициативы MTONGA.\n\nТаким образом, Telegram усиливает контроль за соблюдением правил, которые по-прежнему создают экономические и юридические трудности для части разработчиков.\n\nUPD. Павел Дуров заявил, что VPN-боты в «авторитарных странах» могут принимать оплату в обход Stars. При этом не уточняется, какие страны имеются в виду.\n\n#звезды #боты",
-    "views": 22000,
-    "reactions": [
-      {
-        "emoji": "⭐",
-        "count": 1,
-        "paid": true
-      },
-      {
-        "emoji": "🤡",
-        "count": 226
-      },
-      {
-        "emoji": "👎",
-        "count": 150
-      },
-      {
-        "emoji": "🤬",
-        "count": 144
-      },
-      {
-        "emoji": "👍",
-        "count": 65
-      },
-      {
-        "emoji": "👏",
-        "count": 26
-      },
-      {
-        "emoji": "🎉",
-        "count": 12
-      },
-      {
-        "emoji": "😱",
-        "count": 10
-      },
-      {
-        "emoji": "🆒",
-        "count": 9
-      },
-      {
-        "emoji": "🥰",
-        "count": 8
-      },
-      {
-        "emoji": "😍",
-        "count": 3
-      },
-      {
-        "emoji": "🍾",
-        "count": 3
-      }
-    ],
-    "reactionsTotal": 657,
-    "forwardedFrom": null,
-    "replyTo": {
-      "messageId": 4023,
-      "url": "https://t.me/tginfo/4023",
-      "author": "Telegram Info",
-      "text": "Telegram требует от всех разработчиков ботов продавать платные функции за свою новую валюту — Telegram Stars  Мессенджер начал рассылать разработчикам ботов сообщения с требованием перевести оплату виртуальных товаров и услуг в ботах на систему Telegram Stars.…"
-    },
-    "author": "Antonio Marreti",
-    "viaBot": null,
-    "isService": false,
-    "edited": true,
-    "linkPreview": null,
-    "media": [
-      {
-        "type": "photo",
-        "url": "https://cdn4.telesco.pe/file/L4gHu4jmq3HYjZspJu8-YhiL67R-1MZHK_jANVaEZtRyvE_T_4Ab_jCXKKOAufiuH8yZD8nwYyO90zCZUZIwELt4AeFhUrcUic0SXMX_1i_5jmIg4p_99xEbbyGVc6MqYtiv-tNGA3IsYGNexRDbB8NTp3102bkyPyg_f3P8t9CYIeepHhlgPHh1T9B1Wq_SxRiYiiIrhcX2ftj8nGHjb4oGk_CebA6xX51W2CKIDUL0psNByuVHHqfABeIqgwSsQNLJ9fDcIjjL5m92MkyxKi_iHimFvZ_KCHUu8mFXICE_2_EBFy91984Op7nofwrNL8MZAtkycISsBTVxlisghw.jpg",
-        "messageUrl": "https://t.me/tginfo/4457"
-      }
-    ],
-    "mediaTypes": [
-      "photo"
-    ],
-    "poll": null,
-    "html": "<b>Telegram усиливает контроль за платежами в ботах и мини-приложениях</b><br><br>Канал TBetaLeak <a href=\"https://t.me/TBetaLeak/141\">опубликовал</a> текст уведомления, в котором Telegram предупреждает разработчиков о продолжающихся проверках способов оплаты цифровых товаров и услуг.<br><br>Компания напоминает, что <b>любые цифровые товары и услуги должны оплачиваться исключительно через Telegram Stars</b>. Это касается в том числе подписок, платных инструментов, доступа к ИИ-моделям и кредитов для их использования.<br><br>Для криптовалютных операций, не связанных с хранением, обменом или свопами, допускается использование только <b>GRAM</b>.<br><br>Боты и мини-приложения, принимающие оплату цифровых товаров в обход Stars, могут быть заблокированы без предупреждения. Telegram подчёркивает, что дополнительных уведомлений не будет.<br><br><b>История вопроса</b><br><br> • Требование использовать Stars действует с <a href=\"https://t.me/tginfo/4023\">мая 2024 года</a>, а уже в июне Telegram <a href=\"https://t.me/tginfo/4037\">блокировал</a> ботов за его нарушение.<br><br> • При этом редакция <a href=\"https://t.me/tginfo\">@tginfo</a> ранее <a href=\"https://tginfo.me/telegram-stars/\">обращала внимание</a> на недостатки такой системы: невыгодные условия конвертации звёзд и сложности с легальным оформлением доходов, поскольку выплаты разработчикам осуществляются в криптовалюте.<br><br>В сообществе также обсуждается предположение, что усиление контроля за платежами может быть связано с попыткой стимулировать спрос на GRAM и поддержать его курс в рамках <a href=\"https://t.me/durov/482\">инициативы</a> <b>MTONGA</b>.<br><br>Таким образом, Telegram усиливает контроль за соблюдением правил, которые по-прежнему создают экономические и юридические трудности для части разработчиков.<br><br><b>UPD</b>. Павел Дуров <a href=\"https://t.me/durov/564\">заявил</a>, что VPN-боты в «авторитарных странах» могут принимать оплату в обход Stars. При этом не уточняется, какие страны имеются в виду. <br><br><a href=\"?q=%23%D0%B7%D0%B2%D0%B5%D0%B7%D0%B4%D1%8B\">#звезды</a> <a href=\"?q=%23%D0%B1%D0%BE%D1%82%D1%8B\">#боты</a>",
-    "links": [
-      "https://t.me/TBetaLeak/141",
-      "https://t.me/tginfo/4023",
-      "https://t.me/tginfo/4037",
-      "https://tginfo.me/telegram-stars/",
-      "https://t.me/durov/482",
-      "https://t.me/durov/564"
-    ],
-    "mentions": [
-      "@tginfo"
-    ],
-    "hashtags": [
-      "#звезды",
-      "#боты"
-    ],
-    "scrapedAt": "2026-11-22T18:39:40.477Z"
+    "scrapedAt": "2026-11-23T22:55:58.214Z"
   }
 ]
