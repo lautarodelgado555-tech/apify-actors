@@ -61,7 +61,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:44:27.000Z",
-    "scrapedAt": "2026-11-22T18:39:29.186Z"
+    "scrapedAt": "2026-11-23T22:55:17.743Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/good-molecules-hyaluronic-acid-serum-nxme8/",
@@ -123,7 +123,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:38:28.000Z",
-    "scrapedAt": "2026-11-22T18:39:29.790Z"
+    "scrapedAt": "2026-11-23T22:55:18.215Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/good-molecules-niacinamide-serum-1ooo1/",
@@ -185,67 +185,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:38:33.000Z",
-    "scrapedAt": "2026-11-22T18:39:29.971Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/svr-sebiaclear-tratamiento-mat-pores-con-el-gel-moussant-1jv25/",
-    "productId": 357892004,
-    "name": "SVR Sebiaclear tratamiento Mat+ Pores con el Gel Moussant",
-    "brand": "SVR",
-    "description": "Esta combinación ataca el brillo y los poros en dos pasos esenciales: SVR Sebiaclear Gel Moussant (Limpiador): Función: Limpieza profunda sin jabón que elimina impurezas y exceso de sebo sin resecar. Activos: Contiene Gluconolactona (PHA) que exfolia suavemente y desobstruye los poros, y agentes matificantes. Formato Mini: Suele venir en presentaciones de 50 ml a 100 ml en packs promocionales, ideal para probar el producto o llevarlo de viaje. SVR Sebiaclear Mat+ Pores (Hidratante): Función: Hidratación matificante que reduce visiblemente el tamaño de los poros y controla el brillo durante 8 horas. Activos: Combina Niacinamida, Ácido Salicílico y un complejo \"Mat SR\" que absorbe el sebo y afina la textura de la piel. Acabado: Efecto \"piel de terciopelo\" mate, excelente como base de maquillaje.",
-    "categories": [
-      "Marcas",
-      "SVR Laboratoire"
-    ],
-    "tags": [
-      "Esta combinación ataca el brillo y los poros en dos pasos esenciales:  SVR Sebiaclear Gel Moussant (Limpiador):"
-    ],
-    "price": 790,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 790,
-    "priceMax": 790,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 65.83,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1566302652,
-        "sku": null,
-        "price": 790,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4426-6bc16ce2fa1539d54c17852720710675-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4426-6bc16ce2fa1539d54c17852720710675-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4426-6bc16ce2fa1539d54c17852720710675-1024-1024.webp",
-    "weightKg": 0.5,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-11-12T19:38:16.000Z",
-    "scrapedAt": "2026-11-22T18:39:30.519Z"
+    "scrapedAt": "2026-11-23T22:55:18.428Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/good-molecules-yerba-mate-wake-up-eye-gel-1xgd0/",
@@ -306,7 +246,67 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:38:25.000Z",
-    "scrapedAt": "2026-11-22T18:39:30.582Z"
+    "scrapedAt": "2026-11-23T22:55:18.912Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/svr-sebiaclear-tratamiento-mat-pores-con-el-gel-moussant-1jv25/",
+    "productId": 357892004,
+    "name": "SVR Sebiaclear tratamiento Mat+ Pores con el Gel Moussant",
+    "brand": "SVR",
+    "description": "Esta combinación ataca el brillo y los poros en dos pasos esenciales: SVR Sebiaclear Gel Moussant (Limpiador): Función: Limpieza profunda sin jabón que elimina impurezas y exceso de sebo sin resecar. Activos: Contiene Gluconolactona (PHA) que exfolia suavemente y desobstruye los poros, y agentes matificantes. Formato Mini: Suele venir en presentaciones de 50 ml a 100 ml en packs promocionales, ideal para probar el producto o llevarlo de viaje. SVR Sebiaclear Mat+ Pores (Hidratante): Función: Hidratación matificante que reduce visiblemente el tamaño de los poros y controla el brillo durante 8 horas. Activos: Combina Niacinamida, Ácido Salicílico y un complejo \"Mat SR\" que absorbe el sebo y afina la textura de la piel. Acabado: Efecto \"piel de terciopelo\" mate, excelente como base de maquillaje.",
+    "categories": [
+      "Marcas",
+      "SVR Laboratoire"
+    ],
+    "tags": [
+      "Esta combinación ataca el brillo y los poros en dos pasos esenciales:  SVR Sebiaclear Gel Moussant (Limpiador):"
+    ],
+    "price": 790,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 790,
+    "priceMax": 790,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 65.83,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1566302652,
+        "sku": null,
+        "price": 790,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4426-6bc16ce2fa1539d54c17852720710675-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4426-6bc16ce2fa1539d54c17852720710675-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/img_4426-6bc16ce2fa1539d54c17852720710675-1024-1024.webp",
+    "weightKg": 0.5,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-11-12T19:38:16.000Z",
+    "scrapedAt": "2026-11-23T22:55:19.052Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/haruharu-wonder-black-rice-moisture-airyfit-daily-sunscreen-spf50-pa-yxcz1/",
@@ -369,7 +369,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:31:46.000Z",
-    "scrapedAt": "2026-11-22T18:39:30.857Z"
+    "scrapedAt": "2026-11-23T22:55:19.333Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/cerave-locion-protectora-invisible-hidratante-spf50-7k7sa/",
@@ -429,7 +429,68 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:31:35.000Z",
-    "scrapedAt": "2026-11-22T18:39:31.490Z"
+    "scrapedAt": "2026-11-23T22:55:19.891Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/cantabria-labs-heliocare-360-water-gel-color-beige-spf-50-13ndc/",
+    "productId": 374311190,
+    "name": "Cantabria Labs Heliocare 360° Water Gel Color Beige SPF 50+",
+    "brand": "Cantabria Labs",
+    "description": "Cantabria Labs Heliocare 360° Water Gel Color Beige SPF 50+ (50 ml) es la versión con color del Water Gel, pensada para unificar el tono y disimular imperfecciones mientras protege. SPF 50+ / PA++++ — Protección de amplio espectro (UVB, UVA, luz visible, infrarrojo y luz azul) Fernblock®+ (extracto de Polypodium leucotomos): antioxidante, antipolución y reparador del ADN Ácido hialurónico + melanina biomimética + Physavie Tono beige con acabado suave y sedoso, efecto tinted ligero (no es base de maquillaje, pero unifica) Textura gel acuoso ultraligera, no comedogénico Resistente al agua y sudor 50ml",
+    "categories": [
+      "Marcas",
+      "Cantabria Labs"
+    ],
+    "tags": [
+      "Cantabria Labs Heliocare 360° Water Gel Color Beige SPF 50+ (50 ml) es la versión con color del Water Gel",
+      "pensada para unificar el tono y disimular imperfecciones mientras protege."
+    ],
+    "price": 600,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 600,
+    "priceMax": 600,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 50,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 4,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1619285308,
+        "sku": null,
+        "price": 600,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 4,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/heliocare-360-water-gel-beige-5c6bb08399d45397a617920326615708-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/heliocare-360-water-gel-beige-5c6bb08399d45397a617920326615708-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/heliocare-360-water-gel-beige-5c6bb08399d45397a617920326615708-1024-1024.webp",
+    "weightKg": 0.06,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-11-12T19:31:33.000Z",
+    "scrapedAt": "2026-11-23T22:55:20.283Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/vichy-dermablend-base-correctora-fluida-spf-28-tono-30-beige-12rq3/",
@@ -492,68 +553,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:31:28.000Z",
-    "scrapedAt": "2026-11-22T18:39:31.766Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/cantabria-labs-heliocare-360-water-gel-color-beige-spf-50-13ndc/",
-    "productId": 374311190,
-    "name": "Cantabria Labs Heliocare 360° Water Gel Color Beige SPF 50+",
-    "brand": "Cantabria Labs",
-    "description": "Cantabria Labs Heliocare 360° Water Gel Color Beige SPF 50+ (50 ml) es la versión con color del Water Gel, pensada para unificar el tono y disimular imperfecciones mientras protege. SPF 50+ / PA++++ — Protección de amplio espectro (UVB, UVA, luz visible, infrarrojo y luz azul) Fernblock®+ (extracto de Polypodium leucotomos): antioxidante, antipolución y reparador del ADN Ácido hialurónico + melanina biomimética + Physavie Tono beige con acabado suave y sedoso, efecto tinted ligero (no es base de maquillaje, pero unifica) Textura gel acuoso ultraligera, no comedogénico Resistente al agua y sudor 50ml",
-    "categories": [
-      "Marcas",
-      "Cantabria Labs"
-    ],
-    "tags": [
-      "Cantabria Labs Heliocare 360° Water Gel Color Beige SPF 50+ (50 ml) es la versión con color del Water Gel",
-      "pensada para unificar el tono y disimular imperfecciones mientras protege."
-    ],
-    "price": 600,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 600,
-    "priceMax": 600,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 50,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 4,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1619285308,
-        "sku": null,
-        "price": 600,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 4,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/heliocare-360-water-gel-beige-5c6bb08399d45397a617920326615708-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/heliocare-360-water-gel-beige-5c6bb08399d45397a617920326615708-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/heliocare-360-water-gel-beige-5c6bb08399d45397a617920326615708-1024-1024.webp",
-    "weightKg": 0.06,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-11-12T19:31:33.000Z",
-    "scrapedAt": "2026-11-22T18:39:31.820Z"
+    "scrapedAt": "2026-11-23T22:55:20.341Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/vichy-dermablend-3d-correction-spf-25-tono-15-opal-l2h4p/",
@@ -614,7 +614,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:31:25.000Z",
-    "scrapedAt": "2026-11-22T18:39:32.504Z"
+    "scrapedAt": "2026-11-23T22:55:20.934Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-teca-cream-9d9tf/",
@@ -677,7 +677,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:31:23.000Z",
-    "scrapedAt": "2026-11-22T18:39:32.582Z"
+    "scrapedAt": "2026-11-23T22:55:21.236Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/purito-seoul-best-kit-1qc7p/",
@@ -737,7 +737,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:31:02.000Z",
-    "scrapedAt": "2026-11-22T18:39:32.822Z"
+    "scrapedAt": "2026-11-23T22:55:21.557Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/roc-retinol-correxion-deep-wrinkle-night-cream-bc2pt/",
@@ -798,7 +798,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:29:39.000Z",
-    "scrapedAt": "2026-11-22T18:39:33.487Z"
+    "scrapedAt": "2026-11-23T22:55:21.963Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/vanicream-daily-facial-moisturizer-with-hyaluronic-acid-ceramides-pufqs/",
@@ -858,7 +858,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:29:35.000Z",
-    "scrapedAt": "2026-11-22T18:39:33.544Z"
+    "scrapedAt": "2026-11-23T22:55:22.278Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eucerin-anti-pigment-locion-corporal-diaria-2istb/",
@@ -918,7 +918,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:29:31.000Z",
-    "scrapedAt": "2026-11-22T18:39:33.764Z"
+    "scrapedAt": "2026-11-23T22:55:22.817Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/natures-bounty-optimal-solutions-hair-skin-nails-gummies-lhpuw/",
@@ -973,7 +973,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:29:27.000Z",
-    "scrapedAt": "2026-11-22T18:39:34.517Z"
+    "scrapedAt": "2026-11-23T22:55:22.882Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/natures-bounty-optimal-solutions-hair-skin-nails-gummies-advancded-1df5v/",
@@ -1028,7 +1028,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:29:24.000Z",
-    "scrapedAt": "2026-11-22T18:39:34.738Z"
+    "scrapedAt": "2026-11-23T22:55:23.334Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/the-ordinary-glycolic-acid-7-toning-solution-1xa43/",
@@ -1086,7 +1086,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:29:19.000Z",
-    "scrapedAt": "2026-11-22T18:39:34.801Z"
+    "scrapedAt": "2026-11-23T22:55:23.399Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/loreal-paris-infallible-3-second-setting-mist-1jafb/",
@@ -1144,7 +1144,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:29:13.000Z",
-    "scrapedAt": "2026-11-22T18:39:35.447Z"
+    "scrapedAt": "2026-11-23T22:55:23.632Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/sephora-favorites-mini-holiday-must-haves-value-set-fferj/",
@@ -1202,7 +1202,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:29:08.000Z",
-    "scrapedAt": "2026-11-22T18:39:35.777Z"
+    "scrapedAt": "2026-11-23T22:55:23.988Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/difeel-rosemary-mint-premium-hair-oil-infused-with-biotin-1maf9/",
@@ -1260,7 +1260,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:29:00.000Z",
-    "scrapedAt": "2026-11-22T18:39:36.053Z"
+    "scrapedAt": "2026-11-23T22:55:24.581Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-essence-1chrn/",
@@ -1318,7 +1318,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:28:56.000Z",
-    "scrapedAt": "2026-11-22T18:39:36.425Z"
+    "scrapedAt": "2026-11-23T22:55:24.974Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eqqualberry-glow-filter-vitamin-illuminating-serum-yodpt/",
@@ -1373,7 +1373,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:28:57.000Z",
-    "scrapedAt": "2026-11-22T18:39:36.485Z"
+    "scrapedAt": "2026-11-23T22:55:25.031Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/difeel-biotin-premium-hair-oil-1n3jk/",
@@ -1431,7 +1431,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:28:51.000Z",
-    "scrapedAt": "2026-11-22T18:39:36.763Z"
+    "scrapedAt": "2026-11-23T22:55:25.225Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/moev-annurcatin-treatment-1d9un/",
@@ -1489,7 +1489,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:28:46.000Z",
-    "scrapedAt": "2026-11-22T18:39:37.462Z"
+    "scrapedAt": "2026-11-23T22:55:25.881Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/moev-annurcatin-hair-tonic-1nsq3/",
@@ -1547,7 +1547,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:28:44.000Z",
-    "scrapedAt": "2026-11-22T18:39:37.756Z"
+    "scrapedAt": "2026-11-23T22:55:26.245Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-strawberry-bite-gentle-clean-foaming-hand-soap-17je5/",
@@ -1605,7 +1605,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:28:40.000Z",
-    "scrapedAt": "2026-11-22T18:39:38.148Z"
+    "scrapedAt": "2026-11-23T22:55:26.699Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-japanese-cherry-blossom-gentle-clean-foaming-hand-soap-ax43z/",
@@ -1663,7 +1663,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:28:35.000Z",
-    "scrapedAt": "2026-11-22T18:39:38.304Z"
+    "scrapedAt": "2026-11-23T22:55:26.853Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-mahogany-teakwood-gentle-clean-foaming-hand-soap-4l475/",
@@ -1721,7 +1721,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:28:38.000Z",
-    "scrapedAt": "2026-11-22T18:39:38.457Z"
+    "scrapedAt": "2026-11-23T22:55:26.903Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-wrapped-in-spice-gentle-clean-foaming-hand-soap-1s65f/",
@@ -1779,65 +1779,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:28:34.000Z",
-    "scrapedAt": "2026-11-22T18:39:38.559Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/bath-body-works-mahogany-taekwood-gentle-clean-foaming-hand-soap-1sk4a/",
-    "productId": 374558991,
-    "name": "Bath & Body Works MAHOGANY TAEKWOOD – Gentle & Clean Foaming Hand Soap",
-    "brand": "Bath &amp; Body Works ",
-    "description": "Jabón de manos espumoso suave con un aroma amaderado, cálido y misterioso, inspirado en un paseo por el bosque al atardecer. Limpia eficazmente sin resecar, dejando las manos suaves y perfumadas con la riqueza de la madera. Salida Caoba rica (rich mahogany) Corazón Madera de teca negra (black teakwood) Fondo Roble oscuro (dark oak) + lavanda helada Vitamina E: protege y suaviza Extracto de Mantequilla de Karité: hidrata y nutre Aloe Vera: calma e hidrata 259ml",
-    "categories": [
-      "Marcas",
-      "Bath & Body Works"
-    ],
-    "tags": [],
-    "price": 200,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 200,
-    "priceMax": 200,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 16.67,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 3,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620148848,
-        "sku": "",
-        "price": 200,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-mohagany-taekwood-2-29615d77be8c0454f617921120605934-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-mohagany-taekwood-2-29615d77be8c0454f617921120605934-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-mohagany-taekwood-2-29615d77be8c0454f617921120605934-1024-1024.webp",
-    "weightKg": 0.3,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-11-12T19:28:30.000Z",
-    "scrapedAt": "2026-11-22T18:39:39.159Z"
+    "scrapedAt": "2026-11-23T22:55:27.427Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/bath-body-works-champagne-toast-gentle-clean-foaming-hand-soap-2m8pk/",
@@ -1895,7 +1837,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:28:31.000Z",
-    "scrapedAt": "2026-11-22T18:39:39.231Z"
+    "scrapedAt": "2026-11-23T22:55:27.702Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/bath-body-works-mahogany-taekwood-gentle-clean-foaming-hand-soap-1sk4a/",
+    "productId": 374558991,
+    "name": "Bath & Body Works MAHOGANY TAEKWOOD – Gentle & Clean Foaming Hand Soap",
+    "brand": "Bath &amp; Body Works ",
+    "description": "Jabón de manos espumoso suave con un aroma amaderado, cálido y misterioso, inspirado en un paseo por el bosque al atardecer. Limpia eficazmente sin resecar, dejando las manos suaves y perfumadas con la riqueza de la madera. Salida Caoba rica (rich mahogany) Corazón Madera de teca negra (black teakwood) Fondo Roble oscuro (dark oak) + lavanda helada Vitamina E: protege y suaviza Extracto de Mantequilla de Karité: hidrata y nutre Aloe Vera: calma e hidrata 259ml",
+    "categories": [
+      "Marcas",
+      "Bath & Body Works"
+    ],
+    "tags": [],
+    "price": 200,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 200,
+    "priceMax": 200,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 16.67,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 3,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620148848,
+        "sku": "",
+        "price": 200,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 3,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-mohagany-taekwood-2-29615d77be8c0454f617921120605934-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-mohagany-taekwood-2-29615d77be8c0454f617921120605934-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/jabon-mohagany-taekwood-2-29615d77be8c0454f617921120605934-1024-1024.webp",
+    "weightKg": 0.3,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-11-12T19:28:30.000Z",
+    "scrapedAt": "2026-11-23T22:55:27.962Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/cozy-clean-makeup-value-set-1um2b/",
@@ -1953,7 +1953,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:28:25.000Z",
-    "scrapedAt": "2026-11-22T18:39:39.491Z"
+    "scrapedAt": "2026-11-23T22:55:28.018Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/sephora-favorites-holiday-must-haves-makeup-skincare-value-set-1519b/",
@@ -2011,7 +2011,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:27:10.000Z",
-    "scrapedAt": "2026-11-22T18:39:40.064Z"
+    "scrapedAt": "2026-11-23T22:55:28.511Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/color-wow-iconic-frizz-fighters-gift-set-1996i/",
@@ -2069,7 +2069,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:27:04.000Z",
-    "scrapedAt": "2026-11-22T18:39:40.245Z"
+    "scrapedAt": "2026-11-23T22:55:28.785Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-shampoo-151va/",
@@ -2127,7 +2127,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:26:57.000Z",
-    "scrapedAt": "2026-11-22T18:39:40.290Z"
+    "scrapedAt": "2026-11-23T22:55:29.081Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/elizavecca-cer-100-collagen-coating-hair-a-muscle-treatment-rinse-lg6lu/",
@@ -2185,7 +2185,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:26:57.000Z",
-    "scrapedAt": "2026-11-22T18:39:40.683Z"
+    "scrapedAt": "2026-11-23T22:55:29.404Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/medicube-kojic-acid-turmeric-vita-capsule-cream-m7sks/",
@@ -2243,65 +2243,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:26:52.000Z",
-    "scrapedAt": "2026-11-22T18:39:40.900Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/dr-althea-vitamin-c-boosting-serum-63-nfdxc/",
-    "productId": 374685782,
-    "name": "Dr. Althea Vitamin C Boosting Serum 63%",
-    "brand": "Dr. Althea",
-    "description": "Dr. Althea Vitamin C Boosting Serum 63% es un sérum coreano iluminador y despigmentante de alta potencia, formulado para pieles sensibles. Su base es inusual: en lugar de agua, usa 63% de agua de Hippophae Rhamnoides (espino amarillo/sea buckthorn), naturalmente rica en vitamina C, E, carotenoides y omega-7. 30ml",
-    "categories": [
-      "Marcas",
-      "Otras marcas"
-    ],
-    "tags": [],
-    "price": 550,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 550,
-    "priceMax": 550,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 45.83,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620547891,
-        "sku": null,
-        "price": 550,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/dr-althea-vitamin-c-9f257bf835fa0f377117921750196217-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/dr-althea-vitamin-c-9f257bf835fa0f377117921750196217-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/dr-althea-vitamin-c-9f257bf835fa0f377117921750196217-1024-1024.webp",
-    "weightKg": 0.06,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-11-12T19:26:48.000Z",
-    "scrapedAt": "2026-11-22T18:39:41.163Z"
+    "scrapedAt": "2026-11-23T22:55:29.673Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/dr-althea-345-relief-serum-145sn/",
@@ -2359,31 +2301,31 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:26:46.000Z",
-    "scrapedAt": "2026-11-22T18:39:41.359Z"
+    "scrapedAt": "2026-11-23T22:55:29.911Z"
   },
   {
-    "url": "https://dailyskincaremx.com/productos/shiseido-fino-premium-touch-hair-oil-1y7li/",
-    "productId": 374690255,
-    "name": "Shiseido Fino Premium Touch Hair Oil",
-    "brand": "Shiseido",
-    "description": "Shiseido Fino Premium Touch Hair Oil es un aceite capilar japonés de textura ligera diseñado para reparar cabello seco, dañado o con frizz. Su fórmula penetra en la fibra capilar sin dejar residuo graso, dejando un acabado sedoso con brillo espejo y aroma floral. 70ml",
+    "url": "https://dailyskincaremx.com/productos/dr-althea-vitamin-c-boosting-serum-63-nfdxc/",
+    "productId": 374685782,
+    "name": "Dr. Althea Vitamin C Boosting Serum 63%",
+    "brand": "Dr. Althea",
+    "description": "Dr. Althea Vitamin C Boosting Serum 63% es un sérum coreano iluminador y despigmentante de alta potencia, formulado para pieles sensibles. Su base es inusual: en lugar de agua, usa 63% de agua de Hippophae Rhamnoides (espino amarillo/sea buckthorn), naturalmente rica en vitamina C, E, carotenoides y omega-7. 30ml",
     "categories": [
       "Marcas",
-      "K-Beauty"
+      "Otras marcas"
     ],
     "tags": [],
-    "price": 490,
+    "price": 550,
     "compareAtPrice": null,
     "promotionalPrice": null,
     "onSale": false,
     "discountPercent": null,
-    "priceMin": 490,
-    "priceMax": 490,
+    "priceMin": 550,
+    "priceMax": 550,
     "currency": "MXN",
     "installments": {
       "maxInstallments": 24,
       "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 40.83,
+      "interestFreeInstallmentValue": 45.83,
       "processor": "PayPal"
     },
     "availability": "InStock",
@@ -2394,30 +2336,30 @@
     "variantCount": 1,
     "variants": [
       {
-        "id": 1620565593,
+        "id": 1620547891,
         "sku": null,
-        "price": 490,
+        "price": 550,
         "compareAtPrice": null,
         "promotionalPrice": null,
         "stock": 1,
         "available": true,
         "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/shiseido-hair-oil-30af9383a6ff338ee017921761139538-1024-1024.webp"
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/dr-althea-vitamin-c-9f257bf835fa0f377117921750196217-1024-1024.webp"
       }
     ],
     "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/shiseido-hair-oil-30af9383a6ff338ee017921761139538-1024-1024.webp"
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/dr-althea-vitamin-c-9f257bf835fa0f377117921750196217-1024-1024.webp"
     ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/shiseido-hair-oil-30af9383a6ff338ee017921761139538-1024-1024.webp",
-    "weightKg": 0.2,
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/dr-althea-vitamin-c-9f257bf835fa0f377117921750196217-1024-1024.webp",
+    "weightKg": 0.06,
     "storeName": "Dailyskincaremx",
     "storeDomain": "dailyskincaremx.com",
     "country": "MX",
     "language": "es_MX",
     "platform": "tiendanube",
     "engine": "classic",
-    "lastModified": "2026-11-12T19:26:39.000Z",
-    "scrapedAt": "2026-11-22T18:39:41.927Z"
+    "lastModified": "2026-11-12T19:26:48.000Z",
+    "scrapedAt": "2026-11-23T22:55:29.960Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/dr-althea-345-relief-travel-kit-11r01/",
@@ -2475,31 +2417,31 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:26:42.000Z",
-    "scrapedAt": "2026-11-22T18:39:41.984Z"
+    "scrapedAt": "2026-11-23T22:55:30.502Z"
   },
   {
-    "url": "https://dailyskincaremx.com/productos/numbuzin-no-9-nad-trial-kit-for-anti-aging-firming-qel0y/",
-    "productId": 374695265,
-    "name": "Numbuzin No.9 NAD+ Trial Kit for Anti-Aging & Firming",
-    "brand": "Numbuzin",
-    "description": "Numbuzin No.9 NAD+ Trial Kit for Anti-Aging & Firming es un set de 6 productos en tamaño de prueba (exclusivo de Stylevana) de la línea No.9 NAD+ de Numbuzin, diseñado para combatir la pérdida de firmeza, arrugas y flacidez. 1 No.9 NAD+ PDRN Glow Boosting Toner 30 ml Tónico hidratante con 1,000 ppm Salmon PDRN, NAD+ y 50 péptidos. Ilumina, hidrata y prepara la piel. 2 No.9 NAD+ BIO Lifting-sil Essence 10 ml Esencia elástica tipo \"hilo\" que levanta, reafirma y reduce arrugas. NAD+ + adenosina + 50 péptidos. Clínicamente probado: mejora arrugas 21.9% y resiliencia 229% en 1 mes. 3 No.9 NAD+ Retinol Volumetox Eye Cream 5 ml Crema de ojos antiedad con retinol, NAD+, 50 péptidos, niacinamida y ceramidas. 4-5 No.9 NAD+ Collagen Under Eye Patches (2 pares) 8 g c/u Parches de hidrogel con colágeno de bajo peso molecular (300 Da), cafeína, NAD+ y péptidos. Efecto lifting instantáneo bajo los ojos. 6 No.9 NAD+ BIO Lifting-sil Full Face Mask 20 ml + 28 ml Mascarilla facial de dos piezas con NAD+, colágeno, péptidos y adenosina. Hidratación intensa + efecto lifting.",
+    "url": "https://dailyskincaremx.com/productos/shiseido-fino-premium-touch-hair-oil-1y7li/",
+    "productId": 374690255,
+    "name": "Shiseido Fino Premium Touch Hair Oil",
+    "brand": "Shiseido",
+    "description": "Shiseido Fino Premium Touch Hair Oil es un aceite capilar japonés de textura ligera diseñado para reparar cabello seco, dañado o con frizz. Su fórmula penetra en la fibra capilar sin dejar residuo graso, dejando un acabado sedoso con brillo espejo y aroma floral. 70ml",
     "categories": [
       "Marcas",
       "K-Beauty"
     ],
     "tags": [],
-    "price": 550,
+    "price": 490,
     "compareAtPrice": null,
     "promotionalPrice": null,
     "onSale": false,
     "discountPercent": null,
-    "priceMin": 550,
-    "priceMax": 550,
+    "priceMin": 490,
+    "priceMax": 490,
     "currency": "MXN",
     "installments": {
       "maxInstallments": 24,
       "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 45.83,
+      "interestFreeInstallmentValue": 40.83,
       "processor": "PayPal"
     },
     "availability": "InStock",
@@ -2510,30 +2452,30 @@
     "variantCount": 1,
     "variants": [
       {
-        "id": 1620577902,
+        "id": 1620565593,
         "sku": null,
-        "price": 550,
+        "price": 490,
         "compareAtPrice": null,
         "promotionalPrice": null,
         "stock": 1,
         "available": true,
         "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/numbuzin-no-9-26e24f5ab67e4763b117921769660892-1024-1024.webp"
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/shiseido-hair-oil-30af9383a6ff338ee017921761139538-1024-1024.webp"
       }
     ],
     "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/numbuzin-no-9-26e24f5ab67e4763b117921769660892-1024-1024.webp"
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/shiseido-hair-oil-30af9383a6ff338ee017921761139538-1024-1024.webp"
     ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/numbuzin-no-9-26e24f5ab67e4763b117921769660892-1024-1024.webp",
-    "weightKg": 0.4,
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/shiseido-hair-oil-30af9383a6ff338ee017921761139538-1024-1024.webp",
+    "weightKg": 0.2,
     "storeName": "Dailyskincaremx",
     "storeDomain": "dailyskincaremx.com",
     "country": "MX",
     "language": "es_MX",
     "platform": "tiendanube",
     "engine": "classic",
-    "lastModified": "2026-11-12T19:26:30.000Z",
-    "scrapedAt": "2026-11-22T18:39:42.467Z"
+    "lastModified": "2026-11-12T19:26:39.000Z",
+    "scrapedAt": "2026-11-23T22:55:30.743Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/purito-oat-in-calming-gel-cream-39ab6/",
@@ -2591,7 +2533,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:26:32.000Z",
-    "scrapedAt": "2026-11-22T18:39:42.574Z"
+    "scrapedAt": "2026-11-23T22:55:31.017Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-air-fit-suncream-light-1o8f6/",
@@ -2649,7 +2591,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:26:27.000Z",
-    "scrapedAt": "2026-11-22T18:39:42.770Z"
+    "scrapedAt": "2026-11-23T22:55:31.207Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/numbuzin-no-9-nad-trial-kit-for-anti-aging-firming-qel0y/",
+    "productId": 374695265,
+    "name": "Numbuzin No.9 NAD+ Trial Kit for Anti-Aging & Firming",
+    "brand": "Numbuzin",
+    "description": "Numbuzin No.9 NAD+ Trial Kit for Anti-Aging & Firming es un set de 6 productos en tamaño de prueba (exclusivo de Stylevana) de la línea No.9 NAD+ de Numbuzin, diseñado para combatir la pérdida de firmeza, arrugas y flacidez. 1 No.9 NAD+ PDRN Glow Boosting Toner 30 ml Tónico hidratante con 1,000 ppm Salmon PDRN, NAD+ y 50 péptidos. Ilumina, hidrata y prepara la piel. 2 No.9 NAD+ BIO Lifting-sil Essence 10 ml Esencia elástica tipo \"hilo\" que levanta, reafirma y reduce arrugas. NAD+ + adenosina + 50 péptidos. Clínicamente probado: mejora arrugas 21.9% y resiliencia 229% en 1 mes. 3 No.9 NAD+ Retinol Volumetox Eye Cream 5 ml Crema de ojos antiedad con retinol, NAD+, 50 péptidos, niacinamida y ceramidas. 4-5 No.9 NAD+ Collagen Under Eye Patches (2 pares) 8 g c/u Parches de hidrogel con colágeno de bajo peso molecular (300 Da), cafeína, NAD+ y péptidos. Efecto lifting instantáneo bajo los ojos. 6 No.9 NAD+ BIO Lifting-sil Full Face Mask 20 ml + 28 ml Mascarilla facial de dos piezas con NAD+, colágeno, péptidos y adenosina. Hidratación intensa + efecto lifting.",
+    "categories": [
+      "Marcas",
+      "K-Beauty"
+    ],
+    "tags": [],
+    "price": 550,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 550,
+    "priceMax": 550,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 45.83,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620577902,
+        "sku": null,
+        "price": 550,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/numbuzin-no-9-26e24f5ab67e4763b117921769660892-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/numbuzin-no-9-26e24f5ab67e4763b117921769660892-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/numbuzin-no-9-26e24f5ab67e4763b117921769660892-1024-1024.webp",
+    "weightKg": 0.4,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-11-12T19:26:30.000Z",
+    "scrapedAt": "2026-11-23T22:55:31.273Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-glow-1004-duo-5ldui/",
@@ -2707,65 +2707,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:26:21.000Z",
-    "scrapedAt": "2026-11-22T18:39:43.493Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/purito-mighty-bamboo-panthenol-cream-3hr6e/",
-    "productId": 374701659,
-    "name": "Purito Mighty Bamboo Panthenol Cream",
-    "brand": "PURITO",
-    "description": "Purito Mighty Bamboo Panthenol Cream es una crema hidratante coreana de Purito (anteriormente llamada B5 Panthenol Re-Barrier Cream) formulada con 10% de pantenol (Vitamina B5) y extracto de bambú de Damyang (3,497 ppm). Está diseñada para reparar y fortalecer la barrera cutánea, especialmente en pieles sensibles, reactivas o en recuperación post-acné. 100ml",
-    "categories": [
-      "Marcas",
-      "K-Beauty"
-    ],
-    "tags": [],
-    "price": 500,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 500,
-    "priceMax": 500,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 41.67,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620596431,
-        "sku": null,
-        "price": 500,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/purito-tanthenol-cream-74663efea45a26bb3c17921780956682-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/purito-tanthenol-cream-74663efea45a26bb3c17921780956682-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/purito-tanthenol-cream-74663efea45a26bb3c17921780956682-1024-1024.webp",
-    "weightKg": 0.15,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-11-12T19:26:10.000Z",
-    "scrapedAt": "2026-11-22T18:39:43.622Z"
+    "scrapedAt": "2026-11-23T22:55:31.583Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/anua-rice-70-intensive-moisturizing-milk-qbxeo/",
@@ -2823,7 +2765,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:26:17.000Z",
-    "scrapedAt": "2026-11-22T18:39:43.689Z"
+    "scrapedAt": "2026-11-23T22:55:31.864Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/purito-mighty-bamboo-panthenol-cream-3hr6e/",
+    "productId": 374701659,
+    "name": "Purito Mighty Bamboo Panthenol Cream",
+    "brand": "PURITO",
+    "description": "Purito Mighty Bamboo Panthenol Cream es una crema hidratante coreana de Purito (anteriormente llamada B5 Panthenol Re-Barrier Cream) formulada con 10% de pantenol (Vitamina B5) y extracto de bambú de Damyang (3,497 ppm). Está diseñada para reparar y fortalecer la barrera cutánea, especialmente en pieles sensibles, reactivas o en recuperación post-acné. 100ml",
+    "categories": [
+      "Marcas",
+      "K-Beauty"
+    ],
+    "tags": [],
+    "price": 500,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 500,
+    "priceMax": 500,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 41.67,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620596431,
+        "sku": null,
+        "price": 500,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/purito-tanthenol-cream-74663efea45a26bb3c17921780956682-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/purito-tanthenol-cream-74663efea45a26bb3c17921780956682-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/purito-tanthenol-cream-74663efea45a26bb3c17921780956682-1024-1024.webp",
+    "weightKg": 0.15,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-11-12T19:26:10.000Z",
+    "scrapedAt": "2026-11-23T22:55:32.115Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/vt-cosmetics-pdrn-reedle-shot-hair-ampoule-100dl-yhjc8/",
@@ -2881,7 +2881,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:26:03.000Z",
-    "scrapedAt": "2026-11-22T18:39:44.269Z"
+    "scrapedAt": "2026-11-23T22:55:32.739Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/mixsoon-glacier-water-hyaluronic-acid-serum-n44hf/",
@@ -2939,65 +2939,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:25:58.000Z",
-    "scrapedAt": "2026-11-22T18:39:44.690Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/anua-pdrn-hyaluronic-acid-100-moisturizing-cream-1jo80/",
-    "productId": 374706232,
-    "name": "Anua PDRN Hyaluronic Acid 100 Moisturizing Cream",
-    "brand": "ANUA",
-    "description": "Anua PDRN Hyaluronic Acid 100 Moisturizing Creames una crema hidratante coreana de Anua de textura ligera y sedosa, formulada con PDRN de bajo peso molecular (Sodium DNA), 10 tipos de ácido hialurónico y colágeno hidrolizado. Está diseñada para hidratar en profundidad, reafirmar y revitalizar la piel deshidratada o apagada. 60ml",
-    "categories": [
-      "Marcas",
-      "K-Beauty"
-    ],
-    "tags": [],
-    "price": 430,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 430,
-    "priceMax": 430,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 35.83,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1620620135,
-        "sku": null,
-        "price": 430,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/anua-100-72a28c655c2838e52717921790458563-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/anua-100-72a28c655c2838e52717921790458563-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/anua-100-72a28c655c2838e52717921790458563-1024-1024.webp",
-    "weightKg": 0.1,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-11-12T19:25:51.000Z",
-    "scrapedAt": "2026-11-22T18:39:44.760Z"
+    "scrapedAt": "2026-11-23T22:55:32.942Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/numbuzin-no-9-nad-retinol-volumetox-eye-cream-1s37v/",
@@ -3055,7 +2997,65 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-12T19:25:55.000Z",
-    "scrapedAt": "2026-11-22T18:39:44.968Z"
+    "scrapedAt": "2026-11-23T22:55:32.996Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/anua-pdrn-hyaluronic-acid-100-moisturizing-cream-1jo80/",
+    "productId": 374706232,
+    "name": "Anua PDRN Hyaluronic Acid 100 Moisturizing Cream",
+    "brand": "ANUA",
+    "description": "Anua PDRN Hyaluronic Acid 100 Moisturizing Creames una crema hidratante coreana de Anua de textura ligera y sedosa, formulada con PDRN de bajo peso molecular (Sodium DNA), 10 tipos de ácido hialurónico y colágeno hidrolizado. Está diseñada para hidratar en profundidad, reafirmar y revitalizar la piel deshidratada o apagada. 60ml",
+    "categories": [
+      "Marcas",
+      "K-Beauty"
+    ],
+    "tags": [],
+    "price": 430,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 430,
+    "priceMax": 430,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 35.83,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1620620135,
+        "sku": null,
+        "price": 430,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/anua-100-72a28c655c2838e52717921790458563-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/anua-100-72a28c655c2838e52717921790458563-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/anua-100-72a28c655c2838e52717921790458563-1024-1024.webp",
+    "weightKg": 0.1,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-11-12T19:25:51.000Z",
+    "scrapedAt": "2026-11-23T22:55:33.255Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eucerin-baby-sensitive-mineral-zinc-oxide-protection-1cw21/",
@@ -3116,7 +3116,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-26T18:20:09.000Z",
-    "scrapedAt": "2026-11-22T18:39:45.012Z"
+    "scrapedAt": "2026-11-23T22:55:33.748Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/medicube-zero-pore-pad-1mzle/",
@@ -3178,7 +3178,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T19:12:00.000Z",
-    "scrapedAt": "2026-11-22T18:39:45.914Z"
+    "scrapedAt": "2026-11-23T22:55:34.681Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/skin1004-madagascar-centella-hyalu-cica-moisture-cream-jno35/",
@@ -3239,7 +3239,68 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-16T03:42:37.000Z",
-    "scrapedAt": "2026-11-22T18:39:48.737Z"
+    "scrapedAt": "2026-11-23T22:55:37.211Z"
+  },
+  {
+    "url": "https://dailyskincaremx.com/productos/cerave-fluido-protector-invisible-oil-control-spf50-y0b9o/",
+    "productId": 374507438,
+    "name": "cerave fluido protector invisible Oil control spf50",
+    "brand": "CeraVe",
+    "description": "El CeraVe Fluido Protector Invisible Oil Control SPF 50+ (50 ml) es un protector solar facial de uso diario formulado para piel normal a grasa con tendencia acneica 50ml",
+    "categories": [
+      "Marcas",
+      "CeraVe"
+    ],
+    "tags": [
+      "El CeraVe Fluido Protector Invisible Hidratante SPF50 (envase de 50 ml) es un protector solar facial de alta protección diseñado específicamente para ofrecer una textura ultraligera con acabado invisible",
+      "ideal para pieles normales a secas y sensibles."
+    ],
+    "price": 527,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 527,
+    "priceMax": 527,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 24,
+      "maxInterestFreeInstallments": 12,
+      "interestFreeInstallmentValue": 43.92,
+      "processor": "PayPal"
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 5,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 1619995084,
+        "sku": "",
+        "price": 527,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 5,
+        "available": true,
+        "attributes": {},
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/cerave-fluido-protector-oil-control-50ml-332c93860a83f8aee017920995626377-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/cerave-fluido-protector-oil-control-50ml-332c93860a83f8aee017920995626377-1024-1024.webp"
+    ],
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/cerave-fluido-protector-oil-control-50ml-332c93860a83f8aee017920995626377-1024-1024.webp",
+    "weightKg": 0.07,
+    "storeName": "Dailyskincaremx",
+    "storeDomain": "dailyskincaremx.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-10-15T21:30:45.000Z",
+    "scrapedAt": "2026-11-23T22:55:45.851Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/isdin-fotoprotector-invisible-stick-spf-50-sfro0/",
@@ -3304,68 +3365,71 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T01:36:13.000Z",
-    "scrapedAt": "2026-11-22T18:39:57.467Z"
+    "scrapedAt": "2026-11-23T22:55:46.028Z"
   },
   {
-    "url": "https://dailyskincaremx.com/productos/cerave-fluido-protector-invisible-oil-control-spf50-y0b9o/",
-    "productId": 374507438,
-    "name": "cerave fluido protector invisible Oil control spf50",
-    "brand": "CeraVe",
-    "description": "El CeraVe Fluido Protector Invisible Oil Control SPF 50+ (50 ml) es un protector solar facial de uso diario formulado para piel normal a grasa con tendencia acneica 50ml",
+    "url": "https://dailyskincaremx.com/productos/la-roche-posay-effaclar-a-z-gel-crema-2mhtt/",
+    "productId": 306388608,
+    "name": "La Roche-Posay Effaclar A-Z Gel Crema",
+    "brand": "LA ROCHE-POSAY",
+    "description": "La Roche-Posay Effaclar A-Z Gel Crema, es un tratamiento diario para pieles con imperfecciones, diseñado para limpiar, tratar y prevenir granos, puntos negros y marcas residuales. Combina activos dermatológicos como ácido salicílico, niacinamida y prebióticos para exfoliar suavemente, reducir el brillo y fortalecer la barrera cutánea. 40ml.",
     "categories": [
       "Marcas",
-      "CeraVe"
+      "La Roche Posay"
     ],
     "tags": [
-      "El CeraVe Fluido Protector Invisible Hidratante SPF50 (envase de 50 ml) es un protector solar facial de alta protección diseñado específicamente para ofrecer una textura ultraligera con acabado invisible",
-      "ideal para pieles normales a secas y sensibles."
+      "La Roche-Posay Effaclar A-Z Gel Crema",
+      "disenado para limpiar",
+      "es un tratamiento diario para pieles con imperfecciones",
+      "puntos negros y marcas residuales.",
+      "tratar y prevenir granos"
     ],
-    "price": 527,
+    "price": 819,
     "compareAtPrice": null,
     "promotionalPrice": null,
     "onSale": false,
     "discountPercent": null,
-    "priceMin": 527,
-    "priceMax": 527,
+    "priceMin": 819,
+    "priceMax": 819,
     "currency": "MXN",
     "installments": {
       "maxInstallments": 24,
       "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 43.92,
+      "interestFreeInstallmentValue": 68.25,
       "processor": "PayPal"
     },
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": 5,
+    "stockTotal": 3,
     "stockUnlimited": false,
     "sku": null,
     "variantCount": 1,
     "variants": [
       {
-        "id": 1619995084,
-        "sku": "",
-        "price": 527,
+        "id": 1362025308,
+        "sku": null,
+        "price": 819,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 5,
+        "stock": 3,
         "available": true,
         "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/cerave-fluido-protector-oil-control-50ml-332c93860a83f8aee017920995626377-1024-1024.webp"
+        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-effaclar-gel-crema-c57c7213723f93fde817628149275862-1024-1024.webp"
       }
     ],
     "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/cerave-fluido-protector-oil-control-50ml-332c93860a83f8aee017920995626377-1024-1024.webp"
+      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-effaclar-gel-crema-c57c7213723f93fde817628149275862-1024-1024.webp"
     ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/cerave-fluido-protector-oil-control-50ml-332c93860a83f8aee017920995626377-1024-1024.webp",
-    "weightKg": 0.07,
+    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-effaclar-gel-crema-c57c7213723f93fde817628149275862-1024-1024.webp",
+    "weightKg": 0.06,
     "storeName": "Dailyskincaremx",
     "storeDomain": "dailyskincaremx.com",
     "country": "MX",
     "language": "es_MX",
     "platform": "tiendanube",
     "engine": "classic",
-    "lastModified": "2026-10-15T21:30:45.000Z",
-    "scrapedAt": "2026-11-22T18:39:57.664Z"
+    "lastModified": "2026-10-15T01:29:51.000Z",
+    "scrapedAt": "2026-11-23T22:55:46.487Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eucerin-anti-pigment-serum-corporal-para-areas-sensibles-1obnz/",
@@ -3431,71 +3495,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T00:58:41.000Z",
-    "scrapedAt": "2026-11-22T18:39:57.768Z"
-  },
-  {
-    "url": "https://dailyskincaremx.com/productos/la-roche-posay-effaclar-a-z-gel-crema-2mhtt/",
-    "productId": 306388608,
-    "name": "La Roche-Posay Effaclar A-Z Gel Crema",
-    "brand": "LA ROCHE-POSAY",
-    "description": "La Roche-Posay Effaclar A-Z Gel Crema, es un tratamiento diario para pieles con imperfecciones, diseñado para limpiar, tratar y prevenir granos, puntos negros y marcas residuales. Combina activos dermatológicos como ácido salicílico, niacinamida y prebióticos para exfoliar suavemente, reducir el brillo y fortalecer la barrera cutánea. 40ml.",
-    "categories": [
-      "Marcas",
-      "La Roche Posay"
-    ],
-    "tags": [
-      "La Roche-Posay Effaclar A-Z Gel Crema",
-      "disenado para limpiar",
-      "es un tratamiento diario para pieles con imperfecciones",
-      "puntos negros y marcas residuales.",
-      "tratar y prevenir granos"
-    ],
-    "price": 819,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 819,
-    "priceMax": 819,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 24,
-      "maxInterestFreeInstallments": 12,
-      "interestFreeInstallmentValue": 68.25,
-      "processor": "PayPal"
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 3,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 1,
-    "variants": [
-      {
-        "id": 1362025308,
-        "sku": null,
-        "price": 819,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {},
-        "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-effaclar-gel-crema-c57c7213723f93fde817628149275862-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-effaclar-gel-crema-c57c7213723f93fde817628149275862-1024-1024.webp"
-    ],
-    "image": "https://dcdn-us.mitiendanube.com/stores/001/934/203/products/la-roche-posay-effaclar-gel-crema-c57c7213723f93fde817628149275862-1024-1024.webp",
-    "weightKg": 0.06,
-    "storeName": "Dailyskincaremx",
-    "storeDomain": "dailyskincaremx.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-10-15T01:29:51.000Z",
-    "scrapedAt": "2026-11-22T18:39:57.999Z"
+    "scrapedAt": "2026-11-23T22:55:46.622Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/locion-corporal-eucerin-urearepair-plus-10-de-urea-pad6e/",
@@ -3557,7 +3557,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T00:17:22.000Z",
-    "scrapedAt": "2026-11-22T18:39:58.203Z"
+    "scrapedAt": "2026-11-23T22:55:46.679Z"
   },
   {
     "url": "https://dailyskincaremx.com/productos/eucerin-sun-hydro-protect-fluid-tinted-acabado-invisible-itc6m/",
@@ -3618,6 +3618,6 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-10-15T00:24:22.000Z",
-    "scrapedAt": "2026-11-22T18:39:58.303Z"
+    "scrapedAt": "2026-11-23T22:55:46.819Z"
   }
 ]

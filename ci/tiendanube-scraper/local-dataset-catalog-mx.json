@@ -26,7 +26,7 @@
     },
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": 100,
+    "stockTotal": 68,
     "stockUnlimited": false,
     "sku": null,
     "variantCount": 93,
@@ -37,7 +37,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 4,
+        "stock": 3,
         "available": true,
         "attributes": {
           "Color": "Azul marino",
@@ -121,8 +121,8 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
+        "stock": 0,
+        "available": false,
         "attributes": {
           "Color": "Azul rey",
           "formato": "50 gramos"
@@ -163,8 +163,8 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 2,
-        "available": true,
+        "stock": 0,
+        "available": false,
         "attributes": {
           "Color": "Uva",
           "formato": "50 gramos"
@@ -205,7 +205,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 3,
+        "stock": 2,
         "available": true,
         "attributes": {
           "Color": "Gris claro",
@@ -247,7 +247,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 4,
+        "stock": 2,
         "available": true,
         "attributes": {
           "Color": "Mango",
@@ -289,7 +289,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 2,
+        "stock": 1,
         "available": true,
         "attributes": {
           "Color": "Roble",
@@ -331,7 +331,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 4,
+        "stock": 1,
         "available": true,
         "attributes": {
           "Color": "Rosa mexicano",
@@ -373,7 +373,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 4,
+        "stock": 2,
         "available": true,
         "attributes": {
           "Color": "zanahoria",
@@ -415,8 +415,8 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
+        "stock": 0,
+        "available": false,
         "attributes": {
           "Color": "Vino",
           "formato": "50 gramos"
@@ -499,8 +499,8 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
+        "stock": 0,
+        "available": false,
         "attributes": {
           "Color": "terracota",
           "formato": "50 gramos"
@@ -541,7 +541,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 6,
+        "stock": 4,
         "available": true,
         "attributes": {
           "Color": "Rojo",
@@ -625,7 +625,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 4,
+        "stock": 1,
         "available": true,
         "attributes": {
           "Color": "Rosa Pastel",
@@ -667,8 +667,8 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
+        "stock": 0,
+        "available": false,
         "attributes": {
           "Color": "Verde Bandera",
           "formato": "50 gramos"
@@ -751,7 +751,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 2,
+        "stock": 1,
         "available": true,
         "attributes": {
           "Color": "Turquesa",
@@ -877,7 +877,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 4,
+        "stock": 3,
         "available": true,
         "attributes": {
           "Color": "Azul Acero",
@@ -919,8 +919,8 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 2,
-        "available": true,
+        "stock": 0,
+        "available": false,
         "attributes": {
           "Color": "Lila",
           "formato": "50 gramos"
@@ -961,7 +961,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 7,
+        "stock": 6,
         "available": true,
         "attributes": {
           "Color": "Verde Bosque",
@@ -1045,7 +1045,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 5,
+        "stock": 4,
         "available": true,
         "attributes": {
           "Color": "Musgo",
@@ -1129,7 +1129,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 5,
+        "stock": 4,
         "available": true,
         "attributes": {
           "Color": "Miel",
@@ -1171,7 +1171,7 @@
         "price": 49,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 2,
+        "stock": 1,
         "available": true,
         "attributes": {
           "Color": "Avellana",
@@ -1213,7 +1213,7 @@
         "price": 30,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 10,
+        "stock": 9,
         "available": true,
         "attributes": {
           "Color": "Crudo natural",
@@ -1255,7 +1255,7 @@
         "price": 30,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 5,
+        "stock": 4,
         "available": true,
         "attributes": {
           "Color": "Gris natural",
@@ -1297,7 +1297,7 @@
         "price": 35,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 4,
+        "stock": 3,
         "available": true,
         "attributes": {
           "Color": "Café natural",
@@ -1384,81 +1384,248 @@
     "language": "es_MX",
     "platform": "tiendanube",
     "engine": "classic",
-    "lastModified": "2026-11-14T23:10:45.000Z",
-    "scrapedAt": "2026-11-22T18:39:23.599Z"
+    "lastModified": "2026-11-20T00:33:10.000Z",
+    "scrapedAt": "2026-11-23T22:55:12.164Z"
   },
   {
-    "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/telar-de-marco-xl/",
-    "productId": 95783181,
-    "name": "Telar de marco",
+    "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/taller-de-tejido-de-frazadas-xl/",
+    "productId": 110177919,
+    "name": "Taller de Tejido de Frazadas XL",
     "brand": null,
-    "description": "Telar de marco** Por el momento todos los telares los manejamos por encargo y se fabrican al momento de hacer tu compra. Todos son hecho a mano en México con madera de pino y con los mejores acabados. Entregamos o hacemos el envío de 15 a 20 días naturales después de ser confirmada tu compra Este prodcuto inlcuye:1 telar y 2 piezas para sostener el telar * No incluye manual ni instrucciones, ni los materiales de las imágenes secundarias. Telar XLMedidas del telar son 95 cm alto x 90 cm anchoMedidas del tejido es 80 cm alto x 78 cm ancho Telar pequeño Medidas del telar son 50 cm alto x 50 cm anchoMedidas del tejido es 40 cm alto x 39 cm ancho",
+    "description": "Tejido de Frazadas XL Taller presencial En este taller aprenderás a tejer una frazada con tus manos simulando el tejido de 2 agujas. Trabajamos con nuestra lanita XL que es una delicia hilada a mano y es 100% lana mexicana. La lana es térmica y en el invierno será tu mejor aliada. El hilo de lana es fácil de manejar y el taller será para principiantes así que será muy fácil tejerla. El taller dura 1 sesión y todos los grupos son de 10 a 14 hrs (4 horas) Fechas: Grupo A - Sábado 5 de diciembre 2026 Grupo B- Jueves 3 de diciembre 2026 Frazada gris oscurso, gris claro o blanco crudoEstos son los tonos natuales del pelo del borrego.100 x 140 cm – incluye 4 madejas de Lana XL*120 x 160 cm – incluye 7 madejas de Lana XL* Frazada gris degradadoEstas madejas de lana están teñidas y el degradado se hace de forma semi manual. 115 x 155 cm - incluye 6 madejas de lana XL**En talleres no hay cambios ni devoluciones LugarLic. Julián Grajales Robles 16, Col. Del Valle Norte, Cdmx",
     "categories": [
-      "Materiales",
-      "Telares, bancos y más"
+      "Talleres Presenciales",
+      "CALENDARIO 2026",
+      "Diciembre"
     ],
     "tags": [],
-    "price": 890,
+    "price": 1950,
     "compareAtPrice": null,
     "promotionalPrice": null,
     "onSale": false,
     "discountPercent": null,
-    "priceMin": 890,
-    "priceMax": 1600,
+    "priceMin": 1950,
+    "priceMax": 3500,
     "currency": "MXN",
     "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
+      "maxInstallments": 3,
+      "maxInterestFreeInstallments": 3,
+      "interestFreeInstallmentValue": 650,
+      "processor": "Pago Nube"
     },
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": null,
-    "stockUnlimited": true,
+    "stockTotal": 34,
+    "stockUnlimited": false,
     "sku": null,
-    "variantCount": 2,
+    "variantCount": 13,
     "variants": [
       {
-        "id": 1542941784,
+        "id": 1009866737,
         "sku": null,
-        "price": 890,
+        "price": 1950,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": null,
+        "stock": 2,
         "available": true,
         "attributes": {
-          "Tamaño": "Pequeño"
+          "Color": "Gris Claro",
+          "Grupo": "Grupo A"
         },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_7366-1b6a751964293bf32717813710944358-1024-1024.webp"
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_4409-ccc75ffad347389d0917635806597577-1024-1024.webp"
       },
       {
-        "id": 1542941785,
+        "id": 1009866738,
         "sku": null,
-        "price": 1600,
+        "price": 1950,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": null,
+        "stock": 3,
         "available": true,
         "attributes": {
-          "Tamaño": "Grande"
+          "Color": "Crudo",
+          "Grupo": "Grupo A"
         },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_7366-1b6a751964293bf32717813710944358-1024-1024.webp"
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/141-7e42ae9ba8eb35ae1416436883724650-1024-1024.webp"
+      },
+      {
+        "id": 1369693581,
+        "sku": null,
+        "price": 1950,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 3,
+        "available": true,
+        "attributes": {
+          "Color": "Gris Oscuro",
+          "Grupo": "Grupo A"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/9366dff4-076b-433c-86a6-3f50fce159e8-a9e549d21d7b78d11a17635806388366-1024-1024.webp"
+      },
+      {
+        "id": 1009866739,
+        "sku": null,
+        "price": 1950,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 3,
+        "available": true,
+        "attributes": {
+          "Color": "Gris Claro",
+          "Grupo": "Grupo B"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_4409-ccc75ffad347389d0917635806597577-1024-1024.webp"
+      },
+      {
+        "id": 1009866740,
+        "sku": null,
+        "price": 1950,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 3,
+        "available": true,
+        "attributes": {
+          "Color": "Crudo",
+          "Grupo": "Grupo B"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/141-7e42ae9ba8eb35ae1416436883724650-1024-1024.webp"
+      },
+      {
+        "id": 1369693605,
+        "sku": null,
+        "price": 1950,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 3,
+        "available": true,
+        "attributes": {
+          "Color": "Gris Oscuro",
+          "Grupo": "Grupo B"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/9366dff4-076b-433c-86a6-3f50fce159e8-a9e549d21d7b78d11a17635806388366-1024-1024.webp"
+      },
+      {
+        "id": 1009866741,
+        "sku": null,
+        "price": 2950,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 3,
+        "available": true,
+        "attributes": {
+          "Color": "Gris Claro",
+          "Grupo": "Grupo A"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_4409-ccc75ffad347389d0917635806597577-1024-1024.webp"
+      },
+      {
+        "id": 1009866742,
+        "sku": null,
+        "price": 2950,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 3,
+        "available": true,
+        "attributes": {
+          "Color": "Crudo",
+          "Grupo": "Grupo A"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/241-b35e8886454b97393516436883721845-1024-1024.webp"
+      },
+      {
+        "id": 1369693627,
+        "sku": null,
+        "price": 2950,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 3,
+        "available": true,
+        "attributes": {
+          "Color": "Gris Oscuro",
+          "Grupo": "Grupo A"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/9366dff4-076b-433c-86a6-3f50fce159e8-a9e549d21d7b78d11a17635806388366-1024-1024.webp"
+      },
+      {
+        "id": 1381044809,
+        "sku": null,
+        "price": 3500,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {
+          "Color": "Degradado en gris",
+          "Grupo": "Grupo A"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_5643-f88134ae88919ef1b017648897787980-1024-1024.webp"
+      },
+      {
+        "id": 1009866744,
+        "sku": null,
+        "price": 2950,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {
+          "Color": "Gris Claro",
+          "Grupo": "Grupo B"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_4409-ccc75ffad347389d0917635806597577-1024-1024.webp"
+      },
+      {
+        "id": 1009866745,
+        "sku": null,
+        "price": 2950,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 3,
+        "available": true,
+        "attributes": {
+          "Color": "Crudo",
+          "Grupo": "Grupo B"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/241-b35e8886454b97393516436883721845-1024-1024.webp"
+      },
+      {
+        "id": 1369693641,
+        "sku": null,
+        "price": 2950,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 3,
+        "available": true,
+        "attributes": {
+          "Color": "Gris Oscuro",
+          "Grupo": "Grupo B"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/9366dff4-076b-433c-86a6-3f50fce159e8-a9e549d21d7b78d11a17635806388366-1024-1024.webp"
       }
     ],
     "images": [
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_7366-1b6a751964293bf32717813710944358-1024-1024.webp"
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/321-b832c9306bf8e1204716436883721509-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/141-7e42ae9ba8eb35ae1416436883724650-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/241-b35e8886454b97393516436883721845-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/421-fb0a868740d1b43ac016436883723243-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/611-6330aa472ba7506c0516436883720881-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/921-b7a1a13965d471434e16436883725508-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/101-4315191a3dae2cc0e616436883713050-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/639cfc1a-810a-4873-96fc-3d981efff7eb-94be60582d44d2c41117635805986780-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/9366dff4-076b-433c-86a6-3f50fce159e8-a9e549d21d7b78d11a17635806388366-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_4409-ccc75ffad347389d0917635806597577-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_5643-f88134ae88919ef1b017648897787980-1024-1024.webp"
     ],
-    "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_7366-1b6a751964293bf32717813710944358-1024-1024.webp",
-    "weightKg": 2,
+    "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/321-b832c9306bf8e1204716436883721509-1024-1024.webp",
+    "weightKg": null,
     "storeName": "Taller Textil Dos Coyotes",
     "storeDomain": "tallertextildoscoyotes.mitiendanube.com",
     "country": "MX",
     "language": "es_MX",
     "platform": "tiendanube",
     "engine": "classic",
-    "lastModified": "2026-11-14T20:41:52.000Z",
-    "scrapedAt": "2026-11-22T18:39:23.794Z"
+    "lastModified": "2026-11-19T15:45:15.000Z",
+    "scrapedAt": "2026-11-23T22:55:12.434Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/lunes-de-tejido/",
@@ -1793,508 +1960,8 @@
     "language": "es_MX",
     "platform": "tiendanube",
     "engine": "classic",
-    "lastModified": "2026-11-13T18:49:34.000Z",
-    "scrapedAt": "2026-11-22T18:39:24.156Z"
-  },
-  {
-    "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/cesteria-basket-weaving-b9k4h/",
-    "productId": 291792321,
-    "name": "Cestería Libre",
-    "brand": null,
-    "description": "Cesteríapor Adriana Villanueva Ya está abierta la Temporada de Cestería en este 2026 🍃 este taller será un espacio donde cada asistente marcará su ruta de aprendizaje, podrás elegir la técnica/material que quieras experimentar: mimbre, palma, sudanesa, con estructuras y/o contemporánea, por esta razón la nombramos taller de Cesteria Libre. La temporada será de septiembre a noviembre puedes pagar por sesión o por paquete de sesiones que podrás tomar en un período de 3 meses. Una vez hecha tu compra te contactaremos para que agendes las sesiones de tu clase.Este taller es de mucha experimentación, textura y buena onda ☕️✨ En la galería de fotos les compartimos las fotos de los tejidos de los alumn@s del taller, cualquier duda escríbanme. Aquí les dejo los links con el contenido de los talleresCesteria en MimbreCesteria en PalmaCesteria SudanesaCesteria ContemporáneaCesteria AplicadaCesteria con estructuras¿Quién puede tomar el taller?Este taller es para tod@s l@s interesados en experimentar y aplicar técnicas tradicionales a tejidos contemporáneos. Fechas 2026Grupo A- sábados del 5 de septiembre al 28 de noviembre de 10 am a 2 pmExcepto estos sábados: 14 de noviembre Grupo B- miércoles del 2 de septiembre al 25 de noviembre de 10 am a 2 pmExcepto el miércoles 16 de septiembre Materiales Los materiales textiles incluidos: mimbre, palma, hilos y cordones de diferentes grosores.(sólo en el aso de que quieras tejer sobre una estructura de metal o madera, tú deberás de traerla)Materiales que el alumn@ deberá de traer: tijeras, cutter, esponja, atomizador y mandil *en talleres no hay cambios ni devoluciones LugarTaller Textil Dos CoyotesLic. Julián Grajales Robles 16Col. Del Valle NorteCdmx",
-    "categories": [
-      "Talleres Presenciales",
-      "CALENDARIO 2026",
-      "Enero"
-    ],
-    "tags": [],
-    "price": 500,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 500,
-    "priceMax": 4320,
-    "currency": "MXN",
-    "installments": {
-      "maxInstallments": 1,
-      "maxInterestFreeInstallments": 1,
-      "interestFreeInstallmentValue": null,
-      "processor": null
-    },
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 37,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 8,
-    "variants": [
-      {
-        "id": 1559635845,
-        "sku": null,
-        "price": 500,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 9,
-        "available": true,
-        "attributes": {
-          "Sesiones": "1  sesión",
-          "Grupo": "Grupo A"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/dbe25523-dc1f-45cf-a941-8f860ee6ca2e-cbd5264229e540e96317569232649450-1024-1024.jpeg"
-      },
-      {
-        "id": 1559635846,
-        "sku": null,
-        "price": 500,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 8,
-        "available": true,
-        "attributes": {
-          "Sesiones": "1  sesión",
-          "Grupo": "Grupo B"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/dbe25523-dc1f-45cf-a941-8f860ee6ca2e-cbd5264229e540e96317569232649450-1024-1024.jpeg"
-      },
-      {
-        "id": 1559635847,
-        "sku": null,
-        "price": 1800,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 10,
-        "available": true,
-        "attributes": {
-          "Sesiones": "4 sesiones",
-          "Grupo": "Grupo A"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9635-4e08bbad9d21dcf5ec17585126642516-1024-1024.webp"
-      },
-      {
-        "id": 1559635848,
-        "sku": null,
-        "price": 1800,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 10,
-        "available": true,
-        "attributes": {
-          "Sesiones": "4 sesiones",
-          "Grupo": "Grupo B"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9635-4e08bbad9d21dcf5ec17585126642516-1024-1024.webp"
-      },
-      {
-        "id": 1559635849,
-        "sku": null,
-        "price": 3200,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Sesiones": "8 sesiones",
-          "Grupo": "Grupo A"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_5587-e1860b740ca89bf78817585126631917-1024-1024.webp"
-      },
-      {
-        "id": 1559635850,
-        "sku": null,
-        "price": 3200,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Sesiones": "8 sesiones",
-          "Grupo": "Grupo B"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_5587-e1860b740ca89bf78817585126631917-1024-1024.webp"
-      },
-      {
-        "id": 1559635851,
-        "sku": null,
-        "price": 4320,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Sesiones": "12 sesiones",
-          "Grupo": "Grupo A"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9929-09aadd224a06b2f5b517585126632417-1024-1024.webp"
-      },
-      {
-        "id": 1559635853,
-        "sku": null,
-        "price": 4320,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Sesiones": "12 sesiones",
-          "Grupo": "Grupo B"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9929-09aadd224a06b2f5b517585126632417-1024-1024.webp"
-      }
-    ],
-    "images": [
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9346-a21e718c0d9fc63d4c17585126641187-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9635-4e08bbad9d21dcf5ec17585126642516-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/dbe25523-dc1f-45cf-a941-8f860ee6ca2e-cbd5264229e540e96317569232649450-1024-1024.jpeg",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9929-09aadd224a06b2f5b517585126632417-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0551-9873b7cd837b6b932617585126638231-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0642-b5da60fdbf9b33f66617585126637696-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_3096-4041ad763f05cd730f17569232823894-1024-1024.jpeg",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9144-eadc39f600b41570e217585126644367-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9633-05c16a8a6f841f018d17585126638528-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_5587-e1860b740ca89bf78817585126631917-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9631-5e0dae79af4534f6f417585126623787-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9271-f8df619b0c381967f817585126639772-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_1136-4c9d9942338bf989f417569232684756-1024-1024.jpeg",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/4cfb000a-9cb4-48eb-8e85-4c7716634fb9-8b0d46734a9222de5517569232778058-1024-1024.jpeg"
-    ],
-    "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_9346-a21e718c0d9fc63d4c17585126641187-1024-1024.webp",
-    "weightKg": null,
-    "storeName": "Taller Textil Dos Coyotes",
-    "storeDomain": "tallertextildoscoyotes.mitiendanube.com",
-    "country": "MX",
-    "language": "es_MX",
-    "platform": "tiendanube",
-    "engine": "classic",
-    "lastModified": "2026-11-13T17:35:46.000Z",
-    "scrapedAt": "2026-11-22T18:39:24.461Z"
-  },
-  {
-    "url": "https://peek-store.com/productos/mystery-trio-1kg8e",
-    "productId": 381057120,
-    "name": "Mistery: TRÍO.",
-    "brand": null,
-    "description": "3 piezas sacadas directamente de nuestro clóset maaaaas personal . Puedes elegir la de tu categoría preferida , pero recuerda que no perderá el factor sorpresa! ¿Te atreves?👁️ 🚨Hey! cosas que debes saber: CHIC: puede incluir prendas más femeninas como escotes , faldas , vestidos. TOM B: puede incluir prendas más masculinas como camisas , pantalones , chamarras.",
-    "categories": [
-      "By Charles Ans",
-      "Colabs by Peek",
-      "Exclusive Peek"
-    ],
-    "tags": [],
-    "price": null,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 300,
-    "priceMax": 300,
-    "currency": "MXN",
-    "installments": null,
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 13,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 6,
-    "variants": [
-      {
-        "id": 1639100771,
-        "sku": null,
-        "price": 300,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Mystery": "Camisetas L/XL"
-        },
-        "image": null
-      },
-      {
-        "id": 1639100772,
-        "sku": null,
-        "price": 300,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Mystery": "Camisetas XXL"
-        },
-        "image": null
-      },
-      {
-        "id": 1639100773,
-        "sku": null,
-        "price": 300,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Mystery": "Camisetas XXXL"
-        },
-        "image": null
-      },
-      {
-        "id": 1639100774,
-        "sku": null,
-        "price": 300,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Mystery": "Tom B"
-        },
-        "image": null
-      },
-      {
-        "id": 1639100775,
-        "sku": null,
-        "price": null,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 10,
-        "available": true,
-        "attributes": {
-          "Mystery": "Chic s/m"
-        },
-        "image": null
-      },
-      {
-        "id": 1639100776,
-        "sku": null,
-        "price": null,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {
-          "Mystery": "Chic L/XL"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000563644-de70e99e359c388fad17946109623744-1024-1024.jpg"
-      }
-    ],
-    "images": [
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000563644-de70e99e359c388fad17946109623744-1024-1024.jpg"
-    ],
-    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000563644-de70e99e359c388fad17946109623744-1024-1024.jpg",
-    "weightKg": null,
-    "storeName": "Peek Store",
-    "storeDomain": "peek-store.com",
-    "country": "MX",
-    "language": "es",
-    "platform": "tiendanube",
-    "engine": "next",
-    "lastModified": "2026-11-14T18:00:09.000Z",
-    "scrapedAt": "2026-11-22T18:39:25.324Z"
-  },
-  {
-    "url": "https://peek-store.com/productos/mystery-baby-ibn43",
-    "productId": 381066462,
-    "name": "Mistery: BABY BOX.",
-    "brand": null,
-    "description": "3 piezas especiales para tu peque , puedes elegir para mayor o menor de 18 meses!",
-    "categories": [
-      "By Charles Ans",
-      "Peek Kiddos"
-    ],
-    "tags": [],
-    "price": 50,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 50,
-    "priceMax": 50,
-    "currency": "MXN",
-    "installments": null,
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 2,
-    "variants": [
-      {
-        "id": 1639104160,
-        "sku": null,
-        "price": 50,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Talla": "+18M"
-        },
-        "image": null
-      },
-      {
-        "id": 1639104161,
-        "sku": null,
-        "price": 50,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {
-          "Talla": "-18M"
-        },
-        "image": null
-      }
-    ],
-    "images": [
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000563644-e4b7f6e3aa2bb2f20417946113239127-1024-1024.jpg"
-    ],
-    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000563644-e4b7f6e3aa2bb2f20417946113239127-1024-1024.jpg",
-    "weightKg": null,
-    "storeName": "Peek Store",
-    "storeDomain": "peek-store.com",
-    "country": "MX",
-    "language": "es",
-    "platform": "tiendanube",
-    "engine": "next",
-    "lastModified": "2026-11-14T18:42:12.000Z",
-    "scrapedAt": "2026-11-22T18:39:25.671Z"
-  },
-  {
-    "url": "https://peek-store.com/productos/tisha-bendiceme",
-    "productId": 321284040,
-    "name": "Tisha Bendíceme",
-    "brand": null,
-    "description": "Icónica canción de Charles Ans ft Juaninacka perteneciente a su disco LADO A. Esta pieza fue creada para el rodaje del videoclip oficial y la trajimos disponible a la tienda para ustedes.",
-    "categories": [
-      "By Charles Ans"
-    ],
-    "tags": [],
-    "price": 600,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 600,
-    "priceMax": 600,
-    "currency": "MXN",
-    "installments": null,
-    "availability": "OutOfStock",
-    "inStock": false,
-    "stockTotal": 0,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 2,
-    "variants": [
-      {
-        "id": 1424187492,
-        "sku": null,
-        "price": 600,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Color": "NEGRA"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/11-tisha-bendiceme-negra-3a26b8dc286167dc9d17699004798242-1024-1024.jpg"
-      },
-      {
-        "id": 1424187508,
-        "sku": null,
-        "price": 600,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Color": "BLANCA"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-tisha-bendiceme-blanca-853285ae7d6f34e83517699004830053-1024-1024.jpg"
-      }
-    ],
-    "images": [
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-11-tisha-bendiceme-978ab1007c165652a417699004860046-1024-1024.jpg",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/11-tisha-bendiceme-negra-3a26b8dc286167dc9d17699004798242-1024-1024.jpg",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-11-tisha-bendiceme-e327aa60b3534b013b17699004897472-1024-1024.jpg",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-tisha-bendiceme-blanca-853285ae7d6f34e83517699004830053-1024-1024.jpg"
-    ],
-    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-11-tisha-bendiceme-978ab1007c165652a417699004860046-1024-1024.jpg",
-    "weightKg": null,
-    "storeName": "Peek Store",
-    "storeDomain": "peek-store.com",
-    "country": "MX",
-    "language": "es",
-    "platform": "tiendanube",
-    "engine": "next",
-    "lastModified": "2026-11-14T17:05:01.000Z",
-    "scrapedAt": "2026-11-22T18:39:25.724Z"
-  },
-  {
-    "url": "https://peek-store.com/productos/cd-lrds-p3r2q",
-    "productId": 321285761,
-    "name": "CD LRDS",
-    "brand": null,
-    "description": "CD físico original de LRDS by Charles Ans",
-    "categories": [
-      "By Charles Ans"
-    ],
-    "tags": [],
-    "price": 350,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 350,
-    "priceMax": 450,
-    "currency": "MXN",
-    "installments": null,
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 16,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 2,
-    "variants": [
-      {
-        "id": 1424183290,
-        "sku": null,
-        "price": 450,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Con o Sin Firma": "Con Firma"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/8-cd-lrds-f4a868e3d50068a73417699003305283-1024-1024.png"
-      },
-      {
-        "id": 1424183293,
-        "sku": null,
-        "price": 350,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 16,
-        "available": true,
-        "attributes": {
-          "Con o Sin Firma": "Sin Firma"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png"
-      }
-    ],
-    "images": [
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/8-cd-lrds-f4a868e3d50068a73417699003305283-1024-1024.png"
-    ],
-    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png",
-    "weightKg": null,
-    "storeName": "Peek Store",
-    "storeDomain": "peek-store.com",
-    "country": "MX",
-    "language": "es",
-    "platform": "tiendanube",
-    "engine": "next",
-    "lastModified": "2026-11-14T15:36:33.000Z",
-    "scrapedAt": "2026-11-22T18:39:26.074Z"
+    "lastModified": "2026-11-19T15:44:09.000Z",
+    "scrapedAt": "2026-11-23T22:55:12.743Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/jueves-crochetero-after-office/",
@@ -2435,239 +2102,329 @@
     "language": "es_MX",
     "platform": "tiendanube",
     "engine": "classic",
-    "lastModified": "2026-11-13T16:55:24.000Z",
-    "scrapedAt": "2026-11-22T18:39:26.453Z"
+    "lastModified": "2026-11-19T15:44:04.000Z",
+    "scrapedAt": "2026-11-23T22:55:12.957Z"
   },
   {
-    "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/taller-de-tejido-de-frazadas-xl/",
-    "productId": 110177919,
-    "name": "Taller de Tejido de Frazadas XL",
+    "url": "https://peek-store.com/productos/mystery-baby-ibn43",
+    "productId": 381066462,
+    "name": "Mistery: BABY BOX.",
     "brand": null,
-    "description": "Tejido de Frazadas XL Taller presencial En este taller aprenderás a tejer una frazada con tus manos simulando el tejido de 2 agujas. Trabajamos con nuestra lanita XL que es una delicia hilada a mano y es 100% lana mexicana. La lana es térmica y en el invierno será tu mejor aliada. El hilo de lana es fácil de manejar y el taller será para principiantes así que será muy fácil tejerla. El taller dura 1 sesión y todos los grupos son de 10 a 14 hrs (4 horas) Fechas: Grupo A - Sábado 5 de diciembre 2026 Grupo B- Jueves 3 de diciembre 2026 Frazada gris oscurso, gris claro o blanco crudoEstos son los tonos natuales del pelo del borrego.100 x 140 cm – incluye 4 madejas de Lana XL*120 x 160 cm – incluye 7 madejas de Lana XL* Frazada gris degradadoEstas madejas de lana están teñidas y el degradado se hace de forma semi manual. 115 x 155 cm - incluye 6 madejas de lana XL**En talleres no hay cambios ni devoluciones LugarLic. Julián Grajales Robles 16, Col. Del Valle Norte, Cdmx",
+    "description": "3 piezas especiales para tu peque , puedes elegir para mayor o menor de 18 meses!",
     "categories": [
-      "Talleres Presenciales",
-      "CALENDARIO 2026",
-      "Diciembre"
+      "By Charles Ans",
+      "Peek Kiddos"
     ],
     "tags": [],
-    "price": 1950,
+    "price": 50,
     "compareAtPrice": null,
     "promotionalPrice": null,
     "onSale": false,
     "discountPercent": null,
-    "priceMin": 1950,
-    "priceMax": 3500,
+    "priceMin": 50,
+    "priceMax": 50,
     "currency": "MXN",
-    "installments": {
-      "maxInstallments": 3,
-      "maxInterestFreeInstallments": 3,
-      "interestFreeInstallmentValue": 650,
-      "processor": "Pago Nube"
-    },
+    "installments": null,
     "availability": "InStock",
     "inStock": true,
-    "stockTotal": 34,
+    "stockTotal": 1,
     "stockUnlimited": false,
     "sku": null,
-    "variantCount": 13,
+    "variantCount": 2,
     "variants": [
       {
-        "id": 1009866737,
+        "id": 1639104160,
         "sku": null,
-        "price": 1950,
+        "price": 50,
         "compareAtPrice": null,
         "promotionalPrice": null,
-        "stock": 2,
-        "available": true,
+        "stock": 0,
+        "available": false,
         "attributes": {
-          "Color": "Gris Claro",
-          "Grupo": "Grupo A"
+          "Talla": "+18M"
         },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_4409-ccc75ffad347389d0917635806597577-1024-1024.webp"
+        "image": null
       },
       {
-        "id": 1009866738,
+        "id": 1639104161,
         "sku": null,
-        "price": 1950,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {
-          "Color": "Crudo",
-          "Grupo": "Grupo A"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/141-7e42ae9ba8eb35ae1416436883724650-1024-1024.webp"
-      },
-      {
-        "id": 1369693581,
-        "sku": null,
-        "price": 1950,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {
-          "Color": "Gris Oscuro",
-          "Grupo": "Grupo A"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/9366dff4-076b-433c-86a6-3f50fce159e8-a9e549d21d7b78d11a17635806388366-1024-1024.webp"
-      },
-      {
-        "id": 1009866739,
-        "sku": null,
-        "price": 1950,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {
-          "Color": "Gris Claro",
-          "Grupo": "Grupo B"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_4409-ccc75ffad347389d0917635806597577-1024-1024.webp"
-      },
-      {
-        "id": 1009866740,
-        "sku": null,
-        "price": 1950,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {
-          "Color": "Crudo",
-          "Grupo": "Grupo B"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/141-7e42ae9ba8eb35ae1416436883724650-1024-1024.webp"
-      },
-      {
-        "id": 1369693605,
-        "sku": null,
-        "price": 1950,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {
-          "Color": "Gris Oscuro",
-          "Grupo": "Grupo B"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/9366dff4-076b-433c-86a6-3f50fce159e8-a9e549d21d7b78d11a17635806388366-1024-1024.webp"
-      },
-      {
-        "id": 1009866741,
-        "sku": null,
-        "price": 2950,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {
-          "Color": "Gris Claro",
-          "Grupo": "Grupo A"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_4409-ccc75ffad347389d0917635806597577-1024-1024.webp"
-      },
-      {
-        "id": 1009866742,
-        "sku": null,
-        "price": 2950,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {
-          "Color": "Crudo",
-          "Grupo": "Grupo A"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/241-b35e8886454b97393516436883721845-1024-1024.webp"
-      },
-      {
-        "id": 1369693627,
-        "sku": null,
-        "price": 2950,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {
-          "Color": "Gris Oscuro",
-          "Grupo": "Grupo A"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/9366dff4-076b-433c-86a6-3f50fce159e8-a9e549d21d7b78d11a17635806388366-1024-1024.webp"
-      },
-      {
-        "id": 1381044809,
-        "sku": null,
-        "price": 3500,
+        "price": 50,
         "compareAtPrice": null,
         "promotionalPrice": null,
         "stock": 1,
         "available": true,
         "attributes": {
-          "Color": "Degradado en gris",
-          "Grupo": "Grupo A"
+          "Talla": "-18M"
         },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_5643-f88134ae88919ef1b017648897787980-1024-1024.webp"
-      },
-      {
-        "id": 1009866744,
-        "sku": null,
-        "price": 2950,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {
-          "Color": "Gris Claro",
-          "Grupo": "Grupo B"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_4409-ccc75ffad347389d0917635806597577-1024-1024.webp"
-      },
-      {
-        "id": 1009866745,
-        "sku": null,
-        "price": 2950,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {
-          "Color": "Crudo",
-          "Grupo": "Grupo B"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/241-b35e8886454b97393516436883721845-1024-1024.webp"
-      },
-      {
-        "id": 1369693641,
-        "sku": null,
-        "price": 2950,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 3,
-        "available": true,
-        "attributes": {
-          "Color": "Gris Oscuro",
-          "Grupo": "Grupo B"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/9366dff4-076b-433c-86a6-3f50fce159e8-a9e549d21d7b78d11a17635806388366-1024-1024.webp"
+        "image": null
       }
     ],
     "images": [
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/321-b832c9306bf8e1204716436883721509-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/141-7e42ae9ba8eb35ae1416436883724650-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/241-b35e8886454b97393516436883721845-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/421-fb0a868740d1b43ac016436883723243-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/611-6330aa472ba7506c0516436883720881-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/921-b7a1a13965d471434e16436883725508-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/101-4315191a3dae2cc0e616436883713050-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/639cfc1a-810a-4873-96fc-3d981efff7eb-94be60582d44d2c41117635805986780-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/9366dff4-076b-433c-86a6-3f50fce159e8-a9e549d21d7b78d11a17635806388366-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_4409-ccc75ffad347389d0917635806597577-1024-1024.webp",
-      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_5643-f88134ae88919ef1b017648897787980-1024-1024.webp"
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000563644-e4b7f6e3aa2bb2f20417946113239127-1024-1024.jpg"
     ],
-    "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/321-b832c9306bf8e1204716436883721509-1024-1024.webp",
+    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000563644-e4b7f6e3aa2bb2f20417946113239127-1024-1024.jpg",
+    "weightKg": null,
+    "storeName": "Peek Store",
+    "storeDomain": "peek-store.com",
+    "country": "MX",
+    "language": "es",
+    "platform": "tiendanube",
+    "engine": "next",
+    "lastModified": "2026-11-14T18:42:12.000Z",
+    "scrapedAt": "2026-11-23T22:55:13.691Z"
+  },
+  {
+    "url": "https://peek-store.com/productos/mystery-trio-1kg8e",
+    "productId": 381057120,
+    "name": "Mistery: TRÍO.",
+    "brand": null,
+    "description": "3 piezas sacadas directamente de nuestro clóset maaaaas personal . Puedes elegir la de tu categoría preferida , pero recuerda que no perderá el factor sorpresa! ¿Te atreves?👁️ 🚨Hey! cosas que debes saber: CHIC: puede incluir prendas más femeninas como escotes , faldas , vestidos. TOM B: puede incluir prendas más masculinas como camisas , pantalones , chamarras.",
+    "categories": [
+      "By Charles Ans",
+      "Colabs by Peek",
+      "Exclusive Peek"
+    ],
+    "tags": [],
+    "price": null,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 300,
+    "priceMax": 300,
+    "currency": "MXN",
+    "installments": null,
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 13,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 6,
+    "variants": [
+      {
+        "id": 1639100771,
+        "sku": null,
+        "price": 300,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 0,
+        "available": false,
+        "attributes": {
+          "Mystery": "Camisetas L/XL"
+        },
+        "image": null
+      },
+      {
+        "id": 1639100772,
+        "sku": null,
+        "price": 300,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 0,
+        "available": false,
+        "attributes": {
+          "Mystery": "Camisetas XXL"
+        },
+        "image": null
+      },
+      {
+        "id": 1639100773,
+        "sku": null,
+        "price": 300,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 0,
+        "available": false,
+        "attributes": {
+          "Mystery": "Camisetas XXXL"
+        },
+        "image": null
+      },
+      {
+        "id": 1639100774,
+        "sku": null,
+        "price": 300,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 0,
+        "available": false,
+        "attributes": {
+          "Mystery": "Tom B"
+        },
+        "image": null
+      },
+      {
+        "id": 1639100775,
+        "sku": null,
+        "price": null,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 10,
+        "available": true,
+        "attributes": {
+          "Mystery": "Chic s/m"
+        },
+        "image": null
+      },
+      {
+        "id": 1639100776,
+        "sku": null,
+        "price": null,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 3,
+        "available": true,
+        "attributes": {
+          "Mystery": "Chic L/XL"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000563644-de70e99e359c388fad17946109623744-1024-1024.jpg"
+      }
+    ],
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000563644-de70e99e359c388fad17946109623744-1024-1024.jpg"
+    ],
+    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000563644-de70e99e359c388fad17946109623744-1024-1024.jpg",
+    "weightKg": null,
+    "storeName": "Peek Store",
+    "storeDomain": "peek-store.com",
+    "country": "MX",
+    "language": "es",
+    "platform": "tiendanube",
+    "engine": "next",
+    "lastModified": "2026-11-14T18:00:09.000Z",
+    "scrapedAt": "2026-11-23T22:55:14.026Z"
+  },
+  {
+    "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/jueves-crochetero-after-office-copia/",
+    "productId": 199901449,
+    "name": "Martes de KNITTING - tejido con agujas",
+    "brand": null,
+    "description": "Martes de KNITTING- tejido con agujas - En este taller aprenderás a tejer con 2 o más agujas :) es un espacio de experimentación, creatividad y exploración de formas a través del tejido donde conviven principiantes y avanzados. El taller es guíado por Mariana Ampudia, gran tejedora y maestra del tejido con agujas. ¡Trae tu proyecto y aquí le damos forma!Horarios y fechas6.30 a 8.30 pmTodos los martesPuedes pagar por clase o por paquete de sesiones. MaterialesTenemos una caja de texturas con diversos materiales para que puedas empezar con tus pininos de tejido y experimentar. Si quieres hacer un proyecto en específico puedes traer tu material o comprar en la tiendita Dos Coyotes. LugarLic. Julián Grajales Robles 16, col. Del Valle, Cdmx ** KNITTING CLUBKnitting Club is a class you will discover the joyfull of knittng with Mariana, an excelent mexican teacher who will guide you in the learn proccess. In this workshop you will learn how to knit with 2 or 5 needles, all interested learnes are wealcome no matter what your current level expertise is. Our classes are designed to focus on a learned skill rather than a final product. All yarn from first steps knitting are included. Any additional yarn, knitting desing or pattern will need to be supplied by the student. The class is every Tuesday from 6.30 pm to 8.30 pmPrices:Pay per class - 500 pesos *Package of four sessions - 1800 pesos*Package of ten sessions - 4000 pesos*There are no returns or exchanges*",
+    "categories": [
+      "Talleres Presenciales",
+      "CALENDARIO 2026",
+      "Enero"
+    ],
+    "tags": [],
+    "price": 350,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 350,
+    "priceMax": 4000,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": null,
+    "stockUnlimited": true,
+    "sku": null,
+    "variantCount": 6,
+    "variants": [
+      {
+        "id": 1389314778,
+        "sku": null,
+        "price": 350,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": null,
+        "available": true,
+        "attributes": {
+          "Sesiones": "1 sesión",
+          "Idioma": "Clase en español"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_6994-9d85e0cde941adc90817070881576457-1024-1024.webp"
+      },
+      {
+        "id": 1389314793,
+        "sku": null,
+        "price": 500,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": null,
+        "available": true,
+        "attributes": {
+          "Sesiones": "1 sesión",
+          "Idioma": "Class in english"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_6994-9d85e0cde941adc90817070881576457-1024-1024.webp"
+      },
+      {
+        "id": 1389314806,
+        "sku": null,
+        "price": 1200,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": null,
+        "available": true,
+        "attributes": {
+          "Sesiones": "4 sesiones",
+          "Idioma": "Clase en español"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_6994-9d85e0cde941adc90817070881576457-1024-1024.webp"
+      },
+      {
+        "id": 1389314820,
+        "sku": null,
+        "price": 1800,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": null,
+        "available": true,
+        "attributes": {
+          "Sesiones": "4 sesiones",
+          "Idioma": "Class in english"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_6994-9d85e0cde941adc90817070881576457-1024-1024.webp"
+      },
+      {
+        "id": 1389314831,
+        "sku": null,
+        "price": 2700,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": null,
+        "available": true,
+        "attributes": {
+          "Sesiones": "10 seseiones",
+          "Idioma": "Clase en español"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_6994-9d85e0cde941adc90817070881576457-1024-1024.webp"
+      },
+      {
+        "id": 1389314842,
+        "sku": null,
+        "price": 4000,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": null,
+        "available": true,
+        "attributes": {
+          "Sesiones": "10 seseiones",
+          "Idioma": "Class in english"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_6994-9d85e0cde941adc90817070881576457-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_6994-9d85e0cde941adc90817070881576457-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_6987-e396d5ab63db4d997a17070879732483-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_6974-f5d989fd7f653a8b3717070879765981-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_6965-100c48806c6ac11d3417070879657426-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_6916-7dfa733ab504cd6b9f17070879732644-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_6951-d8eea035d3bcadecff17070879739874-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_6945-e1086c113fd8728efc17070879743253-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_6925-aa23d5e5c1529bd2e417070879760588-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_6997-930bf5b7a6f136c5fc17070879688167-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_6888-fa8b1c70d62e25292917070879721135-1024-1024.webp"
+    ],
+    "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_6994-9d85e0cde941adc90817070881576457-1024-1024.webp",
     "weightKg": null,
     "storeName": "Taller Textil Dos Coyotes",
     "storeDomain": "tallertextildoscoyotes.mitiendanube.com",
@@ -2675,8 +2432,207 @@
     "language": "es_MX",
     "platform": "tiendanube",
     "engine": "classic",
-    "lastModified": "2026-11-13T17:02:31.000Z",
-    "scrapedAt": "2026-11-22T18:39:26.690Z"
+    "lastModified": "2026-11-19T15:43:51.000Z",
+    "scrapedAt": "2026-11-23T22:55:14.592Z"
+  },
+  {
+    "url": "https://peek-store.com/productos/tisha-bendiceme",
+    "productId": 321284040,
+    "name": "Tisha Bendíceme",
+    "brand": null,
+    "description": "Icónica canción de Charles Ans ft Juaninacka perteneciente a su disco LADO A. Esta pieza fue creada para el rodaje del videoclip oficial y la trajimos disponible a la tienda para ustedes.",
+    "categories": [
+      "By Charles Ans"
+    ],
+    "tags": [],
+    "price": 600,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 600,
+    "priceMax": 600,
+    "currency": "MXN",
+    "installments": null,
+    "availability": "OutOfStock",
+    "inStock": false,
+    "stockTotal": 0,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 2,
+    "variants": [
+      {
+        "id": 1424187492,
+        "sku": null,
+        "price": 600,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 0,
+        "available": false,
+        "attributes": {
+          "Color": "NEGRA"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/11-tisha-bendiceme-negra-3a26b8dc286167dc9d17699004798242-1024-1024.jpg"
+      },
+      {
+        "id": 1424187508,
+        "sku": null,
+        "price": 600,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 0,
+        "available": false,
+        "attributes": {
+          "Color": "BLANCA"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-tisha-bendiceme-blanca-853285ae7d6f34e83517699004830053-1024-1024.jpg"
+      }
+    ],
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-11-tisha-bendiceme-978ab1007c165652a417699004860046-1024-1024.jpg",
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/11-tisha-bendiceme-negra-3a26b8dc286167dc9d17699004798242-1024-1024.jpg",
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-11-tisha-bendiceme-e327aa60b3534b013b17699004897472-1024-1024.jpg",
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-tisha-bendiceme-blanca-853285ae7d6f34e83517699004830053-1024-1024.jpg"
+    ],
+    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/10-11-tisha-bendiceme-978ab1007c165652a417699004860046-1024-1024.jpg",
+    "weightKg": null,
+    "storeName": "Peek Store",
+    "storeDomain": "peek-store.com",
+    "country": "MX",
+    "language": "es",
+    "platform": "tiendanube",
+    "engine": "next",
+    "lastModified": "2026-11-14T17:05:01.000Z",
+    "scrapedAt": "2026-11-23T22:55:14.619Z"
+  },
+  {
+    "url": "https://peek-store.com/productos/cd-lrds-p3r2q",
+    "productId": 321285761,
+    "name": "CD LRDS",
+    "brand": null,
+    "description": "CD físico original de LRDS by Charles Ans",
+    "categories": [
+      "By Charles Ans"
+    ],
+    "tags": [],
+    "price": 350,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 350,
+    "priceMax": 450,
+    "currency": "MXN",
+    "installments": null,
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 16,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 2,
+    "variants": [
+      {
+        "id": 1424183290,
+        "sku": null,
+        "price": 450,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 0,
+        "available": false,
+        "attributes": {
+          "Con o Sin Firma": "Con Firma"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/8-cd-lrds-f4a868e3d50068a73417699003305283-1024-1024.png"
+      },
+      {
+        "id": 1424183293,
+        "sku": null,
+        "price": 350,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 16,
+        "available": true,
+        "attributes": {
+          "Con o Sin Firma": "Sin Firma"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png"
+      }
+    ],
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png",
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/8-cd-lrds-f4a868e3d50068a73417699003305283-1024-1024.png"
+    ],
+    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png",
+    "weightKg": null,
+    "storeName": "Peek Store",
+    "storeDomain": "peek-store.com",
+    "country": "MX",
+    "language": "es",
+    "platform": "tiendanube",
+    "engine": "next",
+    "lastModified": "2026-11-14T15:36:33.000Z",
+    "scrapedAt": "2026-11-23T22:55:14.628Z"
+  },
+  {
+    "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/banco-de-madera/",
+    "productId": 212662153,
+    "name": "Banco de madera",
+    "brand": null,
+    "description": "Bancos de madera Los bancos son hechos a mano con la mejor calidad, de madera de pino y están hechos en México. Estas piezas están diseñadas para que puedas diseñar y tejer el asiento del banco. Unicas piezas y las vendemos por temporada hasta agotar existencias Las medidas son 40 x 40 x 45 cm",
+    "categories": [
+      "Talleres Presenciales",
+      "Talleres de Temporada",
+      "Tejido de Mobiliario"
+    ],
+    "tags": [],
+    "price": 590,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 590,
+    "priceMax": 590,
+    "currency": "MXN",
+    "installments": {
+      "maxInstallments": 1,
+      "maxInterestFreeInstallments": 1,
+      "interestFreeInstallmentValue": null,
+      "processor": null
+    },
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 10,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": 927044750,
+        "sku": null,
+        "price": 590,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 10,
+        "available": true,
+        "attributes": {},
+        "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0124-d3948a6fda2474cc9017157932653640-1024-1024.webp"
+      }
+    ],
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0124-d3948a6fda2474cc9017157932653640-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0125-5815a3808cf06c017e17157932663071-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0126-13050df21ac6b9274b17157932643112-1024-1024.webp"
+    ],
+    "image": "https://acdn-us.mitiendanube.com/stores/001/305/440/products/img_0124-d3948a6fda2474cc9017157932653640-1024-1024.webp",
+    "weightKg": 2.5,
+    "storeName": "Taller Textil Dos Coyotes",
+    "storeDomain": "tallertextildoscoyotes.mitiendanube.com",
+    "country": "MX",
+    "language": "es_MX",
+    "platform": "tiendanube",
+    "engine": "classic",
+    "lastModified": "2026-11-19T15:43:36.000Z",
+    "scrapedAt": "2026-11-23T22:55:15.015Z"
   },
   {
     "url": "https://peek-store.com/productos/mystery-cover-16whb",
@@ -2729,7 +2685,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-11-14T15:36:33.000Z",
-    "scrapedAt": "2026-11-22T18:39:27.071Z"
+    "scrapedAt": "2026-11-23T22:55:15.699Z"
   },
   {
     "url": "https://peek-store.com/productos/mystery-outfit-tom-b-1ae69",
@@ -2783,6 +2739,6 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-11-14T09:20:18.000Z",
-    "scrapedAt": "2026-11-22T18:39:27.502Z"
+    "scrapedAt": "2026-11-23T22:55:16.025Z"
   }
 ]
