@@ -16,7 +16,7 @@ npm warn EBADENGINE }
 npm warn deprecated lodash.isequal@4.5.0: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
 npm warn deprecated @sapphire/shapeshift@3.9.7: Shapeshift was created when other validation libraries had significant limitations in performance and error reporting. Those advantages have diminished as libraries such as Zod have become faster and improved their error messages, while also gaining broader environment support, a larger community, and custom error printers.
 
-added 268 packages in 9s
+added 268 packages in 8s
 
 79 packages are looking for funding
   run `npm fund` for details
@@ -26,74 +26,76 @@ You can find more information about our telemetry in https://docs.apify.com/cli/
 Info: Deploying Actor 'florida-sunbiz-scraper' to Apify.
 Run: Updated version 0.1 for Actor florida-sunbiz-scraper.
 Run: Building Actor florida-sunbiz-scraper
-2026-11-23T22:39:38.241Z ACTOR: Selected directory: .
-2026-11-23T22:39:38.243Z ACTOR: Found input schema referenced from .actor/actor.json
-2026-11-23T22:39:38.878Z ACTOR: Found output schema referenced from .actor/actor.json
-2026-11-23T22:39:38.885Z ACTOR: Found dataset schema referenced from .actor/actor.json
-2026-11-23T22:39:38.886Z ACTOR: Using minMemoryMbytes: 1024
-2026-11-23T22:39:38.886Z ACTOR: Using maxMemoryMbytes: 4096
-2026-11-23T22:39:38.886Z ACTOR: Extracting Actor documentation from README.md
-2026-11-23T22:39:38.887Z ACTOR: Building container image (cache enabled).
-2026-11-23T22:39:39.139Z #1 [internal] load build definition from Dockerfile
-2026-11-23T22:39:39.140Z #1 transferring dockerfile: 456B done
-2026-11-23T22:39:39.140Z #1 DONE 0.0s
-2026-11-23T22:39:39.140Z #2 DONE 0.0s
-2026-11-23T22:39:39.141Z #3 resolve image config for docker-image://docker.io/docker/dockerfile:1
-2026-11-23T22:39:39.141Z #3 DONE 0.1s
-2026-11-23T22:39:39.384Z #4 docker-image://docker.io/docker/dockerfile:1@sha256:572cebbc2b15e6f84c077742952674889cb63cd5e9b80abdffcbe587b6f19183
-2026-11-23T22:39:39.385Z #4 resolve docker.io/docker/dockerfile:1@sha256:572cebbc2b15e6f84c077742952674889cb63cd5e9b80abdffcbe587b6f19183 0.0s done
-2026-11-23T22:39:39.385Z #4 CACHED
-2026-11-23T22:39:39.385Z #5 DONE 0.0s
-2026-11-23T22:39:39.387Z #6 [internal] load metadata for docker.io/apify/actor-node-playwright-firefox:22-1.64.0
-2026-11-23T22:39:39.644Z #6 DONE 0.4s
-2026-11-23T22:39:39.757Z #7 [internal] load .dockerignore
-2026-11-23T22:39:39.762Z #7 transferring context: 82B done
-2026-11-23T22:39:39.764Z #7 DONE 0.0s
-2026-11-23T22:39:39.765Z #8 [internal] load build context
-2026-11-23T22:39:39.766Z #8 DONE 0.0s
-2026-11-23T22:39:39.766Z #9 [1/4] FROM docker.io/apify/actor-node-playwright-firefox:22-1.64.0@sha256:03f001f5fb295f762d792caf2904bf569a4fa1b539ab4787ddc42334ad5e0d22
-2026-11-23T22:39:39.766Z #9 resolve docker.io/apify/actor-node-playwright-firefox:22-1.64.0@sha256:03f001f5fb295f762d792caf2904bf569a4fa1b539ab4787ddc42334ad5e0d22 0.0s done
-2026-11-23T22:39:39.766Z #9 DONE 0.0s
-2026-11-23T22:39:39.767Z #10 importing cache manifest from s3:12611283082449425847
-2026-11-23T22:39:39.767Z #10 DONE 0.1s
-2026-11-23T22:39:39.925Z #8 [internal] load build context
-2026-11-23T22:39:39.926Z #8 transferring context: 213.07kB done
-2026-11-23T22:39:39.926Z #8 DONE 0.0s
-2026-11-23T22:39:39.926Z #11 [2/4] COPY --chown=myuser package*.json ./
-2026-11-23T22:39:39.927Z #11 CACHED
-2026-11-23T22:39:39.927Z #12 [3/4] RUN npm --quiet set progress=false     && npm install --omit=dev --omit=optional     && echo "Installed NPM packages:"     && (npm list --omit=dev --all || true)     && echo "Node.js version:"     && node --version     && echo "NPM version:"     && npm --version
-2026-11-23T22:39:39.928Z #12 CACHED
-2026-11-23T22:39:39.929Z #13 [4/4] COPY --chown=myuser . ./
-2026-11-23T22:39:39.968Z #13 CACHED
-2026-11-23T22:39:40.089Z #14 [auth] sharing credentials for 031263542130.dkr.ecr.us-east-1.amazonaws.com
-2026-11-23T22:39:40.090Z #14 DONE 0.0s
-2026-11-23T22:39:40.091Z ACTOR: Pushing container image to repository.
-2026-11-23T22:39:40.092Z #15 exporting to image
-2026-11-23T22:39:40.092Z #15 exporting layers done
-2026-11-23T22:39:40.093Z #15 exporting manifest sha256:c10ae0d75d6f442dd90c633a429cf0767384edf41297ad87a6705987e3e3c88a 0.0s done
-2026-11-23T22:39:40.093Z #15 exporting config sha256:d3bc9eafca79b9872bc24383370fe7d9fb717ea97c639252c6e96fead36e6d5d 0.0s done
-2026-11-23T22:39:40.094Z #15 pushing layers 0.1s done
-2026-11-23T22:39:40.094Z #15 pushing manifest for 031263542130.dkr.ecr.us-east-1.amazonaws.com/act-builds-prod-00417:8Upkf1vQBikZ6s53Z@sha256:c10ae0d75d6f442dd90c633a429cf0767384edf41297ad87a6705987e3e3c88a
-2026-11-23T22:39:40.221Z #15 pushing manifest for 031263542130.dkr.ecr.us-east-1.amazonaws.com/act-builds-prod-00417:8Upkf1vQBikZ6s53Z@sha256:c10ae0d75d6f442dd90c633a429cf0767384edf41297ad87a6705987e3e3c88a 0.1s done
-2026-11-23T22:39:40.222Z #15 DONE 0.3s
-2026-11-23T22:39:40.222Z #16 exporting cache to Amazon S3
-2026-11-23T22:39:40.223Z #16 preparing build cache for export 0.1s done
-2026-11-23T22:39:40.223Z #16 sending cache export
-2026-11-23T22:39:49.211Z #16 sending cache export 9.1s done
-2026-11-23T22:39:49.211Z #16 DONE 9.2s
-2026-11-23T22:39:49.279Z ACTOR: Build finished.
+2026-11-24T21:11:51.012Z ACTOR: Selected directory: .
+2026-11-24T21:11:51.019Z ACTOR: Found input schema referenced from .actor/actor.json
+2026-11-24T21:11:51.541Z ACTOR: Found output schema referenced from .actor/actor.json
+2026-11-24T21:11:51.559Z ACTOR: Found dataset schema referenced from .actor/actor.json
+2026-11-24T21:11:51.575Z ACTOR: Using minMemoryMbytes: 1024
+2026-11-24T21:11:51.578Z ACTOR: Using maxMemoryMbytes: 4096
+2026-11-24T21:11:51.580Z ACTOR: Extracting Actor documentation from README.md
+2026-11-24T21:11:51.582Z ACTOR: Building container image (cache enabled).
+2026-11-24T21:11:51.855Z #1 [internal] load build definition from Dockerfile
+2026-11-24T21:11:51.857Z #1 transferring dockerfile: 456B done
+2026-11-24T21:11:51.860Z #1 DONE 0.0s
+2026-11-24T21:11:51.865Z #2 DONE 0.0s
+2026-11-24T21:11:51.867Z #3 resolve image config for docker-image://docker.io/docker/dockerfile:1
+2026-11-24T21:11:51.869Z #3 DONE 0.2s
+2026-11-24T21:11:52.030Z #4 docker-image://docker.io/docker/dockerfile:1@sha256:572cebbc2b15e6f84c077742952674889cb63cd5e9b80abdffcbe587b6f19183
+2026-11-24T21:11:52.032Z #4 resolve docker.io/docker/dockerfile:1@sha256:572cebbc2b15e6f84c077742952674889cb63cd5e9b80abdffcbe587b6f19183 0.0s done
+2026-11-24T21:11:52.034Z #4 CACHED
+2026-11-24T21:11:52.085Z #5 [internal] load metadata for docker.io/apify/actor-node-playwright-firefox:22-1.64.0
+2026-11-24T21:11:52.242Z #5 ...
+2026-11-24T21:11:52.247Z #6 DONE 0.0s
+2026-11-24T21:11:52.393Z #5 [internal] load metadata for docker.io/apify/actor-node-playwright-firefox:22-1.64.0
+2026-11-24T21:11:52.510Z #5 DONE 0.4s
+2026-11-24T21:11:52.673Z #7 [internal] load .dockerignore
+2026-11-24T21:11:52.677Z #7 transferring context: 82B done
+2026-11-24T21:11:52.679Z #7 DONE 0.0s
+2026-11-24T21:11:52.681Z #8 importing cache manifest from s3:9129105327951352775
+2026-11-24T21:11:52.776Z #8 DONE 0.1s
+2026-11-24T21:11:52.778Z #9 [1/4] FROM docker.io/apify/actor-node-playwright-firefox:22-1.64.0@sha256:03f001f5fb295f762d792caf2904bf569a4fa1b539ab4787ddc42334ad5e0d22
+2026-11-24T21:11:52.781Z #9 resolve docker.io/apify/actor-node-playwright-firefox:22-1.64.0@sha256:03f001f5fb295f762d792caf2904bf569a4fa1b539ab4787ddc42334ad5e0d22 0.0s done
+2026-11-24T21:11:52.783Z #9 DONE 0.0s
+2026-11-24T21:11:52.785Z #10 [internal] load build context
+2026-11-24T21:11:52.787Z #10 transferring context: 213.07kB done
+2026-11-24T21:11:52.790Z #10 DONE 0.0s
+2026-11-24T21:11:52.946Z #11 [2/4] COPY --chown=myuser package*.json ./
+2026-11-24T21:11:52.948Z #11 CACHED
+2026-11-24T21:11:52.950Z #12 [3/4] RUN npm --quiet set progress=false     && npm install --omit=dev --omit=optional     && echo "Installed NPM packages:"     && (npm list --omit=dev --all || true)     && echo "Node.js version:"     && node --version     && echo "NPM version:"     && npm --version
+2026-11-24T21:11:52.952Z #12 CACHED
+2026-11-24T21:11:52.954Z #13 [4/4] COPY --chown=myuser . ./
+2026-11-24T21:11:53.056Z #13 CACHED
+2026-11-24T21:11:53.174Z #14 [auth] sharing credentials for 031263542130.dkr.ecr.us-east-1.amazonaws.com
+2026-11-24T21:11:53.176Z #14 DONE 0.0s
+2026-11-24T21:11:53.179Z ACTOR: Pushing container image to repository.
+2026-11-24T21:11:53.181Z #15 exporting to image
+2026-11-24T21:11:53.183Z #15 exporting layers done
+2026-11-24T21:11:53.185Z #15 exporting manifest sha256:c10ae0d75d6f442dd90c633a429cf0767384edf41297ad87a6705987e3e3c88a 0.0s done
+2026-11-24T21:11:53.187Z #15 exporting config sha256:d3bc9eafca79b9872bc24383370fe7d9fb717ea97c639252c6e96fead36e6d5d 0.0s done
+2026-11-24T21:11:53.190Z #15 pushing layers
+2026-11-24T21:11:53.287Z #15 ...
+2026-11-24T21:11:53.289Z #16 exporting cache to Amazon S3
+2026-11-24T21:11:53.292Z #16 preparing build cache for export 0.1s done
+2026-11-24T21:11:53.294Z #16 sending cache export 0.1s done
+2026-11-24T21:11:53.296Z #16 DONE 0.2s
+2026-11-24T21:11:53.298Z #15 exporting to image
+2026-11-24T21:11:53.301Z #15 pushing layers 0.1s done
+2026-11-24T21:11:53.303Z #15 pushing manifest for 031263542130.dkr.ecr.us-east-1.amazonaws.com/act-builds-prod-00417:hGB29ZdWRvFLWkyq2@sha256:c10ae0d75d6f442dd90c633a429cf0767384edf41297ad87a6705987e3e3c88a
+2026-11-24T21:11:53.372Z #15 pushing manifest for 031263542130.dkr.ecr.us-east-1.amazonaws.com/act-builds-prod-00417:hGB29ZdWRvFLWkyq2@sha256:c10ae0d75d6f442dd90c633a429cf0767384edf41297ad87a6705987e3e3c88a 0.1s done
+2026-11-24T21:11:53.374Z #15 DONE 0.2s
+2026-11-24T21:11:53.377Z ACTOR: Build finished.
 Run: Applying build tag "latest"...
 Apify push result: SUCCEEDED
 
 Upload: SUCCEEDED
 Build: SUCCEEDED
 Actor ID: CMZgu5pK5biEMTPVc
-Build ID: 8Upkf1vQBikZ6s53Z
-Build number: 0.1.49
+Build ID: hGB29ZdWRvFLWkyq2
+Build number: 0.1.50
 
 Actor URL: https://console.apify.com/actors/CMZgu5pK5biEMTPVc
-Build URL: https://console.apify.com/actors/CMZgu5pK5biEMTPVc/builds/0.1.49
+Build URL: https://console.apify.com/actors/CMZgu5pK5biEMTPVc/builds/0.1.50
 configuring lautarodelgado~florida-sunbiz-scraper
 ok defaultRunOptions={"build":"latest","timeoutSecs":3600,"memoryMbytes":2048}
-saved build log 8Upkf1vQBikZ6s53Z (58 lines)
-stats {"totalBuilds":49,"totalRuns":91,"totalUsers":2,"totalUsers7Days":0,"totalUsers30Days":0,"totalUsers90Days":0,"lastRunStartedAt":"2026-11-23T00:58:34.550Z","actorReviewCount":0,"actorReviewRating":0,"bookmarkCount":0,"publicActorRunStats30Days":{"ABORTED":0,"FAILED":0,"SUCCEEDED":29,"TIMED-OUT":1,"TOTAL":30}}
+saved build log hGB29ZdWRvFLWkyq2 (60 lines)
+stats {"totalBuilds":50,"totalRuns":93,"totalUsers":2,"totalUsers7Days":0,"totalUsers30Days":0,"totalUsers90Days":0,"lastRunStartedAt":"2026-11-24T01:00:34.363Z","actorReviewCount":0,"actorReviewRating":0,"bookmarkCount":0,"publicActorRunStats30Days":{"ABORTED":0,"FAILED":0,"SUCCEEDED":29,"TIMED-OUT":1,"TOTAL":30}}
