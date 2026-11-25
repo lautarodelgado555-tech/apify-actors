@@ -1385,7 +1385,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-24T00:51:37.000Z",
-    "scrapedAt": "2026-11-24T21:30:57.008Z"
+    "scrapedAt": "2026-11-25T20:39:15.064Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/lana-mexicana-en-crudo/",
@@ -1508,7 +1508,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-22T22:59:53.000Z",
-    "scrapedAt": "2026-11-24T21:30:57.315Z"
+    "scrapedAt": "2026-11-25T20:39:15.330Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/hilaza-almidonada-en-malla/",
@@ -1639,7 +1639,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-22T17:54:44.000Z",
-    "scrapedAt": "2026-11-24T21:30:57.561Z"
+    "scrapedAt": "2026-11-25T20:39:15.650Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/taller-de-tejido-de-frazadas-xl/",
@@ -1879,7 +1879,75 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-19T15:45:15.000Z",
-    "scrapedAt": "2026-11-24T21:30:57.955Z"
+    "scrapedAt": "2026-11-25T20:39:16.005Z"
+  },
+  {
+    "url": "https://peek-store.com/productos/mystery-baby-ibn43",
+    "productId": 381066462,
+    "name": "Mistery: BABY BOX.",
+    "brand": null,
+    "description": "3 piezas especiales para tu peque , puedes elegir para mayor o menor de 18 meses!",
+    "categories": [
+      "By Charles Ans",
+      "Peek Kiddos"
+    ],
+    "tags": [],
+    "price": 50,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 50,
+    "priceMax": 50,
+    "currency": "MXN",
+    "installments": null,
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 1,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 2,
+    "variants": [
+      {
+        "id": 1639104160,
+        "sku": null,
+        "price": 50,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 0,
+        "available": false,
+        "attributes": {
+          "Talla": "+18M"
+        },
+        "image": null
+      },
+      {
+        "id": 1639104161,
+        "sku": null,
+        "price": 50,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 1,
+        "available": true,
+        "attributes": {
+          "Talla": "-18M"
+        },
+        "image": null
+      }
+    ],
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000563644-e4b7f6e3aa2bb2f20417946113239127-1024-1024.jpg"
+    ],
+    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000563644-e4b7f6e3aa2bb2f20417946113239127-1024-1024.jpg",
+    "weightKg": null,
+    "storeName": "Peek Store",
+    "storeDomain": "peek-store.com",
+    "country": "MX",
+    "language": "es",
+    "platform": "tiendanube",
+    "engine": "next",
+    "lastModified": "2026-11-14T18:42:12.000Z",
+    "scrapedAt": "2026-11-25T20:39:16.851Z"
   },
   {
     "url": "https://peek-store.com/productos/mystery-trio-1kg8e",
@@ -2000,75 +2068,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-11-14T18:00:09.000Z",
-    "scrapedAt": "2026-11-24T21:30:59.010Z"
-  },
-  {
-    "url": "https://peek-store.com/productos/mystery-baby-ibn43",
-    "productId": 381066462,
-    "name": "Mistery: BABY BOX.",
-    "brand": null,
-    "description": "3 piezas especiales para tu peque , puedes elegir para mayor o menor de 18 meses!",
-    "categories": [
-      "By Charles Ans",
-      "Peek Kiddos"
-    ],
-    "tags": [],
-    "price": 50,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 50,
-    "priceMax": 50,
-    "currency": "MXN",
-    "installments": null,
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 1,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 2,
-    "variants": [
-      {
-        "id": 1639104160,
-        "sku": null,
-        "price": 50,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Talla": "+18M"
-        },
-        "image": null
-      },
-      {
-        "id": 1639104161,
-        "sku": null,
-        "price": 50,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 1,
-        "available": true,
-        "attributes": {
-          "Talla": "-18M"
-        },
-        "image": null
-      }
-    ],
-    "images": [
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000563644-e4b7f6e3aa2bb2f20417946113239127-1024-1024.jpg"
-    ],
-    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/1000563644-e4b7f6e3aa2bb2f20417946113239127-1024-1024.jpg",
-    "weightKg": null,
-    "storeName": "Peek Store",
-    "storeDomain": "peek-store.com",
-    "country": "MX",
-    "language": "es",
-    "platform": "tiendanube",
-    "engine": "next",
-    "lastModified": "2026-11-14T18:42:12.000Z",
-    "scrapedAt": "2026-11-24T21:30:59.120Z"
+    "scrapedAt": "2026-11-25T20:39:16.969Z"
   },
   {
     "url": "https://peek-store.com/productos/tisha-bendiceme",
@@ -2138,7 +2138,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-11-14T17:05:01.000Z",
-    "scrapedAt": "2026-11-24T21:30:59.381Z"
+    "scrapedAt": "2026-11-25T20:39:17.156Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/lunes-de-tejido/",
@@ -2474,7 +2474,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-19T15:44:09.000Z",
-    "scrapedAt": "2026-11-24T21:30:59.534Z"
+    "scrapedAt": "2026-11-25T20:39:17.640Z"
   },
   {
     "url": "https://peek-store.com/productos/cd-lrds-p3r2q",
@@ -2542,7 +2542,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-11-14T15:36:33.000Z",
-    "scrapedAt": "2026-11-24T21:30:59.556Z"
+    "scrapedAt": "2026-11-25T20:39:17.652Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/jueves-crochetero-after-office/",
@@ -2684,7 +2684,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-19T15:44:04.000Z",
-    "scrapedAt": "2026-11-24T21:30:59.879Z"
+    "scrapedAt": "2026-11-25T20:39:17.966Z"
   },
   {
     "url": "https://peek-store.com/productos/mystery-cover-16whb",
@@ -2737,7 +2737,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-11-14T15:36:33.000Z",
-    "scrapedAt": "2026-11-24T21:31:00.841Z"
+    "scrapedAt": "2026-11-25T20:39:18.607Z"
   },
   {
     "url": "https://peek-store.com/productos/mystery-outfit-tom-b-1ae69",
@@ -2791,6 +2791,6 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-11-14T09:20:18.000Z",
-    "scrapedAt": "2026-11-24T21:31:01.539Z"
+    "scrapedAt": "2026-11-25T20:39:18.978Z"
   }
 ]
