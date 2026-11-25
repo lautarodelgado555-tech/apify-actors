@@ -1,60 +1,60 @@
-2026-11-24T21:11:51.012Z ACTOR: Selected directory: .
-2026-11-24T21:11:51.019Z ACTOR: Found input schema referenced from .actor/actor.json
-2026-11-24T21:11:51.541Z ACTOR: Found output schema referenced from .actor/actor.json
-2026-11-24T21:11:51.559Z ACTOR: Found dataset schema referenced from .actor/actor.json
-2026-11-24T21:11:51.575Z ACTOR: Using minMemoryMbytes: 1024
-2026-11-24T21:11:51.578Z ACTOR: Using maxMemoryMbytes: 4096
-2026-11-24T21:11:51.580Z ACTOR: Extracting Actor documentation from README.md
-2026-11-24T21:11:51.582Z ACTOR: Building container image (cache enabled).
-2026-11-24T21:11:51.855Z #1 [internal] load build definition from Dockerfile
-2026-11-24T21:11:51.857Z #1 transferring dockerfile: 456B done
-2026-11-24T21:11:51.860Z #1 DONE 0.0s
-2026-11-24T21:11:51.863Z #2 [auth] docker/dockerfile:pull token for registry-1.docker.io
-2026-11-24T21:11:51.865Z #2 DONE 0.0s
-2026-11-24T21:11:51.867Z #3 resolve image config for docker-image://docker.io/docker/dockerfile:1
-2026-11-24T21:11:51.869Z #3 DONE 0.2s
-2026-11-24T21:11:52.030Z #4 docker-image://docker.io/docker/dockerfile:1@sha256:572cebbc2b15e6f84c077742952674889cb63cd5e9b80abdffcbe587b6f19183
-2026-11-24T21:11:52.032Z #4 resolve docker.io/docker/dockerfile:1@sha256:572cebbc2b15e6f84c077742952674889cb63cd5e9b80abdffcbe587b6f19183 0.0s done
-2026-11-24T21:11:52.034Z #4 CACHED
-2026-11-24T21:11:52.085Z #5 [internal] load metadata for docker.io/apify/actor-node-playwright-firefox:22-1.64.0
-2026-11-24T21:11:52.242Z #5 ...
-2026-11-24T21:11:52.245Z #6 [auth] apify/actor-node-playwright-firefox:pull token for registry-1.docker.io
-2026-11-24T21:11:52.247Z #6 DONE 0.0s
-2026-11-24T21:11:52.393Z #5 [internal] load metadata for docker.io/apify/actor-node-playwright-firefox:22-1.64.0
-2026-11-24T21:11:52.510Z #5 DONE 0.4s
-2026-11-24T21:11:52.673Z #7 [internal] load .dockerignore
-2026-11-24T21:11:52.677Z #7 transferring context: 82B done
-2026-11-24T21:11:52.679Z #7 DONE 0.0s
-2026-11-24T21:11:52.681Z #8 importing cache manifest from s3:9129105327951352775
-2026-11-24T21:11:52.776Z #8 DONE 0.1s
-2026-11-24T21:11:52.778Z #9 [1/4] FROM docker.io/apify/actor-node-playwright-firefox:22-1.64.0@sha256:03f001f5fb295f762d792caf2904bf569a4fa1b539ab4787ddc42334ad5e0d22
-2026-11-24T21:11:52.781Z #9 resolve docker.io/apify/actor-node-playwright-firefox:22-1.64.0@sha256:03f001f5fb295f762d792caf2904bf569a4fa1b539ab4787ddc42334ad5e0d22 0.0s done
-2026-11-24T21:11:52.783Z #9 DONE 0.0s
-2026-11-24T21:11:52.785Z #10 [internal] load build context
-2026-11-24T21:11:52.787Z #10 transferring context: 213.07kB done
-2026-11-24T21:11:52.790Z #10 DONE 0.0s
-2026-11-24T21:11:52.946Z #11 [2/4] COPY --chown=myuser package*.json ./
-2026-11-24T21:11:52.948Z #11 CACHED
-2026-11-24T21:11:52.950Z #12 [3/4] RUN npm --quiet set progress=false     && npm install --omit=dev --omit=optional     && echo "Installed NPM packages:"     && (npm list --omit=dev --all || true)     && echo "Node.js version:"     && node --version     && echo "NPM version:"     && npm --version
-2026-11-24T21:11:52.952Z #12 CACHED
-2026-11-24T21:11:52.954Z #13 [4/4] COPY --chown=myuser . ./
-2026-11-24T21:11:53.056Z #13 CACHED
-2026-11-24T21:11:53.174Z #14 [auth] sharing credentials for 031263542130.dkr.ecr.us-east-1.amazonaws.com
-2026-11-24T21:11:53.176Z #14 DONE 0.0s
-2026-11-24T21:11:53.179Z ACTOR: Pushing container image to repository.
-2026-11-24T21:11:53.181Z #15 exporting to image
-2026-11-24T21:11:53.183Z #15 exporting layers done
-2026-11-24T21:11:53.185Z #15 exporting manifest sha256:c10ae0d75d6f442dd90c633a429cf0767384edf41297ad87a6705987e3e3c88a 0.0s done
-2026-11-24T21:11:53.187Z #15 exporting config sha256:d3bc9eafca79b9872bc24383370fe7d9fb717ea97c639252c6e96fead36e6d5d 0.0s done
-2026-11-24T21:11:53.190Z #15 pushing layers
-2026-11-24T21:11:53.287Z #15 ...
-2026-11-24T21:11:53.289Z #16 exporting cache to Amazon S3
-2026-11-24T21:11:53.292Z #16 preparing build cache for export 0.1s done
-2026-11-24T21:11:53.294Z #16 sending cache export 0.1s done
-2026-11-24T21:11:53.296Z #16 DONE 0.2s
-2026-11-24T21:11:53.298Z #15 exporting to image
-2026-11-24T21:11:53.301Z #15 pushing layers 0.1s done
-2026-11-24T21:11:53.303Z #15 pushing manifest for 031263542130.dkr.ecr.us-east-1.amazonaws.com/act-builds-prod-00417:hGB29ZdWRvFLWkyq2@sha256:c10ae0d75d6f442dd90c633a429cf0767384edf41297ad87a6705987e3e3c88a
-2026-11-24T21:11:53.372Z #15 pushing manifest for 031263542130.dkr.ecr.us-east-1.amazonaws.com/act-builds-prod-00417:hGB29ZdWRvFLWkyq2@sha256:c10ae0d75d6f442dd90c633a429cf0767384edf41297ad87a6705987e3e3c88a 0.1s done
-2026-11-24T21:11:53.374Z #15 DONE 0.2s
-2026-11-24T21:11:53.377Z ACTOR: Build finished.
+2026-11-25T20:29:29.902Z ACTOR: Selected directory: .
+2026-11-25T20:29:29.906Z ACTOR: Found input schema referenced from .actor/actor.json
+2026-11-25T20:29:30.422Z ACTOR: Found output schema referenced from .actor/actor.json
+2026-11-25T20:29:30.436Z ACTOR: Found dataset schema referenced from .actor/actor.json
+2026-11-25T20:29:30.439Z ACTOR: Using minMemoryMbytes: 1024
+2026-11-25T20:29:30.440Z ACTOR: Using maxMemoryMbytes: 4096
+2026-11-25T20:29:30.454Z ACTOR: Extracting Actor documentation from README.md
+2026-11-25T20:29:30.455Z ACTOR: Building container image (cache enabled).
+2026-11-25T20:29:30.698Z #1 [internal] load build definition from Dockerfile
+2026-11-25T20:29:30.701Z #1 transferring dockerfile: 456B done
+2026-11-25T20:29:30.702Z #1 DONE 0.0s
+2026-11-25T20:29:30.703Z #2 [auth] docker/dockerfile:pull token for registry-1.docker.io
+2026-11-25T20:29:30.704Z #2 DONE 0.0s
+2026-11-25T20:29:30.704Z #3 resolve image config for docker-image://docker.io/docker/dockerfile:1
+2026-11-25T20:29:30.705Z #3 DONE 0.2s
+2026-11-25T20:29:30.866Z #4 docker-image://docker.io/docker/dockerfile:1@sha256:572cebbc2b15e6f84c077742952674889cb63cd5e9b80abdffcbe587b6f19183
+2026-11-25T20:29:30.867Z #4 resolve docker.io/docker/dockerfile:1@sha256:572cebbc2b15e6f84c077742952674889cb63cd5e9b80abdffcbe587b6f19183 0.0s done
+2026-11-25T20:29:30.868Z #4 CACHED
+2026-11-25T20:29:31.009Z #5 [internal] load metadata for docker.io/apify/actor-node-playwright-firefox:22-1.64.0
+2026-11-25T20:29:31.158Z #5 ...
+2026-11-25T20:29:31.159Z #6 [auth] apify/actor-node-playwright-firefox:pull token for registry-1.docker.io
+2026-11-25T20:29:31.160Z #6 DONE 0.0s
+2026-11-25T20:29:31.307Z #5 [internal] load metadata for docker.io/apify/actor-node-playwright-firefox:22-1.64.0
+2026-11-25T20:29:31.555Z #5 DONE 0.6s
+2026-11-25T20:29:31.669Z #7 [internal] load .dockerignore
+2026-11-25T20:29:31.670Z #7 transferring context: 82B done
+2026-11-25T20:29:31.671Z #7 DONE 0.0s
+2026-11-25T20:29:31.672Z #8 [internal] load build context
+2026-11-25T20:29:31.672Z #8 DONE 0.0s
+2026-11-25T20:29:31.673Z #9 [1/4] FROM docker.io/apify/actor-node-playwright-firefox:22-1.64.0@sha256:03f001f5fb295f762d792caf2904bf569a4fa1b539ab4787ddc42334ad5e0d22
+2026-11-25T20:29:31.674Z #9 resolve docker.io/apify/actor-node-playwright-firefox:22-1.64.0@sha256:03f001f5fb295f762d792caf2904bf569a4fa1b539ab4787ddc42334ad5e0d22 0.0s done
+2026-11-25T20:29:31.675Z #9 DONE 0.0s
+2026-11-25T20:29:31.676Z #10 importing cache manifest from s3:881548048992181288
+2026-11-25T20:29:31.677Z #10 DONE 0.1s
+2026-11-25T20:29:31.843Z #8 [internal] load build context
+2026-11-25T20:29:31.844Z #8 transferring context: 213.07kB done
+2026-11-25T20:29:31.846Z #8 DONE 0.0s
+2026-11-25T20:29:31.847Z #11 [2/4] COPY --chown=myuser package*.json ./
+2026-11-25T20:29:31.848Z #11 CACHED
+2026-11-25T20:29:31.849Z #12 [3/4] RUN npm --quiet set progress=false     && npm install --omit=dev --omit=optional     && echo "Installed NPM packages:"     && (npm list --omit=dev --all || true)     && echo "Node.js version:"     && node --version     && echo "NPM version:"     && npm --version
+2026-11-25T20:29:31.849Z #12 CACHED
+2026-11-25T20:29:31.851Z #13 [4/4] COPY --chown=myuser . ./
+2026-11-25T20:29:31.961Z #13 CACHED
+2026-11-25T20:29:32.074Z #14 [auth] sharing credentials for 031263542130.dkr.ecr.us-east-1.amazonaws.com
+2026-11-25T20:29:32.075Z #14 DONE 0.0s
+2026-11-25T20:29:32.076Z ACTOR: Pushing container image to repository.
+2026-11-25T20:29:32.077Z #15 exporting to image
+2026-11-25T20:29:32.078Z #15 exporting layers done
+2026-11-25T20:29:32.079Z #15 exporting manifest sha256:c10ae0d75d6f442dd90c633a429cf0767384edf41297ad87a6705987e3e3c88a 0.0s done
+2026-11-25T20:29:32.080Z #15 exporting config sha256:d3bc9eafca79b9872bc24383370fe7d9fb717ea97c639252c6e96fead36e6d5d 0.0s done
+2026-11-25T20:29:32.081Z #15 pushing layers
+2026-11-25T20:29:32.206Z #15 pushing layers 0.1s done
+2026-11-25T20:29:32.206Z #15 pushing manifest for 031263542130.dkr.ecr.us-east-1.amazonaws.com/act-builds-prod-00417:FAK9VQlDpbkNwK5ME@sha256:c10ae0d75d6f442dd90c633a429cf0767384edf41297ad87a6705987e3e3c88a 0.1s done
+2026-11-25T20:29:32.207Z #15 DONE 0.2s
+2026-11-25T20:29:32.208Z #16 exporting cache to Amazon S3
+2026-11-25T20:29:32.209Z #16 preparing build cache for export 0.1s done
+2026-11-25T20:29:32.209Z #16 sending cache export
+2026-11-25T20:29:36.334Z #16 sending cache export 4.3s done
+2026-11-25T20:29:36.335Z #16 DONE 4.3s
+2026-11-25T20:29:36.404Z ACTOR: Build finished.
