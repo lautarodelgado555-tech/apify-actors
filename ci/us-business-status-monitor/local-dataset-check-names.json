@@ -21,7 +21,7 @@
     "sourceUrl": "https://data.colorado.gov/resource/4ykn-tg5h.json?entityid=20171362116",
     "mode": "opendata",
     "dataFreshness": "2026-11-23T12:18:18.000Z",
-    "checkedAt": "2026-11-25T21:34:54.776Z",
+    "checkedAt": "2026-11-26T21:23:17.376Z",
     "details": {
       "entityTypeCode": "FPC",
       "jurisdictionOfFormation": "DE",
@@ -67,7 +67,7 @@
     "sourceUrl": "https://data.texas.gov/resource/9cir-efmm.json?taxpayer_number=32073591276",
     "mode": "opendata",
     "dataFreshness": "2026-11-25T10:18:38.000Z",
-    "checkedAt": "2026-11-25T21:34:54.776Z",
+    "checkedAt": "2026-11-26T21:23:17.376Z",
     "details": {
       "taxpayerNumber": "32073591276",
       "sosFileNumber": "0803562210",
@@ -108,7 +108,7 @@
       "label": null
     },
     "charged": false,
-    "checkedAt": "2026-11-25T21:34:54.776Z"
+    "checkedAt": "2026-11-26T21:23:17.376Z"
   },
   {
     "recordType": "entity-check",
@@ -131,8 +131,8 @@
     "source": "Connecticut Secretary of the State via data.ct.gov (Business Registry - Business Master)",
     "sourceUrl": "https://data.ct.gov/resource/n7gp-d28j.json?accountnumber=0074441",
     "mode": "opendata",
-    "dataFreshness": "2026-11-25T09:28:01.000Z",
-    "checkedAt": "2026-11-25T21:34:54.776Z",
+    "dataFreshness": "2026-11-26T09:29:02.000Z",
+    "checkedAt": "2026-11-26T21:23:17.376Z",
     "details": {
       "registryRecordId": "001t000000WmVHCAA3",
       "businessTypeCode": "Stock",
@@ -180,7 +180,7 @@
     "sourceUrl": "https://data.oregon.gov/resource/tckn-sxa6.json?registry_number=149629495",
     "mode": "opendata",
     "dataFreshness": "2026-11-24T16:07:50.000Z",
-    "checkedAt": "2026-11-25T21:34:54.776Z",
+    "checkedAt": "2026-11-26T21:23:17.376Z",
     "details": {
       "jurisdiction": "DE",
       "entityTypeCode": "FLLC"
@@ -224,8 +224,8 @@
     "source": "DC Department of Licensing and Consumer Protection via Open Data DC (Corporate Registration)",
     "sourceUrl": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Business_Licensing_and_Grants_WebMercator/FeatureServer/0/query?outFields=*&returnGeometry=false&f=json&where=FILE_NUMBER%3D'932195'",
     "mode": "opendata",
-    "dataFreshness": "2026-11-25T12:47:46.000Z",
-    "checkedAt": "2026-11-25T21:34:54.776Z",
+    "dataFreshness": "2026-11-26T12:47:46.000Z",
+    "checkedAt": "2026-11-26T21:23:17.376Z",
     "details": {
       "locale": "Foreign",
       "businessAddress": "7750 Wisconsin Avenue, Bethesda, MD 20814",
@@ -260,6 +260,6 @@
       "label": null
     },
     "charged": false,
-    "checkedAt": "2026-11-25T21:34:54.776Z"
+    "checkedAt": "2026-11-26T21:23:17.376Z"
   }
 ]
