@@ -1385,7 +1385,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-24T00:51:37.000Z",
-    "scrapedAt": "2026-11-25T20:39:15.064Z"
+    "scrapedAt": "2026-11-26T20:32:14.870Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/lana-mexicana-en-crudo/",
@@ -1508,7 +1508,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-22T22:59:53.000Z",
-    "scrapedAt": "2026-11-25T20:39:15.330Z"
+    "scrapedAt": "2026-11-26T20:32:15.615Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/hilaza-almidonada-en-malla/",
@@ -1639,7 +1639,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-22T17:54:44.000Z",
-    "scrapedAt": "2026-11-25T20:39:15.650Z"
+    "scrapedAt": "2026-11-26T20:32:15.859Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/taller-de-tejido-de-frazadas-xl/",
@@ -1879,7 +1879,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-19T15:45:15.000Z",
-    "scrapedAt": "2026-11-25T20:39:16.005Z"
+    "scrapedAt": "2026-11-26T20:32:16.248Z"
   },
   {
     "url": "https://peek-store.com/productos/mystery-baby-ibn43",
@@ -1947,7 +1947,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-11-14T18:42:12.000Z",
-    "scrapedAt": "2026-11-25T20:39:16.851Z"
+    "scrapedAt": "2026-11-26T20:32:16.668Z"
   },
   {
     "url": "https://peek-store.com/productos/mystery-trio-1kg8e",
@@ -2068,7 +2068,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-11-14T18:00:09.000Z",
-    "scrapedAt": "2026-11-25T20:39:16.969Z"
+    "scrapedAt": "2026-11-26T20:32:17.022Z"
   },
   {
     "url": "https://peek-store.com/productos/tisha-bendiceme",
@@ -2138,7 +2138,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-11-14T17:05:01.000Z",
-    "scrapedAt": "2026-11-25T20:39:17.156Z"
+    "scrapedAt": "2026-11-26T20:32:17.296Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/lunes-de-tejido/",
@@ -2474,75 +2474,7 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-19T15:44:09.000Z",
-    "scrapedAt": "2026-11-25T20:39:17.640Z"
-  },
-  {
-    "url": "https://peek-store.com/productos/cd-lrds-p3r2q",
-    "productId": 321285761,
-    "name": "CD LRDS",
-    "brand": null,
-    "description": "CD físico original de LRDS by Charles Ans",
-    "categories": [
-      "By Charles Ans"
-    ],
-    "tags": [],
-    "price": 350,
-    "compareAtPrice": null,
-    "promotionalPrice": null,
-    "onSale": false,
-    "discountPercent": null,
-    "priceMin": 350,
-    "priceMax": 450,
-    "currency": "MXN",
-    "installments": null,
-    "availability": "InStock",
-    "inStock": true,
-    "stockTotal": 16,
-    "stockUnlimited": false,
-    "sku": null,
-    "variantCount": 2,
-    "variants": [
-      {
-        "id": 1424183290,
-        "sku": null,
-        "price": 450,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 0,
-        "available": false,
-        "attributes": {
-          "Con o Sin Firma": "Con Firma"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/8-cd-lrds-f4a868e3d50068a73417699003305283-1024-1024.png"
-      },
-      {
-        "id": 1424183293,
-        "sku": null,
-        "price": 350,
-        "compareAtPrice": null,
-        "promotionalPrice": null,
-        "stock": 16,
-        "available": true,
-        "attributes": {
-          "Con o Sin Firma": "Sin Firma"
-        },
-        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png"
-      }
-    ],
-    "images": [
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png",
-      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/8-cd-lrds-f4a868e3d50068a73417699003305283-1024-1024.png"
-    ],
-    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png",
-    "weightKg": null,
-    "storeName": "Peek Store",
-    "storeDomain": "peek-store.com",
-    "country": "MX",
-    "language": "es",
-    "platform": "tiendanube",
-    "engine": "next",
-    "lastModified": "2026-11-14T15:36:33.000Z",
-    "scrapedAt": "2026-11-25T20:39:17.652Z"
+    "scrapedAt": "2026-11-26T20:32:17.590Z"
   },
   {
     "url": "https://tallertextildoscoyotes.mitiendanube.com/productos/jueves-crochetero-after-office/",
@@ -2684,7 +2616,75 @@
     "platform": "tiendanube",
     "engine": "classic",
     "lastModified": "2026-11-19T15:44:04.000Z",
-    "scrapedAt": "2026-11-25T20:39:17.966Z"
+    "scrapedAt": "2026-11-26T20:32:17.772Z"
+  },
+  {
+    "url": "https://peek-store.com/productos/cd-lrds-p3r2q",
+    "productId": 321285761,
+    "name": "CD LRDS",
+    "brand": null,
+    "description": "CD físico original de LRDS by Charles Ans",
+    "categories": [
+      "By Charles Ans"
+    ],
+    "tags": [],
+    "price": 350,
+    "compareAtPrice": null,
+    "promotionalPrice": null,
+    "onSale": false,
+    "discountPercent": null,
+    "priceMin": 350,
+    "priceMax": 450,
+    "currency": "MXN",
+    "installments": null,
+    "availability": "InStock",
+    "inStock": true,
+    "stockTotal": 16,
+    "stockUnlimited": false,
+    "sku": null,
+    "variantCount": 2,
+    "variants": [
+      {
+        "id": 1424183290,
+        "sku": null,
+        "price": 450,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 0,
+        "available": false,
+        "attributes": {
+          "Con o Sin Firma": "Con Firma"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/8-cd-lrds-f4a868e3d50068a73417699003305283-1024-1024.png"
+      },
+      {
+        "id": 1424183293,
+        "sku": null,
+        "price": 350,
+        "compareAtPrice": null,
+        "promotionalPrice": null,
+        "stock": 16,
+        "available": true,
+        "attributes": {
+          "Con o Sin Firma": "Sin Firma"
+        },
+        "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png"
+      }
+    ],
+    "images": [
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png",
+      "https://acdn-us.mitiendanube.com/stores/003/780/562/products/8-cd-lrds-f4a868e3d50068a73417699003305283-1024-1024.png"
+    ],
+    "image": "https://acdn-us.mitiendanube.com/stores/003/780/562/products/9-cd-lrds-66b9318597a15d3dbf17699003290281-1024-1024.png",
+    "weightKg": null,
+    "storeName": "Peek Store",
+    "storeDomain": "peek-store.com",
+    "country": "MX",
+    "language": "es",
+    "platform": "tiendanube",
+    "engine": "next",
+    "lastModified": "2026-11-14T15:36:33.000Z",
+    "scrapedAt": "2026-11-26T20:32:17.788Z"
   },
   {
     "url": "https://peek-store.com/productos/mystery-cover-16whb",
@@ -2737,7 +2737,7 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-11-14T15:36:33.000Z",
-    "scrapedAt": "2026-11-25T20:39:18.607Z"
+    "scrapedAt": "2026-11-26T20:32:18.451Z"
   },
   {
     "url": "https://peek-store.com/productos/mystery-outfit-tom-b-1ae69",
@@ -2791,6 +2791,6 @@
     "platform": "tiendanube",
     "engine": "next",
     "lastModified": "2026-11-14T09:20:18.000Z",
-    "scrapedAt": "2026-11-25T20:39:18.978Z"
+    "scrapedAt": "2026-11-26T20:32:18.874Z"
   }
 ]
