@@ -1,18 +1,12 @@
 {
-  "checkedAt": "2026-11-26T20:34:28.421Z",
-  "previousCheckedAt": "2026-11-25T20:41:36.264Z",
+  "checkedAt": "2026-11-27T20:20:44.983Z",
+  "previousCheckedAt": "2026-11-26T20:34:28.421Z",
   "changes": [
     {
       "actor": "florida-sunbiz-scraper",
       "field": "totalRuns",
-      "before": 96,
-      "after": 97
-    },
-    {
-      "actor": "tiendanube-scraper",
-      "field": "totalRuns",
-      "before": 116,
-      "after": 140
+      "before": 97,
+      "after": 98
     }
   ]
 }
